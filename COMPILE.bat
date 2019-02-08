@@ -17,23 +17,23 @@ echo.
 echo -------------------------------------------------------
 echo Compile Landscape
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset/landscape /ad /b') do (makeobj pak192 ./compiled/ ./pakset/landscape/%%d/)
+for /f "delims=" %%d in ('dir pakset\landscape /ad /b') do (makeobj pak192 ./compiled/ ./pakset/landscape/%%d/)
 echo.
 echo -------------------------------------------------------
 echo Compile Buildings
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset/buildings /ad /b') do (makeobj pak192 ./compiled/ ./pakset/buildings/%%d/)
-makeobj pak192 ./compiled/ ./pakset/ ./buildings/factories/goods/
+for /f "delims=" %%d in ('dir pakset\buildings /ad /b') do (makeobj pak192 ./compiled/ ./pakset/buildings/%%d/)
+makeobj pak192 ./compiled/ ./pakset/buildings/factories/goods/
 echo.
 echo -------------------------------------------------------
 echo Compile infrastructure
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset/infrastructure /ad /b') do (makeobj pak192 ./compiled/ ./pakset/infrastructure/%%d/)
+for /f "delims=" %%d in ('dir pakset\infrastructure /ad /b') do (makeobj pak192 ./compiled/ .\pakset/infrastructure/%%d/)
 echo.
 echo -------------------------------------------------------
 echo Compile Vehicles
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset/vehicles /ad /b') do (makeobj pak192 ./compiled/ ./pakset/vehicles/%%d/)
+for /f "delims=" %%d in ('dir pakset\vehicles /ad /b') do (makeobj pak192 ./compiled/ ./pakset/vehicles/%%d/)
 echo.
 echo -------------------------------------------------------
 echo Compile User Interface
@@ -46,7 +46,7 @@ echo.
 echo -------------------------------------------------------
 echo Compile Larger Objects
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset/384 /ad /b') do (makeobj pak384 ./compiled/ ./pakset/384/%%d/)
+for /f "delims=" %%d in ('dir pakset\384 /ad /b') do (makeobj pak384 ./compiled/ ./pakset/384/%%d/)
 echo.
 echo =====================
 echo Compilation Complete!
@@ -56,7 +56,8 @@ echo.
 echo -------------------------------------------------------
 echo Moving Trunk (configs, sound, text)
 echo -------------------------------------------------------
-robocopy "./pakset/trunk" "./compiled/"  /s /is /xx
+md compiled\trunk
+robocopy .\pakset\trunk .\compiled\  /s /is /xx
 echo.
 echo =====================
 echo Pakset Complete!
