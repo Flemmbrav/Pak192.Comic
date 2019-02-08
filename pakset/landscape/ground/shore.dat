@@ -1,0 +1,14 @@
+Obj=ground
+Name=ShoreTrans
+Image[0][0]=./images/shore.0.0
+Image[1][0]=./images/shore.0.1
+Image[2][0]=./images/shore.0.2
+Image[3][0]=./images/shore.0.3
+Image[4][0]=-
+Image[5][0]=-
+Image[6][0]=-
+Image[7][0]=-
+Image[8][0]=-
+Image[9][0]=-
+Image[10][0]=-
+Image[11][0]=./images/shore.1.0

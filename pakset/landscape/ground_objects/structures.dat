@@ -1,0 +1,48 @@
+obj=ground_obj
+Name=structure01
+copyright=Leartin
+cost=100
+DistributionWeight=1
+seasons=5
+trees_on_top=0
+climates=tundra
+#Winter, spring, summer, fall
+Image[0][0]=./image/structures.0.0
+Image[0][1]=./image/structures.0.1
+Image[0][2]=./image/structures.0.2
+Image[0][3]=./image/structures.0.3
+#Winter (snow)
+Image[0][4]=./image/structures.0.4
+---
+obj=ground_obj
+Name=structure02
+copyright=Alex. Brose
+cost=100
+DistributionWeight=1
+seasons=5
+trees_on_top=0
+climates=tundra
+#Winter, spring, summer, fall
+Image[0][0]=./image/structures.1.0
+Image[0][1]=./image/structures.1.1
+Image[0][2]=./image/structures.1.2
+Image[0][3]=./image/structures.1.3
+#Winter (snow)
+Image[0][4]=./image/structures.1.4
+---
+obj=ground_obj
+Name=structure03
+copyright=Leartin
+cost=100
+DistributionWeight=5
+seasons=5
+trees_on_top=0
+climates=tundra, temperate
+#Winter, spring, summer, fall
+Image[0][0]=./image/structures.2.0
+Image[0][1]=./image/structures.2.1
+Image[0][2]=./image/structures.2.2
+Image[0][3]=./image/structures.2.3
+#Winter (snow)
+Image[0][4]=./image/structures.2.4
+---

@@ -1,0 +1,705 @@
+################################################################################
+#                                PAK192.COMIC                                  #
+################################################################################
+#          !!! I M P O R T A N T !!! --- !!! W I C H T I G !!!                 #
+#                                                                              #
+# English:                                                                     #
+#  Please note that changes to this file errors in the conduct of the game can #
+#  occur. Modify data only if they are absolutely sure that they know what     #
+#  impact these changes have!                                                  #
+#                                                                              #
+# German:                                                                      #
+#  Bitte beachten sie, das Änderungen an dieser Datei Fehler im Verhalten des  #
+#  Spieles auftreten können. Verändern sie nur Daten wenn sie absolut sicher   #
+#  sind, das sie Wissen was für Folgen diese Änderungen haben!                 #
+#                                                                              #
+#                                                                              #
+#   When you make changes in this file please remember that when you make a    #
+#                       bug report in Simutrans Forum!                         #
+################################################################################
+
+# With these file, each menu/tool/toolbar can be assigned a meaning
+# there are four different kind of tools
+# general_tools: like query, remove, alter land, ...
+# click tools: pause, fast forward, ...
+# dialoge tools: open a dialoge like minimap, settings, finances, ...
+# toolbar tools: open toolbars like slope tools, road tools, ...
+
+icon_width = 32
+icon_height = 32
+
+# FIRST SECTION: general tools
+# these tools have an icon, a cursor, and maybe a sound
+# each entry has the form: general_tool[i],a,b,c,k
+# i is the tool number (as seen below)
+# a is the icon as number in menu: menu.GeneralTools.pak
+# b is the cursor as number in cursor: cursor.GeneralTools.pak
+# c is the sound on success
+# k is the key to toggle this
+# ommitting a parameter will set default values (i.e. no image, no sound, no default string)
+# These are the default definition.
+#
+# currently define values for i
+# WKZ_ABFRAGE =            0
+# WKZ_REMOVER =            1
+# WKZ_RAISE_LAND =         2
+# WKZ_LOWER_LAND =         3
+# WKZ_SETSLOPE =           4
+# WKZ_RESTORESLOPE =       5
+# WKZ_MARKER =             6
+# WKZ_CLEAR_RESERVATION =  7
+# WKZ_TRANSFORMER =        8
+# WKZ_ADD_CITY =           9
+# WKZ_CHANGE_CITY_SIZE =  10
+# WKZ_PLANT_TREE =        11
+# WKZ_FAHRPLAN_ADD =      12 // only for internal use
+# WKZ_FAHRPLAN_INS =      13 // only for internal use
+# WKZ_WEGEBAU =           14 // parameter either string with name of number for default way
+# WKZ_BRUECKENBAU =       15
+# WKZ_TUNNELBAU =         16
+# WKZ_WAYREMOVER =        17
+# WKZ_WAYOBJ =            18
+# WKZ_STATION =           19
+# WKZ_ROADSIGN =          20
+# WKZ_DEPOT =             21
+# WKZ_BUILD_HAUS =        22
+# WKZ_LAND_CHAIN =        23
+# WKZ_CITY_CHAIN =        24
+# WKZ_BUILD_FACTORY =     25
+# WKZ_LINK_FACTORY =      26
+# WKZ_HEADQUARTER =       27
+# WKZ_LOCK_GAME =         28
+# WKZ_ADD_CITYCAR =       29
+# WKZ_FOREST =            30
+# WKZ_STOP_MOVER =        31
+# WKZ_MAKE_STOP_PUBLIC =  32
+# WKZ_REMOVE_WAYOBJ=      33
+# WKZ_UNDERGROUND_PICK =  34
+# WKZ_BUY_HOUSE =         35
+# WKZ_CITYROAD =          36
+
+
+#
+general_tool[0]=0,0,9,a
+general_tool[1]=1,1,14,r
+general_tool[2]=2,2,11,u
+general_tool[3]=3,3,11,d
+# general tool 4 needs a parameter => icon defined in toolbar but no cursor yet
+general_tool[4]=,4,11
+general_tool[5]=4,4,11
+general_tool[6]=5,5,9,M
+general_tool[7]=11,6,,b
+general_tool[8]=7,7,11,g
+general_tool[9]=8,8,11,C
+# general tool 10 needs a parameter + icon & cursor depends on it => not defined here
+general_tool[11]=9,9,9
+# define the cursor for schedule tools
+general_tool[12]=,10
+general_tool[13]=,10
+general_tool[14]=,,11
+general_tool[15]=,,12
+general_tool[16]=,,9
+general_tool[17]=,1,11
+general_tool[18]=,,11
+general_tool[19]=,,11
+general_tool[20]=,,11
+general_tool[21]=,,11
+general_tool[22]=,12,11
+general_tool[23]=,12,11
+general_tool[24]=,12,11
+general_tool[25]=,12,11
+# we do not use general tool 23...25 directly in pak64 => undefined icons
+general_tool[26]=10,14,,
+general_tool[27]=11,12,,h
+general_tool[28]=12,7,,
+# citycars are usually added via a dialoge
+general_tool[29]=16,15,,
+general_tool[30]=13,9,,
+general_tool[31]=14,11,, 
+general_tool[32]=15,13,, 
+general_tool[35]=6,7,, 
+
+# SECOND SECTION: simple tools
+# since these tools act immeadiately
+# they have only an icon assigned
+# each entry has the form: dialoge_tool[i],a,k
+# i is the tool number (as seen below)
+# a is the icon as number in menu: menu.SimpleTools.pak
+# k is the key to toggle this
+#
+# WKZ_PAUSE =               0
+# WKZ_FASTFORWARD =         1
+# WKZ_SCREENSHOT =          2
+# WKZ_INCREASE_INDUSTRY =   3
+# WKZ_UNDO =                4
+# WKZ_SWITCH_PLAYER =       5
+# WKZ_STEP_YEAR =           6
+# WKZ_CHANGE_GAME_SPEED =   7
+# WKZ_ZOOM_IN =             8
+# WKZ_ZOOM_OUT =            9
+# WKZ_SHOW_COVERAGE =      10
+# WKZ_SHOW_NAMES =         11
+# WKZ_SHOW_GRID =          12
+# WKZ_SHOW_TREES =         13
+# WKZ_SHOW_HOUSES =        14
+# WKZ_SHOW_UNDERGROUND =   15
+# WKZ_ROTATE90 =           16
+# WKZ_QUIT =               17
+# WKZ_FILL_TREES =         18
+# WKZ_DAYNIGHT_LEVEL =     19
+# WKZ_VEHICLE_TOOLTIPS =   20
+# WKZ_TOOGLE_PAX =         21
+# WKZ_TOOGLE_PEDESTRIANS = 22
+# WKZ_TRAFFIC_LEVEL =      23
+# WKZ_CONVOI_TOOL =        24
+# WKZ_LINE_TOOL =          25
+# WKZ_DEPOT_TOOL =         26 // only for internal use
+# WKZ_PWDHASH_TOOL =       27 // only for internal use
+# WKZ_SET_PLAYER_TOOL =    28 // only for internal use
+# WKZ_TRAFFIC_LIGHT_TOOL = 29 // only for internal use
+# WKZ_CHANGE_CITY_TOOL =   30 // only for internal use
+# WKZ_RENAME_TOOL =        31 // only for internal use
+# WKZ_ADD_MESSAGE_TOOL =   32 // only for internal use
+# WKZ_TOGGLE_RESERVATION = 33
+# WKZ_VIEW_OWNER =         34
+#
+simple_tool[0]=0,p
+simple_tool[1]=1,W
+simple_tool[2]=2,c
+simple_tool[3]=3
+simple_tool[4]=4,z
+simple_tool[5]=5,P
+simple_tool[6]=6
+# simple tool 7 needs a parameter
+simple_tool[8]=7,>
+simple_tool[9]=8,<
+# lots of icons still not drawn ...
+simple_tool[10]=,v
+simple_tool[11]=,!
+simple_tool[12]=,#
+simple_tool[13]=12,%
+simple_tool[14]=13,"
+simple_tool[15]=,U
+simple_tool[16]=14,R
+simple_tool[17]=,X
+
+# THIRD SECTION: dialoge tools
+# since these tools immeadiately open only a dialoge,
+# they have only an icon assigned
+# each entry has the form: dialoge_tool[i],a,k
+# i is the tool number (as seen below)
+# a is the icon as number in menu: menu.DialogeTools.pak
+# k is the key to toggle this
+#
+# WKZ_HELP =              0
+# WKZ_OPTIONEN =          1
+# WKZ_MINIMAP =           2
+# WKZ_LINEOVERVIEW =      3
+# WKZ_MESSAGE =           4
+# WKZ_FINANCES =          5
+# WKZ_PLAYERS =           6
+# WKZ_DISPLAYOPTIONS =    7
+# WKZ_SOUND =             8
+# WKZ_LANGUAGE =          9
+# WKZ_PLAYERCOLOR =      10
+# WKZ_JUMP =             11
+# WKZ_LOAD =             12
+# WKZ_SAVE =             13
+# WKZ_LIST_HALT =        14
+# WKZ_LIST_CONVOI =      15
+# WKZ_LIST_TOWN =        16
+# WKZ_LIST_GOODS =       17
+# WKZ_LIST_FACTORY =     18
+# WKZ_LIST_CURIOSITY =   19
+# WKZ_EDIT_FACTORY =     20
+# WKZ_EDIT_ATTRACTION =  21
+# WKZ_EDIT_HOUSE =       22
+# WKZ_EDIT_TREE =        23
+# WKZ_ENLARGE_MAP =      24
+# WKZ_LIST_LABEL =       25
+# WKZ_CLIMATES =         26
+# WKZ_SETTINGS =         27
+# WKZ_GAMEINFO_NETWORK = 28
+#
+dialog_tool[0]=0,?
+dialog_tool[1]=1,Q
+dialog_tool[2]=2,m
+dialog_tool[3]=3,w
+dialog_tool[4]=4,B
+dialog_tool[5]=5,f
+dialog_tool[6]=6,k
+dialog_tool[7]=7
+dialog_tool[8]=8
+dialog_tool[9]=9
+dialog_tool[10]=10
+dialog_tool[11]=11,J
+dialog_tool[12]=12,L
+dialog_tool[13]=13,S
+dialog_tool[14]=14,H
+dialog_tool[15]=15,V
+dialog_tool[16]=16,T
+dialog_tool[17]=17,G
+dialog_tool[18]=18,F
+dialog_tool[19]=19,A
+dialog_tool[20]=20
+dialog_tool[21]=21
+dialog_tool[22]=22
+dialog_tool[23]=23 
+dialog_tool[24]=24 
+dialog_tool[25]=25
+dialog_tool[26]=26
+dialog_tool[27]=27
+dialog_tool[28]=28 
+
+
+# FINAL SECTION: compose all tool bars
+# now the defintion of all tool bars
+# in general only toolbar[0] is needed, which is the main menu
+# all other toolbars are derived from it
+# Each entry is a[i],b,k,c,d
+# a[i] is either: general_tool[i], simple_tool[i], dialog_tool[i], toolbar[i], -, ways(waytype), signs(waytype), wayobj(waytype), stops(utype), depots(waytype)
+# b could be a different icon from the previous (if any) tool definition taken from menu.ToolbarTools.pak
+# k could be a different key binding
+# c is the default parameter
+# d is the helpfile name (only if a is toolbar[i])
+#
+# Entry without an icon will not be shown. Use - for seperator.
+#
+# following waytypes are defined (for nearly everything)
+# road_wt          =   1
+# track_wt         =   2
+# water_wt         =   3
+# monorail_wt      =   5
+# maglev_wt        =   6
+# tram_wt          =   7
+# narrowgauge_wt   =   8
+# air_wt           =  16
+# powerline_wt     = 128
+#
+# subtypes for ways(x,#)
+# flat = 0
+# elevated/runway = 1
+# tram = 7 (only for track)
+# fence = 255
+#
+# following buildingstype are defined (for buildings(#))
+# unbekannt         =  0
+# attraction_city   =  1
+# attraction_land   =  2
+# denkmal           =  3
+# fabrik            =  4
+# rathaus           =  5
+# weitere           =  6
+# firmensitz        =  7
+# hafen             = 11
+# the following are in the form x,y with y= waytype (0 for none)
+# depot = 33
+# generic_stop = 34
+# generic_extension = 35
+#
+#
+# IMPORTANT: toolbar[3] must not be mentioned before toolbar[2]!
+# SPACES have a meaning here! Do not use spaces, if you did not intend so!
+#
+
+# toolbar[0] is always main menu
+toolbar[0][0]=dialog_tool[1],0
+toolbar[0][1]=dialog_tool[28],24
+toolbar[0][2]=dialog_tool[13],1
+toolbar[0][3]=dialog_tool[12],2
+toolbar[0][4]=dialog_tool[2],3
+toolbar[0][5]=general_tool[0],4
+toolbar[0][6]=toolbar[1],5,,VIEW,VIEW.txt
+toolbar[0][7]=-
+toolbar[0][8]=x
+toolbar[0][9]=x
+toolbar[0][10]=toolbar[2],10,,SLOPETOOLS,slopetools.txt
+toolbar[0][11]=toolbar[3],11,,ROADTOOLS,roadtools.txt
+toolbar[0][12]=toolbar[4],12,,TRAMTOOLS,tramtools.txt
+toolbar[0][13]=toolbar[5],13,,RAILTOOLS,railtools.txt
+toolbar[0][14]=toolbar[6],14,,NARROWGAUGE,narrowgauge.txt
+toolbar[0][15]=toolbar[7],15,,SHIPTOOLS,shiptools.txt
+toolbar[0][16]=toolbar[8],16,,AIRTOOLS,airtools.txt
+toolbar[0][17]=toolbar[9],17,,SCHWEBEBAHN,schwebebahn.txt
+toolbar[0][18]=toolbar[10],18,,MAGLEVTOOLS,maglevtools.txt
+toolbar[0][19]=toolbar[11],19,,BUILDINGS,buildings.txt
+toolbar[0][20]=toolbar[12],20,,SPECIALTOOLS,special.txt
+toolbar[0][21]=general_tool[1],21
+toolbar[0][22]=toolbar[13],22,,ABRISSTOOLS,abriss.txt
+toolbar[0][23]=-
+toolbar[0][24]=x
+toolbar[0][25]=dialog_tool[3],25
+toolbar[0][26]=toolbar[14],26,,LISTTOOLS,list.txt
+toolbar[0][27]=dialog_tool[4],27
+toolbar[0][28]=dialog_tool[5],28
+toolbar[0][29]=-,34
+toolbar[0][30]=simple_tool[2],30
+toolbar[0][31]=simple_tool[0],31
+toolbar[0][32]=simple_tool[1],32
+toolbar[0][33]=dialog_tool[0],33
+toolbar[0][34]=toolbar[15],29,,EDITTOOLS,edittools.txt
+toolbar[0][35]=-,34
+
+# invisible tools
+toolbar[0][68]=simple_tool[7],,.,+1
+toolbar[0][69]=simple_tool[7],,#44,-1
+toolbar[0][70]=simple_tool[19],,+,+
+toolbar[0][71]=simple_tool[19],,-,-
+
+# view tools
+toolbar[1][0]=general_tool[0],35
+toolbar[1][1]=-,36
+toolbar[1][2]=simple_tool[8],37
+toolbar[1][3]=simple_tool[9],38
+toolbar[1][4]=simple_tool[16],39
+toolbar[1][5]=-
+toolbar[1][6]=x
+toolbar[1][7]=x
+toolbar[1][8]=x
+toolbar[1][9]=x
+toolbar[1][10]=simple_tool[15],40,U
+toolbar[1][11]=simple_tool[15],41,^U,K
+toolbar[1][12]=simple_tool[15],42,(,I
+toolbar[1][13]=simple_tool[15],43,),D
+toolbar[1][14]=-
+toolbar[1][15]=x
+toolbar[1][16]=x
+toolbar[1][17]=x
+toolbar[1][18]=x
+toolbar[1][19]=x
+toolbar[1][20]=general_tool[7],45
+toolbar[1][21]=simple_tool[13],46
+toolbar[1][22]=simple_tool[14],47
+toolbar[1][23]=-b,48
+
+# slope tools
+toolbar[2][0]=toolbar[16],50,,SLOPETOOLSEXTRA,slopetoolsextra.txt
+toolbar[2][1]=-,51
+toolbar[2][2]=general_tool[2],52
+toolbar[2][3]=general_tool[3],53
+toolbar[2][4]=-
+toolbar[2][5]=general_tool[4],54,,36 #southslope
+toolbar[2][6]=general_tool[4],55,,72 #southslope x2
+toolbar[2][7]=general_tool[4],56,,4 #northslope
+toolbar[2][8]=general_tool[4],57,,8 #northslope x2
+toolbar[2][9]=general_tool[4],58,,12 #westslope
+toolbar[2][10]=general_tool[4],59,,24 #westslope x2
+toolbar[2][11]=general_tool[4],60,,28 #eastslope
+toolbar[2][12]=general_tool[4],61,,56 #eastslope x2
+toolbar[2][13]=general_tool[4],62,,83 #all up slope
+toolbar[2][14]=general_tool[4],63,,82 #all down slope
+toolbar[2][15]=general_tool[5],64 #delete slope
+toolbar[2][16]=-
+toolbar[2][17]=general_tool[38],65,,+1 #higher water
+toolbar[2][18]=general_tool[38],66,,-1 #lower water
+toolbar[2][19]=general_tool[39],67,,0 #climate water
+toolbar[2][20]=general_tool[39],68,,1
+toolbar[2][21]=general_tool[39],69,,2 
+toolbar[2][22]=general_tool[39],70,,3
+toolbar[2][23]=general_tool[39],71,,4
+toolbar[2][24]=general_tool[39],72,,5
+toolbar[2][25]=general_tool[39],73,,6
+toolbar[2][26]=general_tool[39],74,,7
+toolbar[2][27]=-b,75
+
+
+# roadtools (waytype 1)
+toolbar[3][0]=-,80
+toolbar[3][1]=-,81
+toolbar[3][2]=ways(1,0)
+toolbar[3][3]=ways(1,1)
+toolbar[3][4]=bridges(1)
+toolbar[3][5]=tunnels(1)
+toolbar[3][6]=wayobjs(1)
+toolbar[3][7]=signs(1)
+toolbar[3][8]=-
+toolbar[3][9]=buildings(34,1)
+toolbar[3][10]=buildings(35,1)
+toolbar[3][11]=general_tool[14],,s,1
+toolbar[3][12]=buildings(33,1)
+toolbar[3][13]=general_tool[33],124,,1
+toolbar[3][14]=general_tool[17],82,,1
+toolbar[3][15]=-b,83
+
+
+# tramtools (waytype 7)
+toolbar[4][0]=-,84
+toolbar[4][1]=-,85
+toolbar[4][2]=ways(7,0)
+toolbar[4][3]=ways(2,7)
+toolbar[4][4]=wayobjs(7)
+toolbar[4][5]=signs(7)
+toolbar[4][6]=-
+toolbar[4][7]=buildings(34,7)
+toolbar[4][8]=buildings(35,7)
+toolbar[4][9]=buildings(33,7)
+toolbar[4][10]=general_tool[33],125,,2
+toolbar[4][11]=general_tool[17],86,,2
+toolbar[4][12]=-b,87
+
+# railtools (waytype 8)
+toolbar[5][0]=-,88
+toolbar[5][1]=-,89
+toolbar[5][2]=ways(8,0)
+toolbar[5][3]=ways(8,1)
+toolbar[5][4]=bridges(8)
+toolbar[5][5]=tunnels(8)
+toolbar[5][6]=wayobjs(8)
+toolbar[5][7]=signs(8)
+toolbar[5][8]=-
+toolbar[5][9]=buildings(34,8)
+toolbar[5][10]=buildings(35,8)
+toolbar[5][11]=general_tool[14],,t,8
+toolbar[5][12]=general_tool[18],,e,8
+toolbar[5][13]=buildings(33,8)
+toolbar[5][14]=general_tool[33],126,,8
+toolbar[5][15]=general_tool[17],90,,8
+toolbar[5][16]=-b,91
+
+# narrowgauge (waytype 2)
+toolbar[6][0]=-,92
+toolbar[6][1]=-,93
+toolbar[6][2]=ways(2,0)
+toolbar[6][3]=ways(2,1)
+toolbar[6][4]=bridges(2)
+toolbar[6][5]=tunnels(2)
+toolbar[6][6]=wayobjs(2)
+toolbar[6][7]=signs(2)
+toolbar[6][8]=-
+toolbar[6][9]=buildings(34,2)
+toolbar[6][10]=buildings(35,2)
+toolbar[6][11]=buildings(33,2)
+toolbar[6][12]=general_tool[33],127,,2
+toolbar[6][13]=general_tool[17],94,,2
+toolbar[6][14]=-b,95
+
+# shiptools (waytype 3)
+toolbar[7][0]=-,96
+toolbar[7][1]=-,97
+toolbar[7][2]=ways(3,0)
+toolbar[7][3]=ways(3,1)
+toolbar[7][4]=bridges(3)
+toolbar[7][5]=tunnels(3)
+toolbar[7][6]=wayobjs(3)
+toolbar[7][7]=signs(3)
+toolbar[7][8]=-
+toolbar[7][9]=buildings(34,3)
+toolbar[7][10]=buildings(11,3)
+toolbar[7][11]=buildings(35,3)
+toolbar[7][12]=buildings(33,3)
+toolbar[7][13]=general_tool[17],98,,3
+toolbar[7][14]=-b,99
+
+# airtools (waytype 16)
+toolbar[8][0]=-,100
+toolbar[8][1]=-,101
+toolbar[8][2]=ways(16,0)
+toolbar[8][3]=ways(16,1)
+toolbar[8][4]=bridges(16)
+toolbar[8][5]=wayobjs(16)
+toolbar[8][6]=signs(16)
+toolbar[8][7]=-
+toolbar[8][8]=buildings(34,16)
+toolbar[8][9]=buildings(35,16)
+toolbar[8][10]=buildings(33,16)
+toolbar[8][11]=general_tool[17],102,,16 
+toolbar[8][12]=-b,103
+
+
+# schwebebahn (waytype 5)
+toolbar[9][0]=-,104
+toolbar[9][1]=-,105
+toolbar[9][2]=ways(5,0)
+toolbar[9][3]=ways(5,1)
+toolbar[9][4]=bridges(5)
+toolbar[9][5]=tunnels(5)
+toolbar[9][6]=wayobjs(5)
+toolbar[9][7]=signs(5)
+toolbar[9][8]=-
+toolbar[9][9]=buildings(34,5)
+toolbar[9][10]=buildings(35,5)
+toolbar[9][11]=buildings(33,5)
+toolbar[9][12]=general_tool[17],106,,5
+toolbar[9][13]=-b,107
+
+
+# maglevtools (waytype 6)
+toolbar[10][0]=-,108
+toolbar[10][1]=-,109
+toolbar[10][2]=ways(6,0)
+toolbar[10][3]=ways(6,1)
+toolbar[10][4]=bridges(6)
+toolbar[10][5]=tunnels(6)
+toolbar[10][6]=wayobjs(6)
+toolbar[10][7]=signs(6)
+toolbar[10][8]=-
+toolbar[10][9]=buildings(34,6)
+toolbar[10][10]=buildings(35,6)
+toolbar[10][11]=buildings(33,6)
+toolbar[10][12]=general_tool[17],110,,6
+toolbar[10][13]=-b,111
+
+# buildings
+toolbar[11][0]=-,112
+toolbar[11][1]=-,113
+toolbar[11][2]=buildings(35,0)
+toolbar[11][3]=buildings(35,1)
+toolbar[11][4]=buildings(35,2)
+toolbar[11][5]=buildings(35,3)
+toolbar[11][6]=buildings(35,5)
+toolbar[11][7]=buildings(35,6)
+toolbar[11][8]=buildings(35,7)
+toolbar[11][9]=buildings(35,8)
+toolbar[11][10]=buildings(35,16)
+toolbar[11][11]=-b,115
+
+# special tools
+toolbar[12][0]=-,116
+toolbar[12][1]=-,117
+toolbar[12][2]=ways(2,255)
+toolbar[12][3]=-
+toolbar[12][4]=ways(128,0)
+toolbar[12][5]=bridges(128)
+toolbar[12][6]=tunnels(128)
+toolbar[12][7]=x
+toolbar[12][8]=general_tool[8]
+toolbar[12][9]=-
+toolbar[12][10]=general_tool[30],156
+toolbar[12][11]=general_tool[31],157
+toolbar[12][12]=x
+toolbar[12][13]=general_tool[32],158
+toolbar[12][14]=general_tool[6],159
+toolbar[12][15]=general_tool[35],160
+toolbar[12][16]=x
+toolbar[12][17]=-b,119
+
+#Abrisstools
+toolbar[13][0]=general_tool[1],120
+toolbar[13][1]=-,121
+toolbar[13][2]=general_tool[17],82,,1 
+toolbar[13][3]=general_tool[17],90,,2 
+toolbar[13][4]=general_tool[17],94,,8 
+toolbar[13][5]=general_tool[17],98,,3
+toolbar[13][6]=general_tool[17],102,,16
+#toolbar[13][7]=general_tool[17],106,,5
+toolbar[13][7]=x
+toolbar[13][8]=general_tool[17],110,,6
+toolbar[13][9]=general_tool[17],118,,2
+toolbar[13][10]=-
+toolbar[13][11]=general_tool[33],124,,1
+toolbar[13][12]=general_tool[33],125,,2
+toolbar[13][13]=general_tool[33],126,,8
+toolbar[13][14]=general_tool[17],114,,128
+toolbar[13][15]=-b,123
+
+# list tools
+toolbar[14][0]=dialog_tool[14],130
+toolbar[14][1]=dialog_tool[15],131
+toolbar[14][2]=dialog_tool[25],132
+toolbar[14][3]=dialog_tool[16],133
+toolbar[14][4]=dialog_tool[17],134
+toolbar[14][5]=dialog_tool[18],135
+toolbar[14][6]=dialog_tool[19],136
+toolbar[14][7]=-b,137
+
+# editor tools
+toolbar[15][0]=general_tool[9],140
+toolbar[15][1]=general_tool[10],141,,+100
+toolbar[15][2]=general_tool[10],142,,-100
+toolbar[15][3]=general_tool[14],143,,city_road
+toolbar[15][4]=general_tool[29],144
+toolbar[15][5]=simple_tool[3],145
+toolbar[15][6]=general_tool[26],146
+toolbar[15][7]=dialog_tool[20],147,(
+toolbar[15][8]=dialog_tool[21],148,/
+toolbar[15][9]=dialog_tool[22],149,&
+toolbar[15][10]=dialog_tool[23],150
+toolbar[15][11]=simple_tool[6],151
+toolbar[15][12]=ways(3,255)
+toolbar[15][13]=dialog_tool[24],152
+toolbar[15][14]=-b,137
+
+
+#special slopes
+toolbar[16][0]=general_tool[4],200,,0
+toolbar[16][1]=general_tool[4],201,,1
+toolbar[16][2]=general_tool[4],202,,2
+toolbar[16][3]=general_tool[4],203,,3
+toolbar[16][4]=general_tool[4],204,,4
+toolbar[16][5]=general_tool[4],205,,5
+toolbar[16][6]=general_tool[4],206,,6
+toolbar[16][7]=general_tool[4],207,,7
+toolbar[16][8]=general_tool[4],208,,8
+toolbar[16][9]=general_tool[4],209,,9
+toolbar[16][10]=general_tool[4],210,,10
+toolbar[16][11]=general_tool[4],211,,11
+toolbar[16][12]=general_tool[4],212,,12
+toolbar[16][13]=general_tool[4],213,,13
+toolbar[16][14]=general_tool[4],214,,14
+toolbar[16][15]=general_tool[4],215,,15
+toolbar[16][16]=general_tool[4],216,,16
+toolbar[16][17]=general_tool[4],217,,17
+toolbar[16][18]=general_tool[4],218,,18
+toolbar[16][19]=general_tool[4],219,,19
+toolbar[16][20]=general_tool[4],220,,20
+toolbar[16][21]=general_tool[4],221,,21
+toolbar[16][22]=general_tool[4],222,,22
+toolbar[16][23]=general_tool[4],223,,23
+toolbar[16][24]=general_tool[4],224,,24
+toolbar[16][25]=general_tool[4],225,,25
+toolbar[16][26]=general_tool[4],226,,26
+toolbar[16][27]=general_tool[4],227,,27
+toolbar[16][28]=general_tool[4],228,,28
+toolbar[16][29]=general_tool[4],229,,29
+toolbar[16][30]=general_tool[4],230,,30
+toolbar[16][31]=general_tool[4],231,,31
+toolbar[16][32]=general_tool[4],232,,32
+toolbar[16][33]=general_tool[4],233,,33
+toolbar[16][34]=general_tool[4],234,,34
+toolbar[16][35]=general_tool[4],235,,35
+toolbar[16][36]=general_tool[4],236,,36
+toolbar[16][37]=general_tool[4],237,,37
+toolbar[16][38]=general_tool[4],238,,38
+toolbar[16][39]=general_tool[4],239,,39
+#toolbar[16][40]=general_tool[4],240,,40
+#toolbar[16][41]=general_tool[4],241,,41
+toolbar[16][40]=general_tool[4],242,,42
+#toolbar[16][43]=general_tool[4],243,,43
+#toolbar[16][44]=general_tool[4],244,,44
+toolbar[16][41]=general_tool[4],245,,45
+toolbar[16][42]=general_tool[4],246,,46
+toolbar[16][43]=general_tool[4],247,,47
+toolbar[16][44]=general_tool[4],248,,48
+#toolbar[16][49]=general_tool[4],249,,49
+#toolbar[16][50]=general_tool[4],250,,50
+toolbar[16][45]=general_tool[4],251,,51
+#toolbar[16][52]=general_tool[4],252,,52
+#toolbar[16][53]=general_tool[4],253,,53
+toolbar[16][46]=general_tool[4],254,,54
+toolbar[16][47]=general_tool[4],255,,55
+toolbar[16][48]=general_tool[4],256,,56
+toolbar[16][49]=general_tool[4],257,,57
+toolbar[16][50]=general_tool[4],258,,58
+toolbar[16][51]=general_tool[4],259,,59
+toolbar[16][52]=general_tool[4],260,,60
+toolbar[16][53]=general_tool[4],261,,61
+toolbar[16][54]=general_tool[4],262,,62
+toolbar[16][55]=general_tool[4],263,,63
+toolbar[16][56]=general_tool[4],264,,64
+toolbar[16][57]=general_tool[4],265,,65
+toolbar[16][58]=general_tool[4],266,,66
+#toolbar[16][67]=general_tool[4],267,,67
+#toolbar[16][68]=general_tool[4],268,,68
+toolbar[16][59]=general_tool[4],269,,69
+#toolbar[16][70]=general_tool[4],270,,70
+#toolbar[16][71]=general_tool[4],271,,71
+toolbar[16][60]=general_tool[4],272,,72
+toolbar[16][61]=general_tool[4],273,,73
+toolbar[16][62]=general_tool[4],274,,74
+toolbar[16][63]=general_tool[4],275,,75
+#toolbar[16][76]=general_tool[4],276,,76
+#toolbar[16][77]=general_tool[4],277,,77
+toolbar[16][64]=general_tool[4],278,,78
+#toolbar[16][79]=general_tool[4],279,,79
+#toolbar[16][80]=general_tool[4],280,,80
+toolbar[16][65]=-b,48

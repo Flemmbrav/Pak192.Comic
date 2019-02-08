@@ -1,0 +1,198 @@
+################################################################################
+#                                PAK192.COMIC                                  #
+################################################################################
+#                         !!!! Rules   -   Regeln !!!!                         #
+#  Die Leveleinteilung von Denkmälern sollte, nach der Anzahl der              #
+#  Passagiere/Monat ausgerichtet werden. Hierfür exestieren keine Richtwerte!  #
+#  Sollte sie einem Grafiker/Entwickler gewidmet sein, so wird seine Anzahl    #
+#  der erstellten Objekte * 2 als level verwendet.                             #
+#                                                                              #
+################################################################################
+
+################################################################################
+#                                  GEWIDMET                                    #
+################################################################################
+
+
+
+
+obj=building
+name=mon_ptm1
+#Monument für PTM, Grafiker, Leitung P192C
+copyright=PappeTeeMaster & Leartin
+intro_year=1850
+type=mon
+needs_ground=1
+level=100
+build_time=8000
+BackImage[0][0][0][0][0][0]=./images/mon/mon_ptm1.0.0
+BackImage[0][0][0][0][0][1]=./images/mon/mon_ptm1.0.1
+---
+obj=building
+name=mon_werniman
+#Monument für Werniman für die Bereitstellung eines Repository für P192C
+copyright=PappeTeeMaster
+intro_year=1850
+type=mon
+needs_ground=1
+level=46
+build_time=10000
+animation_time=300
+BackImage[0][0][0][0][0][0]=./images/mon/mon_werniman.0.0
+frontImage[0][0][0][0][0][0]=./images/mon/mon_werniman.0.1
+frontImage[0][0][0][0][1][0]=./images/mon/mon_werniman.0.2
+---
+obj=building
+name=mon_cruzer
+#Monument für Cruzer, Pakgründer, Leitung P192C
+copyright=Flemmbrav
+intro_year=1835
+type=mon
+needs_ground=0
+level=100
+build_time=15000
+BackImage[0][0][0][0][0][0]=./images/mon/Cruzer_Denkmal.0.0
+BackImage[0][0][0][0][0][1]=./images/mon/Cruzer_Denkmal.1.0
+---
+obj=building
+name=mon_brose
+#Monument für Alexander Brose, Grafiker mit Gebäudeschwerpunkt
+copyright=Flemmbrav & Leartin
+intro_year=1970
+type=mon
+needs_ground=0
+level=100
+build_time=15000
+
+animation_time=150
+Dims=1,1,1
+
+BackImage[0][0][0][0][0,1][0,1]=./images/mon/alexdenkmal_backimg.0.0
+BackImage[0][0][0][0][2,9][0,1]=./images/mon/alexdenkmal_backimg.0.1
+BackImage[0][0][0][0][3,8][0,1]=./images/mon/alexdenkmal_backimg.0.2
+BackImage[0][0][0][0][4,7][0,1]=./images/mon/alexdenkmal_backimg.0.3
+BackImage[0][0][0][0][5,6][0,1]=./images/mon/alexdenkmal_backimg.0.4
+
+frontImage[0][0][0][0][0-9][0-1]=./images/mon/alexdenkmal_frontimg.0.<$0>
+---
+obj=building
+name=mon_flemm
+#Monument für Flemmbrav, Grafiker für Schienenfahrzeuge und -Infrastruktur
+copyright=Flemmbrav & Leartin
+intro_year=1936
+type=mon
+needs_ground=0
+level=100
+build_time=15000
+
+animation_time=180
+Dims=1,1,1
+
+BackImage[0][0][0][0][0-23][0-1]=./images/mon/mon_flemm.<$0%3>.<$1>
+frontImage[0][0][0][0][0][0-1]=./images/mon/mon_flemm.0.2
+frontImage[0][0][0][0][1][0-1]=./images/mon/mon_flemm.0.3
+frontImage[0][0][0][0][2][0-1]=./images/mon/mon_flemm.0.4,2,1
+frontImage[0][0][0][0][3][0-1]=./images/mon/mon_flemm.0.5,4,2
+frontImage[0][0][0][0][4][0-1]=./images/mon/mon_flemm.1.2,6,3
+frontImage[0][0][0][0][5][0-1]=./images/mon/mon_flemm.1.3,10,5
+frontImage[0][0][0][0][6][0-1]=./images/mon/mon_flemm.1.4,14,7
+frontImage[0][0][0][0][7][0-1]=./images/mon/mon_flemm.1.5,18,9
+frontImage[0][0][0][0][8][0-1]=./images/mon/mon_flemm.2.2,22,11
+frontImage[0][0][0][0][9][0-1]=./images/mon/mon_flemm.2.3,26,13
+frontImage[0][0][0][0][10][0-1]=./images/mon/mon_flemm.2.4,28,14
+frontImage[0][0][0][0][11][0-1]=./images/mon/mon_flemm.2.5,30,15
+frontImage[0][0][0][0][12][0-1]=./images/mon/mon_flemm.2.5,30,15
+frontImage[0][0][0][0][13][0-1]=./images/mon/mon_flemm.2.5,30,15
+frontImage[0][0][0][0][14][0-1]=./images/mon/mon_flemm.2.5,28,14
+frontImage[0][0][0][0][15][0-1]=./images/mon/mon_flemm.2.5,26,13
+frontImage[0][0][0][0][16][0-1]=./images/mon/mon_flemm.2.5,24,12
+frontImage[0][0][0][0][17][0-1]=./images/mon/mon_flemm.2.5,20,10
+frontImage[0][0][0][0][18][0-1]=./images/mon/mon_flemm.2.5,16,8
+frontImage[0][0][0][0][19][0-1]=./images/mon/mon_flemm.2.5,12,6
+frontImage[0][0][0][0][20][0-1]=./images/mon/mon_flemm.2.5,8,4
+frontImage[0][0][0][0][21][0-1]=./images/mon/mon_flemm.2.5,4,2
+frontImage[0][0][0][0][22][0-1]=./images/mon/mon_flemm.2.5,2,1
+frontImage[0][0][0][0][23][0-1]=./images/mon/mon_flemm.2.5
+---
+obj=building
+name=mon_leartin
+#Monument für Leartin, Grafiker mit Gebäudeschwerpunkt und Freizeitwahnsinniger
+copyright=Flemmbrav
+intro_year=1970
+type=mon
+needs_ground=0
+level=100
+build_time=15000
+
+animation_time=150
+Dims=1,1,1
+
+BackImage[0][0][0][0][0][0-1]=./images/mon/Leartin_Denkmal.<$0>.0
+frontImage[0][0][0][0][0-42][0-1]=./images/mon/Leartin_Denkmal_animation.<$0>.0
+frontImage[0][0][0][0][43][0-1]=./images/mon/Leartin_Denkmal_animation.42.0
+frontImage[0][0][0][0][44-48][0-1]=./images/mon/Leartin_Denkmal_animation.43.0
+frontImage[0][0][0][0][49-83][0-1]=./images/mon/Leartin_Denkmal_animation.<$0-5>.0
+frontImage[0][0][0][0][84][0-1]=./images/mon/Leartin_Denkmal_animation.78.0
+frontImage[0][0][0][0][85-89][0-1]=./images/mon/Leartin_Denkmal_animation.79.0
+frontImage[0][0][0][0][90-110][0-1]=./images/mon/Leartin_Denkmal_animation.<$0-10>.0
+frontImage[0][0][0][0][111-116][0-1]=./images/mon/Leartin_Denkmal_animation.100.0
+frontImage[0][0][0][0][117-155][0-1]=./images/mon/Leartin_Denkmal_animation.<$0-15>.0
+frontImage[0][0][0][0][156][0-1]=./images/mon/Leartin_Denkmal_animation.140.0
+frontImage[0][0][0][0][157-161][0-1]=./images/mon/Leartin_Denkmal_animation.141.0
+---
+
+################################################################################
+#                                   UNIKATE                                    #
+#  Außergewöhnliche Plätze, welche nicht mehrmals auf einer Karte vorhanden    #
+#  sein sollten, und zugleich eine Meldung im Ticker wert sind.                #
+################################################################################
+
+
+obj=building
+name=mon_incredible_cube
+copyright=PappeTeeMaster
+intro_year=1910
+type=mon
+needs_ground=1
+level=30
+build_time=12000
+BackImage[0][0][0][0][0][0]=./images/mon/mon_incredible.0.0
+BackImage[0][0][0][0][0][1]=./images/mon/mon_incredible.0.1
+---
+obj=building
+name=mon_at_at
+copyright=Leartin
+intro_year=1977
+intro_month=5
+type=mon
+level=77
+build_time=20000
+BackImage[0][0][0][0][0][0]=./images/mon/mon_at_at.0.0
+BackImage[0][0][0][0][0][1]=./images/mon/mon_at_at.0.1
+---
+obj=building
+name=mon_cube
+copyright=Leartin
+intro_year=1976
+type=mon
+needs_ground=0
+level=100
+animation_time=150
+build_time=30000
+Dims=1,1,1
+BackImage[0][0][0][0][0][0]=./images/mon/cube.0.0
+BackImage[0][0][0][0][0][1]=./images/mon/cube.7.9
+frontImage[0][0][0][0][0-77][0-1]=./images/mon/cube.<($0+1)/10>.<($0+1)%10>
+---
+obj=building
+name=mon_tree
+copyright=Leartin
+climates=tropic
+intro_year=1800
+type=mon
+needs_ground=0
+level=50
+build_time=100000
+Dims=1,1,1
+BackImage[0][0][0][0][0][0-4]=./images/mon/tree.<$0>.0
+---

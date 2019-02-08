@@ -1,0 +1,13 @@
+obj=building
+name=tow_3_modern
+copyright=Leartin
+type=tow
+chance=100
+level=20
+build_time=2000
+intro_year=1950
+climates=temperate
+
+Dims=2,2,2
+BackImage[0-1][0-1][0-1][0][0][0-1]=./images/LD_rathaus.<$1>.<$2+2*$0+4*$3>
+FrontImage[0-1][1][1][0][0-7][0-1]=./images/LD_rathaus.<2+$0+2*$3>.<$2>

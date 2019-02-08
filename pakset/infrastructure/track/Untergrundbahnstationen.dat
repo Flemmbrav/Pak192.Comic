@@ -1,0 +1,849 @@
+obj=building
+name=Bahnhof_Untergrundbahn_1902_1
+copyright=Flemmbrav
+intro_month=1
+intro_year=1902
+retire_year=1963
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=2
+capacity=75
+cost=100000
+maintenance=15000
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_1902_1.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_1902_1.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_1.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_1902_2
+copyright=Flemmbrav
+intro_month=1
+intro_year=1902
+retire_year=1963
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=2
+capacity=125
+cost=150000
+maintenance=20000
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_1902_2.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_1902_2.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1902_2.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_1912_1
+copyright=Flemmbrav
+intro_month=1
+intro_year=1912
+retire_year=1963
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=3
+capacity=100
+cost=125000
+maintenance=17500
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_1912_1.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_1912_1.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1912_1.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_1928_1
+copyright=Flemmbrav
+intro_month=1
+intro_year=1928
+retire_year=1978
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=3
+capacity=100
+cost=125000
+maintenance=17500
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_1928_1.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_1928_1.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1928_1.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_1962_1
+copyright=Flemmbrav
+intro_month=1
+intro_year=1962
+retire_year=2013
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=4
+capacity=100
+cost=125000
+maintenance=17500
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_1962_1.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_1962_1.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_1.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_1962_3
+copyright=Flemmbrav
+intro_month=1
+intro_year=1962
+retire_year=2013
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=8
+capacity=200
+cost=225000
+maintenance=32500
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_1962_3.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_1962_3.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1962_3.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_1978_1
+copyright=Flemmbrav
+intro_month=1
+intro_year=1978
+retire_year=2028
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=2
+capacity=125
+cost=150000
+maintenance=20000
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_1978_1.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_1978_1.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_1.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_1978_2
+copyright=Flemmbrav
+intro_month=1
+intro_year=1978
+retire_year=2028
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=2
+capacity=75
+cost=100000
+maintenance=15000
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_1978_2.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_1978_2.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_1978_2.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_2012_1
+copyright=Flemmbrav
+intro_month=1
+intro_year=2012
+#retire_year=2063
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=4
+capacity=75
+cost=100000
+maintenance=15000
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_2012_1.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_2012_1.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_1.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_2012_2
+copyright=Flemmbrav
+intro_month=1
+intro_year=2012
+#retire_year=2063
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=6
+capacity=150
+cost=175000
+maintenance=27500
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_2012_2.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_2012_2.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_2.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_2012_3
+copyright=Flemmbrav
+intro_month=1
+intro_year=2012
+#retire_year=2063
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=8
+capacity=200
+cost=225000
+maintenance=32500
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_2012_3.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_2012_3.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_3.0.1
+
+Dims=1,1,16
+
+-------------
+
+obj=building
+name=Bahnhof_Untergrundbahn_2012_4
+copyright=Flemmbrav
+intro_month=1
+intro_year=2012
+#retire_year=2063
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+#level=8
+capacity=100
+cost=125000
+maintenance=17500
+
+noinfo=1
+allow_underground=1
+icon=> ./images/station/Untergrundbahn_station_einseitig_2012_4.0.4
+cursor=./images/station/Untergrundbahn_station_einseitig_2012_4.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.1.0
+BackImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.1.1
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.2.0
+BackImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.2.1
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.3.0
+BackImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.3.1
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.1.3
+BackImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.1.2
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.2.3
+BackImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.2.2
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.3.3
+BackImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.3.2
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.3.1
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.0.0
+BackImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.0.1
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.0.3
+BackImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/Untergrundbahn_station_einseitig_2012_4.0.1
+
+Dims=1,1,16

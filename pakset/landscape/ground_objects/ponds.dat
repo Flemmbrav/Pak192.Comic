@@ -1,0 +1,48 @@
+obj=ground_obj
+Name=pond01
+copyright=Leartin
+cost=100
+DistributionWeight=1
+seasons=5
+trees_on_top=0
+climates=tundra
+#Winter, spring, summer, fall
+Image[0][0]=./image/ponds.0.0
+Image[0][1]=./image/ponds.0.1
+Image[0][2]=./image/ponds.0.2
+Image[0][3]=./image/ponds.0.3
+#Winter (snow)
+Image[0][4]=./image/ponds.0.4
+---
+obj=ground_obj
+Name=pond02
+copyright=Leartin
+cost=100
+DistributionWeight=1
+seasons=5
+trees_on_top=0
+climates=tundra
+#Winter, spring, summer, fall
+Image[0][0]=./image/ponds.1.0
+Image[0][1]=./image/ponds.1.1
+Image[0][2]=./image/ponds.1.2
+Image[0][3]=./image/ponds.1.3
+#Winter (snow)
+Image[0][4]=./image/ponds.1.4
+---
+obj=ground_obj
+Name=pond03
+copyright=Leartin
+cost=100
+DistributionWeight=5
+seasons=5
+trees_on_top=0
+climates=tundra, temperate
+#Winter, spring, summer, fall
+Image[0][0]=./image/ponds.2.0
+Image[0][1]=./image/ponds.2.1
+Image[0][2]=./image/ponds.2.2
+Image[0][3]=./image/ponds.2.3
+#Winter (snow)
+Image[0][4]=./image/ponds.2.4
+---

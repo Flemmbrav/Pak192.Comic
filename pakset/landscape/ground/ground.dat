@@ -1,0 +1,22 @@
+obj=ground
+name=ClimateTexture
+# 0 = Wasser
+Image[0][0]=./images/climate.0.0
+# 1 = Strand/Wüste
+Image[1][0]=./images/climate.0.1
+# 2 = Tropen
+Image[2][0]=./images/climate.0.2
+# 3 = Mittelmeerklima
+Image[3][0]=./images/climate.0.3
+# 4 = gemäßigtes Klima
+Image[4][0]=./images/climate.0.4
+# 5 = Tundra
+Image[5][0]=./images/climate.0.5
+# 6 = Alpines Klima/Bergklima
+Image[6][0]=./images/climate.0.6
+# 7 = Schnee
+Image[7][0]=./images/climate.0.7
+--------------------
+Obj=ground
+Name=Water
+Image[0-5][0-10]=./images/waterani.<$0>.<$1> 

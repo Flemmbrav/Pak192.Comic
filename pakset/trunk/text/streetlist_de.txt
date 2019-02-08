@@ -1,0 +1,2950 @@
+%1$s Aachener Straße 
+%1$s Abrahamstraße
+%1$s Abtnaundorfer Straße 
+%1$s Achatstraße
+%1$s Ackerweg
+%1$s Adamsweg
+%1$s Adelgunde-Gottsched-Weg 
+%1$s Adenauerallee 
+%1$s Adlershelmstraße
+%1$s Adolf-Damaschke-Straße
+%1$s Adolf-Koppe-Straße
+%1$s Adolph-Menzel-Straße
+%1$s Agnesstraße
+%1$s Agricolastraße
+%1$s Ahlfeldstraße
+%1$s Ahorngasse
+%1$s Ahornstraße
+%1$s Ahornweg 
+%1$s Akazienweg
+%1$s Akeleiweg
+%1$s Albersdorfer Straße 
+%1$s Albersdorfer Weg 
+%1$s Albert-Schweitzer-Straße
+%1$s Albert-Vollsack-Straße
+%1$s Albrecht-Dürer-Platz
+%1$s Albrecht-Dürer-Weg
+%1$s Albrechtshainer Straße 
+%1$s Alemannenweg
+%1$s Alexander-Alesius-Straße
+%1$s Alexanderstraße
+%1$s Alexis-Schumann-Platz 
+%1$s Alfred-Frank-Platz 
+%1$s Alfred-Frank-Straße
+%1$s Alfred-Kästner-Straße
+%1$s Alfred-Schurig-Straße
+%1$s Altdorferweg
+%1$s Alte Baumschule 
+%1$s Alte Burghausener Straße 
+%1$s Alte Dorfstraße 
+%1$s Alte Dübener Landstraße 
+%1$s Alte Gärtnerei 
+%1$s Alte Hohe Straße
+%1$s Alte Messe 
+%1$s Alte Parkstraße 
+%1$s Alte Salzstraße
+%1$s Alte Straße 
+%1$s Alte Tauchaer Straße 
+%1$s Alte Straße 
+%1$s Altenburger Straße 
+%1$s Alter Amtshof 
+%1$s Alter Kirchweg 
+%1$s Alter Marktweg 
+%1$s Altes Dorf 
+%1$s Althener Anger 
+%1$s Althener Straße 
+%1$s Altranstädter Straße  
+%1$s Am Alten Bahnhof  
+%1$s Am Alten Flugfeld  
+%1$s Am alten Flughafen  
+%1$s Am alten Gasthof  
+%1$s Am Alten Mühlgraben 
+%1$s Am Anger  
+%1$s Am Angerteich  
+%1$s Am Bahndamm  
+%1$s Am Bahngraben  
+%1$s Am Bahnhof  
+%1$s Am Barnecker Gut  
+%1$s Am Bauernsteg  
+%1$s Am Bauernteich  
+%1$s Am Bildersaal  
+%1$s Am Bischofsholz  
+%1$s Am Bogen  
+%1$s Am Börnchen   
+%1$s Am Brunnen  
+%1$s Am Doppeladler  
+%1$s Am Dorfplatz  
+%1$s Am Dorfteich  
+%1$s Am Eichberg  
+%1$s Am Eichenbogen  
+%1$s Am Eichwinkel  
+%1$s Am Elsterbogen  
+%1$s Am Elsterwehr   
+%1$s Am Eselshaus  
+%1$s Am Eulengraben  
+%1$s Am Exer   
+%1$s Am Exerzierplatz  
+%1$s Am Feld  
+%1$s Am Feldrain  
+%1$s Am Fischerhaus  
+%1$s Am Flößgen  
+%1$s Am Flügelrad  
+%1$s Am Freibad  
+%1$s Am Fuchsbau  
+%1$s Am Gänseanger  
+%1$s Am Gartenverein  
+%1$s Am Geleinholz  
+%1$s Am Gothischen Bad   
+%1$s Am Grund  
+%1$s Am Gundorfer Teich  
+%1$s Am Güterring  
+%1$s Am Gutspark  
+%1$s Am Hallischen Tor  
+%1$s Am Hasenberg  
+%1$s Am Hasengraben  
+%1$s Am Hegeanger  
+%1$s Am Hirtenhaus  
+%1$s Am Hohen Graben  
+%1$s Am Hohlweg  
+%1$s Am Hufeisen  
+%1$s Am Jägerhaus  
+%1$s Am Kanal Neu 
+%1$s Am Kellerberg  
+%1$s Am Keulenberg  
+%1$s Am Kirschberg  
+%1$s Am kleinen Feld   
+%1$s Am Klosterfeld 
+%1$s Am Klucksgraben 
+%1$s Am krummen Graben 
+%1$s Am Künstlerbogen 
+%1$s Am langen Felde 
+%1$s Am langen Teiche 
+%1$s Am Lindeneck 
+%1$s Am Lindenhof 
+%1$s Am Lösegraben 
+%1$s Am Luppedeich 
+%1$s Am Markt 
+%1$s Am Meilenstein 
+%1$s Am Mückenschlößchen 
+%1$s Am Mühlengrund 
+%1$s Am Mühlgraben 
+%1$s Am Niederholz 
+%1$s Am Ochsenwinkel 
+%1$s Am Osthang 
+%1$s Am Park 
+%1$s Am Parkteich 
+%1$s Am Pfarrfelde 
+%1$s Am Pfefferbrückchen 
+%1$s Am Pfingstanger 
+%1$s Am Pösgraben 
+%1$s Am Rain 
+%1$s Am Rennsteig 
+%1$s Am Ring 
+%1$s Am Ritterschlößchen 
+%1$s Am Rodeland 
+%1$s Am Röschenhof 
+%1$s Am Russischen Garten 
+%1$s Am Sandberg 
+%1$s Am Schäferhügel 
+%1$s Am Schaukelgraben 
+%1$s Am Schenkberg 
+%1$s Am Schwalbennest 
+%1$s Am Silo 
+%1$s Am Sommerfeld 
+%1$s Am Sonneneck 
+%1$s Am Sonnenwinkel 
+%1$s Am Sperrtor 
+%1$s Am Sportforum 
+%1$s Am Sportpark 
+%1$s Am Sportplatz 
+%1$s Am Stausee 
+%1$s Am Tanzplan 
+%1$s Am Teich 
+%1$s Am Teilungswehr 
+%1$s Am Tore 
+%1$s Am Turnplatz 
+%1$s Am Übergang 
+%1$s Am Viadukt 
+%1$s Am Volksgut 
+%1$s Am Vorwerk 
+%1$s Am Wassergraben 
+%1$s Am Wasserschloß 
+%1$s Am Wasserturm 
+%1$s Am Wasserwerk 
+%1$s Am Wegekreuz 
+%1$s Am Weiher 
+%1$s Am Wiesenblick  
+%1$s Am Wiesengrund  
+%1$s Am Wolfswinkel  
+%1$s Am Zuckmantel  
+%1$s Amalie-Winter-Platz 
+%1$s Amalienstraße  
+%1$s Amazonstraße  
+%1$s Amboldweg  
+%1$s Ambrosius-Barth-Platz  
+%1$s Ameisenstraße  
+%1$s Ammernplatz  
+%1$s Ammernweg  
+%1$s Amorbacher Straße  
+%1$s Ampèreweg  
+%1$s Amselgrund  
+%1$s Amselhöhe  
+%1$s Amselnest  
+%1$s Amselstraße  
+%1$s Amselweg  
+%1$s Amstetter Weg  
+%1$s An den Birken  
+%1$s An den Krutschen  
+%1$s An den Linden  
+%1$s An den Pferdnerkabeln  
+%1$s An den Platanen  
+%1$s An den feldern   
+%1$s An den Tierkliniken  
+%1$s An der Alten Mühle  
+%1$s An der Alten Post  
+%1$s An der Autobahn  
+%1$s An der Badeanlage  
+%1$s An der Bahn  
+%1$s An der Brauerei  
+%1$s An der Brücke  
+%1$s An der Burgaue  
+%1$s An der Eisenbahn  
+%1$s An der Elster  
+%1$s An der Fasanerie  
+%1$s An der Feuerwehr  
+%1$s An der Friedenseiche  
+%1$s An der Gänseweide  
+%1$s An der Gärtnerei  
+%1$s An der Grundschule  
+%1$s An der Hainkirche  
+%1$s An der Hauptstraße  
+%1$s An der Hebemärchte  
+%1$s An der Hufschmiede  
+%1$s An der Kaninchenfarm  
+%1$s An der Kegelbahn  
+%1$s An der Kirche  
+%1$s An der Kirchgasse  
+%1$s An der Kirschallee  
+%1$s An der Kotsche  
+%1$s An der Lautsche  
+%1$s An der Lehde  
+%1$s An der Luppe   
+%1$s An der Märchenwiese  
+%1$s An der Merseburger Straße
+%1$s An der Milchinsel  
+%1$s An der Mühle 
+%1$s An der Mühlpleiße 
+%1$s An der Parthe 
+%1$s An der Passage 
+%1$s An der Querbreite 
+%1$s An der Rehwiese 
+%1$s An der Rietzschke 
+%1$s An der Salzstraße 
+%1$s An der Sandgrube 
+%1$s An der Schäferei 
+%1$s An der Schule 
+%1$s An der Siedlung 
+%1$s An der Spitze 
+%1$s An der Streuobstwiese 
+%1$s An der Tabaksmühle 
+%1$s An der Teichmühle 
+%1$s An der Telle 
+%1$s An der Trift 
+%1$s An der Verfassungslinde 
+%1$s An der Vogelweide 
+%1$s An der Weide 
+%1$s An der Wendeschleife 
+%1$s An der Windmühle 
+%1$s Andersenweg
+%1$s Andreasstraße 
+%1$s Andromedaweg
+%1$s Anemonenweg 
+%1$s Angerstraße
+%1$s Anhalter Straße 
+%1$s Anna-Kuhnow-Straße
+%1$s Annaberger Straße 
+%1$s Annenstraße
+%1$s Ansbacher Straße 
+%1$s Anton-Bruckner-Allee
+%1$s Anton-Zickmantel-Straße
+%1$s Antonienstraße
+%1$s Anzengruberstraße
+%1$s Apels Garten 
+%1$s Apelsteinweg
+%1$s Apelstraße
+%1$s Apitzschgasse
+%1$s Apoldaer Weg 
+%1$s Apostelstraße 
+%1$s Aprikosenweg
+%1$s Ariostiweg
+%1$s Arlandbogen
+%1$s Arminiushof
+%1$s Arndts Hufen 
+%1$s Arndtstraße
+%1$s Arnikaweg
+%1$s Arno-Bruchardt-Straße
+%1$s Arno-Nitzsche-Straße
+%1$s Arnoldplatz 
+%1$s Arnoldstraße 
+%1$s Arnstädter Kehre 
+%1$s Arthur-Hausmann-Straße
+%1$s Arthur-Heidrich-Platz 
+%1$s Arthur-Hoffmann-Straße
+%1$s Arthur-Nagel-Straße
+%1$s Arthur-Polenz-Straße
+%1$s Arthur-Thiele-Weg  
+%1$s Arthur-Winkler-Straße  
+%1$s Aschaffenburger Straße  
+%1$s Aschenbrödelweg  
+%1$s Asternweg  
+%1$s Atriumstraße  
+%1$s Audorfstraße 
+%1$s Auenblick  
+%1$s Auenblickstraße  
+%1$s Auengrund  
+%1$s Auenhainer Straße  
+%1$s Auenseestraße  
+%1$s Auenstraße  
+%1$s Auenweg  
+%1$s Auerbachplatz  
+%1$s Auerbachstraße  
+%1$s Auerhahnsteig  
+%1$s Auf dem Colmberg  
+%1$s Auf der Höhe  
+%1$s August-Bebel-Platz  
+%1$s August-Bebel-Siedlung  
+%1$s August-Bebel-Straße  
+%1$s August-Knauer-Straße  
+%1$s August-Scheibe-Straße  
+%1$s Auguste-Hennig-Straße  
+%1$s Auguste-Schmidt-Straße  
+%1$s Auguste-Schulze-Straße  
+%1$s Augustenstraße  
+%1$s Augustinerstraße   
+%1$s Augustusplatz   
+%1$s Aurelienstraße  
+%1$s Auschwitzer Straße  
+%1$s Außenring
+%1$s Äußere Auenblickstraße
+%1$s Äußere Friedrich-Naumann-Straße  
+%1$s Äußere Mühlenstraße  
+%1$s Äußere Raustraße  
+%1$s Äußerer Zeisigweg  
+%1$s Azaleenstraße  
+%1$s Baaderstraße  
+%1$s Bachenpfad 
+%1$s Bäckergasse  
+%1$s Badergasse  
+%1$s Badeweg  
+%1$s Baedekerstraße  
+%1$s Bahnhofsallee  
+%1$s Bahnhofstraße  
+%1$s Bahnstraße  
+%1$s Bahnweg  
+%1$s Balderstraße  
+%1$s Balzacstraße  
+%1$s Bamberger Straße  
+%1$s Barbarastraße  
+%1$s Barbussestraße  
+%1$s Barclayweg  
+%1$s Bärenfelser Weg  
+%1$s Barfußgäßchen  
+%1$s Bärlauchweg  
+%1$s Barnecker Straße  
+%1$s Barnet-Licht-Platz  
+%1$s Basedowstraße  
+%1$s Basilikumweg  
+%1$s Basteistraße  
+%1$s Bästleinstraße  
+%1$s Bauerngrabenstraße  
+%1$s Bauernwinkel  
+%1$s Bauhofstraße  
+%1$s Baumannstraße  
+%1$s Baumeister-Günther-Straße  
+%1$s Baumeyerstraße  
+%1$s Baumgarten-Crusius-Straße  
+%1$s Baumschulenweg  
+%1$s Baumwollgasse  
+%1$s Baunackstraße  
+%1$s Bausestraße
+%1$s Bautzmannstraße  
+%1$s Bautzner Straße  
+%1$s Bayreuther Straße  
+%1$s Bayrischer Platz   
+%1$s Bechsteinweg  
+%1$s Beckerstraße  
+%1$s Beethovenstraße  
+%1$s Begonienweg  
+%1$s Bei der Krähenhütte  
+%1$s Beipertstraße  
+%1$s Belterstraße  
+%1$s Benediktusstraße  
+%1$s Benedixstraße  
+%1$s Bennigsenstraße  
+%1$s Berberitzenstraße  
+%1$s Bergahornstraße  
+%1$s Bergerstraße  
+%1$s Berggartenstraße  
+%1$s Berggartenweg  
+%1$s Bergstraße  
+%1$s Bergweg  
+%1$s Berkaer Weg  
+%1$s Berlichingenweg  
+%1$s Berliner Straße    
+%1$s Bernadotteweg  
+%1$s Bernburger Straße  
+%1$s Bernhard-Göring-Straße    
+%1$s Bernhard-Kellermann-Straße  
+%1$s Bernhardiplatz  
+%1$s Bernhardstraße    
+%1$s Bernsteinstraße  
+%1$s Bertha-Beckmann-Weg  
+%1$s Berthastraße  
+%1$s Bertolt-Brecht-Straße  
+%1$s Beuchaer Straße  
+%1$s Beuthstraße   
+%1$s Beyerleinstraße  
+%1$s Biberpfad  
+%1$s Bibraer Weg  
+%1$s Biedermannstraße  
+%1$s Bielastraße  
+%1$s Bienenwinkel  
+%1$s Bienerstraße
+%1$s Bienitzblick  
+%1$s Bienitzstraße  
+%1$s Binsengrund  
+%1$s Binzer Straße  
+%1$s Birkengasse  
+%1$s Birkenpilzweg  
+%1$s Birkenring  
+%1$s Birkenstraße  
+%1$s Birkenweg  
+%1$s Birkhahnsteig  
+%1$s Bisamstraße  
+%1$s Bischofstraße  
+%1$s Bismarckstraße  
+%1$s Bistumsweg  
+%1$s Bitterfelder Straße  
+%1$s Björneborgstraße  
+%1$s Blanchardweg  
+%1$s Blankenburger Straße  
+%1$s Blaufichtenweg  
+%1$s Blausternweg  
+%1$s Bleichertstraße  
+%1$s Blochmannstraße   
+%1$s Blochstraße  
+%1$s Blücherstraße  
+%1$s Blumenbogen  
+%1$s Blumenstraße   
+%1$s Blumenweg  
+%1$s Blümnerstraße  
+%1$s Blüthnerstraße  
+%1$s B.M.W-Allee    
+%1$s Bochumer Straße  
+%1$s Böcklinweg  
+%1$s Bockstraße  
+%1$s Bodenreformweg  
+%1$s Bogenweg  
+%1$s Bogislawstraße  
+%1$s Böhlitzer Mühle  
+%1$s Böhmestraße  
+%1$s Bonhoefferstraße  
+%1$s Bontjes-van-Beek-Straße  
+%1$s Borkumer Weg  
+%1$s Bormannstraße  
+%1$s Bornaer Straße  
+%1$s Bornaische Straße    
+%1$s Borngasse   
+%1$s Borsdorfer Straße  
+%1$s Bösdorfer Ring  
+%1$s Bösdorfer Straße  
+%1$s Bösenbergstraße  
+%1$s Bosestraße  
+%1$s Bothestraße  
+%1$s Böttchergäßchen  
+%1$s Böttcherweg  
+%1$s Böttgerstraße  
+%1$s Brackestraße  
+%1$s Brahestraße  
+%1$s Brahmsplatz  
+%1$s Brambacher Straße  
+%1$s Brandenburger Straße   
+%1$s Brandensteinstraße  
+%1$s Brandesweg  
+%1$s Brandiser Straße   
+%1$s Brandstraße  
+%1$s Brandvorwerkstraße  
+%1$s Brauereistraße  
+%1$s Braunschweiger Straße  
+%1$s Braunstraße  
+%1$s Braustraße  
+%1$s Brehmestraße  
+%1$s Breisgaustraße  
+%1$s Breite Allee
+%1$s Breite Straße   
+%1$s Breitenfelder Straße   
+%1$s Breiteweg  
+%1$s Breitkopfstraße  
+%1$s Breitschuhstraße  
+%1$s Bremer Straße  
+%1$s Bremer Weg  
+%1$s Brentanostraße  
+%1$s Breslauer Straße  
+%1$s Bretschneiderstraße  
+%1$s Breunsdorffstraße  
+%1$s Brockhausstraße  
+%1$s Brodauer Weg  
+%1$s Brombeerweg  
+%1$s Brommeweg  
+%1$s Brösigkestraße  
+%1$s Brückenstraße  
+%1$s Brückwaldstraße  
+%1$s Brüderstraße   
+%1$s Brühl  
+%1$s Bruhnsstraße  
+%1$s Brunhildstraße  
+%1$s Brunnenstraße  
+%1$s Brunnenweg  
+%1$s Brünner Straße    
+%1$s Brunsweg  
+%1$s Buchener Straße  
+%1$s Buchengasse  
+%1$s Buchenwaldstraße  
+%1$s Buchenweg  
+%1$s Buchfinkenweg  
+%1$s Bucksdorffstraße  
+%1$s Buckyweg  
+%1$s Bühringstraße  
+%1$s Bülowstraße  
+%1$s Bünaustraße  
+%1$s Burgauenstraße  
+%1$s Bürgerstraße  
+%1$s Burghausener Straße  
+%1$s Burgplatz  
+%1$s Burgstädter Straße  
+%1$s Burgstraße  
+%1$s Burgundenstraße  
+%1$s Buschenaustraße  
+%1$s Bussardweg  
+%1$s Bussestraße  
+%1$s Buttergasse  
+%1$s Büttnerstraße  
+%1$s Büttnerweg  
+%1$s Cäcilienstraße  
+%1$s Calaustraße  
+%1$s Calderónweg  
+%1$s Calvisiusstraße
+%1$s Campestraße  
+%1$s Carl-Hampel-Platz  
+%1$s Carl-Hinné-Straße  
+%1$s Carl-Maria-von-Weber-Straße  
+%1$s Carl-Meyer-Straße  
+%1$s Carl-Munde-Straße  
+%1$s Carl-Weichelt-Straße  
+%1$s Carlebachstraße  
+%1$s Carpzovstraße  
+%1$s Carusstraße  
+%1$s Cervantesweg  
+%1$s Cézanneweg  
+%1$s Chamissoweg  
+%1$s Charlottenstraße  
+%1$s Charlottenweg  
+%1$s Chemnitzer Straße   
+%1$s Cheruskerstraße  
+%1$s Chopinstraße  
+%1$s Christian-Ferkel-Straße  
+%1$s Christian-Grunert-Straße  
+%1$s Christian-Schmid-Straße  
+%1$s Christian-Wille-Weg  
+%1$s Christianstraße
+%1$s Christoph-Probst-Straße  
+%1$s Christoph-Schubert-Straße  
+%1$s Cichoriusstraße  
+%1$s Clara-Wieck-Straße  
+%1$s Clara-Zetkin-Straße  
+%1$s Claudiusstraße  
+%1$s Claußbruchstraße  
+%1$s Clausewitzstraße  
+%1$s Clemens-Thieme-Straße  
+%1$s Cletzener Weg  
+%1$s Cleudner Straße  
+%1$s Coblenzer Straße  
+%1$s Cocciusstraße  
+%1$s Cohnheimstraße  
+%1$s Colberger Weg  
+%1$s Colmbergsiedlung  
+%1$s Colmblick  
+%1$s Comeniusstraße 
+%1$s Coppiplatz  
+%1$s Coppistraße   
+%1$s Corinthstraße  
+%1$s Corneliusweg  
+%1$s Corotweg  
+%1$s Cöthner Straße  
+%1$s Cottaweg  
+%1$s Cradefelder Straße  
+%1$s Cranachstraße  
+%1$s Credéstraße 
+%1$s Crednerstraße  
+%1$s Crensitzer Weg  
+%1$s Creuzigerstraße  
+%1$s Cröberner Straße  
+%1$s Crottendorfer Straße  
+%1$s Crusiusstraße  
+%1$s Cunnersdorfer Straße  
+%1$s Curiestraße 
+%1$s Curschmannstraße  
+%1$s Czermaks Garten  
+%1$s Dachauer Straße  
+%1$s Dachsstraße   
+%1$s Dahlienstraße  
+%1$s Dähnhardtstraße  
+%1$s Damaschkebogen  
+%1$s Damaschkestraße  
+%1$s Dammstraße  
+%1$s Dammteichweg  
+%1$s Dankwartstraße  
+%1$s Dantestraße  
+%1$s Darwinstraße  
+%1$s Daumierstraße  
+%1$s Däumlingsweg  
+%1$s Dauthestraße  
+%1$s Dautheweg  
+%1$s Davidstraße  
+%1$s Debyestraße  
+%1$s Defoestraße  
+%1$s Defreggerweg  
+%1$s Deiwitzweg  
+%1$s Delitzscher Landstraße   
+%1$s Delitzscher Straße   
+%1$s Demetriusweg  
+%1$s Demmeringstraße   
+%1$s Denkmalsallee  
+%1$s Denkmalsblick  
+%1$s Dennewitzer Straße  
+%1$s Dessauer Straße  
+%1$s Deutsche Einheit  
+%1$s Deutscher Platz  
+%1$s Deutsches Heim  
+%1$s Diakonissenstraße  
+%1$s Diamantstraße  
+%1$s Diderotstraße  
+%1$s Diebitschweg  
+%1$s Dieselstraße  
+%1$s Dieskaustraße    
+%1$s Diesterwegstraße  
+%1$s Dietzgenstraße  
+%1$s Diezmannstraße  
+%1$s Dimitroffstraße  
+%1$s Dimpfelstraße  
+%1$s Dingolfinger Straße   
+%1$s Dinterstraße   
+%1$s Dittrichring   
+%1$s Dittrichstraße  
+%1$s Döbelner Straße 
+%1$s Dochturowweg
+%1$s Dohlenweg
+%1$s Dohnanyistraße
+%1$s Dohnaweg
+%1$s Dölitzer Straße 
+%1$s Döllingstraße
+%1$s Dölziger Straße 
+%1$s Dölziger Weg 
+%1$s Dombrowskistraße
+%1$s Don-Carlos-Straße
+%1$s Donarstraße
+%1$s Dorettenring
+%1$s Dorfplatz 
+%1$s Dorfstraße
+%1$s Döringstraße
+%1$s Dornbergerstraße
+%1$s Dornburger Weg 
+%1$s Dornröschenweg
+%1$s Dorotheenplatz 
+%1$s Dorotheenring 
+%1$s Dörrienstraße
+%1$s Dorstigstraße 
+%1$s Dortmunder Straße 
+%1$s Dösner Straße 
+%1$s Dösner Weg 
+%1$s Dostojewskistraße
+%1$s Dr.-Hermann-Duncker-Straße
+%1$s Dr.-Margarete-Blank-Straße
+%1$s Dr.-Wilhelm-Külz-Straße 
+%1$s Drei-Linden-Höhe 
+%1$s Dreiecksweg 
+%1$s Dreilindenstraße
+%1$s Drescherweg
+%1$s Dresdner Straße 
+%1$s Drosselgrund
+%1$s Drosselhang 
+%1$s Drosselnest
+%1$s Drosselweg
+%1$s Druckereistraße
+%1$s Dübener Landstraße 
+%1$s Dudweiler Straße 
+%1$s Dufourstraße
+%1$s Durch die Felder 
+%1$s Dürnsteiner Weg 
+%1$s Dürrenberger Straße 
+%1$s Dürrplatz 
+%1$s Dürrstraße
+%1$s Dybwadstraße
+%1$s Ebenholzweg
+%1$s Ebereschenweg 
+%1$s Eberlestraße
+%1$s Eberpfad
+%1$s Ecksteinstraße
+%1$s Edisonstraße
+%1$s Edlichstraße 
+%1$s Edmond-Kaiser-Straße
+%1$s Eduard-von-Hartmann-Straße   
+%1$s Eduardstraße  
+%1$s Edvard-Grieg-Allee  
+%1$s Eferdinger Straße  
+%1$s Egelstraße  
+%1$s Eggebrechtstraße  
+%1$s Egon-Erwin-Kisch-Weg  
+%1$s Ehrenberger Straße  
+%1$s Ehrensteinstraße   
+%1$s Eibenweg  
+%1$s Eichbergstraße  
+%1$s Eichelbaumstraße  
+%1$s Eichendorffstraße  
+%1$s Eichenweg  
+%1$s Eichhörnchenweg   
+%1$s Eichlerstraße  
+%1$s Eidechsenweg  
+%1$s Eigene Scholle  
+%1$s Eigenheimstraße  
+%1$s Eilenburger Straße  
+%1$s Einertstraße  
+%1$s Einsteinstraße  
+%1$s Eisenacher Straße  
+%1$s Eisenbahnstraße    
+%1$s Eisenberger Ring  
+%1$s Eisenschmidtplatz  
+%1$s Eitingonstraße  
+%1$s Elchweg  
+%1$s Elfenweg  
+%1$s Elisabeth-Schumacher-Straße   
+%1$s Elisabethstraße  
+%1$s Ellernweg  
+%1$s Elli-Voigt-Straße  
+%1$s Elsa-Brändström-Straße  
+%1$s Elsastraße  
+%1$s Elsbethstraße  
+%1$s Elsteraue  
+%1$s Elsterberg  
+%1$s Elsterblick  
+%1$s Elstergarten  
+%1$s Elstermühlweg  
+%1$s Elsterstraße  
+%1$s Elsterweg  
+%1$s Emil-Altner-Weg  
+%1$s Emil-Fuchs-Straße  
+%1$s Emil-Kluge-Straße  
+%1$s Emil-März-Straße  
+%1$s Emil-Schubert-Straße  
+%1$s Emil-Teich-Straße  
+%1$s Emilienstraße  
+%1$s Emmausstraße  
+%1$s Endersstraße  
+%1$s Endnerstraße  
+%1$s Engelmannstraße
+%1$s Engertstraße   
+%1$s Entsbergerstraße  
+%1$s Enzianweg  
+%1$s Erdmannstraße  
+%1$s Erfurter Straße  
+%1$s Erhardstraße  
+%1$s Erich-Köhn-Straße
+%1$s Erich-Mühsam-Weg  
+%1$s Erich-Thiele-Straße  
+%1$s Erich-Weinert-Straße  
+%1$s Erich-Zeigner-Allee   
+%1$s Erika-von-Brockdorff-Straße  
+%1$s Erikenstraße  
+%1$s Erkerhof  
+%1$s Erlanger Straße  
+%1$s Erlenstraße  
+%1$s Erlenweg  
+%1$s Erlenzeisigweg  
+%1$s Erlkönigweg  
+%1$s Ernestistraße  
+%1$s Ernst-Guhr-Straße  
+%1$s Ernst-Haeckel-Straße  
+%1$s Ernst-Hasse-Straße  
+%1$s Ernst-Keil-Straße  
+%1$s Ernst-Kießig-Straße  
+%1$s Ernst-Meier-Straße  
+%1$s Ernst-Mey-Straße  
+%1$s Ernst-Pinkert-Straße  
+%1$s Ernst-Schneller-Straße  
+%1$s Ernst-Sommerlath-Weg  
+%1$s Ernst-Toller-Straße  
+%1$s Eschenweg  
+%1$s Espenhainer Straße  
+%1$s Espenweg  
+%1$s Essener Straße   
+%1$s Etkar-André-Straße  
+%1$s Etzelstraße  
+%1$s Eva-Maria-Buch-Straße  
+%1$s Eythraer Straße  
+%1$s Eythraer Weg  
+%1$s Eythstraße  
+%1$s Fabrikstraße  
+%1$s Falkensteinstraße  
+%1$s Falkenweg  
+%1$s Falladastraße  
+%1$s Falterstraße  
+%1$s Faradaystraße  
+%1$s Färberstraße 
+%1$s Farnweg  
+%1$s Fasanenhöhe  
+%1$s Fasanenhügel  
+%1$s Fasanenpfad  
+%1$s Fasanenweg  
+%1$s Fechnerstraße  
+%1$s Feldahornweg  
+%1$s Feldblumenweg  
+%1$s Feldhasenweg  
+%1$s Feldlerchenweg  
+%1$s Feldstraße   
+%1$s Feldweg  
+%1$s Felsenbirnenstraße  
+%1$s Felsenkellerstraße  
+%1$s Fenchelweg  
+%1$s Ferdinand-Freiligrath-Straße  
+%1$s Ferdinand-Gruner-Straße  
+%1$s Ferdinand-Jost-Straße  
+%1$s Ferdinand-Lassalle-Straße  
+%1$s Ferdinand-Rhode-Straße  
+%1$s Feuerbachstraße  
+%1$s Feuerbachweg  
+%1$s Fichtenstraße  
+%1$s Fichtesiedlung  
+%1$s Fichtestraße  
+%1$s Finkengrund  
+%1$s Finkensteig  
+%1$s Finkenweg  
+%1$s Fleckensteiner Weg  
+%1$s Fleißnerstraße  
+%1$s Flemmingstraße  
+%1$s Fliederhof  
+%1$s Fliederweg  
+%1$s Flinzerstraße  
+%1$s Flöhaer Straße  
+%1$s Floraweg  
+%1$s Florian-Geyer-Platz  
+%1$s Flößenstraße  
+%1$s Floßplatz  
+%1$s Fockestraße   
+%1$s Fontanestraße  
+%1$s Föpplstraße  
+%1$s Forchheimer Straße  
+%1$s Forsetistraße  
+%1$s Forststraße  
+%1$s Forstweg  
+%1$s Fortunabadstraße  
+%1$s Franckestraße  
+%1$s Frankenheimer Weg
+%1$s Frankenweg  
+%1$s Franz-Flemming-Straße
+%1$s Franz-Mehring-Straße   
+%1$s Franz-Schlobach-Straße  
+%1$s Franz-Schubert-Platz  
+%1$s Franz-Schubert-Weg  
+%1$s Franzosenallee  
+%1$s Franzosenfeld  
+%1$s Frau-Holle-Weg  
+%1$s Fraunhoferstraße  
+%1$s Freesienweg  
+%1$s Fregestraße 
+%1$s Freiberger Straße  
+%1$s Freiligrathplatz  
+%1$s Freirodaer Straße  
+%1$s Freirodaer Weg  
+%1$s Freisinger Weg  
+%1$s Frettchenweg  
+%1$s Freundschaftsring  
+%1$s Frickestraße  
+%1$s Fridtjof-Nansen-Straße  
+%1$s Friedensstraße  
+%1$s Friederikenstraße  
+%1$s Friedhofstraße  
+%1$s Friedhofsweg  
+%1$s Friedrich-Bosse-Straße   
+%1$s Friedrich-Dittes-Straße  
+%1$s Friedrich-Ebert-Straße  
+%1$s Friedrich-Kram-Weg  
+%1$s Friedrich-List-Platz  
+%1$s Friedrich-List-Straße  
+%1$s Friedrich-Ludwig-Jahn-Straße  
+%1$s Friedrich-Naumann-Straße  
+%1$s Friedrich-Schmidt-Straße  
+%1$s Friedrich-Wolf-Straße  
+%1$s Friedrichshafner Straße   
+%1$s Friedrichstraße 
+%1$s Friesenstraße   
+%1$s Friesenweg  
+%1$s Fritz-Hanschmann-Straße  
+%1$s Fritz-Krebs-Straße  
+%1$s Fritz-Reuter-Straße  
+%1$s Fritz-Schmenkel-Straße  
+%1$s Fritz-Seger-Straße  
+%1$s Fritz-Siemon-Straße  
+%1$s Fritz-Simonis-Straße  
+%1$s Fritz-Zalisz-Straße  
+%1$s Fröbelstraße  
+%1$s Frohburger Straße  
+%1$s Frommannstraße  
+%1$s Fröschelstraße  
+%1$s Froschkönigweg  
+%1$s Froschweg  
+%1$s Fuchshainer Straße  
+%1$s Fuchspfad  
+%1$s Fucikstraße   
+%1$s Fuggerstraße  
+%1$s Fullaweg  
+%1$s Funkenburgstraße 
+%1$s Furnierweg  
+%1$s Fürther Straße  
+%1$s Gabelsbergerstraße  
+%1$s Galileistraße  
+%1$s Ganghoferstraße  
+%1$s Gänseblümchenweg  
+%1$s Garskestraße  
+%1$s Gartenbogen  
+%1$s Gartengrund  
+%1$s Gartenstraße  
+%1$s Gartenweg  
+%1$s Gartenwinkel  
+%1$s Gärtnereiweg  
+%1$s Gärtnergasse  
+%1$s Gärtnerstraße   
+%1$s Gärtnerweg  
+%1$s Gaschwitzer Straße  
+%1$s Gaswerksweg  
+%1$s Gaudigplatz  
+%1$s Gaußstraße  
+%1$s Gebrüder-Weber-Weg  
+%1$s Gedikestraße
+%1$s Geibelstraße
+%1$s Geißblattstraße
+%1$s Geißlerstraße 
+%1$s Geithainer Straße 
+%1$s Gellertplatz 
+%1$s Gellertstraße
+%1$s Gemeindeamtsstraße
+%1$s Georg-Fischer-Straße
+%1$s Georg-Große-Straße
+%1$s Georg-Herwegh-Straße
+%1$s Georg-Maurer-Straße
+%1$s Georg-Reichardt-Straße
+%1$s Georg-Schumann-Straße
+%1$s Georg-Schwarz-Straße
+%1$s George-Bähr-Straße
+%1$s Georgiring
+%1$s Georgplatz 
+%1$s Geraer Straße 
+%1$s Geranienweg
+%1$s Gerberstraße
+%1$s Gerhard-Ellrodt-Straße
+%1$s Gerhardstraße 
+%1$s Gerichtsweg
+%1$s Gerlindeweg
+%1$s Germannstraße
+%1$s Gerstäckerstraße
+%1$s Gerstenweg
+%1$s Gersterstraße 
+%1$s Gerte
+%1$s Geschwister-Scholl-Straße 
+%1$s Gesnerstraße
+%1$s Getreidegasse 
+%1$s Getzelauer Straße 
+%1$s Geutebrückstraße
+%1$s Gewandgäßchen
+%1$s Geyerstraße
+%1$s Giebnerstraße
+%1$s Gießerstraße
+%1$s Gildemeisterring
+%1$s Ginsterstraße
+%1$s Giordano-Bruno-Straße
+%1$s Giselherstraße
+%1$s Gittelstraße
+%1$s Gladiolenweg
+%1$s Glafeystraße
+%1$s Gleisstraße
+%1$s Gleitsmannstraße
+%1$s Glesiener Straße 
+%1$s Gletschersteinstraße 
+%1$s Glockenstraße 
+%1$s Gmundener Weg 
+%1$s Gneisenaustraße
+%1$s Göbschelwitzer Straße 
+%1$s Göbschelwitzer Weg 
+%1$s Goerdelerring
+%1$s Goetheplatz 
+%1$s Goethesteig
+%1$s Goethestraße
+%1$s Goetheweg  
+%1$s Goetzstraße 
+%1$s Gogolstraße  
+%1$s Gohliser Straße   
+%1$s Göhrenzer Straße  
+%1$s Göhrenzer Weg  
+%1$s Goldacher Straße  
+%1$s Goldammerweg  
+%1$s Goldene Hufe  
+%1$s Goldglöckchenstraße  
+%1$s Goldoniweg  
+%1$s Goldrutenweg  
+%1$s Goldschmidtstraße
+%1$s Goldsternstraße  
+%1$s Goldulmenweg  
+%1$s Gontardweg  
+%1$s Gontscharowstraße  
+%1$s Gorbitzer Straße    
+%1$s Gorkistraße   
+%1$s Görlitzer Straße  
+%1$s Gortschakoffweg  
+%1$s Göschenstraße  
+%1$s Goslarer Straße  
+%1$s Göteborger Straße  
+%1$s Gotenstraße  
+%1$s Gothaer Straße  
+%1$s Gottfried-Jähnichen-Weg  
+%1$s Gottfried-Keller-Straße  
+%1$s Gottfried-Rentzsch-Weg  
+%1$s Gotthelfstraße  
+%1$s Gottlaßstraße  
+%1$s Gottleubaer Straße  
+%1$s Gottlieb-Schöne-Weg  
+%1$s Gottschalkstraße  
+%1$s Gottschallstraße   
+%1$s Gottschedstraße  
+%1$s Gottscheinaer Weg  
+%1$s Gotzkowskystraße
+%1$s Goyastraße
+%1$s Grabaustraße  
+%1$s Grabenweg  
+%1$s Graf-Zeppelin-Ring  
+%1$s Gräfestraße  
+%1$s Graffstraße  
+%1$s Graßdorfer Straße  
+%1$s Grassistraße  
+%1$s Grasweg  
+%1$s Grauwackeweg  
+%1$s Gregor-Fuchs-Straße  
+%1$s Gregoriusstraße  
+%1$s Gregoryplatz  
+%1$s Greinerweg  
+%1$s Grenzstraße  
+%1$s Grenzweg   
+%1$s Gretelweg  
+%1$s Gretschelstraße  
+%1$s Grillenstraße  
+%1$s Grimmaische Straße  
+%1$s Grimmaischer Steinweg  
+%1$s Grimmweg  
+%1$s Groitzscher Straße 
+%1$s Gröpplerstraße 
+%1$s Großbeerener Straße  
+%1$s Große Fleischergasse  
+%1$s Große Gartensiedlung  
+%1$s Großer Brockhaus  
+%1$s Großer Marktweg  
+%1$s Großmannstraße 
+%1$s Großer Straße   
+%1$s Großpösnaer Straße  
+%1$s Großsteinberger Straße  
+%1$s Grünauer Allee  
+%1$s Grünauer Blick  
+%1$s Grünbacher Weg  
+%1$s Grundstraße  
+%1$s Grüne Gasse  
+%1$s Grüner Bogen  
+%1$s Grüner Weg  
+%1$s Grüner Winkel  
+%1$s Grunertstraße  
+%1$s Grünewaldstraße  
+%1$s Grünfinkenweg  
+%1$s Grunickestraße  
+%1$s Gudrunstraße  
+%1$s Güldengossaer Straße  
+%1$s Gundermannstraße  
+%1$s Gundorfer Kirchweg  
+%1$s Gundorfer Straße  
+%1$s Gundoweg  
+%1$s Günselstraße  
+%1$s Güntheritzer Weg  
+%1$s Güntherstraße
+%1$s Güntzstraße  
+%1$s Gustav-Adolf-Allee  
+%1$s Gustav-Adolf-Straße  
+%1$s Gustav-Esche-Straße   
+%1$s Gustav-Feilotter-Straße  
+%1$s Gustav-Freytag-Straße  
+%1$s Gustav-Kühn-Straße  
+%1$s Gustav-Mahler-Straße  
+%1$s Gustav-Scheibe-Straße  
+%1$s Gustav-Schmoller-Straße  
+%1$s Gustav-Schwabe-Platz  
+%1$s Gutberletstraße  
+%1$s Gutenbergplatz 
+%1$s Gutenbergstraße  
+%1$s Güterbahnhofstraße  
+%1$s Gutshofstraße  
+%1$s Guts
+%1$s Muthsstraße  
+%1$s Gutsparkstraße  
+%1$s Gutsweg  
+%1$s Gypsbergstraße  
+%1$s Haferkornstraße  
+%1$s Haferring  
+%1$s Hafisweg  
+%1$s Hagebuttenweg  
+%1$s Hahnekamm  
+%1$s Hähnelstraße  
+%1$s Hahnemannstraße 
+%1$s Hainbuchenstraße  
+%1$s Hainburger Weg  
+%1$s Hainstraße  
+%1$s Hainveilchenweg  
+%1$s Halberstädter Straße  
+%1$s Hallbergmooser Straße  
+%1$s Hallesche Straße  
+%1$s Hamburger Straße  
+%1$s Hammerstraße  
+%1$s Hammstraße  
+%1$s Handelsplatz  
+%1$s Handelsring   
+%1$s Handelsstraße  
+%1$s Händelstraße  
+%1$s Handwerkerhof   
+%1$s Hänicher Mühle  
+%1$s Hänischstraße  
+%1$s Hannoversche Straße  
+%1$s Hanns-Eisler-Straße  
+%1$s Hans-Beimler-Straße  
+%1$s Hans-Driesch-Straße  
+%1$s Hans-Grade-Straße  
+%1$s Hans-Marchwitza-Straße  
+%1$s Hans-Oster-Straße   
+%1$s Hans-Otto-Straße  
+%1$s Hans-Poeche-Straße  
+%1$s Hans-Sachs-Straße  
+%1$s Hans-Scholl-Straße  
+%1$s Hans-Weigel-Straße  
+%1$s Hänselweg  
+%1$s Happweg  
+%1$s Harbigweg  
+%1$s Hardenbergstraße  
+%1$s Harkortstraße  
+%1$s Harnackstraße  
+%1$s Harnischstraße  
+%1$s Harpstedter Straße  
+%1$s Härtelstraße  
+%1$s Hartmannsdorfer Straße  
+%1$s Hartmannweg  
+%1$s Hartriegelstraße  
+%1$s Hartungstraße  
+%1$s Hartzstraße  
+%1$s Haselnussweg  
+%1$s Haselstraße  
+%1$s Haselweg  
+%1$s Hasenheide  
+%1$s Hasenholzweg  
+%1$s Hasenpfad  
+%1$s Hauckstraße  
+%1$s Hauffweg  
+%1$s Hauptmannstraße  
+%1$s Hauptstraße  
+%1$s Hauschildstraße
+%1$s Hausdorffweg  
+%1$s Häußerstraße  
+%1$s Häuslergasse  
+%1$s Haußmannstraße  
+%1$s Haydnstraße  
+%1$s Haynaer Weg 
+%1$s Hebelstraße
+%1$s Heckenweg
+%1$s Hedwig-Burgheim-Straße
+%1$s Hedwigstraße
+%1$s Hegelstraße
+%1$s Heidelbeerweg
+%1$s Heidelberger Straße 
+%1$s Heideweg
+%1$s Heilbronner Straße 
+%1$s Heilemannstraße 
+%1$s Heimdallstraße 
+%1$s Heimteichstraße
+%1$s Heinickestraße
+%1$s Heinkstraße
+%1$s Heinrich-Büchner-Straße
+%1$s Heinrich-Budde-Straße
+%1$s Heinrich-Heine-Straße
+%1$s Heinrich-Kaps-Straße
+%1$s Heinrich-Mann-Straße
+%1$s Heinrich-Mann-Weg
+%1$s Heinrich-Oelerich-Straße
+%1$s Heinrich-Schmidt-Straße
+%1$s Heinrich-Schütz-Platz 
+%1$s Heinrich-Zille-Weg
+%1$s Heinrichstraße
+%1$s Heinrothstraße
+%1$s Heinz-Kapelle-Straße
+%1$s Heinzelmannweg
+%1$s Heisenbergstraße
+%1$s Helenenstraße
+%1$s Helgoländer Weg 
+%1$s Hellerstraße
+%1$s Hellriegelstraße
+%1$s Helmertstraße 
+%1$s Helmholtzstraße
+%1$s Hempelstraße
+%1$s Hendelweg
+%1$s Henricistraße
+%1$s Henriettenstraße
+%1$s Hentschelweg 
+%1$s Herbartstraße 
+%1$s Herbert-Bochow-Straße
+%1$s Herbert-Thiele-Straße
+%1$s Herbstweg
+%1$s Herderstraße
+%1$s Herloßsohnstraße
+%1$s Hermann-Brade-Straße
+%1$s Hermann-Dorner-Straße
+%1$s Hermann-Keller-Straße
+%1$s Hermann-Liebmann-Straße 
+%1$s Hermann-Löns-Straße 
+%1$s Hermann-Sander-Straße
+%1$s Hermann-Schein-Straße
+%1$s Hermannstraße 
+%1$s Hermelinplatz 
+%1$s Hermelinstraße
+%1$s Hermundurenstraße  
+%1$s Herrenallee
+%1$s Herrmann-Meyer-Straße  
+%1$s Herrnhuter Straße  
+%1$s Hersvelder Straße  
+%1$s Hertzstraße  
+%1$s Herwigstraße  
+%1$s Herzberger Straße   
+%1$s Herzenstraße  
+%1$s Hessenstraße  
+%1$s Hettelweg  
+%1$s Heubnerweg  
+%1$s Heuweg  
+%1$s Hickmannstraße  
+%1$s Hildburgstraße  
+%1$s Hildebrandstraße  
+%1$s Hildegardstraße  
+%1$s Hildeweg  
+%1$s Hillerstraße  
+%1$s Hilligerstraße  
+%1$s Himbeerweg  
+%1$s Hinrichsenstraße
+%1$s Hinter dem Dorf  
+%1$s Hinter dem Zuckelhausener Ring  
+%1$s Hinter den Gärten  
+%1$s Hinter der Kirche  
+%1$s Hirschfelder Flur  
+%1$s Hirschfelder Straße   
+%1$s Hirschsprung  
+%1$s Hirseweg  
+%1$s Hirtenholzstraße  
+%1$s Hirtenweg  
+%1$s Hirzelstraße  
+%1$s Hoepnerstraße  
+%1$s Hofer Straße  
+%1$s Hoffmannstraße  
+%1$s Hofmeisterstraße  
+%1$s Hohe Straße  
+%1$s Hohenheidaer Straße  
+%1$s Hohenheidaer Weg  
+%1$s Hohenossiger Weg  
+%1$s Hohenrodaer Weg  
+%1$s Hohenthalstraße  
+%1$s Hohentichelnstraße  
+%1$s Hohle Gasse  
+%1$s Hohmannstraße  
+%1$s Holbeinstraße  
+%1$s Holbergstraße  
+%1$s Hölderlinstraße  
+%1$s Holsteinstraße  
+%1$s Holteistraße  
+%1$s Höltystraße   
+%1$s Holunderbogen  
+%1$s Holunderweg  
+%1$s Holzhäuser Straße  
+%1$s Hommelweg  
+%1$s Hopfenbergstraße  
+%1$s Hopfengarten  
+%1$s Hopfenweg  
+%1$s Horburger Straße
+%1$s Hornissenwinkel  
+%1$s Hornstraße  
+%1$s Horst-Fritsche-Weg  
+%1$s Horst-Heilmann-Straße  
+%1$s Hortensienweg  
+%1$s Hotherstraße  
+%1$s Hoyerstraße  
+%1$s Huberstraße  
+%1$s Hubertusstraße  
+%1$s Hubmaierweg  
+%1$s Hüfferstraße  
+%1$s Hüfnerstraße  
+%1$s Hügelweg  
+%1$s Hugo-Aurig-Straße  
+%1$s Hugo-Junkers-Straße  
+%1$s Hugo-Krone-Platz  
+%1$s Hugo-Licht-Straße  
+%1$s Humboldtstraße 
+%1$s Hummelstraße  
+%1$s Humperdinckstraße  
+%1$s Hünerfeldstraße  
+%1$s Husemannstraße  
+%1$s Hussitenstraße  
+%1$s Huttenstraße  
+%1$s Huygensstraße   
+%1$s Idastraße  
+%1$s Idunweg  
+%1$s Igelstraße  
+%1$s Ihmelsstraße  
+%1$s Ilmenauer Weg
+%1$s Ilse-Decho-Weg  
+%1$s Iltispfad  
+%1$s Im Birkengrund  
+%1$s Im Blumengrund  
+%1$s Im Dölitzer Holz  
+%1$s Im Grunde  
+%1$s Im Limburgerpark  
+%1$s Im Lindengrund  
+%1$s Im Tannengrund  
+%1$s Im Weidengrund  
+%1$s Im Winkel  
+%1$s Im Zipfel  
+%1$s Immenstraße  
+%1$s Industriestraße   
+%1$s Ingwerweg  
+%1$s Innenring  
+%1$s Inselstraße  
+%1$s Italiaanderstraße   
+%1$s J.-C.-Hinrichs-Straße  
+%1$s Jablonowskistraße 
+%1$s Jack-London-Weg  
+%1$s Jacobstraße  
+%1$s Jadassohnstraße
+%1$s Jadebogen  
+%1$s Jägerstraße  
+%1$s Jahnallee 
+%1$s Jahnstraße
+%1$s Jahnweg
+%1$s Jakobiwinkel
+%1$s Jaspisstraße
+%1$s Jenaer Straße 
+%1$s Joachim-Gottschalk-Weg
+%1$s Jöcherstraße
+%1$s Jochmontagestraße
+%1$s Johann-Adolf-Straße
+%1$s Johann-Eck-Straße
+%1$s Johann-Jakob-Weber-Platz 
+%1$s Johannaparkweg
+%1$s Johannastraße 
+%1$s Johannes-Kärner-Straße
+%1$s Johannes-R.-Becher-Straße 
+%1$s Johannes-Weyrauch-Platz 
+%1$s Johannisallee
+%1$s Johannisgasse 
+%1$s Johannishöhe
+%1$s Johannisplatz
+%1$s Johnsonweg
+%1$s Jöhstädter Straße 
+%1$s Jonasstraße
+%1$s Jonsdorfer Straße 
+%1$s Jordanstraße
+%1$s Jörgen-Schmidtchen-Weg
+%1$s Josephinenstraße
+%1$s Josephstraße
+%1$s Jouleweg
+%1$s Judith-Auer-Straße
+%1$s Juister Weg 
+%1$s Julian-Marchlewski-Straße
+%1$s Julius-Krause-Straße
+%1$s Juliusstraße 
+%1$s Jungfernstiege
+%1$s Junghanßstraße
+%1$s Jungmannstraße
+%1$s Jupiterstraße
+%1$s Jupp-Müller-Straße 
+%1$s Jutta-Hipp-Weg 
+%1$s Kaffeegasse
+%1$s Kahlhoffweg
+%1$s Kamelienweg
+%1$s Kamenzer Straße 
+%1$s Kamillenweg 
+%1$s Kanalstraße
+%1$s Kändlerstraße
+%1$s Kaninchensteig 
+%1$s Kantatenweg
+%1$s Kantor-Andrä-Straße
+%1$s Kantor-Hase-Straße
+%1$s Kantor-Schmidt-Weg
+%1$s Kantstraße
+%1$s Kapellenstraße
+%1$s Karl-Blechen-Straße
+%1$s Karl-Bücher-Straße
+%1$s Karl-Ferlemann-Straße
+%1$s Karl-Friedrich-Straße
+%1$s Karl-Härting-Straße 
+%1$s Karl-Heft-Straße
+%1$s Karl-Heine-Platz 
+%1$s Karl-Heine-Straße 
+%1$s Karl-Helbig-Straße
+%1$s Karl-Jungbluth-Straße
+%1$s Karl-Liebknecht-Straße
+%1$s Karl-Mannsfeld-Straße
+%1$s Karl-Marx-Platz 
+%1$s Karl-Marx-Straße
+%1$s Karl-Moor-Weg 
+%1$s Karl-Rothe-Straße
+%1$s Karl-Schurz-Straße
+%1$s Karl-Siegismund-Straße
+%1$s Karl-Tauchnitz-Straße
+%1$s Karl-Vogel-Straße
+%1$s Karl-Winkler-Straße
+%1$s Karlsruher Straße 
+%1$s Karlstädter Straße 
+%1$s Karlstraße 
+%1$s Karolusstraße 
+%1$s Kärrnerstraße
+%1$s Kärrnerweg
+%1$s Kasseler Straße 
+%1$s Kastanienallee 
+%1$s Kastanienring
+%1$s Kastanienstraße
+%1$s Kastanienweg 
+%1$s Kästnerbogen
+%1$s Kastorweg 
+%1$s Katharinenstraße
+%1$s Käthe-Kollwitz-Straße
+%1$s Katzmannstraße
+%1$s Katzstraße
+%1$s Kaulbachweg
+%1$s Kegelweg
+%1$s Kehrwieder 
+%1$s Keilstraße
+%1$s Kelbestraße
+%1$s Keplerstraße
+%1$s Kerbelweg
+%1$s Kernstraße
+%1$s Kickerlingsberg 
+%1$s Kiebitzstraße
+%1$s Kiefernweg
+%1$s Kieler Straße 
+%1$s Kiesgrubenstraße
+%1$s Kiesweg
+%1$s Kietzstraße
+%1$s Kiewer Straße 
+%1$s Kilometerweg
+%1$s Kindstraße
+%1$s Kippenbergstraße
+%1$s Kipsdorfer Weg 
+%1$s Kirchplatz
+%1$s Kirchstraße 
+%1$s Kirchweg
+%1$s Kirschbergstraße
+%1$s Kissinger Straße 
+%1$s Klabundweg
+%1$s Klarastraße
+%1$s Klasingstraße
+%1$s Klausenerstraße
+%1$s Kleeweg
+%1$s Kleine Bergstraße 
+%1$s Kleine Fleischergasse 
+%1$s Kleine Gartensiedlung 
+%1$s Kleine Gartenstraße 
+%1$s Kleine Promenade 
+%1$s Kleiner Poetenweg 
+%1$s Kleiner Zipfel 
+%1$s Kleinmesseplatz 
+%1$s Kleinpösnaer Anger 
+%1$s Kleinpösnaer Straße 
+%1$s Kleiststraße 
+%1$s Klemmstraße 
+%1$s Klempererstraße
+%1$s Klenaustraße
+%1$s Klettenstraße
+%1$s Klingenstraße
+%1$s Klingenthaler Straße 
+%1$s Klingerplatz 
+%1$s Klingerstraße
+%1$s Klingerweg
+%1$s Klipphausenstraße
+%1$s Klopstockstraße
+%1$s Kloßstraße
+%1$s Klostergasse
+%1$s Klosterneuburger Weg 
+%1$s Knaurstraße
+%1$s Knauthainer Straße 
+%1$s Knautnaundorfer Anger 
+%1$s Knautnaundorfer Straße 
+%1$s Knesebeckstraße
+%1$s Knöflerstraße
+%1$s Knopstraße
+%1$s Knorrstraße
+%1$s Knuthstraße
+%1$s Köbisstraße
+%1$s Koburger Straße 
+%1$s Kochstraße
+%1$s Koehlerstraße
+%1$s Kohlenstraße
+%1$s Kohlgartenstraße
+%1$s Kohlgartenweg 
+%1$s Kohlweg 
+%1$s Köhraer Straße 
+%1$s Kohrener Straße 
+%1$s Kolbestraße
+%1$s Kolmstraße 
+%1$s Koloniestraße 
+%1$s Kolonnadenstraße
+%1$s Kolpingweg
+%1$s Komarowstraße 
+%1$s Kometenweg
+%1$s Kommandant-Prendel-Allee 
+%1$s Kömmlitzer Weg 
+%1$s Königsteinstraße
+%1$s Könneritzstraße
+%1$s Konrad-Hagen-Platz  
+%1$s Konradstraße   
+%1$s Konstantinstraße  
+%1$s Kopernikusstraße  
+%1$s Kornblumenweg  
+%1$s Körnerplatz  
+%1$s Körnerstraße   
+%1$s Körnerweg  
+%1$s Kornweg  
+%1$s Korolenkostraße  
+%1$s Kosakenweg  
+%1$s Kösner Straße  
+%1$s Kossaer Straße  
+%1$s Köstritzer Straße  
+%1$s Kötzschauer Straße  
+%1$s Kötzschkestraße  
+%1$s Krakauer Straße   
+%1$s Kranichweg  
+%1$s Krätzbergstraße  
+%1$s Krautbreite  
+%1$s Krautgartenweg  
+%1$s Kregelstraße  
+%1$s Kremser Weg  
+%1$s Kresseweg  
+%1$s Kreuzdornstraße  
+%1$s Kreuzstraße   
+%1$s Kriemhildstraße  
+%1$s Kröbelstraße  
+%1$s Krokerstraße  
+%1$s Krokusweg  
+%1$s Krönerstraße   
+%1$s Krostitzer Weg  
+%1$s Krugstraße  
+%1$s Kuchengartenstraße  
+%1$s Küchenholzallee   
+%1$s Kuckhoffstraße  
+%1$s Kuckucksweg  
+%1$s Kuhnaustraße  
+%1$s Kuhturmallee
+%1$s Kuhturmstraße
+%1$s Kulkwitzer Straße  
+%1$s Kulmbacher Straße  
+%1$s Kümmelweg  
+%1$s Kunadstraße  
+%1$s Kuntzschmannstraße  
+%1$s Kunzestraße  
+%1$s Kupfergasse  
+%1$s Kursdorfer Weg
+%1$s Kurt-Eisner-Straße  
+%1$s Kurt-Günther-Straße  
+%1$s Kurt-Hänselmann-Weg  
+%1$s Kurt-Huber-Weg  
+%1$s Kurt-Krah-Straße  
+%1$s Kurt-Kresse-Straße   
+%1$s Kurt-Schumacher-Straße   
+%1$s Kurt-Tucholsky-Straße  
+%1$s Kurt-Weill-Straße  
+%1$s Kurze Straße  
+%1$s Kutschbachweg 
+%1$s Kutscherweg  
+%1$s Kutschweg  
+%1$s Lagerhofstraße  
+%1$s Lähnestraße
+%1$s Lammertweg  
+%1$s Lampestraße  
+%1$s Lamprechtstraße  
+%1$s Landhausstraße  
+%1$s Landsberger Straße     
+%1$s Landsteinerstraße
+%1$s Landwaisenhausstraße  
+%1$s Lange Reihe  
+%1$s Lange Straße  
+%1$s Lange Trift  
+%1$s Langhansstraße  
+%1$s Lärchenweg  
+%1$s Laubestraße  
+%1$s Lauchstädter Straße  
+%1$s Lauerscher Weg   
+%1$s Laurentiusstraße  
+%1$s Lauschaer Weg  
+%1$s Lausener Bogen  
+%1$s Lausener Dorfplatz  
+%1$s Lausener Straße  
+%1$s Lausicker Straße  
+%1$s Lausner Weg   
+%1$s Lavendelweg  
+%1$s Lazarusstraße  
+%1$s Leanderweg  
+%1$s Lehdenweg  
+%1$s Leiblweg  
+%1$s Leibnitzstraße  
+%1$s Leibnizstraße
+%1$s Leibnizweg
+%1$s Leidholdstraße 
+%1$s Leinestraße   
+%1$s Leipziger Straße  
+%1$s Leisniger Straße  
+%1$s Lemseler Weg  
+%1$s Lenaustraße  
+%1$s Lene-Voigt-Straße  
+%1$s Lengefelder Straße  
+%1$s Lenzstraße  
+%1$s Leo-Tolstoi-Straße  
+%1$s Leonhard-Frank-Straße  
+%1$s Leonhardtstraße  
+%1$s Leopoldstraße  
+%1$s Leostraße  
+%1$s Leplaystraße 
+%1$s Lerchengrund  
+%1$s Lercheninsel  
+%1$s Lerchenrain  
+%1$s Lerchenweg  
+%1$s Lermastraße  
+%1$s Lermontowstraße  
+%1$s Les-Epesses-Straße  
+%1$s Lessingplatz  
+%1$s Lessingstraße  
+%1$s Lessingweg  
+%1$s Leuckartstraße  
+%1$s Leunaer Weg
+%1$s Leupoldstraße 
+%1$s Lewienstraße  
+%1$s Libellenstraße  
+%1$s Libertastraße  
+%1$s Lichtenbergweg  
+%1$s Lichtenfelser Straße  
+%1$s Lidicestraße  
+%1$s Liebensteiner Weg 
+%1$s Liebfrauenstraße  
+%1$s Liebigstraße
+%1$s Liechtensteinstraße  
+%1$s Ligusterweg  
+%1$s Liliensteinstraße  
+%1$s Lilienstraße  
+%1$s Lilienthalstraße  
+%1$s Lilienweg  
+%1$s Limburgerstraße  
+%1$s Lindenallee  
+%1$s Lindengasse  
+%1$s Lindennaundorfer Weg
+%1$s Lindenpark  
+%1$s Lindenstraße  
+%1$s Linkelstraße  
+%1$s Linnéstraße
+%1$s Lintacherstraße  
+%1$s Lionstraße  
+%1$s Lipinskistraße  
+%1$s Lippendorfer Straße  
+%1$s Liprandisdorfer Straße  
+%1$s Lipsiusstraße  
+%1$s Lise-Meitner-Straße  
+%1$s Liselotte-Herrmann-Straße   
+%1$s Littstraße  
+%1$s Liviastraße 
+%1$s Löbauer Straße   
+%1$s Lobelienweg  
+%1$s Lobensteiner Straße  
+%1$s Lobstädter Straße  
+%1$s Lochmannstraße  
+%1$s Logauweg  
+%1$s Löhrstraße  
+%1$s Lomonossowstraße  
+%1$s Lönsstraße  
+%1$s Lorenzstraße  
+%1$s Lortzingstraße 
+%1$s Losinskiweg  
+%1$s Lotterstraße  
+%1$s Lotzestraße  
+%1$s Louis-Fürnberg-Straße  
+%1$s Louise-Otto-Peters-Allee    
+%1$s Louise-Otto-Peters-Platz 
+%1$s Löwenzahnweg  
+%1$s Luchspfad  
+%1$s Luckaer Straße  
+%1$s Lucknerstraße  
+%1$s Lüderstraße  
+%1$s Ludolf-Colditz-Straße  
+%1$s Ludwig-Beck-Straße  
+%1$s Ludwig-Erhard-Straße   
+%1$s Ludwig-Hupfeld-Straße   
+%1$s Ludwig-Jahn-Straße  
+%1$s Ludwig-Thoma-Weg  
+%1$s Ludwigsburger Straße  
+%1$s Ludwigstraße   
+%1$s Luftschiffstraße  
+%1$s Lukasstraße  
+%1$s Lumumbastraße   
+%1$s Lupinenweg  
+%1$s Luppenaue  
+%1$s Luppenstraße
+%1$s Lurgensteins Steg  
+%1$s Lutherstraße  
+%1$s Lützner Plan 
+%1$s Lützner Straße 
+%1$s Lützowstraße   
+%1$s Lützschenaer Straße  
+%1$s Luz-Long-Weg  
+%1$s Lyoner Straße  
+%1$s Macherner Straße  
+%1$s Magazingasse  
+%1$s Magdalenenstraße  
+%1$s Magdeborner Straße  
+%1$s Magdeburger Straße  
+%1$s Magnusstraße  
+%1$s Mahlmannstraße   
+%1$s Maienweg  
+%1$s Maiglöckchenweg  
+%1$s Mainzer Straße  
+%1$s Majakowskistraße  
+%1$s Malachitstraße  
+%1$s Malteserstraße  
+%1$s Malvenweg  
+%1$s Manetstraße  
+%1$s Mannheimer Straße  
+%1$s Mansfelder Weg 
+%1$s Marbachstraße  
+%1$s Marcher Straße  
+%1$s Marchlewskiweg  
+%1$s Marcusgasse  
+%1$s Margaretenstraße  
+%1$s Margeritenweg
+%1$s Maria-Grollmuß-Straße  
+%1$s Mariannenpark  
+%1$s Mariannenstraße   
+%1$s Marienberger Straße 
+%1$s Marienplatz  
+%1$s Marienweg 
+%1$s Markgrafenstraße  
+%1$s Markkleeberger Straße  
+%1$s Markranstädter Straße  
+%1$s Markt  
+%1$s Markthallenstraße  
+%1$s Marktstraße
+%1$s Marmontstraße  
+%1$s Marpergerstraße  
+%1$s Marschnerstraße  
+%1$s Marsweg  
+%1$s Martin-Drucker-Straße  
+%1$s Martin-Herrmann-Straße  
+%1$s Martin-Luther-Ring    
+%1$s Martinsbogen  
+%1$s Martinshöhe  
+%1$s Martinsplatz  
+%1$s Martinstraße  
+%1$s Mascovstraße  
+%1$s Mathiesenstraße  
+%1$s Mathildenstraße  
+%1$s Matthäikirchhof  
+%1$s Mattheuerbogen  
+%1$s Matthias-Erzberger-Straße  
+%1$s Matthissonstraße  
+%1$s Matzelstraße  
+%1$s Mauersbergerstraße  
+%1$s Maulbeerweg  
+%1$s Maulwurfweg  
+%1$s Max-Beckmann-Straße  
+%1$s Max-Borsdorf-Straße  
+%1$s Max-Liebermann-Straße    
+%1$s Max-Lingner-Straße  
+%1$s Max-Metzger-Straße  
+%1$s Max-Planck-Straße 
+%1$s Max-Pommer-Straße  
+%1$s Max-Reger-Allee   
+%1$s Max-Reger-Straße  
+%1$s Max-Seyfert-Straße  
+%1$s Maximilian-Kolbe-Weg  
+%1$s Maximilianallee    
+%1$s Mechlerstraße  
+%1$s Mecklenburger Straße  
+%1$s Meininger Ring 
+%1$s Meisenweg  
+%1$s Meißner Straße  
+%1$s Melanchthonstraße  
+%1$s Melchthalweg  
+%1$s Melissenweg  
+%1$s Melker Weg  
+%1$s Melscher Straße  
+%1$s Menckestraße  
+%1$s Mendelejewstraße  
+%1$s Mendelssohnstraße  
+%1$s Menzingenweg  
+%1$s Merkurpromenade  
+%1$s Merkwitzer Landstraße  
+%1$s Merkwitzer Straße  
+%1$s Merseburger Straße 
+%1$s Messe-Allee
+%1$s Michael-Kazmierczak-Straße
+%1$s Michaelisstraße
+%1$s Miekeweg
+%1$s Mierendorffstraße
+%1$s Milanweg
+%1$s Miltenberger Straße 
+%1$s Mistelbacher Weg 
+%1$s Mistelbogen
+%1$s Mitschurinring
+%1$s Mitschurinstraße
+%1$s Mittelgasse
+%1$s Mittelring 
+%1$s Mittelstraße 
+%1$s Mittelweg
+%1$s Möbiusplatz 
+%1$s Möbiusstraße
+%1$s Mockauer Ring 
+%1$s Mockauer Straße 
+%1$s Mohnweg
+%1$s Molitorstraße
+%1$s Moltkestraße
+%1$s Moltrechtstraße 
+%1$s Mommsenstraße 
+%1$s Monarchenhügel
+%1$s Moosbeerweg
+%1$s Moränenweg
+%1$s Morawitzstraße
+%1$s Morellenweg 
+%1$s Morgensternstraße
+%1$s Mörikestraße
+%1$s Morungenstraße
+%1$s Moschelesstraße
+%1$s Mosenthinstraße
+%1$s Mothesstraße
+%1$s Mottelerstraße 
+%1$s Möwenweg
+%1$s Mozartstraße
+%1$s Mückenhainer Weg 
+%1$s Mühlbergsiedlung
+%1$s Mühlenplatz 
+%1$s Mühlenstraße
+%1$s Mühlenweg
+%1$s Mühlgrabenweg
+%1$s Mühlholzgasse 
+%1$s Mühligstraße
+%1$s Mühlparkweg
+%1$s Mühlstraße
+%1$s Mühlweg   
+%1$s Muldentalstraße  
+%1$s Müllerring  
+%1$s Münzgasse  
+%1$s Nachtigallenhain  
+%1$s Nachtigallenweg  
+%1$s Nagelstraße  
+%1$s Narsdorfer Straße  
+%1$s Narzissenweg  
+%1$s Naschmarkt  
+%1$s Natalienstraße  
+%1$s Nathanaelstraße
+%1$s Nathusiusstraße  
+%1$s Natonekstraße  
+%1$s Naumburger Straße  
+%1$s Naundörfchen  
+%1$s Naunhofer Landstraße   
+%1$s Naunhofer Straße  
+%1$s Nelkenweg  
+%1$s Neptunweg  
+%1$s Nerchauer Straße  
+%1$s Nernststraße  
+%1$s Neubauernstraße  
+%1$s Neuberinstraße  
+%1$s Neuburghausener Weg  
+%1$s Neudorfgasse  
+%1$s Neue Gutenbergstraße  
+%1$s Neue Hallesche Straße   
+%1$s Neue Leipziger Straße   
+%1$s Neue Linie  
+%1$s Neue Straße  
+%1$s Neuenburger Weg  
+%1$s Neuer Ring  
+%1$s Neuer Weg  
+%1$s Neumannstraße  
+%1$s Neumarkt  
+%1$s Neunkirchener Straße  
+%1$s Neuscherbitzer Gasse  
+%1$s Neustädter Markt  
+%1$s Neustädter Straße  
+%1$s Neutzscher Straße  
+%1$s Newtonstraße  
+%1$s Nibelungenring  
+%1$s Nickelmannweg  
+%1$s Niederkirchnerstraße  
+%1$s Nienborgstraße  
+%1$s Nieritzstraße  
+%1$s Nietzschestraße  
+%1$s Nikischplatz  
+%1$s Nikischstraße  
+%1$s Nikolai-Rumjanzew-Straße   
+%1$s Nikolaikirchhof  
+%1$s Nikolaistraße  
+%1$s Nimrodstraße  
+%1$s Nixenweg  
+%1$s Nobbeweg  
+%1$s Nollendorfstraße  
+%1$s Nonnenmühlgasse  
+%1$s Nonnenstraße  
+%1$s Nonnenweg  
+%1$s Norderneyer Weg  
+%1$s Nordhäuser Weg 
+%1$s Nordplatz  
+%1$s Nordstraße  
+%1$s Nordweg  
+%1$s Nürnberger Straße  
+%1$s Nußbaumallee  
+%1$s Nußbaumweg  
+%1$s Oberdorfstraße  
+%1$s Obere Eichstädtstraße  
+%1$s Obere Mühlenstraße  
+%1$s Obere Nordstraße  
+%1$s Oberhofer Weg  
+%1$s Oberholzstraße  
+%1$s Oberläuterstraße  
+%1$s Obernaundorfer Straße  
+%1$s Obludastraße  
+%1$s Ochsenweg  
+%1$s Odermannstraße
+%1$s Oelßnerstraße  
+%1$s Oelsnitzer Straße  
+%1$s Oertgering  
+%1$s Oeserstraße  
+%1$s Offenbachweg  
+%1$s Offenburger Straße  
+%1$s Ohmweg  
+%1$s Olbernhauer Straße  
+%1$s Olbrichtstraße    
+%1$s Olchinger Straße  
+%1$s Oldenburger Straße  
+%1$s Oleanderweg
+%1$s Ölhafenstraße
+%1$s Onckenstraße  
+%1$s Opalstraße  
+%1$s Opferweg  
+%1$s Orchideenweg  
+%1$s Orenburger Weg  
+%1$s Ortrunweg  
+%1$s Oschatzer Straße  
+%1$s Oskar-Calov-Straße  
+%1$s Ossietzkystraße  
+%1$s Osten-Sacken-Weg  
+%1$s Ostende  
+%1$s Österreicherweg  
+%1$s Ostheimstraße  
+%1$s Osthöhe  
+%1$s Ostplatz 
+%1$s Ostrowskistraße  
+%1$s Oststraße    
+%1$s Ostwaldstraße  
+%1$s Oswald-Kahnt-Ring  
+%1$s Oswaldstraße  
+%1$s Otterstraße  
+%1$s Otto-Adam-Straße  
+%1$s Otto-Engert-Straße  
+%1$s Otto-Heinze-Straße  
+%1$s Otto-Michael-Straße  
+%1$s Otto-Militzer-Straße  
+%1$s Otto-Runki-Platz  
+%1$s Otto-Schill-Straße  
+%1$s Otto-Schmiedt-Straße  
+%1$s Otto-Thiele-Straße  
+%1$s Ottostraße
+%1$s Packhofstraße  
+%1$s Pahlenweg  
+%1$s Palmstraße  
+%1$s Panitzstraße  
+%1$s Pansastraße
+%1$s Papiermühlstraße   
+%1$s Papitzer Straße  
+%1$s Pappelblick  
+%1$s Pappelhof  
+%1$s Pappelweg  
+%1$s Parkallee  
+%1$s Parkring  
+%1$s Parkstraße  
+%1$s Parkweg  
+%1$s Parthenstraße  
+%1$s Pater-Aurelius-Platz  
+%1$s Pater-Gordian-Straße   
+%1$s Paul-Ernst-Straße  
+%1$s Paul-Flechsig-Straße  
+%1$s Paul-Gerhardt-Weg  
+%1$s Paul-Gruner-Straße  
+%1$s Paul-Heyse-Straße  
+%1$s Paul-Klöpsch-Straße  
+%1$s Paul-Küstner-Straße 
+%1$s Paul-Langheinrich-Straße   
+%1$s Paul-List-Straße ost 
+%1$s Paul-Michael-Straße  
+%1$s Paul-Schneider-Straße  
+%1$s Paulinengrund  
+%1$s Paulinenstraße  
+%1$s Paulinerweg  
+%1$s Paußnitzstraße  
+%1$s Payrstraße  
+%1$s Peilickestraße  
+%1$s Pelzgasse  
+%1$s Penckstraße  
+%1$s Perlickstraße 
+%1$s Perlpilzweg  
+%1$s Permoserstraße      
+%1$s Perrestraße  
+%1$s Perthesstraße  
+%1$s Pestalozzistraße  
+%1$s Peter-Breuer-Weg  
+%1$s Peterskirchhof  
+%1$s Peterssteinweg  
+%1$s Petersstraße  
+%1$s Pettenkoferstraße   
+%1$s Petzscher Straße  
+%1$s Pfaffendorfer Straße 
+%1$s Pfaffensteinstraße
+%1$s Pfaffenweg
+%1$s Pfarrholzstraße
+%1$s Pfarrweg
+%1$s Pfeffingerstraße
+%1$s Pfeilstraße 
+%1$s Pferdnerstraße 
+%1$s Pfingstweide
+%1$s Pflaumenallee 
+%1$s Pflaumestraße 
+%1$s Pflugkstraße
+%1$s Philipp-Reis-Straße
+%1$s Philipp-Rosenthal-Straße
+%1$s Philippine-Arndt-Weg
+%1$s Phoenixweg
+%1$s Pilzanger 
+%1$s Pirolweg
+%1$s Pistorisstraße
+%1$s Pitschkestraße
+%1$s Pittlerstraße
+%1$s Plantagenweg 
+%1$s Platanenstraße
+%1$s Platanenweg
+%1$s Platnerstraße
+%1$s Platostraße
+%1$s Platz des 20. Juli 1944 
+%1$s Plauensche Straße 
+%1$s Plaußiger Dorfstraße 
+%1$s Plaußiger Straße 
+%1$s Plaußiger Weg 
+%1$s Plautstraße 
+%1$s Plösener Straße 
+%1$s Ploßstraße
+%1$s Plovdiver Straße 
+%1$s Podelwitzer Straße 
+%1$s Podelwitzer Weg 
+%1$s Poetenweg
+%1$s Pögnerstraße
+%1$s Pohlentzstraße
+%1$s Pohlestraße
+%1$s Polenweg
+%1$s Pölitzstraße 
+%1$s Polluxweg
+%1$s Pommernstraße
+%1$s Poniatowskiplan
+%1$s Ponickaustraße
+%1$s Popitzweg
+%1$s Pöppelmannstraße
+%1$s Pöppigstraße
+%1$s Porschestraße 
+%1$s Pörstener Straße 
+%1$s Portitzer Allee 
+%1$s Portitzer Straße 
+%1$s Portitzer Winkel 
+%1$s Portitzmühlweg
+%1$s Porzcikstraße
+%1$s Porzellangasse
+%1$s Posadowskyanlagen
+%1$s Posastraße
+%1$s Poserstraße
+%1$s Pösgrabenweg
+%1$s Pösnaer Straße 
+%1$s Postreitergasse
+%1$s Poststraße
+%1$s Potschkaustraße
+%1$s Pötzschker Weg 
+%1$s Prager Straße 
+%1$s Preiselbeerweg
+%1$s Prellerstraße
+%1$s Preußenseite
+%1$s Preußenstraße
+%1$s Preußergäßchen
+%1$s Prießnitzstraße
+%1$s Primavesistraße
+%1$s Primelweg 
+%1$s Prinz-Eugen-Straße 
+%1$s Prinzenweg
+%1$s Prof.-Andreas-Schubert-Straße
+%1$s Prof.-Dr.-Koch-Straße
+%1$s Pröttitzer Weg 
+%1$s Prünstraße
+%1$s Püchauer Straße 
+%1$s Pufendorfstraße
+%1$s Puschkinstraße
+%1$s Puschstraße
+%1$s Quasnitzer Höhe 
+%1$s Quasnitzer Weg 
+%1$s Queckstraße
+%1$s Quedlinburger Straße 
+%1$s Quermaße
+%1$s Querstraße
+%1$s Querweg
+%1$s Quittenweg
+%1$s Rabenerstraße 
+%1$s Rabensteinplatz 
+%1$s Rabenweg 
+%1$s Rackwitzer Straße 
+%1$s Radefelder Allee 
+%1$s Radefelder Straße 
+%1$s Radefelder Weg 
+%1$s Radiusstraße
+%1$s Raiffeisenstraße
+%1$s Raimundstraße
+%1$s Ranftsche Gasse 
+%1$s Rankestraße 
+%1$s Ranstädter Steinweg 
+%1$s Räpitzer Straße 
+%1$s Rapsweg 
+%1$s Rapunzelweg
+%1$s Raschwitzer Straße 
+%1$s Rasenweg
+%1$s Rathausring 
+%1$s Rathausstraße
+%1$s Rathenaustraße
+%1$s Ratsfreischulstraße
+%1$s Ratzelstraße 
+%1$s Rauchfussweg
+%1$s Raustraße 
+%1$s Rebhuhnsteig
+%1$s Reclamstraße
+%1$s Regenbogen
+%1$s Regensburger Straße 
+%1$s Reginenstraße
+%1$s Rehbacher Anger 
+%1$s Rehbacher Straße 
+%1$s Rehpfad
+%1$s Rehwagenstraße
+%1$s Reichelstraße
+%1$s Reichenberger Straße 
+%1$s Reichpietschstraße
+%1$s Reichsbahnerstraße
+%1$s Reichsstraße
+%1$s Reiherweg
+%1$s Reineckestraße
+%1$s Reinhardtstraße
+%1$s Reinhold-Krüger-Straße
+%1$s Reinhold-Schulze-Straße
+%1$s Reinmuthweg 
+%1$s Reiskestraße
+%1$s Reiterallee
+%1$s Rembrandtplatz 
+%1$s Rembrandtstraße
+%1$s Renftstraße
+%1$s Renkwitzstraße 
+%1$s Rennbahnweg
+%1$s Renoirstraße
+%1$s Resedaweg 
+%1$s Residenzstraße
+%1$s Reudnitzer Straße 
+%1$s Reuningstraße
+%1$s Richard-Dittrich-Straße
+%1$s Richard-Lehmann-Straße
+%1$s Richard-Leisebein-Straße 
+%1$s Richard-Springer-Weg
+%1$s Richard-Strauss-Platz 
+%1$s Richard-Wagner-Platz 
+%1$s Richard-Wagner-Straße
+%1$s Richterstraße
+%1$s Riebeckstraße 
+%1$s Riedelstraße
+%1$s Riemannstraße 
+%1$s Riesaer Straße 
+%1$s Riesenweg
+%1$s Rietschelstraße
+%1$s Rietzschkebogen
+%1$s Rietzschkegrund
+%1$s Rietzschkeweg
+%1$s Rietzschkewiesen 
+%1$s Rinckartstraße
+%1$s Ringelnatzweg
+%1$s Ringstraße
+%1$s Ringweg
+%1$s Rippachtalstraße 
+%1$s Ritter-Pflugk-Straße
+%1$s Rittergutsstraße
+%1$s Ritterlingsweg 
+%1$s Ritterspornweg
+%1$s Ritterstraße
+%1$s Robert-Blum-Platz 
+%1$s Robert-Blum-Straße
+%1$s Robert-Hanf-Weg 
+%1$s Robert-Koch-Platz
+%1$s Robert-Koch-Straße
+%1$s Robert-Koch-Weg
+%1$s Robert-Mayer-Straße
+%1$s Robert-Schumann-Straße
+%1$s Robert-Volkmann-Straße
+%1$s Robinienweg
+%1$s Rochlitzstraße 
+%1$s Röckener Straße 
+%1$s Rodelandstraße
+%1$s Rodelbahn
+%1$s Rödelstraße
+%1$s Rodinweg
+%1$s Roggenring
+%1$s Rohrteichstraße
+%1$s Rolf-Axen-Straße
+%1$s Rollerweg
+%1$s Romain-Rolland-Weg
+%1$s Römhilder Weg 
+%1$s Röntgenstraße 
+%1$s Rosa-Luxemburg-Straße
+%1$s Roßbachstraße
+%1$s Roscherstraße
+%1$s Roseggerstraße
+%1$s Roseggerweg 
+%1$s Rosenbaumstraße
+%1$s Rosenholzweg
+%1$s Rosenmüllerstraße
+%1$s Rosenowstraße
+%1$s Rosenstraße 
+%1$s Rosentalgasse 
+%1$s Rosenweg 
+%1$s Rosestraße
+%1$s Roßlauer Straße 
+%1$s Rosmarinweg 
+%1$s Roßmarkt
+%1$s Roßmarktstraße
+%1$s Roßmäßlerstraße 
+%1$s Roßplatz 
+%1$s Roßstraße
+%1$s Rostocker Straße 
+%1$s Rotbuchenweg
+%1$s Rotdornstraße 
+%1$s Rotfuchsstraße 
+%1$s Rothenburger Straße 
+%1$s Rotheplatz 
+%1$s Röthische Straße 
+%1$s Rotkäppchenweg
+%1$s Rotkehlchenweg  
+%1$s Rousseaustraße  
+%1$s Rubensstraße  
+%1$s Rübezahlweg  
+%1$s Rubinstraße  
+%1$s Rückertstraße  
+%1$s Rückmarsdorfer Straße  
+%1$s Rudi-Opitz-Straße  
+%1$s Rüdigerstraße  
+%1$s Rudolf-Breitscheid-Hof  
+%1$s Rudolf-Breitscheid-Straße  
+%1$s Rudolph-Herrmann-Straße  
+%1$s Rudolph-Sack-Straße  
+%1$s Rudolphstraße  
+%1$s Rundkapellenweg  
+%1$s Russenstraße   
+%1$s Ruststraße  
+%1$s Saalecker Straße  
+%1$s Saalfelder Straße 
+%1$s Saarbrückenstraße  
+%1$s Saarländer Straße 
+%1$s Saarlouiser Straße  
+%1$s Sabinenstraße  
+%1$s Sachsenhöhe  
+%1$s Sachsenlinie  
+%1$s Sachsenseite  
+%1$s Sachsenstraße  
+%1$s Sackestraße  
+%1$s Safranweg  
+%1$s Salamanderstraße  
+%1$s Salbeiweg  
+%1$s Salomonstraße  
+%1$s Salzgäßchen  
+%1$s Salzhandelsstraße  
+%1$s Salzmannstraße  
+%1$s Salzstraße  
+%1$s Salzweg  
+%1$s Samuel-Lampel-Straße  
+%1$s Sandberg  
+%1$s Sanddornweg  
+%1$s Sandgrubenweg  
+%1$s Sandmännchenweg  
+%1$s Sandweg  
+%1$s Saphirstraße  
+%1$s Sasstraße   
+%1$s Sattelhofstraße  
+%1$s Sattlerweg  
+%1$s Saturnstraße  
+%1$s Saxoniastraße  
+%1$s Schacherstraße  
+%1$s Schachtstraße  
+%1$s Schadowstraße  
+%1$s Schäferweg  
+%1$s Schäferwinkel  
+%1$s Schandauer Weg  
+%1$s Scharnhorststraße  
+%1$s Schatzweg  
+%1$s Schauerstraße  
+%1$s Scheffelstraße 
+%1$s Scheibenholzweg
+%1$s Schellingstraße 
+%1$s Schenderleinstraße
+%1$s Schenkendorfstraße
+%1$s Scherlstraße
+%1$s Scheumannstraße
+%1$s Schiebestraße 
+%1$s Schildberger Weg 
+%1$s Schillerplatz
+%1$s Schillerstraße 
+%1$s Schillerweg 
+%1$s Schillingstraße 
+%1$s Schimmelstraße 
+%1$s Schinkelstraße
+%1$s Schirmerstraße
+%1$s Schkeitbarer Weg 
+%1$s Schkeuditzer Straße 
+%1$s Schkorlopper Straße 
+%1$s Schladitzer Straße 
+%1$s Schlegelstraße
+%1$s Schlehdornweg
+%1$s Schlehenweg
+%1$s Schlesierstraße 
+%1$s Schletterstraße
+%1$s Schlippe
+%1$s Schlößchenweg
+%1$s Schloßgasse
+%1$s Schloßweg
+%1$s Schlotterbeckstraße
+%1$s Schmalkaldener Weg 
+%1$s Schmetterlingsweg 
+%1$s Schmidstraße
+%1$s Schmidt-Rühl-Straße
+%1$s Schmiedeberger Straße 
+%1$s Schmiedegasse
+%1$s Schmiedestraße
+%1$s Schmitzstraße 
+%1$s Schmutzlerstraße
+%1$s Schneeballweg
+%1$s Schneeberger Straße 
+%1$s Schneewittchenweg
+%1$s Schneiderstraße
+%1$s Schnittergasse 
+%1$s Schnorrstraße
+%1$s Schöfflerweg
+%1$s Schomburgkstraße
+%1$s Schönauer Allee 
+%1$s Schönauer Lachen 
+%1$s Schönauer Landstraße 
+%1$s Schönauer Ring 
+%1$s Schönauer Straße 
+%1$s Schönauer Weg 
+%1$s Schönbachstraße
+%1$s Schönbergstraße
+%1$s Schönefelder Allee 
+%1$s Schönefelder Straße 
+%1$s Schongauerstraße
+%1$s Schopenhauerstraße  
+%1$s Schorlemmerstraße  
+%1$s Schorndorfer Weg  
+%1$s Schrägweg  
+%1$s Schrammsteinstraße  
+%1$s Schrebergäßchen  
+%1$s Schreberstraße  
+%1$s Schreiberstraße  
+%1$s Schreinerweg  
+%1$s Schröderstraße  
+%1$s Schröterstraße  
+%1$s Schubarthstraße  
+%1$s Schubertstraße  
+%1$s Schuhmachergäßchen  
+%1$s Schulgasse  
+%1$s Schulstraße  
+%1$s Schulweg  
+%1$s Schulze-Boysen-Straße  
+%1$s Schulze-Delitzsch-Straße   
+%1$s Schulzeweg  
+%1$s Schützenhausstraße  
+%1$s Schützenstraße  
+%1$s Schützstraße  
+%1$s Schwabacher Straße  
+%1$s Schwägrichenstraße  
+%1$s Schwalbenweg  
+%1$s Schwanenweg  
+%1$s Schwantesstraße  
+%1$s Schwartzestraße  
+%1$s Schwarzackerstraße  
+%1$s Schwarzdornweg  
+%1$s Schwarzenbergweg  
+%1$s Schwarzer Weg  
+%1$s Schwedenstraße  
+%1$s Schweinfurter Straße  
+%1$s Schweizerbogen  
+%1$s Schwimmerstraße  
+%1$s Schwindstraße  
+%1$s Schwylststraße  
+%1$s Scipiostraße  
+%1$s Sebastian-Bach-Straße  
+%1$s Seebenischer Straße  
+%1$s Seebogen  
+%1$s Seeburgstraße 
+%1$s Seegeritzer Straße  
+%1$s Seegeritzer Weg  
+%1$s Seelenbinderstraße  
+%1$s Seelestraße  
+%1$s Seemannstraße  
+%1$s Seestraße   
+%1$s Seeweg  
+%1$s Seffnerstraße  
+%1$s Segerstraße  
+%1$s Seidelstraße  
+%1$s Seidengasse  
+%1$s Seifertshainer Straße  
+%1$s Seiffener Straße  
+%1$s Seilerweg  
+%1$s Seipelweg  
+%1$s Seitengasse  
+%1$s Seitenstraße  
+%1$s Seitenweg  
+%1$s Sellerhäuser Straße  
+%1$s Selliner Straße  
+%1$s Selneckerstraße  
+%1$s Semmelweisstraße  
+%1$s Semperstraße  
+%1$s Senefelderstraße  
+%1$s Sesenheimer Straße  
+%1$s Seumestraße  
+%1$s Shakespeareplatz  
+%1$s Shakespearestraße  
+%1$s Shukowstraße  
+%1$s Siedlereck  
+%1$s Siedlerweg  
+%1$s Siegfriedplatz  
+%1$s Siegfriedstraße  
+%1$s Siemensstraße  
+%1$s Siemeringstraße  
+%1$s Sigebandweg  
+%1$s Sigismundstraße  
+%1$s Silbermannstraße  
+%1$s Silcherstraße  
+%1$s Simildenstraße  
+%1$s Simón-Bolívar-Straße  
+%1$s Simonsplatz  
+%1$s Simsonplatz  
+%1$s Simsonstraße  
+%1$s Singdrosselweg  
+%1$s Siriusweg  
+%1$s Slevogtstraße  
+%1$s Smaragdstraße  
+%1$s Söllichauer Straße  
+%1$s Sommerfelder Straße   
+%1$s Sommerfelder Weg  
+%1$s Sommerlindenstraße  
+%1$s Sonneberger Weg 
+%1$s Sonnenblumenweg  
+%1$s Sonnengasse  
+%1$s Sonnenweg  
+%1$s Sonnenwinkel  
+%1$s Sophie-Scholl-Straße  
+%1$s Sophienstraße  
+%1$s Sorbenstraße  
+%1$s Sorbenweg  
+%1$s Sosaer Straße  
+%1$s Spalierweg  
+%1$s Spatzenweg  
+%1$s Spechtweg  
+%1$s Spendegasse  
+%1$s Sperlingsgasse  
+%1$s Sperlingsgrund  
+%1$s Sperontesstraße  
+%1$s Spetlakstraße  
+%1$s Spinnereistraße  
+%1$s Spittastraße 
+%1$s Spitzwegstraße  
+%1$s Spohrstraße 
+%1$s Sporergäßchen  
+%1$s Sportplatzstraße  
+%1$s Sportplatzweg  
+%1$s Sprikkenweg  
+%1$s Sprikkenwinkel  
+%1$s Springerstraße  
+%1$s Staffelsteinstraße  
+%1$s Stahmelner Allee  
+%1$s Stahmelner Anger  
+%1$s Stahmelner Höhe  
+%1$s Stahmelner Straße   
+%1$s Stallbaumstraße  
+%1$s Stammerstraße  
+%1$s Stammstraße  
+%1$s Stannebeinplatz  
+%1$s Stauffacherweg  
+%1$s Stauffenbergstraße  
+%1$s Stefan-Zweig-Straße  
+%1$s Steffensstraße  
+%1$s Stegerwaldstraße  
+%1$s Steinbachweg  
+%1$s Steinberger Straße  
+%1$s Steinbergstraße  
+%1$s Steinpilzweg  
+%1$s Steinstraße  
+%1$s Steinweg  
+%1$s Stentzlerstraße  
+%1$s Stephaniplatz 
+%1$s Stephanstraße
+%1$s Sternbachstraße  
+%1$s Sternenstraße  
+%1$s Sternenwinkel  
+%1$s Sternheimstraße  
+%1$s Sterntalerweg  
+%1$s Sternwartenstraße 
+%1$s Sternwartenweg  
+%1$s Stieglitzstraße  
+%1$s Stieglitzweg  
+%1$s Stifterstraße  
+%1$s Stiftsstraße  
+%1$s Stockartstraße  
+%1$s Stöckelplatz  
+%1$s Stöckelstraße  
+%1$s Stockmannstraße
+%1$s Stockstraße  
+%1$s Stöhrerstraße  
+%1$s Stollberger Straße  
+%1$s Stollestraße  
+%1$s Storchenweg  
+%1$s Stormstraße  
+%1$s Störmthaler Straße 
+%1$s Stralsunder Straße    
+%1$s Straßbergerstraße  
+%1$s Straße am Park   
+%1$s Straße am See   
+%1$s Straße der 53  
+%1$s Straße der Einheit  
+%1$s Straße des 17. Juni  
+%1$s Straße des 18. Oktober  
+%1$s Strelitzer Straße  
+%1$s Stresemannstraße  
+%1$s Stroganowweg  
+%1$s Strümpellstraße
+%1$s Stünzer Straße  
+%1$s Stünzer Weg  
+%1$s Sturmweg  
+%1$s Stuttgarter Allee   
+%1$s Südblick  
+%1$s Südplatz  
+%1$s Südstraße  
+%1$s Südtangente   
+%1$s Suhler Straße  
+%1$s Sulzbacher Straße  
+%1$s Swiftstraße  
+%1$s Sybelstraße  
+%1$s Sylter Straße  
+%1$s Szendreistraße  
+%1$s Tabakgasse  
+%1$s Talstraße  
+%1$s Tannenwaldstraße  
+%1$s Tannenweg  
+%1$s Tarostraße 
+%1$s Täschners Garten  
+%1$s Täschnerstraße  
+%1$s Täubchenweg 
+%1$s Taubenbergweg  
+%1$s Taubestraße  
+%1$s Tauchaer Straße    
+%1$s Taurusweg  
+%1$s Teerosenweg  
+%1$s Teichgräberstraße  
+%1$s Teichmannstraße  
+%1$s Teichstraße  
+%1$s Teichweg  
+%1$s Telemannstraße  
+%1$s Tellweg  
+%1$s Tennstedter Weg  
+%1$s Teschstraße  
+%1$s Teslastraße   
+%1$s Teubnerstraße  
+%1$s Thaerstraße  
+%1$s Thärigenstraße  
+%1$s Theobald-Beer-Straße  
+%1$s Theodor-Heuss-Straße   
+%1$s Theodor-Kunz-Ring  
+%1$s Theodor-Neubauer-Straße   
+%1$s Theodor-Voigt-Straße  
+%1$s Theresienstraße   
+%1$s Thiemstraße  
+%1$s Thierbacher Straße  
+%1$s Thierschstraße  
+%1$s Thietmarstraße 
+%1$s Thomas-Mann-Straße  
+%1$s Thomas-Müntzer-Straße  
+%1$s Thomas-Wagner-Straße  
+%1$s Thomasgasse  
+%1$s Thomasiusstraße  
+%1$s Thomaskirchhof  
+%1$s Thonberger Straße  
+%1$s Threnaer Straße  
+%1$s Thünenstraße  
+%1$s Thüringer Straße 
+%1$s Thymianweg  
+%1$s Tieckstraße  
+%1$s Tiefe Straße  
+%1$s Tiemannstraße  
+%1$s Tilman-Riemenschneider-Weg  
+%1$s Tintlingsweg  
+%1$s Tirolerweg  
+%1$s Tischbeinstraße  
+%1$s Titaniaweg  
+%1$s Tollweg  
+%1$s Topasstraße  
+%1$s Töpferstraße  
+%1$s Töpferweg  
+%1$s Torgauer Platz  
+%1$s Torgauer Straße    
+%1$s Tornauer Straße  
+%1$s Torstensonring  
+%1$s Torweg  
+%1$s Toskastraße  
+%1$s Trattendorfer Weg  
+%1$s Traubengasse  
+%1$s Travniker Straße   
+%1$s Trendelenburgstraße  
+%1$s Tresckowstraße  
+%1$s Triftsiedlung  
+%1$s Triftstraße  
+%1$s Triftweg  
+%1$s Trinitatisstraße  
+%1$s Tröndlinring   
+%1$s Trötzschelstraße  
+%1$s Trufanowstraße  
+%1$s Trusetaler Weg 
+%1$s Tschaikowskistraße 
+%1$s Tschammerstraße  
+%1$s Tschechenbogen  
+%1$s Tschernyschewskistraße  
+%1$s Tübkebogen  
+%1$s Tucholskystraße  
+%1$s Tulpenweg  
+%1$s Turgenjewstraße  
+%1$s Türkisstraße  
+%1$s Turmalinstraße  
+%1$s Turmgutstraße  
+%1$s Turmweg  
+%1$s Turnerstraße   
+%1$s Uferstraße  
+%1$s Uhlandstraße 
+%1$s Uhlandweg  
+%1$s Uhrigstraße  
+%1$s Ulmenweg  
+%1$s Ulmer Straße  
+%1$s Ulrichstraße  
+%1$s Undinenweg  
+%1$s Ungerstraße  
+%1$s Universitätsstraße  
+%1$s Untere Eichstädtstraße  
+%1$s Untere Mühlenstraße  
+%1$s Untere Nordstraße  
+%1$s Unterer Sandweg  
+%1$s Uranusstraße  
+%1$s Ursula-Götze-Straße   
+%1$s Václav-Neumann-Straße  
+%1$s Vater-Jahn-Straße  
+%1$s Veilchenweg  
+%1$s Verdistraße  
+%1$s Verlängerte Max-Liebermann-Straße  
+%1$s Verlängerte Schwedenstraße  
+%1$s Verlängerte Wilhelmstraße  
+%1$s Verrinaweg  
+%1$s Viaduktweg  
+%1$s Vierackerwiesen  
+%1$s Viertelsweg   
+%1$s Vierzehn-Bäume-Weg  
+%1$s Viktoriastraße  
+%1$s Virchowstraße    
+%1$s Vivaldistraße  
+%1$s Vlamenstraße  
+%1$s Voigtstraße  
+%1$s Volbedingstraße   
+%1$s Volckmarstraße 
+%1$s Volksgartenstraße  
+%1$s Vollhardtstraße  
+%1$s Voltairestraße  
+%1$s Voltaweg  
+%1$s Vor dem Hospitaltore 
+%1$s Vordere Schlobachstraße  
+%1$s Wachauer Straße  
+%1$s Wachberg  
+%1$s Wachbergallee  
+%1$s Wacholderweg  
+%1$s Wachsmuthstraße  
+%1$s Wachtelsteig  
+%1$s Wächterstraße  
+%1$s Waldbaurstraße  
+%1$s Waldblick  
+%1$s Waldemar-Götze-Straße  
+%1$s Waldkerbelstraße  
+%1$s Waldmeisterweg  
+%1$s Waldplatz 
+%1$s Waldrebenweg  
+%1$s Waldstraße  
+%1$s Waldweg  
+%1$s Waldwinkel  
+%1$s Waldzieststraße  
+%1$s Walnußweg  
+%1$s Walter-Albrecht-Weg  
+%1$s Walter-Barth-Straße  
+%1$s Walter-Cramer-Straße  
+%1$s Walter-Günther-Weg  
+%1$s Walter-Heinze-Straße  
+%1$s Walter-Heise-Straße  
+%1$s Walter-Köhn-Straße  
+%1$s Walter-Markov-Ring  
+%1$s Walterweg  
+%1$s Walther-Rathenau-Straße  
+%1$s Wangerooger Weg  
+%1$s Wartenburgstraße  
+%1$s Wasserstraße 
+%1$s Wasserturmstraße  
+%1$s Wasserturmweg  
+%1$s Wasserwerkstraße  
+%1$s Wasserwerksweg  
+%1$s Wasunger Straße 
+%1$s Watestraße  
+%1$s Watzdorfstraße  
+%1$s Weberknechtstraße  
+%1$s Wegastraße  
+%1$s Weheweg  
+%1$s Wehrmannstraße  
+%1$s Weickmannweg  
+%1$s Weidenbachplan  
+%1$s Weidenhof  
+%1$s Weidenhofweg  
+%1$s Weidenweg  
+%1$s Weidlichstraße  
+%1$s Weidmannstraße  
+%1$s Weidmannweg  
+%1$s Weigandtweg  
+%1$s Weigelienstraße  
+%1$s Weimarer Straße 
+%1$s Weinberg  
+%1$s Weinbergstraße  
+%1$s Weinbrennerstraße  
+%1$s Weinligstraße
+%1$s Weißdornstraße  
+%1$s Weißdornweg  
+%1$s Weißenfelser Straße  
+%1$s Weißeplatz  
+%1$s Weißestraße  
+%1$s Weizenweg  
+%1$s Wenckstraße  
+%1$s Wendelin-Hipler-Weg  
+%1$s Wendenstraße  
+%1$s Wendlerstraße  
+%1$s Werfelstraße  
+%1$s Werkstättenstraße   
+%1$s Werkstättenweg  
+%1$s Werkstraße  
+%1$s Wermsdorfer Straße  
+%1$s Wernerstraße  
+%1$s Wertheimer Straße  
+%1$s Westplatz  
+%1$s Weststraße  
+%1$s Wettiner Straße  
+%1$s Wetzelweg  
+%1$s Wichernstraße  
+%1$s Wiebelstraße   
+%1$s Wiedebachplatz  
+%1$s Wiedebachstraße  
+%1$s Wielandstraße
+%1$s Wieselsteig  
+%1$s Wieselstraße  
+%1$s Wiesenblumenweg  
+%1$s Wiesengrund  
+%1$s Wiesenrain   
+%1$s Wiesenring  
+%1$s Wiesenstraße  
+%1$s Wiesenweg  
+%1$s Wiesenwinkel  
+%1$s Wigandstraße  
+%1$s Wigmanstraße  
+%1$s Wildbuschweg  
+%1$s Wildentensteig  
+%1$s Wildschweinpfad  
+%1$s Wilhelm-Busch-Straße   
+%1$s Wilhelm-His-Straße  
+%1$s Wilhelm-Leuschner-Platz   
+%1$s Wilhelm-Liebknecht-Platz  
+%1$s Wilhelm-Michel-Straße  
+%1$s Wilhelm-Pfennig-Straße  
+%1$s Wilhelm-Plesse-Straße  
+%1$s Wilhelm-Sammet-Straße   
+%1$s Wilhelm-Seyfferth-Straße  
+%1$s Wilhelm-Wild-Straße  
+%1$s Wilhelm-Winkler-Straße  
+%1$s Wilhelm-Wundt-Platz  
+%1$s Wilhelminenstraße  
+%1$s Wilhelmstraße  
+%1$s Willi-Bredel-Straße  
+%1$s William-Zipperer-Straße   
+%1$s Willmar-Schwabe-Ring  
+%1$s Willmar-Schwabe-Straße  
+%1$s Willy-Brandt-Platz    
+%1$s Wilsnacker Straße  
+%1$s Wincklerstraße  
+%1$s Windmühlenstraße 
+%1$s Windmühlenweg  
+%1$s Windorfer Straße  
+%1$s Windscheidstraße  
+%1$s Windsheimer Straße  
+%1$s Wingertgasse  
+%1$s Winkelstraße  
+%1$s Wintergartenstraße  
+%1$s Wintzingerodeweg  
+%1$s Winzerweg  
+%1$s Wiprechtstraße
+%1$s Wiskenstraße   
+%1$s Witkowskistraße  
+%1$s Wittenberger Straße  
+%1$s Wittestraße  
+%1$s Wittgensteinweg  
+%1$s Wittstockstraße  
+%1$s Witzgallstraße  
+%1$s Witzlebenstraße  
+%1$s Wöbbeliner Straße   
+%1$s Wodanstraße   
+%1$s Wognaundorfer Gasse  
+%1$s Wohlgemuthstraße  
+%1$s Wolfener Straße  
+%1$s Wolffstraße  
+%1$s Wolfgang-Heinze-Straße  
+%1$s Wolfshainer Straße  
+%1$s Wölkauer Weg  
+%1$s Wolkenweg  
+%1$s Wollkämmereistraße  
+%1$s Wöllnerstraße  
+%1$s Wolteritzer Weg  
+%1$s Wörlitzer Straße  
+%1$s Wunderlichstraße  
+%1$s Wundtstraße     
+%1$s Würkertstraße  
+%1$s Würzburger Straße  
+%1$s Wurzner Straße    
+%1$s Wustmannstraße  
+%1$s Wuttkestraße  
+%1$s Yorck-Diebitsch-Straße  
+%1$s Yorckstraße  
+%1$s Zadestraße  
+%1$s Zauberweg  
+%1$s Zaucheblick  
+%1$s Zaucheweg  
+%1$s Zaunkönigweg  
+%1$s Zedernholzweg  
+%1$s Zehmenstraße  
+%1$s Zehmischstraße  
+%1$s Zeisigweg  
+%1$s Zeitzer Straße  
+%1$s Zentralstraße  
+%1$s Zerbster Straße  
+%1$s Zeumerstraße  
+%1$s Ziegeleiweg  
+%1$s Ziegelstraße   
+%1$s Zillerstraße  
+%1$s Zillstraße  
+%1$s Zimmerstraße  
+%1$s Zingster Straße  
+%1$s Zinnienweg  
+%1$s Ziolkowskistraße  
+%1$s Zirkonstraße  
+%1$s Zittauer Straße  
+%1$s Ziustraße  
+%1$s Zolaweg  
+%1$s Zollikoferstraße  
+%1$s Zöllnerweg
+%1$s Zollschuppenstraße  
+%1$s Zschampertaue  
+%1$s Zschochersche Allee  
+%1$s Zschochersche Straße   
+%1$s Zschölkauer Weg  
+%1$s Zschopauer Straße  
+%1$s Zschortauer Straße  
+%1$s Zu den Bruchwiesen  
+%1$s Zu den Drei Kugeln  
+%1$s Zu den Gärten  
+%1$s Zu den Wiesen  
+%1$s Zuckelhausener Ring  
+%1$s Zuckelhäuser Straße  
+%1$s Zum Alten Seebad   
+%1$s Zum Alten Wasserwerk  
+%1$s Zum Althener Sportplatz  
+%1$s Zum Apelstein  
+%1$s Zum Auwald  
+%1$s Zum Bahnhof  
+%1$s Zum Birkenwäldchen  
+%1$s Zum Denkmal  
+%1$s Zum Dölitzer Schacht  
+%1$s Zum Feld  
+%1$s Zum Förderturm    
+%1$s Zum Forstgut  
+%1$s Zum Frischemarkt  
+%1$s Zum Haksch  
+%1$s Zum Harfenacker  
+%1$s Zum Kalten Born  
+%1$s Zum Kleewinkel  
+%1$s Zum Kleingartenpark 
+%1$s Zum Lippenplan   
+%1$s Zum Rosengarten  
+%1$s Zum Schwinderplan  
+%1$s Zum Sonnenblick  
+%1$s Zum Wald  
+%1$s Zum Waldbad  
+%1$s Zum Wäldchen  
+%1$s Zum Wasserturm  
+%1$s Zum Winkel  
+%1$s Zur Alten Bäckerei  
+%1$s Zur Alten Sandgrube  
+%1$s Zur Alten Schmiede  
+%1$s Zur Alten Weintraube  
+%1$s Zur Bauernwiese  
+%1$s Zur Grünen Ecke  
+%1$s Zur Heide  
+%1$s Zur Kuhweide  
+%1$s Zur Lehmbahn  
+%1$s Zur Lindenhöhe  
+%1$s Zur Loberaue  
+%1$s Zur Rodelbahn  
+%1$s Zur Sägemühle  
+%1$s Zur Schule  
+%1$s Zur Weißen Mark  
+%1$s Zur Ziegelei  
+%1$s Zusestraße  
+%1$s Zweenfurther Straße  
+%1$s Zweifelstraße  
+%1$s Zweinaundorfer Straße   
+%1$s Zwenkauer Straße  
+%1$s Zwergasternweg  
+%1$s Zwergenweg  
+%1$s Zwergmispelstraße  
+%1$s Zwetschgenweg  
+%1$s Zwickauer Straße   
+%1$s Zwiebelweg  

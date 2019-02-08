@@ -1,0 +1,389 @@
+################################################################################
+#                                PAK192.COMIC                                  #
+################################################################################
+#          !!! I M P O R T A N T !!! --- !!! W I C H T I G !!!                 #
+#                                                                              #
+# English:                                                                     #
+#  Please note that changes to this file errors in the conduct of the game can #
+#  occur. Modify data only if they are absolutely sure that they know what     #
+#  impact these changes have!                                                  #
+#                                                                              #
+# German:                                                                      #
+#  Bitte beachten sie, das Änderungen an dieser Datei Fehler im Verhalten des  #
+#  Spieles auftreten können. Verändern sie nur Daten wenn sie absolut sicher   #
+#  sind, das sie Wissen was für Folgen diese Änderungen haben!                 #
+#                                                                              #
+#                                                                              #
+#   When you make changes in this file please remember that when you make a    #
+#                       bug report in Simutrans Forum!                         #
+################################################################################
+
+# how far cities should be minimum apart (default 16)
+minimum_city_distance = 64
+
+# chance for renovation versus new building (bigger number => less sprawling) (original war 13)
+renovation_percentage = 1
+
+# at which number of inhabitants we need a new market?
+industry_increase_every = 5000
+
+# citys will not growth further along exiting roads, if the buildings density is lower (in percent)
+minimum_building_desity = 33
+
+#
+# relative affinities for certain building types which can lead to clustering of certain building types
+#
+
+# avoid building next to industry
+res_start_score = 0
+res_near_ind = -8
+res_near_com = 0
+res_near_res = 8
+
+# everywhere is good, next to com best
+com_start_score = -10
+com_near_ind = 1
+com_near_com = 8
+com_near_res = 1
+
+# next to res means expensive filters and no truck after 10 pm => avoid this ...
+ind_start_score = 0
+ind_near_ind = 8
+ind_near_com = 0
+ind_near_res = -8
+
+
+#
+# now the actual building rules. They can be up to 7x7.
+# allowed sizes are 3x3 5x5 and 7x7!
+#
+
+#
+# Symbols in rules:
+# S = must not be road
+# s = must be road
+# n = must be bare land
+# H = must not be house
+# h = must be house
+# T = must not be a stop
+# t = must be a stop
+# . = anything matches
+# SPACE = next row
+#
+# Each row must have EXACTLY the same number of members!
+#
+
+#### H O U S E S ####
+
+### House at the corner
+##
+# . . . . . . .
+# . . . . . . .
+# . . . . . . .
+# . . . n s . .
+# . . . s s . .
+# . . . . . . .
+# . . . . . . .
+#
+house_1 = ....... ....... ....... ...ns.. ...ss.. ....... .......
+house_1.chance = -2
+house_2 = ....... ....... ....... ..sn... ..ss... ....... .......
+house_2.chance = -2
+
+### House one tile from the corner
+##
+# . . . . . . .
+# . . . . . . .
+# . . . . . . .
+# . . . n h s .
+# . . . s s s .
+# . . . . . . .
+# . . . . . . .
+#
+house_3 = ....... ....... ....... ...nhs. ...sss. ....... .......
+house_3.chance = -2
+house_4 = ....... ....... ....... .shn... .sss... ....... .......
+house_4.chance = -2
+
+### House three tiles from the corner
+##
+# . . . . . . .
+# . . . . . . .
+# . . . . . . .
+# . . . n h h s
+# . . . s s s s
+# . . . . . . .
+# . . . . . . .
+#
+house_5 = ....... ....... ....... ...nhhs ...ssss ....... .......
+house_5.chance = -2
+house_6 = ....... ....... ....... shhn... ssss... ....... .......
+house_6.chance = -2
+
+### House between other two
+##
+# . . . . . . .
+# . . . . . . .
+# . . . S . . .
+# . . h n h . .
+# . . s s s . .
+# . . . . . . .
+# . . . . . . .
+#
+house_7 = ....... ....... ...S... ..hnh.. ..sss.. ....... .......
+house_7.chance = -2
+
+### House at a dead end
+##
+# . . . . . . .
+# . . . . . . .
+# . . . h . . .
+# . . . n . . .
+# . . . s . . .
+# . . . . . . .
+# . . . . . . .
+#
+house_8 = ....... ....... ...h... ...n... ...s... ....... .......
+house_8.chance = -2
+##
+# . . . . . . .
+# . . S h S . .
+# . . S S S . .
+# . . S n S . .
+# . . S s S . .
+# . . s s s . .
+# . . . . . . .
+#
+house_9 = ....... ....... ..ShS.. ..SnS.. ..SsS.. ..sss.. .......
+house_9.chance = -2
+
+### House near an end
+##
+# . . . . . . .
+# . . . . . . .
+# . . S S . . .
+# . . S n . . .
+# . S s S . . .
+# . s s s . . .
+# . . . . . . .
+house_10 = ....... ....... ..SS... ..Sn... .SsS... .sss... .......
+house_10.chance = -2
+house_11 = ....... ....... ...SS.. ...nS.. ...SsS. ...sss. .......
+house_11.chance = -2
+
+## House near a stop
+##
+# . . . . . . .
+# . . . . . . .
+# . . . . . . .
+# . . . n . . .
+# . . s t s . .
+# . . . . . . .
+# . . . . . . .
+#
+house_12 = ....... ....... ....... ...n... ..sts.. ....... .......
+house_12.chance = -2
+##
+# . . . . . . .
+# . . . . . . .
+# . . . . . . .
+# . . . n . . .
+# . s t s . . .
+# . . . . . . .
+# . . . . . . .
+#
+house_13 = ....... ....... ....... ...n... .sts... ....... .......
+house_13.chance = -2
+house_14 = ....... ....... ....... ...n... ...sts. ....... .......
+house_14.chance = -2
+##
+# . . . . . . .
+# . . . . . . .
+# . . . . . . .
+# . . . n . . .
+# s t s . . . .
+# . . . . . . .
+# . . . . . . .
+#
+house_15 = ....... ....... ....... ...n... sts.... ....... .......
+house_15.chance = -2
+house_16 = ....... ....... ....... ...n... ....sts ....... .......
+house_16.chance = -2
+
+
+#### R O A D S ####
+
+### Straight Road
+##
+# . . . . . . .
+# . . . . . . .
+# . . . S . . .
+# . s s n H H H
+# . . . S . . .
+# . . . . . . .
+# . . . . . . .
+#
+road_1 = ....... ....... ...S... .ssnHHH ...S... ....... .......
+road_1.chance = -4
+
+### T Crossing
+##
+# . . . . . . .
+# . . . H . . .
+# . S S H S S .
+# . S S n S S .
+# . . . s s H .
+# . S S . S S .
+# . S S . S S .
+#
+road_2 = ....... ...H... .SSHSS. .SSnSS. ...ssH. .SS.SS. .SS.SS.
+road_2.chance = -2
+road_3 = ....... ...H... .SSHSS. .SSnSS. .Hss... .SS.SS. .SS.SS.
+road_3.chance = -2
+
+### Z Crossing
+##
+# . . . . . . .
+# . . . H . . .
+# . S S H S S .
+# . S S n S S .
+# . H H s s s .
+# . . S S S s .
+# . . S S S H .
+#
+road_4 = ....... ...H... .SSHSS. .SSnSS. .HHsss. ..SSSs. ..SSSH.
+road_4.chance = -4
+road_5 = ....... ...H... .SSHSS. .SSnSS. .sssHH. .sSSS.. .HSSS..
+road_5.chance = -4
+
+### Links
+##
+# . . . . . . .
+# . S S s S S .
+# . S S s S S .
+# . s s n s s .
+# . . S . S . .
+# . . S . S . .
+# . . . . . . .
+#
+road_6 = ....... ..SsS.. ..SsS.. .ssnss. ..S.S.. ..S.S.. .......
+road_6.chance = -4
+##
+# . . . . . . .
+# . . S S S . .
+# . . S S S . .
+# . s s n s s .
+# . . S S S . .
+# . . S S S . .
+# . . . . . . .
+#
+road_7 = ....... ..SSS.. ..SSS.. .ssnss. ..SSS.. ..SSS.. .......
+road_7.chance = -4
+##
+# . . . . . . .
+# . . . . . . .
+# . . S . S . .
+# . s s n . . .
+# . . S s S . .
+# . . . s . . .
+# . . . . . . .
+#
+road_8 = ....... ....... ..S.S.. .ssn... ..SsS.. ...s... .......
+road_8.chance = -4
+road_9 = ....... ....... ..S.S.. ...nss. ..SsS.. ...s... .......
+road_9.chance = -4
+##
+# . . . . . . .
+# . . . . . . .
+# . . S S s S .
+# . s s n s . .
+# . . S S s S .
+# . . . . . . .
+# . . . . . . .
+#
+road_10 = ....... ....... ..SSsS. .ssns.. ..SSsS. ....... .......
+road_10.chance = -4
+road_11 = ....... ....... .SSsS.. ..snss. .SSsS.. ....... .......
+road_11.chance = -4
+##
+# . . . . . . .
+# . . . . . . .
+# . . . h s h .
+# . . . n s . .
+# . . h s h . .
+# . . S s S . .
+# . . . . . . .
+#
+road_12 = ....... ....... ...hsh. ...ns.. ..hsh.. ..SsS.. .......
+road_12.chance = -4
+road_13 = ....... ....... .hsh... ..sn... ..hsh.. ..SsS.. .......
+road_13.chance = -4
+##
+# . . . . . . .
+# . . . . . . .
+# . . . s s s s
+# . . . n . . .
+# . . . s . . .
+# . . . s . . .
+# . . . s . . .
+#
+road_14 = ....... ....... ...ssss ...n... ...s... ...s... ...s...
+road_14.chance = -4
+road_15 = ....... ....... ssss... ...n... ...s... ...s... ...s...
+road_15.chance = -4
+road_16 = ....... ....... ....... sssn... ...s... ...s... ...s...
+road_16.chance = -4
+##
+# . . . . . . .
+# . . . . . . .
+# . S S s s s s
+# . S S n S S .
+# s s s H S S .
+# . . . . . . .
+# . . . . . . .
+#
+road_17 = ....... ....... .SSssss .SSnSS. sssHSS. ....... .......
+road_17.chance = -4
+road_18 = ....... ....... ssssSS. .SSnSS. .SSHsss ....... .......
+road_18.chance = -4
+
+
+### Cutting diagonals
+##
+# . . . H . . .
+# . . S H S S .
+# . S S H S s s
+# H H H n s s S
+# . S S s s S .
+# . S s s S . .
+# . . s . . . .
+#
+road_19 = ....... ..S.SS. .SS.Sss HHHnssS .SSssS. .SssS.. ..s....
+road_19.chance = -4
+road_20 = ....... .SS.S.. ssS.SS. SssnHHH .SssSS. ..SssS. ....s..
+road_20.chance = -4
+road_21 = ...H... ..SHSS. .SSHSss ...nssS .SSssS. .SssS.. ..s....
+road_21.chance = -4
+road_22 = ...H... .SSHS.. ssSHSS. Sssn... .SssSS. ..SssS. ....s..
+road_22.chance = -4
+road_23 = ....... ....... ....... sssnss. .SSssS. .SssS.. ..s....
+road_23.chance = -8
+road_24 = ....... ....... ....... .ssnsss .SssSS. ..SssS. ....s..
+road_24.chance = -8
+road_25 = ...s... ....... ....... ...nss. .SSssS. .SssS.. ..s....
+road_25.chance = -8
+road_26 = ...s... ....... ....... .ssn... .SssSS. ..SssS. ....s..
+road_26.chance = -8
+##
+# . . . . . . .
+# . . . S . . .
+# . . S S . S .
+# . H H n s s s
+# . . S S s s .
+# . . S s s . .
+# . . . s . . .
+#
+road_27 = ....... ...S... ..SS.S. .HHnsss ..SSss. ..Sss.. ...s...
+road_27.chance = -4
+road_28 = ....... ...S... .S.SS.. sssnHH. .ssSS.. ..ssS.. ...s...
+road_28.chance = -4

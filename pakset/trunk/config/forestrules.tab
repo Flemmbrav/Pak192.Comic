@@ -1,0 +1,40 @@
+################################################################################
+#                                PAK192.COMIC                                  #
+################################################################################
+#          !!! I M P O R T A N T !!! --- !!! W I C H T I G !!!                 #
+#                                                                              #
+# English:                                                                     #
+#  Please note that changes to this file errors in the conduct of the game can #
+#  occur. Modify data only if they are absolutely sure that they know what     #
+#  impact these changes have!                                                  #
+#                                                                              #
+# German:                                                                      #
+#  Bitte beachten sie, das Änderungen an dieser Datei Fehler im Verhalten des  #
+#  Spieles auftreten können. Verändern sie nur Daten wenn sie absolut sicher   #
+#  sind, das sie Wissen was für Folgen diese Änderungen haben!                 #
+#                                                                              #
+#                                                                              #
+#   When you make changes in this file please remember that when you make a    #
+#                       bug report in Simutrans Forum!                         #
+################################################################################
+
+# Number of trees on square 2 - minimal usable, 3 good, 4 very nice looking
+forest_no_of_trees_per_square = 5
+
+# Base forest size - minimal size of forest - map independent
+forest_base_size = 36
+
+# Map size divisor - smaller it is the larger are individual forests
+forest_map_size_divisor = 38
+
+# Forest count divisor - smaller it is, the more forest are generated
+forest_count_divisor = 16
+
+# Forest boundary sharpenss: 0 - perfectly sharp boundaries, 20 - very blurred
+forest_boundary_blur = 10
+
+# Forest boundary thickness  - determines how thick will the boundary line be
+forest_boundary_thickness = 2
+
+# Determins how dense are spare trees going to be planted (works inversly)
+forest_inverse_spare_tree_density = 400

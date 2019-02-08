@@ -1,0 +1,41 @@
+obj=building
+name=maglev_station_pax_medium
+copyright=Schnils
+intro_month=1
+intro_year=2003
+type=stop
+waytype=maglev_track
+enables_pax=1
+noinfo=1
+level=8
+icon=> ./images/station/station_maglev_pax_1.3.0
+cursor=./images/station/station_maglev_pax_1.3.1
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./images/station/station_maglev_pax_1.1.1
+FrontImage[4][0][0][0][0][0]=-
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./images/station/station_maglev_pax_1.2.1
+FrontImage[0][0][0][0][0][0]=-
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./images/station/station_maglev_pax_1.0.1
+FrontImage[2][0][0][0][0][0]=-
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./images/station/station_maglev_pax_1.1.0
+FrontImage[5][0][0][0][0][0]=-
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./images/station/station_maglev_pax_1.2.0
+FrontImage[1][0][0][0][0][0]=-
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./images/station/station_maglev_pax_1.0.0
+FrontImage[3][0][0][0][0][0]=-
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./images/station/station_maglev_pax_1.2.1
+FrontImage[6][0][0][0][0][0]=-
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./images/station/station_maglev_pax_1.2.0
+FrontImage[7][0][0][0][0][0]=-
+
+Dims=1,1,8

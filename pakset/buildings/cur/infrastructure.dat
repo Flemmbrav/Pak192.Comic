@@ -1,0 +1,20 @@
+################################################################################
+#                                PAK192.COMIC                                  #
+################################################################################
+#                               INFRASTRUCTURE                                 #
+#  Simutrans is no Simcity, so gameplaywise, no city infrastructure is needed  #
+# However, buildings like firefighters and hospitals are ideal to use as a cur #
+################################################################################
+obj=building
+name=cur_land_radiotower
+copyright=PappeTeeMaster
+intro_month=7
+intro_year=1951
+type=cur
+Chance=25
+level=1
+build_time=0
+needs_ground=1
+climates=mediterran, temperate, tundra, rocky, arctic
+BackImage[0][0][0][0][0][0]=./images/Funkmast.1.0
+BackImage[0][0][0][1][0][0]=./images/Funkmast.0.0

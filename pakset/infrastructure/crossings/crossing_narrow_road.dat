@@ -1,0 +1,17 @@
+obj=crossing
+name=narrowgauge-road-crossing
+copyright=PappeTeeMaster
+waytype[0]=road
+waytype[1]=track
+speed[0]=100
+speed[1]=90
+
+openimage[ns][0]=./images/crossing_narrow_road.1.0
+front_openimage[ns][0]=./images/crossing_narrow_road.0.0
+closedimage[ns][0]=./images/crossing_narrow_road.1.0
+front_closedimage[ns][0]=./images/crossing_narrow_road.0.0
+
+openimage[ew][0]=./images/crossing_narrow_road.1.1
+front_openimage[ew][0]=./images/crossing_narrow_road.0.1
+closedimage[ew][0]=./images/crossing_narrow_road.1.1
+front_closedimage[ew][0]=./images/crossing_narrow_road.0.1

@@ -1,0 +1,184 @@
+obj=climates_text
+name=arctic
+---
+obj=climates_text
+name=desert
+---
+obj=climates_text
+name=mediterran
+---
+obj=climates_text
+name=rocky
+---
+obj=climates_text
+name=temperate
+---
+obj=climates_text
+name=tropic
+---
+obj=climates_text
+name=tundra
+---
+obj=error_text
+name=Zughalt muss auf\nSchiene liegen!\n
+---
+obj=error_text
+name=Narrowgaugehalt muss auf\nNarrowgauge liegen!\n
+---
+obj=error_text
+name=Monorailhalt muss auf\nMonorail liegen!\n
+---
+obj=error_text
+name=Monorailhalt muss auf\nMonorail liegen!\n
+---
+obj=menu_text
+name=AIRTOOLS
+---
+obj=menu_text
+name=EDITTOOLS
+---
+obj=menu_text
+name=LISTTOOLS
+---
+obj=menu_text
+name=MAGLEVTOOLS
+---
+obj=menu_text
+name=SCHWEBEBAHN
+---
+obj=menu_text
+name=NARROWGAUGETOOLS
+---
+obj=menu_text
+name=RAILTOOLS
+---
+obj=menu_text
+name=ROADTOOLS
+---
+obj=menu_text
+name=SHIPTOOLS
+---
+obj=menu_text
+name=SLOPETOOLS
+---
+obj=menu_text
+name=SPECIALTOOLS
+---
+obj=menu_text
+name=TRAMTOOLS
+---
+obj=menu_text
+name=BUILDINGS
+---
+obj=menu_text
+name=ABRISSTOOLS
+---
+obj=menu_text
+name=LISTTOOLS
+---
+obj=menu_text
+name=VIEW
+---
+obj=menu_text
+name=SLOPETOOLSEXTRA
+---
+obj=record_text
+name=New world record for maglevs: %.1f km/h by %s.
+---
+obj=record_text
+name=New world record for monorails: %.1f km/h by %s.
+---
+obj=record_text
+name=New world record for motorcars: %.1f km/h by %s.
+---
+obj=record_text
+name=New world record for narrowgauges: %.1f km/h by %s.
+---
+obj=record_text
+name=New world record for planes: %.1f km/h by %s.
+---
+obj=record_text
+name=New world record for railways: %.1f km/h by %s.
+---
+obj=record_text
+name=New world record for ship: %.1f km/h by %s.
+---
+obj=program_text
+name=Narrowgauge
+---
+obj=program_text
+name=narrowgauge vehicle
+---
+obj=program_text
+name=Narrowgaugedepot
+---
+obj=program_text
+name=narrowgauge_track
+---
+obj=program_text
+name=track
+---
+obj=program_text
+name=Train
+---
+obj=program_text
+name=tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
+---
+obj=program_text
+name=Speedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
+---
+obj=program_text
+name=remove narrowgauge tracks
+---
+obj=program_text
+name=remove monorails
+---
+obj=program_text
+name=remove tracks
+---
+obj=program_text
+name=CATEGORY_01
+---
+obj=program_text
+name=CATEGORY_02
+---
+obj=program_text
+name=CATEGORY_03
+---
+obj=program_text
+name=CATEGORY_04
+---
+obj=program_text
+name=CATEGORY_05
+---
+obj=program_text
+name=CATEGORY_06
+---
+obj=program_text
+name=CATEGORY_07
+---
+obj=program_text
+name=CATEGORY_08
+---
+obj=program_text
+name=CATEGORY_09
+---
+obj=program_text
+name=CATEGORY_10
+---
+obj=program_text
+name=clf_chk_narrowgauge
+---
+obj=program_text
+name=clf_chk_trains
+---
+obj=program_text
+name=clf_chk_monorail
+---
+
+
+
+
+
+
+

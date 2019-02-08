@@ -1,0 +1,10 @@
+obj=building
+name=sea_depot
+copyright=Leartin
+type=depot
+intro_year=1800
+waytype=water
+icon=> ./images/sea_depot.0.1
+cursor=./images/sea_depot.0.2,-96,-97
+Dims=1,1,1
+FrontImage[0][0][0][0][0][0]=./images/sea_depot.0.0,-96,-85

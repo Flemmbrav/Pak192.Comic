@@ -1,0 +1,25 @@
+obj=vehicle
+name=Rh 1822
+copyright=PappeTeeMaster
+waytype=narrowgauge_track
+engine_type=electric
+intro_year=1990
+intro_month=1
+retire_year=1995
+retire_month=12
+speed=140
+power=4400
+gear=152
+weight=82
+runningcost=4347
+cost=152170726
+length=10
+emptyimage[e]=./image/rh1822.0.0
+emptyimage[n]=./image/rh1822.1.1
+emptyimage[ne]=./image/rh1822.1.3
+emptyimage[nw]=./image/rh1822.1.2
+emptyimage[s]=./image/rh1822.0.1
+emptyimage[se]=./image/rh1822.0.2
+emptyimage[sw]=./image/rh1822.0.3
+emptyimage[w]=./image/rh1822.1.0
+-----

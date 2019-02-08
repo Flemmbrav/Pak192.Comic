@@ -1,0 +1,11 @@
+obj=building
+name=schmalspur_depot
+copyright=Leartin
+type=depot
+waytype=track
+intro_year=1835
+icon=> ./images/ng_depot.0.4
+cursor=./images/ng_depot.1.4
+Dims=1,1,4
+BackImage[0-3][0][0][0][0][0-1]=./images/ng_depot.<$1*2>.<$0>
+FrontImage[0-3][0][0][0][0][0-1]=./images/ng_depot.<$1*2+1>.<$0>

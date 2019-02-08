@@ -1,0 +1,12 @@
+obj=building
+name=maglev_depot
+copyright=Leartin
+type=depot
+waytype=maglev_track
+intro_month=2
+intro_year=1997
+icon=> ./images/maglevdepot.4.0
+cursor=./images/maglevdepot.4.1
+Dims=1,1,4
+FrontImage[0-3][0][0][0][0][0]=./images/maglevdepot.<$0>.1
+BackImage[0-3][0][0][0][0][0]=./images/maglevdepot.<$0>.0

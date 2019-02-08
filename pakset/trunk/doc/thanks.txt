@@ -1,0 +1,46 @@
+################
+#              #
+#   authors    #
+#      of      #
+# pak192.comic #
+#              #
+################
+
+Pak-Set maintaining:
+--------------------
+
+- PappeTeeMaster (Christian Eckoldt)
+
+Graphics:
+---------
+
+- Cruzer (ex-maintainer)
+- jonasBB
+- Schnils
+- TonyBZT
+- simufreak/Ceyhan
+- E44
+- MoTw
+- PappeTeeMaster (Christian Eckoldt)
+- Alexander Brose
+- Leartin Dialonis
+- Ramagani
+- Taurus
+- Simubus
+- Flemmbrav
+- DogstarLetsPlay
+
+Managment:
+----------
+
+- PappeTeeMaster (Christian Eckoldt)
+
+Sounds:
+-------
+
+- The sounds are from the pak64 project!
+
+
+--------------------------------------------------------------------------------------------------------------------------
+- ALSO THANKS TO GERMAN SIMUTRANS COMMUNITY AND SIMUTRANS TIKIWIKI, WHITOUT IT'S HELP THE PAK192.COMIC WOULDN'T EXISTS! -
+--------------------------------------------------------------------------------------------------------------------------

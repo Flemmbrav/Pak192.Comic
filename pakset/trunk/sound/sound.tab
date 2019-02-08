@@ -1,0 +1,29 @@
+# 0..8 standard (old) game sounds
+sound[0]=bus.wav
+sound[1]=truck.wav
+sound[2]=diesel.wav
+sound[3]=steam.wav
+sound[4]=boat-horn.wav
+sound[5]=comet-jet.wav
+sound[6]=planelow.wav
+
+# hardcoded game sounds
+# do not alter these numbers!
+#cash
+sound[15]=cash.wav
+# remover sound
+sound[14]=explosion.wav
+# - construction on water
+sound[13]=dock.wav
+# - metal construction gets built
+sound[12]=gavel.wav
+# - stone/concrete construction gets built
+sound[11]=jackhammer.wav
+# - tool failed
+sound[10]=boing.wav
+# - tool selection
+sound[9]=click.wav
+
+# Spezial Sounds
+sound[16]=tramdoor.wav
+sound[17]=elok1.wav

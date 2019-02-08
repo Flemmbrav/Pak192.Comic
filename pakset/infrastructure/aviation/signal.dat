@@ -1,0 +1,20 @@
+obj=roadsign
+name=air_private_modern
+copyright=PappeTeeMaster
+cost=25000
+waytype=air
+is_private=1
+icon=> ./images/signal/signal.0.4
+cursor=./images/signal/signal.0.5
+image[0-3]=./images/signal/signal.0.<$0>
+---
+obj=roadsign
+name=singleway_air
+copyright=jonasbb
+waytype=air
+cost=1000
+intro_year=1920
+single_way=1
+icon=> ./images/signal/signal.1.4
+cursor=./images/signal/signal.1.5
+image[0-3]=./images/signal/signal.1.<$0>
