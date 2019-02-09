@@ -28,7 +28,7 @@ echo.
 echo -------------------------------------------------------
 echo Compile infrastructure
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset\infrastructure /ad /b') do (makeobj pak192 ./compiled/ .\pakset/infrastructure/%%d/)
+for /f "delims=" %%d in ('dir pakset\infrastructure /ad /b') do (makeobj pak192 ./compiled/ ./pakset/infrastructure/%%d/)
 echo.
 echo -------------------------------------------------------
 echo Compile Vehicles
@@ -56,7 +56,6 @@ echo.
 echo -------------------------------------------------------
 echo Moving Trunk (configs, sound, text)
 echo -------------------------------------------------------
-md compiled\trunk
 robocopy .\pakset\trunk .\compiled\  /s /is /xx
 echo.
 echo =====================

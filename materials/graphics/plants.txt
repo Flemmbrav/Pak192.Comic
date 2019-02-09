@@ -1,0 +1,4 @@
+Plants belong in the folder pakset/landscape/trees, even if they do not spawn naturally.
+This is so all plantlife is gathered in one folder for convenience.
+
+When using plants in your design, please check which trees are common for the intended climate in the pakset, to keep a destinct look&feel for each of them.
