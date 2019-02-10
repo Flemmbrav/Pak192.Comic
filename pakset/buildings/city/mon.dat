@@ -25,22 +25,19 @@ type=mon
 needs_ground=1
 level=100
 build_time=8000
-BackImage[0][0][0][0][0][0]=./images/mon/mon_ptm1.0.0
-BackImage[0][0][0][0][0][1]=./images/mon/mon_ptm1.0.1
+BackImage[0][0][0][0][0][0-1]=./images/mon/mon_ptm1.<$0>.0
 ---
 obj=building
 name=mon_werniman
 #Monument für Werniman für die Bereitstellung eines Repository für P192C
-copyright=PappeTeeMaster
+copyright=Leartin
 intro_year=1850
 type=mon
 needs_ground=1
 level=46
 build_time=10000
 animation_time=300
-BackImage[0][0][0][0][0][0]=./images/mon/mon_werniman.0.0
-frontImage[0][0][0][0][0][0]=./images/mon/mon_werniman.0.1
-frontImage[0][0][0][0][1][0]=./images/mon/mon_werniman.0.2
+BackImage[0][0][0][0][0][0-1]=./images/mon/mon_werniman.<$0>.0
 ---
 obj=building
 name=mon_cruzer
@@ -140,6 +137,24 @@ frontImage[0][0][0][0][117-155][0-1]=./images/mon/Leartin_Denkmal_animation.<$0-
 frontImage[0][0][0][0][156][0-1]=./images/mon/Leartin_Denkmal_animation.140.0
 frontImage[0][0][0][0][157-161][0-1]=./images/mon/Leartin_Denkmal_animation.141.0
 ---
+obj=building
+name=mon_rings
+#Monument to celebrate a members wedding - but no name due to privacy.
+copyright=Leartin
+intro_year=2017
+type=mon
+needs_ground=0
+level=30
+build_time=15000
+animation_time=150
+BackImage[0][0][0][0][0][0,1]=./images/mon/mon_rings.<$0>.0
+FrontImage[0][0][0][0][0-3][0,1]=./images/mon/mon_rings.<$0+2>.0,6,3
+FrontImage[0][0][0][0][4-6][0,1]=./images/mon/mon_rings.<8-$0>.0,6,3
+FrontImage[0][0][0][0][7-10][0,1]=./images/mon/mon_rings.<$0-5>.0,-32,27
+FrontImage[0][0][0][0][11-13][0,1]=./images/mon/mon_rings.<15-$0>.0,-32,27
+FrontImage[0][0][0][0][14-17][0,1]=./images/mon/mon_rings.<$0-12>.0,21,28
+FrontImage[0][0][0][0][18-20][0,1]=./images/mon/mon_rings.<22-$0>.0,21,28
+---
 
 ################################################################################
 #                                   UNIKATE                                    #
@@ -156,8 +171,7 @@ type=mon
 needs_ground=1
 level=30
 build_time=12000
-BackImage[0][0][0][0][0][0]=./images/mon/mon_incredible.0.0
-BackImage[0][0][0][0][0][1]=./images/mon/mon_incredible.0.1
+BackImage[0][0][0][0][0][0-1]=./images/mon/mon_incredible.<$0>.0
 ---
 obj=building
 name=mon_at_at
@@ -187,7 +201,7 @@ frontImage[0][0][0][0][0-77][0-1]=./images/mon/cube.<($0+1)/10>.<($0+1)%10>
 obj=building
 name=mon_tree
 copyright=Leartin
-climates=tropic
+climates=mediterranian
 intro_year=1800
 type=mon
 needs_ground=0
@@ -196,3 +210,4 @@ build_time=100000
 Dims=1,1,1
 BackImage[0][0][0][0][0][0-4]=./images/mon/tree.<$0>.0
 ---
+
