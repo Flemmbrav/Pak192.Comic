@@ -54,3 +54,26 @@ constraint[next][0]=none
 emptyimage[s,w,se,sw]=./image/Car_1993_Police_2.0.<$0>
 
 ---
+obj=vehicle
+name=Narrowgauge_Car_1993_Police_3
+copyright=Flemmbrav
+waytype=track
+
+intro_year=1993
+intro_month=6
+#retire_year=2018
+#retire_month=5
+
+speed=90
+weight=18
+length=8
+
+freight=notes
+payload=1
+loading_time=1000
+runningcost=1000
+cost=1000000
+
+constraint[prev][0]=Narrowgauge_Car_1975_Money_2
+constraint[next][0]=none
+emptyimage[s,w,se,sw]=./image/Car_1993_Police_2.0.<$0>

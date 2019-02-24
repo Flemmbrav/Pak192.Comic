@@ -18,10 +18,8 @@ loading_time=8000
 runningcost=800
 cost=8000000
 
-constraint[next][0]=Narrowgauge_Car_1900_Police_2
-constraint[next][1]=Narrowgauge_Car_1950_Police_2
-constraint[next][2]=Narrowgauge_Car_1993_Police_2
-constraint[next][3]=Narrowgauge_Car_1900_Money
+constraint[next][0]=Narrowgauge_Car_1900_Police_3
+constraint[next][1]=Narrowgauge_Car_1900_Money
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1900_Money.0.<$0>
 
 ---
