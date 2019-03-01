@@ -102,7 +102,7 @@ electricity_boost=1000
 passenger_boost=400
 mail_boost=100
 #-----
-need_ground=1
+needs_ground=1
 dims=4,4,1
 BackImage[0][0-3][0-3][0][0][0-1]=images/Stahlwalzwerk-gross.<$0+$2*4>.<$1>
 BackImage[0][0-2][0][1][0][0-1]=images/Stahlwalzwerk-gross.<$0+$1*4>.4
@@ -142,7 +142,7 @@ passenger_boost=500
 mail_boost=500
 #-----
 Dims=3,3,1
-need_ground=1
+needs_ground=1
 BackImage[0][0-2][0-2][0][0][0-1]=images/Autoteilefabrik_gross.<$0>.<$1+$2*3>
 #############
 -------------
@@ -180,7 +180,7 @@ passenger_boost=500
 mail_boost=500
 #-----
 dims=4,4,1
-need_ground=1
+needs_ground=1
 BackImage[0][0-3][0-3][0][0][0-1]=images/Fahrzeugfabrik-gross.<$0>.<$1+$2*4>
 #############
 -------------
@@ -214,7 +214,7 @@ electricity_boost=500
 passenger_boost=800
 mail_boost=200
 #-----
-need_ground=1
+needs_ground=1
 dims=3,3,1
 BackImage[0][0-2][0-2][0][0][0-4]=images/carseller.<$0>.<$1+$2*3>
 ---
@@ -244,7 +244,7 @@ climates=mediterran, temperate
 intro_month=1
 intro_year=1920
 Dims=2,2,1
-need_ground=1
+needs_ground=1
 BackImage[0][0-1][0-1][0-1][0]=images/Stahlwalzwerk.<$0+$2*2>.<$1>
 ---
 obj=factory
@@ -267,7 +267,7 @@ climates=mediterran, temperate
 intro_month=1
 intro_year=1920
 Dims=2,2,1
-need_ground=1
+needs_ground=1
 BackImage[0][0-1][0-1][0][0][0-1]=images/Autoteilefabrik.<$0>.<$1+$2*2>
 ---
 obj=factory
@@ -287,6 +287,6 @@ climates=mediterran, temperate
 intro_month=1
 intro_year=1920
 Dims=2,2,1
-need_ground=1
+needs_ground=1
 BackImage[0][0-1][0-1][0][0-1]=images/Fahrzeugfabrik.<$0>.<$1+$2*2>
 ---
