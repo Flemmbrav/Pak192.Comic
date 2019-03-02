@@ -53,6 +53,11 @@ intro_month=2
 DistributionWeight=80
 MapColor=30
 #-----
+InputGood[0]=grain
+InputCapacity[0]=2000
+InputSupplier[0]=2
+InputFactor[0]=100
++-----
 OutputGood[0]=malt
 OutputCapacity[0]=1000
 OutputFactor[0]=100
