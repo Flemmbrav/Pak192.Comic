@@ -56,7 +56,7 @@ echo.
 echo -------------------------------------------------------
 echo Moving Trunk (configs, sound, text)
 echo -------------------------------------------------------
-m .\pakset\trunk .\compiled\  /s /is /xx
+robocopy  .\pakset\trunk .\compiled\  /s /is /xx
 echo.
 echo =====================
 echo Pakset Complete!
