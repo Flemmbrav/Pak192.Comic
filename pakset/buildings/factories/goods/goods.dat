@@ -244,6 +244,14 @@ weight_per_unit=500
 value=240
 speed_bonus=0
 -----------------
+obj=good
+name=sausages
+catg=1
+metric=pallets
+weight_per_unit=100
+value=250
+speed_bonus=1
+-----------------
 # cat 2: bulk_good ############################################
 obj=good
 name=coal
