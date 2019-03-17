@@ -1,0 +1,26 @@
+obj=vehicle
+name=CSD_E422_SC
+copyright=PappeTeeMaster
+waytype=narrowgauge_track
+engine_type=electric
+intro_year=1956
+intro_month=1
+# retire_year=1957 original
+retire_year=1967
+retire_month=10
+speed=50
+power=360
+gear=107
+weight=48
+runningcost=191
+cost=8047984
+length=8
+emptyimage[e]=./image/CSD_E422_SC.0.0
+emptyimage[n]=./image/CSD_E422_SC.1.1
+emptyimage[ne]=./image/CSD_E422_SC.1.3
+emptyimage[nw]=./image/CSD_E422_SC.1.2
+emptyimage[s]=./image/CSD_E422_SC.0.1
+emptyimage[se]=./image/CSD_E422_SC.0.2
+emptyimage[sw]=./image/CSD_E422_SC.0.3
+emptyimage[w]=./image/CSD_E422_SC.1.0
+-----
