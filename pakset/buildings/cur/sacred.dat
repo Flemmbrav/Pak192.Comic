@@ -167,3 +167,20 @@ climates=temperate, tundra, alpine, arctic
 Dims=1,1,1
 BackImage[0][0][0][0-1][0][0-1]=./images/basil_little.<1-$0>.<$1>
 ---
+obj=building
+name=cur_city_gothic_cathedral
+copyright=Leartin
+intro_month=1
+intro_year=1233
+type=cur
+Chance=50
+build_time=200000
+level=80
+needs_ground=1
+climates=temperate, alpine,
+Dims=3,3,1
+BackImage[0][0-2][0-2][0][0][0-1]=./images/cathedral.<$0>.<$1+$2*3>
+BackImage[0][0][0][1][0][0-1]=./images/cathedral.3.<1+$0*3>
+BackImage[0][2][0][1][0][0-1]=./images/cathedral.3.<0+$0*3>
+BackImage[0][0][2][1][0][0-1]=./images/cathedral.3.<2+$0*3>
+---
