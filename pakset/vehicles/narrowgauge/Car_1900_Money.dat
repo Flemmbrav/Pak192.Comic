@@ -5,8 +5,8 @@ waytype=track
 
 intro_year=1900
 intro_month=6
-#retire_year=2018
-#retire_month=5
+retire_year=1075
+retire_month=5
 
 speed=40
 weight=18
