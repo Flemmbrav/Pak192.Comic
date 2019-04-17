@@ -1,0 +1,73 @@
+obj=vehicle
+name=Leer
+copyright=PappeTeeMaster
+intro_year=1800
+intro_month=1
+retire_year=9999
+retire_month=12
+freight=Post
+payload=1
+cost=0
+runningcost=20000
+weight=1
+power=1000
+gear=500
+speed=35
+length=8
+waytype=narrowgauge_track
+engine_type=diesel
+EmptyImage[S]=./image/Leer.0.0
+EmptyImage[E]=./image/Leer.0.0
+EmptyImage[SE]=./image/Leer.0.0
+EmptyImage[SW]=./image/Leer.0.0
+EmptyImage[N]=./image/Leer.0.0
+EmptyImage[W]=./image/Leer.0.0
+EmptyImage[NW]=./image/Leer.0.0
+EmptyImage[NE]=./image/Leer.0.0
+
+
+-----
+
+
+obj=building
+name=NIXBAHNSTEIG
+copyright=PappeTeeMaster
+intro_month=1
+intro_year=1835
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+level=1
+noinfo=1
+allow_underground=0
+icon=> ./image/nix.0.4
+cursor=./image/nix.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=./image/nix.0.0
+BackImage[12][0][0][0][0][0]=./image/nix.0.0
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=./image/nix.0.0
+BackImage[8][0][0][0][0][0]=./image/nix.0.0
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=./image/nix.0.0
+BackImage[10][0][0][0][0][0]=./image/nix.0.0
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=./image/nix.0.3
+BackImage[13][0][0][0][0][0]=./image/nix.0.3
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=./image/nix.0.3
+BackImage[9][0][0][0][0][0]=./image/nix.0.3
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=./image/nix.0.3
+BackImage[11][0][0][0][0][0]=./image/nix.0.3
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=./image/nix.0.0
+BackImage[14][0][0][0][0][0]=./image/nix.0.0
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=./image/nix.0.3
+BackImage[15][0][0][0][0][0]=./image/nix.0.3
+
+Dims=1,1,16
