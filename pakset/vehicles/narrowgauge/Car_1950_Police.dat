@@ -64,8 +64,8 @@ waytype=track
 
 intro_year=1950
 intro_month=6
-retire_year=1993
-retire_month=5
+#retire_year=1993
+#retire_month=5
 
 speed=75
 weight=18

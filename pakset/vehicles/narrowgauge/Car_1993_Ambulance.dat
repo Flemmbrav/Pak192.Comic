@@ -13,10 +13,10 @@ weight=18
 length=8
 
 freight=patients
-payload=4
-loading_time=2000
-runningcost=200
-cost=2000000
+payload=2
+loading_time=1000
+runningcost=100
+cost=1000000
 
 emptyimage[s,w,se,sw]=./image/Car_1993_Ambulance.0.<$0>
 

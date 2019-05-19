@@ -425,7 +425,7 @@ name=gold
 catg=8
 metric=tons
 weight_per_unit=1000
-value=750
+value=12000
 speed_bonus=0
 -----------------
 obj=good
@@ -433,7 +433,7 @@ name=notes
 catg=8
 metric=tons
 weight_per_unit=1000
-value=750
+value=12000
 speed_bonus=0
 -----------------
 obj=good
@@ -441,7 +441,7 @@ name=coins
 catg=8
 metric=tons
 weight_per_unit=1000
-value=750
+value=12000
 speed_bonus=0
 -----------------
 # cat 9: agricultural #########################################

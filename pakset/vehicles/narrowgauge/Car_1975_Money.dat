@@ -8,7 +8,7 @@ intro_month=6
 #retire_year=1975
 #retire_month=5
 
-speed=80
+speed=75
 weight=50
 length=13
 
@@ -33,16 +33,17 @@ intro_month=6
 #retire_year=1975
 #retire_month=5
 
-speed=80
+speed=75
 weight=50
 length=8
 
 
 freight=notes
-payload=5
-loading_time=5000
-runningcost=5000
-cost=5000000
+payload=30
+loading_time=30000
+runningcost=30000
+cost=30000000
+
 
 constraint[prev][0]=Narrowgauge_Car_1975_Money_1
 constraint[next][0]=Narrowgauge_Car_1975_Money_1

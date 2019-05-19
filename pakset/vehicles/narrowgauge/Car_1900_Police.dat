@@ -10,7 +10,7 @@ retire_month=5
 
 speed=40
 weight=12
-length=6
+length=7
 
 freight=suspects
 payload=6
@@ -36,7 +36,7 @@ retire_month=5
 
 speed=40
 weight=12
-length=6
+length=7
 
 freight=suspects
 payload=1
@@ -56,19 +56,19 @@ waytype=track
 
 intro_year=1900
 intro_month=6
-retire_year=1951
+retire_year=1975
 retire_month=5
 
 speed=40
 weight=12
-length=6
+length=7
 
 freight=notes
 payload=1
-loading_time=0
-runningcost=0
-cost=0
+loading_time=1000
+runningcost=1000
+cost=1000000
 
 constraint[prev][0]=Narrowgauge_Car_1900_Money
-constraint[prev][0]=none
+constraint[next][0]=none
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1900_Police_2.0.<$0>
