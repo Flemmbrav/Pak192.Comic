@@ -28,7 +28,16 @@ weight_per_unit=3
 -----------------
 # cat 0: special
 obj=good
-name=steel
+name=billet
+catg=0
+metric=tons
+weight_per_unit=1000
+value=200
+speed_bonus=0
+----------------
+# cat 0: special
+obj=good
+name=sheetmetal
 catg=0
 metric=tons
 weight_per_unit=1000
@@ -92,14 +101,6 @@ value=5000
 speed_bonus=0
 -----------------
 # cat 1: piece good ###########################################
-obj=good
-name=plastics
-catg=1
-metric=tons
-weight_per_unit=210
-value=270
-speed_bonus=0
------------------
 obj=good
 name=flour
 catg=1
@@ -252,9 +253,33 @@ weight_per_unit=100
 value=250
 speed_bonus=1
 -----------------
+obj=good
+name=ironmongery
+catg=1
+metric=pallets
+weight_per_unit=500
+value=240
+speed_bonus=0
+-----------------
+obj=good
+name=ingot
+catg=1
+metric=pallets
+weight_per_unit=600
+value=240
+speed_bonus=0
+-----------------
 # cat 2: bulk_good ############################################
 obj=good
 name=coal
+catg=2
+metric=tons
+weight_per_unit=1000
+value=200
+speed_bonus=0
+-----------------
+obj=good
+name=plastics
 catg=2
 metric=tons
 weight_per_unit=1000
@@ -287,6 +312,14 @@ speed_bonus=0
 -----------------
 obj=good
 name=salt
+catg=2
+metric=tons
+weight_per_unit=1000
+value=200
+speed_bonus=0
+-----------------
+obj=good
+name=limestone
 catg=2
 metric=tons
 weight_per_unit=1000
@@ -460,5 +493,3 @@ metric=tons
 weight_per_unit=1000
 value=225
 speed_bonus=1
------------------
-# cat 10: container ###########################################
