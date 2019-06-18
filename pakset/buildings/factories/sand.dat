@@ -1,6 +1,6 @@
 obj=factory
 name=sandquarry
-copyright=Leartin, PTM
+copyright=Leartin
 Location=Land
 DistributionWeight=90
 Productivity=189
@@ -15,12 +15,13 @@ expand_minimum=20
 expand_range=20
 expand_times=3
 
+electricity_amount=2000
+passenger_demand=50
+mail_demand=50
 electricity_boost=1000
-electricity_amount=65535
-passenger_demand=65535
-mail_demand=65535
-passenger_boost=2500
-mail_boost=2500
+passenger_boost=400
+mail_boost=100
+
 climates=mediterran, temperate, tropic
 intro_month=1
 intro_year=1920
