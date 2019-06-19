@@ -41,8 +41,8 @@ length=7
 
 freight=Passagiere
 payload=20
-loading_time=0
-runningcost=0
-cost=0
+loading_time=570
+runningcost=57
+cost=626835
 
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_1900_2.0.<$0>
