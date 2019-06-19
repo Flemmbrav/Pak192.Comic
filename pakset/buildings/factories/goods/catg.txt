@@ -21,7 +21,7 @@
 	honey (Honig)
 	comics (Comics)
 	paper (Papier)
-	
+	sausages (Würste)
 2=bulk_good (Schüttgut)
 	coal (Kohle)
 	ore (Erz)

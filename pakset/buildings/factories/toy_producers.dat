@@ -11,7 +11,7 @@ retire_month=12
 DistributionWeight=90
 MapColor=029
 #-----
-InputGood[0]=steel
+InputGood[0]=sheetmetal
 InputCapacity[0]=500
 InputFactor[0]=25
 InputSupplier[0]=3

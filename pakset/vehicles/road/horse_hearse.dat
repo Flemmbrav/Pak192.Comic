@@ -20,3 +20,4 @@ constraint[next][0]=none
 constraint[prev][0]=horse1
 constraint[prev][1]=horse2
 constraint[prev][2]=none
+emptyimage[s,w,e,n,ne,sw,nw,se]=./image/hearse_1.<$0/4>.<$0%4>
