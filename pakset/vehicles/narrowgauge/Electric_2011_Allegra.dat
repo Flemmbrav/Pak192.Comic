@@ -20,7 +20,7 @@ power=1400
 gear=100
 
 constraint[next][0]=Narrowgauge_Electric_2011_Allegra_c
-emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_2011_Allegra_Allegra_TWA.0.<$0>
+emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Electric_2011_Allegra.0.<$0>
 
 ---
 
@@ -45,7 +45,7 @@ engine_type=electric
 
 constraint[prev][0]=Narrowgauge_Electric_2011_Allegra_a
 constraint[next][0]=Narrowgauge_Electric_2011_Allegra_b
-emptyimage[n,e,nw,ne,s,w,se,sw]=./image/Passenger_2011_Allegra_Allegra_MWC.0.<$0>
+emptyimage[n,e,nw,ne,s,w,se,sw]=./image/Electric_2011_Allegra.1.<$0>
 
 ---
 
@@ -71,4 +71,4 @@ power=1400
 gear=100
 
 constraint[prev][0]=Narrowgauge_Electric_2011_Allegra_c
-emptyimage[n,e,nw,ne,s,w,se,sw]=./image/Passenger_2011_Allegra_Allegra_TWB.0.<$0>
+emptyimage[n,e,nw,ne,s,w,se,sw]=./image/Electric_2011_Allegra.2.<$0>
