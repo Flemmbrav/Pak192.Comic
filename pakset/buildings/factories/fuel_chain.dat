@@ -176,7 +176,7 @@ mail_boost=200
 #-----
 needs_ground=1
 Dims=4,4,1
-BackImage[0][0-3][0-3][0][0]=images/Raffinerie.<$0>.<$1>
+BackImage[0][0-3][0-3][0][0][0-1]=images/Raffinerie.<$0>.<$1+$2*4>
 #############
 -------------
 obj=factory
