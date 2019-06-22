@@ -210,4 +210,16 @@ build_time=100000
 Dims=1,1,1
 BackImage[0][0][0][0][0][0-4]=./images/mon/tree.<$0>.0
 ---
-
+obj=building
+name=mon_coot
+copyright=Leartin
+climates=temperate
+intro_year=1952
+intro_month=3
+type=mon
+needs_ground=0
+level=100
+build_time=150000
+Dims=1,1,1
+BackImage[0][0][0][0-1][0][0-1]=./images/mon/mon_coot.<1-$0>.<$1>
+---
