@@ -26,7 +26,7 @@ weight_per_unit=3
 -----------------
 #    GOODS      #
 -----------------
-# cat 0: special
+# cat 0: special ###########################################
 obj=good
 name=billet
 catg=0
@@ -35,7 +35,6 @@ weight_per_unit=1000
 value=200
 speed_bonus=0
 ----------------
-# cat 0: special
 obj=good
 name=sheetmetal
 catg=0

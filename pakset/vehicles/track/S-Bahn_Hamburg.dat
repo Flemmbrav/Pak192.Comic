@@ -128,7 +128,6 @@ Constraint[Prev][0]=BR_471_3
 Constraint[Prev][1]=BR_470_3
 Constraint[Prev][2]=BR_472_3
 Constraint[Prev][3]=none
-Constraint[Prev][1]=none
 Constraint[Next][0]=BR_470_2
 
 EmptyImage[S]=./image/BR_470.0.3
@@ -234,7 +233,6 @@ Constraint[Prev][0]=BR_471_3
 Constraint[Prev][1]=BR_470_3
 Constraint[Prev][2]=BR_472_3
 Constraint[Prev][3]=none
-Constraint[Prev][1]=none
 Constraint[Next][0]=BR_472_2
 
 EmptyImage[S]=./image/BR_472.0.3

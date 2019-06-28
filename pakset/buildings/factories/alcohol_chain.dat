@@ -179,7 +179,7 @@ InputSupplier[0]=1
 InputGood[1]=vine
 InputCapacity[1]=400
 InputFactor[1]=100
-InputSupplier[0]=0
+InputSupplier[1]=0
 #-----
 Productivity=300
 Range=20

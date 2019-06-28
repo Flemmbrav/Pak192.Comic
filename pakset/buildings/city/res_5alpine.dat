@@ -747,7 +747,7 @@ BackImage[0][0][0][0][0][0-4]=./images/res/alpine/05_E0_03.<$0>.0
 FrontImage[0][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,5,65
 ---
 obj=building
-name=res_cl5_E0_13_05
+name=res_cl5_E0_14_05
 copyright=Leartin
 intro_year=1800
 retire_year=1950
@@ -760,7 +760,7 @@ BackImage[0][0][0][0][0][0-4]=./images/res/alpine/05_E0_03.<$0>.1
 FrontImage[0][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,12,15
 ---
 obj=building
-name=res_cl5_E0_13_05
+name=res_cl5_E0_15_05
 copyright=Leartin
 intro_year=1800
 retire_year=1950
@@ -773,7 +773,7 @@ BackImage[0][0][0][0][0][0-4]=./images/res/alpine/05_E0_03.<$0>.2
 FrontImage[0][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,-21,60
 ---
 obj=building
-name=res_cl5_E0_13_05
+name=res_cl5_E0_16_05
 copyright=Leartin
 intro_year=1800
 retire_year=1950

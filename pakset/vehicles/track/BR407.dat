@@ -4,9 +4,9 @@
 # ICE_DB_407_4 = Mittelwagen				(2)
 # ICE_DB_407_5 = 2. Stromabnehmerwagen	(4)
 
-Reihung:
-1 _1 + 1 _3 + X _4 + 1 _5 + 1 _2
-Kuppelbar mit der BR 403, der BR 407 und der BR 412
+#Reihung:
+#1 _1 + 1 _3 + X _4 + 1 _5 + 1 _2
+#Kuppelbar mit der BR 403, der BR 407 und der BR 412
 
 obj=vehicle
 name=ICE_DB_407_1

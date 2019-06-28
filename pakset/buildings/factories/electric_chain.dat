@@ -151,6 +151,7 @@ needs_ground=1
 Dims=2,2,0
 BackImage[0][0-1][0-1][0][0][0-1]=images/plusstore.<$0>.<$1+$2*2>
 FrontImage[0][1][1][0][0-5,8-13,15-17,19-30,32,40-43][1]=images/plusstore.1.4
-FrontImage[0][1][1][0][0-45][0-1]=images/plusstore.0.4
+FrontImage[0][1][1][0][6-7,14,18,31,33-39,44-45][1]=images/plusstore.1.4
+FrontImage[0][1][1][0][0-45][0]=images/plusstore.0.4
 #############
 -------------

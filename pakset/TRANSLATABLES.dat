@@ -28,9 +28,6 @@ name=Narrowgaugehalt muss auf\nNarrowgauge liegen!\n
 obj=error_text
 name=Monorailhalt muss auf\nMonorail liegen!\n
 ---
-obj=error_text
-name=Monorailhalt muss auf\nMonorail liegen!\n
----
 obj=menu_text
 name=AIRTOOLS
 ---
@@ -72,9 +69,6 @@ name=BUILDINGS
 ---
 obj=menu_text
 name=ABRISSTOOLS
----
-obj=menu_text
-name=LISTTOOLS
 ---
 obj=menu_text
 name=VIEW

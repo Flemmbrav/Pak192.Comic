@@ -299,7 +299,7 @@ needs_ground=0
 BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E5_02.0.<$0>
 ---
 obj=building
-name=com_cl4_E5_05_07
+name=com_cl4_E5_06_07
 #com_SNL_BueroPeter
 copyright=Schnils, Leartin
 intro_year=1991
@@ -312,7 +312,7 @@ needs_ground=0
 BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E5_02.1.<$0>
 ---
 obj=building
-name=com_cl4_E5_05_07
+name=com_cl4_E5_07_07
 copyright=Schnils, Leartin
 intro_year=1991
 intro_month=11
@@ -324,7 +324,7 @@ needs_ground=0
 BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E5_02.2.<$0>
 ---
 obj=building
-name=com_cl4_E5_05_07
+name=com_cl4_E5_08_07
 copyright=Schnils, Leartin
 intro_year=1991
 intro_month=11
@@ -1331,7 +1331,8 @@ Chance=30
 level=23
 needs_ground=0
 BackImage[0][0][0][1][0][1,3]=images/com/easteur/23_E4_03.0.0
-BackImage[0][0][0][0-1][0][0-4]=images/com/easteur/23_E4_03.<1-$0>.<$1>
+BackImage[0][0][0][0][0][1,3]=images/com/easteur/23_E4_03.1.<$0>
+BackImage[0][0][0][0-1][0][0,2,4]=images/com/easteur/23_E4_03.<1-$0>.<$1>
 ---
 #################################################################################
 #									 Level 27									#

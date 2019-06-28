@@ -20,14 +20,14 @@ engine_type=steam
 constraint[prev][0]=BR_61
 constraint[prev][1]=none
 
-EmptyImage[S]=./image/BR 61.0.1
-EmptyImage[E]=./image/BR 61.0.0
-EmptyImage[SE]=./image/BR 61.0.4
-EmptyImage[SW]=./image/BR 61.0.5
-EmptyImage[N]=./image/BR 61.0.3
-EmptyImage[W]=./image/BR 61.0.2
-EmptyImage[NW]=./image/BR 61.0.6
-EmptyImage[NE]=./image/BR 61.0.7
+EmptyImage[S]=./image/BR_61.0.1
+EmptyImage[E]=./image/BR_61.0.0
+EmptyImage[SE]=./image/BR_61.0.4
+EmptyImage[SW]=./image/BR_61.0.5
+EmptyImage[N]=./image/BR_61.0.3
+EmptyImage[W]=./image/BR_61.0.2
+EmptyImage[NW]=./image/BR_61.0.6
+EmptyImage[NE]=./image/BR_61.0.7
 -----------------------------
 obj=vehicle
 name=Henschel-Wegmann

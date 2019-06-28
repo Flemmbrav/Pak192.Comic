@@ -33,6 +33,7 @@ Dims=4,4,1
 BackImage[0][0-3][0-3][0][0][0-1]=./images/Kohlekraftwerk.<$0>.<$1+$2*4>
 BackImage[0][0-2][0][1][0][0-1]=./images/Kohlekraftwerk.<$0>.8
 #############
+-------------
 obj=factory
 name=oil_kraftwerk
 copyright=Leartin
@@ -62,8 +63,6 @@ needs_ground=1
 Dims=3,3,1
 BackImage[0][0-2][0-2][0][0][0-1]=./images/oilpower.<$0>.<$1+$2*3>
 #############
-
-
 
 -------------
 obj=factory
