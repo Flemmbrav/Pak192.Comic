@@ -1,0 +1,1266 @@
+################################################################################
+#                                                                              #
+#                Simutrans Scenario Specific Translation File                  #
+#                            Scenario: pak192.comic                            #
+#                             Language: en English                             #
+#                             Encoding: ISO-8859-1                             #
+#                            Font : Prop-Latin1.bdf                            #
+#                           Date Created: 17.11 2014                           #
+#                                                                              #
+#                                   authors:                                   #
+#                            Alexander Brose - AlexB                           #
+#                                    note:                                     #
+#                                    - An_dz                                   #
+#                   note: Verified where all texts are shown                   #
+#                         Klaus Thenmayer - Bitfreezer                         #
+#                                    note:                                     #
+#                                  - Christian                                 #
+#                                    note:                                     #
+#                            Colin W Anetts - Colin                            #
+#                                    note:                                     #
+#                            Colin Teubner - ColinT                            #
+#                                    note:                                     #
+#                                   - Combuijs                                 #
+#                                    note:                                     #
+#                                    - Cruzer                                  #
+#                 note: Ex-Entwickler und Gründer pak192.comic                 #
+#                             Dirk W. - DirrrtyDirk                            #
+#                                    note:                                     #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
+#                                  - Flemmbrav                                 #
+#                                    note:                                     #
+#                                    - FrankP                                  #
+#                                    note:                                     #
+#                                    - GerdW                                   #
+#                                    note:                                     #
+#                         Roman Schwörer - Gotthardlok                         #
+#                                    note:                                     #
+#                           Hansjörg Malthaner - Hajo                          #
+#                                    note:                                     #
+#                                 - IgorEliezer                                #
+#                                    note:                                     #
+#                              Jaroslaw - Jaroslaw                             #
+#                                    note:                                     #
+#                                   - Leartin                                  #
+#                                    note:                                     #
+#                             Marcus Haupt - Marcus                            #
+#note: if I´m not available by email to proximity.de try mail@marcus-haupt.de (#
+#                                     - MaxK                                   #
+#                                    note:                                     #
+#                                   - Nico192                                  #
+#                                    note:                                     #
+#                                 - Nicole_Chen                                #
+#                                    note:                                     #
+#                                     - PTM                                    #
+#                                    note:                                     #
+#                                    - Paco_m                                  #
+#                                    note:                                     #
+#                           Sava Bogdanets - Sava2004                          #
+#                                    note:                                     #
+#                             Simon Small - SimonS                             #
+#                                    note:                                     #
+#                          Susanna Björverud - Susanna                         #
+#                                    note:                                     #
+#                            James P. Hood - TheHood                           #
+#                                    note:                                     #
+#                                   - Timothy                                  #
+#                                    note:                                     #
+#                       Venkatesh Parthasarathy - Venkat                       #
+#                                    note:                                     #
+#                                   - Xelofino                                 #
+#                                    note:                                     #
+#                          Albert Ruiz - albert.yuste                          #
+#                           note: Albert Ruiz - Zeno                           #
+#                            Carl Baker - carlbaker                            #
+#                                    note:                                     #
+#                                  - enternald                                 #
+#     note: Need more lt translators. Eiti ? http://simutrans-germany.com/     #
+#                               Florian - floppy                               #
+#                                    note:                                     #
+#                                   - gebeine                                  #
+#                        note: maintainer PAK128.german                        #
+#                        Lorenz Van Damme - gforcetheone                       #
+#                                    note:                                     #
+#                          James E. Petts - jamespetts                         #
+#  note: Maintainer for Simutrans-Experimental. Also works on Pak128.Britain.  #
+#                            Jonas Bushart - jonasbb                           #
+#                                    note:                                     #
+#                                - jounior-fuchs                               #
+#                                    note:                                     #
+#                                   - knightly                                 #
+#                                    note:                                     #
+#                             Mark Knoester - mark                             #
+#                                    note:                                     #
+#                          Michel Vorenhout - michelv                          #
+#                                    note:                                     #
+#                              Markus Rex - msrex                              #
+#                                    note:                                     #
+#                              Tomá? Kube? - napik                             #
+#                                    note:                                     #
+#                                   - neroden                                  #
+#                               note: Programmer                               #
+#                                    - petter                                  #
+#                                    note:                                     #
+#                             P. Hamming - phamming                            #
+#                                    note:                                     #
+#                                    - prissi                                  #
+#                                    note:                                     #
+#                                     - sdog                                   #
+#                                    note:                                     #
+#                                   - shinexus                                 #
+#                                    note:                                     #
+#                           Lincoln Sayger - skreyola                          #
+#                                    note:                                     #
+#                                    - smu42                                   #
+#                                    note:                                     #
+#                               Sven Osada - sojo                              #
+#                         note: maintainer pak96.comic                         #
+#                                 - transporter                                #
+#                                    note:                                     #
+#                              Jon - viewofheaven                              #
+#                                    note:                                     #
+#                              Xavier Paz - vilvoh                             #
+#                                    note:                                     #
+#                         Tomá? Vrbický - vrbicky_tomas                        #
+#                     note: Don´thurry up! Death is faster.                    #
+#                            Vladimír Slávik - vsys                            #
+#                                    note:                                     #
+#                           Michael Olbricht - whoami                          #
+#                                    note:                                     #
+#                                                                              #
+################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+Betonbruecke_track
+Concrete Bridge
+concrete_bridge_high_speed
+High Speed Bridge
+high_track_bridge
+Elevated Rail Bridge
+Holzbruecke_narrowgauge
+Wooden Bridge
+Holzbruecke_track
+Wooden Bridge
+road_Betonbruecke
+Concrete Bridge
+Stahlbruecke_track
+Steel Bridge
+Stahlbruecke2_track
+Steel Bridge
+Steinbruecke_narrowgauge
+Stone Bridge
+#___________________________________building____________________________________
+#___________________________________building____________________________________
+192astraturm
+Astraturm\n\nAn intelligent light design bathes the contemporary office tower in a glowing radiance that can be seen from far away at twilight and in the dark. Situated on a prominent site, its offices rank among the most prestigious the city has to offer. 
+192atlas
+Upper West\n\nPlanned with the project name "Atlas Tower", this building marks the beginning of a new era in the citys history.
+192channeltower
+Channel Tower\n\nIf you ever come near the Channel Tower, you should definitely try a cup of coffee at the café in the 5.6m high foyer. 
+192mgtower
+Grafic Factory\n\nThe Alex B. Grafic Factory has a unique mode of operation: For maximal division of work each employee is responsible for only one Pixel, which he has to set optimally after long weeks of planning and consultation with coworkers.\nRookies usually get assigned to transparent parts.
+192museum01
+Museum of Pixel History\n\nThe pixel has been the denominating factor of any Simuthanians live for millennias. This glorious museum shows the history of pixel manufacturing, from stone age to modern live. A must see is a traditional pixel manufacturing site, where young and old Simuthanians are encouraged to shape their world.
+1headquarter
+Small headquarter
+apron2
+apron
+busstop
+small bus stop
+busstop1845medium
+bus shelter
+busstop1845small
+bus stop
+busstop1947medium
+bus shelter
+busstop1947small
+bus stop
+busstop2001medium
+bus shelter
+busstop2001small
+bus stop
+com_005_1
+Vegetable War Square\n\nMr. and Mrs. Smith had a fight over their veg stall, so they each opened their own. However, the struggle continued, at first with not-so-nice words, then with tomatoes, carrots, and even a pumpkin was involved.\nIn the end the city council planted a tree to seperate the squabblers.
+com_006_1
+Deserted Square\n\nOnce upon a time a farmer's market was held on this square, but due to disputes among a metalcrafts seller and a fisherman, it ceased to exist. These days nothing but a rope in the tree which was used to bind a noisy musician reminds of it.
+com_Bolzplatz
+Football Ground\n\nThe local youth has it's own league of street-teams, playing each other for the title "Masters of the Universe". 
+com_Bolzplatz_1900
+Football Ground\n\nOnce upon a time the legen- wait for it -dary international football star Thomas Blaumann kicked the ball over this pitch. As the national teams captain he celebrated 2 world cup titles and was elected "Player of the Year" seven times.
+com_buero_100
+City Flats\n\nThe residents in this high rise\nprimarily belong to the less\nwealthy strata of the\nsociety. Since the dream of\nthe average man has\nbecome to live in a private\nstand-alone home, the\npopularity of this type of\nhigh rise homes has fallen\ndramatically. Today their\nattraction value comes\nonly from their\nprice/performance ratio.\nThe facade will however\nshortly be renovated not to\nspoil the view from the\nrecreational area about to\nbe constructed nearby, which will\nprovide a wonderful view from the\npenthouse. \n\n
+com_buero_98
+Huge office building\n\n\n\n\n\n\n\n\n\n\n\n\n
+com_cafe_12
+Small pub\n\nThe "s" pub is famous for its\nexcellent sweets.\n\n\n\n\n\n\n\n\n\n\n
+com_house_49
+Electronic concern\n\nThis office building has been\na seat of the electronic\nindustry for decades.\n\n\n\n\n\n\n\n\n\n
+com_house_99
+Center of Commerce\n\nThey all stand ready here for\nyour registration.\n\n\n\n\n\n\n\n\n\n\n
+Com_LD_Generali
+General I. Insurance\n\nOver a century ago, General Ignatius von Simubürgen was well known for gambling on the survival on his troups in battle. Soldiers would bid on their death so their families would have money in case they died - and because the general did not like to lose.
+com_LDalps01
+Chessgame Square\n\nKnight G8 to F6, Bishop D6 to E7. Checkmate in 23 turns.
+com_LDalps02
+Fountain Square\n\n Whenever Cut-Me-Own-Throat Dibbler is not busy selling his 'sausages-in-buns', he makes money by selling sweet chestnuts or ice cream on this square.
+com_LDalps03
+Square with Strange Sculpture\n\nThis artwork of master Léar teDin is titled "Drunken". The City Administration placed the benches facing away from the sculpture. "We want to grant our innocent citizens who just want to rest an acceptable view", said a city representative.
+com_Pizza
+Pizza Runner\n\nSpecialité de Maison: Pizza all'America, a pizza with french fries, ketchup and half a chicken as toppings.
+com_shop_41
+Small electronics shop\n\nThis small family business has\nexisted for several\ngenerations and sells\nelectronic parts.\n\n\n\n\n\n\n\n\n
+com_Simutrans-Markt
+Simuthanien Market\n\n This store belongs to an international chain. The employees are always in a bad mood, the quality is low, and there are never enough cashiers. But people buy anyway, because of the good price.
+Containererweiterung
+Containers
+cur_Funkmast
+Broadcast pillar\n\n*brrrzzzz* *piep* Houston? *krzzzz* We ha.. a prob*piep* No more *piep*oilet pape*brzzz* *krrrrk*
+cur_LD_arc
+Triumphal arch\n\n
+cur_LD_Dohauzdium
+Dohauzdium\n\nThere are rumors that the aluminum coating of the spheares acts as a shield for thought-manipulation-rays from space. It must be wrong, the TV works.
+Cur_LD_lentos
+Lentos Art Museum\n\nThis modern building shelters a collection of a thousend paintings and sculptures of the century. But the nightly illumination makes it a piece of art as well
+cur_PTM_DOM_001
+Saint George Cathedral\n\nToday, Saint George is known as a dragon slayer. In fact, he was a martyr who was tortured to death.
+cur_Pyramide
+Pyramid\n\nThe volume of a pyramid is a third of the side squared multiplied with it's height.
+cur_school_110
+Secondary school\n\nThe solar cells upon the roof\nare dating from the last\nschool project which had\nour environment as its\ncentral theme.\n\n\n\n\n\n\n\n
+cur_Springbrunnen
+Fountain\n\nThis fountain is a perfect refreshment on hot summer days.
+depot_air
+hangar\n\n\n\n\n\n\n\n\n\n\n\n\n
+depot_road
+Road depot\n\n\n\n\n\n\n\n\n\n\n\n\n
+depot_track
+depot\n\n\n\n\n\n\n\n\n\n\n\n\n
+einfache_narrowgauge_station
+simple narrowgauge station
+extension_Lagerhalle
+Warehouse
+extension_Postamt
+Post Office
+extension_UBahn
+Subway Station Stairs
+Fachwerkbahnhof
+Railway Station with Timber Framing
+Flemm.Kleingarten
+Allotment Garden Railway\n\nHis wife did not allow a model railway at home, so Mr. Nielson had to look out for an alternative. Now he is spending more time in his hut then at home.
+Flemm.Kleingarten_2
+Allotment\n\nThe time has come to clean up this allotment. There were two warnings already, the third would be expulsion from the allotment club.
+Frachthof
+Freight yard
+ind_house_22
+Small warehouse\n\n\n\n\n\n\n\n\n\n\n\n\n
+ind_house_47
+Small warehouse
+ind_LDalps31
+Industry\n\nThe architect presented the plan for a residental building, but nobody wanted to live in it. Public opinion was that is was just ugly enough to find a place in the cities industrial area.
+ind_metalworkshop_23
+Workshops
+ind_rocky01_21
+Ski chalet
+maglev_depot
+depot\n\n\n\n\n\n\n\n\n\n\n\n\n
+maglev_station
+concrete platform
+maglev_station_maglev
+maglev stop
+Moderner_Bahnsteig_narrowgauge_station
+modern narrowgauge station
+mon_cruzer
+Cruzer-Monument\n\nA monument to honor Cruzer, creator and founder of pak192.com. Withouth him, this would not be possible.
+mon_incredible_cube
+Incredible Cube\n\nA monument to honor the developers of Simutrans.
+mon_ptm1
+PappeTeeMaster monument\n\nA monument in honor PappeTeeMaster, the current pak maintainer and creator of many great buildings and vehicles, without the pak192.comic would not be so great today.
+mon_werniman
+Nightly-Monument\n\nTo honor Wernieman for supplying daily nightly Simutrans versions.
+OelundGasTank
+Oil Tank
+passagier_narrowgauge_station
+narrowgaugestation for passengers
+res_garden01_2
+Small allotment garden\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_10
+Luxury family home\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_11
+Family home\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_13
+Big family home\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_15
+Small house\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_17
+City building with inner court\n\nCurrently this building is used as a\nyouth hostel. In the\nevening everyone is\nsinging songs around the\nfire.\n\n\n\n\n\n\n\n
+res_house_30
+City house\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_32
+City house\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_35
+City house\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_42
+Small block of flats
+res_house_6
+Small family home\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_62
+Modern residential house\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_7
+Small family home\n\nThe watchdog of this house\nis very good. The owner\nhas not had any mail for a\nlong time...\n\n\n\n\n\n\n\n\n
+res_house_71
+Modern residential house\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house_8
+Family home\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house2_11
+Family home\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house2_71
+Modern residential building\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_house3_11
+Bungalow
+res_houseS_11
+Family home\n\nA small prefab-house with\ngarage mady by the\n"Plaster and Cardboard"\ncompany provides a cheap\nhome for every family. But\nbeware of outside\nscratches, because\nwithout colour plaster is\nnot really waterproof.\n\n\n\n
+res_knox
+Inventors Villa\n\nIn this futuristic building lives Prof. Knox. His inventions are well-known in the city - especially for the damage they cause.
+Res_LD_ArHotel
+ArHotel\n\nThe company saves money by using the same blueprints for each hotel of the chain.
+res_LD_bridgeheadbuilding
+Bridge Head Building\n\nThe name of this building confuses tourists as well as locals. It derives from the inspiration the architect had, a monumental boulding at the head of a bridge.
+res_LD_bridgeheadbuilding_b
+Bridge Head Building\n\nThe name of this building confuses tourists as well as locals. It derives from the inspiration the architect had, a monumental boulding at the head of a bridge.
+res_LDalps11
+Family Home\n\nMother Hildegard had such fear fo her daughter Irmi under the roof, that father Heinrich had to attach bars. Irmi feels proven right in her suspicion that she's hold prison by her parents.
+res_LDalps12
+Family Home\n\nEvery week Mr. Moser waters the hedge with the hosepipe hanging at the garage wall.
+res_LDalps13
+Family Home\n\nSince the Kunzes renounced their automobile, father Kunze uses the garage as a hobby room for his model railway, H0.
+res_LDalps14
+Family Home\n\n The doormat reads: "Knee down, knock, and beg for an audience" - strange, the doorbell works just fine.
+res_LDalps15
+Small Home\n\nThe climate of this area is too cold for the 	Mediterranean cypress in the garden, but the owner tends lovingly to it and takes good care.
+res_LDalps16
+Small Home\n\nIvy sotes suger in it's cells so it won't freeze in winter. Many kinds of hedera helix are red in winter because of that.
+res_LDalps21
+Two-Generations Home\n\nGranny on the ground floor fosters her balcony flowers while the parents relax on the lounge chairs - now that finally the kids are gone.
+res_LDalps22
+Two-Generations Home\n\nAfter her grandparents death Mrs. Kostner moved into the floor under her parents. Now her mother can help raising the kids Kev left behind.
+res_LDalps23
+Two-Generations Home\n\nMrs Meier says that all the rooms are at least three degrees colder since the blue paint was applied, but nobody believes her. In the meantime, Mr. Meier saves heating costs, because the painters were not cheap.
+res_LDalps24
+Two-Generations Home\n\n"A trampoline is a device consisting of a piece of taut, strong fabric stretched over a steel frame using many coiled springs. People bounce on trampolines for recreational and competitive purposes."\n~excerpt from Wikipedia
+res_LDalps26
+Home\n\n On the clothesline, trousers and shirts should be on the outside, underwear on the inside. This method enables similar drying time for all parts and protects against dirty thoughts of the neighbours son.
+res_oldhouse_10
+Chalet
+res_park01
+Park\n\nAll my little ducklings are swimming on the lake,...
+res_park02
+Park\n\n Pink cherry blossoms make this place a romantic meeting point for young couples.
+res_park03
+Park\n\nThis grove is dark and eerie at night. If you are walking alone, you better use the streets.
+res_park04
+Park\n\nThe playground is not big, but still often visited by children and their parents.
+res_park05
+Park\n\nEvery year some bird build their nests in this trees thick branches. Sitting on the bench, one can listen their chirping songs.
+res_park06
+Greenhouse\n\nThis Greenhous is not only filled with palmtrees and tropical plants from all over the world, it's also home to a collection of exotic butterflies.
+res_park07
+Park\n\nAmong the neighbourhoods children rumor has it that on the bottom of the pond, a blonde Aquarius riding a seahorse dwells.
+res_parkskyscraper
+Green Skyscraper\n\nThe mayors secretary did not get the job because of any qualifications. One of her flaws was a doctors handwriting, and when she ordered several pots of plants, her "pot" just looked like "100t".\nThe building created as an ultimate greens disposal place doubles as an apartment. "Live like in the jungle" is written in big letters on the brochure. Spiders, snakes and reptiles are mentioned but in very tiny print.
+res_PTM_Einzelhaus_001
+Simple Dwelling\n\nMr. Chaste is known as a meek and humble person. He is only ever seen buying water and bread while in underwear. Rumor has it his home does not even have walls of furniture, and he is sleeping naked on the bare floor.
+road_Busbahnhof
+bus station
+road_doppelstation_strab
+double Busstop
+road_station
+Road station
+road_station_modern
+bus stop with shelter
+road_station_old
+road station
+schmalspur_depot
+Depot for Narrowgauge\ntrains\n\n\n\n\n\n\n\n\n\n\n\n
+school_old
+old school\n\n\n\n\n\n\n\n\n\n\n\n\n
+STC_Single_Tower
+STC\n\nDThe Simutrans Trade Center claims to be the highest building of the world. If it was higher, it would lead to graphic glitches.
+Torre Caja
+Torre Caja\n\nOne skyscraper to go, please!
+tow_3_modern
+Town Hall
+tow_fw_01
+Town Hall
+tow_fw_02
+Town Hall
+tow_ger_01
+Town Hall
+tow_historic
+town hall
+tow_old
+town hall
+tow_small
+town hall
+track_station
+modern concrete platform
+track_station_good
+modern goods platform
+track_station_old
+concrete platform
+#____________________________________citycar____________________________________
+#____________________________________citycar____________________________________
+citycar01
+Green car
+citycar02
+Red car
+citycar03
+Blue car
+citycar04
+Small blue car
+citycar05
+CrZ Polo
+citycar06
+Blue and white car
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
+factory_Autofabrik_details
+<title>Car Assembly Halls</title>\n<p>This factory assembles the the building parts which are delivered to it.</p>
+factory_Autoteilefabrik_details
+<title>Car Parts Factory</title>\n<p>It does not matter which car you drive, chances are a part from it was made in this very factory.</p>
+factory_baeker_details
+<title>Bakery</title>\n<p>The apprentice was in the media recently. He took part in a survival show and astonished by his painted camouflage. "It's like decorating cake" he said.</p>
+factory_berry_plantation_details
+Strawberry fields
+factory_berry1_plantation_details
+<title>Strawberry Fields</title>\n<p>"Oh, the lustful sensation that is to eat strawberrys, red lips kissing red strawberry skin and..."</p><p>It seems the owner really likes her strawberrys.</p>
+factory_FlaxFields_details
+<title>Flax Farm</title>\n<p>People often said it would be better to use hemp instead of flax, as it is stronger and there is a chance of saisonal harvest workers who need no payment.</p>
+factory_Getreidehof_details
+<title>Grain Farm</title>\n<p>Grain can be used to make the tasty fluid bread, a basic staple of life. Also known as beer.</p>
+factory_Getreidemuehle_details
+<title>Flour Mill</title>\n<p>There was a jolly miller once</br>Lived on the river Dee</br>He work'd and sang from morn till night,</br>No lark more blithe than he.</p>
+factory_icefactory_details
+<title>Ice Cream Works</title>\n<p>Fruit ice cream of high quality in various flavours are produced here. Nobody knows how they manage to get banana flavour with only berrys as a base material.</p>
+factory_Kaufhaus_details
+<title>Shopping Mall<title>\n<p>A graffitti on the wall reads "Only leashed girlfriends permitted". Looking at the really big choice, it does not seem that far fetched.</p>
+factory_kleine_tankstelle_details
+<title>Small Petrol Station</title>\n<p>This small petrol station was unharmed by the crisis, the price for a gallon petrol is unchanged at 3 ¢redits since 1999.</p>
+factory_Kohle_kraftwerk_details
+<title>Coal Power Plant</title>\n<p>Black Gold is the heart of the night, and as long as it beats, the earth will spin and live goes on,</p>
+factory_Milchwerke_details
+<title>Cheesy Factory</title>\n<p>They claim to hold the world record for the biggest cheese produced, stating you could see it every night.</p>
+factory_Molkerei_details
+<title>Cattle Ranch</title>\n<p>Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.</p>
+factory_Nahrungsmittelfabrik_details
+<title>Slaughterhouse</title>\n<p>The whole cattle-killing got a lot funnier when the S had fallen off the building.</p>
+factory_PTM_Kohlezeche_001_details
+<title>Coal Mine</title>\n<p>Oh, your psychiatrist is not available to discuss your compulsive Simutrans-playing behaviour? Here is a phone, Coal Mine.</p>
+factory_PTM_Oilbohrinsel_001_details
+<title>Oil Rig</title>\n<p>Since natural resources of Earth are long gone, this platform is used to catch seagulls and process them to biological oil.</p>
+factory_PTM_Tankstelle_gruen_details
+<title>Petrol Station</title>\n<p>If we'd use American English, this would be the perfect place for a fart joke.</p>
+factory_Solar_kraftwerk_details
+<title>Solar Power Plant</title>\n<p>Sun can't be delivered, neither in trains nor trucks. Therefore, all that's interesting about this power plant is the energy it produces.</p>
+factory_Spielzeugfabrik_Blech_details
+<title>Toy Factory</title>\n<p>This manufactory creates tin toys in really good quality. They last over generations.</p>
+factory_Textilien_factory_details
+<title>Textile Factory</title>\n<p>Without this factory, everyone would be forced to go around naked or wear food.</p>
+factory_Textilien_old_factory_details
+<title>Textile Factory</title>\n<p>Without this factory, everyone would be forced to go around naked or wear food.</p>
+#____________________________________factory____________________________________
+#____________________________________factory____________________________________
+Autofabrik
+Car Assembly Halls
+Autoteilefabrik
+Car Parts Factory
+baeker
+Bakery
+berry_plantation
+Berry Plantation\n\n After many years, the owner found out t
+berry1_plantation
+Strawberry Fields
+berry2_plantation
+Currant Plantation
+farm
+sheep farm
+FlaxFields
+Flax Farm
+Getreidehof
+Grain Farm
+Getreidemuehle
+Flour Mill
+icefactory
+Ice Cream Works
+juicefactory1
+Beverage Company
+Kaufhaus
+Shopping Mall 
+kleine_tankstelle
+Small Petrol Station
+Kohle_kraftwerk
+Coal Power Plant
+Milchwerke
+Cheesy Factory
+Molkerei
+Cattle Ranch
+Nahrungsmittelfabrik
+Slaughterhouse
+PTM_Kohlezeche_001
+Coal Mine
+PTM_Oilbohrinsel_001
+Oil Rig
+PTM_Raffinerie_001
+Oil Refinery
+PTM_Tankstelle_gruen
+Petrol Station
+shop
+Shop
+small_shop
+small city shop
+Solar_kraftwerk
+Solar Power Plant
+Spielzeugfabrik_Blech
+Toy Factory
+Stahlwalzwerk
+Steel Rolling Mill
+Textilien_factory
+Textile Factory
+Textilien_old_factory
+Textile Factory
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+car_parts
+car parts
+Passagiere
+passengers
+Post
+mail
+#__________________________________ground_obj___________________________________
+#__________________________________ground_obj___________________________________
+LD_hochstand
+Tree Stand\n\nBecause of stricter gun control, the hunters on this tree stand have to shoot arrows with a bow.
+stone_00
+Rock
+stone_01
+Rock
+stone_02
+Rock
+stone_03
+Rock
+stone_04
+Rock
+stone_05
+Rock
+stone_06
+Rock
+stone_07
+Rock
+stone_08
+Rock
+stone_09
+Rock
+stone_10
+Rock
+stone_11
+Rock
+stone_12
+Rock
+stone_13
+Rock
+stone_14
+Rock
+stone_15
+Rock
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+MAGLEVTOOLS
+Maglev-tool
+VIEW
+View
+#__________________________________pedestrian___________________________________
+#__________________________________pedestrian___________________________________
+pedestrian_1
+John Doe
+pedestrian_2
+Tommy Atkins
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+3center
+%s Old Town %s
+CATEGORY_01
+Piece goods
+CATEGORY_02
+Bulk good
+CATEGORY_03
+Oil/Petrol
+CATEGORY_04
+Cooled goods
+CATEGORY_05
+Foodstuff
+CATEGORY_06
+Lumber
+CATEGORY_07
+Farm products
+TrolleyBus_tab
+tram
+#___________________________________roadsign____________________________________
+#___________________________________roadsign____________________________________
+Hauptsignal
+Block Signal
+maglev_chooseway
+Choose Signal
+maglev_signal
+Block Signal
+Mindestgeschwindigkeits Signal 130
+Minimum Speed 130
+Mindestgeschwindigkeits Signal 260
+Minimum Speed 260
+nar_Auswahlsignal
+Choose Signal
+nar_End_Auswahlsignal
+End of Choose Way
+nar_free_modern
+Choose Signal
+nar_freeend_modern
+End of Choose Way
+nar_modern
+Block Signal
+nar_pre_modern
+Pre-signal
+nar_private_modern
+Private Track
+presignal
+Pre-signal
+privateroad
+Private Road
+road_auswahl
+Choose Way
+road_auswahl1
+Choose Way
+road_auswahl2
+Choose Way
+road_min-speed-80
+Minimum Speed 80
+road_singleway
+One-way Road
+road_sperre
+Road Block
+signal
+Block Signal
+signal_form
+Block Signal
+signal_old
+Block Signal
+signal_way
+Choose Signal
+signal_way_end
+End of Choose Way
+signal_way_end_form
+End of Choose Way
+signal_way_form
+Choose Signal
+signal_way_old
+Choose Signal
+singleway_air
+One-way Runway
+track_one_way
+One-way
+track_private_modern
+Private Track
+traffic_light
+Traffic Light
+#_____________________________________tree______________________________________
+#_____________________________________tree______________________________________
+192tree01
+Tree
+192tree02
+Tree
+LDtree01
+Cypress
+TanneA
+Tree
+TanneB
+Tree
+Tree1
+tree\n\n\n\n\n\n\n\n\n\n\n\n\n
+Tree2
+tree\n\n\n\n\n\n\n\n\n\n\n\n\n
+Tree3
+tree\n\n\n\n\n\n\n\n\n\n\n\n\n
+Tree4
+tree\n\n\n\n\n\n\n\n\n\n\n\n\n
+Tree5
+tree\n\n\n\n\n\n\n\n\n\n\n\n\n
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+RoadTunnel_1
+road tunnel
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+Adler_Klasse1
+Adler | Coach (1st class)
+Adler_Klasse2
+Adler | Coach (2nd class)
+Adler_Klasse3
+Adler | Coach (3rd class)
+Adler_Schuettgut
+Adler | Bulk Good Wagon
+Adler_Stueckgut
+Adler | Pieced Good Wagon
+Adler_Tender
+Adler Tender
+auflieger01
+trailer (piece goods)
+B_VI1
+Bavarian B VI
+B_VI1_Tender
+Bavarian B VI (Tender)
+B_VIIa
+B VIIa
+B_VIIa_Tender
+B VIIa (Tender)
+B2ueh
+"Spantenwagen" B2üh 
+B2ueh2
+"Spantenwagen" B2üh  (2nd Generation)
+B4ueh
+B4üh 30510-517
+BR 150
+DB BR 150 (E 50)
+BR 613_1
+"Itino" DB BR 613 
+BR 613_2
+"Itino" DB BR 613 | Middle Coach
+BR 613_3
+"Itino" DB BR 613 | End Coach
+BR 642
+"Desiro" DB BR 642 
+BR 642_1
+"Desiro" DB BR 642 | End Coach
+BR 650
+Stadler Regio-Shuttle DB BR 650
+BR_05
+DB BR 05
+BR_05_Tender
+DB BR 05 Tender
+BR_101
+DB BR 101
+BR_114
+DB BR 114
+BR_120
+DB BR 120
+BR_141
+DB BR 141 (E41)
+BR_146_TRAXX
+"TRAXX" DB BR 146 
+BR_185_TRAXX_freight
+"TRAXX" DB BR 185 
+BR_19
+Steam Motorised Locomotive DB BR 19 1001
+BR_19_Tender
+Steam Motorised Locomotive DB BR 19 1001 Tender
+BR_246_TRAXX
+"TRAXX" DB BR 246 
+BR_402_1
+ICE Powerhead DB BR 402 
+BR_402_2
+ICE Powerhead DB BR 402 
+BR_403_1
+ICE 3 DB BR 403
+BR_403_2
+ICE 3 DB BR 403
+BR_403_3
+ICE 3 DB BR 403
+BR_403_4
+ICE 3 DB BR 403
+BR_403_6
+ICE 3 DB BR 403
+BR_403_7
+ICE 3 DB BR 403
+BR_403_8
+ICE 3 DB BR 403
+BR_411_1
+ICE-T BR 411
+BR_411_2
+ICE-T BR 411
+BR_411_3
+ICE-T BR 411
+BR_411_4
+ICE-T Dining Car BR 411 
+BR_411_5
+ICE-T BR 411
+BR_771_Ferkeltaxe
+"Ferkeltaxe" DB BR 771 
+BR_795
+"Uerdingen Railbus" VT 95 
+BR_795_beiwagen
+"Uerdingen Railbus" VT 95 | Trailer
+BR_801_1
+"ICE Coach" DB BR 801 
+BR_801_2
+"ICE Coach" DB BR 801 
+BR_803
+"ICE Coach" DB BR 803 | Dining Car
+BR_807
+"ICE" DB BR 807 | Bistro Car
+BR_808_1
+"ICE" DB BR 808 | Cab Car
+BR_808_2
+"ICE" DB BR 808 | Cab Car
+BR_C01
+"Pacific" DB BR 01
+BR_C01_Tender
+"Pacific" Einheitsdampflokomotive DR BR 01 | Tender
+BR_C02
+Einheitsdampflokomotive BR 02
+BR_C02_Tender
+Einheitsdampflokomotive BR 02 | Tender
+BR_C03
+Einheits-Express Train Locomotive BR 03
+BR_C03_Tender
+Einheits-Express Train Locomotive BR 03 | Tender
+BR119sf
+DB BR 219 (DR 119)
+BR80
+BR 80.5
+CatCar_single
+PTM CatCar
+CatCar_single_modernisiert
+CatCar II
+Cityshuttle
+"CityShuttle" ÖBB Bmpz-s 5081 80-73
+Cityshuttle1
+"CityShuttle" ÖBB Bmpz-s 5081 80-75
+Cityshuttle2
+"CityShuttle" ÖBB Bmpz-s 5081 80-75
+Class_444
+British Rail Class 444
+Class_444_End
+British Rail Class 444 | End Coach
+Class_444_Mitte
+British Rail Class 444 | End Coach
+Class43-1
+British Rail Class 43
+Class43-2
+British Rail Class 43
+Class43-3
+British Rail Class 43
+Combino_3_W1
+Combino (head)
+Combino_3_W2
+Combino (middle)
+Combino_3_W3
+Combino (tail)
+container_track02
+Open Wagon
+CRZ 2P35
+CRZ IV-P35
+CRZ 2P55
+CRZ IV-P55
+CRZ 2P65
+CRZ IV-P65
+CRZ 3P62
+CRZ V-P62
+CRZ 4P25
+CRZ Pv 4/25
+CRZ 4P50
+CRZ Pv 4/50
+CRZ 4P65
+CRZ Pv 4/65
+CRZ E44
+Electric Locomotive DR E44
+CRZ E68
+E68
+CRZ ET68
+ET68
+CRZ ET68_1
+ET68 | Trailer
+CRZ ET69
+ET69
+CRZ ET69_1
+ET69 | Trailer
+CRZ Kipper
+CRZ Truck 80-17
+CRZ Transport
+CRZ truck 80-22
+CRZ V61
+Rh 2061
+CRZ V62
+Rh 2062
+Dosto_1990
+"Dosto" Double-decker Coach
+Dosto_4g_B_500
+"Dosto" Double-decker Coach 4th Generation
+Dosto_4g_F_500
+"Dosto" Double-decker Coach 4th Generation
+Dosto_4g_M_500
+"Dosto" Double-decker Coach 4th Generation
+DR_E44.5
+Electric Locomotive DR E44.5 
+DT1_1-HHA
+Elevated Rail Coach HHA DT1
+DT1_2-HHA
+Elevated Rail Coach HHA DT1
+DT2_1-HHA
+Elevated Rail Coach HHA DT2
+DT2_2-HHA
+Elevated Rail Coach HHA DT2
+DT2(end)
+Elevated Rail Coach HHA DT2 | End Coach
+DT2(front)
+Elevated Rail Coach HHA DT2
+DT3_1-HHA
+Elevated Rail Coach HHA DT3
+DT3_2-HHA
+Elevated Rail Coach HHA DT3
+DT3_3-HHA
+Elevated Rail Coach HHA DT3
+DT3-E(end)
+Elevated Rail Coach HHA DT3-E | End Coach
+DT3-E(front)
+Elevated Rail Coach HHA DT3-E
+DT3-E(middle)
+DT3-E (middle)
+DT4_1
+Elevated Rail Coach HHA DT4
+DT4_2
+Elevated Rail Coach HHA DT4
+DT4_3
+Elevated Rail Coach HHA DT4
+DT4_4
+Elevated Rail Coach HHA DT4
+DT4(end)
+Elevated Rail Coach HHA DT4 | End Coach
+DT4(front)
+Elevated Rail Coach HHA DT4
+DT4(middle1)
+Elevated Rail Coach HHA DT4 | Middle Coach
+DT4(middle2)
+Elevated Rail Coach HHA DT4 | Middle Coach
+DT5_1
+Elevated Rail Coach HHA DT5
+DT5_2
+Elevated Rail Coach HHA DT5
+DT5_3
+Elevated Rail Coach HHA DT5
+DT5_blue-silver(end)
+Elevated Rail Coach HHA DT5 | End Coach
+DT5_blue-silver(front)
+DT5
+DT5_blue-silver(middle)
+DT5 (middle)
+E03
+DB BR 103 (E03)
+Einheitswagen
+unit car
+Elko_Star
+SNL Elko Star
+Elko_Star_End
+SNL Elko Star | End Coach
+Elko_Star_Passagiere
+SNL Elko Star | Coach
+Elko_Star_Post
+SNL Elko Star | Post Wagon
+Eurostar_Lok2
+Eurostar
+Eurostar_Mittelwagen
+Eurostar
+Eurostar_Wagen1
+Eurostar
+Eurostar_Wagen2
+Eurostar
+Ge4_I
+RhB Ge 4/4 I
+Glacier_Express_Panoramawagen
+Glacier Express (panorama waggon)
+good_kutsche1
+trap for bulk good
+good_kutsche2
+trap for piece goods
+GTW_1
+GTW
+GTW_2
+GTW (end)
+HGe4_II
+HGe 4/4 II
+horse1
+horse
+horse2
+Double horse
+Ikarus_260
+Ikarus 260
+Ikarus_280
+Ikarus 280
+Ikarus_280_TB
+Ikarus 280 (end)
+Ikarus_293_TB
+Ikarus 293 (middle)
+Ikarus_293_TC
+Ikarus (end)
+JNS ICE Bistro
+JNS ICE Dinner car
+JNS ICE Class1
+JNS ICE Passengers wagon (1st class)
+JNS ICE Class2
+JNS ICE Passengers wagon (2nd class)
+JNS ICE Lok1
+JNS InterCity Express
+JNS ICE Lok2
+JNS ICE Motor wagon (end)
+KLV12
+KLV 12 handcar
+KLV12_Passagierwagen
+KLV 12 passenger waggon
+KLV12_Postwagen
+KLV 12 post car
+Koef_II
+Switcher Köf II
+Koef_III
+Switcher Modified Köf II
+MB O405
+Mercedes MB O-405 N
+MB O405GL
+Mercedes MB O-405 GN
+MB O405GL2
+Mercedes MB O-405 GN (end)
+MB O530
+Mercedes MB O-530 "Citaro"
+MB O530GL
+Mercedes MB O-530 G "Citaro"
+MB O530GL2
+Mercedes MB O-530 G "Citaro" (end)
+MTW 34
+MTW34 lorry
+Nahverkehrswagen
+PTM local passenger coach Bn-Bnrz
+Nahverkehrswagen_Steuerwagen1
+PTM local coach Bn-Bnrz (cab car)
+Nahverkehrswagen_Steuerwagen2
+PTM local coach Bn-Bnrz (cab car)
+OBB_4090
+PTM-ÖBB 4090
+OBB_4090b
+PTM-ÖBB 4090 (end)
+OBB_4090w
+PTM-ÖBB 4090 (middle)
+BB_Bahnpostwagen
+Post Wagon ÖBB
+pers_kutsche1
+carriage
+Poestlingbergbahn_Wagen_II
+Pöstlingbergbahn II
+Post_MAN_TGS
+MAN TGS Mail
+PTM_012
+PTM 012
+PTM_013
+PTM A 4/2
+PTM_Cally_Post
+Mail van
+Railjet_Steuerwagen
+"Railjet" ÖBB | Control Car
+Railjet_Steuerwagen2
+"Railjet" ÖBB | Control Car
+Railjet_Taurus
+"Railjet" Taurus ÖBB Rh 1116
+Railjet_Taurus_r
+"Railjet" Taurus ÖBB Rh 1116
+Railjet_Wagen
+"Railjet" ÖBB | Middle Coach
+Re_460
+"Lok 2000" SBB Re 460
+Reihnexpress
+Rhine Express
+Reihnexpress_Post
+Rhine Express (mail)
+Rh 1016
+Rh. 1016 "Taurus"
+Rh 1050
+Rh. 2050
+Rh 1063
+Rh. 1063
+Rh 1144
+Rh. 1144
+SC_210
+SC 210
+SC_H210
+SC 210 trailer
+SCB_266
+SimuCar SCB-266
+SCB_287
+SimuCar SCB-287
+Shinkansen_end
+Shinkansen 500 JR Nishi-Nihon | End Coach
+Shinkansen_front
+Shinkansen 500 JR Nishi-Nihon
+Shinkansen_power
+Shinkansen 500 JR Nishi-Nihon | Transformer
+Shinkansen_w1
+Shinkansen 500 JR Nishi-Nihon | 1st Class
+Shinkansen_w2
+Shinkansen 500 JR Nishi-Nihon | 2nd Class
+SNL DBza 178 (Triebwagen)
+SNL DBza 178 (cab car)
+SNL VT17
+SNL berlin interurban train
+SNL VT17_1
+SNL berlin interurban train (end)
+SNL VT17_2
+SNL berlin interurban train (middle)
+SNL_Arkon(end)
+SNL Akron (end)
+SNL_Arkon(front)
+SNL Akron
+snl_container
+container waggon
+SNL_RGOLD01
+Rheingold (2nd class)
+SNL_RGOLD02
+Rheingold (mail)
+SNL_RGOLD03
+Rheingold (Bistro)
+SNL_Transrapid_00
+SNL Transrapid
+SNL_Transrapid_00_proto
+SNL Transrapid Prototyp (control car)
+SNL_Transrapid_01
+SNL Transrapid (middle)
+SNL_Transrapid_01_proto
+SNL Transrapid Prototyp (engine car)
+SNL_Transrapid_02
+SNL Transrapid (end)
+SNL_Transrapid_02_proto
+SNL Transrapid Prototyp (control car end)
+SNL_V200
+BR V200
+Stahlwagen
+steel waggon
+TW_107
+TW 107
+TW_107_Wagen
+TW 107 waggon
+TW_21
+TW 21
+UIC-Z_F1
+UIC-Z Bmh721
+UIC-Z_F2
+UIC-Z Bmh721
+V16
+MRCE ER20 "Eurorunner"
+Viehwagen_Track1
+Small Cattle Wagon
+Viehwagen_Track2
+Big Cattle Wagon
+Viehwagen_Track3
+Closed Cattle Wagon
+volkswagent2_Post
+VW Postbus T2
+VT70
+GKB VT70
+VT70_1
+GKB VT70 (End)
+Zefrio_380-1
+"Zefiro" CRH380D
+Zefrio_380-2
+"Zefiro" CRH380D
+Zefrio_380-3
+"Zefiro" CRH380D
+Zefrio_380-4
+"Zefiro" CRH380D
+Zefrio_380-5
+"Zefiro" CRH380D
+#______________________________________way______________________________________
+#______________________________________way______________________________________
+asphalt_road
+road
+channel
+Channel
+city_road
+City Road
+cobblestreet
+Cobble Street
+dirt_road
+Dirt Road
+high_street
+Elevated Street
+high_track
+Elevated Rail
+highway
+Highway
+laermwand1
+Noise Barrier
+laermwand2
+Noise Barrier
+maglev_high
+Maglev Track
+maglev_track
+Maglev Track
+narrowgauge_track
+Narrow-gauge Track
+narrowgauge_track_fast
+Narrow-gauge Track
+narrowgauge_track_slow
+Narrow-gauge Track
+narrowgauge_tunnel_050
+Narrow-gauge Tunnel
+narrowgauge_tunnel_090
+Narrow-gauge Tunnel
+river_0
+River
+road_highway
+Autobahn
+runway2
+Asphalt Runway
+Stromleitung
+Power Line
+taxiway2
+Asphalt Taxiway
+track
+Track
+track_2
+Track
+track_3
+Track
+track_speed
+High Speed Track
+track_tunnel_080
+Tunnel
+track_tunnel_100
+Tunnel
+track_tunnel_160
+Tunnel
+track_tunnel_260
+Tunnel
+track_tunnel_330
+Tunnel
+track_wood
+branch line track
+track_wood2
+Track
+tram_gleise
+Tram Track
+tram_gleise75
+Tram Track
+#__________________________________way-object___________________________________
+#__________________________________way-object___________________________________
+allee
+Boulevard
+light
+Street Lights
+oberleitung
+Concrete Catenary 
+oberleitung_narrowgauge
+Catenary
+oberleitung_track
+Girder Mast Catenary
+oberleitung_tram_m
+Tram Catenary
+oberleitung2_tram_m
+Tram Catenary
+Track_Stromschiene
+Third Rail
+tram_oberleitung
+Trolley Catenary
+tram_oberleitung2
+Tram Catenary

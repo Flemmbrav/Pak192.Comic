@@ -1,0 +1,3 @@
+Obj=ground
+Name=SlopeTrans
+Image[0-14][0]=./images/climatexture.<$0/4>.<$0%4>

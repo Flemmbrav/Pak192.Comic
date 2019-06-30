@@ -1,0 +1,65 @@
+################################################################################
+#                                PAK192.COMIC                                  #
+################################################################################
+#                                INTELLECTUEL                                  #
+#         Museums, schools, laboratories, universities, libraries,...          #
+#       In short: Everything that has to do with knowledge and culture         #
+################################################################################
+
+Obj=building
+Name=cur_city_lentos
+copyright=Leartin
+Type=cur
+level=25
+intro_year=2000
+intro_month=5
+build_time=10121
+chance=50
+needs_ground=1
+climates=tundra, rocky
+dims=2,3,2
+BackImage[0][0-2][0-1][0][0][0-4]=./images/lentos_south.<$0>.<$1+$2*2>
+FrontImage[0][0-2][0][0][0][0-4]=./images/lentos_south.<$0>.10
+BackImage[1][0-1][0-2][0][0][0-4]=./images/lentos_east.<$1>.<1-$0+$2*2>
+FrontImage[1][0][0-2][0][0][0-4]=./images/lentos_east.<$0>.10
+---
+Obj=building
+Name=cur_city_museum
+copyright=Alex. Brose
+intro_month=1
+intro_year=1850
+#retire_month=10
+#retire_year=2040
+type=cur
+level=25
+Build_Time=34321
+chance=80
+Dims=2,2,1
+#climates=mediterran, temperate, tundra, rocky
+BackImage[0][0][0][0][0][0]=./images/192museum01.0.3
+BackImage[0][0][1][0][0][0]=./images/192museum01.0.2
+BackImage[0][1][0][0][0][0]=./images/192museum01.0.1
+BackImage[0][1][1][0][0][0]=./images/192museum01.0.0
+BackImage[0][0][0][0][0][1]=./images/192museum01.1.3
+BackImage[0][0][1][0][0][1]=./images/192museum01.1.2
+BackImage[0][1][0][0][0][1]=./images/192museum01.1.1
+BackImage[0][1][1][0][0][1]=./images/192museum01.1.0
+---
+Obj=building
+Name=cur_city_school
+copyright=Alex. Brose
+intro_month=1
+intro_year=1850
+#retire_month=10
+#retire_year=2040
+type=cur
+level=10
+Build_Time=5000
+chance=80
+Dims=2,2,1
+climates=temperate, tundra
+BackImage[0][0-1][0-1][0][0][0-4]=./images/schule.<$0>.<$1+$2*2>
+FrontImage[0][0][0][0][0-2][4]=./../city/images/smoke_l.0.<$0>,0,22
+FrontImage[0][0][1][0][0-2][4]=./../city/images/smoke_l.0.<$0>,-15,15
+
+

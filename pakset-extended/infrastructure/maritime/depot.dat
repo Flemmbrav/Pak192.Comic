@@ -1,0 +1,12 @@
+obj=building
+name=depot_river
+copyright=Leartin
+type=depot
+waytype=water
+intro_year=1800
+icon=> ./images/river_depot.0.4
+cursor=./images/river_depot.1.4
+Dims=1,1,4
+BackImage[0-3][0][0][0][0][0]=./images/river_depot.0.<$0>
+FrontImage[0-3][0][0][0][0][0]=./images/river_depot.1.<$0>
+------------------------

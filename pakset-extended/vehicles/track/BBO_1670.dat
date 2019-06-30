@@ -1,0 +1,25 @@
+obj=vehicle
+name=BBO_1670
+copyright=PappeTeeMaster
+waytype=narrowgauge_track
+speed=100
+intro_year=1928
+intro_month=1
+#Produktionsende Vorbild 1932 - Verlaengert für sinnvollen ingame-Einsatz
+retire_year=1938
+retire_month=12
+power=2150
+gear=125
+cost=59357200
+weight=107
+RunningCost=1595
+length=9
+engine_type=electric
+EmptyImage[N]=./image/BBO_1670.1.1
+EmptyImage[S]=./image/BBO_1670.0.1
+EmptyImage[E]=./image/BBO_1670.0.0
+EmptyImage[W]=./image/BBO_1670.1.0
+EmptyImage[NW]=./image/BBO_1670.1.2
+EmptyImage[NE]=./image/BBO_1670.1.3
+EmptyImage[SE]=./image/BBO_1670.0.2
+EmptyImage[SW]=./image/BBO_1670.0.3

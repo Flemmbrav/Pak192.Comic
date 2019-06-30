@@ -1,0 +1,11 @@
+obj=building
+name=depot_air
+copyright=SimuBus, Flemmbrav
+type=depot
+waytype=air
+intro_year=1900
+icon=> ./images/hangar.0.4
+cursor=./images/hangar.1.4
+Dims=1,1,4
+BackImage[0-3][0][0][0][0][0]=./images/hangar.0.<$0>
+FrontImage[0-3][0][0][0][0][0]=./images/hangar.1.<$0>

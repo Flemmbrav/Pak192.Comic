@@ -1,0 +1,176 @@
+obj=ground_obj
+name=stone_00
+copyright=Leartin
+cost=100000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.0.0
+Image[0][1]=./image/stone.0.1
+noinfo=1
+----------
+obj=ground_obj
+name=stone_01
+copyright=Leartin
+cost=100000
+DistributionWeight=8
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.1.0
+Image[0][1]=./image/stone.1.1
+noinfo=1
+----------
+obj=ground_obj
+name=stone_02
+copyright=Leartin
+cost=100000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.2.0
+Image[0][1]=./image/stone.2.1
+noinfo=1
+----------
+obj=ground_obj
+name=stone_03
+copyright=Leartin
+cost=80000
+DistributionWeight=8
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.3.0
+Image[0][1]=./image/stone.3.1
+noinfo=1
+----------
+obj=ground_obj
+name=stone_04
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.0.2
+Image[0][1]=./image/stone.0.3
+noinfo=1
+----------
+obj=ground_obj
+name=stone_05
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.1.2
+Image[0][1]=./image/stone.1.3
+noinfo=1
+----------
+obj=ground_obj
+name=stone_06
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.2.2
+Image[0][1]=./image/stone.2.3
+noinfo=1
+----------
+obj=ground_obj
+name=stone_07
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.3.2
+Image[0][1]=./image/stone.3.3
+noinfo=1
+----------
+obj=ground_obj
+name=stone_08
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.0.4
+Image[0][1]=./image/stone.0.5
+noinfo=1
+----------
+obj=ground_obj
+name=stone_09
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.1.4
+Image[0][1]=./image/stone.1.5
+noinfo=1
+----------
+obj=ground_obj
+name=stone_10
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.2.4
+Image[0][1]=./image/stone.2.5
+noinfo=1
+----------
+obj=ground_obj
+name=stone_11
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.3.4
+Image[0][1]=./image/stone.3.5
+noinfo=1
+----------
+obj=ground_obj
+name=stone_12
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.0.6
+Image[0][1]=./image/stone.0.7
+noinfo=1
+----------
+obj=ground_obj
+name=stone_13
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.1.6
+Image[0][1]=./image/stone.1.7
+noinfo=1
+----------
+obj=ground_obj
+name=stone_14
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.2.6
+Image[0][1]=./image/stone.2.7
+noinfo=1
+----------
+obj=ground_obj
+name=stone_15
+copyright=Leartin
+cost=30000
+DistributionWeight=10
+seasons=2
+climates=rocky, arctic
+Image[0][0]=./image/stone.3.6
+Image[0][1]=./image/stone.3.7
+noinfo=1
+----------

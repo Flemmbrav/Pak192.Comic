@@ -1,0 +1,16 @@
+# example scenario (you win, if you fulfill the objectives
+
+# use this savegame (must be in pak/scenario/)
+savegame=scenario.sve
+
+#
+# The following objectives exist:
+# 3: make this factory producing
+# 4: earn at least factor money
+# 5: headquarter and factor (profitable) trains
+# 6: factor passengers
+type=4
+
+# factor for scenario achievements (i.e. factor = 2000000 => earn 2000000)
+factor = 1000000
+
