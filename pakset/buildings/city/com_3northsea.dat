@@ -95,7 +95,7 @@ needs_ground=1
 climates=temperate
 dims=1,1,2
 clusters=3
-BackImage[0-1][0][0][0-1][0][0-1]=images/com/northsea/C2/2000_Traberweg_1.<1-$1>.<$0+$2*2>
+BackImage[0-1][0][0][0][0][0-1]=images/com/northsea/05_E6_01.<$1>.<$0>
 ---
 #################################################################################
 #									 Level 7									#
