@@ -10,10 +10,15 @@
 ################################################################################
 
 ################################################################################
-#                                  GEWIDMET                                    #
+#                            MONUMENTS TO PEOPLE                               #
+#  These monuments are for specific people who helped with this pakset, the    #
+#  game of Simutrans, or surrounding infrastructure. Typically, these things   #
+#  are gifted to the person in question on their birthday. Aim to make them    #
+#  represent what the person did to deserve a monument. Examples:              #
+#  Flemmbrav: Typically makes trains, so his monument is one of his trains.    #
+#  Alex: Best known for his buildings, so his monument shows a building.       #
+#  Cruzer: Pakset Founder, so his monument looks ancient, early-game.          #
 ################################################################################
-
-
 
 
 obj=building
@@ -139,7 +144,7 @@ frontImage[0][0][0][0][157-161][0-1]=./images/mon/Leartin_Denkmal_animation.141.
 ---
 obj=building
 name=mon_rings
-#Monument to celebrate a members wedding - but no name due to privacy.
+#Monument to celebrate a team members wedding - but no name due to privacy.
 copyright=Leartin
 intro_year=2017
 type=mon
@@ -156,15 +161,9 @@ FrontImage[0][0][0][0][14-17][0,1]=./images/mon/mon_rings.<$0-12>.0,21,28
 FrontImage[0][0][0][0][18-20][0,1]=./images/mon/mon_rings.<22-$0>.0,21,28
 ---
 
-################################################################################
-#                                   UNIKATE                                    #
-#  Außergewöhnliche Plätze, welche nicht mehrmals auf einer Karte vorhanden    #
-#  sein sollten, und zugleich eine Meldung im Ticker wert sind.                #
-################################################################################
-
-
 obj=building
 name=mon_incredible_cube
+#Placeholder-Monument for the programmers of Simutrans. Some should get their own monuments eventually.
 copyright=PappeTeeMaster
 intro_year=1910
 type=mon
@@ -173,8 +172,20 @@ level=30
 build_time=12000
 BackImage[0][0][0][0][0][0-1]=./images/mon/mon_incredible.<$0>.0
 ---
+
+################################################################################
+#                          MONUMENTS TO FRANCHISES                             #
+#  These Monuments are tributes to other games, books or movies. While smaller #
+#  references can hide in any regular object (eg. logos on office towers),     #
+#  these are much more explicit and should in turn be somewhat representative  #
+#  of the franchise in question.											   #
+################################################################################
+
+
+
 obj=building
 name=mon_at_at
+#Franchise: Star Wars
 copyright=Leartin
 intro_year=1977
 intro_month=5
@@ -186,6 +197,7 @@ BackImage[0][0][0][0][0][1]=./images/mon/mon_at_at.0.1
 ---
 obj=building
 name=mon_cube
+#Franchise: Mechanical Puzzles (It's a stretch...)
 copyright=Leartin
 intro_year=1976
 type=mon
@@ -199,19 +211,8 @@ BackImage[0][0][0][0][0][1]=./images/mon/cube.7.9
 frontImage[0][0][0][0][0-77][0-1]=./images/mon/cube.<($0+1)/10>.<($0+1)%10>
 ---
 obj=building
-name=mon_tree
-copyright=Leartin
-climates=mediterranian
-intro_year=1800
-type=mon
-needs_ground=0
-level=50
-build_time=100000
-Dims=1,1,1
-BackImage[0][0][0][0][0][0-4]=./images/mon/tree.<$0>.0
----
-obj=building
 name=mon_coot
+#Franchise: Duckburgh, Disney Comics
 copyright=Leartin
 climates=temperate
 intro_year=1952
@@ -222,4 +223,52 @@ level=100
 build_time=150000
 Dims=1,1,1
 BackImage[0][0][0][0-1][0][0-1]=./images/mon/mon_coot.<1-$0>.<$1>
+---
+obj=building
+name=mon_creeper
+#Franchise: Minecraft
+copyright=Leartin
+#climates=
+intro_year=2009
+intro_month=5
+type=mon
+needs_ground=0
+level=100
+build_time=150000
+Dims=1,1,1
+BackImage[0][0][0][0-1][0][0-1]=./images/mon/mon_creeper.<1-$0>.<$1>
+FrontImage[0][0][0][0][0][0-1]=./images/mon/mon_creeper.1.2
+---
+obj=building
+name=mon_pokeball
+#Franchise: PoKéMoN
+copyright=Leartin
+#climates=tropic
+intro_year=1996
+intro_month=2
+type=mon
+needs_ground=0
+level=30
+build_time=12000
+BackImage[0][0][0][0][0][0-1]=./images/mon/mon_pokeball.<$0>.0
+---
+
+################################################################################
+#                           MONUMENTS TO BE UNIQUE                             #
+#  There is nothing these monuments represent, they have no deeper meaning to  #
+#  them. But perhaps due to their design or for other reasons, they should not #
+#  appear in the game too often. 											   #
+################################################################################
+
+obj=building
+name=mon_tree
+copyright=Leartin
+climates=mediterranian
+intro_year=1800
+type=mon
+needs_ground=0
+level=50
+build_time=100000
+Dims=1,1,1
+BackImage[0][0][0][0][0][0-4]=./images/mon/tree.<$0>.0
 ---
