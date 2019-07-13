@@ -1,4 +1,36 @@
 obj=way
+waytype=water
+system_type=1
+name=kaimauer2
+copyright=Leartin
+intro_year=1900
+cost=500
+maintenance=0
+topspeed=0
+icon=> ./images/kaimauer.0.2
+cursor=./images/kaimauer.0.3
+Image[NS,EW][0]=./images/kaimauer.0.<$0>,0,100
+Image[N,W,E,S][0]=./images/kaimauer.1.<$0>,0,100
+Image[SW,NW,NE,SE][0]=./images/kaimauer.2.<$0>,0,100
+Image[-][0]=./images/kaimauer.0.3,0,50
+------------------------
+obj=way
+waytype=water
+system_type=1
+name=kaimauer1
+copyright=Leartin
+intro_year=1900
+cost=500
+maintenance=0
+topspeed=0
+icon=> ./images/kaimauer.0.6
+cursor=./images/kaimauer.0.7
+Image[NS,EW][0]=./images/kaimauer.0.<$0+4>,0,100
+Image[N,W,E,S][0]=./images/kaimauer.1.<$0+4>,0,100
+Image[SW,NW,NE,SE][0]=./images/kaimauer.2.<$0+4>,0,100
+Image[-][0]=./images/kaimauer.0.7,0,50
+------------------------
+obj=way
 name=old_wall
 waytype=track
 system_type=255

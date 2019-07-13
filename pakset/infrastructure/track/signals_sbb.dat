@@ -1,0 +1,24 @@
+obj=roadsign
+name=track_signal_sbb
+copyright=RABe514
+waytype=narrowgauge_track
+intro_year=1940
+intro_month=1
+cost=750
+is_signal=1
+icon=> ./images/signals/signal_sbb.0.8
+cursor=./images/signals/signal_sbb.0.9
+Image[0-7]=./images/signals/signal_sbb.0.<$0>
+-----------------------
+obj=roadsign
+name=track_sigchoose_sbb
+copyright=RABe514
+waytype=narrowgauge_track
+intro_year=1940
+intro_month=1
+cost=750
+is_signal=1
+free_route=1
+icon=> ./images/signals/sigchoose_sbb.0.8
+cursor=./images/signals/sigchoose_sbb.0.9
+Image[0-7]=./images/signals/sigchoose_sbb.0.<$0>
