@@ -4,7 +4,7 @@ copyright=Leartin
 intro_month=1
 intro_year=1845
 retire_month=5
-retire_year=1950
+retire_year=1960
 type=stop
 waytype=road
 enables_ware=1
@@ -338,47 +338,61 @@ FrontImage[1][0][0][0][0][0]=./images/station/Busbhf.1.0
 Dims=1,1,2
 --------------------------
 obj=building
-name=road_doppelstation_strab
-copyright=PappeTeeMaster
+name=road_busstop_long
+copyright=Leartin
 intro_month=1
-intro_year=1980
+intro_year=1950
 type=stop
 waytype=road
 enables_pax=1
-enables_post=1
+enables_post=0
 noinfo=1
 #level=4
 capacity=100
 cost=200000
 maintenance=25000
-icon=> ./images/station/Doppelstation.0.4
-cursor=./images/station/Doppelstation.0.5
+icon=> ./images/station/station_long.0.4
+cursor=./images/station/station_long.1.4
 
-# Endteil Nord-Süd  Norden
-BackImage[4][0][0][0][0][0]=./images/station/Doppelstation2.0.0
-FrontImage[4][0][0][0][0][0]=./images/station/Doppelstation2.0.1
-# mittelteil NORD-SÜD
-BackImage[0][0][0][0][0][0]=./images/station/Doppelstation2.0.0
-FrontImage[0][0][0][0][0][0]=./images/station/Doppelstation.0.1
-# Endteil Nord-Süd  Süden
-BackImage[2][0][0][0][0][0]=./images/station/Doppelstation.0.0
-FrontImage[2][0][0][0][0][0]=./images/station/Doppelstation.0.1
+# Einzelteile
+BackImage[6-7][0][0][0][0][0-1]=./images/station/station_long.<$1>.<($0-6)*3>,8,8
+FrontImage[6-7][0][0][0][0][0-1]=./images/station/station_long.<2+$1>.<8-$0>
 
-# Endteil Ost-West  Westen
-BackImage[5][0][0][0][0][0]=./images/station/Doppelstation2.0.3
-FrontImage[5][0][0][0][0][0]=./images/station/Doppelstation2.0.2
-# Mittelteil Ost-West
-BackImage[1][0][0][0][0][0]=./images/station/Doppelstation.0.3
-FrontImage[1][0][0][0][0][0]=./images/station/Doppelstation2.0.2
-# Endteil Ost-West  Osten
-BackImage[3][0][0][0][0][0]=./images/station/Doppelstation.0.3
-FrontImage[3][0][0][0][0][0]=./images/station/Doppelstation.0.2
+# Mittelteile
+BackImage[0-1][0][0][0][0][0-1]=./images/station/station_long.<$1>.<2-$0>,8,8
+FrontImage[0-1][0][0][0][0][0-1]=./images/station/station_long.<2+$1>.<$0*3>
 
-# Einzelteil Nord-Süd
-BackImage[6][0][0][0][0][0]=./images/station/Doppelstation.0.0
-FrontImage[6][0][0][0][0][0]=./images/station/Doppelstation2.0.1
-# Einzelteil Ost-West
-BackImage[7][0][0][0][0][0]=./images/station/Doppelstation2.0.3
-FrontImage[7][0][0][0][0][0]=./images/station/Doppelstation.0.2
+# Endteile
+BackImage[2-5][0][0][0][0][0-1]=./images/station/station_long.<$1>.<$0-2>,8,8
+FrontImage[2-5][0][0][0][0][0-1]=./images/station/station_long.<2+$1>.<$0-2>
+Dims=1,1,8
+--------------------------
+obj=building
+name=road_busstop_long_modern
+copyright=Leartin
+intro_month=1
+intro_year=1990
+type=stop
+waytype=road
+enables_pax=1
+enables_post=0
+noinfo=1
+#level=4
+capacity=150
+cost=250000
+maintenance=35000
+icon=> ./images/station/station_long_modern.0.4
+cursor=./images/station/station_long_modern.1.4
 
+# Einzelteile
+BackImage[6-7][0][0][0][0][0-1]=./images/station/station_long_modern.<$1>.<($0-6)*3>,8,8
+FrontImage[6-7][0][0][0][0][0-1]=./images/station/station_long_modern.<2+$1>.<8-$0>
+
+# Mittelteile
+BackImage[0-1][0][0][0][0][0-1]=./images/station/station_long_modern.<$1>.<2-$0>,8,8
+FrontImage[0-1][0][0][0][0][0-1]=./images/station/station_long_modern.<2+$1>.<$0*3>
+
+# Endteile
+BackImage[2-5][0][0][0][0][0-1]=./images/station/station_long_modern.<$1>.<$0-2>,8,8
+FrontImage[2-5][0][0][0][0][0-1]=./images/station/station_long_modern.<2+$1>.<$0-2>
 Dims=1,1,8
