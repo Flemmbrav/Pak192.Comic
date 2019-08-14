@@ -238,6 +238,21 @@ BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E0_01.<$0>.2
 FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,14,5
 ---
 obj=building
+name=com_cl4_E2_01_07
+#Firestation Ghostbusters
+copyright=Leartin
+intro_month=1
+intro_year=1920
+type=com
+climates=tundra
+Level=7
+chance=30
+needs_ground=0
+dims=1,1,4
+BackImage[0-3][0][0][0][0][0-1]=./images/com/easteur/07_E2_01.<$1>.4
+FrontImage[0-3][0][0][0][0][0-1]=./images/com/easteur/07_E2_01.<$1>.<$0>,<$0*5>,0
+---
+obj=building
 name=com_cl4_E5_01_07
 #com_SNL_BueroJoBo
 copyright=Schnils, Leartin

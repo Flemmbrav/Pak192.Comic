@@ -1,7 +1,7 @@
 obj=factory
 name=Kohle_kraftwerk
 copyright=PappeTeeMaster&Leartin
-Location=river
+#Location=river
 climates=mediterran, temperate, rocky, tundra
 intro_year=1900
 intro_month=1
@@ -23,7 +23,7 @@ mail_demand=80
 passenger_boost=500
 mail_boost=500
 #-----
-Smoke=flame
+Smoke=Industry_Smoke
 SmokeTile=0,1
 SmokeOffset=-11,-95
 SmokeSpeed=20
@@ -37,7 +37,7 @@ BackImage[0][0-2][0][1][0][0-1]=./images/Kohlekraftwerk.<$0>.8
 obj=factory
 name=oil_kraftwerk
 copyright=Leartin
-Location=river
+#Location=river
 #climates=mediterran, temperate, rocky, tundra
 intro_year=1900
 intro_month=1
