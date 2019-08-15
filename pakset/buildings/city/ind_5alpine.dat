@@ -378,7 +378,7 @@ type=ind
 Chance=10
 level=5
 needs_ground=0
-climates=tundra
+climates=rocky
 dims=1,1,8
 BackImage[0-7][0][0][0][0][0-1]=./images/ind/05_E3_01.<$1>.<$0>
 ---
@@ -618,7 +618,7 @@ type=ind
 Chance=10
 level=7
 needs_ground=0
-climates=tundra
+climates=rocky
 dims=1,1,8
 BackImage[0-7][0][0][0][0][0-1]=./images/ind/07_E3_01.<$1>.<$0>
 ---
@@ -790,7 +790,7 @@ type=ind
 Chance=10
 level=9
 needs_ground=0
-climates=tundra
+climates=rocky
 dims=1,1,8
 BackImage[0-7][0][0][0][0][0-1]=./images/ind/09_E3_01.<$1>.<$0>
 ---
@@ -917,9 +917,21 @@ type=ind
 Chance=10
 level=12
 needs_ground=0
-climates=tundra
+climates=rocky
 dims=1,1,8
 BackImage[0-7][0][0][0][0][0-1]=./images/ind/12_E3_01.<$1>.<$0>
+---
+Obj=building
+name=ind_cl5_E3_08_12
+copyright=Leartin
+intro_year=1950
+type=ind
+Chance=5
+level=12
+needs_ground=0
+climates=rocky
+dims=1,1,4
+BackImage[0-3][0][0][0][0][0-1]=./images/ind/alpine/wasteplace.<$1>.<$0>
 ---
 Obj=building
 name=ind_cl5_E5_01_12
@@ -1027,7 +1039,7 @@ BackImage[0][0][0][0][0][0-1]=./images/ind/192ind15.<$0>.4
 FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-113,-21
 ---
 Obj=building
-name=ind_cl5_E3_07_15
+name=ind_cl5_E3_08_15
 #cyan_parking
 copyright=Leartin
 intro_year=1950
@@ -1035,7 +1047,7 @@ type=ind
 Chance=10
 level=15
 needs_ground=0
-climates=tundra
+climates=rocky
 dims=1,1,8
 BackImage[0-7][0][0][0][0][0-1]=./images/ind/15_E3_01.<$1>.<$0>
 ---
