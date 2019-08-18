@@ -997,7 +997,8 @@ level=15
 needs_ground=0
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=./images/ind/192ind15.<$0>.1
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-113,-21
+BackImage[0][0][0][1][0][0-1]=./images/ind/192ind15.0.0
+FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-21,-113
 ---
 Obj=building
 name=ind_cl5_E3_05_15
@@ -1010,7 +1011,8 @@ level=15
 needs_ground=0
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=./images/ind/192ind15.<$0>.2
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-113,-21
+BackImage[0][0][0][1][0][0-1]=./images/ind/192ind15.0.0
+FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-21,-113
 ---
 Obj=building
 name=ind_cl5_E3_06_15
@@ -1023,7 +1025,8 @@ level=15
 needs_ground=0
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=./images/ind/192ind15.<$0>.3
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-113,-21
+BackImage[0][0][0][1][0][0-1]=./images/ind/192ind15.0.0
+FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-21,-113
 ---
 Obj=building
 name=ind_cl5_E3_07_15
@@ -1036,7 +1039,8 @@ level=15
 needs_ground=0
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=./images/ind/192ind15.<$0>.4
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-113,-21
+BackImage[0][0][0][1][0][0-1]=./images/ind/192ind15.0.0
+FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-21,-113
 ---
 Obj=building
 name=ind_cl5_E3_08_15
