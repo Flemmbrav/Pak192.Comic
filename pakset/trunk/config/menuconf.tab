@@ -445,16 +445,25 @@ toolbar[5][3]=ways(8,1)
 toolbar[5][4]=bridges(8)
 toolbar[5][5]=tunnels(8)
 toolbar[5][6]=wayobjs(8)
-toolbar[5][7]=signs(8)
-toolbar[5][8]=-
-toolbar[5][9]=buildings(34,8)
-toolbar[5][10]=buildings(35,8)
-toolbar[5][11]=general_tool[14],,t,8
-toolbar[5][12]=general_tool[18],,e,8
-toolbar[5][13]=buildings(33,8)
-toolbar[5][14]=general_tool[33],126,,8
-toolbar[5][15]=general_tool[17],90,,8
-toolbar[5][16]=-b,91
+toolbar[5][7]=-,167
+toolbar[5][8]=general_tool[20],168,,track_signal
+toolbar[5][9]=general_tool[20],169,,track_presignal
+toolbar[5][10]=general_tool[20],170,,track_siglong
+toolbar[5][11]=general_tool[20],172,,track_sigchoose
+toolbar[5][12]=general_tool[20],173,,track_sigchooseend
+toolbar[5][13]=general_tool[20],174,,track_sigsingle
+toolbar[5][14]=general_tool[20],x,19,track_sigpriority
+toolbar[5][15]=general_tool[20],176,20,track_sigprivate
+toolbar[5][16]=toolbar[17],171,,SIGNALS_TRACK,signals_track.txt
+toolbar[5][17]=-
+toolbar[5][18]=buildings(34,8)
+toolbar[5][19]=buildings(35,8)
+toolbar[5][20]=general_tool[14],,t,8
+toolbar[5][21]=general_tool[18],,e,8
+toolbar[5][22]=buildings(33,8)
+toolbar[5][23]=general_tool[33],126,,8
+toolbar[5][24]=general_tool[17],90,,8
+toolbar[5][25]=-b,91
 
 # narrowgauge (waytype 2)
 toolbar[6][0]=-,92
@@ -464,20 +473,29 @@ toolbar[6][3]=ways(2,1)
 toolbar[6][4]=bridges(2)
 toolbar[6][5]=tunnels(2)
 toolbar[6][6]=wayobjs(2)
-toolbar[6][7]=signs(2)
-toolbar[6][8]=-
-toolbar[6][9]=buildings(34,2)
-toolbar[6][10]=buildings(35,2)
-toolbar[6][11]=buildings(33,2)
-toolbar[6][12]=general_tool[33],127,,2
-toolbar[6][13]=general_tool[17],94,,2
-toolbar[6][14]=-b,95
+toolbar[6][7]=-,167
+toolbar[6][8]=general_tool[20],168,,ng_signal
+toolbar[6][9]=general_tool[20],169,,ng_presignal
+toolbar[6][10]=general_tool[20],170,,ng_siglong
+toolbar[6][11]=general_tool[20],172,,ng_sigchoose
+toolbar[6][12]=general_tool[20],173,,ng_sigchooseend
+toolbar[6][13]=general_tool[20],174,,ng_sigsingle
+toolbar[6][14]=general_tool[20],x,,ng_sigpriority
+toolbar[6][15]=general_tool[20],176,,ng_sigprivate
+toolbar[6][16]=toolbar[18],171,,SIGNALS_NG,signals_ng.txt
+toolbar[6][17]=-
+toolbar[6][18]=buildings(34,2)
+toolbar[6][19]=buildings(35,2)
+toolbar[6][20]=buildings(33,2)
+toolbar[6][21]=general_tool[33],127,,2
+toolbar[6][22]=general_tool[17],94,,2
+toolbar[6][23]=-b,95
 
 # shiptools (waytype 3)
 toolbar[7][0]=-,96
 toolbar[7][1]=-,97
 toolbar[7][2]=ways(3,0)
-toolbar[7][3]=ways(3,1)
+toolbar[7][3]=x
 toolbar[7][4]=bridges(3)
 toolbar[7][5]=tunnels(3)
 toolbar[7][6]=wayobjs(3)
@@ -507,20 +525,20 @@ toolbar[8][12]=-b,103
 
 
 # schwebebahn (waytype 5)
-toolbar[9][0]=-,104
-toolbar[9][1]=-,105
-toolbar[9][2]=ways(5,0)
-toolbar[9][3]=ways(5,1)
-toolbar[9][4]=bridges(5)
-toolbar[9][5]=tunnels(5)
-toolbar[9][6]=wayobjs(5)
-toolbar[9][7]=signs(5)
-toolbar[9][8]=-
-toolbar[9][9]=buildings(34,5)
-toolbar[9][10]=buildings(35,5)
-toolbar[9][11]=buildings(33,5)
-toolbar[9][12]=general_tool[17],106,,5
-toolbar[9][13]=-b,107
+#toolbar[9][0]=-,104
+#toolbar[9][1]=-,105
+#toolbar[9][2]=ways(5,0)
+#toolbar[9][3]=ways(5,1)
+#toolbar[9][4]=bridges(5)
+#toolbar[9][5]=tunnels(5)
+#toolbar[9][6]=wayobjs(5)
+#toolbar[9][7]=signs(5)
+#toolbar[9][8]=-
+#toolbar[9][9]=buildings(34,5)
+#toolbar[9][10]=buildings(35,5)
+#toolbar[9][11]=buildings(33,5)
+#toolbar[9][12]=general_tool[17],106,,5
+#toolbar[9][13]=-b,107
 
 
 # maglevtools (waytype 6)
@@ -557,21 +575,23 @@ toolbar[11][11]=-b,115
 toolbar[12][0]=-,116
 toolbar[12][1]=-,117
 toolbar[12][2]=ways(2,255)
-toolbar[12][3]=-
-toolbar[12][4]=ways(128,0)
-toolbar[12][5]=bridges(128)
-toolbar[12][6]=tunnels(128)
-toolbar[12][7]=x
-toolbar[12][8]=general_tool[8]
-toolbar[12][9]=-
-toolbar[12][10]=general_tool[30],156
-toolbar[12][11]=general_tool[31],157
-toolbar[12][12]=x
-toolbar[12][13]=general_tool[32],158
-toolbar[12][14]=general_tool[6],159
-toolbar[12][15]=general_tool[35],160
-toolbar[12][16]=x
-toolbar[12][17]=-b,119
+toolbar[12][3]=general_tool[14],,,kaimauer1
+toolbar[12][4]=general_tool[14],,,kaimauer2
+toolbar[12][5]=-
+toolbar[12][6]=ways(128,0)
+toolbar[12][7]=bridges(128)
+toolbar[12][8]=tunnels(128)
+toolbar[12][9]=x
+toolbar[12][10]=general_tool[8]
+toolbar[12][11]=-
+toolbar[12][12]=general_tool[30],156
+toolbar[12][13]=general_tool[31],157
+toolbar[12][14]=x
+toolbar[12][15]=general_tool[32],158
+toolbar[12][16]=general_tool[6],159
+toolbar[12][17]=general_tool[35],160
+toolbar[12][18]=x
+toolbar[12][19]=-b,119
 
 #Abrisstools
 toolbar[13][0]=general_tool[1],120
@@ -703,3 +723,14 @@ toolbar[16][64]=general_tool[4],278,,78
 #toolbar[16][79]=general_tool[4],279,,79
 #toolbar[16][80]=general_tool[4],280,,80
 toolbar[16][65]=-b,48
+
+
+#additional signals track
+toolbar[17][0]=-,164
+toolbar[17][1]=signs(8)
+toolbar[17][2]=-b,91
+
+#additional signals narrowgauge
+toolbar[18][0]=-,165
+toolbar[18][1]=signs(2)
+toolbar[18][2]=-b,95

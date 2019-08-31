@@ -1,0 +1,72 @@
+obj=roadsign
+name=track_sigcatenary_on_old
+copyright=Leartin
+cost=750
+waytype=narrowgauge_track
+icon=> ./images/signals/sigcatenary_on.1.4
+cursor=./images/signals/sigcatenary_on.1.5
+Image[0-3]=./images/signals/sigcatenary_on.1.<$0>
+-----------------------
+obj=roadsign
+name=track_sigcatenary_on_new
+copyright=Leartin
+cost=750
+waytype=narrowgauge_track
+icon=> ./images/signals/sigcatenary_on.0.4
+cursor=./images/signals/sigcatenary_on.0.5
+Image[0-3]=./images/signals/sigcatenary_on.0.<$0>
+-----------------------
+obj=roadsign
+name=track_sigcatenary_off_old
+copyright=Leartin
+cost=750
+waytype=narrowgauge_track
+icon=> ./images/signals/sigcatenary_off.1.4
+cursor=./images/signals/sigcatenary_off.1.5
+Image[0-3]=./images/signals/sigcatenary_off.1.<$0>
+-----------------------
+obj=roadsign
+name=track_sigcatenary_off_new
+copyright=Leartin
+cost=750
+waytype=narrowgauge_track
+icon=> ./images/signals/sigcatenary_off.0.4
+cursor=./images/signals/sigcatenary_off.0.5
+Image[0-3]=./images/signals/sigcatenary_off.0.<$0>
+-----------------------
+obj=roadsign
+name=track_sigcatenary_down_old
+copyright=Leartin
+cost=750
+waytype=narrowgauge_track
+icon=> ./images/signals/sigcatenary_down.1.4
+cursor=./images/signals/sigcatenary_down.1.5
+Image[0-3]=./images/signals/sigcatenary_down.1.<$0>
+-----------------------
+obj=roadsign
+name=track_sigcatenary_down_new
+copyright=Leartin
+cost=750
+waytype=narrowgauge_track
+icon=> ./images/signals/sigcatenary_down.0.4
+cursor=./images/signals/sigcatenary_down.0.5
+Image[0-3]=./images/signals/sigcatenary_down.0.<$0>
+-----------------------
+obj=roadsign
+name=track_sigcatenary_up_old
+copyright=Leartin
+cost=750
+waytype=narrowgauge_track
+icon=> ./images/signals/sigcatenary_up.1.4
+cursor=./images/signals/sigcatenary_up.1.5
+Image[0-3]=./images/signals/sigcatenary_up.1.<$0>
+-----------------------
+obj=roadsign
+name=track_sigcatenary_up_new
+copyright=Leartin
+cost=750
+waytype=narrowgauge_track
+icon=> ./images/signals/sigcatenary_up.0.4
+cursor=./images/signals/sigcatenary_up.0.5
+Image[0-3]=./images/signals/sigcatenary_up.0.<$0>
+-----------------------

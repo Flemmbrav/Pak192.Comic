@@ -1,5 +1,5 @@
 obj=roadsign
-name=signal_form_ng
+name=ng_signal_form
 copyright=PappeTeeMaster
 waytype=track
 intro_month=1
@@ -8,36 +8,48 @@ retire_year=1980
 retire_month=1
 cost=750
 is_signal=1
-icon=> ./images/signal/signal.0.4
-cursor=./images/signal/signal.1.4
-Image[0-7]=./images/signal/signal.<$0/4>.<$0%4>
+icon=> ./images/signals/signal.1.8
+cursor=./images/signals/signal.1.9
+Image[0-7]=./images/signals/signal.1.<$0>
 -----------------------
 obj=roadsign
-name=signal_ng
+name=ng_signal_light
 copyright=PappeTeeMaster
 waytype=track
 intro_year=1980
 intro_month=1
 cost=750
 is_signal=1
-icon=> ./images/signal/signal_modern.0.4
-cursor=./images/signal/signal_modern.1.4
-Image[0-7]=./images/signal/signal_modern.<$0/4>.<$0%4>
+icon=> ./images/signals/signal.0.8
+cursor=./images/signals/signal.0.9
+Image[0-7]=./images/signals/signal.0.<$0>
 -----------------------
 obj=roadsign
-name=presignal_ng
+name=ng_signal
+copyright=PappeTeeMaster
+waytype=track
+cost=750
+is_signal=1
+icon=> ./images/signals/signal.1.10
+cursor=./images/signals/signal.0.10
+Image[0-7]=./images/signals/signal.1.<$0>
+Image[8-15]=./images/signals/signal.0.<$0-8>
+-----------------------
+#######################
+obj=roadsign
+name=ng_presignal_light
 copyright=PappeTeeMaster
 waytype=track
 intro_year=1980
 intro_month=1
 cost=750
 is_presignal=1
-icon=> ./images/signal/presignal_modern.0.4
-cursor=./images/signal/presignal_modern.1.4
-Image[0-11]=./images/signal/presignal_modern.<$0/4>.<$0%4>
+icon=> ./images/signals/presignal.0.12
+cursor=./images/signals/presignal.0.13
+Image[0-11]=./images/signals/presignal.0.<$0>
 -----------------------
 obj=roadsign
-name=presignal_old_ng
+name=ng_presignal_form
 copyright=Flemmbrav
 waytype=track
 intro_month=1
@@ -46,12 +58,24 @@ retire_year=1980
 retire_month=1
 cost=750
 is_presignal=1
-icon=> ./images/signal/presignal.0.4
-cursor=./images/signal/presignal.1.4
-Image[0-11]=./images/signal/presignal.<$0/4>.<$0%4>
+icon=> ./images/signals/presignal.1.12
+cursor=./images/signals/presignal.1.13
+Image[0-11]=./images/signals/presignal.1.<$0>
 -----------------------
 obj=roadsign
-name=signal_way_ng
+name=ng_presignal
+copyright=PappeTeeMaster & Flemmbrav
+waytype=track
+cost=750
+is_presignal=1
+icon=> ./images/signals/presignal.1.14
+cursor=./images/signals/presignal.0.14
+Image[0-11]=./images/signals/presignal.1.<$0>
+Image[12-23]=./images/signals/presignal.0.<$0-12>
+-----------------------
+#######################
+obj=roadsign
+name=ng_sigchoose_light
 copyright=PappeTeeMaster
 waytype=track
 intro_year=1980
@@ -59,12 +83,12 @@ intro_month=1
 cost=750
 is_signal=1
 free_route=1
-icon=> ./images/signal/freesignal_modern.0.4
-cursor=./images/signal/freesignal_modern.1.4
-Image[0-7]=./images/signal/freesignal_modern.<$0/4>.<$0%4>
+icon=> ./images/signals/sigchoose.0.8
+cursor=./images/signals/sigchoose.0.9
+Image[0-7]=./images/signals/sigchoose.0.<$0>
 ------------------------
 obj=roadsign
-name=signal_way_form_ng
+name=ng_sigchoose_form
 copyright=PappeTeeMaster
 waytype=track
 intro_month=1
@@ -74,12 +98,25 @@ retire_month=1
 cost=750
 is_signal=1
 free_route=1
-icon=> ./images/signal/signal_auswahl.0.4
-cursor=./images/signal/signal_auswahl.1.4
-Image[0-7]=./images/signal/signal_auswahl.<$0/4>.<$0%4>
+icon=> ./images/signals/sigchoose.1.8
+cursor=./images/signals/sigchoose.1.9
+Image[0-7]=./images/signals/sigchoose.1.<$0>
 -----------------------
 obj=roadsign
-name=signal_long_form_ng
+name=ng_sigchoose
+copyright=PappeTeeMaster
+waytype=track
+cost=750
+is_signal=1
+free_route=1
+icon=> ./images/signals/sigchoose.1.10
+cursor=./images/signals/sigchoose.0.10
+Image[0-7]=./images/signals/sigchoose.1.<$0>
+Image[8-15]=./images/signals/sigchoose.0.<$0-8>
+-----------------------
+#######################
+obj=roadsign
+name=ng_siglong_form
 copyright=PappeTeeMaster & Flemmbrav
 waytype=track
 intro_month=1
@@ -89,12 +126,12 @@ retire_month=1
 cost=750
 is_signal=1
 is_longblocksignal=1
-icon=> ./images/signal/signal_long.0.4
-cursor=./images/signal/signal_long.1.4
-Image[0-7]=./images/signal/signal_long.<$0/4>.<$0%4>
+icon=> ./images/signals/siglong.1.8
+cursor=./images/signals/siglong.1.9
+Image[0-7]=./images/signals/siglong.1.<$0>
 -----------------------
 obj=roadsign
-name=signal_long_ng
+name=ng_siglong_light
 copyright=PappeTeeMaster
 waytype=track
 intro_year=1980
@@ -102,24 +139,37 @@ intro_month=1
 cost=750
 is_signal=1
 is_longblocksignal=1
-icon=> ./images/signal/signal_long_modern.0.4
-cursor=./images/signal/signal_long_modern.1.4
-Image[0-7]=./images/signal/signal_long_modern.<$0/4>.<$0%4>
+icon=> ./images/signals/siglong.0.8
+cursor=./images/signals/siglong.0.9
+Image[0-7]=./images/signals/siglong.0.<$0>
 -----------------------
 obj=roadsign
-name=signal_way_end_ng
+name=ng_siglong
+copyright=PappeTeeMaster
+waytype=track
+cost=750
+is_signal=1
+is_longblocksignal=1
+icon=> ./images/signals/siglong.1.10
+cursor=./images/signals/siglong.0.10
+Image[0-7]=./images/signals/siglong.1.<$0>
+Image[8-15]=./images/signals/siglong.0.<$0-8>
+-----------------------
+#######################
+obj=roadsign
+name=ng_sigchooseend_light
 copyright=PappeTeeMaster & Flemmbrav
 waytype=track
 intro_year=1980
 intro_month=1
 cost=750
 end_of_choose=1
-icon=> ./images/signal/freeendsign_modern.0.4
-cursor=./images/signal/freeendsign_modern.1.4
-Image[0-3]=./images/signal/freeendsign_modern.<$0/4>.<$0%4>
---------------------
+icon=> ./images/signals/sigchooseend.0.4
+cursor=./images/signals/sigchooseend.0.5
+Image[0-3]=./images/signals/sigchooseend.0.<$0>
+-----------------------
 obj=roadsign
-name=signal_way_end_form_ng
+name=ng_sigchooseend_form
 copyright=PappeTeeMaster & Flemmbrav
 waytype=track
 intro_month=1
@@ -128,53 +178,64 @@ retire_year=1980
 retire_month=1
 cost=750
 end_of_choose=1
-icon=> ./images/signal/freeendsign_old.0.4
-cursor=./images/signal/freeendsign_old.1.4
-Image[0-3]=./images/signal/freeendsign_old.<$0/4>.<$0%4>
-------------------------------
+icon=> ./images/signals/sigchooseend.1.4
+cursor=./images/signals/sigchooseend.1.5
+Image[0-3]=./images/signals/sigchooseend.1.<$0>
+-----------------------
 obj=roadsign
-name=track_private_modern_ng
+name=ng_sigchooseend
+copyright=PappeTeeMaster & Flemmbrav
+waytype=track
+cost=750
+end_of_choose=1
+icon=> ./images/signals/sigchooseend.1.6
+cursor=./images/signals/sigchooseend.0.6
+Image[0-3]=./images/signals/sigchooseend.1.<$0>
+Image[8-11]=./images/signals/sigchooseend.0.<$0-8>
+-----------------------
+#######################
+obj=roadsign
+name=ng_sigprivate
 copyright=PappeTeeMaster
 cost=25000
 waytype=track
 is_private=1
-icon=> ./images/signal/private_modern.0.4
-cursor=./images/signal/private_modern.1.4
-Image[0-3]=./images/signal/private_modern.<$0/4>.<$0%4>
--------------------------------
+icon=> ./images/signals/sigprivate.0.4
+cursor=./images/signals/sigprivate.0.5
+Image[0-3]=./images/signals/sigprivate.0.<$0>
+-----------------------
+#######################
 obj=roadsign
-name=track_one_way_ng
+name=ng_sigsingle
 copyright=PappeTeeMaster
 waytype=track
-intro_year=1835
-#intro_year=1980
-intro_month=1
 cost=750
 single_way=1
-icon=> ./images/signal/signal_one_way.0.4
-cursor=./images/signal/signal_one_way.1.4
-Image[0-3]=./images/signal/signal_one_way.<$0/4>.<$0%4>
--------------------------------
+icon=> ./images/signals/sigsingle.0.4
+cursor=./images/signals/sigsingle.0.5
+Image[0-3]=./images/signals/sigsingle.0.<$0>
+-----------------------
+#######################
 obj=roadsign
-name=vmin_sing_ng_1
+name=ng_sigspeed_40
 copyright=Flemmbrav
 waytype=track
 intro_year=1900
 cost=10000
 min_speed=41
 single_way=0
-icon=> ./images/signal/Vminsign.0.0
-cursor=./images/signal/Vminsign.0.1
-Image[0-3]=./images/signal/Vminsign.0.<$0+2>
--------------------------------
+icon=> ./images/signals/sigspeed.0.4
+cursor=./images/signals/sigspeed.0.5
+Image[0-3]=./images/signals/sigspeed.0.<$0>
+-----------------------
 obj=roadsign
-name=vmin_sing_ng_2
+name=ng_sigspeed_70
 copyright=Flemmbrav
 waytype=track
 intro_year=1980
 cost=10000
 min_speed=71
 single_way=0
-icon=> ./images/signal/Vminsign.1.0
-cursor=./images/signal/Vminsign.1.1
-Image[0-3]=./images/signal/Vminsign.1.<$0+2>
+icon=> ./images/signals/sigspeed.1.4
+cursor=./images/signals/sigspeed.1.5
+Image[0-3]=./images/signals/sigspeed.1.<$0>

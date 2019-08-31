@@ -1,0 +1,11 @@
+obj=roadsign
+name=track_signal_etcs
+copyright=Citarofahrer
+waytype=narrowgauge_track
+intro_year=1980
+intro_month=1
+cost=750
+is_signal=1
+icon=> ./images/signals/signal_etcs.0.8
+cursor=./images/signals/signal_etcs.0.9
+Image[0-7]=./images/signals/signal_etcs.0.<$0>

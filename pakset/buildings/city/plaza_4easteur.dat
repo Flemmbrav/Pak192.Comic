@@ -56,7 +56,7 @@ copyright=Leartin
 intro_year=1950
 type=com
 Chance=30
-level=107
+level=7
 climates=tundra
 BackImage[0][0][0][0][0][0-1]=images/plaza/12_E3_01.1.<$0>
 ---

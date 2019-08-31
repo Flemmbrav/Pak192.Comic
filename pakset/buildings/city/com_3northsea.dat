@@ -95,7 +95,7 @@ needs_ground=1
 climates=temperate
 dims=1,1,2
 clusters=3
-BackImage[0-1][0][0][0-1][0][0-1]=images/com/northsea/C2/2000_Traberweg_1.<1-$1>.<$0+$2*2>
+BackImage[0-1][0][0][0][0][0-1]=images/com/northsea/05_E6_01.<$1>.<$0>
 ---
 #################################################################################
 #									 Level 7									#
@@ -579,6 +579,7 @@ Chance=20
 Level=12
 clusters=1
 needs_ground=0
+dims=1,1,8
 BackImage[0-1][0][0][0-1][0][0-3]=images/com/northsea/C1_E3_01_12.<1-$1>.<$0>
 BackImage[2-7][0][0][0-1][0][0-3]=images/com/northsea/C1_E3_01_12.<1-$1>.<$0-2>
 BackImage[0-1][0][0][0-1][0][4]=images/com/northsea/C1_E3_01_12.<3-$1>.<$0>
@@ -597,6 +598,7 @@ Chance=20
 Level=12
 clusters=1
 needs_ground=0
+dims=1,1,8
 BackImage[0-1][0][0][0-1][0][0-3]=images/com/northsea/C1_E3_02_12.<1-$1>.<$0>
 BackImage[2-7][0][0][0-1][0][0-3]=images/com/northsea/C1_E3_02_12.<1-$1>.<$0-2>
 BackImage[0-1][0][0][0-1][0][4]=images/com/northsea/C1_E3_02_12.<3-$1>.<$0>
@@ -615,6 +617,7 @@ Chance=20
 Level=12
 clusters=1
 needs_ground=0
+dims=1,1,8
 BackImage[0-1][0][0][0-1][0][0-3]=images/com/northsea/C1_E3_03_12.<1-$1>.<$0>
 BackImage[2-7][0][0][0-1][0][0-3]=images/com/northsea/C1_E3_03_12.<1-$1>.<$0-2>
 BackImage[0-1][0][0][0-1][0][4]=images/com/northsea/C1_E3_03_12.<3-$1>.<$0>
@@ -633,6 +636,7 @@ Chance=20
 Level=12
 clusters=1
 needs_ground=0
+dims=1,1,8
 BackImage[0-1][0][0][0-1][0][0-3]=images/com/northsea/C1_E3_04_12.<1-$1>.<$0>
 BackImage[2-7][0][0][0-1][0][0-3]=images/com/northsea/C1_E3_04_12.<1-$1>.<$0-2>
 BackImage[0-1][0][0][0-1][0][4]=images/com/northsea/C1_E3_04_12.<3-$1>.<$0>
@@ -1039,14 +1043,6 @@ clusters=1
 needs_ground=0
 BackImage[0][0][0][0-1][0][0-1]=images/com/northsea/20_E5_01.<2-$0>.<$1+6>
 ---
-
-
-
-
-
-
-
-
 Obj=building
 name=com_cl3_E6_01_20
 #Sandtorkai 60
@@ -1759,5 +1755,6 @@ intro_year=2008
 Level=30
 chance=100
 needs_ground=1
+dims=1,1,2
 BackImage[0-1][0][0][0-2][0][0-1]=./images/com/northsea/30_E6_01.<2-$1>.<$2+$0*2>
 ---
