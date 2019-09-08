@@ -24,7 +24,7 @@ FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,-4
 FrontImage[1][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,7
 FrontImage[2][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,32,-13
 FrontImage[3][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,34,20
-FrontImage[0-3][0][0][0][0][0-3]./images/com/easteur/03_E0_01fi.<$0>.<$1>
+FrontImage[0-3][0][0][0][0][0-3]=./images/com/easteur/03_E0_01fi.<$0>.<$1>
 ---
 obj=building
 name=com_cl4_E0_02_03
@@ -41,7 +41,7 @@ FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,-4
 FrontImage[1][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,7
 FrontImage[2][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,32,-13
 FrontImage[3][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,34,20
-FrontImage[0-3][0][0][0][0][0-3]./images/com/easteur/03_E0_01fi.<$0>.<$1>
+FrontImage[0-3][0][0][0][0][0-3]=./images/com/easteur/03_E0_01fi.<$0>.<$1>
 ---
 obj=building
 name=com_cl4_E0_03_03
@@ -58,7 +58,7 @@ FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,-4
 FrontImage[1][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,7
 FrontImage[2][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,32,-13
 FrontImage[3][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,34,20
-FrontImage[0-3][0][0][0][0][0-3]./images/com/easteur/03_E0_01fi.<$0>.<$1>
+FrontImage[0-3][0][0][0][0][0-3]=./images/com/easteur/03_E0_01fi.<$0>.<$1>
 ---
 obj=building
 name=com_cl4_E0_04_03
@@ -75,7 +75,7 @@ FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,-4
 FrontImage[1][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,7
 FrontImage[2][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,32,-13
 FrontImage[3][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,34,20
-FrontImage[0-3][0][0][0][0][0-3]./images/com/easteur/03_E0_01fi.<$0>.<$1>
+FrontImage[0-3][0][0][0][0][0-3]=./images/com/easteur/03_E0_01fi.<$0>.<$1>
 ---
 obj=building
 name=com_cl4_E3_01_03
