@@ -1,0 +1,41 @@
+Getreide		Staubsilowagen
+
+2005	8 lang	Runde Außenhülle		https://www.bwr.de/wp-content/uploads/2017/06/Staub-und-Getreidewagen.jpg
+1985	8 lang	Halbrunde Außenhülle		https://www.bahnbilder.de/bild/schweiz~gueterwagen~0-gattung-t-gueterwagen-mit-oeffnungsfaehigem-dach/120129/getreidewagen-in-buchs-sg-10072007.html
+1965	7 lang	Eckige Außenhülle		https://www.google.de/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjz_YqWudHkAhVF26QKHVPOBIYQjRx6BAgBEAQ&url=http%3A%2F%2Fwww.miba.de%2Fneuheit%2F06%2F05%2Froco2.htm&psig=AOvVaw0kNds3Mn4oWIVEItTNAOZs&ust=1568588853421517
+1945	8 lang	3 Senkrechte Behälter 		https://www.modellbahn-rhein-main.de/wp-content/uploads/2018/10/AVF475-Roco-47320-DC-H0-Staubsilowagen-der-DR-OVP-001.jpg
+1925	7 lang	2 Senkrechte Behälter		http://www.modellbahn-ammon.de/images/zuckerwagen-zanka.jpg
+1900	6 lang 	1 Senkrechter Behälter		http://www.rhb-info.ch/zementwagen/
+
+---
+
+Autos			Flachwagen
+
+http://www.rhb-info.ch/autotransportwagen-vereina/
+
+1985	10 lang	Vierachsig drei Autos 			90kph
+1965	16 lang	Zwei Wagen drei Drehgestelle fünf Autos 70kph
+1900	8 lang 	Zweiachsig zwei Autos			40kph
+
+---
+
+Holzwagen und Zuckerrohransichten
+
+
+
+---
+
+Containerwagen
+
+
+
+---
+
+Öl & Lebensmittel	Kesselwagen
+
+Öl		Schwarz
+Lebensmittel	Weiß oder Silbern
+
+
+
+---
