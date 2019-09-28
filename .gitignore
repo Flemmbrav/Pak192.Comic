@@ -1,0 +1,9 @@
+compiled/
+*.pak
+
+# Linux
+*~
+# MacOS
+.DS_Store
+# Windows
+[dD]esktop.ini
