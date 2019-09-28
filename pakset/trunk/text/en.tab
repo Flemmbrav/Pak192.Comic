@@ -9,7 +9,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 18.08 2019                           #
+#                           Date Created: 28.09 2019                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -244,6 +244,10 @@ cur_city_church
 Church
 cur_city_Dohauzdium
 Dohauzdium\n\nThere are rumors that the aluminum coating of the spheares acts as a shield for thought-manipulation-rays from space. It must be wrong, the TV works.
+cur_city_eiffel
+Eiffel Tower
+cur_city_eiffel2
+Eiffel Tower
 cur_city_elphi
 Concert Hall\n\nThe Concert Hall of the local philharmonic orchestra does provide great accustics. In winter, the roof can be used as a small ski ressort.
 cur_city_lentos
@@ -1043,13 +1047,15 @@ Oil/Petrol
 CATEGORY_04
 Cooled goods
 CATEGORY_05
-Foodstuff
+Prisoners
 CATEGORY_06
 Lumber
 CATEGORY_07
-Farm products
+Pourable Goods
 CATEGORY_08
-valuables
+Valuables
+CATEGORY_09
+Lightweight Bulk
 Narrowgauge
 Standard Gauge
 narrowgauge vehicle
@@ -1586,6 +1592,248 @@ SCB_287
 SimuCar SCB-287
 volkswagent2_Post
 VW Postbus T2
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+Lokomotive_1988_DR_199_8
+Diesel Lokomotive Class 199.8 
+Narrowgauge_Car_1885_Piece_goods
+Covered Wagon
+Narrowgauge_Car_1900_Agriculture
+Grain Hopper
+Narrowgauge_Car_1900_Apple
+Agriculture Wagon
+Narrowgauge_Car_1900_Billet
+Billet Car
+Narrowgauge_Car_1900_Cattle
+Stock Car
+Narrowgauge_Car_1900_Coal
+Mineral Wagon
+Narrowgauge_Car_1900_Coil
+Coil Wagon
+Narrowgauge_Car_1900_Cooled
+Cooling Car
+Narrowgauge_Car_1900_Milk
+Milk Tank Wagon
+Narrowgauge_Car_1900_Money
+Armored Car
+Narrowgauge_Car_1900_Piece_goods
+Covered Wagon
+Narrowgauge_Car_1900_Piece_goods_2
+Covered Wagon
+Narrowgauge_Car_1900_Police_1
+Prisoner Transport Car
+Narrowgauge_Car_1900_Police_2
+Escort Car
+Narrowgauge_Car_1900_Police_3
+Escort Car
+Narrowgauge_Car_1900_Post
+Mail Car
+Narrowgauge_Car_1900_Wood
+Logging Stake Car
+Narrowgauge_Car_1920_Agriculture
+Grain Hopper
+Narrowgauge_Car_1920_Wood
+Logging Stake Car
+Narrowgauge_Car_1922_Milk
+Milk Tank Wagon
+Narrowgauge_Car_1922_Oil
+Tank Wagon
+Narrowgauge_Car_1925_Apple
+Agriculture Wagon
+Narrowgauge_Car_1925_Cattle
+Stock Car
+Narrowgauge_Car_1925_Coal
+Mineral Wagon
+Narrowgauge_Car_1925_Cooled
+Cooling Car
+Narrowgauge_Car_1925_Piece_goods
+Covered Wagon
+Narrowgauge_Car_1925_Post
+Mail Car
+Narrowgauge_Car_1929_Cooled
+Cooling Car
+Narrowgauge_Car_1930_Agriculture
+Grain Hopper
+Narrowgauge_Car_1930_Billet
+Billet Car
+Narrowgauge_Car_1930_Coil
+Coil Car
+Narrowgauge_Car_1938_Piece_goods
+Covered Wagon
+Narrowgauge_Car_1938_Post
+Mail Car
+Narrowgauge_Car_1940_Cattle
+Stock Car
+Narrowgauge_Car_1945_Apple
+Agriculture Wagon
+Narrowgauge_Car_1945_Cattle
+Stock Car
+Narrowgauge_Car_1945_Coal
+Mineral Wagon
+Narrowgauge_Car_1945_Cooled
+Cooling Car
+Narrowgauge_Car_1945_Piece_goods
+Covered Wagon
+Narrowgauge_Car_1945_Post
+Mail Car
+Narrowgauge_Car_1946_Cooled
+Cooling Car
+Narrowgauge_Car_1950_Police_1
+Prisoner Transport Car
+Narrowgauge_Car_1950_Police_2
+Escort Car
+Narrowgauge_Car_1950_Police_3
+Escort Car
+Narrowgauge_Car_1965_Apple
+Agriculture Wagon
+Narrowgauge_Car_1965_Coal
+Mineral Wagon
+Narrowgauge_Car_1965_Cooled
+Cooling Car
+Narrowgauge_Car_1965_Piece_Cattle
+Stock Car
+Narrowgauge_Car_1965_Piece_goods
+Covered Wagon
+Narrowgauge_Car_1965_Post
+Mail Car
+Narrowgauge_Car_1975_Money_1
+Armored Heavy Lift Car
+Narrowgauge_Car_1975_Money_2
+Armored Heavy Lift Car
+Narrowgauge_Car_1985_Coal
+Mineral Hopper
+Narrowgauge_Car_1985_Cooled
+Cooling Car
+Narrowgauge_Car_1985_Piece_Cattle
+Stock Car
+Narrowgauge_Car_1985_Piece_goods
+Covered Wagon
+Narrowgauge_Car_1985_Post
+Mail Car
+Narrowgauge_Car_1989_Piece_goods
+Container Wagon
+Narrowgauge_Car_1993_Ambulance_1
+Ambulance Car
+Narrowgauge_Car_1993_Police_1
+Prisoner Transport Car
+Narrowgauge_Car_1993_Police_2
+Escort Car
+Narrowgauge_Car_1993_Police_3
+Escort Car
+Narrowgauge_Car_1995_Coal
+Mineral Hopper
+Narrowgauge_Car_2005_Coal
+Mineral Hopper
+Narrowgauge_Car_2005_Cooled
+Cooling Car
+Narrowgauge_Car_2005_Piece_Cattle
+Stock Car
+Narrowgauge_Car_2005_Piece_goods
+Covered Wagon
+Narrowgauge_Car_2005_Post
+Mail Car
+Narrowgauge_Electric_1917_HGe_2_2
+Electric Class HGe 2/2
+Narrowgauge_Electric_1941_BCFhe_2_4
+Electric Class BCFhe 2/4
+Narrowgauge_Electric_1971_ABDt_17_1
+Electric Class ABDt 17
+Narrowgauge_Electric_1971_ABDt_17_2
+Electric Class ABDt 17
+Narrowgauge_Electric_1971_Be_4_4_1
+Electric Class Be 4/4
+Narrowgauge_Electric_1971_Be_4_4_2
+Electric Class Be 4/4
+Narrowgauge_Electric_1972_Deh_4_4
+Electric Class Deh 4/4
+Narrowgauge_Electric_1994_OBB_4090_1
+Electric Class 4090
+Narrowgauge_Electric_1994_OBB_4090_2
+Electric Class 4090
+Narrowgauge_Electric_1994_OBB_4090_3
+Electric Class 4090
+Narrowgauge_Electric_2008_Komet_1
+Electric "Komet" Class ABDeh 4/x
+Narrowgauge_Electric_2008_Komet_2
+Electric "Komet" Class ABDeh 4/x
+Narrowgauge_Electric_2008_Komet_3
+Electric "Komet" Class ABDeh 4/x
+Narrowgauge_Electric_2008_Komet_4
+Electric "Komet" Class ABDeh 4/x
+Narrowgauge_Electric_2011_Allegra_a
+Electric "Allegra" Class ABe 8/12
+Narrowgauge_Electric_2011_Allegra_b
+Electric "Allegra" Class ABe 8/12
+Narrowgauge_Electric_2011_Allegra_c
+Electric "Allegra" Class ABe 8/12
+Narrowgauge_Lokomotive_1885_Kastenlok_ISA
+Steam Lokomotive "Kastenlok"
+Narrowgauge_Lokomotive_1904
+Steam Lokomotive 
+Narrowgauge_Lokomotive_1921_Ge_6_6_I
+Electric Lokomotive Class Ge 6/6 I
+Narrowgauge_Lokomotive_1947_Ge_4_4_I
+Electric Lokomotive Class Ger 4/4 I
+Narrowgauge_Lokomotive_1954_BR_99
+Steam Lokomotive Class 99
+Narrowgauge_Lokomotive_1966_D5
+Diesel Lokomotive Class D5
+Narrowgauge_Lokomotive_1973_Ge_4_4_II
+Electric Lokomotive Class Ge 4/4 II
+Narrowgauge_Lokomotive_1989_HGe_4_4_II
+Electric Lokomotive Class HGe 4/4 II
+Narrowgauge_Lokomotive_1990_Ge_4_4_I
+Electric Lokomotive Class Ge 4/4 I | Refit
+Narrowgauge_Lokomotive_2014_Gmf_4_4_II
+Diesel Lokomotive Class Gmf 4/4 II
+Narrowgauge_Passenger_Train_1900
+Passenger Car
+Narrowgauge_Passenger_Train_1900_2
+Passenger Car
+Narrowgauge_Passenger_Train_1904
+Passenger Car
+Narrowgauge_Passenger_Train_1917
+Passenger Car
+Narrowgauge_Passenger_Train_1941
+Passenger Car
+Narrowgauge_Passenger_Train_1941_BCFt_1
+Control Car Class BCfT
+Narrowgauge_Passenger_Train_1947
+Passenger Car
+Narrowgauge_Passenger_Train_1962_EW_I
+Passenger Car "Einheitswagen I"
+Narrowgauge_Passenger_Train_1972_1
+Passenger Car
+Narrowgauge_Passenger_Train_1972_2
+Passenger Car
+Narrowgauge_Passenger_Train_1993_EW_IV
+Passenger Car "Einheitswagen IV"
+Narrowgauge_Passenger_Train_1993_EW_IV_Bdt
+Control Car "Einheitswagen IV" Class Bdt
+Narrowgauge_Passenger_Train_1996_Observation_Car
+Observation Car
+Narrowgauge_Passenger_Train_1997_GTW_1
+Multiple Unit "GTW" | Control Car
+Narrowgauge_Passenger_Train_1997_GTW_2
+Multiple Unit "GTW" | Electric Engine
+Narrowgauge_Passenger_Train_1997_GTW_3
+Multiple Unit "GTW" | Diesel Engine
+Narrowgauge_Passenger_Train_1997_GTW_4
+Multiple Unit "GTW"
+Narrowgauge_Passenger_Train_1997_GTW_5
+Multiple Unit "GTW" | Control Car
+Narrowgauge_Passenger_Train_2006
+Low Floor Passenger Car
+Narrowgauge_Passenger_Train_2015_Komet_1
+Control Car "Komet"
+Narrowgauge_Passenger_Train_2015_Komet_2
+Control Car "Komet"
+Narrowgauge_Passenger_Train_2016_1
+Passenger Car "Alvra"
+Narrowgauge_Passenger_Train_2016_2
+Observation Car "Alvra"
+Narrowgauge_Passenger_Train_2016_3
+Control Car "Alvra"
 #_____________________________vehicle - tram_track______________________________
 #_____________________________vehicle - tram_track______________________________
 Poestlingbergbahn_Wagen_II
