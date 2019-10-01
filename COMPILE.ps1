@@ -110,15 +110,16 @@ if (!(Test-Path "$csv")) {
 }
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
-compile 192 'Landscape' pakset/landscape/**/*.dat
-compile 192 'Buildings' pakset/buildings/**/*.dat
-compile 192 'Infrastructure' pakset/infrastructure/**/*.dat
-compile 192 'Vehicles' pakset/vehicles/**/*.dat
-compile 32 'User Interface' pakset/UI/32/*.dat
-compile 64 'User Interface' pakset/UI/64/*.dat
-compile 128 'User Interface' pakset/UI/128/*.dat
-compile 192 'User Interface' pakset/UI/192/*.dat
-compile 384 'Larger Objects' pakset/384/**/*.dat
+compile '192' 'Landscape' 'pakset/landscape/**/*.dat'
+compile '192' 'Buildings' 'pakset/buildings/**/*.dat'
+compile '192' 'Infrastructure' 'pakset/infrastructure/**/*.dat'
+compile '192' 'Vehicles' 'pakset/vehicles/**/*.dat'
+compile '192' 'Goods' 'pakset/buildings/factories/goods/*.dat'
+compile '32' 'User Interface' 'pakset/UI/32/*.dat'
+compile '64' 'User Interface' 'pakset/UI/64/*.dat'
+compile '128' 'User Interface' 'pakset/UI/128/*.dat'
+compile '192' 'User Interface' 'pakset/UI/192/*.dat'
+compile '384' 'Larger Objects' 'pakset/384/**/*.dat'
 
 # remove the old csv
 mv -Force "$csv.in" "$csv"
