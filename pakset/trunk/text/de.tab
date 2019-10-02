@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 18.08 2019                           #
+#                           Date Created: 28.09 2019                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -1234,8 +1234,6 @@ VIEW
 Ansicht
 #_________________________________message_text__________________________________
 #_________________________________message_text__________________________________
- bags
-Taschen
 batch
 Bündel
 chests
@@ -1250,6 +1248,10 @@ suitcases
 Koffer
 tons
  Tonnen
+#_____________________________________misc______________________________________
+#_____________________________________misc______________________________________
+bags
+ Taschen
 #__________________________________pedestrian___________________________________
 #__________________________________pedestrian___________________________________
 pedestrian_1
@@ -1274,6 +1276,8 @@ CATEGORY_07
 Rieselgut
 CATEGORY_08
 Wertgegenstände
+CATEGORY_09
+Leichtes Schüttgut
 Narrowgauge
 Normalspur
 narrowgauge vehicle
@@ -2682,6 +2686,8 @@ Narrowgauge_Lokomotive_1885_Kastenlok_ISA
 Dampflokomotive "Kastenlok"
 Narrowgauge_Lokomotive_1904
 Dampflokomotive
+Narrowgauge_Lokomotive_1921_Ge_6_6_I
+Elektrolokomotive "Schmalspurkrokodil" Typ Ge 6/6 I
 Narrowgauge_Lokomotive_1947_Ge_4_4_I
 Elektrolokomotive Typ Ge 4/4 I
 Narrowgauge_Lokomotive_1954_BR_99
