@@ -24,6 +24,8 @@ loading_time=8590
 constraint[prev][0]=SBB_RBe502
 constraint[prev][1]=None
 constraint[next][0]=SBB_A502
+constraint[next][1]=SBB_B502
+constraint[next][2]=SBB_WRB502
 
 EmptyImage[S]=image/Twindexx_SE.0.1
 EmptyImage[E]=image/Twindexx_SE.0.0
@@ -136,7 +138,7 @@ length=11
 loading_time=10310
 
 constraint[prev][0]=SBB_RAe502
-constraint[prev][2]=SBB_A502
+constraint[prev][1]=SBB_A502
 constraint[next][0]=SBB_WRB502
 constraint[next][1]=SBB_A502
 constraint[next][2]=SBB_B502
@@ -175,6 +177,7 @@ length=11
 loading_time=10310
 
 constraint[prev][0]=SBB_A502
+constraint[prev][1]=SBB_RAe502
 constraint[next][0]=SBB_B502
 
 EmptyImage[S]=image/Twindexx_SE.4.3
