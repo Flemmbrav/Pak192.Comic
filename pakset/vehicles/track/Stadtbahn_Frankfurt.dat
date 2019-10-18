@@ -99,6 +99,7 @@ loading_time=660
 
 Constraint[Prev][0]=U5_4-VGF
 Constraint[Next][0]=U5_2-VGF
+Constraint[Next][1]=U5_4-VGF
 
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U5_5.0.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U5_5.0.2
@@ -131,6 +132,7 @@ engine_type=electric
 loading_time=660
 
 Constraint[Prev][0]=U5_1-VGF
+Constraint[Prev][1]=U5_3-VGF
 Constraint[Next][0]=U5_3-VGF
 
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U5_5.2.3
