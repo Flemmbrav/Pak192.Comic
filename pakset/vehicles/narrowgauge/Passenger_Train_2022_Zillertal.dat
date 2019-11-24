@@ -15,9 +15,9 @@ engine_type=hydrogene
 
 freight=Passagiere
 payload=50
-loading_time=770
-runningcost=244
-cost=7626490
+loading_time=270
+runningcost=27
+cost=299063
 
 constraint[prev][0]=Narrowgauge_Passenger_Train_2022_Zillertal_3
 constraint[prev][1]=none
@@ -44,9 +44,9 @@ gear=100
 
 freight=Passagiere
 payload=60
-loading_time=930
-runningcost=93
-cost=1019205
+loading_time=330
+runningcost=33
+cost=5331675
 
 constraint[prev][0]=Narrowgauge_Passenger_Train_2022_Zillertal_1
 constraint[prev][1]=Narrowgauge_Passenger_Train_2022_Zillertal_2
@@ -71,9 +71,9 @@ engine_type=hydrogene
 
 freight=Passagiere
 payload=50
-loading_time=770
-runningcost=244
-cost=7626490
+loading_time=270
+runningcost=27
+cost=299063
 
 constraint[prev][0]=Narrowgauge_Passenger_Train_2022_Zillertal_1
 constraint[prev][1]=Narrowgauge_Passenger_Train_2022_Zillertal_2
