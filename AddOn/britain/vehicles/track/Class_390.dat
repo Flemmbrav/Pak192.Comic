@@ -1,0 +1,219 @@
+obj=vehicle
+name=Class 390 Pendolino
+copyright=Taurus+Flemmbrav
+waytype=track
+speed=230
+intro_year=2000
+intro_month=4
+power=800
+gear=175
+cost=44544120
+weight=56
+RunningCost=2040
+#RunningCost=207
+length=12
+engine_type=electric
+freight=Passagiere
+payload=80
+loading_time=9120
+EmptyImage[E]=image/Class_390_Vo_front.0.0
+EmptyImage[S]=image/Class_390_Vo_front.0.1
+EmptyImage[W]=image/Class_390_Vo_front.0.2
+EmptyImage[N]=image/Class_390_Vo_front.0.3
+EmptyImage[SE]=image/Class_390_Vo_front.0.4
+#EmptyImage[NE]=image/Class_390_Vo_front.0.5
+EmptyImage[NW]=image/Class_390_Vo_front.0.6
+#EmptyImage[SW]=image/Class_390_Vo_front.0.7
+
+EmptyImage[NE]=image/Class_390_Vo_back.0.5
+EmptyImage[SW]=image/Class_390_Vo_back.0.7
+
+Constraint[Prev][0]=Class 390 Pendolino Back
+Constraint[Prev][1]=none
+Constraint[Next][0]=Class 390 Pendolino Mid1
+
+--------
+
+obj=vehicle
+name=Class 390 Pendolino Back
+copyright=Taurus+Flemmbrav
+waytype=track
+speed=230
+intro_year=2000
+intro_month=4
+power=800
+gear=175
+cost=44544120
+weight=56
+RunningCost=2040
+length=13
+engine_type=electric
+freight=Passagiere
+payload=80
+loading_time=9120
+EmptyImage[E]=image/Class_390_Vo_back.0.0
+EmptyImage[S]=image/Class_390_Vo_back.0.1
+EmptyImage[W]=image/Class_390_Vo_back.0.2
+EmptyImage[N]=image/Class_390_Vo_back.0.3
+EmptyImage[SE]=image/Class_390_Vo_back.0.4
+#EmptyImage[NE]=image/Class_390_Vo_back.0.5
+EmptyImage[NW]=image/Class_390_Vo_back.0.6
+#EmptyImage[SW]=image/Class_390_Vo_back.0.7
+
+EmptyImage[NE]=image/Class_390_Vo_front.0.5
+EmptyImage[SW]=image/Class_390_Vo_front.0.7
+Constraint[Prev][0]=Class 390 Pendolino Mid2
+Constraint[Next][0]=Class 390 Pendolino
+Constraint[Next][1]=none
+
+---------
+
+obj=vehicle
+name=Class 390 Pendolino Middle
+copyright=Taurus+Flemmbrav
+waytype=track
+speed=230
+intro_year=2000
+intro_month=4
+power=800
+gear=175
+cost=44544120
+weight=56
+RunningCost=2040
+length=12
+engine_type=electric
+freight=Passagiere
+payload=80
+loading_time=9120
+EmptyImage[E]=image/Class_390_Vo_mid.0.0
+EmptyImage[S]=image/Class_390_Vo_mid.0.1
+EmptyImage[W]=image/Class_390_Vo_mid.0.2
+EmptyImage[N]=image/Class_390_Vo_mid.0.3
+EmptyImage[SE]=image/Class_390_Vo_mid.0.4
+EmptyImage[NE]=image/Class_390_Vo_mid.0.5
+EmptyImage[NW]=image/Class_390_Vo_mid.0.6
+EmptyImage[SW]=image/Class_390_Vo_mid.0.7
+Constraint[Prev][0]=Class 390 Pendolino Middle
+Constraint[Prev][1]=Class 390 Pendolino Pantograph one
+Constraint[Next][0]=Class 390 Pendolino Middle
+Constraint[Next][1]=Class 390 Pendolino Pantograph two
+
+----------
+
+obj=vehicle
+name=Class 390 Pendolino Mid2
+copyright=Taurus+Flemmbrav
+waytype=track
+speed=230
+intro_year=2000
+intro_month=4
+power=800
+gear=175
+cost=45797790
+weight=56
+RunningCost=2154
+length=12
+engine_type=electric
+freight=Passagiere
+payload=90
+loading_time=10260
+EmptyImage[E]=image/Class_390_Vo_mid.0.0
+EmptyImage[S]=image/Class_390_Vo_mid.0.1
+EmptyImage[W]=image/Class_390_Vo_mid.0.2
+EmptyImage[N]=image/Class_390_Vo_mid.0.3
+EmptyImage[SE]=image/Class_390_Vo_mid.0.4
+EmptyImage[NE]=image/Class_390_Vo_mid.0.5
+EmptyImage[NW]=image/Class_390_Vo_mid.0.6
+EmptyImage[SW]=image/Class_390_Vo_mid.0.7
+Constraint[Prev][0]=Class 390 Pendolino Pantograph two
+Constraint[Next][0]=Class 390 Pendolino Back
+
+--------------
+
+obj=vehicle
+name=Class 390 Pendolino Mid1
+copyright=Taurus+Flemmbrav
+waytype=track
+speed=230
+intro_year=2000
+intro_month=4
+power=800
+gear=175
+cost=45797790
+weight=56
+RunningCost=2154
+length=12
+engine_type=electric
+freight=Passagiere
+payload=90
+loading_time=10260
+EmptyImage[E]=image/Class_390_Vo_mid.0.0
+EmptyImage[S]=image/Class_390_Vo_mid.0.1
+EmptyImage[W]=image/Class_390_Vo_mid.0.2
+EmptyImage[N]=image/Class_390_Vo_mid.0.3
+EmptyImage[SE]=image/Class_390_Vo_mid.0.4
+EmptyImage[NE]=image/Class_390_Vo_mid.0.5
+EmptyImage[NW]=image/Class_390_Vo_mid.0.6
+EmptyImage[SW]=image/Class_390_Vo_mid.0.7
+Constraint[Prev][0]=Class 390 Pendolino
+Constraint[Next][0]=Class 390 Pendolino Pantograph one
+
+-----------
+
+obj=vehicle
+name=Class 390 Pendolino Pantograph one
+copyright=Taurus+Flemmbrav
+waytype=track
+speed=230
+intro_year=2000
+intro_month=4
+power=800
+gear=175
+cost=45797790
+weight=56
+RunningCost=2154
+length=12
+engine_type=electric
+freight=Passagiere
+payload=90
+loading_time=10260
+EmptyImage[E]=image/Class_390_Vo_mid_pant1.0.0
+EmptyImage[S]=image/Class_390_Vo_mid_pant1.0.1
+EmptyImage[W]=image/Class_390_Vo_mid_pant1.0.2
+EmptyImage[N]=image/Class_390_Vo_mid_pant1.0.3
+EmptyImage[SE]=image/Class_390_Vo_mid_pant1.0.4
+EmptyImage[NE]=image/Class_390_Vo_mid_pant1.0.5
+EmptyImage[NW]=image/Class_390_Vo_mid_pant1.0.6
+EmptyImage[SW]=image/Class_390_Vo_mid_pant1.0.7
+Constraint[Prev][0]=Class 390 Pendolino Mid1
+Constraint[Next][0]=Class 390 Pendolino Middle
+
+-------
+
+obj=vehicle
+name=Class 390 Pendolino Pantograph two
+copyright=Taurus+Flemmbrav
+waytype=track
+speed=230
+intro_year=2000
+intro_month=4
+power=800
+gear=175
+cost=45797790
+weight=56
+RunningCost=2154
+length=12
+engine_type=electric
+freight=Passagiere
+payload=90
+loading_time=10260
+EmptyImage[E]=image/Class_390_Vo_mid_pant12.0.0
+EmptyImage[S]=image/Class_390_Vo_mid_pant12.0.1
+EmptyImage[W]=image/Class_390_Vo_mid_pant12.0.2
+EmptyImage[N]=image/Class_390_Vo_mid_pant12.0.3
+EmptyImage[SE]=image/Class_390_Vo_mid_pant12.0.4
+EmptyImage[NE]=image/Class_390_Vo_mid_pant12.0.5
+EmptyImage[NW]=image/Class_390_Vo_mid_pant12.0.6
+EmptyImage[SW]=image/Class_390_Vo_mid_pant12.0.7
+Constraint[Prev][0]=Class 390 Pendolino Middle
+Constraint[Next][0]=Class 390 Pendolino Mid2

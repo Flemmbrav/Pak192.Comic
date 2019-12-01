@@ -1,0 +1,27 @@
+obj=vehicle
+name=Mark 1 BR RM
+copyright=Flemmbrav+Taurus
+intro_year=1959
+intro_month=1
+retire_year=2004
+retire_month=12
+payload=1100
+cost=11274000
+runningcost=756
+freight=Post
+weight=33
+speed=145
+length=12
+waytype=track
+smoke=none
+sound=none
+loading_time=5530
+
+EmptyImage[S]=image/mk1rm.0.3
+EmptyImage[E]=image/mk1rm.0.2
+EmptyImage[SE]=image/mk1rm.1.0
+EmptyImage[SW]=image/mk1rm.1.3
+EmptyImage[N]=image/mk1rm.0.1
+EmptyImage[W]=image/mk1rm.0.0
+EmptyImage[NW]=image/mk1rm.1.2
+EmptyImage[NE]=image/mk1rm.1.1

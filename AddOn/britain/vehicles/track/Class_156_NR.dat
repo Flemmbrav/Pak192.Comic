@@ -1,0 +1,70 @@
+obj=vehicle
+name=NR Class 156 1
+copyright=Flemmbrav & Taurus
+intro_year=1987
+intro_month=0
+retire_year=2015
+retire_month=0
+freight=Passagiere
+payload=85
+cost=12792679
+runningcost=631
+weight=41
+speed=120
+length=12
+waytype=track
+engine_type=diesel
+power=213
+gear=150
+smoke=none
+sound=none
+loading_time=4000
+
+constraint[prev][0]=Sprinter_Coupler
+constraint[prev][1]=none
+constraint[next][0]=NR Class 156 2
+
+EmptyImage[S]=image/NR_Class_156.0.1
+EmptyImage[E]=image/NR_Class_156.0.0
+EmptyImage[SE]=image/NR_Class_156.0.4
+EmptyImage[SW]=image/NR_Class_156.0.7
+EmptyImage[N]=image/NR_Class_156.0.3
+EmptyImage[W]=image/NR_Class_156.0.2
+EmptyImage[NW]=image/NR_Class_156.0.6
+EmptyImage[NE]=image/NR_Class_156.0.5
+
+-----------------
+
+obj=vehicle
+name=NR Class 156 2
+copyright=Flemmbrav & Taurus
+intro_year=1987
+intro_month=0
+retire_year=2015
+retire_month=0
+freight=Passagiere
+payload=85
+cost=12792679
+runningcost=631
+weight=41
+speed=120
+length=12
+waytype=track
+engine_type=diesel
+power=213
+gear=150
+smoke=none
+sound=none
+loading_time=4000
+
+constraint[prev][0]=NR Class 156 1
+constraint[next][0]=Sprinter_Coupler
+
+EmptyImage[S]=image/NR_Class_156.1.1
+EmptyImage[E]=image/NR_Class_156.1.0
+EmptyImage[SE]=image/NR_Class_156.1.4
+EmptyImage[SW]=image/NR_Class_156.1.7
+EmptyImage[N]=image/NR_Class_156.1.3
+EmptyImage[W]=image/NR_Class_156.1.2
+EmptyImage[NW]=image/NR_Class_156.1.6
+EmptyImage[NE]=image/NR_Class_156.1.5
