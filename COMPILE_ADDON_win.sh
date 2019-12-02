@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'pak192.comic open-source repository compiler for Windows'
+echo 'pak192.comic open-source repository AddOn compiler for Windows'
 echo -e '======================================================\n'
 
 echo 'This bash compiles this repository into a new folder'
@@ -97,7 +97,7 @@ compile() {
 
         # recompiling if necessary
         if [[ $recompile == 1 ]]; then
-            ./makeobj.exe pak$1 ./compiled/ "./$dat" &> /dev/null
+            ./makeobj.exe pak$1 ./compiled_addons/ "./$dat" &> /dev/null
             if [[ $? != 0 ]]; then
                 echo "Error: Makeobj returned an error for $dat. Aborting..."
                 rm "$csv.in"
@@ -126,11 +126,11 @@ fi
 echo -e 'OK\n'
 
 # Create folder for *.paks or delete all old paks if folder already exists
-if [ ! -d 'compiled' ]; then
-    mkdir compiled
+if [ ! -d 'compiled_addons' ]; then
+    mkdir compiled_addons
 fi
 
-csv=compiled/compile.csv
+csv=compiled_addons/compiled_addons.csv
 
 # No file from last run, create empty one
 if [ ! -f $csv ]; then
@@ -138,25 +138,15 @@ if [ ! -f $csv ]; then
 fi
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
-compile '192' 'Landscape' 'pakset/landscape/**/*.dat'
-compile '192' 'Buildings' 'pakset/buildings/**/*.dat'
-compile '192' 'Infrastructure' 'pakset/infrastructure/**/*.dat'
-compile '192' 'Vehicles' 'pakset/vehicles/**/*.dat'
-compile '192' 'Goods' 'pakset/buildings/factories/goods/*.dat'
-compile '32' 'User Interface' 'pakset/UI/32/*.dat'
-compile '64' 'User Interface' 'pakset/UI/64/*.dat'
-compile '128' 'User Interface' 'pakset/UI/128/*.dat'
-compile '192' 'User Interface' 'pakset/UI/192/*.dat'
-compile '384' 'Larger Objects' 'pakset/384/**/*.dat'
+compile '192' 'British Infrastrukture' 'AddOn/britain/**/*.dat'
+compile '192' 'British Vehicles' 'AddOn/britain/vehicles/**/*.dat'
+compile '192' 'Czech Vehicles' 'AddOn/czech/vehicles/**/*.dat'
+compile '192' 'German Vehicles' 'AddOn/german/vehicles/**/*.dat'
+compile '192' 'Japanese Stuff' 'AddOn/japanese/**/*.dat'
 
 # Finished successfully, get rid of old csv
 mv "$csv.in" "$csv"
 
-echo -e '------------------------------------------------------'
-echo -e 'Moving Trunk (configs, sound, text)\n\n'
-
-cp -r pakset/trunk/* compiled
-
 echo '======================================================'
-echo 'Pakset complete!'
+echo 'AddOn folder complete!'
 echo '======================================================'
