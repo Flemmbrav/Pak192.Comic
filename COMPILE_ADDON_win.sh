@@ -138,11 +138,12 @@ if [ ! -f $csv ]; then
 fi
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
-compile '192' 'British Infrastrukture' 'AddOn/britain/**/*.dat'
+compile '192' 'British Infrastrukture' 'AddOn/britain/infrastruktur/*.dat'
 compile '192' 'British Vehicles' 'AddOn/britain/vehicles/**/*.dat'
 compile '192' 'Czech Vehicles' 'AddOn/czech/vehicles/**/*.dat'
 compile '192' 'German Vehicles' 'AddOn/german/vehicles/**/*.dat'
 compile '192' 'Japanese Stuff' 'AddOn/japanese/**/*.dat'
+compile '192' 'Belgish Stuff' 'AddOn/belgian/**/*.dat'
 
 # Finished successfully, get rid of old csv
 mv "$csv.in" "$csv"
