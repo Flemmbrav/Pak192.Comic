@@ -26,20 +26,25 @@ name=Narrowgauge_Passenger_Train_1993_EW_IV_Bdt
 copyright=Flemmbrav
 waytype=track
 
-intro_year=1993
+#intro_year=1993
+intro_year=1999
 intro_month=6
 retire_year=2018
 retire_month=5
 
-speed=90
+#speed=90
+speed=100
 weight=18
 length=8
 
 freight=Passagiere
 payload=40
-loading_time=720
-runningcost=72
-cost=792396
+#loading_time=1170
+#runningcost=117
+#cost=1282380
+loading_time=1190
+runningcost=119
+cost=1311090
 
 constraint[prev][0]=none
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_1993_EW_IV_Bdt.0.<$0>
