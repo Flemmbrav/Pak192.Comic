@@ -107,6 +107,7 @@ runningcost=128
 cost=1406790
 length=5
 constraint[prev][0]=MB_814_K
+constraint[next][0]=none
 sound=0
 loading_time=1137
 emptyimage[e]=./image/PTM_MB_814_K-H.0.2

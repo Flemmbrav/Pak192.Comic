@@ -1,0 +1,63 @@
+obj=building
+name=station_track_Bahnsteig_1910_4
+copyright=Flemmbrav
+intro_month=1
+intro_year=1910
+retire_year=2000
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+level=2
+noinfo=1
+icon=> PLF_Station_einseitig1910.0.4
+cursor=PLF_Station_einseitig1910.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[4][0][0][0][0][0]=PLF_Station_einseitig1910.1.0
+BackImage[12][0][0][0][0][0]=PLF_Station_einseitig1910.1.1,2,3
+# mittelteil NORD-SÜD
+BackImage[0][0][0][0][0][0]=PLF_Station_einseitig1910.2.0
+BackImage[8][0][0][0][0][0]=PLF_Station_einseitig1910.2.1,2,3
+# Endteil Nord-Süd  Süden
+BackImage[2][0][0][0][0][0]=PLF_Station_einseitig1910.3.0
+BackImage[10][0][0][0][0][0]=PLF_Station_einseitig1910.3.1,2,3
+
+# Endteil Ost-West  Westen
+BackImage[5][0][0][0][0][0]=PLF_Station_einseitig1910.1.3
+BackImage[13][0][0][0][0][0]=PLF_Station_einseitig1910.1.2,-2,3
+# Mittelteil Ost-West
+BackImage[1][0][0][0][0][0]=PLF_Station_einseitig1910.2.3
+BackImage[9][0][0][0][0][0]=PLF_Station_einseitig1910.2.2,-2,3
+# Endteil Ost-West  Osten
+BackImage[3][0][0][0][0][0]=PLF_Station_einseitig1910.3.3
+BackImage[11][0][0][0][0][0]=PLF_Station_einseitig1910.3.2,-2,3
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=PLF_Station_einseitig1910.1.5,-2,3
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=PLF_Station_einseitig1910.2.5,-2,3
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=PLF_Station_einseitig1910.3.5,-2,3
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=PLF_Station_einseitig1910.1.1,2,3
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=PLF_Station_einseitig1910.2.1,2,3
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=PLF_Station_einseitig1910.3.1,2,3
+
+# Einzelteil Nord-Süd
+BackImage[6][0][0][0][0][0]=PLF_Station_einseitig1910.0.0
+BackImage[14][0][0][0][0][0]=PLF_Station_einseitig1910.0.1,2,3
+# Einzelteil Ost-West
+BackImage[7][0][0][0][0][0]=PLF_Station_einseitig1910.0.3
+BackImage[15][0][0][0][0][0]=PLF_Station_einseitig1910.0.2,-2,3
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=PLF_Station_einseitig1910.0.2,-2,3
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=PLF_Station_einseitig1910.0.1,2,3
+
+Dims=1,1,16

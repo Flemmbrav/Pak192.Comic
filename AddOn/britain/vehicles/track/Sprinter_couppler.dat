@@ -1,0 +1,53 @@
+obj=vehicle
+name=Sprinter_Coupler
+copyright=none
+intro_year=1980
+intro_month=0
+#retire_year=2000
+#retire_month=0
+payload=0
+cost=0
+runningcost=0
+weight=0
+speed=999
+length=0
+waytype=track
+
+constraint[prev][0]=EMT Class 153
+constraint[prev][1]=FGWR Class 153
+constraint[prev][2]=Class_153_FGW
+constraint[prev][3]=Class_150_2_FGW
+constraint[prev][4]=Class_150_4_FGW
+constraint[prev][5]=Class_153_LM
+constraint[prev][6]=FSR Class 156 2
+constraint[prev][7]=Class_150_2_ATW
+constraint[prev][8]=GA Class 156 2
+constraint[prev][9]=Class_150_2_N
+constraint[prev][10]=Class_150_4_N
+constraint[prev][11]=EMT Class 156 2
+constraint[prev][12]=NR Class 156 2
+
+constraint[next][0]=EMT Class 153
+constraint[next][1]=FGWR Class 153
+constraint[next][2]=Class_153_FGW
+constraint[next][3]=Class_150_1_FGW
+constraint[next][4]=Class_150_3_FGW
+constraint[next][5]=Class_153_LM
+constraint[next][6]=FSR Class 156 1
+constraint[next][7]=Class_150_1_ATW
+constraint[next][8]=GA Class 156 1
+constraint[next][9]=Class_150_1_N
+constraint[next][10]=Class_150_3_N
+constraint[next][11]=EMT Class 156 1
+constraint[next][12]=NR Class 156 1
+constraint[next][13]=none
+
+
+EmptyImage[S]=image/nothing.0.0
+EmptyImage[E]=image/nothing.0.0
+EmptyImage[SE]=image/nothing.0.0
+EmptyImage[SW]=image/nothing.0.0
+EmptyImage[N]=image/nothing.0.0
+EmptyImage[W]=image/nothing.0.0
+EmptyImage[NW]=image/nothing.0.0
+EmptyImage[NE]=image/nothing.0.0
