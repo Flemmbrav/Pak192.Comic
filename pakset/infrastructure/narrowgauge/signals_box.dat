@@ -1,0 +1,8 @@
+obj=roadsign
+name=narrowgauge_signal_box
+copyright=Leartin
+cost=750
+waytype=track
+icon=> ./images/signals/signal_box.0.4
+cursor=./images/signals/signal_box.0.5
+Image[0-3]=./images/signals/signal_box.0.<$0>
