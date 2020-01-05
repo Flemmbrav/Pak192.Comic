@@ -768,7 +768,30 @@ FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,26,48
 #################################################################################
 #									 Level 12									#
 #################################################################################
-
+Obj=building
+name=ind_cl4_E2_01_12
+copyright=Leartin
+intro_month=4
+intro_year=1920
+type=ind
+Chance=40
+level=12
+needs_ground=0
+climates=tundra
+BackImage[0][0][0][0][0][0-1]=./images/ind/easteur/ind_steel.0.<$0>
+---
+Obj=building
+name=ind_cl4_E2_02_12
+copyright=Leartin
+intro_month=4
+intro_year=1920
+type=ind
+Chance=20
+level=12
+needs_ground=0
+climates=tundra
+BackImage[0][0][0][0][0][0-1]=./images/ind/easteur/ind_steel.1.<$0>
+---
 Obj=building
 name=ind_cl4_E3_01_12
 copyright=Leartin, Alex. Brose
@@ -883,6 +906,30 @@ BackImage[0][0][0][0][0][0-1]=./images/ind/ind_modern02.<$0>.0
 #################################################################################
 #									 Level 15									#
 #################################################################################
+Obj=building
+name=ind_cl4_E2_01_15
+copyright=Leartin
+intro_month=4
+intro_year=1920
+type=ind
+Chance=40
+level=15
+needs_ground=0
+climates=tundra
+BackImage[0][0][0][0][0][0-1]=./images/ind/easteur/ind_steel.0.<$0+2>
+---
+Obj=building
+name=ind_cl4_E2_02_15
+copyright=Leartin
+intro_month=4
+intro_year=1920
+type=ind
+Chance=20
+level=15
+needs_ground=0
+climates=tundra
+BackImage[0][0][0][0][0][0-1]=./images/ind/easteur/ind_steel.1.<$0+2>
+---
 Obj=building
 name=ind_cl4_E3_01_15
 copyright=Alex. Brose
