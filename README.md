@@ -2,6 +2,7 @@
 Pakset and Theme for Simutrans
 
 To compile under unix, run the "COMPILE.sh". Make sure you are able to run makeobj. There might be libaries missing.
+
 To compile under windows, run the "COMPILE_win.sh" OR the "COMPILE.ps1" via PowerShell.
 
 After that, copy the folder named "compiled" in your usual Simutrans game folder.
