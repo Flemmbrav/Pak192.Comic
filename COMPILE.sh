@@ -121,7 +121,8 @@ echo -n 'Checking for makeobj... '
 if [ ! -f 'makeobj' ]; then
     echo 'ERROR: makeobj not found in root folder.'
     echo 'Downloading makeobj from https://storage.googleapis.com/sakura-studio-public-bucket/makeobj'
-    wget https://storage.googleapis.com/sakura-studio-public-bucket/makeobj
+    wget https://storage.googleapis.com/sakura-studio-public-bucket/makeobj.zip
+    unzip makeobj.zip
     echo 'Please run the compiler again'
     exit 1
 fi
