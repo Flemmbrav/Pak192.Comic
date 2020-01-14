@@ -74,6 +74,17 @@ climates=rocky
 BackImage[0][0][0][0][0][0-4]=images/plaza/alpine/09_E0_01.<$0>.0
 FrontImage[0][0][0][0][0-3][0,1,3]=images/plaza/alpine/09_E0_01.<$0>.1
 ---
+obj=building
+name=com_plaza_cl5_E0_02_09
+copyright=Leartin
+intro_year=1800
+type=com
+Chance=10
+level=9
+climates=rocky
+BackImage[0][0][0][0][0][0-4]=images/plaza/alpine/09_E0_02.<$0>.0
+FrontImage[0][0][0][0][0-3][0-3]=images/fountain_spray.<$0>.0
+---
 #################################################################################
 #									 Level 12									#
 #################################################################################
