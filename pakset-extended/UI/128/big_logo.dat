@@ -1,3 +1,0 @@
-Obj=symbol
-name=BigLogo
-Image[0-3]=> ./images/big_logo.<$0/2>.<$0%2>
