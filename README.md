@@ -1,5 +1,5 @@
 # Pak192.Comic
-Pakset and Theme for Simutrans
+Pakset and Theme for Simutrans Extended
 
 To compile under unix, run the "COMPILE.sh". Make sure you are able to run makeobj. There might be libaries missing.
 
