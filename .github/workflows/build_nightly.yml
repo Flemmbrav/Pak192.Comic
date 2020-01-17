@@ -50,19 +50,19 @@ jobs:
         overwrite: true
 
   compile_pak192.comic-addons:
-    runs-ons: ubuntu-latest
+    runs-on: ubuntu-latest
 
-        steps:
+    steps:
     - uses: actions/checkout@v1
 
     - name: install_dependencies
       run: |
-        sudo apt-get -y update
-        sudo apt-get -ym install libpng-dev
-        sudo apt-get -ym install libsdl2-dev
-        sudo apt-get -ym install libbz2-dev
-        sudo apt-get -ym install autoconf
-        svn checkout svn://servers.simutrans.org/simutrans simutrans
+          sudo apt-get -y update
+          sudo apt-get -ym install libpng-dev
+          sudo apt-get -ym install libsdl2-dev
+          sudo apt-get -ym install libbz2-dev
+          sudo apt-get -ym install autoconf
+          svn checkout svn://servers.simutrans.org/simutrans simutrans
     - name: setup
       run: |
         cd simutrans/trunk
