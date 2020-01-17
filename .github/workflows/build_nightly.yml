@@ -48,3 +48,20 @@ jobs:
         asset_name: pak192-nightly.zip
         tag: Nightly
         overwrite: true
+        
+    - name: make pak192 addons
+      run: |
+        bash COMPILE_ADDON.sh
+    - name: Rename result
+      run: |
+        mv compiled_addons pak192.comic-nightly-addons
+        zip -r pak192-nightly-addons.zip pak192.comic-nightly-addons
+
+    - name: Update binaries of Nightly Release
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./pak192-nightly-addons.zip
+        asset_name: pak192-nightly-addons.zip
+        tag: Nightly
+        overwrite: true
