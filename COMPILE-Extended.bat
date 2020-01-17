@@ -17,36 +17,36 @@ echo.
 echo -------------------------------------------------------
 echo Compile Landscape
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset\landscape /ad /b') do (makeobj pak192 ./compiled/ ./pakset/landscape/%%d/)
+for /f "delims=" %%d in ('dir pakset\landscape /ad /b') do (Makeobj-Extended pak192 ./compiled/ ./pakset/landscape/%%d/)
 echo.
 echo -------------------------------------------------------
 echo Compile Buildings
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset\buildings /ad /b') do (makeobj pak192 ./compiled/ ./pakset/buildings/%%d/)
-makeobj pak192 ./compiled/ ./pakset/buildings/factories/goods/
+for /f "delims=" %%d in ('dir pakset\buildings /ad /b') do (Makeobj-Extended pak192 ./compiled/ ./pakset/buildings/%%d/)
+Makeobj-Extended pak192 ./compiled/ ./pakset/buildings/factories/goods/
 echo.
 echo -------------------------------------------------------
 echo Compile infrastructure
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset\infrastructure /ad /b') do (makeobj pak192 ./compiled/ .\pakset/infrastructure/%%d/)
+for /f "delims=" %%d in ('dir pakset\infrastructure /ad /b') do (Makeobj-Extended pak192 ./compiled/ .\pakset/infrastructure/%%d/)
 echo.
 echo -------------------------------------------------------
 echo Compile Vehicles
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset\vehicles /ad /b') do (makeobj pak192 ./compiled/ ./pakset/vehicles/%%d/)
+for /f "delims=" %%d in ('dir pakset\vehicles /ad /b') do (Makeobj-Extended pak192 ./compiled/ ./pakset/vehicles/%%d/)
 echo.
 echo -------------------------------------------------------
 echo Compile User Interface
 echo -------------------------------------------------------
-makeobj pak32 ./compiled/ ./pakset/UI/32/
-makeobj pak64 ./compiled/ ./pakset/UI/64/
-makeobj pak128 ./compiled/ ./pakset/UI/128/
-makeobj pak192 ./compiled/ ./pakset/UI/192/
+Makeobj-Extended pak32 ./compiled/ ./pakset/UI/32/
+Makeobj-Extended pak64 ./compiled/ ./pakset/UI/64/
+Makeobj-Extended pak128 ./compiled/ ./pakset/UI/128/
+Makeobj-Extended pak192 ./compiled/ ./pakset/UI/192/
 echo.
 echo -------------------------------------------------------
 echo Compile Larger Objects
 echo -------------------------------------------------------
-for /f "delims=" %%d in ('dir pakset\384 /ad /b') do (makeobj pak384 ./compiled/ ./pakset/384/%%d/)
+for /f "delims=" %%d in ('dir pakset\384 /ad /b') do (Makeobj-Extended pak384 ./compiled/ ./pakset/384/%%d/)
 echo.
 echo =====================
 echo Compilation Complete!
@@ -65,7 +65,7 @@ echo.
 goto end
 
 :abort
-echo ERROR: makeobj not found on root folder.
+echo ERROR: Makeobj-Extended not found on root folder.
 
 :end
 pause
