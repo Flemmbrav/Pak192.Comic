@@ -9,7 +9,7 @@ intro_month=6
 #retire_month=6
 
 speed=70
-weight=12
+weight=9
 length=8
 
 freight=cars
