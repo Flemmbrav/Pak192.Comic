@@ -8,8 +8,8 @@ Pakset for Simutrans
 0.1. In case you don't have it already, it's usually the best to get it from the official website: https://www.simutrans.com/en/download/
 0.2. In case you want to go for a nightly here, check out [this page.](https://nightly.simutrans.com/en/)
 1. Get yourself the pakset from [the release page.](https://github.com/Flemmbrav/Pak192.Comic/releases)
-	1. Or get yourself a [freshly build nightly here.](https://github.com/Flemmbrav/Pak192.Comic/actions)
-	2. Additionally you can download an addonset from the same page. This addon set does not include all addons there are.
+	1. Additionally you can download an addonset from the same page. This addon set does not include all addons there are.
+	2. Or download yourself an old version from [the forum.](https://forum.simutrans.com/index.php?board=120.0)
 2. Unzip the pakset
 3. Copy the unzipped pakset in your Simutrans game folder.
 	1. If you did download the addon set as well, put them in your addon folder in your user directionary. On Windows this folder appears at C:\Users\[User]\Documents\Simutrans\addons
