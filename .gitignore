@@ -7,3 +7,4 @@ compiled/
 .DS_Store
 # Windows
 [dD]esktop.ini
+/makeobj.exe

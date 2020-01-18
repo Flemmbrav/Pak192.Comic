@@ -596,3 +596,16 @@ gear=100
 image[s,w,e,n,ne,sw,nw,se]=./citycar/citycarkaefer.7.<$0>
 distributionweight=9
 -----
+obj=citycar
+name=citycar_herbie
+copyright=Flemmbrav
+intro_year=1938
+intro_month=11
+outro_year=1980
+outro_month=11
+speed=100
+power=25
+gear=100
+image[s,w,e,n,ne,sw,nw,se]=./citycar/herbie.0.<$0>
+distributionweight=5
+-----
