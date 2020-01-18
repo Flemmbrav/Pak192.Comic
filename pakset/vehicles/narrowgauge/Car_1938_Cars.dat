@@ -19,5 +19,6 @@ runningcost=100
 cost=1000000
 
 emptyimage[s,w,se,sw]=./image/Car_1938_Cars.0.<$0>
+FreightImage[s,w,se,sw]=./image/Car_1938_Cars.1.<$0>
 
 ---
