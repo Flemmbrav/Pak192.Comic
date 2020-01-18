@@ -31,6 +31,7 @@ jobs:
           mv makeobj ../../..
           cd ../../..
           rm -rf simutrans
+
     - name: make pak192
       run: |
         bash COMPILE.sh
@@ -38,6 +39,7 @@ jobs:
       run: |
         mv compiled pak192.comic-nightly
         zip -r pak192-nightly.zip pak192.comic-nightly
+
     - name: Update binaries of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
       with:
@@ -74,6 +76,7 @@ jobs:
           mv makeobj ../../..
           cd ../../..
           rm -rf simutrans
+
     - name: Compile pak192.comic addons
       run: bash COMPILE_ADDON.sh
 
