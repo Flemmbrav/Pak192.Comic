@@ -85,6 +85,11 @@ jobs:
         mv compiled_addons pak192.comic-nightly-addons
         zip -r pak192-nightly-addons.zip pak192.comic-nightly-addons
         
+
+  compile_pak192-comic-theme:
+    runs-on: ubuntu-latest
+
+    steps:
     - name: Compile pak192.comic themes
       run: bash COMPILE_THEME.sh
 
