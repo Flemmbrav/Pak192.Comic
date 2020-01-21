@@ -14,8 +14,8 @@ jobs:
         ref: extended
       
     - name: Compile pak192.comic-extended
-      shell: powershell
-      run: Start-Process .\COMPILE-Extended.bat
+      shell: cmd
+      run: .\COMPILE-Extended.bat
     
     - name: Check the Compiled
       shell: powershell
