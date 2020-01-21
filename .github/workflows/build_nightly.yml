@@ -16,10 +16,3 @@ jobs:
     - name: Compile pak192.comic-extended
       shell: cmd
       run: .\COMPILE-Extended.bat
-    
-    - name: Check the Compiled
-      shell: powershell
-      run: |
-        cd compiled
-        tree
-      
