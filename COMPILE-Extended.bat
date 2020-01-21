@@ -53,15 +53,6 @@ echo Compilation Complete!
 echo =====================
 echo.
 echo.
-echo -------------------------------------------------------
-echo Moving Trunk (configs, sound, text)
-echo -------------------------------------------------------
-robocopy  .\pakset\trunk .\compiled\  /s /is /xx
-echo.
-echo =====================
-echo Pakset Complete!
-echo =====================
-echo.
 goto end
 
 :abort
