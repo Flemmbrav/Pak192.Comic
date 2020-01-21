@@ -8,6 +8,11 @@ jobs:
     runs-on: windows-latest
    
     steps:
+    - name: Checkout the repos
+      uses: actions/checkout@v2.0.0
+      with:
+        ref: extended
+      
     - name: Compile pak192.comic-extended
       shell: powershell
       run: Start-Process .\COMPILE-Extended.bat
