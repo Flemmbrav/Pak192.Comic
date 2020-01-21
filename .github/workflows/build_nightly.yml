@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Compile pak192.comic-extended
       shell: powershell
-      run: COMPILE-Extended.bat
+      run: Start-Process .\COMPILE-Extended.bat
     
     - name: Check the Compiled
       shell: powershell
