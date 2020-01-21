@@ -68,4 +68,4 @@ goto end
 echo ERROR: Makeobj-Extended not found on root folder.
 
 :end
-pause
+exit
