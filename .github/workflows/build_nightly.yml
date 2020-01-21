@@ -1,8 +1,6 @@
 name: Nightly build Ubuntu Extended Version
 
-on:
-  push:
-    branches: extended
+on: [push]
 
 jobs:
   build:
