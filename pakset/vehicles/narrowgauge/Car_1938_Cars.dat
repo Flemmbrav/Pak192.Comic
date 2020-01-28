@@ -14,9 +14,9 @@ length=8
 
 freight=cars
 payload=2
-loading_time=1000
-runningcost=100
-cost=1000000
+loading_time=400
+runningcost=40
+cost=400000
 
 emptyimage[s,w,se,sw]=./image/Car_1938_Cars.0.<$0>
 FreightImage[s,w,se,sw]=./image/Car_1938_Cars.1.<$0>
