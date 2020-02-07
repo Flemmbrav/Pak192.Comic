@@ -1,11 +1,11 @@
 #!/bin/bash
-echo '====test====='
 
-
+#general functions that don't have a single purpose
 
 trim() {
 	#removes unintentional white spaces
 	#returns the string to the command line
+	#acts recursive, in case there is a white space at the beginning or the end of the string it will remove that and run itself again
 	local String=$1
 
 	if [ ${#String} -gt 0 ]
@@ -26,18 +26,14 @@ trim() {
 
 
 
-
-
-
-
-
+#functions related to reading the goods from the goods file
 	
 readgoods() {
-	#echo readgoods
+	#opens the goods.dat file
+	#creates a new GoodArray including all the parameters of a single good
+	#runs readgoodline for each line in the file
+	#saves the good to an array when it's fully read
 	local GoodsFile=`cat pakset/buildings/factories/goods/goods.dat`
-	#opens a file
-	#creates a new ObjectArray
-	#runs readline for each line in the file
 
 	`rm -f calculated/pakset/buildings/factories/goods/goods.dat`
 	declare -A GoodArray
@@ -48,8 +44,6 @@ readgoods() {
 		if [ $PosMin -eq 1 ]
 		then
 			savegoodtoram
-			#editobject
-			#writeobject $Filename
 			unset GoodArray
 			declare -A GoodArray
 		else 
@@ -57,8 +51,6 @@ readgoods() {
 		fi
 	done
 	savegoodtoram
-	#editobject
-	#writeobject $Filename
 	unset GoodArray
 }
 
@@ -80,7 +72,6 @@ readgoodline() {
 			Value=${Line:PosEq}
 			Value="$(trim $Value)"
 			GoodArray[$Name]=$Value
-			#echo added 1 line from the comments
 		fi
 		Line=${Line:0:$((PosHash - 1))}
 	else
@@ -224,7 +215,7 @@ readallfiles() {
 	IFS='
 	'
   for dat in $directionary ; do
-		echo dat is: $dat
+		echo "-- Performing Work At: $dat "
 		readfile $dat
 	done
 }
@@ -240,7 +231,7 @@ readfile() {
 	`rm -f calculated/$Filename`
 	declare -A ObjectArray
 	local IFS='
-	'
+'
 	for Line in $File; do
   	PosMin=`expr index "$Line" '-'`
 		if [ $PosMin -eq 1 ]
@@ -262,21 +253,24 @@ readfile() {
 readline() {
 	#reads a line and adds it to the ObjectArray
 	local Line="$1"
-	shift
-  local PosHash=`expr index "$Line" '#'`
-  local PosEq=`expr index "$Line" '='`
+	if [[ ! -z $Line ]];then
+		shift
+		local PosHash=`expr index "$Line" '#'`
+		local PosEq=`expr index "$Line" '='`
 
-	if [ $PosHash -gt 0 ]
-	then
-		Line=${Line:0:$((PosHash - 1))}
-	fi
-	if [ $PosEq -gt 0 -a ${#Line} -gt 0 ]
-	then
-		Name=${Line:0:$((PosEq - 1))}
-		Name="$(trim $Name)"
-		Value=${Line:PosEq}
-		Value="$(trim $Value)"
-	  ObjectArray[$Name]=$Value
+		if [ $PosHash -gt 0 ]
+		then
+			Line=${Line:0:$((PosHash - 1))}
+		fi
+		if [ $PosEq -gt 0 -a ${#Line} -gt 0 ]
+		then
+			Name=${Line:0:$((PosEq - 1))}
+			Name="$(trim $Name)"
+			#Name=${Name,,}
+			Value=${Line:PosEq}
+			Value="$(trim $Value)"
+			ObjectArray[$Name]=$Value
+		fi
 	fi
 }
 
@@ -299,20 +293,35 @@ calculatecosts(){
 		PowerValue=$(( PowerValue / 1000 ))
 	fi
 	#calculate the runningcosts
-	#echo "$PowerValue ; $Income"
 	local Cost=$(( Income + PowerValue ))
 	local RunningCost=$(( ( Income + PowerValue ) / 3000 ))
 	local LoadingTime=$(( Income / 300 ))
-
-	echo "loading_time=$LoadingTime" >> calculated/$dat
-	echo "runningcost=$RunningCost" >> calculated/$dat
-	echo "cost=$Cost" >> calculated/$dat
+	if [[ $ForcingNewValues == 1 ]];then
+		echo "loading_time=$LoadingTime" >> calculated/$dat
+		echo "runningcost=$RunningCost" >> calculated/$dat
+		echo "cost=$Cost" >> calculated/$dat
+	else
+		if [[ ! -z ${ObjectArray[loading_time]} ]] ;then
+			echo "loading_time=${ObjectArray[loading_time]}" >> calculated/$dat
+		else
+			echo "loading_time=$LoadingTime" >> calculated/$dat			
+		fi
+		if [[ ! -z ${ObjectArray[runningcost]} ]] ;then
+			echo "runningcost=${ObjectArray[runningcost]}" >> calculated/$dat
+		else
+			echo "runningcost=$RunningCost" >> calculated/$dat			
+		fi
+		if [[ ! -z ${ObjectArray[cost]} ]] ;then
+			echo "cost=${ObjectArray[cost]}" >> calculated/$dat
+		else
+			echo "cost=$Cost" >> calculated/$dat
+		fi
+	fi
 }
 
 
 writevehicle() {
 	local dat=$1
-	#echo klappt
 	
 #Object
 	#the object being a vehicle is given by running this function
@@ -323,9 +332,6 @@ writevehicle() {
 	if [[ ! -z ${ObjectArray[copyright]} ]] ;then
 		echo "copyright=${ObjectArray[copyright]}" >> calculated/$dat
 	fi
-	echo >> calculated/$dat
-	#the waytype of the vehicle has to be given
-	echo "name=${ObjectArray[waytype]}" >> calculated/$dat
 	echo  >> calculated/$dat
 #Dates
 	#the intro year of the vehicle has to be given
@@ -335,14 +341,17 @@ writevehicle() {
 		echo "intro_month=${ObjectArray[intro_month]}" >> calculated/$dat
 	fi
 	#only write in the outro year if it is given
-	if [[ ! -z ${ObjectArray[outro_year]} ]] ;then
-		echo "outro_year=${ObjectArray[outro_year]}" >> calculated/$dat
+	if [[ ! -z ${ObjectArray[retire_year]} ]] ;then
+		echo "retire_year=${ObjectArray[retire_year]}" >> calculated/$dat
 	fi
 	#only write in the outro month if it is given
-	if [[ ! -z ${ObjectArray[outro_month]} ]] ;then
-		echo "outro_month=${ObjectArray[outro_month]}" >> calculated/$dat
+	if [[ ! -z ${ObjectArray[retire_month]} ]] ;then
+		echo "retire_month=${ObjectArray[retire_month]}" >> calculated/$dat
 	fi
+	echo  >> calculated/$dat
 #Parameters
+	#the waytype of the vehicle has to be given
+	echo "waytype=${ObjectArray[waytype]}" >> calculated/$dat
 	#write the speed if given, else write the speed used in the speedbonus
 	if [[ ! -z ${ObjectArray[speed]} ]] ;then
 		echo "speed=${ObjectArray[speed]}" >> calculated/$dat
@@ -369,6 +378,16 @@ writevehicle() {
 	#only write in the gear if it is given
 	if [[ ! -z ${ObjectArray[gear]} ]] ;then
 		echo "gear=${ObjectArray[gear]}" >> calculated/$dat
+	fi
+	echo  >> calculated/$dat
+	#only write in the smoke if it is given
+	if [[ ! -z ${ObjectArray[smoke]} ]] ;then
+		echo "smoke=${ObjectArray[smoke]}" >> calculated/$dat
+	fi
+	echo  >> calculated/$dat
+	#only write in the sound if it is given
+	if [[ ! -z ${ObjectArray[sound]} ]] ;then
+		echo "sound=${ObjectArray[sound]}" >> calculated/$dat
 	fi
 	echo  >> calculated/$dat
 #Freigth
@@ -400,34 +419,49 @@ writevehicle() {
 }
 
 
-writeobject() { 
-	echo "===new object==="
-	local dat=$1
+copyobject() {
+	local FileName=$1
+	`cp -f $Filename calculated/$Filename`
+}
 
-  # get directory where the dat file is located
-  local calculateddir=calculated/$(dirname "$dat")/
-  local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
-	# Create folder for *.dat or delete all old dats if folder already exists
-	if [ ! -d $calculateddir ]; then
-			mkdir -p $calculateddir
-	fi
-	if [ ! -d $calculatedextendeddir ]; then
-			mkdir -p $calculatedextendeddir
-	fi
-	if [[ ${ObjectArray[obj]} == "vehicle" || ${ObjectArray[obj]} == "Vehicle" ]];	then
-			writevehicle $dat
+
+writeobject() { 
+	local FileName=$1
+	if [[ ! -z ${ObjectArray[obj]} ]] ;then
+		if [[ ${ObjectArray[obj]} == "vehicle" || ${ObjectArray[obj]} == "Vehicle" ]];	then
+			#`rm -f calculated/$Filename`
+			echo "--- Writing Object: ${ObjectArray[name]} "
+
+			# get directory where the dat file is located
+			local calculateddir=calculated/$(dirname "$dat")/
+			local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
+			# Create folder for *.dat or delete all old dats if folder already exists
+			if [ ! -d $calculateddir ]; then
+					mkdir -p $calculateddir
+			fi
+			if [ ! -d $calculatedextendeddir ]; then
+					mkdir -p $calculatedextendeddir
+			fi
+			writevehicle $FileName
+			echo >> calculated/$1
+			echo "---" >> calculated/$1
+		else
+			copyobject
+		fi
 	else
-		for key in "${!ObjectArray[@]}"; do
-			echo "$key=${ObjectArray[$key]}" >> calculated/$1
-		done
+		copyobject
 	fi
-	echo "
----" >> calculated/$1
 }
 
 
 
 #main
+	echo "==== Dat Converter ===="
+	ForcingNewValues=0
+	if [[ $1 == "-f" ]];then
+		ForcingNewValues=1
+	fi
+	echo "- Creating Directionaries "
 	IFS='
 	'
 	`rm -rf calculated/`
@@ -444,22 +478,34 @@ writeobject() {
 	declare -A GoodsValueArray
 	declare -A GoodsSpeedBonusArray
 	declare -A GoodsWeigthArray
+	echo "- Read Meta Files"
 	readgoods
 	SpeedBonusFile=`cat pakset/trunk/config/speedbonus.tab`
 
-	
+	echo "- Edit .dat Files "
 	#readallfiles 'calculated/AddOn/britain/infrastruktur/*.dat'
-	readallfiles 'calculated/AddOn/britain/vehicles/**/*.dat'
-	readallfiles 'calculated/AddOn/czech/vehicles/**/*.dat'
-	readallfiles 'calculated/AddOn/german/vehicles/**/*.dat'
-	readallfiles 'calculated/AddOn/japanese/*.dat'
-	readallfiles 'calculated/AddOn/belgian/**/*.dat'
+	#readallfiles 'calculated/AddOn/belgian/**/*.dat'
+	#readallfiles 'calculated/AddOn/britain/vehicles/**/*.dat'
+	#readallfiles 'calculated/AddOn/czech/vehicles/**/*.dat'
+	#readallfiles 'calculated/AddOn/german/vehicles/**/*.dat'
+	#readallfiles 'calculated/AddOn/japanese/*.dat'
 
 	#readallfiles 'pakset/vehicles/**/*.dat'
+	readallfiles 'pakset/*.dat'
+	readallfiles 'pakset/**/*.dat'
+	readallfiles 'pakset/**/**/*.dat'
+	readallfiles 'pakset/**/**/**/*.dat'
+	readallfiles 'pakset/**/**/**/**/*.dat'
+	readallfiles 'AddOn/*.dat'
+	readallfiles 'AddOn/**/*.dat'
+	readallfiles 'AddOn/**/**/*.dat'
+	readallfiles 'AddOn/**/**/**/*.dat'
+	readallfiles 'AddOn/**/**/**/**/*.dat'
 
 
-	#readfile "pakset/vehicles/narrowgauge/Electric_2008_Komet.dat"
+	#readfile "pakset/vehicles/track/Tram_Combino_MS.dat"
+	#readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
 	#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
-
+	echo "==== Done ===="
 unset IFS
 
