@@ -19,8 +19,8 @@ Chance=20
 level=1
 needs_ground=0
 climates=mediterran
-BackImage[0][0][0][0][0][0]=./images/ind/medi/192ind11.0.0
-BackImage[0][0][0][0][0][1]=./images/ind/medi/192ind11.0.1
+BackImage[0][0][0][0][0][0]=images/ind/medi/192ind11.0.0
+BackImage[0][0][0][0][0][1]=images/ind/medi/192ind11.0.1
 ---
 Obj=building
 name=ind_cl2_E0_02_01
@@ -33,8 +33,8 @@ Chance=20
 level=1
 needs_ground=0
 climates=mediterran
-BackImage[0][0][0][0][0][0]=./images/ind/medi/192ind11.1.0
-BackImage[0][0][0][0][0][1]=./images/ind/medi/192ind11.0.1
+BackImage[0][0][0][0][0][0]=images/ind/medi/192ind11.1.0
+BackImage[0][0][0][0][0][1]=images/ind/medi/192ind11.0.1
 ---
 Obj=building
 name=ind_cl2_E0_03_01
@@ -47,8 +47,8 @@ Chance=20
 level=1
 needs_ground=0
 climates=mediterran
-BackImage[0][0][0][0][0][0]=./images/ind/medi/192ind11.2.0
-BackImage[0][0][0][0][0][1]=./images/ind/medi/192ind11.0.1
+BackImage[0][0][0][0][0][0]=images/ind/medi/192ind11.2.0
+BackImage[0][0][0][0][0][1]=images/ind/medi/192ind11.0.1
 ---
 Obj=building
 name=ind_cl2_E0_04_01
@@ -61,8 +61,8 @@ Chance=20
 level=1
 needs_ground=0
 climates=mediterran
-BackImage[0][0][0][0][0][0]=./images/ind/medi/192ind11.1.1
-BackImage[0][0][0][0][0][1]=./images/ind/medi/192ind11.0.1
+BackImage[0][0][0][0][0][0]=images/ind/medi/192ind11.1.1
+BackImage[0][0][0][0][0][1]=images/ind/medi/192ind11.0.1
 ---
 Obj=building
 name=ind_cl2_E0_05_01
@@ -75,8 +75,8 @@ Chance=20
 level=1
 needs_ground=0
 climates=mediterran
-BackImage[0][0][0][0][0][0]=./images/ind/medi/192ind11.2.1
-BackImage[0][0][0][0][0][1]=./images/ind/medi/192ind11.0.1
+BackImage[0][0][0][0][0][0]=images/ind/medi/192ind11.2.1
+BackImage[0][0][0][0][0][1]=images/ind/medi/192ind11.0.1
 ---
 
 
@@ -94,7 +94,7 @@ level=3
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/03_E0_01.0.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,30,60
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,30,60
 ---
 obj=building
 name=ind_cl2_E0_02_03
@@ -106,7 +106,7 @@ level=3
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/03_E0_01.1.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,30,60
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,30,60
 ---
 obj=building
 name=ind_cl2_E0_03_03
@@ -118,7 +118,7 @@ level=3
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/03_E0_01.2.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,30,60
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,30,60
 ---
 
 
@@ -136,7 +136,7 @@ level=5
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/05_E0_01.0.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,13,-26
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,13,-26
 ---
 obj=building
 name=ind_cl2_E0_02_05
@@ -148,7 +148,7 @@ level=5
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/05_E0_01.1.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,13,-26
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,13,-26
 ---
 obj=building
 name=ind_cl2_E0_03_05
@@ -160,7 +160,7 @@ level=5
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/05_E0_01.2.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,13,-26
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,13,-26
 ---
 
 #################################################################################
@@ -177,7 +177,7 @@ level=7
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/07_E0_01.0.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,22,7
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,22,7
 ---
 obj=building
 name=ind_cl2_E0_02_07
@@ -189,7 +189,7 @@ level=7
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/07_E0_01.1.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,22,7
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,22,7
 ---
 obj=building
 name=ind_cl2_E0_03_07
@@ -201,7 +201,7 @@ level=7
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/07_E0_01.2.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,22,7
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,22,7
 ---
 
 #################################################################################
@@ -218,7 +218,7 @@ level=9
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/09_E0_01.0.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,55,7
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,55,7
 ---
 obj=building
 name=ind_cl2_E0_02_09
@@ -230,7 +230,7 @@ level=9
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/09_E0_01.1.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,55,7
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,55,7
 ---
 obj=building
 name=ind_cl2_E0_03_09
@@ -242,7 +242,7 @@ level=9
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/09_E0_01.2.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,55,7
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,55,7
 ---
 
 #################################################################################
@@ -259,7 +259,7 @@ level=12
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/12_E0_01.0.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,0,17
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,0,17
 ---
 obj=building
 name=ind_cl2_E0_02_12
@@ -271,7 +271,7 @@ level=12
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/12_E0_01.1.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,0,17
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,0,17
 ---
 obj=building
 name=ind_cl2_E0_03_12
@@ -283,7 +283,7 @@ level=12
 needs_ground=0
 climates=mediterran
 BackImage[0][0][0][0][0][0-1]=images/ind/medi/12_E0_01.2.<$0>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_d.0.<$0>,0,17
+FrontImage[0][0][0][0][0-2][1]=images/smoke_d.0.<$0>,0,17
 ---
 
 #################################################################################

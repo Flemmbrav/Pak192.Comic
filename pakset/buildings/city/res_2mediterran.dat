@@ -76,7 +76,7 @@ level=7
 needs_ground=1
 climates=mediterran
 BackImage[0][0][0][0][0][0-4]=images/res/medi/07_E0_01.<$0>.0
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,50,0
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,50,0
 ---
 obj=building
 name=res_cl2_E0_02_07
@@ -88,7 +88,7 @@ level=7
 needs_ground=1
 climates=mediterran
 BackImage[0][0][0][0][0][0-4]=images/res/medi/07_E0_01.<$0>.1
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,50,0
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,50,0
 ---
 obj=building
 name=res_cl2_E0_03_07
@@ -100,7 +100,7 @@ level=7
 needs_ground=1
 climates=mediterran
 BackImage[0][0][0][0][0][0-4]=images/res/medi/07_E0_02.<$0>.0
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,70,7
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,70,7
 ---
 obj=building
 name=res_cl2_E0_04_07
@@ -112,7 +112,7 @@ level=7
 needs_ground=1
 climates=mediterran
 BackImage[0][0][0][0][0][0-4]=images/res/medi/07_E0_02.<$0>.1
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,70,7
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,70,7
 ---
 #################################################################################
 #									 Level 9									#

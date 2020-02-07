@@ -19,12 +19,12 @@ Chance=20
 level=3
 needs_ground=0
 climates=tundra
-BackImage[0-3][0][0][0][0][0-4]=./images/com/easteur/03_E0_01.<$0>.<$1/4>
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,-4
-FrontImage[1][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,7
-FrontImage[2][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,32,-13
-FrontImage[3][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,34,20
-FrontImage[0-3][0][0][0][0][0-3]=./images/com/easteur/03_E0_01fi.<$0>.<$1>
+BackImage[0-3][0][0][0][0][0-4]=images/com/easteur/03_E0_01.<$0>.<$1/4>
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,26,-4
+FrontImage[1][0][0][0][0-2][4]=images/smoke_l.0.<$0>,26,7
+FrontImage[2][0][0][0][0-2][4]=images/smoke_l.0.<$0>,32,-13
+FrontImage[3][0][0][0][0-2][4]=images/smoke_l.0.<$0>,34,20
+FrontImage[0-3][0][0][0][0][0-3]=images/com/easteur/03_E0_01fi.<$0>.<$1>
 ---
 obj=building
 name=com_cl4_E0_02_03
@@ -36,12 +36,12 @@ Chance=20
 level=3
 needs_ground=0
 climates=tundra
-BackImage[0-3][0][0][0][0][0-4]=./images/com/easteur/03_E0_01.<$0>.<$1/4+2>
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,-4
-FrontImage[1][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,7
-FrontImage[2][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,32,-13
-FrontImage[3][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,34,20
-FrontImage[0-3][0][0][0][0][0-3]=./images/com/easteur/03_E0_01fi.<$0>.<$1>
+BackImage[0-3][0][0][0][0][0-4]=images/com/easteur/03_E0_01.<$0>.<$1/4+2>
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,26,-4
+FrontImage[1][0][0][0][0-2][4]=images/smoke_l.0.<$0>,26,7
+FrontImage[2][0][0][0][0-2][4]=images/smoke_l.0.<$0>,32,-13
+FrontImage[3][0][0][0][0-2][4]=images/smoke_l.0.<$0>,34,20
+FrontImage[0-3][0][0][0][0][0-3]=images/com/easteur/03_E0_01fi.<$0>.<$1>
 ---
 obj=building
 name=com_cl4_E0_03_03
@@ -53,12 +53,12 @@ Chance=20
 level=3
 needs_ground=0
 climates=tundra
-BackImage[0-3][0][0][0][0][0-4]=./images/com/easteur/03_E0_01.<$0>.<$1/4+4>
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,-4
-FrontImage[1][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,7
-FrontImage[2][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,32,-13
-FrontImage[3][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,34,20
-FrontImage[0-3][0][0][0][0][0-3]=./images/com/easteur/03_E0_01fi.<$0>.<$1>
+BackImage[0-3][0][0][0][0][0-4]=images/com/easteur/03_E0_01.<$0>.<$1/4+4>
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,26,-4
+FrontImage[1][0][0][0][0-2][4]=images/smoke_l.0.<$0>,26,7
+FrontImage[2][0][0][0][0-2][4]=images/smoke_l.0.<$0>,32,-13
+FrontImage[3][0][0][0][0-2][4]=images/smoke_l.0.<$0>,34,20
+FrontImage[0-3][0][0][0][0][0-3]=images/com/easteur/03_E0_01fi.<$0>.<$1>
 ---
 obj=building
 name=com_cl4_E0_04_03
@@ -70,12 +70,12 @@ Chance=20
 level=3
 needs_ground=0
 climates=tundra
-BackImage[0-3][0][0][0][0][0-4]=./images/com/easteur/03_E0_01.<$0>.<$1/4+6>
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,-4
-FrontImage[1][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,26,7
-FrontImage[2][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,32,-13
-FrontImage[3][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,34,20
-FrontImage[0-3][0][0][0][0][0-3]=./images/com/easteur/03_E0_01fi.<$0>.<$1>
+BackImage[0-3][0][0][0][0][0-4]=images/com/easteur/03_E0_01.<$0>.<$1/4+6>
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,26,-4
+FrontImage[1][0][0][0][0-2][4]=images/smoke_l.0.<$0>,26,7
+FrontImage[2][0][0][0][0-2][4]=images/smoke_l.0.<$0>,32,-13
+FrontImage[3][0][0][0][0-2][4]=images/smoke_l.0.<$0>,34,20
+FrontImage[0-3][0][0][0][0][0-3]=images/com/easteur/03_E0_01fi.<$0>.<$1>
 ---
 obj=building
 name=com_cl4_E3_01_03
@@ -87,10 +87,10 @@ Level=3
 intro_year=1950
 climates=tundra
 animation_time=900
-BackImage[0][0][0][0][0][0-4]=./images/com/03_E3_01.1.<$0>
-FrontImage[0][0][0][0][0-6][0-4]=./images/com/03_E3_01.0.<$0>
-FrontImage[0][0][0][0][7][0-4]=./images/com/03_E3_01.0.6
-FrontImage[0][0][0][0][8][0-4]=./images/com/03_E3_01.0.0
+BackImage[0][0][0][0][0][0-4]=images/com/03_E3_01.1.<$0>
+FrontImage[0][0][0][0][0-6][0-4]=images/com/03_E3_01.0.<$0>
+FrontImage[0][0][0][0][7][0-4]=images/com/03_E3_01.0.6
+FrontImage[0][0][0][0][8][0-4]=images/com/03_E3_01.0.0
 ---
 obj=building
 name=com_cl4_E3_02_03
@@ -102,10 +102,10 @@ Level=3
 intro_year=1950
 climates=tundra
 animation_time=900
-BackImage[0][0][0][0][0][0-4]=./images/com/03_E3_01.2.<$0>
-FrontImage[0][0][0][0][0-6][0-4]=./images/com/03_E3_01.0.<$0>
-FrontImage[0][0][0][0][7][0-4]=./images/com/03_E3_01.0.6
-FrontImage[0][0][0][0][8][0-4]=./images/com/03_E3_01.0.0
+BackImage[0][0][0][0][0][0-4]=images/com/03_E3_01.2.<$0>
+FrontImage[0][0][0][0][0-6][0-4]=images/com/03_E3_01.0.<$0>
+FrontImage[0][0][0][0][7][0-4]=images/com/03_E3_01.0.6
+FrontImage[0][0][0][0][8][0-4]=images/com/03_E3_01.0.0
 ---
 #################################################################################
 #									 Level 5									#
@@ -122,11 +122,11 @@ Chance=20
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0-3][0][0][0][0][0-1]=./images/com/easteur/05_E0_01.<$0>.<$1>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,26,-4
-FrontImage[1][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,26,7
-FrontImage[2][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,32,-13
-FrontImage[3][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,34,20
+BackImage[0-3][0][0][0][0][0-1]=images/com/easteur/05_E0_01.<$0>.<$1>
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,26,-4
+FrontImage[1][0][0][0][0-2][1]=images/smoke_l.0.<$0>,26,7
+FrontImage[2][0][0][0][0-2][1]=images/smoke_l.0.<$0>,32,-13
+FrontImage[3][0][0][0][0-2][1]=images/smoke_l.0.<$0>,34,20
 ---
 obj=building
 name=com_cl4_E0_02_05
@@ -139,11 +139,11 @@ Chance=20
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0-3][0][0][0][0][0-1]=./images/com/easteur/05_E0_01.<$0>.<$1+2>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,26,-4
-FrontImage[1][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,26,7
-FrontImage[2][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,32,-13
-FrontImage[3][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,34,20
+BackImage[0-3][0][0][0][0][0-1]=images/com/easteur/05_E0_01.<$0>.<$1+2>
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,26,-4
+FrontImage[1][0][0][0][0-2][1]=images/smoke_l.0.<$0>,26,7
+FrontImage[2][0][0][0][0-2][1]=images/smoke_l.0.<$0>,32,-13
+FrontImage[3][0][0][0][0-2][1]=images/smoke_l.0.<$0>,34,20
 ---
 obj=building
 name=com_cl4_E0_03_05
@@ -156,11 +156,11 @@ Chance=20
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0-3][0][0][0][0][0-1]=./images/com/easteur/05_E0_01.<$0>.<$1+4>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,26,-4
-FrontImage[1][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,26,7
-FrontImage[2][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,32,-13
-FrontImage[3][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,34,20
+BackImage[0-3][0][0][0][0][0-1]=images/com/easteur/05_E0_01.<$0>.<$1+4>
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,26,-4
+FrontImage[1][0][0][0][0-2][1]=images/smoke_l.0.<$0>,26,7
+FrontImage[2][0][0][0][0-2][1]=images/smoke_l.0.<$0>,32,-13
+FrontImage[3][0][0][0][0-2][1]=images/smoke_l.0.<$0>,34,20
 ---
 obj=building
 name=com_cl4_E0_04_05
@@ -173,11 +173,11 @@ Chance=20
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0-3][0][0][0][0][0-1]=./images/com/easteur/05_E0_01.<$0>.<$1+6>
-FrontImage[0][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,26,-4
-FrontImage[1][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,26,7
-FrontImage[2][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,32,-13
-FrontImage[3][0][0][0][0-2][1]=./images/smoke_l.0.<$0>,34,20
+BackImage[0-3][0][0][0][0][0-1]=images/com/easteur/05_E0_01.<$0>.<$1+6>
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,26,-4
+FrontImage[1][0][0][0][0-2][1]=images/smoke_l.0.<$0>,26,7
+FrontImage[2][0][0][0][0-2][1]=images/smoke_l.0.<$0>,32,-13
+FrontImage[3][0][0][0][0-2][1]=images/smoke_l.0.<$0>,34,20
 ---
 obj=building
 name=com_cl4_E5_01_05
@@ -206,8 +206,8 @@ climates=tundra
 Level=7
 chance=30
 needs_ground=0
-BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E0_01.<$0>.0
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,14,5
+BackImage[0][0][0][0][0][0-4]=images/com/easteur/07_E0_01.<$0>.0
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,14,5
 ---
 obj=building
 name=com_cl4_E0_02_07
@@ -220,8 +220,8 @@ climates=tundra
 Level=7
 chance=30
 needs_ground=0
-BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E0_01.<$0>.1
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,14,5
+BackImage[0][0][0][0][0][0-4]=images/com/easteur/07_E0_01.<$0>.1
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,14,5
 ---
 obj=building
 name=com_cl4_E0_03_07
@@ -234,8 +234,8 @@ climates=tundra
 Level=7
 chance=40
 needs_ground=0
-BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E0_01.<$0>.2
-FrontImage[0][0][0][0][0-2][4]=./images/smoke_l.0.<$0>,14,5
+BackImage[0][0][0][0][0][0-4]=images/com/easteur/07_E0_01.<$0>.2
+FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,14,5
 ---
 obj=building
 name=com_cl4_E2_01_07
@@ -249,8 +249,8 @@ Level=7
 chance=30
 needs_ground=0
 dims=1,1,4
-BackImage[0-3][0][0][0][0][0-1]=./images/com/easteur/07_E2_01.<$1>.4
-FrontImage[0-3][0][0][0][0][0-1]=./images/com/easteur/07_E2_01.<$1>.<$0>,<$0*5>,0
+BackImage[0-3][0][0][0][0][0-1]=images/com/easteur/07_E2_01.<$1>.4
+FrontImage[0-3][0][0][0][0][0-1]=images/com/easteur/07_E2_01.<$1>.<$0>,<$0*5>,0
 ---
 obj=building
 name=com_cl4_E5_01_07
@@ -263,7 +263,7 @@ climates=tundra
 Level=7
 chance=40
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/07_E5_01.0.<$0>
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/07_E5_01.0.<$0>
 ---
 obj=building
 name=com_cl4_E5_02_07
@@ -275,7 +275,7 @@ climates=tundra
 Level=7
 chance=30
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/07_E5_01.1.<$0>
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/07_E5_01.1.<$0>
 ---
 obj=building
 name=com_cl4_E5_03_07
@@ -287,7 +287,7 @@ climates=tundra
 Level=7
 chance=20
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/07_E5_01.2.<$0>
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/07_E5_01.2.<$0>
 ---
 obj=building
 name=com_cl4_E5_04_07
@@ -299,7 +299,7 @@ climates=tundra
 Level=7
 chance=10
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/07_E5_01.3.<$0>
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/07_E5_01.3.<$0>
 ---
 obj=building
 name=com_cl4_E5_05_07
@@ -311,7 +311,7 @@ climates=tundra
 Level=7
 chance=40
 needs_ground=0
-BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E5_02.0.<$0>
+BackImage[0][0][0][0][0][0-4]=images/com/easteur/07_E5_02.0.<$0>
 ---
 obj=building
 name=com_cl4_E5_06_07
@@ -324,7 +324,7 @@ climates=tundra
 Level=7
 chance=30
 needs_ground=0
-BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E5_02.1.<$0>
+BackImage[0][0][0][0][0][0-4]=images/com/easteur/07_E5_02.1.<$0>
 ---
 obj=building
 name=com_cl4_E5_07_07
@@ -336,7 +336,7 @@ climates=tundra
 Level=7
 chance=20
 needs_ground=0
-BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E5_02.2.<$0>
+BackImage[0][0][0][0][0][0-4]=images/com/easteur/07_E5_02.2.<$0>
 ---
 obj=building
 name=com_cl4_E5_08_07
@@ -348,7 +348,7 @@ climates=tundra
 Level=7
 chance=10
 needs_ground=0
-BackImage[0][0][0][0][0][0-4]=./images/com/easteur/07_E5_02.3.<$0>
+BackImage[0][0][0][0][0][0-4]=images/com/easteur/07_E5_02.3.<$0>
 ---
 #################################################################################
 #									 Level 9									#
@@ -364,7 +364,7 @@ climates=tundra
 Level=9
 chance=40
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E4_01.0.<$0>
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E4_01.0.<$0>
 ---
 obj=building
 name=com_cl4_E4_02_09
@@ -377,7 +377,7 @@ climates=tundra
 Level=9
 chance=30
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E4_01.1.<$0>
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E4_01.1.<$0>
 ---
 obj=building
 name=com_cl4_E4_03_09
@@ -390,7 +390,7 @@ climates=tundra
 Level=9
 chance=20
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E4_01.2.<$0>
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E4_01.2.<$0>
 ---
 obj=building
 name=com_cl4_E4_04_09
@@ -403,7 +403,7 @@ climates=tundra
 Level=9
 chance=10
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E4_01.3.<$0>
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E4_01.3.<$0>
 ---
 obj=building
 name=com_cl4_E5_01_09
@@ -416,7 +416,7 @@ climates=tundra
 Level=9
 chance=40
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E5_01.<$0>.0
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E5_01.<$0>.0
 ---
 obj=building
 name=com_cl4_E5_02_09
@@ -429,7 +429,7 @@ climates=tundra
 Level=9
 chance=30
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E5_01.<$0>.1
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E5_01.<$0>.1
 ---
 obj=building
 name=com_cl4_E5_03_09
@@ -442,7 +442,7 @@ climates=tundra
 Level=9
 chance=20
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E5_01.<$0>.2
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E5_01.<$0>.2
 ---
 obj=building
 name=com_cl4_E5_04_09
@@ -455,7 +455,7 @@ climates=tundra
 Level=9
 chance=10
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E5_01.<$0>.3
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E5_01.<$0>.3
 ---
 obj=building
 name=com_cl4_E5_05_09
@@ -467,7 +467,7 @@ climates=tundra
 Level=9
 chance=40
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E5_02.<$0>.0
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E5_02.<$0>.0
 ---
 obj=building
 name=com_cl4_E5_06_09
@@ -479,7 +479,7 @@ climates=tundra
 Level=9
 chance=30
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E5_02.<$0>.1
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E5_02.<$0>.1
 ---
 obj=building
 name=com_cl4_E5_07_09
@@ -491,7 +491,7 @@ climates=tundra
 Level=9
 chance=20
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E5_02.<$0>.2
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E5_02.<$0>.2
 ---
 obj=building
 name=com_cl4_E5_08_09
@@ -503,7 +503,7 @@ climates=tundra
 Level=9
 chance=10
 needs_ground=0
-BackImage[0][0][0][0][0][0-1]=./images/com/easteur/09_E5_02.<$0>.3
+BackImage[0][0][0][0][0][0-1]=images/com/easteur/09_E5_02.<$0>.3
 ---
 #################################################################################
 #									 Level 12									#
@@ -664,7 +664,7 @@ climates=tundra
 Level=12
 chance=40
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/12_E5_02.<1-$0+$1*2>.0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/12_E5_02.<1-$0+$1*2>.0
 ---
 obj=building
 name=com_cl4_E5_11_12
@@ -676,7 +676,7 @@ climates=tundra
 Level=12
 chance=30
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/12_E5_02.<1-$0+$1*2>.1
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/12_E5_02.<1-$0+$1*2>.1
 ---
 obj=building
 name=com_cl4_E5_12_12
@@ -688,7 +688,7 @@ climates=tundra
 Level=12
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/12_E5_02.<1-$0+$1*2>.2
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/12_E5_02.<1-$0+$1*2>.2
 ---
 obj=building
 name=com_cl4_E5_13_12
@@ -700,7 +700,7 @@ climates=tundra
 Level=12
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/12_E5_02.<1-$0+$1*2>.3
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/12_E5_02.<1-$0+$1*2>.3
 ---
 Obj=building
 Name=com_cl4_E6_01_12
@@ -729,7 +729,7 @@ climates=tundra
 Level=15
 chance=40
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/15_E3_01.<1-$0+$1*2>.0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/15_E3_01.<1-$0+$1*2>.0
 ---
 Obj=building
 Name=com_cl4_E3_02_15
@@ -742,7 +742,7 @@ climates=tundra
 Level=15
 chance=30
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/15_E3_01.<1-$0+$1*2>.1
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/15_E3_01.<1-$0+$1*2>.1
 ---
 Obj=building
 Name=com_cl4_E3_03_15
@@ -755,7 +755,7 @@ climates=tundra
 Level=15
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/15_E3_01.<1-$0+$1*2>.2
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/15_E3_01.<1-$0+$1*2>.2
 ---
 Obj=building
 Name=com_cl4_E3_04_15
@@ -768,7 +768,7 @@ climates=tundra
 Level=15
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/15_E3_01.<1-$0+$1*2>.3
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/15_E3_01.<1-$0+$1*2>.3
 ---
 
 
@@ -800,7 +800,7 @@ intro_month=1
 intro_year=1995
 Level=18
 chance=100
-BackImage[0][0][0][0-1][0][0-4]=./images/com/easteur/18_E5_01.<1-$0>.<$1>
+BackImage[0][0][0][0-1][0][0-4]=images/com/easteur/18_E5_01.<1-$0>.<$1>
 ---
 Obj=building
 Name=com_cl4_E6_01_18
@@ -827,7 +827,7 @@ climates=tundra
 Level=20
 chance=30
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E4_01.<1-$0+$1*2>.0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E4_01.<1-$0+$1*2>.0
 ---
 Obj=building
 Name=com_cl4_E4_02_20
@@ -840,7 +840,7 @@ climates=tundra
 Level=20
 chance=40
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E4_01.<1-$0+$1*2>.1
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E4_01.<1-$0+$1*2>.1
 ---
 Obj=building
 Name=com_cl4_E4_03_20
@@ -853,7 +853,7 @@ climates=tundra
 Level=20
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E4_01.<1-$0+$1*2>.2
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E4_01.<1-$0+$1*2>.2
 ---
 Obj=building
 Name=com_cl4_E4_04_20
@@ -866,7 +866,7 @@ climates=tundra
 Level=20
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E4_01.<1-$0+$1*2>.3
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E4_01.<1-$0+$1*2>.3
 ---
 Obj=building
 Name=com_cl4_E4_05_20
@@ -879,7 +879,7 @@ climates=tundra
 Level=20
 chance=40
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E4_02.<1-$0+$1*2>.0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E4_02.<1-$0+$1*2>.0
 ---
 Obj=building
 Name=com_cl4_E4_06_20
@@ -892,7 +892,7 @@ climates=tundra
 Level=20
 chance=30
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E4_02.<1-$0+$1*2>.1
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E4_02.<1-$0+$1*2>.1
 ---
 Obj=building
 Name=com_cl4_E4_07_20
@@ -905,7 +905,7 @@ climates=tundra
 Level=20
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E4_02.<1-$0+$1*2>.2
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E4_02.<1-$0+$1*2>.2
 ---
 Obj=building
 Name=com_cl4_E4_08_20
@@ -918,7 +918,7 @@ climates=tundra
 Level=20
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E4_02.<1-$0+$1*2>.3
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E4_02.<1-$0+$1*2>.3
 ---
 Obj=building
 name=com_cl4_E4_09_20
@@ -930,9 +930,9 @@ intro_year=1981
 Level=20
 chance=15
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-3]=./images/com/easteur/20_E4_03.<1-$0>.0
-BackImage[0][0][0][0-1][0][4]=./images/com/easteur/20_E4_03.<1-$0>.1
-FrontImage[0][0][0][0][0][0-4]=./images/Stadtgruen2_1.<$0>.1
+BackImage[0][0][0][0-1][0][0-3]=images/com/easteur/20_E4_03.<1-$0>.0
+BackImage[0][0][0][0-1][0][4]=images/com/easteur/20_E4_03.<1-$0>.1
+FrontImage[0][0][0][0][0][0-4]=images/Stadtgruen2_1.<$0>.1
 ---
 Obj=building
 name=com_cl4_E4_10_20
@@ -944,9 +944,9 @@ intro_year=1981
 Level=20
 chance=15
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-3]=./images/com/easteur/20_E4_03.<3-$0>.0
-BackImage[0][0][0][0-1][0][4]=./images/com/easteur/20_E4_03.<3-$0>.1
-FrontImage[0][0][0][0][0][0-4]=./images/Stadtgruen2_1.<$0>.3
+BackImage[0][0][0][0-1][0][0-3]=images/com/easteur/20_E4_03.<3-$0>.0
+BackImage[0][0][0][0-1][0][4]=images/com/easteur/20_E4_03.<3-$0>.1
+FrontImage[0][0][0][0][0][0-4]=images/Stadtgruen2_1.<$0>.3
 ---
 Obj=building
 name=com_cl4_E4_11_20
@@ -958,7 +958,7 @@ intro_year=1975
 Level=20
 chance=15
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E4_04.<1-$0>.<$1>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E4_04.<1-$0>.<$1>
 ---
 obj=building
 name=com_cl4_E5_01_20
@@ -971,7 +971,7 @@ climates=tundra
 Level=20
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E5_02.<(1-$0)+($1*(1-$0))>.0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E5_02.<(1-$0)+($1*(1-$0))>.0
 ---
 obj=building
 name=com_cl4_E5_02_20
@@ -984,7 +984,7 @@ climates=tundra
 Level=20
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E5_02.<(1-$0)+($1*(1-$0))>.1
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E5_02.<(1-$0)+($1*(1-$0))>.1
 ---
 obj=building
 name=com_cl4_E5_03_20
@@ -997,7 +997,7 @@ climates=tundra
 Level=20
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E5_02.<(1-$0)+($1*(1-$0))>.2
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E5_02.<(1-$0)+($1*(1-$0))>.2
 ---
 obj=building
 name=com_cl4_E5_04_20
@@ -1010,7 +1010,7 @@ climates=tundra
 Level=20
 chance=5
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E5_02.<(1-$0)+($1*(1-$0))>.3
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E5_02.<(1-$0)+($1*(1-$0))>.3
 ---
 obj=building
 name=com_cl4_E5_05_20
@@ -1023,7 +1023,7 @@ climates=tundra
 Level=20
 chance=5
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/20_E5_02.<(1-$0)+($1*(1-$0))>.4
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/20_E5_02.<(1-$0)+($1*(1-$0))>.4
 ---
 Obj=building
 Name=com_cl4_E5_06_20
@@ -1038,7 +1038,7 @@ climates=tundra
 Level=20
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/30_E5_01.<2+$0>.<$1>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/30_E5_01.<2+$0>.<$1>
 ---
 Obj=building
 Name=com_cl4_E5_07_20
@@ -1122,7 +1122,7 @@ climates=tundra
 Level=23
 chance=40
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E3_01.<1+$0>.<$1>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E3_01.<1+$0>.<$1>
 ---
 obj=building
 name=com_cl4_E3_02_23
@@ -1137,7 +1137,7 @@ climates=tundra
 Level=23
 chance=30
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E3_01.<1+$0>.<$1+2>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E3_01.<1+$0>.<$1+2>
 ---
 obj=building
 name=com_cl4_E3_03_23
@@ -1152,7 +1152,7 @@ climates=tundra
 Level=23
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E3_01.<1+$0>.<$1+4>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E3_01.<1+$0>.<$1+4>
 ---
 obj=building
 name=com_cl4_E3_04_23
@@ -1167,7 +1167,7 @@ climates=tundra
 Level=23
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E3_01.<1+$0>.<$1+6>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E3_01.<1+$0>.<$1+6>
 ---
 Obj=building
 Name=com_cl4_E3_05_23
@@ -1180,7 +1180,7 @@ climates=tundra
 Level=23
 chance=30
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E3_01.<1-$0+$1*2>.0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E3_01.<1-$0+$1*2>.0
 ---
 Obj=building
 Name=com_cl4_E3_06_23
@@ -1193,7 +1193,7 @@ climates=tundra
 Level=23
 chance=40
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E3_01.<1-$0+$1*2>.1
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E3_01.<1-$0+$1*2>.1
 ---
 Obj=building
 Name=com_cl4_E3_07_23
@@ -1206,7 +1206,7 @@ climates=tundra
 Level=23
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E3_01.<1-$0+$1*2>.2
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E3_01.<1-$0+$1*2>.2
 ---
 Obj=building
 Name=com_cl4_E3_08_23
@@ -1219,7 +1219,7 @@ climates=tundra
 Level=23
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E3_01.<1-$0+$1*2>.3
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E3_01.<1-$0+$1*2>.3
 ---
 Obj=building
 Name=com_cl4_E3_09_23
@@ -1231,7 +1231,7 @@ climates=tundra
 Level=23
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E3_02.<1-$0+$1*2>.0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E3_02.<1-$0+$1*2>.0
 ---
 Obj=building
 Name=com_cl4_E3_10_23
@@ -1243,7 +1243,7 @@ climates=tundra
 Level=23
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E3_02.<1-$0+$1*2>.1
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E3_02.<1-$0+$1*2>.1
 ---
 Obj=building
 Name=com_cl4_E3_11_23
@@ -1255,7 +1255,7 @@ climates=tundra
 Level=23
 chance=5
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E3_02.<1-$0+$1*2>.2
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E3_02.<1-$0+$1*2>.2
 ---
 Obj=building
 Name=com_cl4_E3_12_23
@@ -1267,7 +1267,7 @@ climates=tundra
 Level=23
 chance=5
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E3_02.<1-$0+$1*2>.3
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E3_02.<1-$0+$1*2>.3
 ---
 obj=building
 name=com_cl4_E4_01_23
@@ -1280,7 +1280,7 @@ climates=tundra
 Level=23
 chance=50
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E4_02.<1-$0>.<$1>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E4_02.<1-$0>.<$1>
 ---
 Obj=building
 Name=com_cl4_E4_02_23
@@ -1293,7 +1293,7 @@ climates=tundra
 Level=23
 chance=30
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E4_01.<1-$0+$1*2>.0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E4_01.<1-$0+$1*2>.0
 ---
 Obj=building
 Name=com_cl4_E4_03_23
@@ -1306,7 +1306,7 @@ climates=tundra
 Level=23
 chance=40
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E4_01.<1-$0+$1*2>.1
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E4_01.<1-$0+$1*2>.1
 ---
 Obj=building
 Name=com_cl4_E4_04_23
@@ -1319,7 +1319,7 @@ climates=tundra
 Level=23
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E4_01.<1-$0+$1*2>.2
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E4_01.<1-$0+$1*2>.2
 ---
 Obj=building
 Name=com_cl4_E4_05_23
@@ -1332,7 +1332,7 @@ climates=tundra
 Level=23
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/23_E4_01.<1-$0+$1*2>.3
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/23_E4_01.<1-$0+$1*2>.3
 ---
 Obj=building
 Name=com_cl4_E4_06_23
@@ -1365,7 +1365,7 @@ climates=tundra
 Level=27
 chance=40
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E3_01.<1-$0>.<$1>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E3_01.<1-$0>.<$1>
 ---
 obj=building
 name=com_cl4_E3_02_27
@@ -1380,7 +1380,7 @@ climates=tundra
 Level=27
 chance=30
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E3_01.<1-$0>.<$1+2>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E3_01.<1-$0>.<$1+2>
 ---
 obj=building
 name=com_cl4_E3_03_27
@@ -1395,7 +1395,7 @@ climates=tundra
 Level=27
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E3_01.<1-$0>.<$1+4>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E3_01.<1-$0>.<$1+4>
 ---
 obj=building
 name=com_cl4_E3_04_27
@@ -1410,7 +1410,7 @@ climates=tundra
 Level=27
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E3_01.<1-$0>.<$1+6>
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E3_01.<1-$0>.<$1+6>
 ---
 obj=building
 name=com_cl4_E4_01_27
@@ -1423,7 +1423,7 @@ climates=tundra
 Level=27
 chance=100
 needs_ground=0
-BackImage[0][0][0][0-2][0][0-1]=./images/com/easteur/27_E4_01.<2-$0>.<$1>
+BackImage[0][0][0][0-2][0][0-1]=images/com/easteur/27_E4_01.<2-$0>.<$1>
 ---
 obj=building
 name=com_cl4_E4_02_27
@@ -1436,7 +1436,7 @@ climates=tundra
 Level=27
 chance=80
 needs_ground=0
-BackImage[0][0][0][0-2][0][0-1]=./images/com/easteur/27_E4_02.<2-$0>.<$1>
+BackImage[0][0][0][0-2][0][0-1]=images/com/easteur/27_E4_02.<2-$0>.<$1>
 ---
 Obj=building
 Name=com_cl4_E4_03_27
@@ -1449,7 +1449,7 @@ climates=tundra
 Level=27
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E4_03.<1-$0+$1*2>.0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E4_03.<1-$0+$1*2>.0
 ---
 Obj=building
 Name=com_cl4_E4_04_27
@@ -1462,7 +1462,7 @@ climates=tundra
 Level=27
 chance=40
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E4_03.<1-$0+$1*2>.1
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E4_03.<1-$0+$1*2>.1
 ---
 Obj=building
 Name=com_cl4_E4_05_27
@@ -1475,7 +1475,7 @@ climates=tundra
 Level=27
 chance=30
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E4_03.<1-$0+$1*2>.2
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E4_03.<1-$0+$1*2>.2
 ---
 Obj=building
 Name=com_cl4_E4_06_27
@@ -1488,7 +1488,7 @@ climates=tundra
 Level=27
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E4_03.<1-$0+$1*2>.3
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E4_03.<1-$0+$1*2>.3
 ---
 Obj=building
 Name=com_cl4_E5_01_27
@@ -1501,11 +1501,11 @@ intro_year=1990
 Level=27
 chance=100
 needs_ground=0
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/27_E5_01.<1-$0>.<$1>
-FrontImage[0][0][0][0][0-74][0-1]=./images/com/easteur/27_E5_01.1.2,0,<-$0>
-FrontImage[0][0][0][0][75-99][0-1]=./images/com/easteur/27_E5_01.1.2,0,-74
-FrontImage[0][0][0][0][100-174][0-1]=./images/com/easteur/27_E5_01.1.2,0,<$0-174>
-FrontImage[0][0][0][0][175-199][0-1]=./images/com/easteur/27_E5_01.1.2,0,0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/27_E5_01.<1-$0>.<$1>
+FrontImage[0][0][0][0][0-74][0-1]=images/com/easteur/27_E5_01.1.2,0,<-$0>
+FrontImage[0][0][0][0][75-99][0-1]=images/com/easteur/27_E5_01.1.2,0,-74
+FrontImage[0][0][0][0][100-174][0-1]=images/com/easteur/27_E5_01.1.2,0,<$0-174>
+FrontImage[0][0][0][0][175-199][0-1]=images/com/easteur/27_E5_01.1.2,0,0
 ---
 #################################################################################
 #									 Level 30									#
@@ -1528,9 +1528,9 @@ chance=30
 needs_ground=0
 climates=tundra
 animation_time=900
-BackImage[0][0][0][0-1][0][0-1]=./images/com/easteur/30_E4_01.<1-$0>.0
-BackImage[0][0][0][2-3][0-1][0-1]=./images/com/easteur/30_E4_01.<3-$0+$2*2>.<1+$1>
-FrontImage[0][0][0][0][0][0]=./images/com/easteur/30_E4_01.2.0
+BackImage[0][0][0][0-1][0][0-1]=images/com/easteur/30_E4_01.<1-$0>.0
+BackImage[0][0][0][2-3][0-1][0-1]=images/com/easteur/30_E4_01.<3-$0+$2*2>.<1+$1>
+FrontImage[0][0][0][0][0][0]=images/com/easteur/30_E4_01.2.0
 ---
 Obj=building
 Name=com_cl4_E4_02_30
@@ -1543,7 +1543,7 @@ climates=tundra
 Level=30
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-2][0][0-1]=./images/com/easteur/30_E4_02.<2-$0+$1*3>.0
+BackImage[0][0][0][0-2][0][0-1]=images/com/easteur/30_E4_02.<2-$0+$1*3>.0
 ---
 Obj=building
 Name=com_cl4_E4_03_30
@@ -1556,7 +1556,7 @@ climates=tundra
 Level=30
 chance=40
 needs_ground=0
-BackImage[0][0][0][0-2][0][0-1]=./images/com/easteur/30_E4_02.<2-$0+$1*3>.1
+BackImage[0][0][0][0-2][0][0-1]=images/com/easteur/30_E4_02.<2-$0+$1*3>.1
 ---
 Obj=building
 Name=com_cl4_E4_04_30
@@ -1569,7 +1569,7 @@ climates=tundra
 Level=30
 chance=30
 needs_ground=0
-BackImage[0][0][0][0-2][0][0-1]=./images/com/easteur/30_E4_02.<2-$0+$1*3>.2
+BackImage[0][0][0][0-2][0][0-1]=images/com/easteur/30_E4_02.<2-$0+$1*3>.2
 ---
 Obj=building
 Name=com_cl4_E4_05_30
@@ -1582,7 +1582,7 @@ climates=tundra
 Level=30
 chance=10
 needs_ground=0
-BackImage[0][0][0][0-2][0][0-1]=./images/com/easteur/30_E4_02.<2-$0+$1*3>.3
+BackImage[0][0][0][0-2][0][0-1]=images/com/easteur/30_E4_02.<2-$0+$1*3>.3
 ---
 Obj=building
 name=com_cl4_E5_01_30
@@ -1595,8 +1595,8 @@ intro_year=1990
 Level=30
 chance=100
 needs_ground=1
-BackImage[0][0][0][1-2][0][0-4]=./images/com/easteur/30_E5_02.<2-$0>.0
-BackImage[0][0][0][0][0][0-4]=./images/com/easteur/30_E5_02.<2+$0>.0
+BackImage[0][0][0][1-2][0][0-4]=images/com/easteur/30_E5_02.<2-$0>.0
+BackImage[0][0][0][0][0][0-4]=images/com/easteur/30_E5_02.<2+$0>.0
 ---
 Obj=building
 Name=com_cl4_E5_06_30
@@ -1611,5 +1611,5 @@ climates=tundra
 Level=30
 chance=20
 needs_ground=0
-BackImage[0][0][0][0-2][0][0-1]=./images/com/easteur/30_E5_01.<2-$0>.<$1>
+BackImage[0][0][0][0-2][0][0-1]=images/com/easteur/30_E5_01.<2-$0>.<$1>
 ---
