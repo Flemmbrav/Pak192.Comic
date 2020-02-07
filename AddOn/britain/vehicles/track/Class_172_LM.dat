@@ -1,6 +1,6 @@
 obj=vehicle
 name=LM_Class_172-1
-copyright=Flemmbrav/Taurus
+copyright=Flemmbrav&Taurus
 intro_year=2010
 intro_month=0
 retire_year=2020
@@ -36,7 +36,7 @@ EmptyImage[NE]=image/LM_Class_172.1.7
 -----------------------------
 obj=vehicle
 name=LM_Class_172-2
-copyright=Flemmbrav/Taurus
+copyright=Flemmbrav&Taurus
 intro_year=2010
 intro_month=0
 retire_year=2020
@@ -69,7 +69,7 @@ EmptyImage[NE]=image/LM_Class_172.0.5
 -----------------------------
 obj=vehicle
 name=LM_Class_172-3
-copyright=Flemmbrav/Taurus
+copyright=Flemmbrav&Taurus
 intro_year=2010
 intro_month=0
 retire_year=2020
