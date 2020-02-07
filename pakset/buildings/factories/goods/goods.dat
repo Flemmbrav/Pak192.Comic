@@ -1,9 +1,10 @@
+##	The good "None" describes the costs of power. unit is kW technicly
 obj=good
 name=None
 metric=
 catg=0
-value=0
-speed_bonus=0
+value=10
+speed_bonus=5
 weight_per_unit=0
 -----------------
 obj=good
@@ -69,20 +70,20 @@ speed_bonus=3
 -----------------
 obj=good
 name=glass
-#catg=0
-catg=1
+catg=0
+##catg=1
 metric=tons
 weight_per_unit=1000
 value=200
 speed_bonus=0
 -----------------
-#obj=good
-#name=cement
-#catg=0
-#metric=tons
-#weight_per_unit=1000
-#value=200
-#speed_bonus=0
+##obj=good
+##name=cement
+##catg=0
+##metric=tons
+##weight_per_unit=1000
+##value=200
+##speed_bonus=0
 -----------------
 obj=good
 name=patients
@@ -101,6 +102,15 @@ value=5000
 speed_bonus=0
 -----------------
 # cat 1: piece good ###########################################
+-----------------
+#obj=good
+#name=catg1
+#catg=1
+#metric=pallets
+#weight_per_unit=200
+#value=270
+#speed_bonus=4
+-----------------
 obj=good
 name=flour
 catg=1
@@ -295,6 +305,15 @@ value=240
 speed_bonus=0
 -----------------
 # cat 2: bulk_good ############################################
+-----------------
+#obj=good
+#name=catg2
+#catg=2
+#metric=tons
+#weight_per_unit=1000
+#value=200
+#speed_bonus=0
+-----------------
 obj=good
 name=coal
 catg=2
@@ -335,13 +354,13 @@ weight_per_unit=1000
 value=200
 speed_bonus=0
 -----------------
-#obj=good
-#name=gravel
-#catg=2
-#metric=tons
-#weight_per_unit=1000
-#value=200
-#speed_bonus=0
+##obj=good
+##name=gravel
+##catg=2
+##metric=tons
+##weight_per_unit=1000
+##value=200
+##speed_bonus=0
 -----------------
 obj=good
 name=salt
@@ -359,8 +378,16 @@ weight_per_unit=1000
 value=200
 speed_bonus=0
 -----------------
-
 # cat 3: mineral_oil ##########################################
+-----------------
+#obj=good
+#name=catg3
+#catg=3
+#metric=m3
+#weight_per_unit=1000
+#value=190
+#speed_bonus=0
+-----------------
 obj=good
 name=oil
 metric=m3
@@ -418,8 +445,16 @@ value=270
 speed_bonus=0
 weight_per_unit=850
 -----------------
-
 # cat 4: frozen_goods #########################################
+-----------------
+#obj=good
+#name=catg4
+#catg=4
+#metric=pallets
+#weight_per_unit=100
+#value=260
+#speed_bonus=5
+-----------------
 obj=good
 name=dairy
 catg=4
@@ -445,6 +480,15 @@ value=290
 speed_bonus=5
 ------------------
 # cat 5: prisoners ############################################
+-----------------
+#obj=good
+#name=catg5
+#catg=5
+#metric=
+#weight_per_unit=180
+#value=2500
+#speed_bonus=5
+-----------------
 obj=good
 name=suspects
 catg=5
@@ -462,6 +506,15 @@ value=4000
 speed_bonus=5
 ------------------
 # cat 6: wood #################################################
+-----------------
+#obj=good
+#name=catg6
+#catg=6
+#metric=tons
+#weight_per_unit=500
+#value=180
+#speed_bonus=5
+-----------------
 obj=good
 name=logs
 catg=6
@@ -487,6 +540,15 @@ value=180
 speed_bonus=5
 ------------------
 # cat 7: pourable_goods #######################################
+-----------------
+#obj=good
+#name=catg7
+#catg=7
+#metric=tons
+#weight_per_unit=1000
+#value=225
+#speed_bonus=1
+-----------------
 obj=good
 name=grain
 catg=7
@@ -512,6 +574,15 @@ value=250
 speed_bonus=5
 -----------------
 # cat 8: valuables ############################################
+-----------------
+#obj=good
+#name=catg8
+#catg=8
+#metric=chests
+#weight_per_unit=1000
+#value=12000
+#speed_bonus=0
+-----------------
 obj=good
 name=gold
 catg=8
@@ -537,6 +608,23 @@ value=12000
 speed_bonus=0
 -----------------
 # cat 9: agricultural #########################################
+-----------------
+##obj=good
+##name=test
+##catg=9
+##metric=tons
+##weight_per_unit=1000
+##value=225
+##speed_bonus=1
+-----------------
+#obj=good
+#name=catg9
+#catg=9
+#metric=tons
+#weight_per_unit=1000
+#value=225
+#speed_bonus=1
+-----------------
 obj=good
 name=apples
 catg=9
