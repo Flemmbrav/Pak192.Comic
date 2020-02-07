@@ -133,9 +133,8 @@ jobs:
           mv makeobj ../../..
           cd ../../..
           rm -rf simutrans
-
-		-	name: Converting dat files
-			 run: bash DatConverter.sh
+    - name: Converting dat files
+      run: bash DatConverter.sh
 
     - name: Compile pak192.comic addons
       run: bash Compile_Converted_AddOn.sh
