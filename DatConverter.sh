@@ -447,7 +447,17 @@ writeobject() {
 	readgoods
 	SpeedBonusFile=`cat pakset/trunk/config/speedbonus.tab`
 
+	
+	#readallfiles 'calculated/AddOn/britain/infrastruktur/*.dat'
+	readallfiles 'calculated/AddOn/britain/vehicles/**/*.dat'
+	readallfiles 'calculated/AddOn/czech/vehicles/**/*.dat'
+	readallfiles 'calculated/AddOn/german/vehicles/**/*.dat'
+	readallfiles 'calculated/AddOn/japanese/*.dat'
+	readallfiles 'calculated/AddOn/belgian/**/*.dat'
+
 	#readallfiles 'pakset/vehicles/**/*.dat'
+
+
 	#readfile "pakset/vehicles/narrowgauge/Electric_2008_Komet.dat"
 	#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
 
