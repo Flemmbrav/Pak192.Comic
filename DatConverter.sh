@@ -33,7 +33,7 @@ trim() {
 
 	
 readgoods() {
-	echo readgoods
+	#echo readgoods
 	local GoodsFile=`cat pakset/buildings/factories/goods/goods.dat`
 	#opens a file
 	#creates a new ObjectArray
@@ -427,66 +427,29 @@ writeobject() {
 
 
 
-
-
-
-
-
-
-copyimages() {
-	echo copyimages
-	IFS='
-	'
-  for image in $1; do
-		local calculateddir=calculated/$(dirname "$image")/
-		local calculatedextendeddir=calculatedextended/$(dirname "$image")/
-						# Create folder for *.dat or delete all old dats if folder already exists
-		if [ ! -d $calculateddir ]; then
-				mkdir -p $calculateddir
-		fi
-		if [ ! -d $calculatedextendeddir ]; then
-				mkdir -p $calculatedextendeddir
-		fi
-		`cp $image calculated/$image`
-		`cp $image calculatedextended/$image`
-	done
-}
-
-
-
-
-
-
-
-
 #main
 	IFS='
 	'
 	`rm -rf calculated/`
 	`rm -rf calculatedextended/`
+	mkdir -p calculatedextended/pakset
+	mkdir -p calculated/pakset
+	mkdir -p calculatedextended/AddOn
+	mkdir -p calculated/AddOn
+	`cp -rf pakset/* calculatedextended/pakset`
+	`cp -rf pakset/* calculated/pakset`
+	`cp -rf AddOn/* calculatedextended/AddOn`
+	`cp -rf AddOn/* calculated/AddOn`
+
 	declare -A GoodsValueArray
 	declare -A GoodsSpeedBonusArray
 	declare -A GoodsWeigthArray
 	readgoods
-	#echo Alle Werte: ${GoodsValueArray[@]}
 	SpeedBonusFile=`cat pakset/trunk/config/speedbonus.tab`
-	#getincome Passagiere 10 track 1930 40
+
+	#readallfiles 'pakset/vehicles/**/*.dat'
 	#readfile "pakset/vehicles/narrowgauge/Electric_2008_Komet.dat"
 	#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
 
-
-
-
-
-
-
-#set -f
-	readallfiles 'pakset/vehicles/**/*.dat'
-	copyimages 'pakset/vehicles/**/**/*.png'
-	`cp -r pakset/trunk/* calculatedextended/pakset/trunk`
-	`cp -r pakset/trunk/* calculated/pakset/trunk`
-
-	
-#set +f
 unset IFS
 

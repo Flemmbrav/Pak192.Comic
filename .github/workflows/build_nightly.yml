@@ -105,3 +105,52 @@ jobs:
         asset_name: themes.zip
         tag: Nightly
         overwrite: true
+
+  datconverter_and_compile_pak192-comic-addons:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: install_dependencies
+      run: |
+          sudo apt-get -y update
+          sudo apt-get -ym install libpng-dev
+          sudo apt-get -ym install libsdl2-dev
+          sudo apt-get -ym install libbz2-dev
+          sudo apt-get -ym install autoconf
+          svn checkout svn://servers.simutrans.org/simutrans simutrans
+    - name: setup
+      run: |
+        cd simutrans/trunk
+        autoconf
+        ./configure
+        cat config.default >>/dev/stderr
+    - name: make makeobj
+      run: |
+          cd simutrans/trunk/makeobj
+          make
+          mv makeobj ../../..
+          cd ../../..
+          rm -rf simutrans
+
+		-	name: Converting dat-files
+			 run: bash DatConverter.sh
+
+    - name: Compile pak192.comic addons
+      run: bash Compile_Converted_AddOn.sh
+
+    - name: zip converted_addons
+      run: |
+        mv compiled_converted_addons pak192.comic-nightly-addons-datconverter
+        zip -r pak192-nightly-addons-datconverter.zip pak192.comic-nightly-addons-datconverter
+
+    - name: Update Addons of Nightly Release
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./pak192-nightly-addons-datconverter.zip
+        asset_name: pak192-nightly-addons-datconverter.zip
+        tag: Nightly
+        overwrite: true
+        
