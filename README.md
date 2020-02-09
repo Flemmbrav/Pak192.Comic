@@ -46,3 +46,7 @@ The same progress has to be done to compile the addons or the theme as well. Jus
 ## Bug reports
 
 Feel free to create a issue to this repository when you encountered any technical errors.
+
+## License
+
+The content provided in this Git is published under CC-BY-SA 3.0, which is available in the `LICENSE.md`. If you want to credit the Git as a whole, or in case you can not identify the author, and only then, you may credit "pak192.comic team" as author.
