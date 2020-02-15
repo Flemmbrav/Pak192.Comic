@@ -49,9 +49,9 @@ level=7
 needs_ground=1
 climates=tropic
 clusters=10
-BackImage[0][0][0][0][0][0,3]=./images/park/tropic/park_zen.0.0
-BackImage[0][0][0][0][0][1,2]=./images/park/tropic/park_zen.1.0
-BackImage[0][0][0][0][0][4]=./images/park/tropic/park_zen.2.0
+BackImage[0][0][0][0][0][0,3]=images/park/tropic/park_zen.0.0
+BackImage[0][0][0][0][0][1,2]=images/park/tropic/park_zen.1.0
+BackImage[0][0][0][0][0][4]=images/park/tropic/park_zen.2.0
 ---
 
 
@@ -68,9 +68,9 @@ level=9
 needs_ground=1
 climates=tropic
 clusters=10
-BackImage[0][0][0][0][0][0,3]=./images/park/tropic/park_toori.0.0
-BackImage[0][0][0][0][0][1,2]=./images/park/tropic/park_toori.1.0
-BackImage[0][0][0][0][0][4]=./images/park/tropic/park_toori.2.0
+BackImage[0][0][0][0][0][0,3]=images/park/tropic/park_toori.0.0
+BackImage[0][0][0][0][0][1,2]=images/park/tropic/park_toori.1.0
+BackImage[0][0][0][0][0][4]=images/park/tropic/park_toori.2.0
 ---
 
 #################################################################################

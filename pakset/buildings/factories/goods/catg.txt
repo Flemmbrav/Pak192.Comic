@@ -16,9 +16,8 @@
 	berries (Beeren)
 	juice (Saft)
 	coka_drink (Cola)
-	textiles (Textilien)
+	textiles (Kleidung)
 	fiber (Textilfaser)
-	coka_leaves (Colablätter)
 	toys (Spielzeug)
 	vine (Wein)
 	beer (Bier)
@@ -27,12 +26,10 @@
 	honey (Honig)
 	wax (Wachs)**
 	comics (Comics)
-	paper (Papier)
 	paint (Farbe)
 	sausages (Würste)
 	ironmongery (Kleinteile)
 	lightbulbs (Glühbirnen)
-	cable (Kabel)
 	electronics (Elektrogeräte)
 2=bulk_good (Schüttgut)
 	coal (Kohle)
@@ -70,9 +67,18 @@
 	gold (Goldbarren)
 	coins (Münzen)
 	notes (Papiergeld)
-10=agricultural(Lebensmittel)
+9=agricultural(Lebensmittel)
 	apples (Äpfel)
 	hop (Hopfen)
+	coka_leaves (Colablätter)
+10=rolled_goods
+	yarn (Garn)
+	fabric (Stoff)
+	carpet** (Teppich)
+	paper (Papier)
+	cable (Kabel)
+
+
 
 * not in game yet
 glass*: not correct category yet

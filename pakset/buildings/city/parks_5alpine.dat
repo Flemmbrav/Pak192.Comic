@@ -45,7 +45,7 @@ level=5
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.0
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.0
 ---
 obj=building
 name=res_park_cl5_E0_02_05
@@ -56,7 +56,7 @@ level=5
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.1
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.1
 ---
 obj=building
 name=res_park_cl5_E0_03_05
@@ -67,7 +67,7 @@ level=5
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.2
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.2
 ---
 
 #################################################################################
@@ -83,7 +83,7 @@ level=7
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.1
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.1
 ---
 obj=building
 name=res_park_cl5_E0_02_07
@@ -94,7 +94,7 @@ level=7
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.2
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.2
 ---
 obj=building
 name=res_park_cl5_E0_03_07
@@ -105,7 +105,7 @@ level=7
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.3
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.3
 ---
 
 #################################################################################
@@ -121,7 +121,7 @@ level=9
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.2
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.2
 ---
 obj=building
 name=res_park_cl5_E0_02_09
@@ -132,7 +132,7 @@ level=9
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.3
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.3
 ---
 obj=building
 name=res_park_cl5_E0_03_09
@@ -143,7 +143,7 @@ level=9
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.4
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.4
 ---
 
 #################################################################################
@@ -159,7 +159,7 @@ level=12
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.4
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.4
 ---
 obj=building
 name=res_park_cl5_E0_02_12
@@ -170,7 +170,7 @@ level=12
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.5
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.5
 ---
 obj=building
 name=res_park_cl5_E0_03_12
@@ -181,7 +181,7 @@ level=12
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.6
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.6
 ---
 
 #################################################################################
@@ -197,7 +197,7 @@ level=15
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.6
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.6
 ---
 obj=building
 name=res_park_cl5_E0_02_15
@@ -208,7 +208,7 @@ level=15
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.7
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.7
 ---
 obj=building
 name=res_park_cl5_E0_03_15
@@ -219,7 +219,7 @@ level=15
 needs_ground=1
 climates=rocky
 clusters=10
-BackImage[0][0][0][0][0][0-4]=./images/park/alpine/parks_alpine.<$0>.8
+BackImage[0][0][0][0][0][0-4]=images/park/alpine/parks_alpine.<$0>.8
 ---
 
 #################################################################################

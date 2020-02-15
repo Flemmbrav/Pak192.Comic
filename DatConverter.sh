@@ -293,8 +293,14 @@ calculatecosts(){
 		PowerValue=$(( PowerValue / 1000 ))
 	fi
 	#calculate the runningcosts
-	local Cost=$(( Income + PowerValue ))
-	local RunningCost=$(( ( Income + PowerValue ) / 3000 ))
+	local Cost=$(( Income + 10 * PowerValue ))
+	local RunningCost=$(( Income + PowerValue ))
+	#malus for passenger trains as they usually get higher average payload
+	if [[ ${ObjectArray[freight]} == "Passagiere" ]] ;then
+		RunningCost=$(( RunningCost / 2500 ))
+	else
+		RunningCost=$(( RunningCost / 4000 ))
+	fi
 	local LoadingTime=$(( Income / 300 ))
 	if [[ $ForcingNewValues == 1 ]];then
 		echo "loading_time=$LoadingTime" >> calculated/$dat
@@ -397,6 +403,10 @@ writevehicle() {
 		local Weigth=${ObjectArray[length]}
 		Weigth=$(( 2 * Weigth ))
 		echo "weight=$Weigth" >> calculated/$dat
+	fi
+	#only write in the length if it is given
+	if [[ ! -z ${ObjectArray[length]} ]] ;then
+		echo "length=${ObjectArray[length]}" >> calculated/$dat
 	fi
 	#only write in the engine type if it is given
 	if [[ ! -z ${ObjectArray[engine_type]} ]] ;then

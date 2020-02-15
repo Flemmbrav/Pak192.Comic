@@ -21,8 +21,8 @@ Chance=20
 level=1
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind11.0.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind11.0.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind11.0.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind11.0.1
 ---
 Obj=building
 name=ind_cl4_E3_02_01
@@ -37,8 +37,8 @@ Chance=20
 level=1
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind11.1.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind11.0.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind11.1.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind11.0.1
 ---
 Obj=building
 name=ind_cl4_E3_03_01
@@ -53,8 +53,8 @@ Chance=20
 level=1
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind11.2.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind11.0.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind11.2.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind11.0.1
 ---
 Obj=building
 name=ind_cl4_E3_04_01
@@ -69,8 +69,8 @@ Chance=20
 level=1
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind11.1.1
-BackImage[0][0][0][0][0][1]=./images/ind/192ind11.0.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind11.1.1
+BackImage[0][0][0][0][0][1]=images/ind/192ind11.0.1
 ---
 Obj=building
 name=ind_cl4_E3_05_01
@@ -85,8 +85,8 @@ Chance=20
 level=1
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind11.2.1
-BackImage[0][0][0][0][0][1]=./images/ind/192ind11.0.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind11.2.1
+BackImage[0][0][0][0][0][1]=images/ind/192ind11.0.1
 ---
 
 #################################################################################
@@ -107,15 +107,15 @@ chance=20
 needs_ground=1
 climates=tundra
 dims=1,1,4
-BackImage[0][0][0][0][0][0]=./images/ind/Lager.3.0
-BackImage[1][0][0][0][0][0]=./images/ind/Lager.1.0
-BackImage[2][0][0][0][0][0]=./images/ind/Lager.2.0
-BackImage[3][0][0][0][0][0]=./images/ind/Lager.0.0
+BackImage[0][0][0][0][0][0]=images/ind/Lager.3.0
+BackImage[1][0][0][0][0][0]=images/ind/Lager.1.0
+BackImage[2][0][0][0][0][0]=images/ind/Lager.2.0
+BackImage[3][0][0][0][0][0]=images/ind/Lager.0.0
 # winter
-BackImage[0][0][0][0][0][1]=./images/ind/Lager.3.1
-BackImage[1][0][0][0][0][1]=./images/ind/Lager.1.1
-BackImage[2][0][0][0][0][1]=./images/ind/Lager.2.1
-BackImage[3][0][0][0][0][1]=./images/ind/Lager.0.1
+BackImage[0][0][0][0][0][1]=images/ind/Lager.3.1
+BackImage[1][0][0][0][0][1]=images/ind/Lager.1.1
+BackImage[2][0][0][0][0][1]=images/ind/Lager.2.1
+BackImage[3][0][0][0][0][1]=images/ind/Lager.0.1
 ---
 obj=building
 name=ind_cl4_E5_02_03
@@ -131,15 +131,15 @@ chance=20
 needs_ground=1
 climates=tundra
 dims=1,1,4
-BackImage[0][0][0][0][0][0]=./images/ind/Lager.3.2
-BackImage[1][0][0][0][0][0]=./images/ind/Lager.1.2
-BackImage[2][0][0][0][0][0]=./images/ind/Lager.2.2
-BackImage[3][0][0][0][0][0]=./images/ind/Lager.0.2
+BackImage[0][0][0][0][0][0]=images/ind/Lager.3.2
+BackImage[1][0][0][0][0][0]=images/ind/Lager.1.2
+BackImage[2][0][0][0][0][0]=images/ind/Lager.2.2
+BackImage[3][0][0][0][0][0]=images/ind/Lager.0.2
 # winter
-BackImage[0][0][0][0][0][1]=./images/ind/Lager.3.3
-BackImage[1][0][0][0][0][1]=./images/ind/Lager.1.3
-BackImage[2][0][0][0][0][1]=./images/ind/Lager.2.3
-BackImage[3][0][0][0][0][1]=./images/ind/Lager.0.3
+BackImage[0][0][0][0][0][1]=images/ind/Lager.3.3
+BackImage[1][0][0][0][0][1]=images/ind/Lager.1.3
+BackImage[2][0][0][0][0][1]=images/ind/Lager.2.3
+BackImage[3][0][0][0][0][1]=images/ind/Lager.0.3
 ---
 obj=building
 name=ind_cl4_E5_03_03
@@ -155,15 +155,15 @@ chance=20
 needs_ground=1
 climates=tundra
 dims=1,1,4
-BackImage[0][0][0][0][0][0]=./images/ind/Lager.3.4
-BackImage[1][0][0][0][0][0]=./images/ind/Lager.1.4
-BackImage[2][0][0][0][0][0]=./images/ind/Lager.2.4
-BackImage[3][0][0][0][0][0]=./images/ind/Lager.0.4
+BackImage[0][0][0][0][0][0]=images/ind/Lager.3.4
+BackImage[1][0][0][0][0][0]=images/ind/Lager.1.4
+BackImage[2][0][0][0][0][0]=images/ind/Lager.2.4
+BackImage[3][0][0][0][0][0]=images/ind/Lager.0.4
 # winter
-BackImage[0][0][0][0][0][1]=./images/ind/Lager.3.5
-BackImage[1][0][0][0][0][1]=./images/ind/Lager.1.5
-BackImage[2][0][0][0][0][1]=./images/ind/Lager.2.5
-BackImage[3][0][0][0][0][1]=./images/ind/Lager.0.5
+BackImage[0][0][0][0][0][1]=images/ind/Lager.3.5
+BackImage[1][0][0][0][0][1]=images/ind/Lager.1.5
+BackImage[2][0][0][0][0][1]=images/ind/Lager.2.5
+BackImage[3][0][0][0][0][1]=images/ind/Lager.0.5
 ---
 obj=building
 name=ind_cl4_E5_04_03
@@ -179,15 +179,15 @@ chance=20
 needs_ground=1
 climates=tundra
 dims=1,1,4
-BackImage[0][0][0][0][0][0]=./images/ind/Lager.3.6
-BackImage[1][0][0][0][0][0]=./images/ind/Lager.1.6
-BackImage[2][0][0][0][0][0]=./images/ind/Lager.2.6
-BackImage[3][0][0][0][0][0]=./images/ind/Lager.0.6
+BackImage[0][0][0][0][0][0]=images/ind/Lager.3.6
+BackImage[1][0][0][0][0][0]=images/ind/Lager.1.6
+BackImage[2][0][0][0][0][0]=images/ind/Lager.2.6
+BackImage[3][0][0][0][0][0]=images/ind/Lager.0.6
 # winter
-BackImage[0][0][0][0][0][1]=./images/ind/Lager.3.7
-BackImage[1][0][0][0][0][1]=./images/ind/Lager.1.7
-BackImage[2][0][0][0][0][1]=./images/ind/Lager.2.7
-BackImage[3][0][0][0][0][1]=./images/ind/Lager.0.7
+BackImage[0][0][0][0][0][1]=images/ind/Lager.3.7
+BackImage[1][0][0][0][0][1]=images/ind/Lager.1.7
+BackImage[2][0][0][0][0][1]=images/ind/Lager.2.7
+BackImage[3][0][0][0][0][1]=images/ind/Lager.0.7
 ---
 
 #################################################################################
@@ -207,8 +207,8 @@ Chance=10
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind04.0.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind04.0.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind04.0.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind04.0.1
 ---
 Obj=building
 name=ind_cl4_E0_02_05
@@ -223,8 +223,8 @@ Chance=30
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind04.1.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind04.1.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind04.1.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind04.1.1
 ---
 Obj=building
 name=ind_cl4_E0_03_05
@@ -239,8 +239,8 @@ Chance=60
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind04.2.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind04.2.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind04.2.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind04.2.1
 ---
 
 Obj=building
@@ -256,9 +256,9 @@ Chance=10
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind05.0.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind05.0.1
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,37,55
+BackImage[0][0][0][0][0][0]=images/ind/192ind05.0.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind05.0.1
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,37,55
 ---
 Obj=building
 name=ind_cl4_E0_05_05
@@ -273,9 +273,9 @@ Chance=30
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind05.1.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind05.1.1
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,37,55
+BackImage[0][0][0][0][0][0]=images/ind/192ind05.1.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind05.1.1
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,37,55
 ---
 Obj=building
 name=ind_cl4_E0_06_05
@@ -290,9 +290,9 @@ Chance=60
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind05.2.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind05.2.1
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,37,55
+BackImage[0][0][0][0][0][0]=images/ind/192ind05.2.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind05.2.1
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,37,55
 ---
 
 Obj=building
@@ -308,8 +308,8 @@ Chance=10
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind10.0.<$0>
-FrontImage[0][0][0][0][0][0-1]=./images/ind/192ind10.3.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind10.0.<$0>
+FrontImage[0][0][0][0][0][0-1]=images/ind/192ind10.3.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_02_05
@@ -324,8 +324,8 @@ Chance=30
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind10.1.<$0>
-FrontImage[0][0][0][0][0][0-1]=./images/ind/192ind10.3.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind10.1.<$0>
+FrontImage[0][0][0][0][0][0-1]=images/ind/192ind10.3.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_03_05
@@ -340,8 +340,8 @@ Chance=60
 level=5
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind10.2.<$0>
-FrontImage[0][0][0][0][0][0-1]=./images/ind/192ind10.3.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind10.2.<$0>
+FrontImage[0][0][0][0][0][0-1]=images/ind/192ind10.3.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_04_05
@@ -354,7 +354,7 @@ level=5
 needs_ground=0
 climates=tundra
 dims=1,1,8
-BackImage[0-7][0][0][0][0][0-1]=./images/ind/05_E3_01.<$1>.<$0>
+BackImage[0-7][0][0][0][0][0-1]=images/ind/05_E3_01.<$1>.<$0>
 ---
 
 #################################################################################
@@ -374,9 +374,9 @@ Chance=10
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind07.0.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind07.0.1
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,11,27
+BackImage[0][0][0][0][0][0]=images/ind/192ind07.0.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind07.0.1
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,11,27
 ---
 Obj=building
 name=ind_cl4_E0_02_07
@@ -391,9 +391,9 @@ Chance=30
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind07.1.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind07.1.1
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,11,27
+BackImage[0][0][0][0][0][0]=images/ind/192ind07.1.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind07.1.1
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,11,27
 ---
 Obj=building
 name=ind_cl4_E0_03_07
@@ -408,9 +408,9 @@ Chance=60
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind07.2.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind07.2.1
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,11,27
+BackImage[0][0][0][0][0][0]=images/ind/192ind07.2.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind07.2.1
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,11,27
 ---
 Obj=building
 name=ind_cl4_E0_04_07
@@ -422,7 +422,7 @@ Chance=10
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind08.0.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind08.0.<$0>
 ---
 Obj=building
 name=ind_cl4_E0_05_07
@@ -434,7 +434,7 @@ Chance=30
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind08.1.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind08.1.<$0>
 ---
 Obj=building
 name=ind_cl4_E0_06_07
@@ -446,7 +446,7 @@ Chance=60
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind08.2.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind08.2.<$0>
 ---
 Obj=building
 name=ind_cl4_E0_07_07
@@ -458,7 +458,7 @@ Chance=30
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind08.3.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind08.3.<$0>
 ---
 Obj=building
 name=ind_cl4_E0_08_07
@@ -470,8 +470,8 @@ Chance=10
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind06.0.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-17,43
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind06.0.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-17,43
 ---
 Obj=building
 name=ind_cl4_E0_09_07
@@ -483,8 +483,8 @@ Chance=30
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind06.1.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-17,43
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind06.1.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-17,43
 ---
 Obj=building
 name=ind_cl4_E0_10_07
@@ -496,8 +496,8 @@ Chance=60
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind06.2.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-17,43
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind06.2.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-17,43
 ---
 Obj=building
 name=ind_cl4_E3_01_07
@@ -511,8 +511,8 @@ Chance=10
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind02.0.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind02.0.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind02.0.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind02.0.1
 ---
 Obj=building
 name=ind_cl4_E3_02_07
@@ -526,8 +526,8 @@ Chance=30
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind02.1.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind02.1.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind02.1.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind02.1.1
 ---
 Obj=building
 name=ind_cl4_E3_03_07
@@ -541,8 +541,8 @@ Chance=60
 level=7
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind02.2.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind02.2.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind02.2.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind02.2.1
 ---
 Obj=building
 name=ind_cl4_E3_04_07
@@ -555,7 +555,7 @@ level=7
 needs_ground=0
 climates=tundra
 dims=1,1,8
-BackImage[0-7][0][0][0][0][0-1]=./images/ind/07_E3_01.<$1>.<$0>
+BackImage[0-7][0][0][0][0][0-1]=images/ind/07_E3_01.<$1>.<$0>
 ---
 
 #################################################################################
@@ -575,8 +575,8 @@ Chance=10
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind09.0.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind09.0.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind09.0.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind09.0.1
 ---
 Obj=building
 name=ind_cl4_E0_02_09
@@ -591,8 +591,8 @@ Chance=30
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind09.1.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind09.1.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind09.1.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind09.1.1
 ---
 Obj=building
 name=ind_cl4_E0_03_09
@@ -607,8 +607,8 @@ Chance=60
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind09.2.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind09.2.1
+BackImage[0][0][0][0][0][0]=images/ind/192ind09.2.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind09.2.1
 ---
 Obj=building
 name=ind_cl4_E0_04_09
@@ -623,9 +623,9 @@ Chance=10
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind01.0.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind01.0.1
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-25,55
+BackImage[0][0][0][0][0][0]=images/ind/192ind01.0.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind01.0.1
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-25,55
 ---
 Obj=building
 name=ind_cl4_E0_05_09
@@ -640,9 +640,9 @@ Chance=30
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind01.1.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind01.1.1
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-25,55
+BackImage[0][0][0][0][0][0]=images/ind/192ind01.1.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind01.1.1
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-25,55
 ---
 Obj=building
 name=ind_cl4_E0_06_09
@@ -657,9 +657,9 @@ Chance=60
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0]=./images/ind/192ind01.2.0
-BackImage[0][0][0][0][0][1]=./images/ind/192ind01.2.1
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-25,55
+BackImage[0][0][0][0][0][0]=images/ind/192ind01.2.0
+BackImage[0][0][0][0][0][1]=images/ind/192ind01.2.1
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-25,55
 ---
 Obj=building
 name=ind_cl4_E3_01_09
@@ -670,7 +670,7 @@ Chance=40
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind12.0.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind12.0.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_02_09
@@ -681,7 +681,7 @@ Chance=20
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind12.1.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind12.1.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_03_09
@@ -692,7 +692,7 @@ Chance=20
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind12.2.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind12.2.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_04_09
@@ -703,7 +703,7 @@ Chance=10
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind12.3.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind12.3.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_05_09
@@ -714,7 +714,7 @@ Chance=10
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind12.4.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind12.4.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_06_09
@@ -727,7 +727,7 @@ level=9
 needs_ground=0
 climates=tundra
 dims=1,1,8
-BackImage[0-7][0][0][0][0][0-1]=./images/ind/09_E3_01.<$1>.<$0>
+BackImage[0-7][0][0][0][0][0-1]=images/ind/09_E3_01.<$1>.<$0>
 ---
 Obj=building
 name=ind_cl4_E5_01_09
@@ -738,8 +738,8 @@ Chance=40
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/ind_modern01.0.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,5,40
+BackImage[0][0][0][0][0][0-1]=images/ind/ind_modern01.0.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,5,40
 ---
 Obj=building
 name=ind_cl4_E5_02_09
@@ -750,8 +750,8 @@ Chance=30
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/ind_modern01.1.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-50,65
+BackImage[0][0][0][0][0][0-1]=images/ind/ind_modern01.1.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-50,65
 ---
 Obj=building
 name=ind_cl4_E5_03_09
@@ -762,8 +762,8 @@ Chance=20
 level=9
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/ind_modern01.2.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,26,48
+BackImage[0][0][0][0][0][0-1]=images/ind/ind_modern01.2.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,26,48
 ---
 #################################################################################
 #									 Level 12									#
@@ -778,7 +778,7 @@ Chance=40
 level=12
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/easteur/ind_steel.0.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/easteur/ind_steel.0.<$0>
 ---
 Obj=building
 name=ind_cl4_E2_02_12
@@ -790,7 +790,7 @@ Chance=20
 level=12
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/easteur/ind_steel.1.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/easteur/ind_steel.1.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_01_12
@@ -802,8 +802,8 @@ Chance=40
 level=12
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/ind_smooth01.0.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,0,9
+BackImage[0][0][0][0][0][0-1]=images/ind/ind_smooth01.0.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,0,9
 ---
 Obj=building
 name=ind_cl4_E3_02_12
@@ -815,8 +815,8 @@ Chance=30
 level=12
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/ind_smooth01.1.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,0,9
+BackImage[0][0][0][0][0][0-1]=images/ind/ind_smooth01.1.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,0,9
 ---
 Obj=building
 name=ind_cl4_E3_03_12
@@ -828,8 +828,8 @@ Chance=30
 level=12
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/ind_smooth01.2.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,0,9
+BackImage[0][0][0][0][0][0-1]=images/ind/ind_smooth01.2.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,0,9
 ---
 Obj=building
 name=ind_cl4_E3_04_12
@@ -841,7 +841,7 @@ Chance=40
 level=12
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind13.0.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind13.0.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_05_12
@@ -853,7 +853,7 @@ Chance=40
 level=12
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind13.1.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind13.1.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_06_12
@@ -865,7 +865,7 @@ Chance=10
 level=12
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind13.2.<$0>
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind13.2.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_07_12
@@ -878,7 +878,7 @@ level=12
 needs_ground=0
 climates=tundra
 dims=1,1,8
-BackImage[0-7][0][0][0][0][0-1]=./images/ind/12_E3_01.<$1>.<$0>
+BackImage[0-7][0][0][0][0][0-1]=images/ind/12_E3_01.<$1>.<$0>
 ---
 Obj=building
 name=ind_cl4_E3_08_12
@@ -890,7 +890,7 @@ level=12
 needs_ground=0
 climates=tundra
 dims=1,1,4
-BackImage[0-3][0][0][0][0][0-1]=./images/ind/wasteplace.<$1>.<$0>
+BackImage[0-3][0][0][0][0][0-1]=images/ind/wasteplace.<$1>.<$0>
 ---
 Obj=building
 name=ind_cl4_E5_01_12
@@ -901,7 +901,7 @@ Chance=40
 level=12
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/ind_modern02.<$0>.0
+BackImage[0][0][0][0][0][0-1]=images/ind/ind_modern02.<$0>.0
 ---
 #################################################################################
 #									 Level 15									#
@@ -916,7 +916,7 @@ Chance=40
 level=15
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/easteur/ind_steel.0.<$0+2>
+BackImage[0][0][0][0][0][0-1]=images/ind/easteur/ind_steel.0.<$0+2>
 ---
 Obj=building
 name=ind_cl4_E2_02_15
@@ -928,7 +928,7 @@ Chance=20
 level=15
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/easteur/ind_steel.1.<$0+2>
+BackImage[0][0][0][0][0][0-1]=images/ind/easteur/ind_steel.1.<$0+2>
 ---
 Obj=building
 name=ind_cl4_E3_01_15
@@ -940,8 +940,8 @@ Chance=40
 level=15
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind14.0.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-28,-28
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind14.0.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-28,-28
 ---
 Obj=building
 name=ind_cl4_E3_02_15
@@ -953,8 +953,8 @@ Chance=20
 level=15
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind14.1.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-28,-28
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind14.1.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-28,-28
 ---
 Obj=building
 name=ind_cl4_E3_03_15
@@ -966,8 +966,8 @@ Chance=20
 level=15
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind14.2.<$0>
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-28,-28
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind14.2.<$0>
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-28,-28
 ---
 Obj=building
 name=ind_cl4_E3_04_15
@@ -979,9 +979,9 @@ Chance=20
 level=15
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind15.<$0>.1
-BackImage[0][0][0][1][0][0-1]=./images/ind/192ind15.0.0
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-21,-113
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind15.<$0>.1
+BackImage[0][0][0][1][0][0-1]=images/ind/192ind15.0.0
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-21,-113
 ---
 Obj=building
 name=ind_cl4_E3_05_15
@@ -993,9 +993,9 @@ Chance=20
 level=15
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind15.<$0>.2
-BackImage[0][0][0][1][0][0-1]=./images/ind/192ind15.0.0
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-21,-113
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind15.<$0>.2
+BackImage[0][0][0][1][0][0-1]=images/ind/192ind15.0.0
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-21,-113
 ---
 Obj=building
 name=ind_cl4_E3_06_15
@@ -1007,9 +1007,9 @@ Chance=20
 level=15
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind15.<$0>.3
-BackImage[0][0][0][1][0][0-1]=./images/ind/192ind15.0.0
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-21,-113
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind15.<$0>.3
+BackImage[0][0][0][1][0][0-1]=images/ind/192ind15.0.0
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-21,-113
 ---
 Obj=building
 name=ind_cl4_E3_07_15
@@ -1021,9 +1021,9 @@ Chance=20
 level=15
 needs_ground=0
 climates=tundra
-BackImage[0][0][0][0][0][0-1]=./images/ind/192ind15.<$0>.4
-BackImage[0][0][0][1][0][0-1]=./images/ind/192ind15.0.0
-FrontImage[0][0][0][0][0-2][0-1]=./images/smoke_d.0.<$0>,-21,-113
+BackImage[0][0][0][0][0][0-1]=images/ind/192ind15.<$0>.4
+BackImage[0][0][0][1][0][0-1]=images/ind/192ind15.0.0
+FrontImage[0][0][0][0][0-2][0-1]=images/smoke_d.0.<$0>,-21,-113
 ---
 Obj=building
 name=ind_cl4_E3_08_15
@@ -1036,7 +1036,7 @@ level=15
 needs_ground=0
 climates=tundra
 dims=1,1,8
-BackImage[0-7][0][0][0][0][0-1]=./images/ind/15_E3_01.<$1>.<$0>
+BackImage[0-7][0][0][0][0][0-1]=images/ind/15_E3_01.<$1>.<$0>
 ---
 #################################################################################
 #									 Level 18									#

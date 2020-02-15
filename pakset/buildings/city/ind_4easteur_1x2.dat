@@ -18,8 +18,8 @@ level=5
 needs_ground=1
 #climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E0_05_01.0.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E0_05_01.0.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E0_05_01.0.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E0_05_01.0.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E0_02_05
@@ -31,8 +31,8 @@ level=5
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E0_05_01.1.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E0_05_01.1.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E0_05_01.1.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E0_05_01.1.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E0_03_05
@@ -44,8 +44,8 @@ level=5
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E0_05_01.2.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E0_05_01.2.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E0_05_01.2.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E0_05_01.2.<2+$0+$1*4>
 ---
 #################################################################################
 #									 Level 7									#
@@ -61,8 +61,8 @@ level=7
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E3_07_01.0.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E3_07_01.0.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_07_01.0.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_07_01.0.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E3_02_07
@@ -74,8 +74,8 @@ level=7
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E3_07_01.1.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E3_07_01.1.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_07_01.1.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_07_01.1.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E3_03_07
@@ -87,8 +87,8 @@ level=7
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E3_07_01.2.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E3_07_01.2.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_07_01.2.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_07_01.2.<2+$0+$1*4>
 ---
 #################################################################################
 #									 Level 9									#
@@ -104,8 +104,8 @@ level=9
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E0_09_01.0.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E0_09_01.0.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E0_09_01.0.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E0_09_01.0.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E0_02_09
@@ -117,8 +117,8 @@ level=9
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E0_09_01.1.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E0_09_01.1.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E0_09_01.1.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E0_09_01.1.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E0_03_09
@@ -130,8 +130,8 @@ level=9
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E0_09_01.2.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E0_09_01.2.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E0_09_01.2.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E0_09_01.2.<2+$0+$1*4>
 ---
 #################################################################################
 #									 Level 12									#
@@ -146,8 +146,8 @@ level=12
 needs_ground=0
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/easteur/E2_12_01.0.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/easteur/E2_12_01.0.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/easteur/E2_12_01.0.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/easteur/E2_12_01.0.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E2_02_12
@@ -159,8 +159,8 @@ level=12
 needs_ground=0
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/easteur/E2_12_01.1.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/easteur/E2_12_01.1.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/easteur/E2_12_01.1.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/easteur/E2_12_01.1.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E2_03_12
@@ -172,8 +172,8 @@ level=12
 needs_ground=0
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/easteur/E2_12_01.2.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/easteur/E2_12_01.2.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/easteur/E2_12_01.2.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/easteur/E2_12_01.2.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E3_01_12
@@ -185,8 +185,8 @@ level=12
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E3_12_01.0.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E3_12_01.0.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_12_01.0.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_12_01.0.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E3_01_12
@@ -198,8 +198,8 @@ level=12
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E3_12_01.1.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E3_12_01.1.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_12_01.1.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_12_01.1.<2+$0+$1*4>
 ---
 Obj=building
 name=ind_cl4_1x2_E3_01_12
@@ -211,6 +211,6 @@ level=12
 needs_ground=1
 climates=tundra
 dims=1,2,2
-BackImage[0][0-1][0][0][0][0-1]=./images/1x2/ind/E3_12_01.2.<1-$0+$1*4>
-BackImage[1][0][0-1][0][0][0-1]=./images/1x2/ind/E3_12_01.2.<2+$0+$1*4>
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_12_01.2.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_12_01.2.<2+$0+$1*4>
 ---
