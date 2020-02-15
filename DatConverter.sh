@@ -266,7 +266,7 @@ readline() {
 		then
 			Name=${Line:0:$((PosEq - 1))}
 			Name="$(trim $Name)"
-			#Name=${Name,,}
+			Name=${Name,,}
 			Value=${Line:PosEq}
 			Value="$(trim $Value)"
 			ObjectArray[$Name]=$Value
@@ -317,6 +317,37 @@ calculatecosts(){
 			echo "cost=$Cost" >> calculated/$dat
 		fi
 	fi
+}
+
+
+writeconstraints() {
+	Direction=$1
+	local CounterBefore=0
+	local CounterAfter=0
+	while [[ ! -z ${ObjectArray[constraint\[$Direction\]\[$CounterBefore\]]} ]] ;do
+
+		#if [[ ${ObjectArray[constraint[$Direction][$CounterBefore]:0:1} == "!" ]] ;then
+			#write the name in the file
+			#write the filename of this in a different file
+			#copy the file to the constraints and update the CounterAfter
+		#fi
+
+		echo "constraint[$Direction][$CounterAfter]=${ObjectArray["constraint[$Direction][$CounterBefore]"]}" >> calculated/$dat
+		CounterBefore=$(( CounterBefore + 1 ))
+		CounterAfter=$(( CounterAfter + 1 ))
+	done
+}
+
+
+writeimages() {
+	for Key in "${!ObjectArray[@]}"; do
+		if [[ $Key =~ "image" ]];then
+			if [[ ${ObjectArray[$Key]:0:2} == './' ]]; then
+				ObjectArray[$Key]=${ObjectArray[$Key]:2:${#ObjectArray[$Key]}}
+			fi
+			echo "$Key=${ObjectArray[$Key]}" >> calculated/$dat
+		fi
+	done
 }
 
 
@@ -380,16 +411,6 @@ writevehicle() {
 		echo "gear=${ObjectArray[gear]}" >> calculated/$dat
 	fi
 	echo  >> calculated/$dat
-	#only write in the smoke if it is given
-	if [[ ! -z ${ObjectArray[smoke]} ]] ;then
-		echo "smoke=${ObjectArray[smoke]}" >> calculated/$dat
-	fi
-	echo  >> calculated/$dat
-	#only write in the sound if it is given
-	if [[ ! -z ${ObjectArray[sound]} ]] ;then
-		echo "sound=${ObjectArray[sound]}" >> calculated/$dat
-	fi
-	echo  >> calculated/$dat
 #Freigth
 	#only write in the freigth if it is given
 	if [[ ! -z ${ObjectArray[freight]} ]] ;then
@@ -402,20 +423,19 @@ writevehicle() {
 	#calculate the costs and loading time
 	calculatecosts $dat
 	echo  >> calculated/$dat
-	#return constraints
-	for Key in "${!ObjectArray[@]}"; do
-		if [[ $Key =~ "Constraint" || $Key =~ "constraint" ]];then
-			echo "$Key=${ObjectArray[$Key]}" >> calculated/$dat
-		fi
-	done
+	writeconstraints "prev"
+	writeconstraints "next"
 	echo  >> calculated/$dat
+	#only write in the smoke if it is given
+	if [[ ! -z ${ObjectArray[smoke]} ]] ;then
+		echo "smoke=${ObjectArray[smoke]}" >> calculated/$dat
+	fi
+	#only write in the sound if it is given
+	if [[ ! -z ${ObjectArray[sound]} ]] ;then
+		echo "sound=${ObjectArray[sound]}" >> calculated/$dat
+	fi
 	#return images
-	for Key in "${!ObjectArray[@]}"; do
-		if [[ $Key =~ "Image" || $Key =~ "image" ]];then
-			echo "$Key=${ObjectArray[$Key]}" >> calculated/$dat
-		fi
-	done
-
+	writeimages
 }
 
 
@@ -454,58 +474,104 @@ writeobject() {
 }
 
 
+echohelp() {
+	echo "DatConverter Beta Version
+Copies the pakset-directionary to a new location and dds not given values to dat files
+Commands:
+-h   displays the help and stopp the program after that
+-f   forcing new prices on vehicles
+-a   converting the whole directionary
+-v   converting all vehicles"
+}
+
+
 
 #main
 	echo "==== Dat Converter ===="
+	#reading the arguments
 	ForcingNewValues=0
-	if [[ $1 == "-f" ]];then
-		ForcingNewValues=1
+	ReadAll=0
+	AllVehicles=0
+	Help=0
+	for arg in "$@"; do
+		if [[ $arg == "-f" ]];then
+			ForcingNewValues=1
+			echo "- -f Forcing new prices"
+		fi
+		if [[ $arg == "-a" ]];then
+			ReadAll=1
+			echo "- -a Convertig all files"
+		fi
+		if [[ $arg == "-v" ]];then
+			AllVehicles=1
+			echo "- -v Convertig all vehicles"
+		fi
+		if [[ $arg == "-h" ]];then
+			Help=1
+			echo "- -h Display help"
+		fi
+	done
+
+	if [[ $Help == 1 ]];then
+		echohelp
+	else
+
+		echo "- Creating Directionaries "
+		IFS='
+		'
+		`rm -rf calculated/`
+		#`rm -rf calculatedextended/`
+		#mkdir -p calculatedextended/pakset
+		mkdir -p calculated/pakset
+		#mkdir -p calculatedextended/AddOn
+		mkdir -p calculated/AddOn
+		#`cp -rf pakset/* calculatedextended/pakset`
+		`cp -rf pakset/* calculated/pakset`
+		#`cp -rf AddOn/* calculatedextended/AddOn`
+		`cp -rf AddOn/* calculated/AddOn`
+
+		declare -A GoodsValueArray
+		declare -A GoodsSpeedBonusArray
+		declare -A GoodsWeigthArray
+		echo "- Read Meta Files"
+		readgoods
+		SpeedBonusFile=`cat pakset/trunk/config/speedbonus.tab`
+
+		if [[ $ReadAll == 1 ]];then
+			echo "- Edit All .dat Files"
+			readallfiles 'pakset/*.dat'
+			readallfiles 'pakset/**/*.dat'
+			readallfiles 'pakset/**/**/*.dat'
+			readallfiles 'pakset/**/**/**/*.dat'
+			readallfiles 'pakset/**/**/**/**/*.dat'
+			readallfiles 'AddOn/*.dat'
+			readallfiles 'AddOn/**/*.dat'
+			readallfiles 'AddOn/**/**/*.dat'
+			readallfiles 'AddOn/**/**/**/*.dat'
+			readallfiles 'AddOn/**/**/**/**/*.dat'
+		else
+			if [[ $AllVehicles == 1 ]] ;then
+				echo "- Edit All Vehicle .dat Files "
+				readallfiles 'pakset/vehicles/**/*.dat'
+				readallfiles 'AddOn/**/vehicles/**/*.dat'
+			else	
+				echo "- Edit Costum .dat Files "
+
+				#readfile "pakset/vehicles/track/Tram_Combino_MS.dat"
+				readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
+				#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
+
+				#readallfiles 'calculated/AddOn/britain/infrastruktur/*.dat'
+				#readallfiles 'calculated/AddOn/belgian/**/*.dat'
+				#readallfiles 'calculated/AddOn/britain/vehicles/**/*.dat'
+				#readallfiles 'calculated/AddOn/czech/vehicles/**/*.dat'
+				#readallfiles 'calculated/AddOn/german/vehicles/**/*.dat'
+				#readallfiles 'calculated/AddOn/japanese/*.dat'
+
+				#readallfiles 'pakset/landscape/**/*.dat'
+			fi
+		fi
+		echo "==== Done ===="
 	fi
-	echo "- Creating Directionaries "
-	IFS='
-	'
-	`rm -rf calculated/`
-	`rm -rf calculatedextended/`
-	mkdir -p calculatedextended/pakset
-	mkdir -p calculated/pakset
-	mkdir -p calculatedextended/AddOn
-	mkdir -p calculated/AddOn
-	`cp -rf pakset/* calculatedextended/pakset`
-	`cp -rf pakset/* calculated/pakset`
-	`cp -rf AddOn/* calculatedextended/AddOn`
-	`cp -rf AddOn/* calculated/AddOn`
-
-	declare -A GoodsValueArray
-	declare -A GoodsSpeedBonusArray
-	declare -A GoodsWeigthArray
-	echo "- Read Meta Files"
-	readgoods
-	SpeedBonusFile=`cat pakset/trunk/config/speedbonus.tab`
-
-	echo "- Edit .dat Files "
-	#readallfiles 'calculated/AddOn/britain/infrastruktur/*.dat'
-	#readallfiles 'calculated/AddOn/belgian/**/*.dat'
-	#readallfiles 'calculated/AddOn/britain/vehicles/**/*.dat'
-	#readallfiles 'calculated/AddOn/czech/vehicles/**/*.dat'
-	#readallfiles 'calculated/AddOn/german/vehicles/**/*.dat'
-	#readallfiles 'calculated/AddOn/japanese/*.dat'
-
-	#readallfiles 'pakset/vehicles/**/*.dat'
-	readallfiles 'pakset/*.dat'
-	readallfiles 'pakset/**/*.dat'
-	readallfiles 'pakset/**/**/*.dat'
-	readallfiles 'pakset/**/**/**/*.dat'
-	readallfiles 'pakset/**/**/**/**/*.dat'
-	readallfiles 'AddOn/*.dat'
-	readallfiles 'AddOn/**/*.dat'
-	readallfiles 'AddOn/**/**/*.dat'
-	readallfiles 'AddOn/**/**/**/*.dat'
-	readallfiles 'AddOn/**/**/**/**/*.dat'
-
-
-	#readfile "pakset/vehicles/track/Tram_Combino_MS.dat"
-	#readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
-	#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
-	echo "==== Done ===="
 unset IFS
 

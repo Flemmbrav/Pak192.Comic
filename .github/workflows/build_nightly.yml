@@ -135,7 +135,7 @@ jobs:
           rm -rf simutrans
 
     - name: Converting dat files
-      run: bash DatConverter.sh -f
+      run: bash DatConverter.sh -f -a
 
     - name: Compile pak192.comic addons
       run: bash Compile_Converted_AddOn.sh
