@@ -27,7 +27,7 @@ trim() {
 
 
 #functions related to reading the goods from the goods file
-	
+
 readgoods() {
 	#opens the goods.dat file
 	#creates a new GoodArray including all the parameters of a single good
@@ -140,6 +140,7 @@ getspeedbonus() {
 		then
 			Line=${Line:$((${#Waytype} + 1)):${#Line}}
 			local IFS=','
+
 			for Number in $Line
 			do
 				if [ $Counter -eq 0 ];then
@@ -169,6 +170,9 @@ getspeedbonus() {
 			'
 		fi
 	done
+	if [[ $Speedbonus -eq 0 ]];then
+		Speedbonus=$Value1
+	fi
 	echo $Speedbonus
 }
 
@@ -332,10 +336,11 @@ writeconstraints() {
 	local CounterAfter=0
 	while [[ ! -z ${ObjectArray[constraint\[$Direction\]\[$CounterBefore\]]} ]] ;do
 
-		#if [[ ${ObjectArray[constraint[$Direction][$CounterBefore]:0:1} == "!" ]] ;then
+		#if [[ ${ObjectArray[constraint\[$Direction\]\[$CounterBefore\]:0:1} == "!" ]] ;then
 			#write the name in the file
 			#write the filename of this in a different file
 			#copy the file to the constraints and update the CounterAfter
+		#	echo "hier wäre was zuu ersetzen"
 		#fi
 
 		echo "constraint[$Direction][$CounterAfter]=${ObjectArray["constraint[$Direction][$CounterBefore]"]}" >> calculated/$dat
@@ -562,13 +567,14 @@ Commands:
 		else
 			if [[ $AllVehicles == 1 ]] ;then
 				echo "- Edit All Vehicle .dat Files "
+				readallfiles 'pakset/384/vehicles/*.dat'
 				readallfiles 'pakset/vehicles/**/*.dat'
 				readallfiles 'AddOn/**/vehicles/**/*.dat'
 			else	
 				echo "- Edit Costum .dat Files "
 
 				#readfile "pakset/vehicles/track/Tram_Combino_MS.dat"
-				readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
+				#readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
 				#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
 
 				#readallfiles 'calculated/AddOn/britain/infrastruktur/*.dat'
@@ -578,7 +584,7 @@ Commands:
 				#readallfiles 'calculated/AddOn/german/vehicles/**/*.dat'
 				#readallfiles 'calculated/AddOn/japanese/*.dat'
 
-				#readallfiles 'pakset/landscape/**/*.dat'
+				readallfiles 'pakset/landscape/**/*.dat'
 			fi
 		fi
 		echo "==== Done ===="
