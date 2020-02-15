@@ -142,7 +142,7 @@ compile '192' 'British Infrastrukture' 'AddOn/britain/infrastruktur/*.dat'
 compile '192' 'British Vehicles' 'AddOn/britain/vehicles/**/*.dat'
 compile '192' 'Czech Vehicles' 'AddOn/czech/vehicles/**/*.dat'
 compile '192' 'German Vehicles' 'AddOn/german/vehicles/**/*.dat'
-compile '192' 'Japanese Stuff' 'AddOn/japanese/*.dat'
+compile '192' 'Japanese Stuff' 'AddOn/japanese/vehicles/*.dat'
 compile '192' 'Belgish Stuff' 'AddOn/belgian/**/*.dat'
 
 # Finished successfully, get rid of old csv
