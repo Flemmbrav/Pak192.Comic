@@ -334,19 +334,46 @@ writeconstraints() {
 	Direction=$1
 	local CounterBefore=0
 	local CounterAfter=0
+	local HasToBeRemade=0
 	while [[ ! -z ${ObjectArray[constraint\[$Direction\]\[$CounterBefore\]]} ]] ;do
 
-		#if [[ ${ObjectArray[constraint\[$Direction\]\[$CounterBefore\]:0:1} == "!" ]] ;then
-			#write the name in the file
-			#write the filename of this in a different file
-			#copy the file to the constraints and update the CounterAfter
-		#	echo "hier wäre was zuu ersetzen"
-		#fi
-
-		echo "constraint[$Direction][$CounterAfter]=${ObjectArray["constraint[$Direction][$CounterBefore]"]}" >> calculated/$dat
-		CounterBefore=$(( CounterBefore + 1 ))
-		CounterAfter=$(( CounterAfter + 1 ))
+		if [[ ${ObjectArray[constraint\[$Direction\]\[$CounterBefore\]]:0:1} == "!" ]] ;then
+			if [[ $ReConvert == 0 ]];then
+				if [[ $Direction == "next" ]];then	
+					local Path="calculated/ConstraintGroupprev"${ObjectArray[constraint\[$Direction\]\[$CounterBefore\]]:1:${#ObjectArray["constraint[$Direction][$CounterBefore]"]}}".txt"
+					echo "${ObjectArray[name]}" >> $Path
+				else
+					local Path="calculated/ConstraintGroupnext"${ObjectArray[constraint\[$Direction\]\[$CounterBefore\]]:1:${#ObjectArray["constraint[$Direction][$CounterBefore]"]}}".txt"
+					echo "${ObjectArray[name]}" >> $Path
+				fi
+			else
+				local File=`cat $"calculated/ConstraintGroup"$Direction${ObjectArray[constraint\[$Direction\]\[$CounterBefore\]]:1:${#ObjectArray["constraint[$Direction][$CounterBefore]"]}}".txt"`
+				local IFS='
+'
+				if [[ $Direction == "next" ]];then	
+					for Line in $File; do
+						echo "constraint[$Direction][$CounterAfter]=$Line" >> calculated/$dat
+						CounterAfter=$(( CounterAfter + 1 ))						
+					done
+				else
+					for Line in $File; do
+						echo "constraint[$Direction][$CounterAfter]=$Line" >> calculated/$dat
+						CounterAfter=$(( CounterAfter + 1 ))						
+					done
+				fi
+			fi
+			HasToBeRemade=1
+			CounterBefore=$(( CounterBefore + 1 ))
+			CounterAfter=$(( CounterAfter + 1 ))
+		else
+			echo "constraint[$Direction][$CounterAfter]=${ObjectArray["constraint[$Direction][$CounterBefore]"]}" >> calculated/$dat
+			CounterBefore=$(( CounterBefore + 1 ))
+			CounterAfter=$(( CounterAfter + 1 ))
+		fi
 	done
+	if [[ $HasToBeRemade -eq 1 ]];then
+		ReConvertList[$dat]=$dat
+	fi
 }
 
 
@@ -492,6 +519,8 @@ writeobject() {
 echohelp() {
 	echo "DatConverter Beta Version
 Copies the pakset-directionary to a new location and dds not given values to dat files
+Features:
+!    constraint-groups: use exclamation marks in front of constraints to refer to a group
 Commands:
 -h   displays the help and stopp the program after that
 -f   forcing new prices on vehicles
@@ -508,22 +537,23 @@ Commands:
 	ReadAll=0
 	AllVehicles=0
 	Help=0
+	ReConvert=0
 	for arg in "$@"; do
 		if [[ $arg == "-f" ]];then
 			ForcingNewValues=1
-			echo "- -f Forcing new prices"
+			echo "- -f Forcing New Prices"
 		fi
 		if [[ $arg == "-a" ]];then
 			ReadAll=1
-			echo "- -a Convertig all files"
+			echo "- -a Convertig All Files"
 		fi
 		if [[ $arg == "-v" ]];then
 			AllVehicles=1
-			echo "- -v Convertig all vehicles"
+			echo "- -v Convertig All Vehicles"
 		fi
 		if [[ $arg == "-h" ]];then
 			Help=1
-			echo "- -h Display help"
+			echo "- -h Display Help"
 		fi
 	done
 
@@ -545,6 +575,7 @@ Commands:
 		#`cp -rf AddOn/* calculatedextended/AddOn`
 		`cp -rf AddOn/* calculated/AddOn`
 
+		declare -A ReConvertList
 		declare -A GoodsValueArray
 		declare -A GoodsSpeedBonusArray
 		declare -A GoodsWeigthArray
@@ -571,7 +602,7 @@ Commands:
 				readallfiles 'pakset/vehicles/**/*.dat'
 				readallfiles 'AddOn/**/vehicles/**/*.dat'
 			else	
-				echo "- Edit Costum .dat Files "
+				echo "- Edit Costoum .dat Files "
 
 				#readfile "pakset/vehicles/track/Tram_Combino_MS.dat"
 				#readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
@@ -584,9 +615,16 @@ Commands:
 				#readallfiles 'calculated/AddOn/german/vehicles/**/*.dat'
 				#readallfiles 'calculated/AddOn/japanese/*.dat'
 
-				readallfiles 'pakset/landscape/**/*.dat'
+				#readallfiles 'pakset/landscape/**/*.dat'
+				#readallfiles 'ConvertTest/*.dat'
 			fi
 		fi
+		echo "- Re-Converting The Files Affected By Constraint-Groups"
+		ReConvert=1
+		for ReFile in "${ReConvertList[@]}"; do
+			echo "-- Performing Work At: "$ReFile
+			readfile $ReFile
+		done
 		echo "==== Done ===="
 	fi
 unset IFS
