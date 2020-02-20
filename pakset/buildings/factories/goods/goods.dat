@@ -670,7 +670,7 @@ speed_bonus=3
 -----------------
 obj=good
 name=paper
-catg=1
+catg=10
 metric=rolls
 weight_per_unit=500
 value=260
