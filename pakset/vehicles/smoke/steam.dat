@@ -10,3 +10,11 @@ obj=smoke
 name=Steam3
 image[0-59]=./images/E3_medium.<$0/10>.<$0%10>
 ---
+obj=smoke
+name=Steam3diesel
+image[0-19]=./images/E3_diesel.<$0/4>.<2*$0%8>
+---
+obj=smoke
+name=Steam3hydro
+image[0-19]=./images/E3_hydro.<$0/4>.<2*$0%8>
+---

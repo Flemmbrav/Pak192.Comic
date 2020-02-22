@@ -39,6 +39,7 @@ speed=80
 weight=28
 length=8
 engine_type=hydrogene
+steam=steam3hydro
 power=200
 gear=100
 

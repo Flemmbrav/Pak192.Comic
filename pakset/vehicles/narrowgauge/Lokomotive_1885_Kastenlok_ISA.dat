@@ -12,7 +12,7 @@ speed=35
 power=175
 gear=100
 engine_type=steam
-smoke=Steam3
+smoke=Steam3thin
 length=6
 waytype=track
 

@@ -13,10 +13,9 @@ weight=22
 length=8
 engine_type=electric
 power=3200
-gear=117
 
-runningcost=2029
-cost=80221939
+runningcost=1734
+cost=68565760
 
 emptyimage[E,S,W,N]=./image/Lokomotive_1990_Ge_4_4_I.0.<$>
 emptyimage[SE,NE,NW,SW]=./image/Lokomotive_1990_Ge_4_4_I.1.<$>
