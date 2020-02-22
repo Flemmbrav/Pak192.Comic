@@ -37,7 +37,7 @@ image[0-19]=./images/smoke_diesel_medium.<$0/4>.<$0%4+$0%4>
 
 obj=smoke
 name=smoke_hydro
-image[0-9]=./images/smoke_hydro_1.<$0/4>.<$0%4+$0%4>
+image[0-9]=./images/smoke_hydro.<$0/4>.<$0%4+$0%4>
 
 ---
 
