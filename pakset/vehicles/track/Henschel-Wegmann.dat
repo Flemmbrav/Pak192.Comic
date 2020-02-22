@@ -79,6 +79,7 @@ loading_time=2970
 
 #constraint[prev][0]=BR_61
 #constraint[prev][1]=Henschel-Wegmann_kuppel
+constraint[prev][0]=any
 constraint[next][0]=Henschel-Wegmann
 constraint[next][1]=Henschel-Wegmann_kuppel
 

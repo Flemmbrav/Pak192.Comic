@@ -36,6 +36,7 @@ weight=43
 runningcost=1020
 cost=162870
 length=12
+constraint[prev][0]=any
 emptyimage[e]=./image/EW_IV.1.0
 emptyimage[n]=./image/EW_IV.1.3
 emptyimage[ne]=./image/EW_IV.1.5

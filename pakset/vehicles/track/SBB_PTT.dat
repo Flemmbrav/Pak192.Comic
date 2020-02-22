@@ -11,6 +11,7 @@ runningcost=571
 cost=6280313
 length=8
 loading_time=5260
+constraint[prev][0]=any
 emptyimage[s]=./image/SBB_Z2.0.1
 emptyimage[se]=./image/SBB_Z2.0.2
 emptyimage[sw]=./image/SBB_Z2.0.3

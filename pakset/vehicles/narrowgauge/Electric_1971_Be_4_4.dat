@@ -50,6 +50,7 @@ loading_time=1740
 runningcost=618
 cost=18957095
 
+constraint[prev][0]=any
 constraint[next][0]=none
 constraint[next][1]=Narrowgauge_Electric_1971_Be_4_4_1
 constraint[next][2]=Narrowgauge_Electric_1971_ABDt_17_1
@@ -104,6 +105,7 @@ loadingtime=1740
 runningcost=174
 cost=1915914
 
+constraint[prev][0]=any
 constraint[next][0]=none
 constraint[next][1]=Narrowgauge_Electric_1971_Be_4_4_1
 constraint[next][2]=Narrowgauge_Electric_1971_ABDt_17_1
