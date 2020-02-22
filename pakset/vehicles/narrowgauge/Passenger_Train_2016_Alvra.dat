@@ -16,6 +16,7 @@ runningcost=108
 cost=1191465
 length=8
 
+constraint[prev][0]=any
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_2016.0.<$0>
 
 -----
@@ -38,6 +39,7 @@ runningcost=90
 cost=992888
 length=8
 
+constraint[prev][0]=any
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_2016_Photo.0.<$0>
 
 -----

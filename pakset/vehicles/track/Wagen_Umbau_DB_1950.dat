@@ -14,6 +14,7 @@ speed=90
 length=8
 waytype=narrowgauge_track
 loading_time=1850
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/umbauwagen_1950.0.1
 EmptyImage[E]=./image/umbauwagen_1950.0.0
@@ -42,6 +43,7 @@ speed=100
 length=9
 waytype=narrowgauge_track
 loading_time=2770
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/umbauwagen_1950.1.1
 EmptyImage[E]=./image/umbauwagen_1950.1.0
@@ -70,6 +72,7 @@ speed=120
 length=10
 waytype=narrowgauge_track
 loading_time=4210
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/umbauwagen_1950.2.1
 EmptyImage[E]=./image/umbauwagen_1950.2.0
@@ -98,6 +101,7 @@ speed=90
 length=8
 waytype=narrowgauge_track
 loading_time=2530
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/umbauwagen_1950.3.1
 EmptyImage[E]=./image/umbauwagen_1950.3.0

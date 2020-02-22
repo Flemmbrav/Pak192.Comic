@@ -13,6 +13,7 @@ weight=18
 speed=90
 length=8
 waytype=narrowgauge_track
+constraint[prev][0]=any
 
 emptyimage[s]=./image/CarTransportationCar_2.1.1
 emptyimage[se]=./image/CarTransportationCar_2.1.2
@@ -39,6 +40,7 @@ weight=28
 speed=120
 length=12
 waytype=narrowgauge_track
+constraint[prev][0]=any
 EmptyImage[S]=./image/CarTransportationCar_1.1.1
 EmptyImage[E]=./image/CarTransportationCar_1.1.0
 EmptyImage[SE]=./image/CarTransportationCar_1.1.4

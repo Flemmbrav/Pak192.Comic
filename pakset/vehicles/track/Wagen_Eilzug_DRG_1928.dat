@@ -14,6 +14,7 @@ speed=100
 length=12
 waytype=narrowgauge_track
 loading_time=4460
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/ganzstahlwagen_1928.1.1
 EmptyImage[E]=./image/ganzstahlwagen_1928.1.0
@@ -42,6 +43,7 @@ speed=100
 length=11
 waytype=narrowgauge_track
 loading_time=4930
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/ganzstahlwagen_1928.2.1
 EmptyImage[E]=./image/ganzstahlwagen_1928.2.0

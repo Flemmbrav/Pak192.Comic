@@ -16,5 +16,5 @@ image[0-19]=./images/E3_diesel.<$0/4>.<$0%4+$0%4>
 ---
 obj=smoke
 name=Steam3hydro
-image[0-19]=./images/E3_hydro.<$0/4>.<$0%4+$0%4>
+image[0-9]=./images/E3_hydro.<$0/4>.<$0%4+$0%4>
 ---

@@ -47,6 +47,8 @@ length=12
 waytype=narrowgauge_track
 loading_time=8080
 
+constraint[prev][0]=any
+
 EmptyImage[S]=./image/X-Wagen_1978.0.1
 EmptyImage[E]=./image/X-Wagen_1978.0.0
 EmptyImage[SE]=./image/X-Wagen_1978.0.4

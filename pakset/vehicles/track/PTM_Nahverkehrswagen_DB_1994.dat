@@ -13,6 +13,7 @@ runningcost=623
 cost=6853077
 length=12
 loading_time=6230
+constraint[prev][0]=any
 
 emptyimage[e]=./image/RegioDB.0.0
 emptyimage[n]=./image/RegioDB.0.3
@@ -68,6 +69,7 @@ cost=6853077
 length=12
 loading_time=6230
 
+constraint[prev][0]=any
 constraint[next][0]=none
 
 emptyimage[e]=./image/RegioDB.2.2

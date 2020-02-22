@@ -14,6 +14,7 @@ cost=3536050
 length=8
 loading_time=2310
 freight=billet
+constraint[prev][0]=any
 emptyimage[s,w,se,sw]=./image/Car_1920_Rolls.0.<$0>
 freightimagetype[0]=cable
 freightimagetype[1]=carpet

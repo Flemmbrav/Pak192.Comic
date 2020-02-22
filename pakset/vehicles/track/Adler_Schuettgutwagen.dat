@@ -14,7 +14,7 @@ cost=1563100
 length=4
 loading_time=1420
 
-
+constraint[prev][0]=any
 
 freight=coal
 emptyimage[e]=./image/adler_gueter_wagen.20.2

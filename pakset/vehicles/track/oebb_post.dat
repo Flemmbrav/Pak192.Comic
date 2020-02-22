@@ -12,6 +12,7 @@ length=12
 intro_year=1990
 intro_month=6
 loading_time=15580
+constraint[prev][0]=any
 EmptyImage[S]=./image/Eurofima_Wagen_1990.0.1
 EmptyImage[E]=./image/Eurofima_Wagen_1990.0.0
 EmptyImage[SE]=./image/Eurofima_Wagen_1990.0.4

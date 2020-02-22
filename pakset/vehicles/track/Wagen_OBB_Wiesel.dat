@@ -73,6 +73,8 @@ length=12
 waytype=narrowgauge_track
 loading_time=9260
 
+constraint[prev][0]=any
+
 EmptyImage[E]=./image/Wagen_OBB_Wiesel.0.2
 EmptyImage[S]=./image/Wagen_OBB_Wiesel.0.3
 EmptyImage[W]=./image/Wagen_OBB_Wiesel.0.0

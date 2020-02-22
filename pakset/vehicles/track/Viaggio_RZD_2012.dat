@@ -14,6 +14,7 @@ weight=56
 speed=200
 length=12
 waytype=narrowgauge_track
+constraint[prev][0]=any
 EmptyImage[S]=./image/Viaggio_Wagen_2012.0.1
 EmptyImage[E]=./image/Viaggio_Wagen_2012.0.0
 EmptyImage[SE]=./image/Viaggio_Wagen_2012.0.4

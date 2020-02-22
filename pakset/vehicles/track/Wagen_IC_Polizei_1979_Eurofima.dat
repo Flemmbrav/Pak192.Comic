@@ -14,6 +14,7 @@ speed=200
 length=12
 waytype=narrowgauge_track
 loading_time=30000
+constraint[prev][0]=any
 EmptyImage[S]=./image/Eurofima_Wagen_1979_Polizei.0.1
 EmptyImage[E]=./image/Eurofima_Wagen_1979_Polizei.0.0
 EmptyImage[SE]=./image/Eurofima_Wagen_1979_Polizei.0.4

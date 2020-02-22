@@ -14,6 +14,7 @@ weight=42
 speed=200
 length=12
 waytype=narrowgauge_track
+constraint[prev][0]=any
 EmptyImage[S]=./image/Eurofirma_Schlafwagen_2013.0.1
 EmptyImage[E]=./image/Eurofirma_Schlafwagen_2013.0.0
 EmptyImage[SE]=./image/Eurofirma_Schlafwagen_2013.0.4
