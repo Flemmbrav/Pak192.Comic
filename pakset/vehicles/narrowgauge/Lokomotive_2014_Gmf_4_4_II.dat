@@ -10,7 +10,7 @@ speed=100
 weight=64
 length=8
 engine_type=diesel
-smoke=Steam3diesel
+smoke=smoke_diesel_medium_short
 power=1800
 gear=100
 

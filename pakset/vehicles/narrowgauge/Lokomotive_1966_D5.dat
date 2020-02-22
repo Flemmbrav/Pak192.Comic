@@ -15,6 +15,6 @@ speed=60
 length=8
 waytype=track
 engine_type=diesel
-smoke=Steam3diesel
+smoke=smoke_diesel_medium_long
 
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Lokomotive_1966_D5.0.<$>

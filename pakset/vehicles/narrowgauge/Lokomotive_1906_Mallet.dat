@@ -12,7 +12,7 @@ speed=30
 weight=48
 length=7
 engine_type=steam
-smoke=Steam3thin
+smoke=smoke_steam_thin
 power=250
 gear=100
 
