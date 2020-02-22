@@ -19,6 +19,7 @@ loading_time=30000
 runningcost=30000
 cost=30000000
 
+constraint[prev][0]=any
 constraint[next][0]=Narrowgauge_Car_1975_Money_2
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1975_Money.1.<$0>
 

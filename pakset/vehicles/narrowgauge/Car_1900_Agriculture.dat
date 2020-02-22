@@ -14,6 +14,8 @@ freight=grain
 length=6
 waytype=track
 loading_time=850
+constraint[prev][0]=any
+
 EmptyImage[S]=./image/Car_1900_Agriculture.0.1
 EmptyImage[E]=./image/Car_1900_Agriculture.0.0
 EmptyImage[SE]=./image/Car_1900_Agriculture.1.0

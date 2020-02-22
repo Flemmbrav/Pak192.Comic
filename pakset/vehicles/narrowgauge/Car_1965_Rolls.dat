@@ -18,6 +18,8 @@ loading_time=3350
 runningcost=335
 cost=3500000
 
+constraint[prev][0]=any
+
 emptyimage[s,w,se,sw]=./image/Car_1965_Rolls.0.<$0>
 freightimagetype[0]=cable
 freightimagetype[1]=carpet

@@ -25,6 +25,8 @@ runningcost=483
 cost=5313876
 length=8
 
+constraint[prev][0]=any
+
 emptyimage[W]=./image/Car_1989_Piece_goods.0.0
 emptyimage[SE]=./image/Car_1989_Piece_goods.0.2
 emptyimage[S]=./image/Car_1989_Piece_goods.0.1

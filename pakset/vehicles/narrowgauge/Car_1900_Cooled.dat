@@ -18,6 +18,8 @@ loading_time=1400
 runningcost=140
 cost=1535794
 
+constraint[prev][0]=any
+
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1900_Cooled.0.<$0>
 
 ---

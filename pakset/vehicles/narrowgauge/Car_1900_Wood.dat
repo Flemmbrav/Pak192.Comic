@@ -14,6 +14,8 @@ payload=6
 freight=logs
 length=8
 waytype=track
+constraint[prev][0]=any
+
 
 EmptyImage[S]=./image/Car_1900_Wood.0.1
 EmptyImage[E]=./image/Car_1900_Wood.0.0

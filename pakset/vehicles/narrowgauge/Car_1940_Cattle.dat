@@ -14,6 +14,8 @@ freight=cattle
 length=8
 waytype=track
 loading_time=3160
+constraint[prev][0]=any
+
 EmptyImage[S]=./image/Car_1940_Cattle.0.1
 EmptyImage[E]=./image/Car_1940_Cattle.0.0
 EmptyImage[SE]=./image/Car_1940_Cattle.1.0

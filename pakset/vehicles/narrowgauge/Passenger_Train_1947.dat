@@ -18,4 +18,6 @@ loading_time=2470
 runningcost=247
 cost=2716923
 
+constraint[prev][0]=any
+
 emptyimage[s,w,se,sw]=./image/Passenger_Train_1947.0.<$0>

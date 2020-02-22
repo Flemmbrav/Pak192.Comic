@@ -14,6 +14,8 @@ freight=Passagiere
 length=8
 waytype=track
 loading_time=1420
+constraint[prev][0]=any
+
 EmptyImage[S]=./image/Passenger_Train_1900.0.1
 EmptyImage[E]=./image/Passenger_Train_1900.0.0
 EmptyImage[SE]=./image/Passenger_Train_1900.1.0
@@ -44,5 +46,7 @@ payload=20
 loading_time=570
 runningcost=57
 cost=626835
+
+constraint[prev][0]=any
 
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_1900_2.0.<$0>

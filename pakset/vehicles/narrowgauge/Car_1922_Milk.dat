@@ -14,6 +14,8 @@ freight=milk
 length=8
 waytype=track
 loading_time=1560
+constraint[prev][0]=any
+
 EmptyImage[S]=./image/Car_1922_Milk.0.1
 EmptyImage[E]=./image/Car_1922_Milk.0.0
 EmptyImage[SE]=./image/Car_1922_Milk.1.0

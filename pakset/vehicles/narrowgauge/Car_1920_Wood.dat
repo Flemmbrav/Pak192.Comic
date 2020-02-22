@@ -12,6 +12,8 @@ runningcost=400
 cost=4000000
 length=8
 loading_time=4000
+constraint[prev][0]=any
+
 emptyimage[W]=./image/Car_1920_Wood.0.0
 emptyimage[SW]=./image/Car_1920_Wood.1.1
 emptyimage[S]=./image/Car_1920_Wood.0.1

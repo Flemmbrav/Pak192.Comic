@@ -13,6 +13,8 @@ runningcost=298
 cost=3282510
 length=8
 loading_time=2130
+constraint[prev][0]=any
+
 EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_1965_Apple.0.<$0>
 freight=apples
 FreightImage[0-1][S,W,SE,SW,N,E,NW,NE]=./image/Car_1965_Apple.<$0+1>.<$1>

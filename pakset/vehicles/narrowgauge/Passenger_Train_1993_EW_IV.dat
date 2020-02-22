@@ -18,6 +18,8 @@ loading_time=1400
 runningcost=140
 cost=1538856
 
+constraint[prev][0]=any
+
 emptyimage[s,w,se,sw]=./image/Passenger_Train_1993_EW_IV.0.<$0>
 
 ---
@@ -47,4 +49,5 @@ runningcost=119
 cost=1311090
 
 constraint[prev][0]=none
+
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_1993_EW_IV_Bdt.0.<$0>

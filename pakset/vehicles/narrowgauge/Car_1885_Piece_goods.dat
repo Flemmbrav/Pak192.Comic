@@ -12,6 +12,8 @@ weight=8
 speed=35
 payload=6
 
+constraint[prev][0]=any
+
 freight=juice
 freightimagetype[0]=juice
 freightimagetype[1]=berries

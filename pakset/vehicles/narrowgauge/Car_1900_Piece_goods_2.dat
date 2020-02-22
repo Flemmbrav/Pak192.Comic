@@ -14,6 +14,8 @@ payload=10
 freight=juice
 length=6
 waytype=track
+constraint[prev][0]=any
+
 EmptyImage[S]=./image/Car_1900_Piece_goods_2.0.1
 EmptyImage[E]=./image/Car_1900_Piece_goods_2.0.0
 EmptyImage[SE]=./image/Car_1900_Piece_goods_2.1.0

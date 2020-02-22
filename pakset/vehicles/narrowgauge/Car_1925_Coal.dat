@@ -13,6 +13,8 @@ runningcost=142
 cost=1563100
 length=6
 loading_time=2130
+constraint[prev][0]=any
+
 EmptyImage[S]=./image/Car_1925_Coal.0.0
 EmptyImage[W]=./image/Car_1925_Coal.0.1
 EmptyImage[SE]=./image/Car_1925_Coal.0.2

@@ -12,6 +12,8 @@ freight=oil
 length=8
 waytype=track
 loading_time=2830
+constraint[prev][0]=any
+
 EmptyImage[S]=./image/Car_1922_Oil.0.1
 EmptyImage[E]=./image/Car_1922_Oil.0.0
 EmptyImage[SE]=./image/Car_1922_Oil.1.0

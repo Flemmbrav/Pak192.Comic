@@ -15,4 +15,6 @@ length=6
 waytype=track
 loading_time=660
 
+constraint[prev][0]=any
+
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1900_Cattle.0.<$0>
