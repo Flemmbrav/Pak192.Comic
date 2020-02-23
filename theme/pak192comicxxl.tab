@@ -17,6 +17,8 @@ gui_button_text_offset = 2,2,2
 gui_checkbox_width =34
 gui_checkbox_height = 34
 gui_button_height = 34
+gui_indicator_size = 20,10
+gui_waitingbar_width = 10
 
 
 ####general####
@@ -27,7 +29,7 @@ font-size = 20
 gui_color_text = #403022
 # Color of text in tabs, finance window headlines, ware list bonus text, minimap zoom indicator, fps info in video options.
 gui_color_text_highlight = #e8d8ca
-#Color of the title text in the welcome screen and in help.	
+#Color of the title text in the welcome screen and in help.
 gui_color_text_title = #FFFFFF
 #Color of strong/bold text in help.	
 gui_color_text_strong = #e8d8ca
