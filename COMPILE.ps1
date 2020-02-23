@@ -110,7 +110,10 @@ if (!(Test-Path "$csv")) {
 }
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
-compile '192' 'Landscape' 'pakset/landscape/**/*.dat'
+compile '192' 'Landscape' 'pakset/landscape/ground/*.dat'
+compile '192' 'Landscape' 'pakset/landscape/ground_obj/*.dat'
+compile '192' 'Landscape' 'pakset/landscape/tree/*.dat'
+compile '48' 'Landscape' 'pakset/landscape/pedestrians/*.dat'
 compile '192' 'Buildings' 'pakset/buildings/**/*.dat'
 compile '192' 'Infrastructure' 'pakset/infrastructure/**/*.dat'
 compile '192' 'Vehicles' 'pakset/vehicles/**/*.dat'

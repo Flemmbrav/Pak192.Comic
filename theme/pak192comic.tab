@@ -2,6 +2,14 @@ name=Pak192.Comic
 ##################################pakstuff##################################
 # pak with the images for this theme
 themeimages=menu.pak192comic.pak
+
+
+
+####sizes####
+gui_indicator_size = 20,6
+gui_waitingbar_width = 5
+
+
 ####general####
 
 font-size = 12
