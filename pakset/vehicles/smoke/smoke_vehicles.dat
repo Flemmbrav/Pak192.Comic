@@ -9,11 +9,11 @@ image[0-19]=./images/smoke_diesel_medium.<$0/4>.<$0%4+$0%4>
 #more specific ones
 ---
 obj=smoke
-name=smoke_diesel_light_short
+name=smoke_diesel_thin_short
 image[0-9]=./images/smoke_diesel_medium.<$0/4>.<$0%4+$0%4>
 ---
 obj=smoke
-name=smoke_diesel_light_long
+name=smoke_diesel_thin_long
 image[0-19]=./images/smoke_diesel_medium.<$0/4>.<$0%4+$0%4>
 ---
 obj=smoke
@@ -25,12 +25,12 @@ name=smoke_diesel_medium_long
 image[0-19]=./images/smoke_diesel_medium.<$0/4>.<$0%4+$0%4>
 ---
 obj=smoke
-name=smoke_diesel_heavy_short
-image[0-9]=./images/smoke_diesel_medium.<$0/4>.<$0%4+$0%4>
+name=smoke_diesel_thick_short
+image[0-9]=./images/smoke_diesel_thick.<$0/4>.<$0%4+$0%4>
 ---
 obj=smoke
-name=smoke_diesel_heavy_long
-image[0-19]=./images/smoke_diesel_medium.<$0/4>.<$0%4+$0%4>
+name=smoke_diesel_thick_long
+image[0-19]=./images/smoke_diesel_thick.<$0/4>.<$0%4+$0%4>
 ---
 
 #Hydrogen

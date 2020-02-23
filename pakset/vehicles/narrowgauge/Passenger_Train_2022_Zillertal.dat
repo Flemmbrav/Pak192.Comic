@@ -39,7 +39,7 @@ speed=80
 weight=28
 length=8
 engine_type=hydrogene
-smoke=Steam3hydro
+smoke=smoke_hydro
 power=200
 gear=100
 
