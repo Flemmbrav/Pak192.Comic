@@ -199,7 +199,7 @@ retire_month=0
 #EmptyImage[NE]=image/ICE_DB_403.5.5
 #EmptyImage[NW]=image/ICE_DB_403.5.6
 #EmptyImage[SW]=image/ICE_DB_403.5.7
----------
+#---------
 obj=vehicle
 name=BR_403_6
 

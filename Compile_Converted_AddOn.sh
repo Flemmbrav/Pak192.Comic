@@ -100,6 +100,8 @@ compile() {
             ./makeobj pak$1 ./compiled_converted_addons/ "./$dat" &> /dev/null
             if [[ $? != 0 ]]; then
                 echo "Error: Makeobj returned an error for $dat. Aborting..."
+		set -e o pipefail
+                echo -e "\x1B[33mErroe: Can not compile $dat\x1B[0m"
                 rm "$csv.in"
                 exit $?
             fi

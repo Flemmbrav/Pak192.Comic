@@ -5,6 +5,8 @@ waytype=track
 
 intro_year=1958
 intro_month=4
+retire_year=1974
+retire_month=5
 
 speed=80
 weight=65

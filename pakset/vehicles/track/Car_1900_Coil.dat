@@ -35,6 +35,7 @@ cost=3381400
 length=8
 loading_time=3070
 freight=sheetmetal
+constraint[prev][0]=any
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1940_Coil.0.<$0%4>
 freightimage[0][s,w,se,sw,n,e,nw,ne]=./image/Car_1940_Coil.1.<$0%4>
 freightimagetype[0]=sheetmetal
