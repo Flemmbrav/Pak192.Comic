@@ -11,7 +11,7 @@ runningcost=0
 weight=0
 speed=999
 length=0
-waytype=track
+waytype=narrowgauge_track
 
 constraint[prev][0]=EMT Class 153
 constraint[prev][1]=FGWR Class 153

@@ -74,6 +74,8 @@ length=12
 waytype=narrowgauge_track
 loading_time=10200
 
+constraint[prev][0]=any
+
 EmptyImage[E]=./image/SNCB_M6.0.2
 EmptyImage[S]=./image/SNCB_M6.0.3
 EmptyImage[W]=./image/SNCB_M6.0.0

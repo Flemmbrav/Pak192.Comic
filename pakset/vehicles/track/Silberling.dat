@@ -93,14 +93,14 @@ retire_year=1982
 #retire_year=1980
 retire_month=12
 freight=patients
-payload=3
-cost=6699000
-runningcost=609
+payload=32
+cost=669900000
+runningcost=60900
 weight=31
 speed=140
 length=12
 waytype=narrowgauge_track
-loading_time=6090
+loading_time=609000
 
 constraint[next][0]=any
 

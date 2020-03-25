@@ -42,6 +42,9 @@ weight=42
 runningcost=638
 cost=6615000
 length=12
+
+constraint[prev][0]=any
+
 emptyimage[e]=./image/UIC-X.0.0
 emptyimage[n]=./image/UIC-X.0.3
 emptyimage[ne]=./image/UIC-X.0.5

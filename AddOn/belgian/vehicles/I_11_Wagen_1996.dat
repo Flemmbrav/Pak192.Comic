@@ -21,6 +21,9 @@ weight=53
 speed=200
 length=12
 waytype=narrowgauge_track
+
+constraint[prev][0]=any
+
 EmptyImage[S]=./image/SNCB_199X.0.1
 EmptyImage[E]=./image/SNCB_199X.0.0
 EmptyImage[SE]=./image/SNCB_199X.0.4

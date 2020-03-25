@@ -1,7 +1,7 @@
 obj=roadsign
 name=signal
 copyright=PappeTeeMaster
-waytype=track
+waytype=narrowgauge_track
 intro_year=1980
 intro_month=1
 cost=750

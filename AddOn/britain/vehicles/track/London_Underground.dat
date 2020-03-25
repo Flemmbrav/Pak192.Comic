@@ -21,7 +21,8 @@ power=300
 gear=100
 speed=100
 length=11
-waytype=track
+
+waytype=narrowgauge_track
 engine_type=electric
 loading_time=2710
 #Constraint[Prev][0]=S_3-LT
@@ -55,7 +56,8 @@ power=300
 gear=100
 speed=100
 length=9
-waytype=track
+
+waytype=narrowgauge_track
 engine_type=electric
 loading_time=2220
 Constraint[Prev][0]=S_1-LT
@@ -90,7 +92,8 @@ power=300
 gear=100
 speed=100
 length=11
-waytype=track
+
+waytype=narrowgauge_track
 engine_type=electric
 loading_time=2710
 Constraint[Prev][0]=S_2-LT
@@ -126,7 +129,8 @@ power=500
 gear=100
 speed=72
 length=10
-waytype=track
+
+waytype=narrowgauge_track
 engine_type=electric
 loading_time=2170
 Constraint[Prev][0]=C_4-LT
@@ -160,7 +164,8 @@ weight=20
 gear=100
 speed=72
 length=10
-waytype=track
+
+waytype=narrowgauge_track
 engine_type=electric
 loading_time=2170
 Constraint[Prev][0]=C_1-LT
@@ -193,7 +198,8 @@ weight=20
 gear=100
 speed=72
 length=10
-waytype=track
+
+waytype=narrowgauge_track
 engine_type=electric
 loading_time=2170
 Constraint[Prev][0]=C_2-LT
@@ -227,7 +233,8 @@ power=500
 gear=100
 speed=72
 length=10
-waytype=track
+
+waytype=narrowgauge_track
 engine_type=electric
 loading_time=2170
 Constraint[Prev][0]=C_3-LT
