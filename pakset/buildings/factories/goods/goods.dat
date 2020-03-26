@@ -368,7 +368,7 @@ obj=good
 name=oil
 metric=m3
 catg=3
-value=130
+value=160
 speed_bonus=0
 weight_per_unit=900
 -----------------
@@ -376,7 +376,7 @@ obj=good
 name=naphtha
 metric=m3
 catg=3
-value=200
+value=220
 speed_bonus=0
 weight_per_unit=1000
 -----------------
