@@ -16,6 +16,7 @@ waytype=narrowgauge_track
 smoke=none
 sound=none
 loading_time=5530
+constraint[prev][0]=any
 
 EmptyImage[S]=image/mk1rm.0.3
 EmptyImage[E]=image/mk1rm.0.2
