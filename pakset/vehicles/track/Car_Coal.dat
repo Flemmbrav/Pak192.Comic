@@ -7,8 +7,9 @@ intro_month=9
 retire_month=3
 retire_year=1945
 speed=40
-payload=15
-weight=8
+payload=10
+#hat eine wirklich flache Bordwand, diese sollte eigentlich hoeher sein, so dass auch mehr mitgenommen werden kann
+weight=6
 runningcost=213
 cost=2344650
 length=6
@@ -39,6 +40,7 @@ weight=10
 runningcost=213
 cost=2344650
 length=8
+#muesste eigentlich kuerzer sein
 loading_time=2130
 freight=coal
 constraint[prev][0]=any
@@ -61,11 +63,12 @@ intro_month=9
 retire_month=5
 retire_year=1955
 speed=90
-payload=20
+payload=25
 weight=11
 runningcost=284
 cost=3126200
 length=8
+#muesste eigentlich kuerzer sein
 loading_time=2840
 freight=coal
 constraint[prev][0]=any

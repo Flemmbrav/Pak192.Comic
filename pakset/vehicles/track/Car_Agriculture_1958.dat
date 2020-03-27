@@ -1,6 +1,7 @@
 obj=vehicle
 name=Getreidewagen_Track1
-#original vehicle is a Tads
+#original vehicle is a Tads958
+#www.dybas.de/dybas/gw/gw_t_9/g958.html
 copyright=PappeTeeMaster & Flemmbrav
 waytype=narrowgauge_track
 intro_year=1958
@@ -8,8 +9,8 @@ intro_month=3
 #retire_month=7
 #retire_year=1980
 speed=130
-payload=44
-#83m3 equal around 44t
+payload=54
+#83m3 equal around 54t
 weight=13
 runningcost=244
 cost=2679600
