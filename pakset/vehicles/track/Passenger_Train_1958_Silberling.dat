@@ -102,7 +102,7 @@ length=12
 waytype=narrowgauge_track
 loading_time=609000
 
-constraint[next][0]=any
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/Silberling.5.1
 EmptyImage[E]=./image/Silberling.5.0
