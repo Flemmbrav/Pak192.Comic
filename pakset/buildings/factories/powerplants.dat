@@ -17,7 +17,7 @@ Productivity=6000
 Range=120
 #-----
 #electricity_amount=0
-passenger_demand=20
+passenger_demand=60
 mail_demand=80
 #electricity_boost=0
 passenger_boost=500
@@ -53,7 +53,7 @@ Productivity=4000
 Range=120
 #-----
 #electricity_amount=0
-passenger_demand=20
+passenger_demand=50
 mail_demand=80
 #electricity_boost=0
 passenger_boost=500
