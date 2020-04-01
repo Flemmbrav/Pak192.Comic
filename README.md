@@ -5,8 +5,8 @@ Pakset and theme for Simutrans
 ## Run the pakset
 
 0. Install Simutrans
-	1. In case you don't have it already, it's usually the best to get it from the official website: https://www.simutrans.com/en/download/
-	2. In case you want to go for a nightly here, check out [this page.](https://nightly.simutrans.com/en/)
+	1. Since this is a nightly pakset, it may not run with the Simutrans version you have already installed. Please go to https://www.simutrans-forum.de/nightly/ for the most recent Simutrans Nightlies.
+	Note: Nightlies do not replace stable versions, especially if you intend to play a long game!
 1. Get yourself the pakset from [the release page.](https://github.com/Flemmbrav/Pak192.Comic/releases)
 	1. Additionally you can download an addonset from the same page. This addon set does not include all addons there are.
 	2. Or download yourself an old version from [the forum.](https://forum.simutrans.com/index.php?board=120.0)
@@ -20,9 +20,6 @@ Pakset and theme for Simutrans
 
 ## Run the theme
 
-0. Install Simutrans
-	1. In case you don't have it already, it's usually the best to get it from the official website: https://www.simutrans.com/en/download/
-	2. In case you want to go for a nightly here, check out [this page.](https://nightly.simutrans.com/en/)
 1. Get yourself the theme from [the release page.](https://github.com/Flemmbrav/Pak192.Comic/releases)
 2. Unzip the theme.
 3. Copy the unzipped theme in the theme folder inside of your Simutrans game folder.
