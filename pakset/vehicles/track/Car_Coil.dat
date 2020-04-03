@@ -28,7 +28,7 @@ intro_year=1940
 retire_month=5
 retire_year=1990
 speed=90
-payload630
+payload=60
 weight=20
 runningcost=407
 cost=3381400
