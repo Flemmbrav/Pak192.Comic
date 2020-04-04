@@ -609,3 +609,14 @@ gear=100
 image[s,w,e,n,ne,sw,nw,se]=./citycar/herbie.0.<$0>
 distributionweight=5
 -----
+obj=citycar
+name=taxi
+copyright=Alex. Brose
+intro_year=1982
+intro_month=1
+speed=170
+power=90
+gear=50
+image[s,w,e,n,ne,sw,nw,se]=./citycar/taxi.0.<$0>
+distributionweight=5
+-----
