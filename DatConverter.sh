@@ -294,6 +294,12 @@ calculatecosts(){
 			EffectivePower=$(( EffectivePower * 100 ))
 		fi
 		PowerValue="$(getincome "None" $EffectivePower ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
+		
+		if [[ ! -z ${ObjectArray[engine_type]} ]] ;then
+			if [[ ${ObjectArray[engine_type]} == "electric" ]] ;then
+				PowerValue=$(( PowerValue  / 100 * 85 ))
+			fi
+		fi
 		PowerValue=$(( PowerValue / 1000 ))
 	fi
 	#calculate the runningcosts
@@ -301,7 +307,7 @@ calculatecosts(){
 	local RunningCost=$(( Income + PowerValue ))
 	#malus for passenger trains as they usually get higher average payload
 	if [[ ${ObjectArray[freight]} == "Passagiere" ]] ;then
-		RunningCost=$(( RunningCost / 2500 ))
+		RunningCost=$(( RunningCost / 3000 ))
 	else
 		RunningCost=$(( RunningCost / 4000 ))
 	fi

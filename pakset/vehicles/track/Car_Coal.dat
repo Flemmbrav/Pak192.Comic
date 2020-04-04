@@ -18,7 +18,7 @@ length=6
 loading_time=2130
 freight=coal
 constraint[prev][0]=any
-EmptyImage[E,S,W,N,NE,SE,NW,SW]=./image/Kohlewagen1.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Kohlewagen1.0.<$0>
 freightimagetype[0]=coal
 freightimagetype[1]=ore
 freightimagetype[2]=sand
@@ -26,7 +26,7 @@ freightimagetype[3]=gravel
 freightimagetype[4]=salt
 freightimagetype[5]=limestone
 freightimagetype[6]=plastics
-FreightImage[0-4][E,S,W,N,NE,SE,NW,SW]=./image/Kohlewagen1.<$0+1>.<$1>
+FreightImage[0-4][E,S,W,N,SE,NE,NW,SW]=./image/Kohlewagen1.<$0+1>.<$1>
 -----
 obj=vehicle
 name=Kohlewagen_Track2
