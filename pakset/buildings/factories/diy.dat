@@ -63,7 +63,7 @@ InputCapacity[3]=4000
 InputSupplier[3]=1
 InputFactor[3]=60
 
-expand_probability=25000
+expand_probability=10000
 expand_minimum=20
 expand_range=20
 expand_times=10
