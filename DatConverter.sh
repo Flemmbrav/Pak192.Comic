@@ -302,15 +302,14 @@ calculatecosts(){
 		fi
 		PowerValue=$(( PowerValue / 1000 ))
 	fi
+	#malus for passenger trains as they usually get higher average payload
+	if [[ ${ObjectArray[freight]} == "Passagiere" ]] ;then
+		Income=$(( Income / 100 * 130 ))
+	fi
 	#calculate the runningcosts
 	local Cost=$(( Income + 10 * PowerValue ))
 	local RunningCost=$(( Income + PowerValue ))
-	#malus for passenger trains as they usually get higher average payload
-	if [[ ${ObjectArray[freight]} == "Passagiere" ]] ;then
-		RunningCost=$(( RunningCost / 3000 ))
-	else
-		RunningCost=$(( RunningCost / 4000 ))
-	fi
+	RunningCost=$(( RunningCost / 4000 ))
 	local LoadingTime=$(( Income / 300 ))
 	if [[ $ForcingNewValues == 1 ]];then
 		echo "loading_time=$LoadingTime" >> calculated/$dat
