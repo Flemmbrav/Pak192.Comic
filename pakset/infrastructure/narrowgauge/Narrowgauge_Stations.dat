@@ -173,3 +173,23 @@ cursor=./images/station/Goods_1.1.0
 BackImage[0-1][0][0][0][0][0-1]=./images/station/Goods_1.<$1*2>.<$0+1>
 
 Dims=1,1,2
+-----
+obj=building
+name=narrowgauge_station_passenger_roof_4
+copyright=Leartin, Flemmbrav
+intro_month=1
+intro_year=1980
+type=stop
+waytype=track
+allow_underground=0
+enables_pax=1
+level=4
+noinfo=1
+icon=> ./images/station/passenger_roof_4.0.0
+cursor=./images/station/passenger_roof_4.1.0
+BackImage[0-7][0][0][0][0][0]=./images/station/passenger_roof_4.0.<$0+1>
+FrontImage[0-7][0][0][0][0][0]=./images/station/passenger_roof_4.1.<$0+1>
+BackImage[8-15][0][0][0][0][0]=./images/station/passenger_roof_4.2.<$0-7>
+FrontImage[8-15][0][0][0][0][0]=./images/station/passenger_roof_4.3.<$0-7>
+Dims=1,1,16
+------
