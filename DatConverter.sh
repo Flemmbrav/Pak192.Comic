@@ -33,7 +33,7 @@ readgoods() {
 	#creates a new GoodArray including all the parameters of a single good
 	#runs readgoodline for each line in the file
 	#saves the good to an array when it's fully read
-	local GoodsFile=`cat pakset/buildings/factories/goods/goods.dat`
+	local GoodsFile=`cat pakset/buildings/factories/goods/goods.dat | tr -d '\r'`
 
 	`rm -f calculated/pakset/buildings/factories/goods/goods.dat`
 	declare -A GoodArray
@@ -230,7 +230,7 @@ readfile() {
 	#creates a new ObjectArray
 	#runs readline for each line in the file
 	local Filename=$1
-	local File=`cat $Filename`
+	local File=`cat $Filename | tr -d '\r'`
 
 	`rm -f calculated/$Filename`
 	declare -A ObjectArray
@@ -586,7 +586,7 @@ Commands:
 		declare -A GoodsWeigthArray
 		echo "- Read Meta Files"
 		readgoods
-		SpeedBonusFile=`cat pakset/trunk/config/speedbonus.tab`
+		SpeedBonusFile=`cat pakset/trunk/config/speedbonus.tab | tr -d '\r'`
 
 		if [[ $ReadAll == 1 ]];then
 			echo "- Edit All .dat Files"
