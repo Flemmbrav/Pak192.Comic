@@ -304,7 +304,7 @@ calculatecosts(){
 	fi
 	#malus for passenger trains as they usually get higher average payload
 	if [[ ${ObjectArray[freight]} == "Passagiere" ]] ;then
-		Income=$(( Income / 100 * 130 ))
+		Income=$(( Income / 100 * 110 ))
 	fi
 	#calculate the runningcosts
 	local Cost=$(( Income + 10 * PowerValue ))
