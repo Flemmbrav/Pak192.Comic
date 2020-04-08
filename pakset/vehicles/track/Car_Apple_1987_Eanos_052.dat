@@ -1,0 +1,22 @@
+obj=vehicle
+name=Car_Apple_1987_Eanos_052
+copyright=Flemmbrav
+waytype=narrowgauge_track
+intro_year=1987
+intro_month=9
+retire_month=3
+retire_year=2015
+speed=100
+payload=29
+#with 82m3 and 0,35t/m3 for hop
+weight=24
+runningcost=213
+cost=2344650
+length=8
+loading_time=2130
+freight=apples
+constraint[prev][0]=any
+EmptyImage[s,w,se,sw]=./image/Car_Apple_1987_Eanos_052.0.<$0>
+freightimagetype[0]=apples
+freightimagetype[1]=hop
+FreightImage[0-1][s,w,se,sw]=./image/Car_Apple_1987_Eanos_052.<$0+1>.<$1>
