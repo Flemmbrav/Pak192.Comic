@@ -85,7 +85,7 @@ seperate_halt_capacities = 1
 # three modes (default = 0)
 # 1: the payment is only relative to the distance to next interchange, 2 to the trips destination
 # (default 0 is distance since last stop)
-pay_for_total_distance = 1
+pay_for_total_distance = 2
 
 
 ##################################industry stuff#################################
@@ -114,7 +114,7 @@ factory_spacing = 10
 ###################################money stuff##################################
 
 # Starting money of the player. Given in Credit cents (1/100 Cr)
-starting_money = 200000000
+starting_money = 500000000
 
 # Maintenance costs of buildings
 maintenance_building = 2000
@@ -138,7 +138,8 @@ cost_depot_road=5000
 cost_depot_ship=25000
 
 # other way related stuff
-cost_signal=250
+#cost_signal=250
+cost_signal=2500
 cost_tunnel=8000
 cost_third_rail=80
 
