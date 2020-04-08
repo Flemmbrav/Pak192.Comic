@@ -1,0 +1,22 @@
+obj=vehicle
+name=Car_Apple_1979_Eaos_106
+copyright=Flemmbrav
+waytype=narrowgauge_track
+intro_year=1979
+intro_month=9
+retire_month=3
+retire_year=1988
+speed=100
+payload=25
+#with 71m3 and 0,35t/m3 for hopper
+weight=21
+runningcost=213
+cost=2344650
+length=7
+loading_time=2130
+freight=apples
+constraint[prev][0]=any
+EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Apple_1979_Eaos_106.0.<$0>
+freightimagetype[0]=apples
+freightimagetype[1]=hop
+FreightImage[0-1][s,w,se,sw,n,e,nw,ne]=./image/Car_Apple_1979_Eaos_106.<$0+1>.<$1>
