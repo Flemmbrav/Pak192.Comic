@@ -87,6 +87,11 @@ seperate_halt_capacities = 1
 # (default 0 is distance since last stop)
 pay_for_total_distance = 2
 
+# Convoy lengths that exceed the standards
+max_rail_convoi_length = 64
+# max_road_convoi_length = 32
+# max_ship_convoi_length = 32
+# max_air_convoi_length = 32
 
 ##################################industry stuff#################################
 
