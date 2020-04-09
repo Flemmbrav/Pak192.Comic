@@ -1,0 +1,77 @@
+###################
+# SUBWAY STATIONS #
+###################
+#
+Obj=building
+name=extension_UBahn
+copyright=Leartin
+intro_month=5
+intro_year=1996
+type=extension
+level=10
+needs_ground=1
+enables_pax=1
+noinfo=1
+Dims=1,1,2
+icon=> ./images/UBahn.0.2
+cursor=./images/UBahn.1.2
+BackImage[0][0][0][0][0][0]=./images/UBahn.1.0
+BackImage[1][0][0][0][0][0]=./images/UBahn.0.0
+# winter
+BackImage[0][0][0][0][0][1]=./images/UBahn.1.1
+BackImage[1][0][0][0][0][1]=./images/UBahn.0.1
+-----
+Obj=building
+name=extension_UBahn2
+copyright=Leartin
+intro_month=5
+intro_year=1930
+type=extension
+level=10
+needs_ground=1
+enables_pax=1
+noinfo=1
+Dims=1,1,4
+icon=> ./images/UBahn2.0.4
+cursor=./images/UBahn2.1.4
+BackImage[0-3][0][0][0][0-2][0-1]=./images/Ubahn2.<$1+$2*3>.<$0>
+-----
+###################
+# MAIL EXTENSIONS #
+###################
+#
+Obj=building
+name=extension_Postamt
+copyright=Leartin
+intro_month=5
+intro_year=1996
+type=extension
+level=10
+needs_ground=1
+enables_post=1
+noinfo=1
+Dims=1,1,1
+icon=> ./images/Postamt.0.2
+cursor=./images/Postamt.0.3
+BackImage[0][0][0][0][0][0]=./images/Postamt.0.0
+BackImage[0][0][0][0][0][1]=./images/Postamt.0.1
+-----
+###################
+# MISC EXTENSIONS #
+###################
+#
+Obj=building
+name=extension_taxi
+copyright=Leartin
+intro_month=5
+intro_year=1970
+type=extension
+level=10
+needs_ground=0
+enables_pax=1
+noinfo=1
+Dims=1,3,4
+icon=> ./images/taxi.0.15
+cursor=./images/taxi.1.15
+BackImage[0,2][0-2][0][0][0][0-4]=./images/taxi.<$0>.<2-$1+$2*3>,0,18
+BackImage[1,3][0][0-2][0][0][0-4]=./images/taxi.<$0>.<$1+$2*3>,0,18
