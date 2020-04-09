@@ -9,7 +9,7 @@ runningcost=142
 cost=1567088
 weight=6
 speed=40
-payload=50
+payload=30
 freight=Passagiere
 length=8
 waytype=track
@@ -42,7 +42,7 @@ weight=8
 length=7
 
 freight=Passagiere
-payload=20
+payload=36
 loading_time=570
 runningcost=57
 cost=626835

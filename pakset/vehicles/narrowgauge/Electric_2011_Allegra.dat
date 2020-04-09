@@ -34,7 +34,7 @@ intro_month=6
 #retire_month=5
 freight=Passagiere
 
-payload=60
+payload=44
 loading_time=1280
 speed=100
 weight=32

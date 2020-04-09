@@ -16,7 +16,7 @@ power=784
 gear=100
 
 freight=Passagiere
-payload=44
+payload=30
 loading_time=1740
 runningcost=618
 cost=18957095
@@ -45,7 +45,7 @@ power=784
 gear=100
 
 freight=Passagiere
-payload=44
+payload=30
 loading_time=1740
 runningcost=618
 cost=18957095
@@ -73,7 +73,7 @@ length=8
 engine_type=electric
 
 freight=Passagiere
-payload=44
+payload=36
 loadingtime=1740
 runningcost=174
 cost=1915914
@@ -100,7 +100,7 @@ length=8
 engine_type=electric
 
 freight=Passagiere
-payload=44
+payload=36
 loadingtime=1740
 runningcost=174
 cost=1915914

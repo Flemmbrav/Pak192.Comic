@@ -14,7 +14,7 @@ length=8
 engine_type=hydrogene
 
 freight=Passagiere
-payload=50
+payload=40
 loading_time=270
 runningcost=27
 cost=299063
@@ -44,7 +44,7 @@ power=200
 gear=100
 
 freight=Passagiere
-payload=60
+payload=48
 loading_time=330
 runningcost=33
 cost=5331675
@@ -71,7 +71,7 @@ length=8
 engine_type=hydrogene
 
 freight=Passagiere
-payload=50
+payload=40
 loading_time=270
 runningcost=27
 cost=299063

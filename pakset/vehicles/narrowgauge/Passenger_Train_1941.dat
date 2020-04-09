@@ -13,7 +13,7 @@ weight=16
 length=8
 
 freight=Passagiere
-payload=34
+payload=36
 loading_time=840
 runningcost=84
 cost=919199
@@ -38,7 +38,7 @@ weight=14
 length=8
 
 freight=Passagiere
-payload=26
+payload=30
 loading_time=640
 runningcost=64
 cost=702917

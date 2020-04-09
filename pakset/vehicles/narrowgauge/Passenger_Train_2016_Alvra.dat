@@ -8,7 +8,7 @@ intro_month=6
 #retire_month=5
 freight=Passagiere
 
-payload=60
+payload=56
 loading_time=1080
 speed=100
 weight=20
@@ -31,7 +31,7 @@ intro_month=6
 #retire_month=5
 freight=Passagiere
 
-payload=50
+payload=52
 loading_time=900
 speed=100
 weight=20
@@ -54,7 +54,7 @@ intro_month=6
 #retire_month=5
 freight=Passagiere
 
-payload=40
+payload=48
 loading_time=720
 speed=100
 weight=20
