@@ -14,7 +14,7 @@ speed=100
 weight=20
 runningcost=108
 cost=1191465
-length=8
+length=7
 
 constraint[prev][0]=any
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_2016.0.<$0>
@@ -37,7 +37,7 @@ speed=100
 weight=20
 runningcost=90
 cost=992888
-length=8
+length=7
 
 constraint[prev][0]=any
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_2016_Photo.0.<$0>
@@ -60,7 +60,7 @@ speed=100
 weight=20
 runningcost=72
 cost=794310
-length=8
+length=7
 
 constraint[prev][0]=none
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_2016_STW.0.<$0>
