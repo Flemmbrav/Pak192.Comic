@@ -1,0 +1,140 @@
+###################
+# WAREHOUSES      #
+###################
+#
+Obj=building
+name=extension_Lagerhalle
+copyright=Flemmbrav
+intro_month=1
+intro_year=1922
+type=extension
+level=10
+needs_ground=0
+#climates=mediterran, temperate, tundra, rocky
+enables_ware=1
+noinfo=1
+Dims=1,1,4
+icon=> ./images/Lager.1.0
+cursor=./images/Lager.1.1
+BackImage[0][0][0][0][0][0]=./images/Lager.3.0
+BackImage[1][0][0][0][0][0]=./images/Lager.4.0
+BackImage[2][0][0][0][0][0]=./images/Lager.2.0
+BackImage[3][0][0][0][0][0]=./images/Lager.0.0
+# winter
+BackImage[0][0][0][0][0][1]=./images/Lager.3.1
+BackImage[1][0][0][0][0][1]=./images/Lager.4.1
+BackImage[2][0][0][0][0][1]=./images/Lager.2.1
+BackImage[3][0][0][0][0][1]=./images/Lager.0.1
+---
+Obj=building
+name=extension_Lagerhalle2
+copyright=Alex. Brose
+intro_month=1
+intro_year=1900
+type=extension
+level=10
+needs_ground=0
+enables_ware=1
+noinfo=1
+Dims=1,1,2
+BackImage[0-1][0][0][0][0][0-1]=./images/Lager2.0.<$1+$0*2>
+FrontImage[0-1][0][0][0][0][0-1]=./images/Lager2.1.<$1+$0*2>
+icon=> ./images/Lager2.2.0
+cursor=./images/Lager2.2.1
+---
+###################
+# TANKS           #
+###################
+#
+obj=building
+name=OelundGasTank
+copyright=Flemmbrav
+intro_year=1920
+type=extension
+level=10
+needs_ground=1
+#climates=mediterran, temperate, tundra, rocky
+enables_ware=1
+noinfo=1
+icon=> ./images/OelundGastank.1.0
+cursor=./images/OelundGastank.1.1
+BackImage[0][0][0][0][0][0]=./images/OelundGastank.0.0
+BackImage[0][0][0][0][0][1]=./images/OelundGastank.0.1
+-----
+obj=building
+name=spheretank
+copyright=Leartin
+intro_year=1980
+type=extension
+level=10
+needs_ground=1
+#climates=mediterran, temperate, tundra, rocky
+enables_ware=1
+noinfo=1
+Dims=1,1,4
+icon=> ./images/spheretank.0.4
+cursor=./images/spheretank.1.4
+BackImage[0-3][0][0][0][0][0-1]=./images/spheretank.<$1>.<$0>
+-----
+###################
+# STORAGE SPACE   #
+###################
+#
+obj=building
+name=logstorage
+copyright=Leartin
+intro_year=1900
+type=extension
+level=10
+needs_ground=1
+#climates=mediterran, temperate, tundra, rocky
+enables_ware=1
+noinfo=1
+Dims=1,1,4
+icon=> ./images/logstorage.0.4
+cursor=./images/logstorage.1.4
+BackImage[0-3][0][0][0][0][0-1]=./images/logstorage.<$1>.<$0>
+-----
+obj=building
+name=coalstorage
+copyright=Leartin
+intro_year=1900
+type=extension
+level=10
+needs_ground=1
+enables_ware=1
+noinfo=1
+Dims=1,1,4
+icon=> ./images/coalstorage.0.4
+cursor=./images/coalstorage.1.4
+BackImage[0-3][0][0][0][0][0-1]=./images/coalstorage.<$1>.<$0>
+-----
+obj=building
+name=boardstorage
+copyright=Leartin
+intro_year=1980
+type=extension
+level=10
+needs_ground=1
+#climates=mediterran, temperate, tundra, rocky
+enables_ware=1
+noinfo=1
+Dims=1,1,4
+icon=> ./images/boardstorage.0.4
+cursor=./images/boardstorage.1.4
+BackImage[0-3][0][0][0][0][0-1]=./images/boardstorage.<$1>.<$0>
+-----
+obj=building
+name=Containererweiterung
+copyright=Flemmbrav
+intro_year=1980
+type=extension
+level=10
+needs_ground=1
+climates=mediterran, temperate, tundra, rocky
+enables_ware=1
+noinfo=1
+Dims=1,1,2
+icon=> ./images/Container_extension.2.0
+cursor=./images/Container_extension.2.1
+BackImage[0-1][0][0][0][0][0-1]=./images/Container_extension.<$1>.<1-$0>
