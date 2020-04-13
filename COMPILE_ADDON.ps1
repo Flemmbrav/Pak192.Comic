@@ -110,7 +110,7 @@ if (!(Test-Path "$csv")) {
 }
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
-compile '192' 'British Infrastrukture' 'AddOn/britain/infrastruktur/*.dat'
+compile '192' 'British Infrastrukture' 'AddOn/britain/Infrastruktur/*.dat'
 compile '192' 'British Vehicles' 'AddOn/britain/vehicles/**/*.dat'
 compile '192' 'Czech Vehicles' 'AddOn/czech/vehicles/**/*.dat'
 compile '192' 'German Vehicles' 'AddOn/german/vehicles/**/*.dat'
