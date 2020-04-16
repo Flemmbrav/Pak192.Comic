@@ -69,6 +69,6 @@ waytype=road
 cost=450
 min_speed=0
 is_private=1
-Image[0-7]=./images/signal/road_private.0.<§0>
+Image[0-3]=./images/signal/road_private.0.<§0>
 icon=> ./images/signal/road_private.0.4
 cursor=./images/signal/road_private.0.5
