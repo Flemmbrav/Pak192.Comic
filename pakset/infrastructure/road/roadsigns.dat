@@ -61,3 +61,14 @@ cost=800
 image[0-15]=./images/signal/traffic_light.<$0/8>.<$0%8>
 Icon=> ./images/signal/traffic_light.0.8
 Cursor=./images/signal/traffic_light.0.9
+---------------------------
+obj=roadsign
+name=road_private
+copyright=timeshock
+waytype=road
+cost=450
+min_speed=0
+is_private=1
+Image[0-3]=./images/signal/road_private.0.<§0>
+icon=> ./images/signal/road_private.0.4
+cursor=./images/signal/road_private.0.5
