@@ -85,6 +85,28 @@ Diagonal[NW,NE,SE,SW][0-1]=./images/way/road_city_fake_<$1>.<$0>.4
 ImageUp[3,6,9,12][0-1]=./images/way/road_city_fake_<$1>.<$0/3-1>.5
 ImageUp2[3,6,9,12][0-1]=./images/way/road_city_fake_<$1>.<$0/3-1>.6
 -------------------------
+obj=way
+waytype=road
+name=industry_road
+copyright=Leartin
+intro_month=1
+intro_year=1945
+cost=500
+maintenance=110
+topspeed=50
+icon=> ./images/way/road-icon-cursor.7.0
+cursor=./images/way/road-icon-cursor.7.1
+
+Image[EW,NS][0-1]=./images/way/road_industry_<$1>.<$0>.0
+Image[NSEW][0-1]=./images/way/road_industry_<$0>.2.0
+Image[-][0-1]=./images/way/road_industry_<$0>.3.0
+Image[E,S,W,N][0-1]=./images/way/road_industry_<$1>.<$0>.1
+Image[NSW,NEW,NSE,SEW][0-1]=./images/way/road_industry_<$1>.<$0>.2
+Image[NW,NE,SE,SW][0-1]=./images/way/road_industry_<$1>.<$0>.3
+Diagonal[NW,NE,SE,SW][0-1]=./images/way/road_industry_<$1>.<$0>.4
+ImageUp[3,6,9,12][0-1]=./images/way/road_industry_<$1>.<$0/3-1>.5
+ImageUp2[3,6,9,12][0-1]=./images/way/road_industry_<$1>.<$0/3-1>.6
+-------------------------
 
 
 
