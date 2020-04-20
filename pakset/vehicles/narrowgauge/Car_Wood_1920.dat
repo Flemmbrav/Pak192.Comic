@@ -14,19 +14,10 @@ length=8
 loading_time=4000
 constraint[prev][0]=any
 
-emptyimage[W]=./image/Car_1920_Wood.0.0
-emptyimage[SW]=./image/Car_1920_Wood.1.1
-emptyimage[S]=./image/Car_1920_Wood.0.1
-emptyimage[SE]=./image/Car_1920_Wood.1.0
+emptyimage[W,SW,S,SE]=./image/Car_1920_Wood.0.<$0>
 freight=logs
-freightimage[0][W]=./image/Car_1920_Wood.2.0
-freightimage[0][SW]=./image/Car_1920_Wood.3.1
-freightimage[0][S]=./image/Car_1920_Wood.2.1
-freightimage[0][SE]=./image/Car_1920_Wood.3.0
 freightimagetype[0]=logs
-freightimage[1][W]=./image/Car_1920_Wood.4.0
-freightimage[1][SW]=./image/Car_1920_Wood.5.1
-freightimage[1][S]=./image/Car_1920_Wood.4.1
-freightimage[1][SE]=./image/Car_1920_Wood.5.0
 freightimagetype[1]=boards
+freightimagetype[2]=sugarcane
+freightimage[0-2][W,SW,S,SE]=./image/Car_1920_Wood.<$0+1>.<$1>
 -----

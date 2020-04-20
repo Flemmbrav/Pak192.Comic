@@ -79,3 +79,13 @@ freightimage[1][s]=./image/Holztransport_Rnoos_644.2.1
 freightimage[1][se]=./image/Holztransport_Rnoos_644.2.4
 freightimage[1][sw]=./image/Holztransport_Rnoos_644.2.7
 freightimage[1][w]=./image/Holztransport_Rnoos_644.2.2
+
+freightimagetype[2]=sugarcane
+freightimage[2][e]=./image/Holztransport_Rnoos_644.3.0
+freightimage[2][n]=./image/Holztransport_Rnoos_644.3.3
+freightimage[2][ne]=./image/Holztransport_Rnoos_644.3.5
+freightimage[2][nw]=./image/Holztransport_Rnoos_644.3.6
+freightimage[2][s]=./image/Holztransport_Rnoos_644.3.1
+freightimage[2][se]=./image/Holztransport_Rnoos_644.3.4
+freightimage[2][sw]=./image/Holztransport_Rnoos_644.3.7
+freightimage[2][w]=./image/Holztransport_Rnoos_644.3.2
