@@ -145,6 +145,7 @@ compile '192' 'German Vehicles' 'AddOn/german/vehicles/**/*.dat'
 compile '192' 'Japanese Stuff' 'AddOn/japanese/vehicles/*.dat'
 compile '192' 'Belgish Stuff' 'AddOn/belgian/**/*.dat'
 compile '192' 'French Stuff' 'AddOn/french/**/*.dat'
+compile '192' 'Danish Stuff' 'AddOn/danish/**/*.dat'
 
 # Finished successfully, get rid of old csv
 mv "$csv.in" "$csv"
