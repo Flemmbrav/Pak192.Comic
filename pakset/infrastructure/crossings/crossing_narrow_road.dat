@@ -1,6 +1,6 @@
 obj=crossing
 name=narrowgauge-road-crossing
-copyright=PappeTeeMaster
+copyright=Flemmbrav
 waytype[0]=road
 waytype[1]=track
 speed[0]=100

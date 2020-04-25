@@ -1,5 +1,4 @@
 obj=way-object
-waytype=track
 own_waytype=electrified_track
 name=fourth_rail_100
 copyright=Flemmbrav

@@ -564,7 +564,7 @@ name=gold
 catg=8
 metric=chests
 weight_per_unit=1000
-value=12000
+value=6300
 speed_bonus=0
 -----------------
 obj=good
@@ -572,7 +572,7 @@ name=notes
 catg=8
 metric=suitcases
 weight_per_unit=1000
-value=12000
+value=6300
 speed_bonus=0
 -----------------
 obj=good
@@ -580,7 +580,7 @@ name=coins
 catg=8
 metric=bags
 weight_per_unit=1000
-value=12000
+value=6300
 speed_bonus=0
 -----------------
 # cat 9: agricultural #########################################
