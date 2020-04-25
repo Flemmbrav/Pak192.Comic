@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'pak192.comic open-source repository AddOn compiler for Unix'
+echo 'pak192.comic open-source repository Serverset compiler for Unix'
 echo -e '======================================================\n'
 
 echo 'This bash compiles this repository into a new folder'
@@ -132,7 +132,7 @@ if [ ! -d 'compiled_serverset' ]; then
     mkdir compiled_serverset
 fi
 
-csv=compiled_serverset/compiled_addons.csv
+csv=compiled_serverset/compiled_serverset.csv
 
 # No file from last run, create empty one
 if [ ! -f $csv ]; then
@@ -167,6 +167,11 @@ compile '384' 'Larger Objects' 'calculated/pakset/384/**/*.dat'
 # Finished successfully, get rid of old csv
 mv "$csv.in" "$csv"
 
+echo -e '------------------------------------------------------'
+echo -e 'Moving Trunk (configs, sound, text)\n\n'
+
+cp -r calculated/pakset/trunk/* compiled_serverset
+
 echo '======================================================'
-echo 'AddOn folder complete!'
+echo 'Serverset folder complete!'
 echo '======================================================'

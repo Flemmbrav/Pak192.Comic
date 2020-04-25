@@ -203,19 +203,19 @@ jobs:
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
 
-    - name: Compile pak192.comic addons
+    - name: Compile pak192.comic with extra addons
       run: bash Compile_Converted_Serverset.sh
 
     - name: zip converted_addons
       run: |
-        mv compiled_serverset pak192.comic-servesrset-nightly
-        zip -r pak192.comic-servesrset-nightly.zip pak192.comic-servesrset-nightly
+        mv compiled_serverset pak192.comic-serverset-nightly
+        zip -r pak192.comic-serverset-nightly.zip pak192.comic-serverset-nightly
 
-    - name: Update Addons of Nightly Release
+    - name: Update Serverset of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192.comic-servesrset-nightly.zip
-        asset_name: pak192.comic-servesrset-nightly.zip
+        file: ./pak192.comic-serverset-nightly.zip
+        asset_name: pak192.comic-serverset-nightly.zip
         tag: Nightly
         overwrite: true
