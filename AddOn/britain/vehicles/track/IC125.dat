@@ -5,6 +5,7 @@ intro_year=1975
 intro_month=10
 retire_year=1982
 retire_month=10
+payload=0
 cost=66444588
 runningcost=1636
 freight=Passagiere
@@ -37,7 +38,8 @@ intro_year=1975
 intro_month=10
 retire_year=1982
 retire_month=10
-payload=0cost=66444588
+payload=0
+cost=66444588
 runningcost=1636
 freight=Passagiere
 weight=70
