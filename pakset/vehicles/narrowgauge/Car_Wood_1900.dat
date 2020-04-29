@@ -15,9 +15,9 @@ length=8
 waytype=track
 constraint[prev][0]=any
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]./image/Car_1900_Wood.<$0/4>.<$0%4>
+EmptyImage[s,w,se,sw]./image/Car_Wood_1900.$0.<$0>
 freight=logs
 freightimagetype[0]=logs
 freightimagetype[1]=boards
 freightimagetype[2]=sugarcane
-freightimage[0-2][E,S,W,N,SE,NE,NW,SW]./image/Car_1900_Wood.<2+$0*2+$1/4>.<$1%4>
+freightimage[0-2][s,w,se,sw]./image/Car_Wood_1900.<$0+1>.<$1>
