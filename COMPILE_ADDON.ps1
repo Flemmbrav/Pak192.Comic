@@ -114,9 +114,11 @@ compile '192' 'British Infrastrukture' 'AddOn/britain/Infrastruktur/*.dat'
 compile '192' 'British Vehicles' 'AddOn/britain/vehicles/**/*.dat'
 compile '192' 'Czech Vehicles' 'AddOn/czech/vehicles/**/*.dat'
 compile '192' 'German Vehicles' 'AddOn/german/vehicles/**/*.dat'
-compile '192' 'Japanese Stuff' 'AddOn/japanese/*.dat'
+compile '192' 'Japanese Stuff' 'AddOn/japanese/vehicles/*.dat'
 compile '192' 'Belgish Stuff' 'AddOn/belgian/**/*.dat'
 compile '192' 'French Stuff' 'AddOn/french/**/*.dat'
+compile '192' 'Danish Stuff' 'AddOn/danish/**/*.dat'
+compile '192' 'Swiss Stuff' 'AddOn/swiss/**/**/*.dat'
 
 # remove the old csv
 mv -Force "$csv.in" "$csv"
