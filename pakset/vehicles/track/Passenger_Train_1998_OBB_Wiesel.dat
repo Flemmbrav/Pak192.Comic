@@ -13,11 +13,11 @@ length=12
 waytype=narrowgauge_track
 loading_time=8790
 
-constraint[prev][0]=Wagen_OBB_Wiesel_2
-constraint[prev][1]=none
-constraint[next][0]=Wagen_OBB_Wiesel_2
-constraint[next][1]=Wagen_OBB_Wiesel_3
-constraint[next][2]=Cityshuttle
+#constraint[prev][0]=Wagen_OBB_Wiesel_2
+#constraint[prev][1]=none
+#constraint[next][0]=Wagen_OBB_Wiesel_2
+#constraint[next][1]=Wagen_OBB_Wiesel_3
+#constraint[next][2]=Cityshuttle
 
 EmptyImage[E]=./image/Wagen_OBB_Wiesel.2.2
 EmptyImage[S]=./image/Wagen_OBB_Wiesel.2.3
@@ -43,11 +43,12 @@ length=12
 waytype=narrowgauge_track
 loading_time=8790
 
-constraint[prev][0]=Wagen_OBB_Wiesel_1
-constraint[prev][1]=Wagen_OBB_Wiesel_3
-constraint[prev][2]=Cityshuttle
-constraint[next][0]=Wagen_OBB_Wiesel_1
-constraint[next][1]=none
+#constraint[prev][0]=Wagen_OBB_Wiesel_1
+#constraint[prev][1]=Wagen_OBB_Wiesel_3
+#constraint[prev][2]=Cityshuttle
+#constraint[next][0]=Wagen_OBB_Wiesel_1
+#constraint[next][1]=none
+constraint[prev][0]=any
 
 EmptyImage[E]=./image/Wagen_OBB_Wiesel.4.2
 EmptyImage[S]=./image/Wagen_OBB_Wiesel.4.3

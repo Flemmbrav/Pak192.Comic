@@ -45,8 +45,8 @@ InputGood[1]=salt
 InputCapacity[1]=1000
 InputFactor[1]=20
 OutputGood[0]=paper
-OutputCapacity[0]=2000
-OutputFactor[0]=100
+OutputCapacity[0]=200
+OutputFactor[0]=10
 #-----
 Productivity=500
 Range=500
@@ -117,8 +117,8 @@ DistributionWeight=30
 MapColor=72
 #-----
 InputGood[0]=paper
-InputCapacity[0]=200
-InputFactor[0]=100
+InputCapacity[0]=40
+InputFactor[0]=10
 InputGood[1]=ink
 InputCapacity[1]=200
 InputFactor[1]=20

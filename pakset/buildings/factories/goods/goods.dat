@@ -632,7 +632,7 @@ speed_bonus=3
 #name=catg10
 #catg=10
 #metric=rolls
-#weight_per_unit=350
+#weight_per_unit=3500
 #value=2600
 #speed_bonus=0
 -----------------
@@ -640,7 +640,7 @@ obj=good
 name=cable
 catg=10
 metric=rolls
-weight_per_unit=400
+weight_per_unit=4000
 value=2000
 speed_bonus=0
 -----------------
@@ -648,7 +648,7 @@ obj=good
 name=yarn
 catg=10
 metric=rolls
-weight_per_unit=300
+weight_per_unit=3000
 value=2000
 speed_bonus=3
 -----------------
@@ -656,7 +656,7 @@ obj=good
 name=fabric
 catg=10
 metric=rolls
-weight_per_unit=200
+weight_per_unit=2000
 value=2600
 speed_bonus=3
 -----------------
@@ -664,7 +664,7 @@ obj=good
 name=carpet
 catg=10
 metric=rolls
-weight_per_unit=300
+weight_per_unit=3000
 value=3300
 speed_bonus=3
 -----------------
@@ -672,7 +672,7 @@ obj=good
 name=paper
 catg=10
 metric=rolls
-weight_per_unit=500
+weight_per_unit=5000
 value=2600
 speed_bonus=0
 -----------------

@@ -6,8 +6,8 @@ DistributionWeight=30
 MapColor=207
 #-----
 InputGood[0]=paper
-InputCapacity[0]=200
-InputFactor[0]=100
+InputCapacity[0]=100
+InputFactor[0]=10
 InputGood[1]=ink
 InputCapacity[1]=200
 InputFactor[1]=20

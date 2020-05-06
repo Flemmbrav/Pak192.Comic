@@ -13,13 +13,13 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
-constraint[prev][0]=Dosto_4g_M_500
-constraint[prev][1]=Dosto_4g_F_500
-constraint[prev][2]=Dosto_5g_F_500M
-constraint[prev][3]=none
-constraint[next][0]=Dosto_4g_M_500
-constraint[next][1]=Dosto_4g_B_500
-constraint[next][2]=Dosto_5g_B_500M
+#constraint[prev][0]=Dosto_4g_M_500
+#constraint[prev][1]=Dosto_4g_F_500
+#constraint[prev][2]=Dosto_5g_F_500M
+#constraint[prev][3]=none
+#constraint[next][0]=Dosto_4g_M_500
+#constraint[next][1]=Dosto_4g_B_500
+#constraint[next][2]=Dosto_5g_B_500M
 
 EmptyImage[E]=./image/Dosto_4g_F_500.0.2
 EmptyImage[S]=./image/Dosto_4g_F_500.0.3
@@ -45,13 +45,14 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
-constraint[prev][0]=Dosto_4g_M_500
-constraint[prev][1]=Dosto_4g_F_500
-constraint[prev][2]=Dosto_5g_F_500M
-constraint[next][0]=Dosto_4g_M_500
-constraint[next][1]=Dosto_4g_B_500
-constraint[next][2]=Dosto_5g_B_500M
-constraint[next][3]=none
+#constraint[prev][0]=Dosto_4g_M_500
+#constraint[prev][1]=Dosto_4g_F_500
+#constraint[prev][2]=Dosto_5g_F_500M
+#constraint[next][0]=Dosto_4g_M_500
+#constraint[next][1]=Dosto_4g_B_500
+#constraint[next][2]=Dosto_5g_B_500M
+#constraint[next][3]=none
+constraint[prev][0]=any
 
 EmptyImage[E]=./image/Dosto_4g_B_500.0.2
 EmptyImage[S]=./image/Dosto_4g_B_500.0.3
@@ -129,12 +130,12 @@ power=2300
 gear=100
 loading_time=5850
 
-constraint[prev][0]=Dosto_4g_B_500
-constraint[prev][1]=Dosto_5g_B_500M
-constraint[prev][2]=none
-constraint[next][0]=Dosto_4g_M_500
-constraint[next][1]=Dosto_4g_B_500
-constraint[next][2]=Dosto_5g_B_500M
+#constraint[prev][0]=Dosto_4g_B_500
+#constraint[prev][1]=Dosto_5g_B_500M
+#constraint[prev][2]=none
+#constraint[next][0]=Dosto_4g_M_500
+#constraint[next][1]=Dosto_4g_B_500
+#constraint[next][2]=Dosto_5g_B_500M
 
 EmptyImage[E]=./image/twindex_DB.0.2
 EmptyImage[S]=./image/twindex_DB.0.3
@@ -163,12 +164,13 @@ power=2300
 gear=100
 loading_time=5850
 
-constraint[prev][0]=Dosto_4g_M_500
-constraint[prev][1]=Dosto_4g_F_500
-constraint[prev][2]=Dosto_5g_F_500M
-constraint[next][0]=Dosto_4g_F_500
-constraint[next][1]=Dosto_5g_F_500M
-constraint[next][2]=none
+#constraint[prev][0]=Dosto_4g_M_500
+#constraint[prev][1]=Dosto_4g_F_500
+#constraint[prev][2]=Dosto_5g_F_500M
+#constraint[next][0]=Dosto_4g_F_500
+#constraint[next][1]=Dosto_5g_F_500M
+#constraint[next][2]=none
+constraint[prev][0]=any
 
 EmptyImage[E]=./image/twindex_DB.4.2
 EmptyImage[S]=./image/twindex_DB.4.3

@@ -46,10 +46,10 @@ InputCapacity[0]=1000
 InputFactor[0]=70
 InputGood[1]=plastics
 InputCapacity[1]=1000
-InputFactor[1]=40
+InputFactor[1]=30
 OutputGood[0]=cable
-OutputCapacity[0]=4000
-OutputFactor[0]=100
+OutputCapacity[0]=100
+OutputFactor[0]=10
 #-----
 Productivity=120
 Range=20
@@ -164,8 +164,8 @@ DistributionWeight=90
 MapColor=63
 #-----
 InputGood[0]=cable
-InputCapacity[0]=1000
-InputFactor[0]=50
+InputCapacity[0]=100
+InputFactor[0]=30
 InputGood[1]=plastics
 InputCapacity[1]=1000
 InputFactor[1]=50

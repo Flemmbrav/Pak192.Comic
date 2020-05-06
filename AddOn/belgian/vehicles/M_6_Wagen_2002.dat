@@ -16,8 +16,8 @@ loading_time=9620
 
 constraint[prev][0]=SNCB_M_6_Wagen_2002_2
 constraint[prev][1]=none
-constraint[next][0]=SNCB_M_6_Wagen_2002_2
-constraint[next][1]=SNCB_M_6_Wagen_2002_3
+#constraint[next][0]=SNCB_M_6_Wagen_2002_2
+#constraint[next][1]=SNCB_M_6_Wagen_2002_3
 
 EmptyImage[E]=./image/SNCB_M6.2.2
 EmptyImage[S]=./image/SNCB_M6.2.3
@@ -44,8 +44,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=9620
 
-constraint[prev][0]=SNCB_M_6_Wagen_2002_1
-constraint[prev][1]=SNCB_M_6_Wagen_2002_3
+#constraint[prev][0]=SNCB_M_6_Wagen_2002_1
+#constraint[prev][1]=SNCB_M_6_Wagen_2002_3
+constraint[prev][0]=any
 constraint[next][0]=SNCB_M_6_Wagen_2002_1
 constraint[next][1]=none
 

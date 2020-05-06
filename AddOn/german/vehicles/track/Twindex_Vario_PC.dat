@@ -13,10 +13,11 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=Twindex_Vario_Mittelwagen_PC
-constraint[prev][1]=Twindex_Vario_Triebwagen_PC_1
-constraint[next][0]=Twindex_Vario_Mittelwagen_PC
-constraint[next][1]=Twindex_Vario_Triebwagen_PC_2
+#constraint[prev][0]=Twindex_Vario_Mittelwagen_PC
+#constraint[prev][1]=Twindex_Vario_Triebwagen_PC_1
+#constraint[next][0]=Twindex_Vario_Mittelwagen_PC
+#constraint[next][1]=Twindex_Vario_Triebwagen_PC_2
+constraint[prev][0]=any
 
 EmptyImage[E]=./image/twindex_PC.2.2
 EmptyImage[S]=./image/twindex_PC.2.3
@@ -44,10 +45,10 @@ engine_type=electric
 power=2300
 gear=100
 
-constraint[prev][0]=Twindex_Vario_Triebwagen_PC_2
-constraint[prev][1]=none
-constraint[next][0]=Twindex_Vario_Mittelwagen_PC
-constraint[next][1]=Twindex_Vario_Triebwagen_PC_2
+#constraint[prev][0]=Twindex_Vario_Triebwagen_PC_2
+#constraint[prev][1]=none
+#constraint[next][0]=Twindex_Vario_Mittelwagen_PC
+#constraint[next][1]=Twindex_Vario_Triebwagen_PC_2
 
 EmptyImage[E]=./image/twindex_PC.0.2
 EmptyImage[S]=./image/twindex_PC.0.3
@@ -75,10 +76,11 @@ engine_type=electric
 power=2300
 gear=100
 
-constraint[prev][0]=Twindex_Vario_Triebwagen_PC_1
-constraint[prev][1]=Twindex_Vario_Mittelwagen_PC
-constraint[next][0]=Twindex_Vario_Triebwagen_PC_1
-constraint[next][1]=none
+#constraint[prev][0]=Twindex_Vario_Triebwagen_PC_1
+#constraint[prev][1]=Twindex_Vario_Mittelwagen_PC
+#constraint[next][0]=Twindex_Vario_Triebwagen_PC_1
+#constraint[next][1]=none
+constraint[prev][0]=any
 
 EmptyImage[E]=./image/twindex_PC.4.2
 EmptyImage[S]=./image/twindex_PC.4.3
