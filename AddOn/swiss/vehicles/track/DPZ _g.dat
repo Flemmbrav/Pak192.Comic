@@ -24,13 +24,6 @@ engine_type=electric
 length=11
 waytype=narrowgauge_track
 
-constraint[prev][0]=DPZ_g_2
-constraint[prev][1]=DPZ_g_5
-constraint[prev][2]=none
-constraint[next][0]=DPZ_g_1
-constraint[next][1]=DPZ_g_3
-constraint[next][2]=DPZ_g_5
-
 EmptyImage[E]=./image/DPZ_g.0.2
 EmptyImage[S]=./image/DPZ_g.0.3
 EmptyImage[W]=./image/DPZ_g.0.0
@@ -57,11 +50,7 @@ engine_type=electric
 length=12
 waytype=narrowgauge_track
 
-constraint[prev][0]=DPZ_g_3
-constraint[prev][1]=DPZ_g_4
-constraint[next][0]=DPZ_g_1
-constraint[next][1]=DPZ_g_4
-constraint[next][2]=none
+constraint[prev][0]=any
 
 EmptyImage[E]=./image/DPZ_g.2.2
 EmptyImage[S]=./image/DPZ_g.2.3
@@ -89,13 +78,7 @@ engine_type=electric
 length=11
 waytype=narrowgauge_track
 
-constraint[prev][0]=DPZ_g_1
-constraint[prev][1]=DPZ_g_3
-constraint[prev][2]=DPZ_g_4
-constraint[prev][3]=none
-constraint[next][0]=DPZ_g_2
-constraint[next][1]=DPZ_g_3
-constraint[next][2]=DPZ_g_5
+constraint[prev][0]=any
 
 EmptyImage[E]=./image/DPZ_g.4.2
 EmptyImage[S]=./image/DPZ_g.4.3
@@ -124,12 +107,6 @@ gear=100
 length=8
 waytype=narrowgauge_track
 
-constraint[prev][0]=DPZ_g_2
-constraint[prev][1]=DPZ_g_5
-constraint[prev][2]=none
-constraint[next][0]=DPZ_g_2
-constraint[next][1]=DPZ_g_3
-
 EmptyImage[E]=./image/DPZ_g.6.2
 EmptyImage[S]=./image/DPZ_g.6.3
 EmptyImage[W]=./image/DPZ_g.6.0
@@ -157,11 +134,7 @@ gear=100
 length=9
 waytype=narrowgauge_track
 
-constraint[prev][0]=DPZ_g_1
-constraint[prev][1]=DPZ_g_3
-constraint[next][0]=DPZ_g_1
-constraint[next][1]=DPZ_g_4
-constraint[next][2]=none
+constraint[prev][0]=any
 
 EmptyImage[E]=./image/DPZ_g.8.2
 EmptyImage[S]=./image/DPZ_g.8.3

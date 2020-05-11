@@ -94,6 +94,7 @@ speed=200
 length=12
 waytype=narrowgauge_track
 loading_time=6160
+constraint[prev][0]=any
 #constraint[prev][0]=Eurofima_Wagen_1986_1
 #constraint[prev][1]=Eurofima_Wagen_1986_0
 #constraint[prev][2]=Interregio_Wagen_DB_1988

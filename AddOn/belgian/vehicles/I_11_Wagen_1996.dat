@@ -74,6 +74,7 @@ speed=200
 length=12
 waytype=narrowgauge_track
 
+constraint[prev][0]=any
 #constraint[prev][0]=SNCB_I_11_Wagen_1996_0
 
 EmptyImage[S]=./image/SNCB_199X.3.1
