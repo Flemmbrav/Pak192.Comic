@@ -10,7 +10,7 @@ intro_month=6
 
 speed=80
 weight=12
-length=8
+length=7
 
 freight=Passagiere
 payload=40
@@ -36,7 +36,7 @@ intro_month=6
 
 speed=80
 weight=24
-length=9
+length=7
 freight=Passagiere
 payload=64
 loading_time=320
