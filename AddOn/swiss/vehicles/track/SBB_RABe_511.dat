@@ -17,6 +17,12 @@ engine_type=electric
 smoke=none
 sound=none
 
+constraint[prev][0]=RABe511_Bt_Back
+constraint[prev][1]=RABe511_Bt_FV_Back
+constraint[prev][2]=none
+constraint[next][0]=RABe511_AB
+constraint[next][1]=RABe511_B
+
 EmptyImage[N]=./image/RABe511_Bt_Front.0.1
 EmptyImage[W]=./image/RABe511_Bt_Front.0.0
 EmptyImage[NW]=./image/RABe511_Bt_Front.1.2
@@ -45,6 +51,12 @@ engine_type=electric
 smoke=none
 sound=none
 
+constraint[prev][0]=RABe511_AB
+constraint[prev][1]=RABe511_B
+constraint[next][0]=RABe511_Bt_Front
+constraint[next][1]=RABe511_Bt_FV_Front
+constraint[next][2]=none
+
 EmptyImage[N]=./image/RABe511_Bt_Back.0.1
 EmptyImage[W]=./image/RABe511_Bt_Back.0.0
 EmptyImage[NW]=./image/RABe511_Bt_Back.1.2
@@ -71,6 +83,13 @@ engine_type=electric
 smoke=none
 sound=none
 
+constraint[prev][0]=RABe511_AB
+constraint[prev][1]=RABe511_B
+constraint[prev][2]=RABe511_Bt_Front
+constraint[next][0]=RABe511_AB
+constraint[next][1]=RABe511_B
+constraint[next][2]=RABe511_Bt_Back
+
 EmptyImage[S]=./image/RABe511_AB.0.3
 EmptyImage[E]=./image/RABe511_AB.0.2
 EmptyImage[SE]=./image/RABe511_AB.1.0
@@ -96,6 +115,13 @@ waytype=narrowgauge_track
 engine_type=electric
 smoke=none
 sound=none
+
+constraint[prev][0]=RABe511_AB
+constraint[prev][1]=RABe511_B
+constraint[prev][2]=RABe511_Bt_Front
+constraint[next][0]=RABe511_AB
+constraint[next][1]=RABe511_B
+constraint[next][2]=RABe511_Bt_Back
 
 EmptyImage[S]=./image/RABe511_B.0.3
 EmptyImage[E]=./image/RABe511_B.0.2

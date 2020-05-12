@@ -12,6 +12,7 @@ weight=43
 runningcost=1020
 cost=162870
 length=10
+constraint[prev][0]=any
 emptyimage[e]=./image/MC76.0.0
 emptyimage[n]=./image/MC76.0.3
 emptyimage[ne]=./image/MC76.0.5
