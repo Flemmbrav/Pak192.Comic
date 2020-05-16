@@ -138,8 +138,8 @@ if [ ! -f $csv ]; then
 fi
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
-compile '192' 'British Stuff 1/2' 'calculated/AddOn/britain/**/*.dat'
-compile '192' 'British Stuff 2/2' 'calculated/AddOn/britain/**/**/*.dat'
+compile '192' 'British Stuff 1/2' 'AddOn/britain/**/*.dat'
+compile '192' 'British Stuff 2/2' 'AddOn/britain/**/**/*.dat'
 compile '192' 'Austrian Stuff' 'AddOn/austrian/**/**/*.dat'
 compile '192' 'British Infrastrukture' 'AddOn/britain/Infrastruktur/*.dat'
 compile '192' 'British Vehicles' 'AddOn/britain/vehicles/**/*.dat'

@@ -142,17 +142,17 @@ echo '# This file allows the compile script to only recompile changed files' > "
 
 compile '192' 'British Stuff 1/2' 'calculated/AddOn/britain/**/*.dat'
 compile '192' 'British Stuff 2/2' 'calculated/AddOn/britain/**/**/*.dat'
-compile '192' 'Austrian Stuff' 'AddOn/austrian/**/**/*.dat'
-compile '192' 'British Infrastrukture' 'AddOn/britain/Infrastruktur/*.dat'
-compile '192' 'British Vehicles' 'AddOn/britain/vehicles/**/*.dat'
-compile '192' 'Belgish Stuff' 'AddOn/belgian/**/*.dat'
-compile '192' 'Czech Vehicles' 'AddOn/czech/vehicles/**/*.dat'
-compile '192' 'Danish Stuff' 'AddOn/danish/**/*.dat'
-compile '192' 'French Stuff' 'AddOn/french/**/*.dat'
-compile '192' 'German Vehicles' 'AddOn/german/vehicles/**/*.dat'
-compile '192' 'Japanese Stuff' 'AddOn/japanese/vehicles/*.dat'
-compile '192' 'Norwegian Stuff' 'AddOn/norwegian/vehicles/*.dat'
-compile '192' 'Swiss Stuff' 'AddOn/swiss/**/**/*.dat'
+compile '192' 'Austrian Stuff' 'calculated/AddOn/austrian/**/**/*.dat'
+compile '192' 'British Infrastrukture' 'calculated/AddOn/britain/Infrastruktur/*.dat'
+compile '192' 'British Vehicles' 'calculated/AddOn/britain/vehicles/**/*.dat'
+compile '192' 'Belgish Stuff' 'calculated/AddOn/belgian/**/*.dat'
+compile '192' 'Czech Vehicles' 'calculated/AddOn/czech/vehicles/**/*.dat'
+compile '192' 'Danish Stuff' 'calculated/AddOn/danish/**/*.dat'
+compile '192' 'French Stuff' 'calculated/AddOn/french/**/*.dat'
+compile '192' 'German Vehicles' 'calculated/AddOn/german/vehicles/**/*.dat'
+compile '192' 'Japanese Stuff' 'calculated/AddOn/japanese/vehicles/*.dat'
+compile '192' 'Norwegian Stuff' 'calculated/AddOn/norwegian/vehicles/*.dat'
+compile '192' 'Swiss Stuff' 'calculated/AddOn/swiss/**/**/*.dat'
 
 # Finished successfully, get rid of old csv
 mv "$csv.in" "$csv"
