@@ -12,13 +12,6 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 
-#constraint[prev][0]=Dosto_4g_M_500_BW
-#constraint[prev][1]=Dosto_4g_F_500_BW
-#constraint[prev][2]=none
-#constraint[next][0]=Dosto_4g_M_500_BW
-#constraint[next][1]=Dosto_4g_B_500_BW
-#constraint[next][2]=BR_146_TRAXX_BW
-
 EmptyImage[E]=./image/dosto_4g_traxx_bw.0.2
 EmptyImage[S]=./image/dosto_4g_traxx_bw.0.3
 EmptyImage[W]=./image/dosto_4g_traxx_bw.0.0
@@ -42,12 +35,6 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 
-#constraint[prev][0]=Dosto_4g_M_500_BW
-#constraint[prev][1]=Dosto_4g_F_500_BW
-#constraint[prev][2]=BR_146_TRAXX_BW
-#constraint[next][0]=Dosto_4g_M_500_BW
-#constraint[next][1]=Dosto_4g_B_500_BW
-#constraint[next][2]=none
 constraint[prev][0]=any
 
 EmptyImage[E]=./image/dosto_4g_traxx_bw.4.2
@@ -73,12 +60,6 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 
-#constraint[prev][0]=Dosto_4g_M_500_BW
-#constraint[prev][1]=Dosto_4g_F_500_BW
-#constraint[prev][2]=BR_146_TRAXX_BW
-#constraint[next][0]=Dosto_4g_M_500_BW
-#constraint[next][1]=Dosto_4g_B_500_BW
-#constraint[next][2]=BR_146_TRAXX_BW
 constraint[prev][0]=any
 
 EmptyImage[E]=./image/dosto_4g_traxx_bw.2.2
@@ -107,15 +88,6 @@ length=9
 waytype=narrowgauge_track
 engine_type=electric
 
-#constraint[prev][0]=Dosto_4g_M_500_BW
-#constraint[prev][1]=Dosto_4g_F_500_BW
-#constraint[prev][2]=BR_146_TRAXX_BW
-#constraint[prev][3]=none
-#constraint[next][0]=Dosto_4g_M_500_BW
-#constraint[next][1]=Dosto_4g_B_500_BW
-#constraint[next][2]=BR_146_TRAXX_BW
-#constraint[next][3]=none
-
 EmptyImage[S]=./image/dosto_4g_traxx_bw.6.3
 EmptyImage[E]=./image/dosto_4g_traxx_bw.6.2
 EmptyImage[SE]=./image/dosto_4g_traxx_bw.7.0
@@ -141,13 +113,6 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 
-#constraint[prev][0]=Dosto_4g_M_500_bwsp
-#constraint[prev][1]=Dosto_4g_F_500_bwsp
-#constraint[prev][2]=none
-#constraint[next][0]=Dosto_4g_M_500_bwsp
-#constraint[next][1]=Dosto_4g_B_500_bwsp
-#constraint[next][2]=BR_146_TRAXX_bwsp
-
 EmptyImage[E]=./image/dosto_4g_traxx_bwsp.0.2
 EmptyImage[S]=./image/dosto_4g_traxx_bwsp.0.3
 EmptyImage[W]=./image/dosto_4g_traxx_bwsp.0.0
@@ -171,12 +136,6 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 
-#constraint[prev][0]=Dosto_4g_M_500_bwsp
-#constraint[prev][1]=Dosto_4g_F_500_bwsp
-#constraint[prev][2]=BR_146_TRAXX_bwsp
-#constraint[next][0]=Dosto_4g_M_500_bwsp
-#constraint[next][1]=Dosto_4g_B_500_bwsp
-#constraint[next][2]=none
 constraint[prev][0]=any
 
 EmptyImage[E]=./image/dosto_4g_traxx_bwsp.4.2
@@ -202,12 +161,6 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 
-#constraint[prev][0]=Dosto_4g_M_500_bwsp
-#constraint[prev][1]=Dosto_4g_F_500_bwsp
-#constraint[prev][2]=BR_146_TRAXX_bwsp
-#constraint[next][0]=Dosto_4g_M_500_bwsp
-#constraint[next][1]=Dosto_4g_B_500_bwsp
-#constraint[next][2]=BR_146_TRAXX_bwsp
 constraint[prev][0]=any
 
 EmptyImage[E]=./image/dosto_4g_traxx_bwsp.2.2
@@ -235,15 +188,6 @@ speed=160
 length=9
 waytype=narrowgauge_track
 engine_type=electric
-
-#constraint[prev][0]=Dosto_4g_M_500_bwsp
-#constraint[prev][1]=Dosto_4g_F_500_bwsp
-#constraint[prev][2]=BR_146_TRAXX_bwsp
-#constraint[prev][3]=none
-#constraint[next][0]=Dosto_4g_M_500_bwsp
-#constraint[next][1]=Dosto_4g_B_500_bwsp
-#constraint[next][2]=BR_146_TRAXX_bwsp
-#constraint[next][3]=none
 
 EmptyImage[S]=./image/dosto_4g_traxx_bwsp.6.3
 EmptyImage[E]=./image/dosto_4g_traxx_bwsp.6.2
