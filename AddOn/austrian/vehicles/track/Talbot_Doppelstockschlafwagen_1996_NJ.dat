@@ -14,6 +14,7 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=9180
+constraint[prev][0]=any
 
 EmptyImage[E]=./image/Talbot_Doppelstockschlafwagen_1996_NJ.0.2
 EmptyImage[S]=./image/Talbot_Doppelstockschlafwagen_1996_NJ.0.3

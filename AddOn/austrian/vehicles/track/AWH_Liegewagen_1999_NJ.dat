@@ -13,6 +13,7 @@ weight=47
 speed=200
 length=12
 waytype=narrowgauge_track
+constraint[prev][0]=any
 EmptyImage[S]=./image/AWH_Liegewagen_1999_NJ.0.1
 EmptyImage[E]=./image/AWH_Liegewagen_1999_NJ.0.0
 EmptyImage[SE]=./image/AWH_Liegewagen_1999_NJ.0.4

@@ -14,6 +14,7 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=9180
+constraint[prev][0]=any
 
 EmptyImage[E]=./image/Siemens_Schlafwagen_2003_NJ.0.0
 EmptyImage[S]=./image/Siemens_Schlafwagen_2003_NJ.0.1
