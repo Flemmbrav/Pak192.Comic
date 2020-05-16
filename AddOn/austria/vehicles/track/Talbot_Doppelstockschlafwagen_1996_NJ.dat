@@ -1,0 +1,25 @@
+obj=vehicle
+name=Talbot_Doppelstockschlafwagen_1996_NJ
+copyright=RABe514 & CFModels
+intro_year=1996
+intro_month=1
+#retire_year=2014
+#retire_month=12
+runningcost=918
+cost=10094436
+weight=64
+speed=200
+payload=42
+freight=Passagiere
+length=12
+waytype=narrowgauge_track
+loading_time=9180
+
+EmptyImage[E]=./image/Talbot_Doppelstockschlafwagen_1996_NJ.0.2
+EmptyImage[S]=./image/Talbot_Doppelstockschlafwagen_1996_NJ.0.3
+EmptyImage[W]=./image/Talbot_Doppelstockschlafwagen_1996_NJ.0.0
+EmptyImage[N]=./image/Talbot_Doppelstockschlafwagen_1996_NJ.0.1
+EmptyImage[SE]=./image/Talbot_Doppelstockschlafwagen_1996_NJ.1.0
+EmptyImage[NE]=./image/Talbot_Doppelstockschlafwagen_1996_NJ.1.1
+EmptyImage[NW]=./image/Talbot_Doppelstockschlafwagen_1996_NJ.1.2
+EmptyImage[SW]=./image/Talbot_Doppelstockschlafwagen_1996_NJ.1.3
