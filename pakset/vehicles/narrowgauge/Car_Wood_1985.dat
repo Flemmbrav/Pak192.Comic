@@ -12,7 +12,7 @@ speed=80
 weight=14
 length=8
 
-payload=7
+payload=20
 loading_time=2980
 runningcost=298
 cost=3272940
