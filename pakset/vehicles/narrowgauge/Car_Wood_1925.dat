@@ -5,11 +5,11 @@ waytype=track
 
 intro_year=1925
 intro_month=6
-#retire_year=1950
-#retire_month=6
+retire_year=1945
+retire_month=7
 
 speed=50
-weight=14
+weight=9
 length=5
 
 payload=4

@@ -13,7 +13,7 @@ weight=18
 length=6
 
 freight=grain
-payload=20
+payload=21
 loading_time=750
 runningcost=75
 cost=829001
