@@ -4,7 +4,7 @@ copyright=PappeTeeMaster
 intro_month=1
 intro_year=1900
 retire_month=6
-retire_year=1940
+retire_year=1926
 runningcost=073
 loadingtime=1990
 cost=803880
@@ -15,9 +15,9 @@ length=8
 waytype=track
 constraint[prev][0]=any
 
-EmptyImage[s,w,se,sw]./image/Car_Wood_1900.$0.<$0>
+emptyimage[s,w,se,sw]=./image/Car_Wood_1900.0.<$0>
 freight=logs
 freightimagetype[0]=logs
 freightimagetype[1]=boards
 freightimagetype[2]=sugarcane
-freightimage[0-2][s,w,se,sw]./image/Car_Wood_1900.<$0+1>.<$1>
+freightimage[0-2][s,w,se,sw]=./image/Car_Wood_1900.<$0+1>.<$1>
