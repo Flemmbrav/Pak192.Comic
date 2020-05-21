@@ -20,11 +20,11 @@ cost=2500000
 
 constraint[prev][0]=any
 
-emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1900_Barrels.0.<$0>
+emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_Barrels_1900.0.<$0>
 freightimagetype[0]=beer
 freightimagetype[1]=wine
 freightimagetype[2]=rum
 #freightimagetype[2]=liquor
-FreightImage[0-2][s,w,se,sw,n,e,nw,ne]=./image/Car_1900_Barrels.<$0+1>.<$1>
+FreightImage[0-2][s,w,se,sw,n,e,nw,ne]=./image/Car_Barrels_1900.<$0+1>.<$1>
 
 ---
