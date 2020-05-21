@@ -161,7 +161,7 @@ loading_time=10340
 
 constraint[prev][0]=any
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.0.<$0>
 ------------
 obj=vehicle
 name=Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1_IC2
@@ -180,7 +180,7 @@ waytype=narrowgauge_track
 loading_time=10760
 
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.1.<$0>
 ------------
 obj=vehicle
 name=Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_2_IC2
@@ -200,4 +200,4 @@ loading_time=10760
 
 constraint[prev][0]=any
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.3.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.2.<$0>
