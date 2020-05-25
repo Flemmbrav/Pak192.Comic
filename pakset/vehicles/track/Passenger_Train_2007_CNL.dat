@@ -1,10 +1,11 @@
 obj=vehicle
 name=Eurofirma_Wagen_CNL_2013
+#Bvcmbz 248
 copyright=Flemmbrav
-intro_year=2013
-intro_month=3
-retire_year=2017
-retire_month=0
+intro_year=2007
+intro_month=12
+retire_year=2016
+retire_month=12
 freight=Passagiere
 payload=68
 cost=6377448
