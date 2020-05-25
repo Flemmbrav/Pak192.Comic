@@ -6,7 +6,7 @@ intro_year=1835
 waytype=narrowgauge_track
 cost=30250
 maintenance=1100
-topspeed=55
+topspeed=50
 system_type=0
 
 Image[NS][0]=./images/way/track_55.0.0
@@ -118,7 +118,7 @@ intro_year=1865
 waytype=narrowgauge_track
 cost=100000
 maintenance=2000
-topspeed=100
+topspeed=80
 system_type=0
 
 Image[NS][0]=./images/way/track_100.0.0
@@ -230,7 +230,7 @@ intro_year=1900
 waytype=narrowgauge_track
 cost=169000
 maintenance=2600
-topspeed=130
+topspeed=120
 system_type=0
 
 Image[NS][0]=./images/way/track_130.0.0
@@ -454,7 +454,7 @@ intro_year=1940
 waytype=narrowgauge_track
 cost=529000
 maintenance=4600
-topspeed=230
+topspeed=200
 system_type=0
 
 Image[NS][0]=./images/way/track_230.0.0
@@ -566,7 +566,7 @@ intro_year=1965
 waytype=narrowgauge_track
 cost=676000
 maintenance=5200
-topspeed=260
+topspeed=250
 system_type=0
 
 Image[NS][0]=./images/way/track_260.0.0

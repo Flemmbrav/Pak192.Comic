@@ -1,8 +1,8 @@
 obj=vehicle
 name=Siemens_Schlafwagen_2003_NJ
 copyright=RABe514
-intro_year=2003
-intro_month=1
+intro_year=2016
+intro_month=12
 #retire_year=2016
 #retire_month=6
 runningcost=918
