@@ -116,6 +116,9 @@ engine_type=electric
 power=2300
 gear=100
 
+constraint[prev][0]=Twindex_Vario_Triebwagen_PC_2
+constraint[prev][1]=none
+
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.1.<$0>
 
 -----------
@@ -137,6 +140,9 @@ power=2300
 gear=100
 
 constraint[prev][0]=any
+
+constraint[next][0]=Twindex_Vario_Triebwagen_PC_1
+constraint[next][1]=none
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.2.<$0>
 
