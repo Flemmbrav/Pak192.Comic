@@ -13,6 +13,8 @@ length=12
 waytype=narrowgauge_track
 loading_time=5720
 
+constraint[prev][0]=any
+
 EmptyImage[S]=./image/EWIAP.0.1
 EmptyImage[E]=./image/EWIAP.0.0
 EmptyImage[SE]=./image/EWIAP.0.4
@@ -36,6 +38,8 @@ speed=140
 length=12
 waytype=narrowgauge_track
 loading_time=5720
+
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/EWIBP.0.1
 EmptyImage[E]=./image/EWIBP.0.0

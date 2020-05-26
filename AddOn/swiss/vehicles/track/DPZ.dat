@@ -158,6 +158,7 @@ weight=20
 speed=130
 payload=150
 freight=Passagiere
+engine_type=electric
 length=11
 waytype=narrowgauge_track
 
