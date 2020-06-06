@@ -1,0 +1,88 @@
+#################################################################################
+#                        Norddeutscher Blockrand - Northern German perimeter block buildings                   #
+#################################################################################
+#                         								                        #
+# Zur Zeit wird provisorisch auch die Klimazone "temperate" abgedeckt.									#
+#																				#
+#################################################################################
+
+
+
+# S1
+#	nicht dauerhaft bewohnt = 1
+# S2
+#	ohne Kinder = 3
+#	mit Kinder = 5
+# S3
+#	3 Stockwerke = 7
+#	4 Stockwerke = 9
+# S4
+#	5 Stockwerke = 12
+#	6 Stockwerke = 15
+# S5
+#	7 Stockwerke = 18
+#	+7 stockwerke = 20
+
+# Chance:
+#	roter Backstein = 100
+#	sonst = 50
+# Cluster:
+#	Backstein =3
+#	weiss, verputzt, gruenderzeit =4
+
+
+#################################################################################
+#									 Level 1									#
+#################################################################################
+
+#################################################################################
+#									 Level 3									#
+#################################################################################
+
+#################################################################################
+#									 Level 5									#
+#################################################################################
+
+obj=building
+name=res_test_001
+copyright=Flemmbrav
+intro_month=6
+intro_year=1950
+retire_month=6
+retire_year=1970
+type=res
+Chance=50
+level=5
+needs_ground=1
+climates=mediterran, temperate
+dims=1,1,8
+clusters=3
+
+BackImage[0-1][0][0][0-1][0][0-3]=baracke_1.<1-$1>.<$0>
+BackImage[2-7][0][0][0-1][0][0-3]=baracke_1.<1-$1>.<$0-2>
+BackImage[0-1][0][0][0-1][0][4]=baracke_1.<3-$1>.<$0>
+BackImage[2-7][0][0][0-1][0][4]=baracke_1.<3-$1>.<$0-2>
+
+----
+
+obj=building
+name=res_test_002
+copyright=Flemmbrav
+intro_month=6
+intro_year=1950
+retire_month=6
+retire_year=1970
+type=res
+Chance=50
+level=5
+needs_ground=1
+climates=mediterran, temperate
+dims=1,1,8
+clusters=3
+
+BackImage[0-1][0][0][0-1][0][0-3]=baracke_2.<1-$1>.<$0>
+BackImage[2-7][0][0][0-1][0][0-3]=baracke_2.<1-$1>.<$0-2>
+BackImage[0-1][0][0][0-1][0][4]=baracke_2.<3-$1>.<$0>
+BackImage[2-7][0][0][0-1][0][4]=baracke_2.<3-$1>.<$0-2>
+
+----
