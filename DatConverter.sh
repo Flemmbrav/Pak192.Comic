@@ -319,7 +319,7 @@ calculatecosts(){
 		echo "loading_time=$LoadingTime" >> calculated/$dat
 		echo "runningcost=$RunningCost" >> calculated/$dat
 		echo "cost=$Cost" >> calculated/$dat
-		echo "fixed_cost=FixCost" >> calculated/$dat
+		echo "fixed_cost=$FixCost" >> calculated/$dat
 	else
 		if [[ ! -z ${ObjectArray[loading_time]} ]] ;then
 			echo "loading_time=${ObjectArray[loading_time]}" >> calculated/$dat
@@ -336,10 +336,10 @@ calculatecosts(){
 		else
 			echo "cost=$Cost" >> calculated/$dat
 		fi
-		if [[ ! -z ${ObjectArray[cost]} ]] ;then
+		if [[ ! -z ${ObjectArray[fixed_cost]} ]] ;then
 			echo "fixed_cost=${ObjectArray[fixed_cost]}" >> calculated/$dat
 		else
-			echo "fixed_cost=FixCost" >> calculated/$dat
+			echo "fixed_cost=$FixCost" >> calculated/$dat
 		fi
 		
 		
