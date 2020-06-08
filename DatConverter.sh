@@ -313,7 +313,7 @@ calculatecosts(){
 	local LoadingTime=$(( Income / 300 ))
 	
 	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
-	local FixCost=$(( RunningCost * 85 ))
+	local FixCost=$(( RunningCost * 300 ))
 	RunningCost=$(( RunningCost / 10 ))
 	if [[ $ForcingNewValues == 1 ]];then
 		echo "loading_time=$LoadingTime" >> calculated/$dat
