@@ -138,6 +138,21 @@ clusters=1
 BackImage[0-7][0][0][0][0][0-4]=images/res/medi/C1_E0_01_12.<$1/4>.<$0>
 FrontImage[0-7][0][0][0][0][0-4]=images/stadtgruen_medi.<$1>.<$0>
 ---
+obj=building
+name=res_cl2_C1_E0_02_12
+copyright=Leartin
+intro_year=1800
+type=res
+Chance=40
+level=12
+needs_ground=1
+climates=mediterran
+dims=1,1,8
+clusters=1
+BackImage[0-1][0][0][0][0][0-4]=images/res/medi/C1_E0_01_12.<$1/4>.<$0>
+BackImage[2-7][0][0][0][0][0-4]=images/res/medi/C1_E0_01_12.<$1/4>.<$0-2>
+#FrontImage[0-7][0][0][0][0][0-4]=images/stadtgruen_medi.<$1>.<$0>
+---
 #################################################################################
 #									 Level 15									#
 #################################################################################

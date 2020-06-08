@@ -1,0 +1,67 @@
+#################################################################################
+#                         Commercial Buildings, easteur  						#
+#									sized 2x2									#
+#################################################################################
+
+#################################################################################
+#									 Level 12									#
+#################################################################################
+
+---
+Obj=building
+Name=com_cl4_2x2_E6_01_12
+copyright=Leartin
+intro_year=2005
+Type=com
+climates=tundra
+Chance=20
+Level=12
+needs_ground=0
+dims=2,2,1
+BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/easteur/12_E6_01.<$0>.<$1+$2*2>
+---
+Obj=building
+Name=com_cl4_2x2_E6_02_12
+copyright=Leartin
+intro_year=2005
+Type=com
+climates=tundra
+Chance=30
+Level=12
+needs_ground=0
+dims=2,2,1
+BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/easteur/12_E6_02.<$0>.<$1+$2*2>
+---
+Obj=building
+Name=com_cl4_2x2_E6_03_12
+copyright=Leartin
+intro_year=2005
+Type=com
+climates=tundra
+Chance=40
+Level=12
+needs_ground=0
+dims=2,2,1
+BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/easteur/12_E6_03.<$0>.<$1+$2*2>
+
+#################################################################################
+#									 Level 30									#
+#################################################################################
+
+Obj=building
+Name=com_cl4_2x2_E5_04_30
+#192opernturm
+copyright=Alex. Brose
+Type=com
+intro_month=1
+intro_year=1999
+retire_month=10
+retire_year=2100
+climates=tundra
+Level=30
+chance=80
+needs_ground=0
+dims=2,2,1
+BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/easteur/30_E5_02.<$0+$2*2>.<$1>
+BackImage[0][0][1][1-2][0][0-1]=images/2x2/com/easteur/30_E5_02.<2-$0+$1*2>.2,-48,0
+---
