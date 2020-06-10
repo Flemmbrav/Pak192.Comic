@@ -43,6 +43,89 @@ Level=12
 needs_ground=0
 dims=2,2,1
 BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/northsea/12_E6_03.<$0>.<$1+$2*2>
+---
+
+#################################################################################
+#									 Level 27									#
+#################################################################################
+
+Obj=building
+name=com_cl3_2x2_E5_01_27
+#Channeltower
+copyright=Alex. Brose
+Type=com
+climates=temperate
+intro_month=1
+intro_year=1990
+Level=27
+chance=40
+needs_ground=0
+dims=2,2,1
+BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/northsea/27_E5_01.<$0+$2*3>.<$1>
+BackImage[0][0][0][1][0][0-1]=images/2x2/com/northsea/27_E5_01.<2>.<$0>
+---
+Obj=building
+name=com_cl3_2x2_E5_02_27
+#Channeltower
+copyright=Alex. Brose
+Type=com
+climates=temperate
+intro_month=1
+intro_year=1990
+Level=27
+chance=30
+needs_ground=0
+dims=2,2,1
+BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/northsea/27_E5_01.<$0+$2*3>.<$1+2>
+BackImage[0][0][0][1][0][0-1]=images/2x2/com/northsea/27_E5_01.<2>.<$0+2>
+---
+Obj=building
+name=com_cl3_2x2_E5_03_27
+#Channeltower
+copyright=Alex. Brose
+Type=com
+climates=temperate
+intro_month=1
+intro_year=1990
+Level=27
+chance=20
+needs_ground=1
+dims=2,2,1
+BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/northsea/27_E5_01.<$0+$2*3>.<$1+4>
+BackImage[0][0][0][1][0][0-1]=images/2x2/com/northsea/27_E5_01.<2>.<$0+4>
+BackImage[0][0][1][1-2][0][0-1]=images/2x2/com/northsea/27_E5_04.<4-$0>.<1+$1*2>
+---
+Obj=building
+name=com_cl3_2x2_E5_04_27
+#rwetower
+copyright=Alex. Brose
+Type=com
+climates=temperate
+intro_month=1
+intro_year=1990
+Level=27
+chance=50
+needs_ground=1
+dims=2,2,1
+BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/northsea/27_E5_02.<$0>.<$1+$2*2>
+BackImage[0][1][0][1-2][0][0-1]=images/2x2/com/northsea/27_E5_02.<4-$0>.<$1*2>
+BackImage[0][0][1][1-2][0][0-1]=images/2x2/com/northsea/27_E5_04.<4-$0>.<1+$1*2>
+---
+Obj=building
+name=com_cl3_2x2_E5_05_27
+#rwetower
+copyright=Alex. Brose
+Type=com
+climates=temperate
+intro_month=1
+intro_year=1990
+Level=27
+chance=30
+needs_ground=0
+dims=2,2,1
+BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/northsea/27_E5_03.<$0>.<$1+$2*2>
+BackImage[0][1][0][1-2][0][0-1]=images/2x2/com/northsea/27_E5_03.<4-$0>.<$1*2>
+---
 
 #################################################################################
 #									 Level 30									#
