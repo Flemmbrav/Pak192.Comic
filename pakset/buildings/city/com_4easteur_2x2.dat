@@ -59,10 +59,11 @@ intro_month=1
 intro_year=1990
 Level=27
 chance=50
-needs_ground=0
+needs_ground=1
 dims=2,2,1
-BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/easteur/27_E5_04.<$0>.<$1+$2*2>
-BackImage[0][1][0][1-2][0][0-1]=images/2x2/com/easteur/27_E5_04.<4-$0>.<$1*2>
+BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/easteur/27_E5_01.<$0>.<$1+$2*2>
+BackImage[0][1][0][1-2][0][0-1]=images/2x2/com/easteur/27_E5_01.<4-$0>.<$1*2>
+BackImage[0][0][1][1-2][0][0-1]=images/2x2/com/easteur/27_E5_01.<4-$0>.<1+$1*2>
 ---
 
 #################################################################################
