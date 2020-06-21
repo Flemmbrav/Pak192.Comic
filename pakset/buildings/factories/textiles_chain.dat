@@ -161,8 +161,8 @@ OutputGood[0]=yarn
 OutputCapacity[0]=300
 OutputFactor[0]=100
 #-----
-Productivity=250
-Range=50
+Productivity=150
+Range=25
 expand_probability=1900
 expand_minimum=10
 expand_range=3
@@ -200,8 +200,8 @@ OutputGood[0]=fabric
 OutputCapacity[0]=500
 OutputFactor[0]=100
 #-----
-Productivity=200
-Range=50
+Productivity=120
+Range=20
 expand_probability=1900
 expand_minimum=10
 expand_range=3
@@ -237,8 +237,8 @@ OutputGood[0]=fabric
 OutputCapacity[0]=200
 OutputFactor[0]=100
 #-----
-Productivity=220
-Range=50
+Productivity=120
+Range=25
 expand_probability=2000
 expand_minimum=10
 expand_range=4
@@ -276,7 +276,7 @@ OutputGood[0]=textiles
 OutputCapacity[0]=1000
 OutputFactor[0]=100
 #-----
-Productivity=220
+Productivity=100
 Range=50
 expand_probability=2000
 expand_minimum=10
