@@ -272,3 +272,16 @@ build_time=100000
 Dims=1,1,1
 BackImage[0][0][0][0][0][0-4]=images/mon/tree.<$0>.0
 ---
+obj=building
+name=mon_zumaque_1
+#First oil pump of Venezuela, gift to Yona-TYT
+copyright=Leartin
+climates=tropic
+intro_year=1914
+type=mon
+needs_ground=1
+level=25
+build_time=10000
+Dims=1,1,1
+BackImage[0][0][0][0][0][0-1]=images/mon/mon_zumaque_1.<$0>.0
+---
