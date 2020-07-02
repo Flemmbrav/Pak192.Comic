@@ -51,12 +51,12 @@ OutputGood[0]=cable
 OutputCapacity[0]=100
 OutputFactor[0]=10
 #-----
-Productivity=120
-Range=20
+Productivity=12
+Range=5
 expand_probability=250
-expand_minimum=10
-expand_range=5
-expand_times=20
+expand_minimum=2
+expand_range=1
+expand_times=5
 #-----
 #-----
 electricity_amount=200
@@ -127,7 +127,7 @@ InputCapacity[0]=1000
 InputFactor[0]=70
 InputGood[1]=copper
 InputCapacity[1]=1000
-InputFactor[1]=30
+InputFactor[1]=10
 OutputGood[0]=lightbulbs
 OutputCapacity[0]=4000
 OutputFactor[0]=100
@@ -165,7 +165,7 @@ MapColor=63
 #-----
 InputGood[0]=cable
 InputCapacity[0]=100
-InputFactor[0]=30
+InputFactor[0]=10
 InputGood[1]=plastics
 InputCapacity[1]=1000
 InputFactor[1]=50
