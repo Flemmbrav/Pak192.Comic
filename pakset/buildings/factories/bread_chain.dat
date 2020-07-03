@@ -150,7 +150,7 @@ name=bakery_northsea
 #baeker
 copyright=Alex B., Leartin
 Location=City
-climates=temperate, tundra
+climates=temperate
 intro_year=1850
 intro_month=1
 DistributionWeight=70
@@ -175,7 +175,40 @@ electricity_boost=500
 passenger_boost=300
 mail_boost=200
 #-----
-BackImage[0][0][0][0][0][0-1]=images/Baeckerei.0.<$0>
+BackImage[0][0][0][0][0][0-1]=images/bakery_small.0.<$0>
+#############
+-------------
+obj=factory
+name=bakery_easteur
+#baeker
+copyright=Alex B., Leartin
+Location=City
+climates=tundra
+intro_year=1850
+intro_month=1
+DistributionWeight=70
+MapColor=81
+#-----
+InputGood[0]=flour
+InputCapacity[0]=140
+InputSupplier[0]=1
+InputFactor[0]=100
+#-----
+Productivity=40
+Range=70
+expand_probability=1000
+expand_minimum=3
+expand_range=2
+expand_times=10
+#-----
+electricity_amount=20
+passenger_demand=30
+mail_demand=10
+electricity_boost=500
+passenger_boost=300
+mail_boost=200
+#-----
+BackImage[0][0][0][0][0][0-1]=images/bakery_small.1.<$0>
 #############
 -------------
 obj=factory
