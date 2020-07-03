@@ -52,7 +52,7 @@ intro_year=1835
 type=mon
 needs_ground=0
 level=100
-build_time=15000
+build_time=18000
 BackImage[0][0][0][0][0][0]=images/mon/Cruzer_Denkmal.0.0
 BackImage[0][0][0][0][0][1]=images/mon/Cruzer_Denkmal.1.0
 ---
@@ -64,7 +64,7 @@ intro_year=1970
 type=mon
 needs_ground=0
 level=100
-build_time=15000
+build_time=13000
 
 animation_time=150
 Dims=1,1,1
@@ -124,7 +124,7 @@ intro_year=1970
 type=mon
 needs_ground=0
 level=100
-build_time=15000
+build_time=16000
 
 animation_time=150
 Dims=1,1,1
@@ -143,6 +143,17 @@ frontImage[0][0][0][0][156][0-1]=images/mon/Leartin_Denkmal_animation.140.0
 frontImage[0][0][0][0][157-161][0-1]=images/mon/Leartin_Denkmal_animation.141.0
 ---
 obj=building
+name=mon_isaac
+#Monument for Isaac, Benevolent Dictator of Simutrans.com
+copyright=Leartin
+intro_year=1950
+type=mon
+needs_ground=0
+level=50
+build_time=11000
+BackImage[0][0][0][0][0][0-1]=images/mon/mon_isaac.<$0>.0
+---
+obj=building
 name=mon_rings
 #Monument to celebrate a team members wedding - but no name due to privacy.
 copyright=Leartin
@@ -150,7 +161,7 @@ intro_year=2017
 type=mon
 needs_ground=0
 level=30
-build_time=15000
+build_time=20000
 animation_time=150
 BackImage[0][0][0][0][0][0,1]=images/mon/mon_rings.<$0>.0
 FrontImage[0][0][0][0][0-3][0,1]=images/mon/mon_rings.<$0+2>.0,6,3
@@ -271,4 +282,17 @@ level=50
 build_time=100000
 Dims=1,1,1
 BackImage[0][0][0][0][0][0-4]=images/mon/tree.<$0>.0
+---
+obj=building
+name=mon_zumaque_1
+#First oil pump of Venezuela, gift to Yona-TYT
+copyright=Leartin
+climates=tropic
+intro_year=1914
+type=mon
+needs_ground=1
+level=25
+build_time=10000
+Dims=1,1,1
+BackImage[0][0][0][0][0][0-1]=images/mon/mon_zumaque_1.<$0>.0
 ---
