@@ -16,8 +16,8 @@ power=600
 gear=74
 loading_time=4860
 
-constraint[prev][0]=OBB_Cityjet_Steuerwagen_vorne
-constraint[next][0]=OBB_Cityjet_Steuerwagen_hinten
+constraint[prev][0]=OBB_Cityjet_4746_Steuerwagen_vorne
+constraint[next][0]=OBB_Cityjet_4746_Steuerwagen_hinten
 
 EmptyImage[S]=./image/OBB_Desiro_ML.4.1
 EmptyImage[E]=./image/OBB_Desiro_ML.4.0
@@ -50,7 +50,7 @@ constraint[prev][0]=OBB_Cityjet_Steuerwagen_hinten
 constraint[prev][1]=OBB_Cityjet_4746_Steuerwagen_hinten
 constraint[prev][2]=OBB_Cityjet_eco_Steuerwagen_hinten
 constraint[prev][3]=none
-constraint[next][0]=OBB_Cityjet_Mittelwagen
+constraint[next][0]=OBB_Cityjet_4746_Mittelwagen
 
 EmptyImage[S]=./image/OBB_Desiro_ML.0.1
 EmptyImage[E]=./image/OBB_Desiro_ML.0.0
@@ -79,7 +79,7 @@ power=1000
 gear=74
 loading_time=4860
 
-constraint[prev][0]=OBB_Cityjet_Mittelwagen
+constraint[prev][0]=OBB_Cityjet_4746_Mittelwagen
 constraint[next][0]=OBB_Cityjet_Steuerwagen_vorne
 constraint[next][1]=OBB_Cityjet_4746_Steuerwagen_vorne
 constraint[next][2]=OBB_Cityjet_eco_Steuerwagen_vorne

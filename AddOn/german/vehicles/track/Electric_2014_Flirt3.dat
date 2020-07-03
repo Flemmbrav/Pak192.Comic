@@ -74,8 +74,8 @@ loading_time=4100
 constraint[prev][0]=Electric_2014_Flirt3_Nordbahn_1
 constraint[prev][1]=Electric_2014_Flirt3_Nordbahn_2
 constraint[prev][2]=Electric_2014_Flirt3_Nordbahn_3
-constraint[next][1]=Electric_2014_Flirt3_Nordbahn_3
-constraint[next][2]=Electric_2014_Flirt3_Nordbahn_4
+constraint[next][0]=Electric_2014_Flirt3_Nordbahn_3
+constraint[next][1]=Electric_2014_Flirt3_Nordbahn_4
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2014_Flirt3_Nordbahn.0.<$0>
 
@@ -186,8 +186,8 @@ loading_time=4100
 constraint[prev][0]=Electric_2014_Flirt3_NahSh_1
 constraint[prev][1]=Electric_2014_Flirt3_NahSh_2
 constraint[prev][2]=Electric_2014_Flirt3_NahSh_3
-constraint[next][1]=Electric_2014_Flirt3_NahSh_3
-constraint[next][2]=Electric_2014_Flirt3_NahSh_4
+constraint[next][0]=Electric_2014_Flirt3_NahSh_3
+constraint[next][1]=Electric_2014_Flirt3_NahSh_4
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2014_Flirt3_NahSh.0.<$0>
 
@@ -298,8 +298,8 @@ loading_time=4100
 constraint[prev][0]=Electric_2014_Flirt3_DB_1
 constraint[prev][1]=Electric_2014_Flirt3_DB_2
 constraint[prev][2]=Electric_2014_Flirt3_DB_3
-constraint[next][1]=Electric_2014_Flirt3_DB_3
-constraint[next][2]=Electric_2014_Flirt3_DB_4
+constraint[next][0]=Electric_2014_Flirt3_DB_3
+constraint[next][1]=Electric_2014_Flirt3_DB_4
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2014_Flirt3_DB.0.<$0>
 
