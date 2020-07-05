@@ -88,6 +88,7 @@ power=1300
 loading_time=4860
 
 constraint[prev][0]=Electric_2019_Desiro_ML_ODEG_2
+constraint[prev][1]=Electric_2019_Desiro_ML_ODEG_3
 constraint[next][0]=GYSEV_Cityjet_Steuerwagen_vorne
 constraint[next][1]=OBB_Cityjet_Steuerwagen_vorne
 constraint[next][2]=OBB_Cityjet_4746_Steuerwagen_vorne
