@@ -36,7 +36,7 @@ engine_type=battery
 power=900
 loading_time=4860
 
-constraint[prev][0]=GYSEV_Cityjet_Steuerwagen_hinten
+constraint[prev][0]=Electric_2016_Desiro_ML_GYSEV_3
 constraint[prev][1]=OBB_Cityjet_Steuerwagen_hinten
 constraint[prev][2]=OBB_Cityjet_4746_Steuerwagen_hinten
 constraint[prev][3]=OBB_Cityjet_eco_Steuerwagen_hinten
@@ -66,7 +66,7 @@ power=900
 loading_time=4860
 
 constraint[prev][0]=OBB_Cityjet_eco_Mittelwagen
-constraint[next][0]=GYSEV_Cityjet_Steuerwagen_vorne
+constraint[next][0]=Electric_2016_Desiro_ML_GYSEV_1
 constraint[next][1]=OBB_Cityjet_Steuerwagen_vorne
 constraint[next][2]=OBB_Cityjet_4746_Steuerwagen_vorne
 constraint[next][3]=OBB_Cityjet_eco_Steuerwagen_vorne

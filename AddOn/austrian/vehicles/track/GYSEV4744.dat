@@ -1,5 +1,5 @@
 obj=vehicle
-name=GYSEV_Cityjet_Mittelwagen
+name=Electric_2016_Desiro_ML_GYSEV_2
 copyright=Flemmbrav
 intro_year=2016
 intro_month=0
@@ -14,13 +14,13 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=4860
 
-constraint[prev][0]=GYSEV_Cityjet_Steuerwagen_vorne
-constraint[next][0]=GYSEV_Cityjet_Steuerwagen_hinten
+constraint[prev][0]=Electric_2016_Desiro_ML_GYSEV_1
+constraint[next][0]=Electric_2016_Desiro_ML_GYSEV_3
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/GYSEV_Desiro_ML.1.<$0>
 -----------
 obj=vehicle
-name=GYSEV_Cityjet_Steuerwagen_vorne
+name=Electric_2016_Desiro_ML_GYSEV_1
 copyright=Flemmbrav
 intro_year=2016
 intro_month=0
@@ -49,7 +49,7 @@ constraint[next][0]=GYSEV_Cityjet_Mittelwagen
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/GYSEV_Desiro_ML.0.<$0>
 -----------
 obj=vehicle
-name=GYSEV_Cityjet_Steuerwagen_hinten
+name=Electric_2016_Desiro_ML_GYSEV_3
 copyright=Flemmbrav
 intro_year=2016
 intro_month=0
