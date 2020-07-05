@@ -1,5 +1,5 @@
 obj=vehicle
-name=OBB_Cityjet_4746_Mittelwagen
+name=GYSEV_Cityjet_Mittelwagen
 copyright=Flemmbrav
 intro_year=2016
 intro_month=0
@@ -14,13 +14,13 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=4860
 
-constraint[prev][0]=OBB_Cityjet_4746_Steuerwagen_vorne
-constraint[next][0]=OBB_Cityjet_4746_Steuerwagen_hinten
+constraint[prev][0]=GYSEV_Cityjet_Steuerwagen_vorne
+constraint[next][0]=GYSEV_Cityjet_Steuerwagen_hinten
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.4.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/GYSEV_Desiro_ML.1.<$0>
 -----------
 obj=vehicle
-name=OBB_Cityjet_4746_Steuerwagen_vorne
+name=GYSEV_Cityjet_Steuerwagen_vorne
 copyright=Flemmbrav
 intro_year=2016
 intro_month=0
@@ -44,12 +44,12 @@ constraint[prev][4]=Electric_2007_Desiro_ML_TDR_3
 constraint[prev][5]=Electric_2019_Desiro_ML_ODEG_4
 constraint[prev][6]=Electric_2011_Desiro_ML_SNCB_3
 constraint[prev][7]=none
-constraint[next][0]=OBB_Cityjet_4746_Mittelwagen
+constraint[next][0]=GYSEV_Cityjet_Mittelwagen
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/GYSEV_Desiro_ML.0.<$0>
 -----------
 obj=vehicle
-name=OBB_Cityjet_4746_Steuerwagen_hinten
+name=GYSEV_Cityjet_Steuerwagen_hinten
 copyright=Flemmbrav
 intro_year=2016
 intro_month=0
@@ -65,7 +65,7 @@ engine_type=electric
 power=1300
 loading_time=4860
 
-constraint[prev][0]=OBB_Cityjet_4746_Mittelwagen
+constraint[prev][0]=GYSEV_Cityjet_Mittelwagen
 constraint[next][0]=GYSEV_Cityjet_Steuerwagen_vorne
 constraint[next][1]=OBB_Cityjet_Steuerwagen_vorne
 constraint[next][2]=OBB_Cityjet_4746_Steuerwagen_vorne
@@ -75,4 +75,4 @@ constraint[next][5]=Electric_2019_Desiro_ML_ODEG_1
 constraint[next][6]=Electric_2011_Desiro_ML_SNCB_1
 constraint[next][7]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.6.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/GYSEV_Desiro_ML.2.<$0>
