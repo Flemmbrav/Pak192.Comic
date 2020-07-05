@@ -19,14 +19,7 @@ loading_time=4860
 constraint[prev][0]=OBB_Cityjet_4746_Steuerwagen_vorne
 constraint[next][0]=OBB_Cityjet_4746_Steuerwagen_hinten
 
-EmptyImage[S]=./image/OBB_Desiro_ML.4.1
-EmptyImage[E]=./image/OBB_Desiro_ML.4.0
-EmptyImage[SE]=./image/OBB_Desiro_ML.4.4
-EmptyImage[SW]=./image/OBB_Desiro_ML.4.7
-EmptyImage[N]=./image/OBB_Desiro_ML.4.3
-EmptyImage[W]=./image/OBB_Desiro_ML.4.2
-EmptyImage[NW]=./image/OBB_Desiro_ML.4.6
-EmptyImage[NE]=./image/OBB_Desiro_ML.4.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.4.<$0>
 -----------
 obj=vehicle
 name=OBB_Cityjet_4746_Steuerwagen_vorne
@@ -49,17 +42,12 @@ loading_time=4860
 constraint[prev][0]=OBB_Cityjet_Steuerwagen_hinten
 constraint[prev][1]=OBB_Cityjet_4746_Steuerwagen_hinten
 constraint[prev][2]=OBB_Cityjet_eco_Steuerwagen_hinten
-constraint[prev][3]=none
+constraint[prev][3]=Electric_2007_Desiro_ML_TDR_1
+constraint[prev][4]=Electric_2019_Desiro_ML_ODEG_1
+constraint[prev][5]=none
 constraint[next][0]=OBB_Cityjet_4746_Mittelwagen
 
-EmptyImage[S]=./image/OBB_Desiro_ML.0.1
-EmptyImage[E]=./image/OBB_Desiro_ML.0.0
-EmptyImage[SE]=./image/OBB_Desiro_ML.0.4
-EmptyImage[SW]=./image/OBB_Desiro_ML.0.7
-EmptyImage[N]=./image/OBB_Desiro_ML.0.3
-EmptyImage[W]=./image/OBB_Desiro_ML.0.2
-EmptyImage[NW]=./image/OBB_Desiro_ML.0.6
-EmptyImage[NE]=./image/OBB_Desiro_ML.0.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.0.<$0>
 -----------
 obj=vehicle
 name=OBB_Cityjet_4746_Steuerwagen_hinten
@@ -83,13 +71,8 @@ constraint[prev][0]=OBB_Cityjet_4746_Mittelwagen
 constraint[next][0]=OBB_Cityjet_Steuerwagen_vorne
 constraint[next][1]=OBB_Cityjet_4746_Steuerwagen_vorne
 constraint[next][2]=OBB_Cityjet_eco_Steuerwagen_vorne
-constraint[next][3]=none
+constraint[next][3]=Electric_2007_Desiro_ML_TDR_3
+constraint[next][4]=Electric_2019_Desiro_ML_ODEG_4
+constraint[next][5]=none
 
-EmptyImage[S]=./image/OBB_Desiro_ML.6.1
-EmptyImage[E]=./image/OBB_Desiro_ML.6.0
-EmptyImage[SE]=./image/OBB_Desiro_ML.6.4
-EmptyImage[SW]=./image/OBB_Desiro_ML.6.7
-EmptyImage[N]=./image/OBB_Desiro_ML.6.3
-EmptyImage[W]=./image/OBB_Desiro_ML.6.2
-EmptyImage[NW]=./image/OBB_Desiro_ML.6.6
-EmptyImage[NE]=./image/OBB_Desiro_ML.6.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.6.<$0>
