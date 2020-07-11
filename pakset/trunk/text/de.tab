@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 12.05 2020                           #
+#                            Date Created: 5.07 2020                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -228,12 +228,20 @@ com_cl4_E5_01_27
 HH-Tower\n\nOft ohne Helm und nur mit geringer Sicherung, verrichten Gebäudereiniger und Fensterputzer auf der ganzen Welt in hunderten Metern Höhe ihre Arbeit. Die Löhne sind häufig gering, die Arbeit ist gefährlich. Nicht so an diesem Gebäude mit dem bequemen Fensterputzerlift.
 com_cl4_E5_05_09
 Bürohaus
+com_cl4_E5_06_30
+Opernturm\n\nReplik des Opernturms am Opernplatz, zwischen Nordbahnhof und Museumsstraße, gleich nach Frei Parken.
 com_cl4_E5_11_20
 Stonewallstreet
 com_cl4_E5_12_12
 Bürohaus
+com_cl5_E0_01_12
+Geschäft\n\nWer auf der Suche nach etwas ist, das seit 20 Jahren nicht mehr hergestellt wird, sollte Herrn Kroppensteiners Laden aufsuchen. Es ist kein Antiquitätenhandel per se, aber Teile des Bestands hat schon Herr Kroppensteiners Großvater nicht verkauft.
 com_cl5_E0_02_03
 Laden\n\nDer Laden hat es nicht nötig, Werbung für sich zu machen oder sich auch nur einen kreativen Namen zu geben, Hat er doch ohnehin ein Monopol auf die kommunale Güterversorgung.
+com_cl5_E0_03_09
+Fleischhacker\n\nIn Ferdinands Eckladen gibt es die g'schmackigsten Spezialitäten der Region - Blunzn, Eitrige, Sulz, Gselchts, Kletzerl,...
+com_cl5_E0_06_09
+Fasshandel\n\nMichael bindet die besten Fässer der Stadt und ist froh, einer so nützlichen und zukunftssicheren Arbeit nachzugehen.
 com_cl5_E3_01_23
 Oderturm
 com_cl5_E4_01_15
@@ -264,12 +272,56 @@ com_cl5_E5_06_20
 Henninger
 com_cl5_E5_06_30
 Grafik-Fabrik\n\nDie Alex B. Grafik-Fabrik hat eine besondere Arbeitsweise: Für maximale Arbeitsteilung ist jeder Mitarbeiter nur für einen einzelnen Pixel verantwortlich, den er unter wochenlanger Planung optimal setzen muss.\nNeuen Mitarbeitern werden für den Einstieg transparente Bereiche zugeteilt.
+com_cl5_E5_07_30
+Grafik-Fabrik\n\nDie Alex B. Grafik-Fabrik hat eine besondere Arbeitsweise: Für maximale Arbeitsteilung ist jeder Mitarbeiter nur für einen einzelnen Pixel verantwortlich, den er unter wochenlanger Planung optimal setzen muss.\nNeuen Mitarbeitern werden für den Einstieg transparente Bereiche zugeteilt.
+com_cl5_E5_08_30
+Grafik-Fabrik\n\nDie Alex B. Grafik-Fabrik hat eine besondere Arbeitsweise: Für maximale Arbeitsteilung ist jeder Mitarbeiter nur für einen einzelnen Pixel verantwortlich, den er unter wochenlanger Planung optimal setzen muss.\nNeuen Mitarbeitern werden für den Einstieg transparente Bereiche zugeteilt.
 com_cl5_E6_01_30
 LearTower\n\nDieses Bauwerk wurde von einem etwas egozentrischen Architekten errichtet mit dem einzigen Ziel, ein bisschen höher zu sein, als das bis dahin höchste Gebäude der Stadt.
+com_cl5_E6_02_30
+LearTower\n\nDieses Bauwerk wurde von einem etwas egozentrischen Architekten errichtet mit dem einzigen Ziel, ein bisschen höher zu sein, als das bis dahin höchste Gebäude der Stadt.
+com_cl5_E6_03_30
+LearTower\n\nDieses Bauwerk wurde von einem etwas egozentrischen Architekten errichtet mit dem einzigen Ziel, ein bisschen höher zu sein, als das bis dahin höchste Gebäude der Stadt.
+com_plaza_cl2_E0_01_03
+Platz der Gemüseschlacht\n\nHerr und Frau Schmidt zerstritten sich am gemeinsamen Gemüsestand und eröffneten kurzerhand jeweils einen eigenen. Der Streit ging jedoch weiter, so warfen sie sich erst Beschimpfungen zu, dann auch Tomaten, Karotten und sogar einen Kürbis.\nDie Stadtverwaltung pflanzte schließlich einen Baum, um die Strautgeflügel voneinander zu trennen.
+com_plaza_cl2_E0_01_07
+Platz mit Schachspiel\n\nSpringer G8 auf F6, Läufer D6 auf E7, Matt in 23 Zügen.
+com_plaza_cl2_E0_01_09
+Platz mit Brunnen\n\nWenn Schneide-mir-die-Kehle-durch Schnapper nicht seine berüchtigten Würstchen verkauft, verdient er als Eisverkäufer oder Maronihändler.
+com_plaza_cl2_E0_01_12
+Öder Platz\n\nEinst wurde auf diesem Platz ein Wochenmarkt abgehalten. Allerdings gab es häufig Streit zwischen einem Fischverkäufer und einem Metallwarenhändler, so dass der Markt aufgelöst wurde. Im Geäst des Baumes baumelt aber noch eine Schlinge, an welcher ein schlechter Musikant aufgehängt wurde.
+com_plaza_cl2_E6_01_15
+Platz mit Skulptur\n\nDas Werk des Meisters Léar teDin trägt den Titel "Trunken". Die Stadtverwaltung montierte die Bänke so, dass der Blick von der Skulptur weg zeigt. "Wir gestehen den Rastenden eine angenehme Aussucht zu", so ein Vertreter der Stadt.
+com_plaza_cl3_E0_01_03
+Platz der Gemüseschlacht\n\nHerr und Frau Schmidt zerstritten sich am gemeinsamen Gemüsestand und eröffneten kurzerhand jeweils einen eigenen. Der Streit ging jedoch weiter, so warfen sie sich erst Beschimpfungen zu, dann auch Tomaten, Karotten und sogar einen Kürbis.\nDie Stadtverwaltung pflanzte schließlich einen Baum, um die Strautgeflügel voneinander zu trennen.
+com_plaza_cl3_E0_01_07
+Platz mit Schachspiel\n\nSpringer G8 auf F6, Läufer D6 auf E7, Matt in 23 Zügen.
+com_plaza_cl3_E0_01_09
+Platz mit Brunnen\n\nWenn Schneide-mir-die-Kehle-durch Schnapper nicht seine berüchtigten Würstchen verkauft, verdient er als Eisverkäufer oder Maronihändler.
+com_plaza_cl3_E6_01_15
+Platz mit Skulptur\n\nDas Werk des Meisters Léar teDin trägt den Titel "Trunken". Die Stadtverwaltung montierte die Bänke so, dass der Blick von der Skulptur weg zeigt. "Wir gestehen den Rastenden eine angenehme Aussucht zu", so ein Vertreter der Stadt.
+com_plaza_cl4_E0_01_03
+Platz der Gemüseschlacht\n\nHerr und Frau Schmidt zerstritten sich am gemeinsamen Gemüsestand und eröffneten kurzerhand jeweils einen eigenen. Der Streit ging jedoch weiter, so warfen sie sich erst Beschimpfungen zu, dann auch Tomaten, Karotten und sogar einen Kürbis.\nDie Stadtverwaltung pflanzte schließlich einen Baum, um die Strautgeflügel voneinander zu trennen.
+com_plaza_cl4_E0_01_07
+Platz mit Schachspiel\n\nSpringer G8 auf F6, Läufer D6 auf E7, Matt in 23 Zügen.
+com_plaza_cl4_E0_01_09
+Platz mit Brunnen\n\nWenn Schneide-mir-die-Kehle-durch Schnapper nicht seine berüchtigten Würstchen verkauft, verdient er als Eisverkäufer oder Maronihändler.
+com_plaza_cl5_E0_01_03
+Platz der Gemüseschlacht\n\nHerr und Frau Schmidt zerstritten sich am gemeinsamen Gemüsestand und eröffneten kurzerhand jeweils einen eigenen. Der Streit ging jedoch weiter, so warfen sie sich erst Beschimpfungen zu, dann auch Tomaten, Karotten und sogar einen Kürbis.\nDie Stadtverwaltung pflanzte schließlich einen Baum, um die Strautgeflügel voneinander zu trennen.
+com_plaza_cl5_E0_01_07
+Platz mit Schachspiel\n\nSpringer G8 auf F6, Läufer D6 auf E7, Matt in 23 Zügen.
+com_plaza_cl5_E0_01_09
+Platz mit Brunnen\n\nWenn Schneide-mir-die-Kehle-durch Schnapper nicht seine berüchtigten Würstchen verkauft, verdient er als Eisverkäufer oder Maronihändler.
+com_plaza_cl5_E0_01_15
+Platz mit Skulptur\n\nDas Werk des Meisters Léar teDin trägt den Titel "Trunken". Die Stadtverwaltung montierte die Bänke so, dass der Blick von der Skulptur weg zeigt. "Wir gestehen den Rastenden eine angenehme Aussucht zu", so ein Vertreter der Stadt.
+com_plaza_cl5_E3_01_07
+Basketball-Platz
 #________________________________building - cur_________________________________
 #________________________________building - cur_________________________________
 cur_city_arc
 Triumphbogen\n\n Megalomanie bezeichnet die Wahnvorstellung, besser zu sein als alle anderen. Gigantomanie das Verlangen, andere durch besondere Leistung übertreffen zu wollen. Beides ist Größenwahn, und Größenwahn führte zum Bau dieses Bogens.
+cur_city_basil_cathedral
+Basilius-Kathedrale\n\nDer offizielle Name des Baus lautet "Mariä-Schutz-und-Fürbitte-Kathedrale am Graben" - allerdings ist der prachtvolle Bau DIE Touristenattraktion der Stadt, und der Tourismusverband befand, dass sich "Basilius-Kathedrale" besser vermarkten lässt.
 cur_city_cathedral
 Kathedrale St. Georg\n\nDem heiligen Georg wird häufig nachgesagt, einen Drachen erlegt zu haben. Tatsächlich starb er als Märtyrer einen Tod unter Folter.
 cur_city_church
@@ -277,11 +329,13 @@ Lukaskirche
 cur_city_Dohauzdium
 Dohauzdium\n\nGerüchten zufolge dient die Aluminiumbeschichtung der Kugeln dazu, Gedankenkontrollstrahlen aus dem All abzuwehren. Das klappt aber nicht, die Fernseher empfangen ihr reguläres Programm.
 cur_city_eiffel
-Eiffelturm
+Eiffelturm\n\nFragt ein Sachse: "Aus was isn där?" Antwortet ein Schwabe: "Aus Guscheise." - "Wie, und das hält?"
 cur_city_eiffel2
-Eiffelturm
+Eiffelturm\n\nFragt ein Sachse: "Aus was isn där?" Antwortet ein Schwabe: "Aus Guscheise." - "Wie, und das hält?"
 cur_city_elphi
 Konzerthalle\n\nDie Konzerthalle der städtischen Philharmonie bietet großertige Akkustik, und das Dach kann im Winter zum Ski fahren verwendet werden.
+cur_city_gothic_cathedral
+Gotische Kathedrale\n\nDie Erbauung dieser Kathedrale hat mehrere Jahrhunderte in Anspruch genommen. Sie wurde gerade rechtzeitig zum Spielbeginn fertiggestellt.\nTheologen streiten noch über die Identität der zwei Heiligen, welche in den Fenstern rechts oben abgebildet wurden. Am Fenstersims wird lediglich Matthaeus Kapitel 7 Vers 7 und 8 bruchteilhaft zitiert:\n"Suchet, so werdet ihr finden, denn wer da sucht, der findet"
 cur_city_lentos
 Lentos Kunstmuseum\n\nDieser moderne Bau beherbergt eine Sammlung von tausenden Malereien und Skulpturen der letzten 100 Jahre, ist durch seine nächtliche Beleuchtung jedoch auch selbst ein Kunstwerk.
 cur_city_mansion
@@ -290,6 +344,8 @@ cur_city_mosque
 Moschee\n\nDie Stadt hat eine Moschee errichtet, um auch islamischen Mitbürgern ein Gotteshaus zu bieten. Im Sinne religiöser Toleranz wird eines der Minarette von einem Shiagläubigen Muezzin besetzt, das andere von einem Sunnigläubigen Muezzin. Es gingen schon einige Lärmbelästigungsanzeigen ein, denn die beiden streiten ständig!
 cur_city_museum
 Museum der Pixel-Geschichte\n\nDer Pixel bestimmt seit Jahrtausenden das Leben der Simuthaner. In diesem prächtigen Museum kann man die Geschichte des Pixelhandwerks von der Steinzeit bis in die Gegenwart verfolgen. Obligatorisch ist für Besucher der anschließende Besuch der Pixelwerkstatt.
+cur_city_nuclear
+Atomkraftwerk\n\nNachdem ein Österreicher sein Atomkraftwerk fertig gezeichnet hatte, kam es zur Abstimmung der Entwickler, welche knapp dafür entschieden, dass es keine Atomenergie im Spiel geben sollte. Seither steht das Ding dumm in der Gegend rum.
 cur_city_park01
 Park des Goldenen Ritters\n\nKeiner weiß genau, seit wann der Goldene Ritter da steht. Gerüchten zur Folge sei ein Ritter zur Zeit der Goldenen Zwanziger aufgetaucht und habe sich in eine Statue verwandelt.
 cur_city_park02
@@ -315,7 +371,7 @@ Flussschifffahrtsdepot
 depot_road
 Strassen Depot
 depot_track
-Depot
+Normalspurdepot
 maglev_depot
 Depot
 schmalspur_depot
@@ -328,6 +384,8 @@ Straßenbahndepot
 #_____________________________building - extension______________________________
 boardstorage
 Warenlager - Bretter
+coalstorage
+Warenlager - Kohle
 Containererweiterung
 Warenlager - Container
 extension_Lagerhalle
@@ -336,6 +394,8 @@ extension_Lagerhalle2
 Warenlager
 extension_Postamt
 Postamt
+extension_taxi
+Taxistand
 extension_UBahn
 U-Bahn Zugang
 extension_UBahn2
@@ -394,28 +454,122 @@ Hauptquartier
 #________________________________building - ind_________________________________
 ind_cl3_E0_01_01
 Bauernlager
+ind_cl4_1x2_E3_01_15
+Kleinkraftwerk\n\nSpeist umliegende Industrien
+ind_cl4_1x2_E3_02_15
+Kleinkraftwerk\n\nSpeist umliegende Industrien
+ind_cl4_1x2_E3_03_15
+Verladekran
 ind_cl4_E3_01_12
 Kleine Fabrik
 ind_cl4_E5_01_12
 Werkstatt
+ind_cl5_E0_11_07
+Heißluftballon\n\nHatschi-Bratschis Luftballon wird heute für Kurztrips über die Stadt verwendet.
 ind_cl5_E3_01_09
 Getreidesilo
+ind_cl5_E3_02_01
+Erzhalde
+ind_cl5_E3_03_01
+Sandhalde
+ind_cl5_E3_04_01
+Kohlenhalde\n\nHier lagert der Nikolaus Kohlen für die schlimmen Kinder
+ind_cl5_E3_04_05
+Betriebsparkplatz
 ind_cl5_E3_04_15
 Pixel Industry
+ind_cl5_E3_06_07
+Betriebsparkplatz
+ind_cl5_E3_06_09
+Betriebsparkplatz
+ind_cl5_E3_07_12
+Betriebsparkplatz
+ind_cl5_E3_08_12
+Abfallsammelstelle\n\nObacht! Diese Abfallsammelstelle wird von der alten Zenzi Schweinsteiger gegenüber mit Adleraugen überwacht. Landet auch nur eine Weißglasflasche im Buntglas ruft sie sofort die Polizei!
+ind_cl5_E3_08_15
+Betriebsparkplatz
+ind_cl5_E4_01_15
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude jedoch hässlich genug, um in das Industrieviertel zu passen.
+ind_cl5_E4_01_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_02_15
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_02_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_03_15
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_03_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_04_15
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_04_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_05_15
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_05_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_06_15
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_06_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_07_15
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_07_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_08_15
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_08_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_09_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_10_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_12_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_13_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_14_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_15_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_16_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
+ind_cl5_E4_17_18
+Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch niemand wollte darin wohnen. Der allgemeinen Meinung nach war das Gebäude je
 ind_cl5_E5_01_09
 Autohaus\n\nWäre der öffentliche Nah- und Fernverkehr nicht, würde der Inhaber dieses Autohauses wahrhaft in Geld schwimmen.
+ind_cl5_E5_03_09
+Quick Fix\n\nDiese Autowerkstatt ist spezialisiert auf temporäre Lösungen mit Spucke und Kaugummi. Trotzdem werden viele ihrer Reparaturen permanent genutzt.
+ind_lot_cl4_E3_01_01
+Kleingarten\n\nEs gab bereits zwei Verwarnungen. Wenn hier nicht bald aufgeräumt werd, wird die Mitgliedschaft im Kleingartenclub gekündigt.
+ind_lot_cl4_E3_01_03
+Kleingarten\n\nEs gab bereits zwei Verwarnungen. Wenn hier nicht bald aufgeräumt werd, wird die Mitgliedschaft im Kleingartenclub gekündigt.
+ind_lot_cl4_E3_01_05
+Kleingarten\n\nEs gab bereits zwei Verwarnungen. Wenn hier nicht bald aufgeräumt werd, wird die Mitgliedschaft im Kleingartenclub gekündigt.
+ind_lot_cl4_E3_01_07
+Kleingarten\n\nEs gab bereits zwei Verwarnungen. Wenn hier nicht bald aufgeräumt werd, wird die Mitgliedschaft im Kleingartenclub gekündigt.
+ind_lot_cl4_E3_01_09
+Kleingarten\n\nEs gab bereits zwei Verwarnungen. Wenn hier nicht bald aufgeräumt werd, wird die Mitgliedschaft im Kleingartenclub gekündigt.
+ind_lot_cl4_E3_02_01
+Kleingarten mit Gartenbahn\n\nDa seine Frau eine Modelleisenbahn im Haus verweigerte musste sich Herr Nielson um eine Alternative umsehen. Inzwischen verbringt er mehr Zeit in seiner Hütte als zu Hause.
+ind_lot_cl4_E3_02_03
+Kleingarten mit Gartenbahn\n\nDa seine Frau eine Modelleisenbahn im Haus verweigerte musste sich Herr Nielson um eine Alternative umsehen. Inzwischen verbringt er mehr Zeit in seiner Hütte als zu Hause.
+ind_lot_cl4_E3_02_05
+Kleingarten mit Gartenbahn\n\nDa seine Frau eine Modelleisenbahn im Haus verweigerte musste sich Herr Nielson um eine Alternative umsehen. Inzwischen verbringt er mehr Zeit in seiner Hütte als zu Hause.
+ind_lot_cl4_E3_02_07
+Kleingarten mit Gartenbahn\n\nDa seine Frau eine Modelleisenbahn im Haus verweigerte musste sich Herr Nielson um eine Alternative umsehen. Inzwischen verbringt er mehr Zeit in seiner Hütte als zu Hause.
+ind_lot_cl4_E3_02_09
+Kleingarten mit Gartenbahn\n\nDa seine Frau eine Modelleisenbahn im Haus verweigerte musste sich Herr Nielson um eine Alternative umsehen. Inzwischen verbringt er mehr Zeit in seiner Hütte als zu Hause.
 #________________________________building - mon_________________________________
 #________________________________building - mon_________________________________
-cur_city_basil_cathedral
-Basilius-Kathedrale\n\nDer offizielle Name des Baus lautet "Mariä-Schutz-und-Fürbitte-Kathedrale am Graben" - allerdings ist der prachtvolle Bau DIE Touristenattraktion der Stadt, und der Tourismusverband befand, dass sich "Basilius-Kathedrale" besser vermarkten lässt.
-cur_city_gothic_cathedral
-Gotische Kathedrale\n\nDie Erbauung dieser Kathedrale hat mehrere Jahrhunderte in Anspruch genommen. Sie wurde gerade rechtzeitig zum Spielbeginn fertiggestellt.\nTheologen streiten noch über die Identität der zwei Heiligen, welche in den Fenstern rechts oben abgebildet wurden. Am Fenstersims wird lediglich Matthaeus Kapitel 7 Vers 7 und 8 bruchteilhaft zitiert:\n"Suchet, so werdet ihr finden, denn wer da sucht, der findet"
 mon_at_at
 AT-AT\n\nDer Allterrain-Angriffstransporter ist eine vierbeinige, mechanische Infanteriekampfvehikeleinheit, welche von den Bodentruppen des Imperiums sowohl wegen ihres einschüchternden psychologischen Effekts verwendet werden, als auch wegen ihrer taktischen Vorzüge. In diesem Fall ist es aber nur eine Statue zur Feier des alljährlichen Star-Wars-Tags. May the Fourth be with you!
 mon_brose
 Brose-Monument\n\nAlex. Brose ist ein Pixler von Weltklasse, welcher nicht nur in diesem P192C seine Spuren hinterlassen hat. Das Monument zeigt eine der Gebäude-Brut-Maschinen, in denen seine Baby-Wolkenkratzer in windeseile auf passende P192C-Größe heranwachsen. Leider kann nur Herr Brose selbst die Maschine bedienen.
 mon_coot
 Emil Erpel\n\nDiese überlebensgroße Statue wurde 1952 zu Ehren des Stadtgründers Emil Erasmus Erpel errichtet. Finanziert wurde sie vom reichsten Bürger der Stadt, welcher damit den Maharadscha von Zasterabad übertrumpen wollte. Die prominent platzierten Maiskolben erinnern an deren wichtige Rolle im Sieg über die spanischen Invasoren.\n Der Entenkörper hingegen war lediglich ein dummes Missverständnis. Die Bildhauer Carl Barks und Assistent Don Rosa erhielten nur den Auftrag "Den Erpel im Pionierskostüm mit Maiskolben" darzustellen, ohne weitere Details oder Rücksprachen.
+mon_creeper
+Creeper\n\nDiese Statue ist Hohl. Ihr Inneres dient als Lebensraum für ein nachtaktives Geschöpf, dessen Ausscheidungen zur Herstellung von Schießpulver und Sprengstoffen verwendet werden kann: Fledermäuse.
 mon_cruzer
 Cruzer-Monument\n\nEin Denkmal zu Ehren Cruzer, dem Erschaffer und Gründer des pak192.comic, ohne den das hier nicht möglich wäre.
 mon_cube
@@ -426,6 +580,8 @@ mon_incredible_cube
 Der unglaubliche Würfel\n\nEin Denkmal zu Ehren der Simutrans-Entwickler.
 mon_leartin
 Leartin-Monument\n\nLeartin ist einfach der Beste. Er hat die tollsten Ideen, pixelt die schönsten Gebäude, hat halbe Höhen beinahe im Alleingang eingeführt und ist für die Paksetentwicklung unverzichtbar. Zudem ist er überaus bescheiden, und er schreibt die meisten Gebäudetexte...
+mon_pokeball
+Monsterfangkugel\n\nNachbildung einer Monsterfangkugel, wie sie der legendäre Asch Fangse auf seinen Reisen verwendet haben soll. Einige Aluhutträger behaupten gar, ein Monster wäre im Inneren der Kugel gefangen. Historiker hingegen fragen sich, ob es nicht stattdessen das mimicartige Geschöpf "Voltobal" sein könnte, das hier nachempfunden wurde.
 mon_ptm1
 PappeTeeMaster Denkmal\n\nEin Denkmal zu Ehren PappeTeeMaster, dem gegenwärtigen Pakverwalter sowie Erschaffer zahlreicher großartiger Gebäude und Fahrzeuge, ohne die das pak192.comic heute nicht so großartig wäre.\n
 mon_rings
@@ -436,6 +592,8 @@ mon_werniman
 Nightly-Denkmal\n\nZu Ehren von Wernieman für die Bereitstellung täglicher nächtlicher Simutransversionen.
 #________________________________building - res_________________________________
 #________________________________building - res_________________________________
+res_cl3_C3_E6_01_18
+Blockbau\n\nNeulich Polizeieinsatz: Die Tür zu 2C wurde aufgebrochen. Die Bewohnerin, Eusebia, eine ältere Dame, wurde von den Nachbarn seit Wochen nicht mehr gesehen, der Briefkasten quellte über, und es gab keine Reaktion auf Klopfen oder Klingeln.\nGlücklicherweise stellte sich heraus, dass Eusebia bloß über eine Simutrans-Partie die Zeit vergessen hatte.
 res_cl3_C3_E6_14_20
 Wohnhaus\n\nFrau Finkelstein in 2C hat kürzlich einen neuen Fußabstreifer gekauft. Er zeigt ein fröhliches, weißes Schaf auf einer grünen Wiese unter blauem Himmel. Doch binnen eines Tages, nachdem sie diesen vor die Tür legte, bekam Sie ein Schreiben der Hausverwaltung. Der Fußabstreifer entspräche nicht der Norm und müsse binnen 24 Stunden wieder durch ein graues Standardmodell ersetzt werden.
 res_cl3_E2_01_07
@@ -446,10 +604,22 @@ res_cl3_E4_04_07
 Rosengasse
 res_cl3_E4_08_12
 Cedelia
+res_cl4_E0_01_05
+Billige Mietskaserne\n\nEin undichtes Dach, von den Wänden bröckelnder Putz und eine defekte Heizung sind wohl die Gründe für die eingestellten Mietzahlungen.
+res_cl4_E0_01_07
+Pension "Zum alten Racker"\n\nIn diesem Haus, das übrigens schon 1890 von Karl Auer erbaut wurde, schenkt Tim Buktu ohne Pause Bier ein, putzt Böden und teilt Zimmer zu - er ist der einzige Angestellte...
 res_cl4_E0_04_03
 Einzelhaus
 res_cl4_E0_07_07
 Billige Mietskaserne\n\nEin undichtes Dach, von den Wänden bröckelnder Putz und eine defekte Heizung sind wohl die Gründe für die eingestellten Mietzahlungen.
+res_cl4_E4_01_03
+Einfaches Wohnhaus\n\nHerr Schlicht gilt als bescheidener und einfacher Mensch. Er wurde bisher nur in Unterwäsche beim Kauf von Wasser und Brot gesehen. Mun munkelt sogar, dass sein Haus keine Wände und Möbel hat und er nackt auf dem Boden schläft.
+res_cl4_E4_02_03
+Einfaches Wohnhaus\n\nHerr Schlicht gilt als bescheidener und einfacher Mensch. Er wurde bisher nur in Unterwäsche beim Kauf von Wasser und Brot gesehen. Mun munkelt sogar, dass sein Haus keine Wände und Möbel hat und er nackt auf dem Boden schläft.
+res_cl4_E4_03_03
+Einfaches Wohnhaus\n\nHerr Schlicht gilt als bescheidener und einfacher Mensch. Er wurde bisher nur in Unterwäsche beim Kauf von Wasser und Brot gesehen. Mun munkelt sogar, dass sein Haus keine Wände und Möbel hat und er nackt auf dem Boden schläft.
+res_cl4_E4_07_03
+Erfindervilla\n\nIn diesem futuristischen Gebäude wohnt Professor Knox. Seine Erfindungen sind Stadtbekannt - vor allem für die Schäden, welche sie anrichten.
 res_cl4_E5_01_05
 Immobilie
 res_cl4_E5_01_07
@@ -461,15 +631,25 @@ Traumhaus
 res_cl4_E5_08_03
 Einzelhaus
 res_cl5_E0_10_09
-Alpenmorgen
+Hotel Alpenmorgen\n\nIch möchte gerne ein Zimmer mit Bergblick.
 res_cl5_E3_08_03
 Bauernhof
+res_cl5_E3_09_01
+Wohnhaus\n\nDie Henne Hanna legt jeden Tag ein Ei, Sonntags auch mal zwei. Aber letzten Freitag, da hat sie kein Ei gelegt. Hennenmutter Hermine macht sich Sorgen.
 res_cl5_E3_09_03
 Einfamilienhaus
 res_cl5_E3_13_05
 Landhaus
+res_cl5_E3_16_03
+Wohnhaus\n\nHerr Liedenbrök ist stolz auf die selbstgebaute Hundehütte für seinen Cocker Spaniel Suzy.
 res_cl5_E6_04_07
 Einzelhaus
+res_park_cl5_E0_02_12
+Bolzplatz
+res_park_cl5_E0_02_15
+Park\n\nUm sicher durch einen Irrgarten zu gelangen, einfach immer rechts halten.
+res_park_cl5_E0_03_15
+Glashaus\n\nSteine werfen strengstens verboten!
 #________________________________building - stop________________________________
 #________________________________building - stop________________________________
 apron
@@ -484,6 +664,10 @@ Bahnhof_Hochbahn_3
 Überdachter Hochbahnsteig
 Bahnhof_Hochbahn_5
 Hochbahnsteig
+Bahnhof_Untergrundbahn_1863_1
+U-Bahnhof
+Bahnhof_Untergrundbahn_1863_2
+U-Bahnhof
 Bahnhof_Untergrundbahn_1902_1
 U-Bahnhof
 Bahnhof_Untergrundbahn_1902_2
@@ -520,8 +704,28 @@ freightstation_old
 Renoviertes Einfamilienhaus
 maglev_station_pax_medium
 Magnetbahnstation
+Narrowgauge_Station_Goods_1
+Güterbahnhof
+Narrowgauge_Station_Passenger_1
+Bahnsteig
+Narrowgauge_Station_Passenger_Roof_1
+Überdachter Bahnsteig
+Narrowgauge_Station_Passenger_Roof_2
+Überdachter Bahnsteig
+Narrowgauge_Station_Passenger_Roof_3
+Überdachter Bahnsteig
+narrowgauge_station_passenger_roof_4
+Überdachter Bahnsteig
+Narrowgauge_Station_Passenger_Underground_1
+U-Bahnhof
+Narrowgauge_Station_Passenger_Underground_2
+U-Bahnhof
 road_Busbahnhof
 Busbahnhof
+road_busstop_long
+Doppelhaltestelle
+road_busstop_long_modern
+Doppelhaltestelle
 road_busstop1845medium
 Bushaltestelle mit Wartehäuschen
 road_busstop1845medium_post
@@ -548,30 +752,40 @@ road_busstop2001small_post
 Bushaltestelle mit Briefkasten
 road_doppelstation_strab
 Doppelhaltestelle
+road_ladezone_asphalt
+Beladezone
+road_ladezone_cobble
+Beladezone
+road_roundroof
+Bushaltestelle
 sandbahnsteig
 Sandbahnsteig
 station_track_Bahnsteig_1835_1
 Einseitiger Bahnsteig
 station_track_Bahnsteig_1835_2
-Überdachter einseitiger Bahnsteig
+Überdachter Bahnsteig
 station_track_Bahnsteig_1900_1
-Überdachter einseitiger Bahnsteig
+Überdachter Bahnsteig
+station_track_Bahnsteig_1910_4
+Überdachter Bahnsteig
 station_track_Bahnsteig_1950_1
-Einseitiger Bahnsteig
+Bahnsteig
 station_track_Bahnsteig_1950_2
-Überdachter einseitiger Bahnsteig
+Überdachter Bahnsteig
 station_track_Bahnsteig_1975_1
-Überdachter einseitiger Bahnsteig
+Überdachter Bahnsteig
 station_track_Bahnsteig_2000_1
-Einseitiger Bahnsteig
+Bahnsteig
 station_track_Bahnsteig_2000_2
-Überdachter einseitiger Bahnsteig
+Überdachter Bahnsteig
 station_track_Bahnsteig_2000_3
 Bahnsteig
 station_track_Bahnsteig_2000_5
 Bahnsteig
 station_track_Bahnsteig_Dach_1
 Überdachter Bahnsteig
+track_station_good
+Güterbahnhof
 water_station_Anleger_Beton
 Betonanleger
 water_station_Anleger_City
@@ -626,6 +840,32 @@ tow_tropic05
 Rathaus
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
+carriage01
+Kutsche
+carriage02
+Kutsche
+carriage03
+Kutsche
+carriage04
+Kutsche
+citycar_herbie
+Herbie
+citycar_kaefer_00
+VW Käfer
+citycar_kaefer_01
+VW Käfer
+citycar_kaefer_02
+VW Käfer
+citycar_kaefer_03
+VW Käfer
+citycar_kaefer_04
+VW Käfer
+citycar_kaefer_05
+VW Käfer
+citycar_kaefer_06
+VW Käfer
+citycar_kaefer_07
+VW Käfer
 citycar01
 PTM Combi
 citycar02
@@ -638,8 +878,64 @@ citycar05
 CrZ Polo
 citycar06
 jBB Angila
+detele01
+Detroit Electric
+detele02
+Detroit Electric
+detele03
+Detroit Electric
+detele04
+Detroit Electric
+detele05
+Detroit Electric
+detele06
+Detroit Electric
+MB_Vito_CC1
+MB Vito
+MB_Vito_CC2
+MB Vito
+MB_Vito_CC3
+MB Vito
+MB_Vito_CC4
+MB Vito
+MB_Vito_CC5
+MB Vito
 mercedes190e
 Mecredes 190E
+mercedes190e1
+MB 190
+mercedes190e2
+MB 190
+mercedes190e3
+MB 190
+mercedes190e4
+MB 190
+mercedes190e5
+MB 190
+mercedes190e6
+MB 190
+mercedes190e7
+MB 190
+mercedes190e8
+MB 190
+taxi
+Taxi
+volkswagent2
+VW Bulli
+volkswagent2_blau
+VW Bulli
+volkswagent2_grau
+VW Bulli
+volkswagent2_gruen
+VW Bulli
+volkswagent2_lila
+VW Bulli
+volkswagent2_notarzt
+VW Bulli
+volkswagent2_orange
+VW Bulli
+volkswagent2_rot
+VW Bulli
 #_________________________________climates_text_________________________________
 #_________________________________climates_text_________________________________
 arctic
@@ -656,6 +952,14 @@ tropic
 Tropisch
 tundra
 Kontinental
+#___________________________________crossing____________________________________
+#___________________________________crossing____________________________________
+narrowgauge-road-crossing
+Bahnübergang
+narrowgauge-track-crossing
+Gleiskreuz
+track-road-crossing
+Bahnübergang
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 apiary
@@ -704,6 +1008,8 @@ car_parts_factory
 Fahrzeug-Teilefabrik
 factory_car_parts_factory_details
 <title>Fahrzeug-Teilefabrik</title>\n<p>Kotflügel, Scheinwerfer, Rückspiegel. Alles, was am Auto dran ist, wird in dieser Fabrik hergestellt.</p>
+carpet_weaver
+Teppichknüpfer
 carseller
 Autohaus
 cherryontop
@@ -738,20 +1044,34 @@ coppermine
 Kupfermine
 factory_coppermine_details
 Ein einsamer Glücksritter auf der Suche nach einer Goldader stieß stattdessen nahe dieser Mine auf Kupfer. Zunächst dachte er, es sei ein Wertloser Fund, doch sein Schwager - ein Anwalt - überzeugte ihn davon, dass gemäß dem General Mining Act von 1872, spezifisch der Sektion "Law of the Apex", derjenige Besitzer einer Erzader ist, auf dessen Grund sie am nähesten der Oberfläche verläuft. Kurze Zeit später verschwanden beide Spurlos.
+cotton_plantation
+Baumwollplantage
 cows
 Rinderfarm
 currywurst_stand
 Currywurst-Stand
 factory_currywurst_stand_details
 Die Currywurst ist ein deutsches Gericht aus einer meist hautlosen Brühwurst, die ganz oder geschnitten mit einer tomatenhaltigen Sauce und Currypulver serviert wird. Erfunden wurde sie nach dem Krieg von Herta Charlotte Heuwer in Berlin.
+dairy
+Käserei
+factory_dairy_details
+<title>Käserei</title>\n<p>Dieser Produzent von Milchprodukten behauptet, den weltgrößten Käse geschaffen zu haben. Er sei jede Nacht zu sehen.</p>
 diy1
 Baumarkt
 doctor
 Ärztehaus
+electronics_producer
+Erzeuger von Elektroartikeln
+farmers_market
+Wochenmarkt
 flaxfarm
 Flachsfarm
 factory_flaxfarm_details
 <title>Flachsfarm</title>\n<p>Schon häufig wurde der Wunsch laut, Hanf für die Textilienproduktion zu nutzen, da es stabiler ist und sich mehr freiwillige Erntehelfer finden würden.</p>
+furniture
+Möbel
+garment_factory
+Kleidungsschneiderei
 gasstation
 Tankstelle
 factory_gasstation_details
@@ -760,6 +1080,8 @@ gasstation_small
 Kleine Tankstelle
 factory_gasstation_small_details
 <title>Kleine Tankstelle</title>\n<p>Diese kleine Tankstelle ist von allen Krisen bisher verschont geblieben. Der Benzinpreis ist seit 1999 nicht mehr gestiegen. Aktuell bekommt der Autofahrer einen Liter Benzin für gerade mal einen ¢redit.</p>
+gelatti
+Eisdiele
 glassworks
 Glaswerk
 factory_glassworks_details
@@ -850,6 +1172,8 @@ plusstore
 Elektrohandel
 police
 Polizei
+police-new
+Polizeistation
 printer
 ZMÜCK-Farbdruckerei
 prison
@@ -922,6 +1246,8 @@ vineyard
 Weingut
 Windkraftwerk
 Windturbine
+wiredrawer
+Drahtzieher
 woodcutter_alpine
 Alpiner Holzfäller
 woodcutter_east
@@ -930,6 +1256,8 @@ woodcutter_medi
 Mediterraner Holzfäller
 woodcutter_west
 Holzfäller
+yarnmill
+Spinnerei
 #_____________________________________field_____________________________________
 #_____________________________________field_____________________________________
 apple_field_0
@@ -952,6 +1280,8 @@ coca_field_1
 Cocafelder
 coca_field_2
 Cocafelder
+cotton_field_0
+Baumwollfelder
 flaxfield_0
 Flachsfeld
 flaxfield_1
@@ -1018,10 +1348,16 @@ beer
 Bier
 berries
 Beeren
+billet
+Knüppel
 boards
 Bretter
+cable
+Kabel
 car_parts
 Autoteile
+carpet
+Teppich
 cars
 Autos
 cattle
@@ -1044,22 +1380,18 @@ convicts
 Verurteilte
 copper
 Kupfer
-dairy
-Käserei
-factory_dairy_details
-<title>Käserei</title>\n<p>Dieser Produzent von Milchprodukten behauptet, den weltgrößten Käse geschaffen zu haben. Er sei jede Nacht zu sehen.</p>
 deceased
 Verstorbene
 electronics
 Elektroartikel
+fabric
+Stoff
 fiber
 Textilfaser
 flour
 Mehl
 fuel
 Benzin
-furniture
-Möbel
 glass
 Glas
 gold
@@ -1076,6 +1408,8 @@ hop
 Hopfen
 icecream
 Speiseeis
+ingot
+Barren
 ink
 Sepia
 ironmongery
@@ -1113,7 +1447,7 @@ Patienten
 plastics
 Kunststoff
 rum
-Rum
+Spirituosen
 salt
 Salz
 sand
@@ -1140,6 +1474,8 @@ vine
 Wein
 wax
 Wachs
+yarn
+Garn
 #__________________________________ground_obj___________________________________
 #__________________________________ground_obj___________________________________
 deer
@@ -1235,17 +1571,17 @@ Ansicht
 #_________________________________message_text__________________________________
 #_________________________________message_text__________________________________
 batch
-Bündel
+ Bündel
 chests
-Kisten
+ Kisten
 m3
-m³
+ m³
 pallets
  Paletten
 stk
  Stück
 suitcases
-Koffer
+ Koffer
 tons
  Tonnen
 #_____________________________________misc______________________________________
@@ -1254,6 +1590,118 @@ bags
  Taschen
 #__________________________________pedestrian___________________________________
 #__________________________________pedestrian___________________________________
+catestrian
+Katze
+E3m_kid_1
+Kind
+E3m_kid_10
+Kind
+E3m_kid_11
+Kind
+E3m_kid_12
+Kind
+E3m_kid_13
+Kind
+E3m_kid_14
+Kind
+E3m_kid_15
+Kind
+E3m_kid_16
+Kind
+E3m_kid_2
+Kind
+E3m_kid_3
+Kind
+E3m_kid_4
+Kind
+E3m_kid_5
+Kind
+E3m_kid_6
+Kind
+E3m_kid_7
+Kind
+E3m_kid_8
+Kind
+E3m_kid_9
+Kind
+ped_E0police1
+Polizist
+ped_E0police2
+Polizist
+ped_E1f_blue
+Dame
+ped_E1f_green
+Dame
+ped_E1f_purple
+Dame
+ped_E1f_yellow
+Dame
+ped_E1m_black_bowler
+Gentleman
+ped_E1m_black_top
+Gentleman
+ped_E1m_brown_bowler
+Gentleman
+ped_E1m_brown_top
+Gentleman
+ped_E1m_gray_bowler
+Gentleman
+ped_E1m_gray_top
+Gentleman
+ped_E2f_01
+Frau
+ped_E2f_02
+Frau
+ped_E2f_03
+Frau
+ped_E2f_04
+Frau
+ped_E2f_05
+Frau
+ped_E3m_old1
+Senior
+ped_E3m_old2
+Senior
+ped_E3m_old3
+Senior
+ped_E3m_old4
+Senior
+ped_E3m_rand1
+Person
+ped_E3m_rand2
+Person
+ped_E3m_rand3
+Person
+ped_E3m_rand4
+Person
+ped_E3m_rand5
+Person
+ped_E3m_rand6
+Person
+ped_E3m_rand7
+Person
+ped_E3m_rand8
+Person
+ped_E3police1
+Polizist
+ped_E3police2
+Polizist
+ped_E4f_blackred
+Frau
+ped_E4f_blondepink
+Frau
+ped_E4f_brunettegreen
+Frau
+ped_E4f_greygray
+Frau
+ped_E5police1
+Polizist
+ped_E5police2
+Polizist
+ped_joker
+Joker
+ped_link
+Link
 pedestrian_1
 Max Mustermann
 pedestrian_2
@@ -1278,6 +1726,8 @@ CATEGORY_08
 Wertgegenstände
 CATEGORY_09
 Leichtes Schüttgut
+CATEGORY_10
+Rollengut
 Narrowgauge
 Normalspur
 narrowgauge vehicle
@@ -1324,6 +1774,10 @@ air_private_modern
 Privater Flughafenbereich
 singleway_air
 Richtungssperre
+#____________________________roadsign - maglev_track____________________________
+#____________________________roadsign - maglev_track____________________________
+maglev_chooseway
+Plattform-Wahlsignal
 #_________________________roadsign - narrowgauge_track__________________________
 #_________________________roadsign - narrowgauge_track__________________________
 Mindestgeschwindigkeits Signal 130
@@ -1332,16 +1786,140 @@ Mindestgeschwindigkeits Signal 260
 Mindestgeschwindigkeit: 260km/h
 presignal
 Vorsignal
+track_presignal
+Zweiblock-Signal
+track_presignal_form
+Zweiblock-Signal
+track_presignal_light
+Zweiblock-Signal
+track_private_modern
+Einfahrtsbeschränkung
+track_sigcatenary_down_new
+Pantographen-Anweisung (Funktionslos)
+track_sigcatenary_down_old
+Pantographen-Anweisung (Funktionslos)
+track_sigcatenary_off_new
+Pantographen-Anweisung (Funktionslos)
+track_sigcatenary_off_old
+Pantographen-Anweisung (Funktionslos)
+track_sigcatenary_on_new
+Pantographen-Anweisung (Funktionslos)
+track_sigcatenary_on_old
+Pantographen-Anweisung (Funktionslos)
+track_sigcatenary_up_new
+Pantographen-Anweisung (Funktionslos)
+track_sigcatenary_up_old
+Pantographen-Anweisung (Funktionslos)
+track_sigchoose
+Plattform-Wahlsignal
+track_sigchoose_form
+Plattform-Wahlsignal
+track_sigchoose_light
+Plattform-Wahlsignal
+track_sigchoose_sbb
+Plattform-Wahlsignal
+track_sigchooseend
+Ende der Plattformwahl
+track_sigchooseend_form
+Ende der Plattformwahl
+track_sigchooseend_light
+Ende der Plattformwahl
+track_siglong
+Langblock-Signal
+track_siglong_form
+Langblock-Signal
+track_siglong_light
+Langblock-Signal
+track_signal
+Signal
+track_signal_box
+Stellwerk (Funktionslos)
+track_signal_etcs
+Signal
+track_signal_form
+Signal
+track_signal_light
+Signal
+track_signal_sbb
+Signal
+track_sigpriority
+Vorrang-Signal
+track_sigpriority_form
+Vorrang-Signal
+track_sigpriority_light
+Vorrang-Signal
+track_sigprivate
+Einfahrtsbeschränkung
 #________________________________roadsign - road________________________________
 #________________________________roadsign - road________________________________
+road_auswahl1
+Plattform-Wahlsignal
+road_auswahl2
+Plattform-Wahlsignal
+road_private
+Einfahrtsbeschränkung
 road_sperre
 Straßensperre
 traffic_light
 Verkehrsampel
 #_______________________________roadsign - track________________________________
 #_______________________________roadsign - track________________________________
+narrowgauge_signal_box
+Stellwerk (Funktionslos)
+ng_presignal
+Zweiblock-Signal
+ng_presignal_form
+Zweiblock-Signal
+ng_presignal_light
+Zweiblock-Signal
+ng_sigchoose
+Plattform-Wahlsignal
+ng_sigchoose_form
+Plattform-Wahlsignal
+ng_sigchoose_light
+Plattform-Wahlsignal
+ng_sigchooseend
+Ende der Plattformwahl
+ng_sigchooseend_form
+Ende der Plattformwahl
+ng_sigchooseend_light
+Ende der Plattformwahl
+ng_siglong
+Langblock-Signal
+ng_siglong_form
+Langblock-Signal
+ng_siglong_light
+Langblock-Signal
+ng_signal
+Signal
+ng_signal_form
+Signal
+ng_signal_light
+Signal
+ng_sigpriority
+Vorrang-Signal
+ng_sigpriority_form
+Vorrang-Signal
+ng_sigpriority_light
+Vorrang-Signal
+ng_sigprivate
+Einfahrtsbeschränkung
 presignal_ng
 Vorsignal
+track_private_modern_ng
+Einfahrtsbeschränkung
+tram_presignal
+Zweiblock-Signal
+tram_sigchoose
+Plattform-Wahlsignal
+tram_sigchooseend
+Ende der Plattformwahl
+tram_siglong
+Langblock-Signal
+tram_signal
+Signal
+tram_sigpriority
+Vorrang-Signal
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 192tree01
@@ -1455,15 +2033,17 @@ Baade 155
 #____________________________vehicle - maglev_track_____________________________
 #____________________________vehicle - maglev_track_____________________________
 SNL_Arkon(end)
-SNL Akron (Schluss)
+SNL Akron
 SNL_Arkon(front)
+SNL Akron
+SNL_Arkon(Wagen)
 SNL Akron
 SNL_Transrapid_00
 Transrapid
 SNL_Transrapid_01
-Transrapid (Mittelwagen)
+Transrapid
 SNL_Transrapid_02
-Transrapid (Schlusswagen)
+Transrapid
 #__________________________vehicle - narrowgauge_track__________________________
 #__________________________vehicle - narrowgauge_track__________________________
 A_1-MVG
@@ -1490,6 +2070,10 @@ AI_1-BVG
 U-Bahnwagen BVG Bauart A I | Motorwagen
 AI_2-BVG
 U-Bahnwagen BVG Baureihe AI | Beiwagen\n
+AWH_Halbgepaeckwagen_2003
+Gepäckwagen "Citynightline"
+AWH_Liegewagen_1999_NJ
+Liegewagen "Nightjet"
 B_1-MVG
 U-Bahnwagen MVG Typ B
 B_2-MVG
@@ -1507,11 +2091,11 @@ Dampflokomotive Typ VIIa
 B_VIIa_Tender
 Dampflokomotive Typ VIIa | Tender
 B2ueh
-Personenwagen Typ B2üh
+Personenwagen Typ B2üh "Spantenwagen"
 B2ueh2
 Personenwagen Typ B2üh | Modernisiert
 B4ueh
-Schnellzugwagen Typ B2üh
+Schnellzugwagen Typ B4üh "Schürzenwagen"
 B514
 Doppelstocktriebwagenzug Typ B514 "Desiro Double Deck" | Mittelwagen
 Bayrische_D_VIII
@@ -1533,9 +2117,9 @@ Nahverkehrstriebwagen BR 613 "Itino" | Mittelwagen
 BR 613_3
 Nahverkehrstriebwagen BR 613 "Itino" | Steuerwagen
 BR 642
-Nahverkehrstriebwagen BR 642 "Desiro" | Steuerwagen
+Nahverkehrstriebwagen Rh. 5022 "Desiro" | Steuerwagen
 BR 642_1
-Nahverkehrstriebwagen BR 642 "Desiro" | Steuerwagen
+Nahverkehrstriebwagen Rh. 5022 "Desiro" | Steuerwagen
 BR 650
 Nahverkehrstriebwagen BR 650 "Regio Shuttle"
 BR_01_10
@@ -1567,13 +2151,19 @@ Versuchslokomotive BR 128 "12X"
 BR_141
 Elektrolokomotive BR E 41
 BR_145
-Elektrolokomotive BR 145 "TRAXX"
+Elektrolokomotive BR 145
+BR_145_RBH
+Elektrolokomotive BR 145
 BR_145_zza
 Elektrolokomotive BR 145 "TRAXX" | Zugzielanzeige
 BR_146_0
 Elektrolokomotive BR 146.0 "TRAXX"
 BR_146_2
 Elektrolokomotive BR 146.2 "TRAXX 2"
+BR_146_2_LNVG
+Elektrolokomotive BR 146.2 "TRAXX 2"
+BR_146_5
+Intercitylokomotive BR 146.5 "TRAXX 2"
 BR_146_TRAXX
 Elektrolokomotive BR 146 "TRAXX"
 BR_146_TRAXX_BW
@@ -1582,6 +2172,8 @@ BR_146_TRAXX_bwsp
 Elektrolokomotive BR 146 "TRAXX"
 BR_147
 Elektrolokomotive BR 147 "TRAXX 3"
+BR_147_5
+Intercitylokomotive BR 147.5 "TRAXX 3"
 BR_151
 Güterzuglokomotive BR 151
 BR_181
@@ -1596,7 +2188,15 @@ BR_186
 Mehrsystemlokomotive BR 186 "TRAXX 2"
 BR_186_4
 Mehrsystemlokomotive BR 186 "TRAXX 2"
+BR_186_4_AlphaTrains
+Mehrsystemlokomotive BR 186 "TRAXX 2E"
+BR_186_4_Railpool
+Mehrsystemlokomotive BR 186 "TRAXX 2E"
+BR_187
+Mehrsystemlokomotive BR 187 "TRAXX 3"
 BR_187_4
+Mehrsystemlokomotive BR 187 "TRAXX 3"
+BR_187_4_Railpool
 Mehrsystemlokomotive BR 187 "TRAXX 3"
 BR_187_TRAXX_freight
 Mehrsystemlokomotive BR 187 "TRAXX 3"
@@ -1613,15 +2213,17 @@ Diesellokomotive BR 218
 BR_223
 Diesellokomotive BR 223 "Eurorunner"
 BR_245
-Diesellokomotive BR 245 "TRAXX"
+Diesellokomotive BR 245 "TRAXX ME"
 BR_245_nahsh
-Diesellokomotive BR 245 "TRAXX"
+Diesellokomotive BR 245 "TRAXX ME"
 BR_245_nahsh_2
-Diesellokomotive BR 245 "TRAXX"
+Diesellokomotive BR 245 "TRAXX ME"
+BR_246_LNVG
+Diesellokomotive BR 246 "TRAXX 2E"
 BR_246_TRAXX
-Diesellokomotive BR 246 "TRAXX"
+Diesellokomotive BR 246 "TRAXX 2E"
 BR_285
-Diesellokomotive BR 285 "TRAXX"
+Diesellokomotive BR 285 "TRAXX 2"
 BR_402_1
 Intercityexpress "ICE" | Triebkopf
 BR_402_2
@@ -1773,19 +2375,19 @@ Dieselokomotive Class 59
 BS514
 Doppelstocktriebwagenzug Typ BS514 "Desiro Double Deck" | Mittelwagen
 C_1-LT
-U-Bahnwagen LT Typ C
+U-Bahnwagen TfL Typ C
 C_1-MVG
 U-Bahnwagen MVG Typ C
 C_2-LT
-U-Bahnwagen LT Typ C
+U-Bahnwagen TfL Typ C
 C_2-MVG
 U-Bahnwagen MVG Typ C
 C_3-LT
-U-Bahnwagen LT Typ C
+U-Bahnwagen TfL Typ C
 C_3-MVG
 U-Bahnwagen MVG Typ C
 C_4-LT
-U-Bahnwagen LT Typ C
+U-Bahnwagen TfL Typ C
 C2_1-MVG
 U-Bahnwagen MVG Typ C2
 C2_2-MVG
@@ -1796,6 +2398,8 @@ Car_1900_Sheetmetal
 Coilwagen
 Car_1920_Billet
 Brammenwagen
+Car_1920_Rolls
+Rollentransportwagen
 Car_1940_Sheetmetal
 Coilwagen
 Car_1965_Billet
@@ -1804,6 +2408,14 @@ Car_1985_Sheetmetal
 Coilwagen
 Car_1990_Billet
 Brammenwagen
+Car_Apple_1979_Eaos_106
+Landwirtschaftlicher Schüttgutwagen Typ Eaos 106
+Car_Apple_1987_Eanos_052
+Landwirtschaftlicher Schüttgutwagen Typ Eanos 052
+Car_Coal_1979_Eaos_106
+Schüttgutwagen Typ Eaos 106
+Car_Coal_1987_Eanos_052
+Schüttgutwagen Typ Eanos 052
 CarTransportationCar
 Autotransportwagen
 CarTransportationCar_1920
@@ -1812,6 +2424,8 @@ CD_151
 Elektrolokomotive BR 151
 CD_151_SC
 Elektrolokomotive BR 151
+CD_388
+Elektrolokomotive BR 388 "TRAXX 3"
 CD_471_SC2a
 Doppelstocktriebzug BR 471 "CityElefant" | Steuerwagen
 CD_471_SC2b
@@ -1928,6 +2542,158 @@ Class_220_XC_2
 Intercity Triebzug Class 220 "Voyager"
 Class_220_XC_3
 Intercity Triebzug Class 220 "Voyager"
+Class_307_BR-1
+Elektrotriebwagen AM7
+Class_307_BR-2
+Elektrotriebwagen AM7
+Class_307_BR-3
+Elektrotriebwagen AM7
+Class_307_BR-4
+Elektrotriebwagen AM7
+Class_312_BR-1
+Elektrotriebwagen Class 312
+Class_312_BR-2
+Elektrotriebwagen Class 312
+Class_312_BR-3
+Elektrotriebwagen Class 312
+Class_312_BR-4
+Elektrotriebwagen Class 312
+Class_317_FCC_1
+Elektrotriebwagen Class 317
+Class_317_FCC_2
+Elektrotriebwagen Class 317
+Class_317_FCC_3
+Elektrotriebwagen Class 317
+Class_317_FCC_4
+Elektrotriebwagen Class 317
+Class_317_GA_1
+Elektrotriebwagen Class 317
+Class_317_GA_2
+Elektrotriebwagen Class 317
+Class_317_GA_3
+Elektrotriebwagen Class 317
+Class_317_GA_4
+Elektrotriebwagen Class 317
+Class_317_LO_1
+Elektrotriebwagen Class 317
+Class_317_LO_2
+Elektrotriebwagen Class 317
+Class_317_LO_3
+Elektrotriebwagen Class 317
+Class_317_LO_4
+Elektrotriebwagen Class 317
+Class_319_FCC_1
+Elektrotriebwagen Class 319
+Class_319_FCC_2
+Elektrotriebwagen Class 319
+Class_319_FCC_3
+Elektrotriebwagen Class 319
+Class_319_FCC_4
+Elektrotriebwagen Class 319
+Class_319_N_1
+Elektrotriebwagen Class 319
+Class_319_N_2
+Elektrotriebwagen Class 319
+Class_319_N_3
+Elektrotriebwagen Class 319
+Class_319_N_4
+Elektrotriebwagen Class 319
+Class_320_ASR_1
+Elektrotriebwagen Class 320
+Class_320_ASR_2
+Elektrotriebwagen Class 320
+Class_320_ASR_3
+Elektrotriebwagen Class 320
+Class_321_GA_1
+Elektrotriebwagen Class 321
+Class_321_GA_2
+Elektrotriebwagen Class 321
+Class_321_GA_3
+Elektrotriebwagen Class 321
+Class_321_GA_4
+Elektrotriebwagen Class 321
+Class_321_NR_1
+Elektrotriebwagen Class 321
+Class_321_NR_2
+Elektrotriebwagen Class 321
+Class_321_NR_3
+Elektrotriebwagen Class 321
+Class_321_NR_4
+Elektrotriebwagen Class 321
+Class_357_blue_C2C-1
+Elektrotriebwagen Class 357 "Electrostar"
+Class_357_blue_C2C-2
+Elektrotriebwagen Class 357 "Electrostar"
+Class_357_blue_C2C-3
+Elektrotriebwagen Class 357 "Electrostar"
+Class_357_blue_C2C-4
+Elektrotriebwagen Class 357 "Electrostar"
+Class_357_C2C-1
+Elektrotriebwagen Class 357 "Electrostar"
+Class_357_C2C-2
+Elektrotriebwagen Class 357 "Electrostar"
+Class_357_C2C-3
+Elektrotriebwagen Class 357 "Electrostar"
+Class_357_C2C-4
+Elektrotriebwagen Class 357 "Electrostar"
+Class_375_SE-1
+Elektrotriebwagen Class 375 "Electrostar"
+Class_375_SE-2
+Elektrotriebwagen Class 375 "Electrostar"
+Class_375_SE-3
+Elektrotriebwagen Class 375 "Electrostar"
+Class_375_SE-4
+Elektrotriebwagen Class 375 "Electrostar"
+Class_376_SE-1
+Elektrotriebwagen Class 376 "Electrostar"
+Class_376_SE-2
+Elektrotriebwagen Class 376 "Electrostar"
+Class_376_SE-3
+Elektrotriebwagen Class 376 "Electrostar"
+Class_376_SE-4
+Elektrotriebwagen Class 376 "Electrostar"
+Class_376_SE-5
+Elektrotriebwagen Class 376 "Electrostar"
+Class_377_1_SR-1
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_1_SR-2
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_1_SR-3
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_1_SR-4
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_FCC-1
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_FCC-2
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_FCC-3
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_FCC-4
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_SR-1
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_SR-2
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_SR-3
+Elektrotriebwagen Class 377 "Electrostar"
+Class_377_SR-4
+Elektrotriebwagen Class 377 "Electrostar"
+Class_378-1_LO-1
+Elektrotriebwagen Class 378 "Capitalstar"
+Class_378-1_LO-2
+Elektrotriebwagen Class 378 "Capitalstar"
+Class_378-1_LO-3
+Elektrotriebwagen Class 378 "Capitalstar"
+Class_378-1_LO-4
+Elektrotriebwagen Class 378 "Capitalstar"
+Class_378-2_LO-1
+Elektrotriebwagen Class 378 "Capitalstar"
+Class_378-2_LO-2
+Elektrotriebwagen Class 378 "Capitalstar"
+Class_378-2_LO-3
+Elektrotriebwagen Class 378 "Capitalstar"
+Class_378-2_LO-4
+Elektrotriebwagen Class 378 "Capitalstar"
 Class_379_NXEA-1
 Elektrotriebwagen Class 379 "Electrostar" | Steuerwagen
 Class_379_NXEA-2
@@ -1936,16 +2702,86 @@ Class_379_NXEA-3
 Elektrotriebwagen Class 379 "Electrostar" | Mittelwagen
 Class_379_NXEA-4
 Elektrotriebwagen Class 379 "Electrostar" | Steuerwagen
+Class_387_TL-1
+Elektrotriebwagen Class 387 "Electrostar"
+Class_387_TL-2
+Elektrotriebwagen Class 387 "Electrostar"
+Class_387_TL-3
+Elektrotriebwagen Class 387 "Electrostar"
+Class_387_TL-4
+Elektrotriebwagen Class 387 "Electrostar"
+Class_43_EMT_1
+Intercity Dieseltriebzug Class 43 "High Speed Train" | Triebkopf
+Class_43_EMT_2
+Intercity Dieseltriebzug Class 43 "High Speed Train" | Triebkopf
+Class_43_FGW_1
+Intercity Dieseltriebzug Class 43 "High Speed Train" | Triebkopf
+Class_43_FGW_2
+Intercity Dieseltriebzug Class 43 "High Speed Train" | Triebkopf
+Class_455_1_SR
+Elektrotriebwagen Class 455
+Class_455_1_SWT
+Elektrotriebwagen Class 455
+Class_455_2_SR
+Elektrotriebwagen Class 455
+Class_455_2_SWT
+Elektrotriebwagen Class 455
+Class_455_3_SR
+Elektrotriebwagen Class 455
+Class_455_3_SWT
+Elektrotriebwagen Class 455
+Class_455_4_SR
+Elektrotriebwagen Class 455
+Class_455_4_SWT
+Elektrotriebwagen Class 455
 Class43-1
 Intercity Dieseltriebzug Class 43 "High Speed Train" | Triebkopf
 Class43-2
-Intercity Dieseltriebzug Class 43 "High Speed Train" | Mittelwagen
+Intercitywagen "Mark 3"
 Class43-3
 Intercity Dieseltriebzug Class 43 "High Speed Train" | Triebkopf
 container_track02
 Containerwagen
 CRZ E44
 Elektrolokomotive BR E 44
+CSD_E_499.2
+Elektrolokomotive E 499.2
+CSD_E_499.2_SC
+Elektrolokomotive E 499.2
+CSD_E422
+Elektrolokomotive E 422.0
+CSD_E422_SC
+Elektrolokomotive E 422.0
+CSD_E458
+Elektrolokomotive E 458.0
+CSD_E458_SC
+Elektrolokomotive E 458.0
+CSD_E458_SC2
+Elektrolokomotive E 458.0
+CSD_E469
+Elektrolokomotive E 458.0
+CSD_E469_SC
+Elektrolokomotive E 469.1
+CSD_E469.2
+Elektrolokomotive E 469.2
+CSD_E469.2_SC
+Elektrolokomotive E 469.2
+CSD_E479
+Elektrolokomotive E 479.0
+CSD_E479_SC
+Elektrolokomotive E 479.0
+CSD_E499.0
+Elektrolokomotive E 499.0
+CSD_E499.0_SC
+Elektrolokomotive E 499.0
+CSD_E499.1
+Elektrolokomotive E 499.1
+CSD_E499.1_SC
+Elektrolokomotive E 499.1
+CSD_T_679
+Diesellokomotive T 679.1 "Sergej"
+CSD_T_679_SC
+Diesellokomotive T 679.1 "Sergej"
 D_1-BVG
 U-Bahnwagen BVG Typ D "Dora"
 D_2-BVG
@@ -1963,45 +2799,79 @@ RB Doppelstockgliederzug
 DDR-Wagen4c
 RB Doppelstockgliederzug
 Docklands_B07_1
-Hochbahnwagen LT Typ B07
+Hochbahnwagen TfL Typ B07
 Docklands_B07_2
-Hochbahnwagen LT Typ B07
+Hochbahnwagen TfL Typ B07
 Docklands_B92_1
-Hochbahnwagen LT Typ B92
+Hochbahnwagen TfL Typ B92
 Docklands_B92_2
-Hochbahnwagen LT Typ B92
+Hochbahnwagen TfL Typ B92
 Docklands_P86_1
-Hochbahnwagen LT Typ P86
+Hochbahnwagen TfL Typ P86
 Docklands_P86_2
-Hochbahnwagen LT Typ P86
+Hochbahnwagen TfL Typ P86
 Dosto_1990
-Doppelstockwagen
+Doppelstockwagen "Neubau-Dosto"
 Dosto_1990_SWb
-Doppelstocksteuerwagen
+Doppelstocksteuerwagen "Neubau-Dosto"
 Dosto_1990_SWf
-Doppelstocksteuerwagen
+Doppelstocksteuerwagen "Neubau-Dosto"
 Dosto_4g_B_500
-Doppelstocksteuerwagen
+Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_B_500_BW
-Doppelstocksteuerwagen
+Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_B_500_bwsp
-Doppelstocksteuerwagen
+Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_F_500
-Doppelstocksteuerwagen
+Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_F_500_BW
-Doppelstocksteuerwagen
+Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_F_500_bwsp
-Doppelstocksteuerwagen
+Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_M_500
-Doppelstockwagen
+Doppelstockwagen DBpza 780.2 "Innovations-Doppelstockwagen"
 Dosto_4g_M_500_BW
-Doppelstockwagen
+Doppelstockwagen DBpza 780.2 "Innovations-Doppelstockwagen"
 Dosto_4g_M_500_bwsp
-Doppelstockwagen
+Doppelstockwagen DBpza 780.2 "Innovations-Doppelstockwagen"
+Dosto_4g_M_750
+Doppelstockwagen DBpza 781.0 "Innovations-Doppelstockwagen"
 Dosto_5g_B_500M
-Doppelstocktriebkopf "Twindexx Vario"
+Doppelstocktriebkopf BR 445 "Twindexx Vario"
 Dosto_5g_F_500M
-Doppelstocktriebkopf "Twindexx Vario"
+Doppelstocktriebkopf BR 445 "Twindexx Vario"
+DPZ_1
+Doppelstocksteuerwagen "DPZ"
+DPZ_2
+Doppelstocksteuerwagen "DPZ"
+DPZ_3
+Doppelstockwagen "DPZ"
+DPZ_4
+Elektrolokomotive Re 450 "DPZ"
+DPZ_5
+Elektrolokomotive Re 450 "DPZ"
+DPZ_g_1
+Doppelstocksteuerwagen "DPZ"
+DPZ_g_2
+Doppelstocksteuerwagen "DPZ"
+DPZ_g_3
+Doppelstockwagen "DPZ"
+DPZ_g_4
+Elektrolokomotive Re 450 "DPZ"
+DPZ_g_5
+Elektrolokomotive Re 450 "DPZ"
+DPZ_NDW
+Doppelstockwagen "NDW"
+DPZ_r_1
+Doppelstocksteuerwagen "DPZ"
+DPZ_r_2
+Doppelstocksteuerwagen "DPZ"
+DPZ_r_3
+Doppelstockwagen "DPZ"
+DPZ_r_4
+Elektrolokomotive Re 450 "DPZ"
+DPZ_r_5
+Elektrolokomotive Re 450 "DPZ"
 DR_BR130_Ludmilla
 Diesellokomotive BR 130 "Ludmilla"
 DR_BR142_Ludmilla
@@ -2088,6 +2958,56 @@ Eilzugwagenwagen_1950_1
 Eilzugwagen
 Eilzugwagenwagen_1950_2
 Eilzugpostwagen
+Electric_2007_Desiro_ML_TDR_1
+Elektrotriebzug BR 460 "Desiro ML"
+Electric_2007_Desiro_ML_TDR_2
+Elektrotriebzug BR 460 "Desiro ML"
+Electric_2007_Desiro_ML_TDR_3
+Elektrotriebzug BR 460 "Desiro ML"
+Electric_2011_Desiro_ML_SNCB_1
+Elektrotriebzug AM 08 "Desiro ML"
+Electric_2011_Desiro_ML_SNCB_2
+Elektrotriebzug AM 08 "Desiro ML"
+Electric_2011_Desiro_ML_SNCB_3
+Elektrotriebzug AM 08 "Desiro ML"
+Electric_2014_Flirt3_DB_1
+Nahverkehrstriebzug BR 1428 "Flirt 3"
+Electric_2014_Flirt3_DB_2
+Nahverkehrstriebzug BR 1428 "Flirt 3"
+Electric_2014_Flirt3_DB_3
+Nahverkehrstriebzug BR 1428 "Flirt 3"
+Electric_2014_Flirt3_DB_4
+Nahverkehrstriebzug BR 1428 "Flirt 3"
+Electric_2014_Flirt3_NahSh_1
+Nahverkehrstriebzug "Flirt 3"
+Electric_2014_Flirt3_NahSh_2
+Nahverkehrstriebzug "Flirt 3"
+Electric_2014_Flirt3_NahSh_3
+Nahverkehrstriebzug "Flirt 3"
+Electric_2014_Flirt3_NahSh_4
+Nahverkehrstriebzug "Flirt 3"
+Electric_2014_Flirt3_Nordbahn_1
+Nahverkehrstriebzug "Flirt 3"
+Electric_2014_Flirt3_Nordbahn_2
+Nahverkehrstriebzug "Flirt 3"
+Electric_2014_Flirt3_Nordbahn_3
+Nahverkehrstriebzug "Flirt 3"
+Electric_2014_Flirt3_Nordbahn_4
+Nahverkehrstriebzug "Flirt 3"
+Electric_2016_Desiro_ML_GYSEV_1
+Elektrotriebzug Rh. 4744 "Desiro ML Ventus"
+Electric_2016_Desiro_ML_GYSEV_2
+Elektrotriebzug Rh. 4744 "Desiro ML Ventus"
+Electric_2016_Desiro_ML_GYSEV_3
+Elektrotriebzug Rh. 4744 "Desiro ML Ventus"
+Electric_2019_Desiro_ML_ODEG_1
+Elektrotriebzug "Desiro ML"
+Electric_2019_Desiro_ML_ODEG_2
+Elektrotriebzug "Desiro ML"
+Electric_2019_Desiro_ML_ODEG_3
+Elektrotriebzug "Desiro ML"
+Electric_2019_Desiro_ML_ODEG_4
+Elektrotriebzug "Desiro ML"
 EMT Class 153
 Dieseltriebwagen Class 153 "Sprinter"
 EMT Mark_3_FGW
@@ -2138,6 +3058,8 @@ Eurorunner_20
 Diesellokomotive "Eurorunner"
 Eurorunner_20_Alex
 Diesellokomotive "Eurorunner"
+Eurorunner_20_Alex_PC
+Diesellokomotive "Eurorunner"
 Eurorunner_20_MRCE
 Diesellokomotive "Eurorunner"
 Eurostar_Lok1
@@ -2150,8 +3072,12 @@ Eurostar_Wagen1
 Hochgeschwindigkeitszug "Eurostar" | Triebwagen
 Eurostar_Wagen2
 Hochgeschwindigkeitszug "Eurostar" | Triebwagen
+EW_I_A_Papagei
+Personenwagen "Einheitswagen I Papagei"
 EW_I_B_klb
-Personenwagen "EInheitswagen"
+Personenwagen "Einheitswagen I"
+EW_I_B_Papagei
+Personenwagen "Einheitswagen I Papagei"
 F_1-BVG
 U-Bahnwagen BVG Typ F
 F_2-BVG
@@ -2211,7 +3137,7 @@ Schnellzugwagen "Henschel-Wegmann-Zug" | Bistro
 Henschel-Wegmann_kuppel
 Schnellzugwagen "Henschel-Wegmann-Zug" | Kuppelwagen
 Holztransport_Rnoos_644
-Holzwagen Typ Rnoos 644
+Holzwagen Rnoos 644
 I_1-BVG
 U-Bahnwagen BVG Typ I | Steuerwagen
 I_2-BVG
@@ -2272,22 +3198,24 @@ ICN_4
 Intercity Neigetechnikzug RABDe 500 "ICN"
 Interregio_Wagen_DB_1988
 Personenwagen "Interregio"
+JW_Bmz_1989_NJ
+Intercitywagen Bmz "Nightjet" | Abteilwagen
 Koef_II
 Rangierlokomotive "Köf II"
 Koef_III
 Rangierlokomotive "Köf III"
 Kohlewagen_Track1
-Kohlewagen
+Schüttgutwagen
 Kohlewagen_Track2
-Kohlewagen
+Schüttgutwagen
 Kohlewagen_Track3
-Kohlewagen
+Schüttgutwagen
 Kohlewagen_Track4
-Kohlewagen
+Schüttgutwagen
 Kohlewagen_Track5
-Kohlewagen
+Schüttgutwagen
 Kohlewagen_Track6
-Schüttgutwagen Typ Falns182
+Schüttgutwagen Falns 182
 Kuehlwagen_Track1
 Kühlwagen
 Kuehlwagen_Track2
@@ -2310,6 +3238,18 @@ LM_Class_172-2
 Dieseltriebwagen Class 172 "Turbostar"
 LM_Class_172-3
 Dieseltriebwagen Class 172 "Turbostar"
+Lokomotive_1998_EG3100
+Elektrolokomotive EG 3100 "Eurosprinter"
+Lokomotive_2005_Dispolok_Taurus
+Intercitylokomotive "Eurosprinter"
+Lokomotive_2008_Alex_PC_Taurus
+Intercitylokomotive "Eurosprinter"
+Lokomotive_2008_Alex_Taurus
+Intercitylokomotive "Eurosprinter"
+Lokomotive_2008_MRCE_Taurus
+Intercitylokomotive "Eurosprinter"
+Lokomotive_2017_Flixtrain_Taurus
+Intercitylokomotive "Eurosprinter"
 Mark 1 BR RM
 Schnellzugwagen "Mark 1"
 Mark 1 BR SK
@@ -2352,10 +3292,20 @@ NR Class 156 1
 Dieseltriebwagen Class 156 "Super Sprinter"
 NR Class 156 2
 Dieseltriebwagen Class 156 "Super Sprinter"
+NSB_Flirt_1
+Elektrotriebwagen Typ 74 "Flirt"
+NSB_Flirt_2
+Elektrotriebwagen Typ 74 "Flirt"
+NSB_Flirt_3
+Elektrotriebwagen Typ 74 "Flirt"
+NSB_Flirt_4
+Elektrotriebwagen Typ 74 "Flirt"
+NSB_Flirt_5
+Elektrotriebwagen Typ 74 "Flirt"
 OBB_1014
 Elektrolokomotive Rh. 1014
 OBB_2016
-Diesellokomotive Rh. 2016 "Eurorunner"
+Diesellokomotive Rh. 2016 "Hercules"
 OBB_4010_Mittelwagen
 TransEuropeExpress Rh. 4010 "Transalpin" | Mittelwagen
 OBB_4010_Steuerwagen_1
@@ -2380,6 +3330,12 @@ OBB_4024_3
 Nahverkehrstriebwagen Rh. 4024 "Talent" | Steuerwagen
 OBB_Bahnpostwagen
 Postwagen "Eurofima"
+OBB_Cityjet_4746_Mittelwagen
+Nahverkehrstriebwagen Rh. 4746 "Desiro ML Cityjet" | Mittelwagen
+OBB_Cityjet_4746_Steuerwagen_hinten
+Nahverkehrstriebwagen Rh. 4746 "Desiro ML Cityjet" | Steuerwagen
+OBB_Cityjet_4746_Steuerwagen_vorne
+Nahverkehrstriebwagen Rh. 4746 "Desiro ML Cityjet" | Steuerwagen
 OBB_Cityjet_eco_Mittelwagen
 Akkutriebwagen Rh. 4746 "Desiro ML Cityjet eco" | Mittelwagen
 OBB_Cityjet_eco_Steuerwagen_hinten
@@ -2393,12 +3349,48 @@ Nahverkehrstriebwagen Rh. 4746 "Desiro ML Cityjet" | Steuerwagen
 OBB_Cityjet_Steuerwagen_vorne
 Nahverkehrstriebwagen Rh. 4746 "Desiro ML Cityjet" | Steuerwagen
 Oelwagen_Track1
-Ölwagen
+Öl-Kesselwagen
 Oelwagen_Track2
-Ölwagen
+Öl-Kesselwagen
+Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_1
+Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
+Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_1_LNVG
+Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
+Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_2
+Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
+Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_2_LNVG
+Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
+Passenger_Train_2004_Innovations-Doppelstockwagen_DBpkza_781_9
+Doppelstockwagen DBpkza 781.9 "ZugCafe"
+Passenger_Train_2004_Innovations-Doppelstockwagen_DBpza_780_2
+Doppelstockwagen DBpkza 780.2 "Innovations-Doppelstockwagen"
+Passenger_Train_2004_Innovations-Doppelstockwagen_DBpza_780_2_LNVG
+Doppelstockwagen DBpkza 780.2 "Innovations-Doppelstockwagen"
+Passenger_Train_2004_Innovations-Doppelstockwagen_DBpza_781_0
+Doppelstockwagen DBpkza 781.0 "Innovations-Doppelstockwagen"
+Passenger_Train_2004_Innovations-Doppelstockwagen_DBpza_781_0_LNVG
+Doppelstockwagen DBpkza 781.0 "Innovations-Doppelstockwagen"
+Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1
+Doppelstocksteuerwagen DBpbzfa 668.2 "Twindexx Vario"
+Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1_IC2
+Doppelstockintercitysteuerwagen DBpbzfa 668.2 "Twindexx Vario"
+Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_2
+Doppelstocksteuerwagen DBpbzfa 668.2 "Twindexx Vario"
+Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_2_IC2
+Doppelstockintercitysteuerwagen DBpbzfa 668.2 "Twindexx Vario"
+Passenger_Train_2014_Twindexx_Vario_DBpza_782_1
+Doppelstockwagen DBpza 782.1 "Twindexx Vario"
+Passenger_Train_2014_Twindexx_Vario_DBpza_783_0
+Doppelstockwagen DBpza 783.0 "Twindexx Vario"
+Passenger_Train_2014_Twindexx_Vario_DBpza_783_0_IC2
+Doppelstockintercitywagen DBpza 783.0 "Twindexx Vario"
 Passenger_Train_2016_Locomore
 Intercitywagen Bm 235
+Passenger_Train_2016_Locomore_PC
+Intercitywagen Bm 235
 Passenger_Train_2017_Flixtrain
+Intercitywagen Bm 235
+Passenger_Train_2017_Flixtrain_PC
 Intercitywagen Bm 235
 Pendolino_4_0
 Intercity Neigetechnikzug ETR 610 "Pendolino" | Steuerwagen
@@ -2426,6 +3418,22 @@ Preuszischer_Postwagen
 Postwagen
 Preuszischer_Postwagen_2_achsig
 Postwagen
+RABe511_AB
+Doppelstockelektrotriebwagen RABe 511 A "KISS"
+RABe511_AB_FV
+Doppelstockelektrotriebwagen RABe 511 A "KISS"
+RABe511_B
+Doppelstockelektrotriebwagen RABe 511 B "KISS"
+RABe511_B_FV
+Doppelstockelektrotriebwagen RABe 511 B "KISS"
+RABe511_Bt_Back
+Doppelstockelektrotriebwagen RABe 511 Bt "KISS"
+RABe511_Bt_Front
+Doppelstockelektrotriebwagen RABe 511 Bt "KISS"
+RABe511_Bt_FV_Back
+Doppelstockelektrotriebwagen RABe 511 Bt "KISS"
+RABe511_Bt_FV_Front
+Doppelstockelektrotriebwagen RABe 511 Bt "KISS"
 RAe514
 Doppelstocktriebwagenzug Typ RAe514 "Desiro Double Deck" | Steuerwagen
 Railjet_Steuerwagen
@@ -2441,9 +3449,13 @@ Intercity "Railjet" | Mittelwagen
 RBe514
 Doppelstocktriebwagenzug Typ RAe514 "Desiro Double Deck" | Steuerwagen
 Re_460
-Intercitylokomotive Rh. 460 "Lok 2000"
+Intercitylokomotive Re 460 "Lok 2000"
 RE_484
 Mehrsystemlokomotive Re 484 "TRAXX"
+RE_484_PC
+Mehrsystemlokomotive Re 484 "TRAXX"
+Re420_Lion
+Elektrolokomotive Rh. 420 "Lion" | Modernisiert
 Re420_PC
 Elektrolokomotive Rh. 420
 Re620_PC
@@ -2475,11 +3487,11 @@ Speisewagen "Rheingold"
 Rheingold_1962_3
 Postwagen "Rheingold"
 S_1-LT
-U-Bahnwagen LT Typ S
+U-Bahnwagen TfL Typ S
 S_2-LT
-U-Bahnwagen LT Typ S
+U-Bahnwagen TfL Typ S
 S_3-LT
-U-Bahnwagen LT Typ S
+U-Bahnwagen TfL Typ S
 S3_6
 Schnellzugdampflokomotive S3/6
 S3_6_Tender
@@ -2518,6 +3530,8 @@ SBB_CE_68_iib
 Elektrolokomotive Rh. Ce 6/8 II "Krokodil"
 SBB_CE_68_iic
 Elektrolokomotive Rh. Ce 6/8 II "Krokodil"
+SBB_MC76
+Postwagen MC 76
 SBB_RAe502
 Doppelstockintercitytriebwagenzug Typ RAe502  "Twindexx Express" | Steuerwagen
 SBB_RBe502
@@ -2530,12 +3544,16 @@ Schuerzenpostwagen
 Postwagen "Schürzenwagen"
 Schuerzenwagen
 Schnellzugwagen "Schürzenwagen"
+Siemens_Schlafwagen_2003_NJ
+Schlafwagen "Modularwagen" "Nightjet"
 SNCB_AM_96_Triebwagen_1996_0
-Intercitytriebwagen AM 96 "Deense neus"
+Elektrotriebwagen AM 96 "Deense neus"
 SNCB_AM_96_Triebwagen_1996_1
-Intercitytriebwagen AM 96 "Deense neus"
+Elektrotriebwagen AM 96 "Deense neus"
 SNCB_AM_96_Triebwagen_1996_2
-Intercitytriebwagen AM 96 "Deense neus"
+Elektrotriebwagen AM 96 "Deense neus"
+SNCB_Dms
+Postwagen Dms
 SNCB_I_11_Wagen_1996_0
 Intercitywagen I 11
 SNCB_I_11_Wagen_1996_1
@@ -2547,6 +3565,8 @@ Doppelstockintercitywagen M 6
 SNCB_M_6_Wagen_2002_2
 Doppelstockintercitywagen M 6
 SNCB_M_6_Wagen_2002_3
+Doppelstockintercitywagen M 6
+SNCB_M_6_Wagen_2002_4
 Doppelstockintercitywagen M 6
 SNCB_M_7_Wagen_2020_3
 Doppelstockintercitywagen M 7
@@ -2572,6 +3592,10 @@ SR_Class_171-3
 Dieseltriebwagen Class 171 "Turbostar"
 SR_Class_171-4
 Dieseltriebwagen Class 171 "Turbostar"
+Talbot_Doppelstockschlafwagen_1996_CNL
+Doppelstockschlafwagen "Citynightline"
+Talbot_Doppelstockschlafwagen_1996_NJ
+Doppelstockschlafwagen "Nightjet"
 TEE_Triebzug_1957_0
 TransEuropExpress Triebzug | Triebkopf
 TEE_Triebzug_1957_1
@@ -2598,6 +3622,12 @@ TGV_Duplex_Lok1
 Doppelstockhochgeschwindigkeitszug TGV 2N2 "Euroduplex" | Triebkopf
 TGV_Duplex_Lok2
 Doppelstockhochgeschwindigkeitszug TGV 2N2 "Euroduplex" | Triebkopf
+Twindex_Vario_Mittelwagen_PC
+Doppelstockwagen "Twindexx Vario"
+Twindex_Vario_Triebwagen_PC_1
+Doppelstocktriebkopf "Twindexx Vario"
+Twindex_Vario_Triebwagen_PC_2
+Doppelstocktriebkopf "Twindexx Vario"
 U_1-WL
 U-Bahnwagen WL Typ U "Silberpfeil"
 U_2-WL
@@ -2661,9 +3691,9 @@ Hochbahnwagen HHA Typ T1 | Vorwärts
 U-Bahn_Hamburg_T1_4
 Hochbahnwagen HHA Typ T1 | Rückwärts
 U-Bahn_Hamburg_T14_1
-Hochbahnwagen HHA Typ T14 | Vorwärts
+Hochbahnwagen HHA Typ T14
 U-Bahn_Hamburg_T14_2
-Hochbahnwagen HHA Typ T14 | Rückwärts
+Hochbahnwagen HHA Typ T14
 U-Bahn_Hamburg_T15_1
 Hochbahnwagen HHA Typ T15 | A Wagen
 U-Bahn_Hamburg_T15_2
@@ -2702,6 +3732,8 @@ UIC-X
 Schnellzugwagen Typ UIC-X
 UIC-X_ALEX
 Schnellzugwagen Typ UIC-X
+UIC-X_ALEX_PC
+Schnellzugwagen Typ UIC-X
 UIC-X_D_Zug
 Durchgangszugwagen Typ UIC-X
 UIC-X_IC
@@ -2737,7 +3769,7 @@ Diesellokomotive BR V 100
 V15
 Diesellokomotive mit Gasturbine BR 210
 V16
-Diesellokomotive ER 20 "Hercules"
+Diesellokomotive ER 20 "Eurorunner"
 V60_orange
 Diesellokomotive BR V 60
 V60sf
@@ -2814,6 +3846,10 @@ Wagen_OBB_Wiesel_2
 Doppelstockwagen "Wiesel" | Steuerwagen
 Wagen_OBB_Wiesel_3
 Doppelstockwagen "Wiesel" | Mittelwagen
+WASCO_Habbiillnss
+Postwagen Habbiillnss
+WU_Speisewagen_1996
+Speisewagen "Citynightline"
 X_Wagen_1978_0
 Stadtschnellbahnwagen "X-Wagen" | Steuerwagen
 X_Wagen_1978_1
@@ -2838,128 +3874,378 @@ Zefrio_380-5
 Hochgeschwindigkeitszug "Zefrio" | Steuerwagen
 #________________________________vehicle - road_________________________________
 #________________________________vehicle - road_________________________________
+1912 Benz-Schuettgut
+Schüttgutwagen Benz 3T 
+1912 Benz-Stueckgut
+Stückgutwagen Benz 3T
+1912benz_apple
+Schüttgutwagen Benz 3T 
+1912benz_rollen
+Rollenwagen Benz 3T
+Auflieger_Billet_01
+Sattelauflieger Billet
+Auflieger_Coil_01
+Sattelauflieger Coils
+Auflieger_Holz_01
+Sattelauflieger Nutzholz
+Auflieger_Kohle_01
+Sattelauflieger Schüttgut
+Auflieger_Kuehl_01
+Sattelauflieger Kühlwaren
+Auflieger_Landwirt_01
+Sattelauflieger Silo
+Auflieger_Milch_01
+Sattelauflieger Milchtank
+Auflieger_Oel_01
+Sattelauflieger Öltank
+Auflieger_Post_01
+Sattelauflieger Pakete
+Auflieger_Rind_01
+Sattelauflieger Viehtransport
 Auflieger_Stueckgut_01
-Sattelschlepper Auflieger (Stückgut)
+Sattelauflieger Stückgut
+Blitz_Apfel
+Pritschenwagen Opel Blitz
+Blitz_Apfel_H
+Pritschenwagen Opel Blitz | Anhänger
+Blitz_Billet
+Billetwagen Opel Blitz
+Blitz_BilletH
+Billetwagen Opel Blitz | Anhänger
+Blitz_Glas
+Glasreffwagen Opel Blitz
+Blitz_GlasH
+Glasreffwagen Opel Blitz | Anhänger
+Blitz_Milch
+Milchtankwagen Opel Blitz
+Blitz_MilchH
+Milchtankwagen Opel Blitz | Anhänger
+Blitz_Post
+Postfahrzeug Opel Blitz
+Blitz_PostH
+Postfahrzeug Opel Blitz | Anhänger
+Blitz_Rollen
+Rollentransporter Opel Blitz
+Blitz_RollenH
+Rollentransporter Opel Blitz | Anhänger
+Blitz_Schuettgut
+Pritschenwagen Opel Blitz
+Blitz_Schuettgut_H
+Pritschenwagen Opel Blitz | Anhänger
+Blitz_Stueckgut
+Planwagen Opel Blitz
+Blitz_StueckgutH
+Planwagen Opel Blitz | Anhänger
+F-Vision
+Sattelschlepper Ford F-Vision
 good_kutsche1
-Pferdewagen für Schüttgut
+Pferdewagen für Rieselgut
 good_kutsche2
 Pferdewagen für Stückgut
+good_kutsche3
+Pferdewagen für Milch
+good_kutsche4
+Pferdewagen für leichtes Schüttgut
+Hearse_1
+Leichenwagen
+horse_hearse
+Leichenkutsche
+horse_post1
+Berittene Post
+horse_post2
+Berittene Post
 horse1
-Pferdegespann
+Pferdegespann Schimmel
 horse2
 2er-Pferdegespann
+horse3
+Pferdegespann Rappe
 Ikarus_260
 Ikarus 260
 Ikarus_280
-Ikarus 280
+Gelenkbus Ikarus 280 | Vorderteil
 Ikarus_280_TB
-Ikarus 280 (hinten)
+Gelenkbus Ikarus 280 | Hinterteil
 Ikarus_293
-Ikarus 293
+Doppelgelenkbus Ikarus 293 | Vorderteil
 Ikarus_293_TB
-Ikarus 293 (Mitte)
+Doppelgelenkbus Ikarus 293 | Mittelteil
 Ikarus_293_TC
-Ikarus (Hinten)
+Doppelgelenkbus Ikarus 293 | Hinterteil
+MAN_TGS
+Planwagen MAN TGS
+MAN_TGS_APPLE
+MAN TGS
+MAN_TGS_APPLECARAVAN
+MAN TGS | Anhänger
+MAN_TGS_CARAVAN
+Planwagen MAN TGS | Anhänger
+MAN_TGS_COOLCARAVAN1
+Kühlwagen MAN TGS | Anhänger
+MAN_TGS_COOLCARAVAN2
+Kühlwagen MAN TGS | Anhänger
+MAN_TGS_COOLER
+Kühlwagen MAN TGS
+MAN_TGS_GRAIN
+Silowagen MAN TGS
+MAN_TGS_GRAINCARAVAN
+Silowagen MAN TGS | Anhänger
 MB O550
-Mercedes MB O-550 "Integro"
+MB O-550 "Integro"
 MB_814_K
-MB 814 K
+Muldenkipper MB 814 K
+MB_814_K-H
+Muldenkipper MB 814 K | Anhänger
+MB_814_Post
+Paketwagen MB 814 K
+MB_814_Post-H
+Paketwagen MB 814 K | Anhänger
+MB_814_SG
+Planwagen MB 814 K
+MB_814_SG-H
+Planwagen MB 814 K | Anhänger
 MB_ACTROS
-Mercedes MB ACTROS II
+Sattelschlepper MB Actros II
+MB_Antos
+Sattelschlepper MB Antos
+MB_Antos_Auto
+KFZ-Transporter MB Antos
+MB_Antos_Auto-H
+KFZ-Transporter MB Antos | Anhänger
+MB_Antos_SG
+Kofferwagen MB Antos
+MB_Antos_SG-H
+Kofferwagen MB Antos | Anhänger
+MB_Lo_2000_Billet
+Billetwagen MB Lo 2000
+MB_Lo_2000_BilletH
+Billetwagen MB Lo 2000 | Anhänger
 MB_Lo_2000_Bus_1L
-CRZ IV-P35
+Reisebus MB Lo 2000
+MB_Lo_2000_Bus_1S
+Stadtbus MB Lo 2000 
 MB_Lo_2000_Bus_2L
-CRZ IV-P55
+Reisebus MB Lo 2000 Langform
+MB_Lo_2000_Bus_2S
+Stadtbus MB Lo 2000 Langform
+MB_Lo_2000_Landwirt
+MB Lo 2000
+MB_Lo_2000_LandwirtH
+MB Lo 2000 | Anhänger
+MB_Lo_2000_leichtes_Schuettgut
+MB Lo 2000
+MB_Lo_2000_leichtes_Schuettgut_H
+MB Lo 2000 | Anhänger
+MB_Lo_2000_Milch
+Milchtanker MB Lo 2000
+MB_Lo_2000_MilchH
+Milchtanker MB Lo 2000 | Anhänger
+MB_Lo_2000_Oel
+MINOL MB Lo 2000
+MB_Lo_2000_OelH
+MINOL MB Lo 2000 | Anhänger
+MB_Lo_2000_Schuettgut
+Schüttgutwagen MB Lo 2000
+MB_Lo_2000_Schuettgut_H
+Schüttgutwagen MB Lo 2000 | Anhänger
+MB_Lo_2000_SG
+Planwagen MB Lo 2000
+MB_Lo_2000_SGH
+Planwagen MB Lo 2000 | Anhänger
 MB_O_6600_H_L
-CRZ Pv 4/25
+Reisebus MB O 6600 H
+MB_O_6600_H_S
+Stadtbus MB O 6600 H
+MB_O_6600_T
+Trolleybus MB O 6600 T 
+MB_Vito_Pax
+Kleinbus MB Vito 
+MB_Vito_Post
+Paketzusteller MB Vito
+MB_Vito_Stueckgut
+Kastenwagen MB Vito
+Mercedes MB O-580 Travego
+Reisebus MB O 580 "Travego"
 pers_kutsche1
 Kutsche
+police_beetle
+Streifenwagen VW Käfer
+police_bulli
+Streifenwagen VW Bulli
+police_carriage
+Polizeikutsche "Grüne Minna"
+police_MBLo2k
+Streifenwagen MB Lo 2000
+police_mercedes190D
+Streifenwagen MB 190D
+police_mercedes814D
+Schubbus MB 814D
+police_mounted
+Berittene Polizei
 Post_Caravan
 MAN TGS Postanhänger
+post_kutsche1
+Postkutsche
 Post_MAN_TGS
 MAN TGS Posttransporter
 PTM_Cally_Post
 PTM Sprinter
+Renault_Magnum
+Renault Magnum
+RTW_horse
+Notdienstkutsche
+RTW_VWT2
+Krankenwagen VW T2 "Bulli"
 Saurer_BT_4500_L
-CRZ V-P62
+Reisebus Saurer BT 4500L
+Saurer_BT_4500_S
+Stadtbus Saurer BT 4500S
 SC_210
-SimuCar SC-210
+Kofferwagen SimuCar SC-210
 SC_211_Milchtransporter
-SimuCar SC-211
+Milchwagen SimuCar SC-211
 SC_211_Milchtransporter_haenger
-SimuCar SC-211 Anhänger
+Milchwagen SimuCar SC-211H | Anhänger
 SC_211_Mineraloel
-SimuCar SC-211
+MINOL SimuCar SC-211
 SC_211_Mineraloel_haenger
-SimuCar SC-211 Anhänger
+MINOL SimuCar SC-211H | Anhänger
 SC_211_Viehtransporter
-SimuCar SC-211
+Viehtransporter SimuCar SC-211
 SC_212_Gefriergut
-SimuCar SC-212
+Kühlwagen SimuCar SC-212
 SC_213_Schuettgut
-SimuCar SC-213
+Muldenkipper SimuCar SC-213
 SC_H210
-SimucCar SC-210 Anhänger
+Kofferwagen SimuCar SC-210H | Anhänger
 SCB_266
-SimuCar SCB-266 Doppelstockbus
+Doppelstockbus SimuCar SCB-266
 SCB_287
-SimuCar SCB-287 Doppelstockbus
+Doppelstockbus SimuCar SCB-287
+Stadtbus_MBO_405
+Stadtbus MB O 405
+Stadtbus_MBO_405G
+Gelenkbus MB O 405G | Vorderteil
+Stadtbus_MBO_405G_2
+Gelenkbus MB O 405G | Hinterteil
+Stadtbus_MBO_405GN2
+Niederflur-Gelenkbus MB O 405 GN | Vorderteil
+Stadtbus_MBO_405GN2_2
+Niederflur-Gelenkbus MB O 405 GN | Hinterteil
+Stadtbus_MBO_405N2
+Niederflur-Stadtbus MB O 405N
+Stadtbus_MBO_530C1
+Niederflurbus MB O 530 "Citaro"
+Stadtbus_MBO_530C2
+Niederflurbus MB O 530 "Citaro" 2. Generation
+Stadtbus_MBO_530G1
+Niederflur-Gelenkbus MB O 530 G | Vorderteil
+Stadtbus_MBO_530G1_2
+Niederflur-Gelenkbus MB O 530 G | Hinterteil
+Stadtbus_MBO_530G2
+Niederflur-Gelenkbus MB O 530 G, 2. Generation | Vorderteil
+Stadtbus_MBO_530G2_2
+Niederflur-Gelenkbus MB O 530 G, 2. Generation | Hinterteil
+Stadtbus_MBO_530GL2
+Niederflur-Gelenkbus MB O 530 GL2 "CapaCity L" | Vorderteil
+Stadtbus_MBO_530GL2_2
+Niederflur-Gelenkbus MB O 530 GL2 "CapaCity L" | Hinterteil
+Ueberlandbus_MBO_405
+Reisebus MB O 405 Ü
+Ueberlandbus_MBO_530C1
+Reisebus MB O 530 Ü "Citaro"
 volkswagent2_Post
-VW Postbus T2
+Paketzusteller VW T2
+W50_Apfel_SZ
+Schüttgutwagen W50 | Auflieger
+W50_Auto_SZ
+KFZ-Transporter W50 | Auflieger
+W50_Billet_SZ
+Billetwagen W50 | Auflieger
+W50_Coil_SZ
+Coilwagen W50 | Auflieger
+W50_Holz_SZ
+Nutzholzwagen W50 | Auflieger
 W50_Kuehl
-W50 Kühltransporter
+Kühltransporter W50
 W50_Kuehl_H
-W50 Kühltransporter Anhänger
+Kühltransporter W50 | Anhänger
 W50_Kuehl_SZ
-W50 Kühltransporter Auflieger
+Kühltransporter W50 | Auflieger
 W50_Landwirt
-W50 Landwirtschaft
+Schüttgutwagen W50
 W50_Landwirt_H
-W50 Landwirtschaft Anhänger
+Schüttgutwagen W50 | Anhänger
 W50_Landwirt_SZ
-W50 Landwirtschaft Auflieger
+Silowagen W50 | Auflieger
 W50_Milch
-W50 Milchtransporter
+Milchwagen W50 
 W50_Milch_H
-W50 Milch-Anhänger
+Milchwagen W50 | Anhänger
 W50_Milch_SZ
-W50 Milch-Auflieger
+Milchwagen W50 | Auflieger
 W50_Oel
-W50 MINOL
+MINOL W50 
 W50_Oel_H
-W50 MINOL Anhänger
+MINOL W50 | Anhänger
 W50_Oel_SZ
-W50 MINOL Auflieger
+MINOL W50 | Auflieger
+W50_Post
+Paketwagen W50
+W50_Post_H
+Paketwagen W50 | Anhänger
+W50_Post_SZ
+Paketwagen W50 | Auflieger
 W50_Rinder
-W50 Viehtransporter
+Viehtransporter W50 
 W50_Rinder_H
-W50 Viehtransporter Anhänger
+Viehtransporter W50 | Anhänger
 W50_Rinder_SZ
-W50 Viehtransporter Auflieger
+Viehtransporter W50 | Auflieger
 W50_Sattelzug
-W50 Sattelzug
+Sattelzug W50
 W50_Schuettgut
-W50 Schüttgut
+Schüttgutwagen W50 
 W50_Schuettgut_H
-W50 Schüttgut Anhänger
+Schüttgutwagen W50 | Anhänger
 W50_Schuettgut_SZ
-W50 Schüttgut Auflieger
+Schüttgutwagen W50 | Auflieger
 W50_Stueckgut
-W50 Stückgut
+Planwagen W50
 W50_Stueckgut_H
-W50 Stückgut Anhänger
+Planwagen W50 | Anhänger
 W50_Stueckgut_SZ
-W50 Stückgut Auflieger
+Planwagen W50 | Auflieger
 #________________________________vehicle - track________________________________
 #________________________________vehicle - track________________________________
+E231-500-1
+Elektrotriebwagen E231-500 | Steuerwagen
+E231-500-2
+Elektrotriebwagen E231-500 | Triebwagen
+E231-500-3
+Elektrotriebwagen E231-500 | Mittelwagen
+E231-500-4
+Elektrotriebwagen E231-500 | Steuerwagen
+E235-0-1
+Elektrotriebwagen E235-0 | Steuerwagen
+E235-0-2
+Elektrotriebwagen E235-0 | Triebwagen
+E235-0-3
+Elektrotriebwagen E235-0 | Mittelwagen
+E235-0-4
+Elektrotriebwagen E235-0 | Steuerwagen
 Lokomotive_1988_DR_199_8
 Diesellokomotive BR 199.8
 Narrowgauge_Car_1885_Piece_goods
 Stückgutwagen
 Narrowgauge_Car_1900_Agriculture
 Rieselgutwagen
+Narrowgauge_Car_1900_Ambulance_1
+Krankentransportwagen
 Narrowgauge_Car_1900_Apple
 Landwirtschaftlicher Schüttgutwagen
+Narrowgauge_Car_1900_Barrels
+Fasswagen
 Narrowgauge_Car_1900_Billet
 Brammenwagen
 Narrowgauge_Car_1900_Cattle
@@ -2988,14 +4274,20 @@ Narrowgauge_Car_1900_Post
 Postwagen
 Narrowgauge_Car_1900_Wood
 Holzwagen
+Narrowgauge_Car_1907_Cars_1
+Autotransportwagen
 Narrowgauge_Car_1920_Agriculture
 Rieselgutwagen
+Narrowgauge_Car_1920_Glass_1
+Glaswagen
 Narrowgauge_Car_1920_Wood
 Holzwagen
 Narrowgauge_Car_1922_Milk
 Milchwagen
 Narrowgauge_Car_1922_Oil
 Ölwagen
+Narrowgauge_Car_1925_Agriculture
+Silowagen
 Narrowgauge_Car_1925_Apple
 Landwirtschaftlicher Schüttgutwagen
 Narrowgauge_Car_1925_Cattle
@@ -3008,6 +4300,10 @@ Narrowgauge_Car_1925_Piece_goods
 Stückgutwagen
 Narrowgauge_Car_1925_Post
 Postwagen
+Narrowgauge_Car_1925_Rolls_1
+Rollentransportwagen
+Narrowgauge_Car_1925_Wood
+Holzwagen
 Narrowgauge_Car_1929_Cooled
 Kühlwagen
 Narrowgauge_Car_1930_Agriculture
@@ -3016,12 +4312,16 @@ Narrowgauge_Car_1930_Billet
 Brammenwagen
 Narrowgauge_Car_1930_Coil
 Coilwagen
+Narrowgauge_Car_1938_Cars_1
+Autotransportwagen
 Narrowgauge_Car_1938_Piece_goods
 Stückgutwagen
 Narrowgauge_Car_1938_Post
 Postwagen
 Narrowgauge_Car_1940_Cattle
 Viehwagen
+Narrowgauge_Car_1945_Agriculture
+Silowagen
 Narrowgauge_Car_1945_Apple
 Landwirtschaftlicher Schüttgutwagen
 Narrowgauge_Car_1945_Cattle
@@ -3034,14 +4334,22 @@ Narrowgauge_Car_1945_Piece_goods
 Stückgutwagen
 Narrowgauge_Car_1945_Post
 Postwagen
+Narrowgauge_Car_1945_Wood
+Holzwagen
 Narrowgauge_Car_1946_Cooled
 Kühlwagen
+Narrowgauge_Car_1947_Ambulance_1
+Krankentransportwagen
 Narrowgauge_Car_1950_Police_1
 Gefangenentransportwagen
 Narrowgauge_Car_1950_Police_2
 Begleitwagen
 Narrowgauge_Car_1950_Police_3
 Begleitwagen
+Narrowgauge_Car_1962_Post_EW_I
+Postwagen "Einheitswagen I"
+Narrowgauge_Car_1965_Agriculture
+Silowagen
 Narrowgauge_Car_1965_Apple
 Landwirtschaftlicher Schüttgutwagen
 Narrowgauge_Car_1965_Coal
@@ -3054,10 +4362,18 @@ Narrowgauge_Car_1965_Piece_goods
 Stückgutwagen
 Narrowgauge_Car_1965_Post
 Postwagen
+Narrowgauge_Car_1965_Rolls_1
+Rollentransportwagen
+Narrowgauge_Car_1965_Wood
+Holzwagen
 Narrowgauge_Car_1975_Money_1
 Gepanzerter Schwertransportwagen
 Narrowgauge_Car_1975_Money_2
 Gepanzerter Schwertransportwagen
+Narrowgauge_Car_1985_Agriculture
+Silowagen
+Narrowgauge_Car_1985_Apple
+Landwirtschaftlicher Schüttgutwagen
 Narrowgauge_Car_1985_Coal
 Schüttgutwagen
 Narrowgauge_Car_1985_Cooled
@@ -3068,6 +4384,8 @@ Narrowgauge_Car_1985_Piece_goods
 Stückgutwagen
 Narrowgauge_Car_1985_Post
 Postwagen
+Narrowgauge_Car_1985_Wood
+Holzwagen
 Narrowgauge_Car_1989_Piece_goods
 Containgerwagen
 Narrowgauge_Car_1993_Ambulance_1
@@ -3080,16 +4398,24 @@ Narrowgauge_Car_1993_Police_3
 Begleitwagen
 Narrowgauge_Car_1995_Coal
 Schüttgutwagen
+Narrowgauge_Car_2005_Agriculture
+Silowagen
+Narrowgauge_Car_2005_Apple
+Landwirtschaftlicher Schüttgutwagen
 Narrowgauge_Car_2005_Coal
 Schüttgutwagen
 Narrowgauge_Car_2005_Cooled
 Kühlwagen
+Narrowgauge_Car_2005_Money
+Tresorwagen
 Narrowgauge_Car_2005_Piece_Cattle
 Viehwagen
 Narrowgauge_Car_2005_Piece_goods
 Stückgutwagen
 Narrowgauge_Car_2005_Post
 Postwagen
+Narrowgauge_Car_2005_Wood
+Holzwagen
 Narrowgauge_Electric_1917_HGe_2_2
 Posttriebwagen Typ HGe 2/2
 Narrowgauge_Electric_1941_BCFhe_2_4
@@ -3128,12 +4454,18 @@ Narrowgauge_Lokomotive_1885_Kastenlok_ISA
 Dampflokomotive "Kastenlok"
 Narrowgauge_Lokomotive_1904
 Dampflokomotive
+Narrowgauge_Lokomotive_1906_Mallet
+Dampflokomotive "Mallet"
 Narrowgauge_Lokomotive_1921_Ge_6_6_I
 Elektrolokomotive "Schmalspurkrokodil" Typ Ge 6/6 I
+Narrowgauge_Lokomotive_1927
+Dampflok BR 99 713
 Narrowgauge_Lokomotive_1947_Ge_4_4_I
 Elektrolokomotive Typ Ge 4/4 I
 Narrowgauge_Lokomotive_1954_BR_99
 Dampflokomotive BR 99
+Narrowgauge_Lokomotive_1958_Ge_6_6_II
+Elektrolokomotive Typ Ge 6/6 II
 Narrowgauge_Lokomotive_1966_D5
 Diesellokomotive Typ D5
 Narrowgauge_Lokomotive_1973_Ge_4_4_II
@@ -3152,6 +4484,8 @@ Narrowgauge_Passenger_Train_1904
 Personenwagen mit offenen Plattformen
 Narrowgauge_Passenger_Train_1917
 Personenwagen mit geschlossenen Plattformen
+Narrowgauge_Passenger_Train_1921
+Personenwagen "Stahlwagen"
 Narrowgauge_Passenger_Train_1941
 Personenwagen mit geschlossenen Plattformen
 Narrowgauge_Passenger_Train_1941_BCFt_1
@@ -3182,6 +4516,20 @@ Narrowgauge_Passenger_Train_1997_GTW_5
 Triebwagen Typ GTW | Steuerwagen
 Narrowgauge_Passenger_Train_2006
 Niederflurpersonenwagen
+Narrowgauge_Passenger_Train_2012_a
+Elektrotriebwagen "Adler" ABeh 150
+Narrowgauge_Passenger_Train_2012_b
+Elektrotriebwagen "Adler" ABeh 150
+Narrowgauge_Passenger_Train_2012_c
+Elektrotriebwagen "Adler" ABeh 150
+Narrowgauge_Passenger_Train_2012_d
+Elektrotriebwagen "Adler" ABeh 150
+Narrowgauge_Passenger_Train_2012_e
+Elektrotriebwagen "Adler" ABeh 150
+Narrowgauge_Passenger_Train_2012_f
+Elektrotriebwagen "Adler" ABeh 150
+Narrowgauge_Passenger_Train_2012_g
+Elektrotriebwagen "Adler" ABeh 150
 Narrowgauge_Passenger_Train_2015_Komet_1
 Gelenksteuerwagen "Komet" | Steuerwagen
 Narrowgauge_Passenger_Train_2015_Komet_2
@@ -3192,8 +4540,20 @@ Narrowgauge_Passenger_Train_2016_2
 Personengliederzugwagen "Alvra" | Fotowagen
 Narrowgauge_Passenger_Train_2016_3
 Personengliederzugwagen "Alvra" | Steuerwagen
+Narrowgauge_Passenger_Train_2022_Zillertal_1
+Wasserstofftriebwagen | Steuerwagen
+Narrowgauge_Passenger_Train_2022_Zillertal_2
+Wasserstofftriebwagen | Mittelwagen
+Narrowgauge_Passenger_Train_2022_Zillertal_3
+Wasserstofftriebwagen | Steuerwagen
 #_____________________________vehicle - tram_track______________________________
 #_____________________________vehicle - tram_track______________________________
+B_1-VRR
+Stadtbahnwagen Typ B
+B_2-VRR
+Stadtbahnwagen Typ B
+B_3-VRR
+Stadtbahnwagen Typ B
 CKD_Tatra_B3
 CKD Tatra B3
 CKD_Tatra_B6A2
@@ -3202,12 +4562,162 @@ CKD_Tatra_KT4_F
 CKD Tatra KT4
 CKD_Tatra_KT4_H
 CKD Tatra KT4 (hinten)
+CKD_Tatra_KT4d_EF_F
+Tatrawagen Typ KT4d
+CKD_Tatra_KT4d_EF_H
+Tatrawagen Typ KT4d
+CKD_Tatra_KT4d_EF_U2RW_F
+Tatrawagen Typ KT4d U2RW
+CKD_Tatra_KT4d_EF_U2RW_H
+Tatrawagen Typ KT4d U2RW
+CKD_Tatra_KT4d_EF_U2RWR_F
+Tatrawagen Typ KT4d U2RW | Rückwärts
+CKD_Tatra_KT4d_EF_U2RWR_H
+Tatrawagen Typ KT4d U2RW | Rückwärts
+CKD_Tatra_KT4d_GTH_F
+Tatrawagen Typ KT4d
+CKD_Tatra_KT4d_GTH_H
+Tatrawagen Typ KT4d
 CKD_Tatra_T3
 CKD Tatra T3
 CKD_Tatra_T6A2
 CKD Tatra T6A2
+Combino_MS1
+Niederflurstraßenbahn "Combino"
+Combino_MS2
+Niederflurstraßenbahn "Combino"
+Combino_MS3
+Niederflurstraßenbahn "Combino"
+Combino_MS4
+Niederflurstraßenbahn "Combino"
+Combino_MS5
+Niederflurstraßenbahn "Combino"
+Combino_MS6
+Niederflurstraßenbahn "Combino"
+Combino_MS7
+Niederflurstraßenbahn "Combino"
+DUEWAG_Gelenktriebwagen_Endwagen
+DUEWAG Gelenktriebwagen | Endwagen
+DUEWAG_Gelenktriebwagen_Mittelwagen
+DUEWAG Gelenktriebwagen | Mittelwagen
+DUEWAG_Gelenktriebwagen_Mittelwagen_Tuer
+DUEWAG Gelenktriebwagen | Mittelwagen
+DUEWAG_Gelenktriebwagen_Steuerwagen
+DUEWAG Gelenktriebwagen | Steuerwagen
+DUEWAG_Grossraumbeiwagen
+DUEWAG Großraumbeiwagen
+DUEWAG_Grossraumwagen
+DUEWAG Großraumwagen
+EVAG_P89_1
+Stadtbahnwagen Typ P89
+EVAG_P89_2
+Stadtbahnwagen Typ P89
+Flexity_Marsellie-1
+Niederflurwagen "Flexity"
+Flexity_Marsellie-2
+Niederflurwagen "Flexity"
+Flexity_Marsellie-3
+Niederflurwagen "Flexity"
+Flexity_Marsellie-4
+Niederflurwagen "Flexity"
+Flexity_Marsellie-5
+Niederflurwagen "Flexity"
+Flexity_Marsellie-6
+Niederflurwagen "Flexity"
+GBS_Berolina-Wagen
+GBS "Berolina" | Motorwagen
+GBS_Berolina-Wagen-w
+GBS "Berolina" | Beiwagen
+GBS_Maximum_30g
+GBS 30g "Maximum" | Motorwagen
+GBS_Maximum_30g-w
+GBS 30g "Maximum" | Beiwagen
+GBS_Maximum_30o
+GBS 30o "Maximum" | Motorwagen
+GBS_Maximum_30o-w
+GBS 30o "Maximum" | Beiwagen
+Gotha_B57
+Gothawagen B57 | Beiwagen
+Gotha_G4-61_1
+Gothawagen G4-61
+Gotha_G4-61_2
+Gothawagen G4-61
+Gotha_G4-61_3
+Gothawagen G4-61
+Gotha_T57
+Gothawagen T57 | Motorwagen
+GT8N_1
+Niederflurstraßenbahn Typ GT8N
+GT8N_2
+Niederflurstraßenbahn Typ GT8N
+GT8N_3
+Niederflurstraßenbahn Typ GT8N
+GT8N-1_1
+Niederflurstraßenbahn Typ GT8N-1
+GT8N-1_2
+Niederflurstraßenbahn Typ GT8N-1
+GT8N-1_3
+Niederflurstraßenbahn Typ GT8N-1
+Hansa_Gelenktriebwagen_Beiwagen
+Gelenktriebwagen "Hansa" | Beiwagen
+Hansa_Gelenktriebwagen_Endwagen
+Gelenktriebwagen "Hansa" | Endwagen
+Hansa_Gelenktriebwagen_Triebwagen
+Gelenktriebwagen "Hansa" | Triebwagen
+K4000_1-VRR
+Stadtbahnwagen Typ K4000
+K4000_2-VRR
+Stadtbahnwagen Typ K4000
+K4000_3-VRR
+Stadtbahnwagen Typ K4000
+K4500_1-VRR
+Stadtbahnwagen Typ K4500
+K4500_2-VRR
+Stadtbahnwagen Typ K4500
+K4500_3-VRR
+Stadtbahnwagen Typ K4500
+K5000_1-VRR
+Stadtbahnwagen Typ K5000
+K5000_2-VRR
+Stadtbahnwagen Typ K5000
+M_1-VRR
+Stadtbahnwagen Typ M
+M_2-VRR
+Stadtbahnwagen Typ M
+M_3-VRR
+Stadtbahnwagen Typ M
+M5000_1-MLT
+Stadtbahnwagen Typ M5000
+M5000_2-MLT
+Stadtbahnwagen Typ M5000
+NGT12_1
+Niederflurstraßenbahn Typ NGT12
+NGT12_2
+Niederflurstraßenbahn Typ NGT12
+NGT12_3
+Niederflurstraßenbahn Typ NGT12
+NGT12_4
+Niederflurstraßenbahn Typ NGT12
 Poestlingbergbahn_Wagen_II
 Pöstlingbergbahn Wagen II
+Tango_1-VRR
+Stadtbahnwagen "Tango"
+Tango_2-VRR
+Stadtbahnwagen "Tango"
+Tango_3-VRR
+Stadtbahnwagen "Tango"
+Tramlink_CR4000_1
+Stadtbahnwagen Typ CR4000 "Tramlink"
+Tramlink_CR4000_2
+Stadtbahnwagen Typ CR4000 "Tramlink"
+Tramlink_CR4000_2_1
+Stadtbahnwagen Typ CR4000 "Tramlink"
+Tramlink_CR4000_2_2
+Stadtbahnwagen Typ CR4000 "Tramlink"
+Tramlink_CR4000_2_3
+Stadtbahnwagen Typ CR4000 "Tramlink"
+Tramlink_CR4000_3
+Stadtbahnwagen Typ CR4000 "Tramlink"
 TW_2000_1-Ustra
 Stadtbahnwagen üstra Typ TW 2000
 TW_2000_2-Ustra
@@ -3224,6 +4734,18 @@ TW_6000_2-Ustra
 Stadtbahnwagen üstra Typ TW 6000
 TW_6000_3-Ustra
 Stadtbahnwagen üstra Typ TW 6000
+TW107MS
+Straßenbahnwagen TW107MS | Motorwagen
+TW107wMS
+Straßenbahnwagen TW107wMS | Beiwagen
+Wegmann_Gelenktriebwagen_Beiwagen
+Gelenktriebwagen "Wegmann" | Beiwagen
+Wegmann_Gelenktriebwagen_Endwagen
+Gelenktriebwagen "Wegmann" | Endwagen
+Wegmann_Gelenktriebwagen_Mittelwagen
+Gelenktriebwagen "Wegmann" | Mittelwagen
+Wegmann_Gelenktriebwagen_Triebwagen
+Gelenktriebwagen "Wegmann" | Triebwagen
 #________________________________vehicle - water________________________________
 #________________________________vehicle - water________________________________
 alsterdampfer_1890
@@ -3232,6 +4754,18 @@ alsterdampfer_1940
 Alsterdampfer
 alsterdampfer_1990
 Alsterdampfer
+Kanalschiff-Category-01
+Kanalschiff
+Kanalschiff-Category-02
+Kanalschiff
+Kanalschiff-Category-07
+Kanalschiff
+Kanalschiff-Post
+Kanalschiff
+MS_Stavangar
+MS Stavanger
+RMS_BlackDragon
+RMS Back Dragon
 #___________________________________way - air___________________________________
 #___________________________________way - air___________________________________
 rw_marked
@@ -3294,12 +4828,16 @@ asphalt_road
 Bundesstraße
 city_road
 Stadtstraße
+city_road_fake
+Straße mit Gehsteig
 cobblestreet
 Pflasterstraße
 dirt_road
 Feldweg
 highway
 Highway
+industry_road
+Straße im Industriegebiet
 lokal_road
 Landstraße
 road_elevated
@@ -3342,23 +4880,53 @@ Straßenbahngleis mit Fußweg
 #__________________________________way - water__________________________________
 channel
 Kanal
+kaimauer1
+Kaimauer
+kaimauer2
+Kaimauer
 river_0
 Fluss
 #________________________way-object - narrowgauge_track_________________________
 #________________________way-object - narrowgauge_track_________________________
+catenary_track_160
+Oberleitung mit Gittermasten
+catenary_track_80
+Oberleitung mit Holzmasten
+catenary_track_inf
+Oberleitung mit Betonmasten
 electrictrack_wood2
 Stromschiene
 electrictrack_wood3
 Moderne Stromschiene
+electrictrack_wood4
+Stromschiene
+fourth_rail_100
+Doppelte Stromschiene
 oberleitung
 Oberleitung mit Betonmasten
 oberleitung_track
-Oberleitung mit Gittermast
+Oberleitung mit Gittermasten
+third_rail_160
+Stromschiene
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+catenary_road
+Busoberleitung
+oberleitung_road_m
+Busoberleitung
 #______________________________way-object - track_______________________________
 #______________________________way-object - track_______________________________
+catenary_ng_50
+Oberleitung mit Holzmasten
+catenary_ng_90
+Oberleitung mit Gittermasten
+catenary_ng_inf
+Oberleitung mit Betonmasten
 oberleitung_narrowgauge
-Oberleitung
+Oberleitung mit Gittermasten
 #____________________________way-object - tram_track____________________________
 #____________________________way-object - tram_track____________________________
+catenary_tram
+Straßenbahnoberleitung
 oberleitung_tram_m
 Straßenbahnoberleitung
