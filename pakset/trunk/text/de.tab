@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 5.07 2020                           #
+#                           Date Created: 12.07 2020                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -2071,9 +2071,9 @@ U-Bahnwagen BVG Bauart A I | Motorwagen
 AI_2-BVG
 U-Bahnwagen BVG Baureihe AI | Beiwagen\n
 AWH_Halbgepaeckwagen_2003
-Gepäckwagen "Citynightline"
+Halbgepäckwagen BDcm 874.1 "City Night Line"
 AWH_Liegewagen_1999_NJ
-Liegewagen "Nightjet"
+Liegewagen Bvcmbz 59-90 "Nightjet"
 B_1-MVG
 U-Bahnwagen MVG Typ B
 B_2-MVG
@@ -2155,7 +2155,7 @@ Elektrolokomotive BR 145
 BR_145_RBH
 Elektrolokomotive BR 145
 BR_145_zza
-Elektrolokomotive BR 145 "TRAXX" | Zugzielanzeige
+Elektrolokomotive BR 145 | mit Zugzielanzeige
 BR_146_0
 Elektrolokomotive BR 146.0 "TRAXX"
 BR_146_2
@@ -2255,7 +2255,7 @@ Intercity Neigetechnikzug "IC-T" | Steuerwagen
 BR_420_1
 Stadtschnellbahn Triebzug BR 420 | Steuerwagen
 BR_420_2
-Stadtschnellbahn Triebzug BR 420 | Mittelwagen
+Stadtschnellbahn Triebzug BR 421 | Mittelwagen
 BR_420_3
 Stadtschnellbahn Triebzug BR 420 | Steuerwagen
 BR_423_1
@@ -3027,9 +3027,9 @@ Schnellzugtriebwagen BR ET 11
 Eurofima_Wagen_1979_0
 Intercitywagen "Eurofima"
 Eurofima_Wagen_1979_1
-Intercitywagen "Eurofima" | Restaurant
-Eurofima_Wagen_1979_2
 Postwagen "Eurofima"
+Eurofima_Wagen_1979_2
+Intercitywagen "Eurofima" | Restaurant
 Eurofima_Wagen_1979_Polizei_0
 Polizeiwagen "Eurofima"
 Eurofima_Wagen_1986_0
@@ -3053,7 +3053,7 @@ Intercitywagen "Eurofima" | Steuerwagen
 Eurofima_Wagen_2001_4
 Postwagen "Eurofima"
 Eurofirma_Wagen_CNL_2013
-Liegewagen "Citynightline"
+Liegewagen Bvcmbz 249 "City Night Line"
 Eurorunner_20
 Diesellokomotive "Eurorunner"
 Eurorunner_20_Alex
@@ -3075,7 +3075,7 @@ Hochgeschwindigkeitszug "Eurostar" | Triebwagen
 EW_I_A_Papagei
 Personenwagen "Einheitswagen I Papagei"
 EW_I_B_klb
-Personenwagen "Einheitswagen I"
+Personenwagen "Einheitswagen I Kolibri"
 EW_I_B_Papagei
 Personenwagen "Einheitswagen I Papagei"
 F_1-BVG
@@ -3199,7 +3199,7 @@ Intercity Neigetechnikzug RABDe 500 "ICN"
 Interregio_Wagen_DB_1988
 Personenwagen "Interregio"
 JW_Bmz_1989_NJ
-Intercitywagen Bmz "Nightjet" | Abteilwagen
+Intercitywagen Bmz 73 "Nightjet" | Abteilwagen
 Koef_II
 Rangierlokomotive "Köf II"
 Koef_III
@@ -3343,15 +3343,17 @@ Akkutriebwagen Rh. 4746 "Desiro ML Cityjet eco" | Steuerwagen
 OBB_Cityjet_eco_Steuerwagen_vorne
 Akkutriebwagen Rh. 4746 "Desiro ML Cityjet eco" | Steuerwagen
 OBB_Cityjet_Mittelwagen
-Nahverkehrstriebwagen Rh. 4746 "Desiro ML Cityjet" | Mittelwagen
+Nahverkehrstriebwagen Rh. 4744 "Desiro ML Cityjet" | Mittelwagen
 OBB_Cityjet_Steuerwagen_hinten
-Nahverkehrstriebwagen Rh. 4746 "Desiro ML Cityjet" | Steuerwagen
+Nahverkehrstriebwagen Rh. 4744 "Desiro ML Cityjet" | Steuerwagen
 OBB_Cityjet_Steuerwagen_vorne
-Nahverkehrstriebwagen Rh. 4746 "Desiro ML Cityjet" | Steuerwagen
+Nahverkehrstriebwagen Rh. 4744 "Desiro ML Cityjet" | Steuerwagen
 Oelwagen_Track1
 Öl-Kesselwagen
 Oelwagen_Track2
 Öl-Kesselwagen
+Passenger_Train_1999_DB_Auto_Zug_WRmz131
+Speisewagen WRmz 131 "Auto Zug"
 Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_1
 Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_1_LNVG
@@ -3370,6 +3372,8 @@ Passenger_Train_2004_Innovations-Doppelstockwagen_DBpza_781_0
 Doppelstockwagen DBpkza 781.0 "Innovations-Doppelstockwagen"
 Passenger_Train_2004_Innovations-Doppelstockwagen_DBpza_781_0_LNVG
 Doppelstockwagen DBpkza 781.0 "Innovations-Doppelstockwagen"
+Passenger_Train_2007_City_Night_Line_WRmz131
+Speisewagen WRmz 131 "City Night Line"
 Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1
 Doppelstocksteuerwagen DBpbzfa 668.2 "Twindexx Vario"
 Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1_IC2
@@ -3419,9 +3423,9 @@ Postwagen
 Preuszischer_Postwagen_2_achsig
 Postwagen
 RABe511_AB
-Doppelstockelektrotriebwagen RABe 511 A "KISS"
+Doppelstockelektrotriebwagen RABe 511 AB "KISS"
 RABe511_AB_FV
-Doppelstockelektrotriebwagen RABe 511 A "KISS"
+Doppelstockelektrotriebwagen RABe 511 AB "KISS"
 RABe511_B
 Doppelstockelektrotriebwagen RABe 511 B "KISS"
 RABe511_B_FV
@@ -3455,11 +3459,11 @@ Mehrsystemlokomotive Re 484 "TRAXX"
 RE_484_PC
 Mehrsystemlokomotive Re 484 "TRAXX"
 Re420_Lion
-Elektrolokomotive Rh. 420 "Lion" | Modernisiert
+Elektrolokomotive Re 420 "Lion" | Modernisiert
 Re420_PC
-Elektrolokomotive Rh. 420
+Elektrolokomotive Re 420
 Re620_PC
-Elektrolokomotive Rh. 620
+Elektrolokomotive Re 620
 Rh 1016
 Intercitylokomotive Rh. 1016 "Taurus"
 Rh 1063
@@ -3509,11 +3513,11 @@ Postwagen
 Saxonia_Tender
 Dampflokomotive "Saxonia" | Tender
 SBB Bt IV
-Intercitywagen "Einheitswagen IV" | Mittelwagen
+Intercitywagen "Einheitswagen IV" | Steuerwagen
 SBB Bt IV (Voraus)
 Intercitywagen "Einheitswagen IV" | Steuerwagen
 SBB EW IV B
-Intercitywagen "Einheitswagen IV" | Steuerwagen
+Intercitywagen "Einheitswagen IV" | Mittelwagen
 SBB_A502
 Doppelstockintercitytriebwagenzug Typ A502  "Twindexx Express" | Mittelwagen
 SBB_B502
@@ -3545,7 +3549,7 @@ Postwagen "Schürzenwagen"
 Schuerzenwagen
 Schnellzugwagen "Schürzenwagen"
 Siemens_Schlafwagen_2003_NJ
-Schlafwagen "Modularwagen" "Nightjet"
+Schlafwagen WLABmz 173 "Nightjet"
 SNCB_AM_96_Triebwagen_1996_0
 Elektrotriebwagen AM 96 "Deense neus"
 SNCB_AM_96_Triebwagen_1996_1
@@ -3592,10 +3596,12 @@ SR_Class_171-3
 Dieseltriebwagen Class 171 "Turbostar"
 SR_Class_171-4
 Dieseltriebwagen Class 171 "Turbostar"
+SWG_Sitzwagen_1996
+Intercitywagen Bpm 875.1 "City Night Line"
 Talbot_Doppelstockschlafwagen_1996_CNL
-Doppelstockschlafwagen "Citynightline"
+Doppelstockschlafwagen WLABm 171 "City Night Line"
 Talbot_Doppelstockschlafwagen_1996_NJ
-Doppelstockschlafwagen "Nightjet"
+Doppelstockschlafwagen WLABm 171 "Nightjet"
 TEE_Triebzug_1957_0
 TransEuropExpress Triebzug | Triebkopf
 TEE_Triebzug_1957_1
@@ -3609,9 +3615,9 @@ TransEuropExpress Triebzug | Triebkopf
 TEE_Wagen_1965_0
 Schnellzugwagen "TransEuropExpress"
 TEE_Wagen_1965_1
-Schnellzugwagen "TransEuropExpress" | Restaurant
-TEE_Wagen_1965_2
 Postwagen "TransEuropExpress"
+TEE_Wagen_1965_2
+Schnellzugwagen "TransEuropExpress" | Restaurant
 TGV_Duplex_Bistro
 Doppelstockhochgeschwindigkeitszug TGV 2N2 "Euroduplex" | Bistro
 TGV_Duplex_Class1
@@ -3849,13 +3855,13 @@ Doppelstockwagen "Wiesel" | Mittelwagen
 WASCO_Habbiillnss
 Postwagen Habbiillnss
 WU_Speisewagen_1996
-Speisewagen "Citynightline"
+Speisewagen WRkmz 858.0 "City Night Line"
 X_Wagen_1978_0
 Stadtschnellbahnwagen "X-Wagen" | Steuerwagen
 X_Wagen_1978_1
-Stadtschnellbahnwagen "X-Wagen" | Steuerwagen
-X_Wagen_1978_2
 Stadtschnellbahnwagen "X-Wagen" | Mittelwagen
+X_Wagen_1978_2
+Stadtschnellbahnwagen "X-Wagen" | Steuerwagen
 XC_Class_170-1
 Dieseltriebwagen Class 170 "Turbostar"
 XC_Class_170-2
