@@ -606,9 +606,9 @@ toolbar[12][20]=-b,119
 #Abrisstools
 toolbar[13][0]=general_tool[1],120
 toolbar[13][1]=-,121
-toolbar[13][2]=general_tool[17],82,,1 
-toolbar[13][3]=general_tool[17],90,,2 
-toolbar[13][4]=general_tool[17],94,,8 
+toolbar[13][2]=general_tool[17],82,,1
+toolbar[13][3]=general_tool[17],90,,8 
+toolbar[13][4]=general_tool[17],94,,2 
 toolbar[13][5]=general_tool[17],98,,3
 toolbar[13][6]=general_tool[17],102,,16
 #toolbar[13][7]=general_tool[17],106,,5
@@ -618,8 +618,8 @@ toolbar[13][9]=general_tool[17],118,,2
 toolbar[13][10]=general_tool[17],114,,128
 toolbar[13][11]=-
 toolbar[13][12]=general_tool[33],124,,1
-toolbar[13][13]=general_tool[33],125,,2
-toolbar[13][14]=general_tool[33],126,,8
+toolbar[13][13]=general_tool[33],127,,8
+toolbar[13][14]=general_tool[33],126,,2
 toolbar[13][15]=-b,123
 
 # list tools
