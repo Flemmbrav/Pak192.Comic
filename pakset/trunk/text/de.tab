@@ -2102,6 +2102,8 @@ Bayrische_D_VIII
 Dampflokomotive Typ VIII
 BBO_1670
 Elektrolokomotive Rh. 1670
+Begleitwagen_RalPin
+Begleitwagen Rollende Landstrasse | Ralpin
 BI_1-BVG
 U-Bahnwagen BVG Typ B I "Tunneleule" | Motorwagen
 BI_2-BVG
@@ -3029,13 +3031,13 @@ Intercitywagen "Eurofima"
 Eurofima_Wagen_1979_1
 Postwagen "Eurofima"
 Eurofima_Wagen_1979_2
-Intercitywagen "Eurofima" | Restaurant
+Speisewagen "Eurofima"
 Eurofima_Wagen_1979_Polizei_0
 Polizeiwagen "Eurofima"
 Eurofima_Wagen_1986_0
 Intercitywagen "Eurofima"
 Eurofima_Wagen_1986_1
-Intercitywagen "Eurofima" | Restauraunt
+Speisewagen "Eurofima"
 Eurofima_Wagen_1986_2
 Intercitywagen "Eurofima" | Steuerwagen
 Eurofima_Wagen_1986_3
@@ -3045,7 +3047,7 @@ Intercitywagen "Eurofima"
 Eurofima_Wagen_2001_0
 Intercitywagen "Eurofima"
 Eurofima_Wagen_2001_1
-Intercitywagen "Eurofima" | Restaurant
+Speisewagen "Eurofima"
 Eurofima_Wagen_2001_2
 Intercitywagen "Eurofima" | Steuerwagen
 Eurofima_Wagen_2001_3
@@ -3053,7 +3055,7 @@ Intercitywagen "Eurofima" | Steuerwagen
 Eurofima_Wagen_2001_4
 Postwagen "Eurofima"
 Eurofirma_Wagen_CNL_2013
-Liegewagen Bvcmbz 249 "City Night Line"
+Liegewagen Bvcmz 248 "City Night Line"
 Eurorunner_20
 Diesellokomotive "Eurorunner"
 Eurorunner_20_Alex
@@ -3352,8 +3354,14 @@ Oelwagen_Track1
 Öl-Kesselwagen
 Oelwagen_Track2
 Öl-Kesselwagen
+Passenger_Train_1977_Eurofima
+Intercitywagen Bz "Eurofima"
+Passenger_Train_1994_Modularwagen
+Interctiywagen Bmpz 20-94 "Modularwagen"
 Passenger_Train_1999_DB_Auto_Zug_WRmz131
 Speisewagen WRmz 131 "Auto Zug"
+Passenger_Train_2002_Modularwagen
+Interctiywagen Bmpz 20-94 "Modularwagen"
 Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_1
 Doppelstocksteuerwagen DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_1_LNVG
@@ -3392,6 +3400,8 @@ Passenger_Train_2016_Locomore
 Intercitywagen Bm 235
 Passenger_Train_2016_Locomore_PC
 Intercitywagen Bm 235
+Passenger_Train_2016_Nightjet_Modularwagen
+Interctiywagen Bmpz 20-94 "Nightjet"
 Passenger_Train_2017_Flixtrain
 Intercitywagen Bm 235
 Passenger_Train_2017_Flixtrain_PC
@@ -3455,6 +3465,10 @@ Doppelstocktriebwagenzug Typ RAe514 "Desiro Double Deck" | Steuerwagen
 Re_460
 Intercitylokomotive Re 460 "Lok 2000"
 RE_484
+Mehrsystemlokomotive Re 484 "TRAXX" | Cargo
+Re_484_Cisalpino
+Mehrsystemlokomotive Re 484 "TRAXX" | Cisalpino
+Re_484_Cisalpino_PC
 Mehrsystemlokomotive Re 484 "TRAXX"
 RE_484_PC
 Mehrsystemlokomotive Re 484 "TRAXX"
@@ -3512,6 +3526,12 @@ Saxonia_Post
 Postwagen
 Saxonia_Tender
 Dampflokomotive "Saxonia" | Tender
+SBB Apm 61
+Intercitywagen Apm 61 | Modernisiert
+SBB Apm 61 Pano
+Panoramawagen Apm 61 | Modernisiert
+SBB Bpm 61
+Intercitywagen Bpm 61 | Modernisiert
 SBB Bt IV
 Intercitywagen "Einheitswagen IV" | Steuerwagen
 SBB Bt IV (Voraus)
@@ -3519,9 +3539,9 @@ Intercitywagen "Einheitswagen IV" | Steuerwagen
 SBB EW IV B
 Intercitywagen "Einheitswagen IV" | Mittelwagen
 SBB_A502
-Doppelstockintercitytriebwagenzug Typ A502  "Twindexx Express" | Mittelwagen
+Doppelstockintercitytriebwagenzug Typ A502  "Twindexx Swiss Express" | Mittelwagen
 SBB_B502
-Doppelstockintercitytriebwagenzug Typ B502  "Twindexx Express" | Mittelwagen
+Doppelstockintercitytriebwagenzug Typ B502  "Twindexx Swiss Express" | Mittelwagen
 SBB_CE_68_ii
 Elektrolokomotive Rh. Ce 6/8 II "Krokodil"
 SBB_CE_68_ii_SC2
@@ -3534,20 +3554,24 @@ SBB_CE_68_iib
 Elektrolokomotive Rh. Ce 6/8 II "Krokodil"
 SBB_CE_68_iic
 Elektrolokomotive Rh. Ce 6/8 II "Krokodil"
+SBB_EW_IV_WRm
+Speisewagen "Einheitswagen IV"
 SBB_MC76
 Postwagen MC 76
 SBB_RAe502
-Doppelstockintercitytriebwagenzug Typ RAe502  "Twindexx Express" | Steuerwagen
+Doppelstockintercitytriebwagenzug Typ RAe502  "Twindexx Swiss Express" | Steuerwagen
 SBB_RBe502
-Doppelstockintercitytriebwagenzug Typ RBe502  "Twindexx Express" | Steuerwagen
+Doppelstockintercitytriebwagenzug Typ RBe502  "Twindexx Swiss Express" | Steuerwagen
 SBB_WRB502
-Doppelstockintercitytriebwagenzug Typ WRB502  "Twindexx Express" | Speisewagen
+Doppelstockintercitytriebwagenzug Typ WRB502  "Twindexx Swiss Express" | Speisewagen
 SBB_Z2
 Postwagen Typ Z2
 Schuerzenpostwagen
 Postwagen "Schürzenwagen"
 Schuerzenwagen
 Schnellzugwagen "Schürzenwagen"
+Siemens_Schlafwagen_2003_CNL
+Schlafwagen WLABmz 173 "City Night Line"
 Siemens_Schlafwagen_2003_NJ
 Schlafwagen WLABmz 173 "Nightjet"
 SNCB_AM_96_Triebwagen_1996_0
@@ -4552,6 +4576,10 @@ Narrowgauge_Passenger_Train_2022_Zillertal_2
 Wasserstofftriebwagen | Mittelwagen
 Narrowgauge_Passenger_Train_2022_Zillertal_3
 Wasserstofftriebwagen | Steuerwagen
+SBB_EW_IV_AS
+Intercitywagen "Einheitswagen IV" | Dienstwagen
+SBB_EW_IV_AS_r
+Intercitywagen "Einheitswagen IV" | Dienstwagen
 #_____________________________vehicle - tram_track______________________________
 #_____________________________vehicle - tram_track______________________________
 B_1-VRR
