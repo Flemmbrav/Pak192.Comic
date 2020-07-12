@@ -35,6 +35,7 @@ weight=46
 speed=200
 length=12
 waytype=narrowgauge_track
+constraint[prev][0]=any
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2007_City_Night_Line.1.<$0>
 ---
 
@@ -57,6 +58,7 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=9180
+constraint[prev][0]=any
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2007_City_Night_Line.2.<$0>
 ---
 
@@ -124,7 +126,7 @@ EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2007_City_Night_Line.5.<
 
 obj=vehicle
 name=Eurofirma_Wagen_CNL_2013
-#Bvcmbz 248
+#Bvcmz 248
 copyright=Flemmbrav
 intro_year=2007
 intro_month=12
