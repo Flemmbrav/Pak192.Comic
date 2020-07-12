@@ -128,6 +128,7 @@ needs_ground=1
 Dims=2,2,1
 BackImage[0][0-1][0-1][0][0][0-1]=images/chips.<$0>.<$1+$2*2>
 #############
+---
 obj=field
 name=chip_field_0
 copyright=Leartin
