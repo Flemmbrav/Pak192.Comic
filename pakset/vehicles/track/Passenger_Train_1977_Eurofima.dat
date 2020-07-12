@@ -6,7 +6,8 @@ intro_month=1
 retire_year=1990
 retire_month=0
 freight=Passagiere
-payload=70
+payload=66
+#66 in der zweiten Klasse
 cost=7871325
 runningcost=716
 weight=42

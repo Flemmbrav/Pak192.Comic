@@ -1,15 +1,17 @@
 obj=vehicle
 name=Passenger_Train_2002_Modularwagen
+#Bmpz 20-94
 copyright=Flemmbrav
 intro_year=2002
 intro_month=1
 #retire_year=2002
 #retire_month=0
 freight=Passagiere
-payload=70
+payload=78
+# 78 Sitzplaetze
 cost=7871325
 runningcost=716
-weight=42
+weight=47
 speed=200
 length=12
 waytype=narrowgauge_track
