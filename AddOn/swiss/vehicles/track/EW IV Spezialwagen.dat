@@ -1,7 +1,7 @@
 obj=vehicle
 name=SBB_EW_IV_AS_r
 copyright=Citarofahrer
-waytype=track
+waytype=narrowgauge_track
 intro_year=1996
 intro_month=1
 #retire_year=2036
@@ -51,7 +51,7 @@ freight=Passagiere
 obj=vehicle
 name=SBB_EW_IV_AS
 copyright=Citarofahrer
-waytype=track
+waytype=narrowgauge_track
 intro_year=1981
 intro_month=1
 #retire_year=2036
