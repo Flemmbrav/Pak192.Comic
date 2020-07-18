@@ -122,7 +122,7 @@ compile '192' 'French Stuff' 'AddOn/french/**/*.dat'
 compile '192' 'German Vehicles' 'AddOn/german/vehicles/**/*.dat'
 compile '192' 'Japanese Stuff' 'AddOn/japanese/vehicles/*.dat'
 compile '192' 'Luxembourgian Stuff' 'AddOn/luxembourgian/vehicles/*.dat'
-compile '192' 'Norwegian Stuff' 'AddOn/norwegian/vehicles/*.dat'
+compile '192' 'Norwegian Stuff' 'AddOn/norwegian/vehicles/**/*.dat'
 compile '192' 'Swiss Stuff' 'AddOn/swiss/**/**/*.dat'
 
 # remove the old csv
