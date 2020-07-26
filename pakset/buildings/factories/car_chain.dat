@@ -11,7 +11,7 @@ OutputGood[0]=limestone
 OutputCapacity[0]=100
 OutputFactor[0]=100
 #-----
-Productivity=100
+Productivity=1000
 Range=20
 #-----
 electricity_amount=2000
@@ -74,7 +74,7 @@ OutputGood[0]=coal
 OutputCapacity[0]=2000
 OutputFactor[0]=100
 #-----
-Productivity=89
+Productivity=890
 Range=20
 expand_probability=2500
 expand_minimum=20
@@ -107,7 +107,7 @@ OutputGood[0]=coal
 OutputCapacity[0]=6000
 OutputFactor[0]=100
 #-----
-Productivity=270
+Productivity=2700
 Range=60
 expand_probability=2500
 expand_minimum=60
@@ -153,7 +153,7 @@ OutputGood[0]=billet
 OutputCapacity[0]=500
 OutputFactor[0]=100
 #-----
-Productivity=3000
+Productivity=5000
 Range=15
 #expand_probability=
 #expand_minimum=
