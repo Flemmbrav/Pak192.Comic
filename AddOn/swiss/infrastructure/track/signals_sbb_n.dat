@@ -5,6 +5,7 @@ waytype=narrowgauge_track
 intro_year=1989
 intro_month=1
 cost=750
+is_signal=1
 free_route=1
 icon=> ./images/signals/freesignal_sbb_n.0.0
 cursor=./images/signals/freesignal_sbb_n.0.1
