@@ -110,20 +110,13 @@ if (!(Test-Path "$csv")) {
 }
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
-compile '192' 'British Stuff 1/2' 'AddOn/britain/**/*.dat'
-compile '192' 'British Stuff 2/2' 'AddOn/britain/**/**/*.dat'
-compile '192' 'Austrian Stuff' 'AddOn/austrian/**/**/*.dat'
-compile '192' 'British Infrastrukture' 'AddOn/britain/Infrastruktur/*.dat'
-compile '192' 'British Vehicles' 'AddOn/britain/vehicles/**/*.dat'
-compile '192' 'Belgish Stuff' 'AddOn/belgian/**/*.dat'
-compile '192' 'Czech Vehicles' 'AddOn/czech/vehicles/**/*.dat'
-compile '192' 'Danish Stuff' 'AddOn/danish/**/*.dat'
-compile '192' 'French Stuff' 'AddOn/french/**/*.dat'
-compile '192' 'German Vehicles' 'AddOn/german/vehicles/**/*.dat'
-compile '192' 'Japanese Stuff' 'AddOn/japanese/vehicles/*.dat'
-compile '192' 'Luxembourgian Stuff' 'AddOn/luxembourgian/vehicles/*.dat'
-compile '192' 'Norwegian Stuff' 'AddOn/norwegian/vehicles/**/*.dat'
-compile '192' 'Swiss Stuff' 'AddOn/swiss/**/**/*.dat'
+
+compile '192' 'AddOns 1/5' 'calculated/AddOn/*.dat'
+compile '192' 'AddOns 2/5' 'calculated/AddOn/**/*.dat'
+compile '192' 'AddOns 3/5' 'calculated/AddOn/**/**/*.dat'
+compile '192' 'AddOns 4/5' 'calculated/AddOn/**/**/**/*.dat'
+compile '192' 'AddOns 5/5' 'calculated/AddOn/**/**/**/**/*.dat'
+
 
 # remove the old csv
 mv -Force "$csv.in" "$csv"
