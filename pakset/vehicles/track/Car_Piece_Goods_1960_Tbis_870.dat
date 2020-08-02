@@ -7,8 +7,7 @@ intro_month=9
 retire_month=3
 retire_year=1976
 speed=120
-payload=31
-#with 9x3 + 2x2 EUR-pallet
+payload=30
 weight=14
 runningcost=213
 cost=2344650
