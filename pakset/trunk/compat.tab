@@ -235,6 +235,22 @@ GYSEV_Cityjet_Steuerwagen_hinten
 Electric_2016_Desiro_ML_GYSEV_3
 Eurofirma_Wagen_CNL_2013
 Eurofima_Wagen_2001_0
+RABe511_Bt_FV_Back
+RABe511_Bt_RVD_Back
+RABe511_Bt_FV_Front
+RABe511_Bt_RVD_Front
+RABe511_B_FV
+RABe511_B_RVD
+RABe511_AB_FV
+RABe511_AB_RVD
+RABe511_Bt_RV_Back
+RABe511_Bt_SBZ_Back
+RABe511_Bt_RV_Front
+RABe511_Bt_SBZ_Front
+RABe511_B_RV
+RABe511_B_SBZ
+RABe511_AB_RV
+RABe511_AB_SBZ
 #--------------------------------------
 # vehicles road
 #--------------------------------------
@@ -267,27 +283,27 @@ MB_O_6600_H_L
 #--------------------------------------
 #-------------------------------------
 #--------------------------------------
-# der große Umlaut Bugfix...
+# der groï¿½e Umlaut Bugfix...
 #--------------------------------------
-ind_Große_Lagerhalle
+ind_Groï¿½e_Lagerhalle
 ind_Grosse_Lagerhalle
-volkswagent2_grün
+volkswagent2_grï¿½n
 volkswagent2_gruen
-Preußischer_Abteilwagen_2_achsig
+Preuï¿½ischer_Abteilwagen_2_achsig
 Preuszischer_Abteilwagen_2_achsig
-Preußischer_Postwagen_2_achsig
+Preuï¿½ischer_Postwagen_2_achsig
 Preuszischer_Postwagen_2_achsig
-Preußischer_Bremser_und_Abteilwagen_2_achsig
+Preuï¿½ischer_Bremser_und_Abteilwagen_2_achsig
 Preuszischer_Bremser_und_Abteilwagen_2_achsig
-Preußische_P6
+Preuï¿½ische_P6
 Preuszische_P6
-Preußische_P6_Tender
+Preuï¿½ische_P6_Tender
 Preuszische_P6_Tender
-Preußischer_Abteilwagen
+Preuï¿½ischer_Abteilwagen
 Preuszischer_Abteilwagen
-Preußischer_Postwagen
+Preuï¿½ischer_Postwagen
 Preuszischer_Postwagen
-Preußischer_Bremser_und_Abteilwagen
+Preuï¿½ischer_Bremser_und_Abteilwagen
 Preuszischer_Bremser_und_Abteilwagen
 PreuÃŸischer_Abteilwagen_2_achsig
 Preuszischer_Abteilwagen_2_achsig
@@ -305,7 +321,7 @@ PreuÃŸischer_Postwagen
 Preuszischer_Postwagen
 PreuÃŸischer_Bremser_und_Abteilwagen
 Preuszischer_Bremser_und_Abteilwagen
-ÖBB_Bahnpostwagen
+ï¿½BB_Bahnpostwagen
 OBB_Bahnpostwagen
 
 
@@ -317,7 +333,7 @@ OBB_Bahnpostwagen
 
 
 #--------------------------------------
-# Gebäude-Namen-Standardisierung
+# Gebï¿½ude-Namen-Standardisierung
 #--------------------------------------
 res_park02
 res_park_01_01
@@ -776,7 +792,7 @@ res_park_01_20
 
 
 #--------------------------------------
-# Sehenswürdigkeit-Standardisierung
+# Sehenswï¿½rdigkeit-Standardisierung
 #--------------------------------------
 cur_LD_Dohauzdium
 cur_city_Dohauzdium
@@ -827,7 +843,7 @@ baeker
 bakery_northsea
 baker2
 bakery_alpine
-Getreidemühle
+Getreidemï¿½hle
 grainmill
 Hopfenhof
 hopfarm
