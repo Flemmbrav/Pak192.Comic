@@ -27,7 +27,7 @@ constraint[prev][0]=any
 constraint[next][0]=Narrowgauge_Car_1950_Police_1
 constraint[next][1]=Narrowgauge_Car_1950_Police_2
 
-emptyimage[s,w,se,sw]=./image/Car_1950_Police.0.<$0>
+emptyimage[s,w,se,sw]=./image/Car_Police_1950.0.<$0>
 
 ---
 
@@ -53,7 +53,7 @@ cost=14993
 
 constraint[prev][0]=Narrowgauge_Car_1950_Police_1
 constraint[next][0]=none
-emptyimage[s,w,se,sw]=./image/Car_1950_Police_2.0.<$0>
+emptyimage[s,w,se,sw]=./image/Car_Police_1950_2.0.<$0>
 
 ---
 
@@ -80,7 +80,7 @@ cost=1000000
 
 constraint[prev][0]=Narrowgauge_Car_1975_Money_2
 constraint[next][0]=none
-emptyimage[s,w,se,sw]=./image/Car_1950_Police_2.0.<$0>
+emptyimage[s,w,se,sw]=./image/Car_Police_1950_2.0.<$0>
 
 ---
 

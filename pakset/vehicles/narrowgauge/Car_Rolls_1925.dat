@@ -20,12 +20,12 @@ cost=2500000
 
 constraint[prev][0]=any
 
-emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1925_Rolls.0.<$0>
+emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_Rolls_1925.0.<$0>
 freightimagetype[0]=cable
 freightimagetype[1]=carpet
 freightimagetype[2]=fabric
 freightimagetype[3]=paper
 freightimagetype[4]=yarn
-FreightImage[0-4][s,w,se,sw,n,e,nw,ne]=./image/Car_1925_Rolls.<$0+1>.<$1>
+FreightImage[0-4][s,w,se,sw,n,e,nw,ne]=./image/Car_Rolls_1925.<$0+1>.<$1>
 
 ---

@@ -15,9 +15,9 @@ length=6
 loading_time=2130
 constraint[prev][0]=any
 
-EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_1925_Apple.0.<$0>
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Apple_1925.0.<$0>
 freight=apples
-FreightImage[0-3][S,W,SE,SW,N,E,NW,NE]=./image/Car_1925_Apple.<$0+1>.<$1>
+FreightImage[0-3][S,W,SE,SW,N,E,NW,NE]=./image/Car_Apple_1925.<$0+1>.<$1>
 freightimagetype[0]=apples
 freightimagetype[1]=hop
 freightimagetype[2]=potatoes

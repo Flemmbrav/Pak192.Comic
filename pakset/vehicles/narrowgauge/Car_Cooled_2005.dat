@@ -20,6 +20,6 @@ cost=2811283
 
 constraint[prev][0]=any
 
-emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_2005_Cooled.0.<$0>
+emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_Cooled_2005.0.<$0>
 
 ---

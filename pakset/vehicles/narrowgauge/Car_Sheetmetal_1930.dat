@@ -14,6 +14,6 @@ loading_time=2310
 freight=sheetmetal
 constraint[prev][0]=any
 
-emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1930_Coil.0.<$0%4>
-freightimage[0][s,w,se,sw,n,e,nw,ne]=./image/Car_1930_Coil.1.<$0%4>
+emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_Coil_1930.0.<$0%4>
+freightimage[0][s,w,se,sw,n,e,nw,ne]=./image/Car_Coil_1930.1.<$0%4>
 freightimagetype[0]=sheetmetal

@@ -21,7 +21,7 @@ cost=30000000
 
 constraint[prev][0]=any
 constraint[next][0]=Narrowgauge_Car_1975_Money_2
-emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1975_Money.1.<$0>
+emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_Money_1975.1.<$0>
 
 ---
 obj=vehicle
@@ -50,6 +50,6 @@ constraint[prev][0]=Narrowgauge_Car_1975_Money_1
 constraint[next][0]=Narrowgauge_Car_1975_Money_1
 constraint[next][1]=Narrowgauge_Car_1950_Police_3
 constraint[next][2]=Narrowgauge_Car_1993_Police_3
-emptyimage[n,e,nw,ne,s,w,se,sw]=./image/Car_1975_Money.0.<$0>
+emptyimage[n,e,nw,ne,s,w,se,sw]=./image/Car_Money_1975.0.<$0>
 
 ---
