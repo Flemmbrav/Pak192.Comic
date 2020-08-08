@@ -158,7 +158,6 @@ freightimagetype[7]=car_parts
 freightimagetype[8]=furniture
 freightimagetype[9]=lightbulbs
 freightimagetype[10]=coka_drink
-freightimagetype[21]=rum
 freightimage[0-10][S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Container_Anhanger.<$0+2>.<$1+8>
 ---
 obj=vehicle
