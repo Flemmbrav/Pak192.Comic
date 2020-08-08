@@ -78,4 +78,4 @@ cost=1000000
 constraint[prev][0]=Narrowgauge_Car_1975_Money_2
 constraint[prev][1]=Narrowgauge_Car_2005_Money
 constraint[next][0]=none
-emptyimage[s,w,se,sw]=./image/Car_Police_1993_3.0.<$0>
+emptyimage[s,w,se,sw]=./image/Car_Police_1993_2.0.<$0>
