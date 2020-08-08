@@ -145,7 +145,7 @@ length=6
 loading_time=2001
 constraint[next][0]=none
 constraint[prev][0]=MB_Lo_2000_Container
-EmptyImage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Container_Anhanger.0.<$0+8>
+EmptyImage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Container_Anhanger.0.<$0>
 freight=fiber
 freightimagetype[0]=circuit_boards
 freightimagetype[1]=fiber
@@ -158,7 +158,7 @@ freightimagetype[7]=car_parts
 freightimagetype[8]=furniture
 freightimagetype[9]=lightbulbs
 freightimagetype[10]=coka_drink
-freightimage[0-10][S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Container_Anhanger.<$0+2>.<$1+8>
+freightimage[0-10][S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Container_Anhanger.<$0+2>.<$1>
 ---
 obj=vehicle
 name=MB_Lo_2000_Schuettgut
