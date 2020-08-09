@@ -30,5 +30,5 @@ freightimagetype[10]=coka_drink
 freightimagetype[11]=computer
 freightimagetype[12]=microchips
 
-EmptyImage[s,w,se,sw]=./image/Car_Container_2014_Sggnss_80.0.<$0>
-freightimage[0-12][s,w,se,sw]=./image/Car_Container_2014_Sggnss_80.<$0+2>.<$1>
+EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Container_2014_Sggnss_80.0.<$0>
+freightimage[0-12][s,w,se,sw,n,e,nw,ne]=./image/Car_Container_2014_Sggnss_80.<$0+2>.<$1>
