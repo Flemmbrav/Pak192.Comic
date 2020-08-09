@@ -132,7 +132,7 @@ OutputGood[0]=lightbulbs
 OutputCapacity[0]=40
 OutputFactor[0]=100
 #-----
-Productivity=50
+Productivity=10
 Range=200
 expand_probability=2500
 expand_minimum=20
@@ -176,7 +176,7 @@ OutputGood[0]=electronics
 OutputCapacity[0]=100
 OutputFactor[0]=100
 #-----
-Productivity=120
+Productivity=16
 Range=20
 expand_probability=250
 expand_minimum=10
