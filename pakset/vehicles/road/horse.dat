@@ -189,7 +189,7 @@ constraint[prev][1]=horse2
 constraint[prev][2]=horse3
 constraint[prev][3]=none
 emptyimage[s,w,e,n,ne,sw,nw,se]=./image/horse_karre_stueckgut.<$0/4>.<$0%4>
-freight=berries
+freight=juice
 freightimage[s,w,e,n,ne,sw,nw,se]=./image/horse_karre_stueckgut.<$0/4+2>.<$0%4>
 -----
 obj=vehicle
