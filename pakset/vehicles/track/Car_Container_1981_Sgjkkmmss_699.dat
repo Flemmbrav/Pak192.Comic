@@ -27,6 +27,8 @@ freightimagetype[7]=car_parts
 freightimagetype[8]=furniture
 freightimagetype[9]=lightbulbs
 freightimagetype[10]=coka_drink
+freightimagetype[11]=computer
+freightimagetype[12]=microchips
 
 EmptyImage[s,w,se,sw]=./image/Car_Container_1981_Sgjkkmmss_699.0.<$0>
-freightimage[0-10][s,w,se,sw]=./image/Car_Container_1981_Sgjkkmmss_699.<$0+2>.<$1>
+freightimage[0-12][s,w,se,sw]=./image/Car_Container_1981_Sgjkkmmss_699.<$0+2>.<$1>

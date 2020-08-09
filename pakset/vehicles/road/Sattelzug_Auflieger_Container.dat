@@ -25,6 +25,8 @@ freightimagetype[7]=car_parts
 freightimagetype[8]=furniture
 freightimagetype[9]=lightbulbs
 freightimagetype[10]=coka_drink
+freightimagetype[11]=computer
+freightimagetype[12]=microchips
 
 EmptyImage[S,W,E,N,NE,SW,NW,SE]=./image/Auflieger_Container.0.<$0>
-freightimage[0-10][S,W,E,N,NE,SW,NW,SE]=./image/Auflieger_Container.<$0+2>.<$1>
+freightimage[0-12][S,W,E,N,NE,SW,NW,SE]=./image/Auflieger_Container.<$0+2>.<$1>
