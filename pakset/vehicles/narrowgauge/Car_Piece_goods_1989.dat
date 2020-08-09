@@ -5,7 +5,7 @@ waytype=track
 intro_year=1989
 intro_month=6
 
-freight=flour
+freight=juice
 freightimagetype[0]=flour
 freightimagetype[1]=car_parts
 freightimagetype[2]=berries

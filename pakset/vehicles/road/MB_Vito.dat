@@ -86,4 +86,4 @@ emptyimage[s]=./image/MB_Vito_Stueckgut.0.0
 emptyimage[se]=./image/MB_Vito_Stueckgut.0.7
 emptyimage[sw]=./image/MB_Vito_Stueckgut.0.5
 emptyimage[w]=./image/MB_Vito_Stueckgut.0.1
-freight=berries
+freight=juice

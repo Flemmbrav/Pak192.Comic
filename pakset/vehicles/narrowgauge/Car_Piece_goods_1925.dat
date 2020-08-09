@@ -12,7 +12,7 @@ speed=50
 weight=14
 length=7
 
-freight=berries
+freight=juice
 payload=15
 loading_time=2980
 runningcost=298

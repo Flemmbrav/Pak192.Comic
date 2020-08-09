@@ -24,7 +24,7 @@ emptyimage[w]=./image/PTM_Stueckgut.0.4
 
 
 
-freight=flour
+freight=juice
 freightimage[s]=./image/PTM_Stueckgut.0.1
 freightimage[se]=./image/PTM_Stueckgut.0.2
 freightimage[sw]=./image/PTM_Stueckgut.0.3
@@ -56,7 +56,7 @@ emptyimage[w]=./image/PTM_Containerwagen.0.0
 
 
 
-freight=electronics
+freight=juice
 freightimagetype[0]=generic
 freightimagetype[1]=flour
 freightimagetype[2]=berries
@@ -108,7 +108,7 @@ emptyimage[w]=./image/PTM_Containerwagen02.0.0
 
 
 
-freight=electronics
+freight=juice
 freightimagetype[0]=generic
 freightimagetype[1]=flour
 freightimagetype[2]=berries

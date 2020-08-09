@@ -25,7 +25,7 @@ emptyimage[s]=./image/SC_210.0.0
 emptyimage[se]=./image/SC_210.0.7
 emptyimage[sw]=./image/SC_210.0.5
 emptyimage[w]=./image/SC_210.0.1
-freight=car_parts
+freight=juice
 -----
 obj=vehicle
 name=SC_H210
@@ -50,5 +50,5 @@ emptyimage[s]=./image/SC_210.1.0
 emptyimage[se]=./image/SC_210.1.7
 emptyimage[sw]=./image/SC_210.1.5
 emptyimage[w]=./image/SC_210.1.1
-freight=car_parts
+freight=juice
 -----
