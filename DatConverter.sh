@@ -313,13 +313,13 @@ calculatecosts(){
 	local LoadingTime=$(( Income / 300 ))
 	
 	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
-	#local FixCost=$(( RunningCost * 850 ))
-	#RunningCost=$(( RunningCost / 10 ))
+	local FixCost=$(( RunningCost * 850 ))
+	RunningCost=$(( RunningCost / 10 ))
 	if [[ $ForcingNewValues == 1 ]];then
 		echo "loading_time=$LoadingTime" >> calculated/$dat
 		echo "runningcost=$RunningCost" >> calculated/$dat
 		echo "cost=$Cost" >> calculated/$dat
-	#	echo "fixed_cost=$FixCost" >> calculated/$dat
+		echo "fixed_cost=$FixCost" >> calculated/$dat
 	else
 		if [[ ! -z ${ObjectArray[loading_time]} ]] ;then
 			echo "loading_time=${ObjectArray[loading_time]}" >> calculated/$dat
@@ -336,12 +336,12 @@ calculatecosts(){
 		else
 			echo "cost=$Cost" >> calculated/$dat
 		fi
-	#	if [[ ! -z ${ObjectArray[fixed_cost]} ]] ;then
-	#		echo "fixed_cost=$FixCost" >> calculated/$dat
-	#		#echo "fixed_cost=${ObjectArray[fixed_cost]}" >> calculated/$dat
-	#	else
-	#		echo "fixed_cost=$FixCost" >> calculated/$dat
-	#	fi
+		if [[ ! -z ${ObjectArray[fixed_cost]} ]] ;then
+			echo "fixed_cost=$FixCost" >> calculated/$dat
+			#echo "fixed_cost=${ObjectArray[fixed_cost]}" >> calculated/$dat
+		else
+			echo "fixed_cost=$FixCost" >> calculated/$dat
+		fi
 		
 		
 	fi
