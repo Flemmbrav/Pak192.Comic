@@ -97,9 +97,9 @@ compile() {
 
         # recompiling if necessary
         if [[ $recompile == 1 ]]; then
-            ./makeobj pak$1 ./compiled/ "./$dat" &> /dev/null
+            ./makeobj-extended pak$1 ./compiled/ "./$dat" &> /dev/null
             if [[ $? != 0 ]]; then
-                echo "Error: Makeobj returned an error for $dat. Aborting..."
+                echo "Error: Makeobj-extended returned an error for $dat. Aborting..."
                 rm "$csv.in"
                 exit $?
             fi
@@ -116,10 +116,10 @@ compile() {
     echo -ne '\n'
 }
 
-echo -n 'Checking for makeobj... '
+echo -n 'Checking for makeobj-extended... '
 
-if [ ! -f 'makeobj' ]; then
-    echo 'ERROR: makeobj not found in root folder.'
+if [ ! -f 'makeobj-extended' ]; then
+    echo 'ERROR: makeobj-extended not found in root folder.'
     exit 1
 fi
 

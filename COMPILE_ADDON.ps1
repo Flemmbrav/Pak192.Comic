@@ -72,9 +72,9 @@ function compile($paksize, $msg, $glob) {
 
         # recompiling if necessary
         if ($recompile) {
-            ./makeobj.exe "pak$paksize" ./compiled_addons/ "$relative" > $null 2> $null
+            ./makeobj-extended.exe "pak$paksize" ./compiled_addons/ "$relative" > $null 2> $null
             if ($LASTEXITCODE -gt 0) {
-                echo "Error: Makeobj returned an error for $relative. Aborting..."
+                echo "Error: Makeobj-extended returned an error for $relative. Aborting..."
                 rm "$csv.in"
                 exit $LASTEXITCODE
             }
@@ -88,10 +88,10 @@ function compile($paksize, $msg, $glob) {
     }
 }
 
-Write-Host -NoNewline 'Checking for makeobj... '
+Write-Host -NoNewline 'Checking for makeobj-extended... '
 
-if (!(Test-Path makeobj.exe)) {
-    echo 'ERROR: makeobj not found in root folder.'
+if (!(Test-Path makeobj-extended.exe)) {
+    echo 'ERROR: makeobj-extended not found in root folder.'
     exit 2
 }
 

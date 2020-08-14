@@ -4,7 +4,7 @@ echo 'pak192.comic open-source repository AddOn compiler for Unix'
 echo -e '======================================================\n'
 
 echo 'This bash compiles this repository into a new folder'
-echo -e 'called compiled, makeobj must be in root folder.\n'
+echo -e 'called compiled, makeobj-extended must be in root folder.\n'
 
 # Prints a progress bar with percentage
 # @param $1 current index
@@ -97,9 +97,9 @@ compile() {
 
         # recompiling if necessary
         if [[ $recompile == 1 ]]; then
-            ./makeobj pak$1 ./compiled_addons/ "./$dat" &> /dev/null
+            ./makeobj-extended pak$1 ./compiled_addons/ "./$dat" &> /dev/null
             if [[ $? != 0 ]]; then
-                echo "Error: Makeobj returned an error for $dat. Aborting..."
+                echo "Error: makeobj-extended returned an error for $dat. Aborting..."
                 rm "$csv.in"
                 exit $?
             fi
@@ -116,10 +116,10 @@ compile() {
     echo -ne '\n'
 }
 
-echo -n 'Checking for makeobj... '
+echo -n 'Checking for makeobj-extended... '
 
-if [ ! -f 'makeobj' ]; then
-    echo 'ERROR: makeobj not found in root folder.'
+if [ ! -f 'makeobj-extended' ]; then
+    echo 'ERROR: makeobj-extended not found in root folder.'
     exit 1
 fi
 

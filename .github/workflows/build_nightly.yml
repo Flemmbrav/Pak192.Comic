@@ -31,7 +31,6 @@ jobs:
           mv makeobj-extended ../../..
           cd ../../..
           rm -rf simutrans
-          mv makeobj-extended makeobj
           
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
