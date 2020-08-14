@@ -34,7 +34,7 @@ noinfo=1
 Dims=1,1,4
 icon=> ./images/UBahn2.0.4
 cursor=./images/UBahn2.1.4
-BackImage[0-3][0][0][0][0-2][0-1]=./images/Ubahn2.<$1+$2*3>.<$0>
+BackImage[0-3][0][0][0][0-2][0-1]=./images/UBahn2.<$1+$2*3>.<$0>
 -----
 ###################
 # MAIL EXTENSIONS #
