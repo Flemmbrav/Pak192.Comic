@@ -17,205 +17,72 @@ jobs:
         sudo apt-get -ym install libsdl2-dev
         sudo apt-get -ym install libbz2-dev
         sudo apt-get -ym install autoconf
-        svn checkout svn://servers.simutrans.org/simutrans simutrans
+        git clone https://github.com/jamespetts/simutrans-extended.git simutrans-extended
     - name: setup
       run: |
-        cd simutrans/trunk
+        cd simutrans-extended
         autoconf
         ./configure
         cat config.default >>/dev/stderr
     - name: make makeobj
       run: |
-          cd simutrans/trunk/makeobj
+          cd simutrans-extended/makeobj
           make
-          mv makeobj ../../..
+          mv makeobj-extended ../../..
           cd ../../..
           rm -rf simutrans
-
-    - name: make pak192
-      run: |
-        bash COMPILE.sh
-    - name: Rename result
-      run: |
-        mv compiled pak192.comic-nightly
-        zip -r pak192-nightly.zip pak192.comic-nightly
-
-    - name: Update binaries of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192-nightly.zip
-        asset_name: pak192-nightly.zip
-        tag: Nightly
-        overwrite: true
-
-  compile_pak192-comic-addons:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v1
-
-    - name: install_dependencies
-      run: |
-          sudo apt-get -y update
-          sudo apt-get -ym install libpng-dev
-          sudo apt-get -ym install libsdl2-dev
-          sudo apt-get -ym install libbz2-dev
-          sudo apt-get -ym install autoconf
-          svn checkout svn://servers.simutrans.org/simutrans simutrans
-    - name: setup
-      run: |
-        cd simutrans/trunk
-        autoconf
-        ./configure
-        cat config.default >>/dev/stderr
-    - name: make makeobj
-      run: |
-          cd simutrans/trunk/makeobj
-          make
-          mv makeobj ../../..
-          cd ../../..
-          rm -rf simutrans
-
-    - name: Compile pak192.comic addons
-      run: bash COMPILE_ADDON.sh
-
-    - name: zip addons
-      run: |
-        mv compiled_addons pak192.comic-nightly-addons
-        zip -r pak192-nightly-addons.zip pak192.comic-nightly-addons
-        
-    - name: Compile pak192.comic themes
-      run: bash COMPILE_THEME.sh
-
-    - name: Update Addons of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192-nightly-addons.zip
-        asset_name: pak192-nightly-addons.zip
-        tag: Nightly
-        overwrite: true
-        
-    - name: Update Themes of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./themes.zip
-        asset_name: themes.zip
-        tag: Nightly
-        overwrite: true
-
-  datconverter_and_compile_pak192-comic-addons:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v1
-
-    - name: install_dependencies
-      run: |
-          sudo apt-get -y update
-          sudo apt-get -ym install libpng-dev
-          sudo apt-get -ym install libsdl2-dev
-          sudo apt-get -ym install libbz2-dev
-          sudo apt-get -ym install autoconf
-          svn checkout svn://servers.simutrans.org/simutrans simutrans
-    - name: setup
-      run: |
-        cd simutrans/trunk
-        autoconf
-        ./configure
-        cat config.default >>/dev/stderr
-    - name: make makeobj
-      run: |
-          cd simutrans/trunk/makeobj
-          make
-          mv makeobj ../../..
-          cd ../../..
-          rm -rf simutrans
-
+          mv makeobj-extended makeobj
+          
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
-
-    - name: Compile pak192.comic addons
-      run: bash Compile_Converted_AddOn.sh
-
-    - name: zip converted_addons
-      run: |
-        mv compiled_converted_addons pak192.comic-nightly-addons-datconverter
-        zip -r pak192-nightly-addons-datconverter.zip pak192.comic-nightly-addons-datconverter
-
+      
     - name: make pak192
       run: |
         bash Compile_Converted.sh
-
     - name: Rename result
       run: |
-        mv compiled_converted pak192.comic-nightly-datconverter
-        zip -r pak192-nightly-datconverter.zip pak192.comic-nightly-datconverter
-
-    - name: Update Addons of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192-nightly-addons-datconverter.zip
-        asset_name: pak192-nightly-addons-datconverter.zip
-        tag: Nightly
-        overwrite: true
-
+        mv compiled_converted pak192.comic-extended-nightly
+        zip -r pak192.comic-extended-nightly.zip pak192.comic-extended-nightly
     - name: Update binaries of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192-nightly-datconverter.zip
-        asset_name: pak192-nightly-datconverter.zip
+        file: ./pak192.comic-extended-nightly.zip
+        asset_name: pak192.comic-extended-nightly.zip
         tag: Nightly
         overwrite: true
-
-  compile_pak192-comic_serverset:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v1
-
-    - name: install_dependencies
+        
+    - name: make pak192-addons
       run: |
-          sudo apt-get -y update
-          sudo apt-get -ym install libpng-dev
-          sudo apt-get -ym install libsdl2-dev
-          sudo apt-get -ym install libbz2-dev
-          sudo apt-get -ym install autoconf
-          svn checkout svn://servers.simutrans.org/simutrans simutrans
-    - name: setup
+        bash Compile_Converted_AddOn.sh
+    - name: Rename result
       run: |
-        cd simutrans/trunk
-        autoconf
-        ./configure
-        cat config.default >>/dev/stderr
-    - name: make makeobj
-      run: |
-          cd simutrans/trunk/makeobj
-          make
-          mv makeobj ../../..
-          cd ../../..
-          rm -rf simutrans
-
-    - name: Converting dat files
-      run: bash DatConverter.sh -f -a
-
-    - name: Compile pak192.comic with extra addons
-      run: bash Compile_Converted_Serverset.sh
-
-    - name: zip converted_addons
-      run: |
-        mv compiled_serverset pak192.comic-serverset-nightly
-        zip -r pak192.comic-serverset-nightly.zip pak192.comic-serverset-nightly
-
-    - name: Update Serverset of Nightly Release
+        mv converted_addons pak192.comic-addons-extended-nightly
+        zip -r pak192.comic-addons-extended-nightly.zip pak192.comic-addons-extended-nightly
+    - name: Update binaries of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192.comic-serverset-nightly.zip
-        asset_name: pak192.comic-serverset-nightly.zip
+        file: ./pak192.comic-addons-extended-nightly.zip
+        asset_name: pak192.comic-addons-extended-nightly.zip
         tag: Nightly
         overwrite: true
+        
+        
+    - name: make pak192-serverset
+      run: |
+        bash Compile_Converted_Serverset.sh
+    - name: Rename result
+      run: |
+        mv compiled_serverset pak192.comic-serverset-extended-nightly
+        zip -r pak192.comic-serverset-extended-nightly.zip pak192.comic-serverset-extended-nightly
+    - name: Update binaries of Nightly Release
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./pak192.comic-serverset-extended-nightly.zip
+        asset_name: pak192.comic-serverset-extended-nightly.zip
+        tag: Nightly
+        overwrite: true
+        
+        
