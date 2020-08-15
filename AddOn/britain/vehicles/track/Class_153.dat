@@ -23,16 +23,7 @@ loading_time=4000
 constraint[prev][0]=Sprinter_Coupler
 constraint[prev][1]=none
 constraint[next][0]=Sprinter_Coupler
-
-EmptyImage[S]=image/BR_Class_153_emt.0.1
-EmptyImage[E]=image/BR_Class_153_emt.0.0
-EmptyImage[SE]=image/BR_Class_153_emt.0.4
-EmptyImage[SW]=image/BR_Class_153_emt.0.7
-EmptyImage[N]=image/BR_Class_153_emt.0.3
-EmptyImage[W]=image/BR_Class_153_emt.0.2
-EmptyImage[NW]=image/BR_Class_153_emt.0.6
-EmptyImage[NE]=image/BR_Class_153_emt.0.5
-
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/BR_Class_153_EMT.0.<$0>
 -----------------
 
 obj=vehicle
@@ -60,12 +51,4 @@ constraint[prev][0]=Sprinter_Coupler
 constraint[prev][1]=none
 constraint[next][0]=Sprinter_Coupler
 constraint[next][1]=none
-
-EmptyImage[S]=image/BR_Class_153_FGW.0.1
-EmptyImage[E]=image/BR_Class_153_FGW.0.0
-EmptyImage[SE]=image/BR_Class_153_FGW.0.4
-EmptyImage[SW]=image/BR_Class_153_FGW.0.7
-EmptyImage[N]=image/BR_Class_153_FGW.0.3
-EmptyImage[W]=image/BR_Class_153_FGW.0.2
-EmptyImage[NW]=image/BR_Class_153_FGW.0.6
-EmptyImage[NE]=image/BR_Class_153_FGW.0.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/BR_Class_153_FGW.0.<$0>
