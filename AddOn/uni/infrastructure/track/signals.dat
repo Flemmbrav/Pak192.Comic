@@ -1,0 +1,24 @@
+
+obj=roadsign
+name=track_sigspeed_170
+copyright=Flemmbrav
+waytype=narrowgauge_track
+intro_year=1960
+cost=10000
+min_speed=171
+single_way=0
+icon=> ./images/signals/sigspeed.0.4
+cursor=./images/signals/sigspeed.0.5
+Image[0-3]=./images/signals/sigspeed.0.<$0>
+-----------------------
+obj=roadsign
+name=track_sigspeed_230
+copyright=Flemmbrav
+waytype=narrowgauge_track
+intro_year=1970
+cost=10000
+min_speed=231
+single_way=0
+icon=> ./images/signals/sigspeed.1.4
+cursor=./images/signals/sigspeed.1.5
+Image[0-3]=./images/signals/sigspeed.1.<$0>
