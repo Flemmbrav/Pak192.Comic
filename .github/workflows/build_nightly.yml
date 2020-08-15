@@ -56,7 +56,7 @@ jobs:
         bash Compile_Converted_AddOn.sh
     - name: Rename result
       run: |
-        mv converted_addons pak192.comic-addons-extended-nightly
+        mv compiled_converted_addons pak192.comic-addons-extended-nightly
         zip -r pak192.comic-addons-extended-nightly.zip pak192.comic-addons-extended-nightly
     - name: Update binaries of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
