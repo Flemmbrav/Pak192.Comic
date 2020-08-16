@@ -500,97 +500,97 @@ writevehicle() {
 #Extended extras only written when given in the dat file
 
 	if [[ ! -z ${ObjectArray[range]} ]] ;then
-		echo "gear=${ObjectArray[range]}" >> calculated/$dat
+		echo "range=${ObjectArray[range]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[axles]} ]] ;then
-		echo "gear=${ObjectArray[axles]}" >> calculated/$dat
+		echo "axles=${ObjectArray[axles]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[axle_load]} ]] ;then
-		echo "gear=${ObjectArray[axle_load]}" >> calculated/$dat
+		echo "axle_load=${ObjectArray[axle_load]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[brake_force]} ]] ;then
-		echo "gear=${ObjectArray[break_force]}" >> calculated/$dat
+		echo "brake_force=${ObjectArray[break_force]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[rolling_resistance]} ]] ;then
-		echo "gear=${ObjectArray[rolling_resistance]}" >> calculated/$dat
+		echo "rolling_resistance=${ObjectArray[rolling_resistance]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[air_resistance]} ]] ;then
-		echo "gear=${ObjectArray[air_resistance]}" >> calculated/$dat
+		echo "air_resistance=${ObjectArray[air_resistance]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[way_wear_factor]} ]] ;then
-		echo "gear=${ObjectArray[way_wear_factor]}" >> calculated/$dat
+		echo "way_wear_factor=${ObjectArray[way_wear_factor]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[is_tall]} ]] ;then
-		echo "gear=${ObjectArray[is_tall]}" >> calculated/$dat
+		echo "is_tall=${ObjectArray[is_tall]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[has_front_cab]} ]] ;then
-		echo "gear=${ObjectArray[has_front_cab]}" >> calculated/$dat
+		echo "has_front_cab=${ObjectArray[has_front_cab]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[has_rear_cab]} ]] ;then
-		echo "gear=${ObjectArray[has_rear_cab]}" >> calculated/$dat
+		echo "has_rear_cab=${ObjectArray[has_rear_cab]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[bidirectional]} ]] ;then
-		echo "gear=${ObjectArray[bidirectional]}" >> calculated/$dat
+		echo "bidirectional=${ObjectArray[bidirectional]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[is_tiling]} ]] ;then
-		echo "gear=${ObjectArray[is_tilting]}" >> calculated/$dat
+		echo "is_tiling=${ObjectArray[is_tilting]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[minimum_runway_length]} ]] ;then
-		echo "gear=${ObjectArray[minimum_runway_length]}" >> calculated/$dat
+		echo "minimum_runway_length=${ObjectArray[minimum_runway_length]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[fixed_maintenance]} ]] ;then
-		echo "gear=${ObjectArray[fixed_maintenance]}" >> calculated/$dat
+		echo "fixed_maintenance=${ObjectArray[fixed_maintenance]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[increase_maintenance_after_years]} ]] ;then
-		echo "gear=${ObjectArray[increase_maintenance_after_years]}" >> calculated/$dat
+		echo "increase_maintenance_after_years=${ObjectArray[increase_maintenance_after_years]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[years_before_maintenance_max_reached]} ]] ;then
-		echo "gear=${ObjectArray[years_before_maintenance_max_reached]}" >> calculated/$dat
+		echo "years_before_maintenance_max_reached=${ObjectArray[years_before_maintenance_max_reached]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[increase_maintenance_by_percent]} ]] ;then
-		echo "gear=${ObjectArray[increase_maintenance_by_percent]}" >> calculated/$dat
+		echo "increase_maintenance_by_percent=${ObjectArray[increase_maintenance_by_percent]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[tractive_effort]} ]] ;then
-		echo "gear=${ObjectArray[tractive_effort]}" >> calculated/$dat
+		echo "tractive_effort=${ObjectArray[tractive_effort]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[comfort]} ]] ;then
-		echo "gear=${ObjectArray[comfort]}" >> calculated/$dat
+		echo "comfort=${ObjectArray[comfort]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[overcrowded_capacity]} ]] ;then
-		echo "gear=${ObjectArray[overcrowded_capacity]}" >> calculated/$dat
+		echo "overcrowded_capacity=${ObjectArray[overcrowded_capacity]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
-		echo "gear=${ObjectArray[catering_level]}" >> calculated/$dat
+		echo "catering_level=${ObjectArray[catering_level]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
-		echo "gear=${ObjectArray[catering_level]}" >> calculated/$dat
+		echo "catering_level=${ObjectArray[catering_level]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[min_loading_time]} ]] ;then
-		echo "gear=${ObjectArray[min_loading_time]}" >> calculated/$dat
+		echo "min_loading_time=${ObjectArray[min_loading_time]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[max_loading_time]} ]] ;then
-		echo "gear=${ObjectArray[max_loading_time]}" >> calculated/$dat
+		echo "max_loading_time=${ObjectArray[max_loading_time]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[mixed_load_prohibition]} ]] ;then
-		echo "gear=${ObjectArray[mixed_load_prohibition]}" >> calculated/$dat
+		echo "mixed_load_prohibition=${ObjectArray[mixed_load_prohibition]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[available_only_as_upgrade]} ]] ;then
-		echo "gear=${ObjectArray[available_only_as_upgrade]}" >> calculated/$dat
+		echo "available_only_as_upgrade=${ObjectArray[available_only_as_upgrade]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[upgrade_price]} ]] ;then
-		echo "gear=${ObjectArray[upgrade_price]}" >> calculated/$dat
+		echo "upgrade_price=${ObjectArray[upgrade_price]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[upgrade]} ]] ;then
-		echo "gear=${ObjectArray[upgrade]}" >> calculated/$dat
+		echo "upgrade=${ObjectArray[upgrade]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[way_constraint_permissive]} ]] ;then
-		echo "gear=${ObjectArray[way_constraint_permissive]}" >> calculated/$dat
+		echo "way_constraint_permissive=${ObjectArray[way_constraint_permissive]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[way_constraint_prohibitive]} ]] ;then
-		echo "gear=${ObjectArray[way_constraint_prohibitive]}" >> calculated/$dat
+		echo "way_constraint_prohibitiv=${ObjectArray[way_constraint_prohibitive]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[liverytype]} ]] ;then
-		echo "gear=${ObjectArray[liverytype]}" >> calculated/$dat
+		echo "liverytype=${ObjectArray[liverytype]}" >> calculated/$dat
 	fi
 }
 
