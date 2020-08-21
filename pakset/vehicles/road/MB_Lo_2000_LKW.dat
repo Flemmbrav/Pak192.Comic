@@ -718,9 +718,9 @@ loading_time=1401
 constraint[next][0]=MB_Lo_2000_GlasH
 constraint[next][1]=none
 constraint[prev][0]=none
-EmptyImage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.0.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.0.<$0>
 freight=glass
-freightimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.1.<$0>
+freightimage[0][S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.1.<$0>
 ---
 obj=vehicle
 name=MB_Lo_2000_GlasH
@@ -741,7 +741,7 @@ length=6
 loading_time=2001
 constraint[next][0]=none
 constraint[prev][0]=MB_Lo_2000_Glas
-EmptyImage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.2.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.2.<$0>
 freight=glass
-freightimage[0-21][S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.3.<$0>
+freightimage[0][S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.3.<$0>
 ---
