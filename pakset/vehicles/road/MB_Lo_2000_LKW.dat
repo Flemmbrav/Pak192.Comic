@@ -720,7 +720,7 @@ constraint[next][1]=none
 constraint[prev][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.0.<$0>
 freight=glass
-freightimage[0][S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.1.<$0>
+freightimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.1.<$0>
 ---
 obj=vehicle
 name=MB_Lo_2000_GlasH
@@ -743,5 +743,5 @@ constraint[next][0]=none
 constraint[prev][0]=MB_Lo_2000_Glas
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.2.<$0>
 freight=glass
-freightimage[0][S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.3.<$0>
+freightimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.3.<$0>
 ---
