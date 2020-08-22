@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR_193
 copyright=Citarofahrer
-intro_year=2010
+intro_year=2012
 intro_month=0
 #retire_year=2015
 #retire_month=0
@@ -12,7 +12,7 @@ runningcost=6037
 weight=87
 power=6400
 gear=170
-speed=160
+speed=200
 length=10
 waytype=narrowgauge_track
 engine_type=electric
