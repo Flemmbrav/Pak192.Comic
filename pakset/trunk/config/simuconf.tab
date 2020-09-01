@@ -384,3 +384,380 @@ height_conversion_factor = 2
 
 allow_routing_on_foot = 1
 
+# These settings are used to calculate adjusted figures based on the length of the month. 
+# To assume a base month length based on the settings in Simutrans-Standard, use 1,000
+# base_meters_per_tile and 18 base_bits_per_month.
+# 
+# To assume a base month length of 24 hours (to allow various settings to be calibrated
+# as if months were days), use a base meters per tile of 7500
+base_meters_per_tile = 1000
+base_bits_per_month = 18
+
+# This setting determines the rate at which jobs replenish. At the default, 100, all
+# of a building's jobs replenish in exactly 1 month. At 200, it takes 2 months, and at
+# 50, it takes 1/2 a month. This is useful when calibrating the month/year scale as
+# against the hour/minute scale. If a month is timed as 6.4 hours (6:24), for example,
+# a day (24 hours) consists of 3.75 "months". For jobs to replenish once every 24 hours,
+# therefore, set this to 375 if the length of a month is 6:24.
+job_replenishment_per_hundredths_of_months = 1500
+
+# These settings determine the population, visitor demand, jobs and mail per "level" of building.
+# Each of these things can be set independently in the buildings' .dat files, but for older paksets
+# or paksets from Standard, only a "level" will be supplied, so these conversion factors are
+# important in those cases.
+population_per_level = 4
+visitor_demand_per_level = 4
+jobs_per_level = 3
+mail_per_level = 1
+
+# These settings determine the number of passenger trips that each person makes per game month
+# and the number of items of mail that each unit of mail demand produces per month, in 1/100ths.
+# This does *not* include onward and return trips, however, and is *before* adjustment for the
+# meters per tile and bits per month scales.
+#
+# Note that most statistics show *return* trips, so this needs to be calibrated accordingly.
+# Note also that, because of rounding errors in the passenger generation multi-threading,
+# it is necessary to multiply the numbers by ~1.3 to get the correct results in game at 
+# present. The correct number ought to be 120 (3x trips attempted per 16 hours per passenger),
+# but 156 must be used to overcome the rounding errors. Likewise, mail is intended to be 5
+# but needs to be 7 (rounded up from 6.5) to cope with the rounding errors.
+passenger_trips_per_month_hundredths = 156
+mail_packets_per_month_hundredths = 7
+
+# This setting determines the maximum number of onward trips that passengers may make on a journey.
+# The actual number of onward trips for any given packet of passengers is a random number of anywhere
+# between 1 and this figure. This is only applicable if passengers are in fact going to make an onward
+# trip, the chance of which is determined by a different setting (see below).
+max_onward_trips = 3
+
+# This figure determines how likely that it is that passengers will make any onward trips at all. It
+# is expressed in percentage terms.
+onward_trip_chance_percent = 25
+
+# This is the chance, in percentage, that any given passenger journey will be a commuting trip. Any
+# trip that is not a commuting trip is classed as a visiting trip.
+# Data suggests that a minority of trips are commuting trips: see, e.g.
+# http://webarchive.nationalarchives.gov.uk/+/http:/www.dft.gov.uk/pgr/statistics/datatablespublications/personal/factsheets/traveltowork.pdf
+# and https://www.hertfordshire.gov.uk/media-library/documents/highways/transport-planning/transport-and-accident-data/county-travel-survey/county-travel-survey-summary.pdf
+# Assume 1 commuting trip  attempt per day (out of a total of 3 trip attempts per day), multiplied by 5/7ths (0.714)
+# multiplied by the proportion of the population in work (fluctuates over time, but assume as 60%), and the figure is close to the 18% suggested in the
+# Hertfordshire survey above.
+commuting_trip_chance_percent = 20
+
+# Passengers who are not able to find a route will be content to go to an alternative destination. 
+# This is set separately for visiting passengers and commuting passengers. It can either be set in
+# absolute figures using max_alternative_destinations_visiting and max_alternative_destinations_commuting,
+# or set as a proportion of the total number of jobs and total level of visitor demand, using 
+# max_alternative_destinations_per_visitor_demand_millionths and max_alternative_destinations_per_job_millionths.
+# Using the relative settings is recommended, as this scales much better to the map size.
+# 
+# This is specified as the maximum number of alternative destinations, as the actual number for any
+# given packet of passengers will be randomised between zero and this number. 
+#
+# This figure strongly affects how many passengers will travel, and also can have a significant effect on
+# the computational load.
+
+#max_alternative_destinations_commuting = 6
+#max_alternative_destinations_visiting = 12
+#min_alternative_destinations_commuting = 2
+#min_alternative_destinations_visiting = 1
+
+max_alternative_destinations_per_visitor_demand_millionths = 2750
+max_alternative_destinations_per_job_millionths = 5000
+
+min_alternative_destinations_per_visitor_demand_millionths = 750
+min_alternative_destinations_per_job_millionths = 2500
+
+# Passengers have a maximum tolerance level for how long that they will spend travelling. 
+# Passengers are generated in two groups: commuting and visiting passengers. Commuting 
+# passengers travel to find work, whereas visiting passengers travel for other reasons, such
+# as leisure, business (i.e., travel between workplaces) and shopping. Each of these two
+# different types of passenger has a minimum and maximum journey time tolerance.
+#
+# The number is  expressed in minutes. For each packet of passengers, the number of minutes
+# travelling time (including waiting time) that they are prepared to tolerate is randomised 
+# between the minimum and maximum amount using a normal distribution, meaning that the numbers
+# are more likely to be in the middle of the range than at either end.
+
+min_visiting_tolerance = 15
+range_visiting_tolerance = 12000
+min_commuting_tolerance = 30
+range_commuting_tolerance = 180
+
+# The following settings determine the way in which individual packets of passengers decide
+# what their actual journey time tolerance is, within the above ranges. The options are:
+#
+# 0 - Even distribution
+# Every point between the minimum and maximum is equally likely to be selected
+#
+# 1 - Normal distribution (http://en.wikipedia.org/wiki/Normal_distribution)
+# Points nearer the middle of the range between minimum and maximum are more likely 
+# to be selected than points nearer the end of the ranges.
+#
+# 2 - Positively skewed normal distribution (squared) (http://en.wikipedia.org/wiki/Skewness)
+# Points nearer the a point in the range that is not the middle but is nearer to the lower
+# end of the range are more likely to be selected. The distance from the middle is the skew.
+#
+# 3 - Positively skewed normal distribution (cubed)
+# As with no. 2, but the degree of skewness (the extent to which the modal point in the range
+# is nearer the beginning than the end) is considerably greater.
+#
+# 4 - Positively skewed normal distribution (squared recursive)
+# As with nos. 2 and 3 with an even greater degree of skew.
+#
+# 5 - Positively skewed normal distribution (cubed recursive)
+# As with nos. 2, 3 and 4 with a still greater degree of skew.
+#
+# 6 and over - Positively skewed normal distribution (cubed multiple recursive)
+
+random_mode_commuting = 2
+random_mode_visiting = 6
+
+# The tolerance modifier percentage applies a percentage modification to all visiting passengers'
+# journey time tolerances to allow for a more precise adjustment of these numbers than is possible
+# with the basic figures alone, especially where a high skew value be used. 
+#
+# Also, setting this number to zero will disable not only the tolerance modifier percentage, but 
+# also the system for modifying the tolerance dynamically based on the visiting passenger success
+# rates of the individual buildings from which passengers originate.
+#
+# The default is 100.
+
+tolerance_modifier_percentage = 66
+
+# meters_per_tile represents the length of each tile in meters. 
+# The default is 250.
+#
+# This setting is used for calculating journey times, revenues, maintenance costs, comfort and
+# catering values.
+#
+# Note that, in versions of Simutrans-Extended (then known as Experimental) before 10.0, the setting "distance_per_tile"
+# was used instead. That setting was calculated in tens of meters. If "distance_per_tile" is
+# specified in simuconf.tab, it will be converted to meters_per_tile by the game.
+
+meters_per_tile = 1000
+
+# These next settings affect the interaction between comfort and revenue. Comfort only
+# affects passenger traffic. Passengers have a certain level of comfort that
+# they will tolerate for certain distances. All comfort ratings are in the range of between 0 and
+# 255. At the tolerable level, the revnue is unaffected. At above the tolerable level, a luxury
+# bonus is applied. At below the tolerable level, a discomfort penalty is applied. The values can
+# be set to anything, but, to reflect real life, it is suggested that the discomfort penalty is
+# significantly higher than the luxury bonus. 
+#
+# tolerable_comfort_short is the tolerable comfort rating of a vehicle (0 - 255) for a journey of no
+# more than tolerable_comfort_short_minutes.
+#
+# tolerable_comfort_median_short is the tolerable comfort rating of a vehicle for a journey of no more
+# than tolerable_comfort_median_short minutes.
+#
+# tolerable_comfort_median_median is the tolerable comfort rating of a vehicle for a journey of no more
+# than tolerable_comfort_median_median minutes.
+#
+# tolerable_comfort_median_long is the tolerable comfort rating of a vehicle for a journey of no more
+# than tolerable_comfort_median_long minutes.
+#
+# tolerable_comfort_long is the tolerable comfort rating of a vehicle for a journey of at least
+# tolerable_comfort_long minutes.
+#
+# For any journeys of a time between any of the values, a scaled proportion is taken. 
+# 
+# Note that the impact of comfort on revenue decreases with journey time.
+# It is at its maximum level down to tolerable_comfort_median_long_minutes, after which it gradually
+# reduces to 20% of its maximum at tolerable_comfort_short_minutes, and does not decrease further
+# thereafter. Revenue will never decrease below 75% of the base level.
+
+# 0:05h
+tolerable_comfort_short_minutes=5
+tolerable_comfort_short=10
+
+# 1:00h
+tolerable_comfort_median_short_minutes=60
+tolerable_comfort_median_short=50
+
+# 2:30h
+tolerable_comfort_median_median_minutes=150
+tolerable_comfort_median_median=125
+
+# 6:00h
+tolerable_comfort_median_long_minutes=360
+tolerable_comfort_median_long=165
+
+# 24:00h
+tolerable_comfort_long_minutes=1440
+tolerable_comfort_long=250
+
+# max_luxury_bonus_differential is the maximum number of comfort rating points above the tolerable level
+# that affects the luxury bonus. Anything beyond that, and further added luxury makes no difference to the
+# revenue.
+#
+# max_luxury_bonus_percent is the percentage increase in revenue from the maximum level of luxury specified in
+# max_luxury_bonus_differential. So, if the tolerable comfort level for any given travelling time were 100, the 
+# max_luxury_bonus_differential 50, and the max_luxury_bonus_percent 50, then the revenue would increase up to
+# 50% beyond the normal revenue for additional comfort up to 150, but would not increase further with any increase
+# in comfort beyond 150. 
+
+max_luxury_bonus_differential=100
+max_luxury_bonus_percent=10
+
+# The discomfort penalty works in exactly the same way as the comfort bonus. max_discomfort_penalty_percent is the
+# percentage decrease in revenue from the maximum level of discomfort specified in max_discomfort_penalty_differential. 
+
+max_discomfort_penalty_differential=220
+max_discomfort_penalty_percent=25
+
+# These settings control the revenue that can be earned from catering and travelling post offices. Note that catering
+# vehicles on a convoy also increase the comfort by a small amount, which has an indirect effect on the revenue. These
+# settings do not affect that: these settings affect the revenue earned from the catering itself: i.e., by selling food
+# and drink. 
+#
+# catering_min_minutes is the shortest journey time that will provide any catering revenue. At any value below that, 
+# passengers will not bother to buy any food or drink at all. 
+#
+# catering_level1_minutes is the journey time at which any convoy with a catering level of 1 or higher will earn, per
+# passenger, the number of Simu-cents (1/100th of a Simucredit) specified in catering_level1_max_revenue. 
+# 
+# The same applies for each subsequent catering level: in other words, higher catering levels only earn more than lower
+# catering levels on journeys of at least the catering_levelX_minutes (where X is the catering level in question).
+#
+# Between each level, the a scaled proportion is applied. So, for example, if catering_min_minutes is 100, 
+# catering_level1_minutes is 200, and the actual journey time is 150 minutes, then, any convoy with a catering level 
+# of at least 1 will earn 50% of the amount specified in catering_level1_max_revenue per passenger. 
+
+catering_min_minutes=45
+catering_level1_minutes=60
+catering_level1_max_revenue=160
+catering_level2_minutes=90
+catering_level2_max_revenue=390
+catering_level3_minutes=120
+catering_level3_max_revenue=830
+catering_level4_minutes=180
+catering_level4_max_revenue=1600
+catering_level5_minutes=210
+catering_level5_max_revenue=4400
+
+# Travelling post office revenue is simpler than catering revenue. For every journey that mail makes in a convoy containing
+# a travelling post office vehicle (that is, a mail carrying vehicle with a catering level above zero) where the journey time
+# exceeds that specified in tpo_min_minutes, the trip will earn the amount specified in tpo_revenue, multiplied by the number
+# of mail bags carried, in addition to the ordinary revenue.
+
+tpo_min_minutes=90
+tpo_revenue=300
+
+# Passengers who can afford to travel in higher class accommodation on a convoy that also has
+# lower class accommodation will only spend the extra money if they consider the additional
+# comfort worthwhile. Each passenger's preference for this is randomised on creation. The
+# minimum is the same as the maximum comfortable journey time (i.e., at this minimum level,
+# the passengers will only pay to travel in more comfortable accommodation if the journey
+# time exceeds the maximum comfortable journey time for the lower class of accommodation).
+# The maximum a percentage of this figure, set below. For example, if this is set to 500%,
+# passengers will travel in a higher class of accommodation if the journey time is more 
+# than one fifth of the maximum comfortable journey time of the lower class of accommodation.
+
+max_comfort_preference_percentage = 650
+
+# These settings relate to private car use. See /config/privatecar.tab for
+# the configuration of private car ownership for different years.
+#
+# "Always prefer car percent" is the percentage of drivers who prefer to use their
+# car even if walking or taking public transport is faster. The default is 10% 
+
+always_prefer_car_percent = 10
+
+# "Congestion density factor" determines the way in which congestion is calculated.
+# If this number is 0, a very simple system is used for calculating congestion.
+#
+# If this number is > 0, but < 32, this figure represents the factor by which the 
+# population density (in citizens per tile) is divided to get a factor multiplied 
+# by the number of cars per tile per month to get the congestion figure. In simple
+# terms, the lower this number, the easier that it will be for cities to register 
+# as congested, and the more likely that it is that passengers will opt for public 
+# (i.e., the player's) transport instead. 
+#
+# If this number is > 32, a system based on data from the TomTom Congestion Index
+# (http://www.tomtom.com/lib/doc/congestionindex/2013-0322-TomTom-CongestionIndex-2012-Annual-EUR-mi.pdf)
+# is used: the number of private car trips per hour is divided by the length of all
+# roads in the city in kilometres then multiplied by the congestion density factor
+# to get a percentage figure. When this figure is calculated for all British cities
+# in the TomTom Congestion Index in 2012, the average is 141 (1.41). 
+#
+# NOTE: When the travel time congestion should be implemented, this system 
+# will be used only when "assume_everywhere_connected_by_road" be enabled; 
+# otherwise, measured per tile congestion figures are used.
+
+congestion_density_factor = 141
+
+# This setting gives the maximum time that passengers are prepared to wait for their
+# transport. The setting is divided by speed bonus value to get the number of minutes.
+# In pak128.Britain and pak128, the default speed bonus value for passengers is 18. So,
+# at the default wait time of 2,700, the maximum time that passengers are prepared to
+# wait is 2,700 / 18 = 150 minutes, or two and a half hours. 
+#
+# The same applies for other sorts of goods: for example, the speed bonus value for
+# mail is 15. So, with a passenger_max_wait of 2700, mail would wait for 180 
+# minutes before being discarded.
+# 
+# This is also subject to a maximum of thrice the estimated journey time for the
+# whole journey, except where thrice the estimated journty time is less than 1/12th
+# of this value.
+#
+# The speed bonus system has been deprecated, so the relationship to that is
+# likely to change shortly.
+
+passenger_max_wait = 19440
+
+# This is the minimum time in minutes that passengers or goods may wait at an airport.
+# This simulates the need for check-in, security checks, etc., that makes travelling by
+# air a slower process at the boarding stage than transport by other means such as road
+# or rail. Setting this to 0 will make air transport behave like any other transport.
+
+min_wait_airport = 90
+
+# These settings determine how players pay for running on the ways of other players. 
+#
+# toll_runningcost_percentage apportions the specified percentage of the convoy's
+# running cost to the player on whose way the convoy is being run.
+#
+# toll_waycost_percentage apportions the specified percentage of the way tile's
+# monthly maintenance cost (and, for electrically powered convoys, also the specified 
+# percentage of way objects' monthly maintenance cost) from the convoy for every
+# tile of the other player's way over which it passes.
+#
+# toll_revenue_percentage apportions the specified percentage of the convoy's 
+# revenue according to the proportion of the journey that the convoy has undertaken
+# on the specified player's way. For example, if way_toll_revenue_percentage is set
+# to 50, and the convoy travels half its journey over another player's way, that
+# other player will receive 25% of the total revenue for that journey.
+
+toll_runningcost_percentage = 0
+toll_waycost_percentage = 10
+toll_revenue_percentage = 10
+
+# These settings determine how players pay for landing/docking in the ports
+# of other players.
+# 
+# airport_toll_revenue_percentage is the percentage of the revenue of
+# a trip by aircraft charged to a player landing at another player's
+# airport.
+#
+# seaport_toll_revenue_percentage is the percentage of the revenue
+# of a trip by sea charged to a player docking at another player's
+# sea port.
+
+airport_toll_revenue_percentage = 20
+seaport_toll_revenue_percentage = 15
+
+# If this is set to 1, players will not be charged to use roads owned by the public
+# service player. This does not affect other sorts of ways. 
+# Default: 0
+
+toll_free_public_roads = 1
+
+# If a player has allowed access to its roads to the public player, private
+# cars may use those roads. They will pay a toll to do so for every kilometre.
+# This is the amount (in simucents: 100 = 1 simucredit; 1 = 1 simucent)
+# that the player who owns the road will receive for each km traversed by a
+# private car on that road.
+
+private_car_toll_per_km = 15
+
