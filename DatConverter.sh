@@ -188,6 +188,7 @@ getincome() {
 	local GoodSpeedBonus=${GoodsSpeedBonusArray[$Good]}
 	local GoodValue=${GoodsValueArray[$Good]}
 	local Income=0
+	GoodSpeedBonus=$(( GoodSpeedBonus + 2 ))
 	#echo "Speed: $Speed ; GoodSpeedBonus: $GoodSpeedBonus ; SpeedBonus: $SpeedBonus"
 	#calculate the speedbonus multiplied by 10.000
 	if [ $SpeedBonus -eq 0 ];then
@@ -313,7 +314,8 @@ calculatecosts(){
 	local LoadingTime=$(( Income / 300 ))
 	
 	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
-	local FixCost=$(( RunningCost * 240 ))
+	#local FixCost=$(( RunningCost * 240 ))
+	local FixCost=$(( RunningCost * {ObjectArray[speed]} * 3 / 2 ))
 	RunningCost=$(( RunningCost / 10 ))
 	if [[ $ForcingNewValues == 1 ]];then
 		echo "loading_time=$LoadingTime" >> calculated/$dat
