@@ -1,0 +1,34 @@
+obj=roadsign
+copyright=Taurus+PTM
+Name=Vorsignal
+waytype=narrowgauge
+is_presignal=1
+cost=10000
+signal_upgrade_cost=8000
+maintenance=500
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=0
+allow_underground=2
+normal_danger=1
+upgrade_group=2
+intro_year=1980
+intro_month=0
+
+# CAUTION
+Image[0]=./track/vorsignal_modern_at.0.2
+Image[1]=./track/vorsignal_modern_at.0.3
+Image[2]=./track/vorsignal_modern_at.0.4
+Image[3]=./track/vorsignal_modern_at.0.5
+# CLEAR
+Image[4]=./track/vorsignal_modern_at.1.0
+Image[5]=./track/vorsignal_modern_at.1.1
+Image[6]=./track/vorsignal_modern_at.1.2
+Image[7]=./track/vorsignal_modern_at.1.3
+Icon=>./track/vorsignal_modern_at.0.0
+Cursor=i./track/vorsignal_modern_at.0.1
