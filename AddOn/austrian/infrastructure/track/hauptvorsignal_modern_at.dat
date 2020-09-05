@@ -1,25 +1,15 @@
 obj=roadsign
 copyright=Taurus+PTM
-name=Hauptsignal mit Vorsignal
-waytype=narrowgauge
+name=Hauptsignal mit Vorsignal OBB
+waytype=narrowgauge_track
+intro_year=1989
+intro_month=1
+cost=750
 is_signal=1
-cost=20000
-signal_upgrade_cost=10000
-maintenance=550
-aspects=3
-working_method=track_circuit_block
-max_speed=160
-has_selective_choose=0
-has_call_on=0
-max_distance_to_signalbox=0
-permissive=0
-signal_groups=0
 allow_underground=2
-normal_danger=1
-upgrade_group=3
 intro_year=1980
 intro_month=1
-
+ 
 # DANGER
 Image[0]=./track/hauptvorsignal_modern_at.0.2
 Image[1]=./track/hauptvorsignal_modern_at.0.3

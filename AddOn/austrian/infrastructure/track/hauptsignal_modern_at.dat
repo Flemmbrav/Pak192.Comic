@@ -1,22 +1,12 @@
 obj=roadsign
 copyright=Taurus+PTM
-name=Hauptsignal
-waytype=narrowgauge
+name=Hauptsignal_OBB
+waytype=narrowgauge_track
+intro_year=1989
+intro_month=1
+cost=750
 is_signal=1
-cost=10000
-signal_upgrade_cost=8000
-maintenance=500
-aspects=2
-working_method=track_circuit_block
-max_speed=160
-has_selective_choose=0
-has_call_on=0
-max_distance_to_signalbox=0
-permissive=0
-signal_groups=0
 allow_underground=2
-normal_danger=1
-upgrade_group=1
 intro_year=1980
 intro_month=1
 
