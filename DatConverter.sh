@@ -316,7 +316,8 @@ calculatecosts(){
 	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
 	#local FixCost=$(( RunningCost * 240 ))
 	local speed=${ObjectArray[speed]}
-	local FixCost=$(( RunningCost * speed * 3 / 2 ))
+	speed=$((speed - 10))
+	local FixCost=$(( RunningCost * speed * 5 / 3 ))
 	RunningCost=$(( RunningCost / 10 ))
 	if [[ $ForcingNewValues == 1 ]];then
 		echo "loading_time=$LoadingTime" >> calculated/$dat
