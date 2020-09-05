@@ -108,13 +108,13 @@ DistributionWeight=90
 MapColor=91
 #-----
 OutputGood[0]=fiber
-OutputCapacity[0]=600
+OutputCapacity[0]=15
 OutputFactor[0]=100
 OutputGood[1]=cattle
-OutputCapacity[1]=300
+OutputCapacity[1]=15
 OutputFactor[1]=20
 #-----
-Productivity=200
+Productivity=130
 Range=20
 expand_probability=2000
 expand_minimum=30
@@ -276,7 +276,7 @@ OutputGood[0]=textiles
 OutputCapacity[0]=1000
 OutputFactor[0]=100
 #-----
-Productivity=100
+Productivity=200
 Range=50
 expand_probability=2000
 expand_minimum=10
