@@ -21,4 +21,4 @@ Image[5]=./track/vorsignal_modern_at.1.1
 Image[6]=./track/vorsignal_modern_at.1.2
 Image[7]=./track/vorsignal_modern_at.1.3
 Icon=>./track/vorsignal_modern_at.0.0
-Cursor=i./track/vorsignal_modern_at.0.1
+Cursor=>./track/vorsignal_modern_at.0.1
