@@ -191,6 +191,12 @@ starting_month = 4
 # The hours/minutes scale shows the time in hours/minutes as used for determining journey times and other short times. It is the recommended setting. 
 show_month = 8
 
+# Global time multiplier (will be save with new games)
+# 2^bits_per_month = duration of a game month in milliseconds real time
+# default is 18. For example, 21 will make the month 2^3=8 times longer in real time
+# production and maintainance cost will be adjusted accordingly.
+
+bits_per_month = 22
 ################################ Vehicle settings ##############################
 
 # These settings determine how vehicles take corners, for each individual type of way.  They
