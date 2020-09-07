@@ -1,7 +1,7 @@
 obj=roadsign
 copyright=Taurus+PTM
 name=Hauptsignal mit Vorsignal OBB
-waytype=narrowgauge
+waytype=narrowgauge_track
 is_signal=1
 cost=20000
 signal_upgrade_cost=10000
