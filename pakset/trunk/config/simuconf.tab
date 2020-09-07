@@ -186,11 +186,17 @@ starting_year = 1930
 starting_month = 4
 
 # Should month be shown in date?
-#(0=no, 1=yes, 2>=show day in japan format=2, us format=3, german=4)
+# (0=no, 1=yes, 2>=show day in japan format=2, us format=3, german=4, japanese no season=5, us no season=6, german no season = 7, hours/minutes scale = 8)
 # This is most useful, if you use longer months than the default length (see below)
-#
-show_month = 4
+# The hours/minutes scale shows the time in hours/minutes as used for determining journey times and other short times. It is the recommended setting. 
+show_month = 8
 
+# Global time multiplier (will be save with new games)
+# 2^bits_per_month = duration of a game month in milliseconds real time
+# default is 18. For example, 21 will make the month 2^3=8 times longer in real time
+# production and maintainance cost will be adjusted accordingly.
+
+bits_per_month = 22
 ################################ Vehicle settings ##############################
 
 # These settings determine how vehicles take corners, for each individual type of way.  They
@@ -405,10 +411,10 @@ job_replenishment_per_hundredths_of_months = 1500
 # Each of these things can be set independently in the buildings' .dat files, but for older paksets
 # or paksets from Standard, only a "level" will be supplied, so these conversion factors are
 # important in those cases.
-population_per_level = 4
-visitor_demand_per_level = 4
-jobs_per_level = 3
-mail_per_level = 1
+population_per_level = 8
+visitor_demand_per_level = 8
+jobs_per_level = 6
+mail_per_level = 3
 
 # These settings determine the number of passenger trips that each person makes per game month
 # and the number of items of mail that each unit of mail demand produces per month, in 1/100ths.
@@ -535,7 +541,7 @@ tolerance_modifier_percentage = 66
 # was used instead. That setting was calculated in tens of meters. If "distance_per_tile" is
 # specified in simuconf.tab, it will be converted to meters_per_tile by the game.
 
-meters_per_tile = 1000
+meters_per_tile = 100
 
 # These next settings affect the interaction between comfort and revenue. Comfort only
 # affects passenger traffic. Passengers have a certain level of comfort that
@@ -604,7 +610,7 @@ max_luxury_bonus_percent=10
 # percentage decrease in revenue from the maximum level of discomfort specified in max_discomfort_penalty_differential. 
 
 max_discomfort_penalty_differential=220
-max_discomfort_penalty_percent=25
+max_discomfort_penalty_percent=30
 
 # These settings control the revenue that can be earned from catering and travelling post offices. Note that catering
 # vehicles on a convoy also increase the comfort by a small amount, which has an indirect effect on the revenue. These
@@ -624,16 +630,16 @@ max_discomfort_penalty_percent=25
 # catering_level1_minutes is 200, and the actual journey time is 150 minutes, then, any convoy with a catering level 
 # of at least 1 will earn 50% of the amount specified in catering_level1_max_revenue per passenger. 
 
-catering_min_minutes=45
-catering_level1_minutes=60
+catering_min_minutes=15
+catering_level1_minutes=20
 catering_level1_max_revenue=160
-catering_level2_minutes=90
+catering_level2_minutes=30
 catering_level2_max_revenue=390
-catering_level3_minutes=120
+catering_level3_minutes=40
 catering_level3_max_revenue=830
-catering_level4_minutes=180
+catering_level4_minutes=60
 catering_level4_max_revenue=1600
-catering_level5_minutes=210
+catering_level5_minutes=80
 catering_level5_max_revenue=4400
 
 # Travelling post office revenue is simpler than catering revenue. For every journey that mail makes in a convoy containing
@@ -641,7 +647,7 @@ catering_level5_max_revenue=4400
 # exceeds that specified in tpo_min_minutes, the trip will earn the amount specified in tpo_revenue, multiplied by the number
 # of mail bags carried, in addition to the ordinary revenue.
 
-tpo_min_minutes=90
+tpo_min_minutes=30
 tpo_revenue=300
 
 # Passengers who can afford to travel in higher class accommodation on a convoy that also has
