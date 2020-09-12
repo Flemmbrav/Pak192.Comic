@@ -10,6 +10,10 @@ intro_year=1870
 pillar_distance=1
 pillar_asymmetric=1
 
+#EXT
+weight=1000
+
+
 cursor=./images/bridge/track_bridge_55_ic.0.1
 icon=> ./images/bridge/track_bridge_55_ic.0.0
 
@@ -77,6 +81,10 @@ intro_year=1940
 pillar_distance=1
 pillar_asymmetric=1
 
+#EXT
+weight=1500
+
+
 cursor=./images/bridge/track_bridge_100_ic.0.1
 icon=> ./images/bridge/track_bridge_100_ic.0.0
 
@@ -143,6 +151,9 @@ max_lenght=35
 intro_year=1954
 pillar_distance=1
 pillar_asymmetric=1
+
+#EXT
+weight=2000
 
 cursor=./images/bridge/track_bridge_160_ic.0.1
 icon=> ./images/bridge/track_bridge_160_ic.0.0
@@ -261,6 +272,9 @@ max_lenght=35
 intro_year=1984
 pillar_distance=1
 pillar_asymmetric=1
+
+#EXT
+weight=2000
 
 cursor=./images/bridge/track_bridge_330_ic.0.1
 icon=> ./images/bridge/track_bridge_330_ic.0.0
