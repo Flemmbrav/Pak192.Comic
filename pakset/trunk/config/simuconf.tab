@@ -767,3 +767,110 @@ toll_free_public_roads = 1
 
 private_car_toll_per_km = 15
 
+
+#LIVERY
+
+
+livery_scheme[0] = DB_Regio
+retire_year[0] = 1996
+retire_month[0] = 1
+livery[0][0] = DB_Regio
+intro_year[0][0] = 1996
+intro_month[0][0] = 1
+
+livery_scheme[1] = DB_Cargo
+retire_year[1] = 1996
+retire_month[1] = 1
+livery[1][0] = DB_Cargo
+intro_year[1][0] = 1996
+intro_month[1][0] = 1
+
+livery_scheme[2] = DB_Fernverkehr
+retire_year[2] = 2021
+retire_month[2] = 1
+livery[2][0] = DB_Fernverkehr
+intro_year[2][0] = 2021
+intro_month[2][0] = 1
+
+livery_scheme[3] = DB_Regio_Weinrot
+retire_year[3] = 2021
+retire_month[3] = 1
+livery[3][0] = DB_Regio_Weinrot
+intro_year[3][0] = 2021
+intro_month[3][0] = 1
+
+livery_scheme[4] = DB_Cargo_Weinrot
+retire_year[4] = 2021
+retire_month[4] = 1
+livery[4][0] = DB_Cargo_Weinrot
+intro_year[4][0] = 2021
+intro_month[4][0] = 1
+
+livery_scheme[5] = DB_Fernverkehr_Weinrot
+retire_year[5] = 2021
+retire_month[5] = 1
+livery[5][0] = DB_Fernverkehr_Weinrot
+intro_year[5][0] = 2021
+intro_month[5][0] = 1
+
+livery_scheme[6] = DB_Autozug
+retire_year[6] = 1996
+retire_month[6] = 1
+livery[6][0] = DB_Autozug
+intro_year[6][0] = 1996
+intro_month[6][0] = 1
+
+livery_scheme[7] = DB_Nachtzug
+retire_year[7] = 1996
+retire_month[7] = 1
+livery[7][0] = DB_Nachtzug
+intro_year[7][0] = 1996
+intro_month[7][0] = 1
+
+
+
+livery_scheme[8] = DR
+retire_year[8] = 1949
+retire_month[8] = 1
+livery[8][0] = DR
+intro_year[8][0] = 1949
+intro_month[8][0] = 1
+
+livery_scheme[8] = DRG
+retire_year[8] = 1920
+retire_month[8] = 1
+livery[8][0] = DRG
+intro_year[8][0] = 1920
+intro_month[8][0] = 1
+
+
+
+livery_scheme[10] = DB
+retire_year[10] = 1949
+retire_month[10] = 1
+livery[10][0] = DB
+intro_year[10][0] = 1949
+intro_month[10][0] = 1
+
+livery_scheme[11] = DB_Orientrot
+retire_year[11] = 1987
+retire_month[11] = 1
+livery[11][0] = DB_Orientrot
+intro_year[11][0] = 1987
+intro_month[11][0] = 1
+
+livery_scheme[12] = DB_POP
+retire_year[12] = 1987
+retire_month[12] = 1
+livery[12][0] = DB_POP
+intro_year[12][0] = 1987
+intro_month[12][0] = 1
+
+
+livery_scheme[13] = MRCE
+retire_year[13] = 2001
+retire_month[13] = 1
+livery[13][0] = MRCE
+intro_year[13][0] = 2001
+intro_month[13][0] = 1
+
