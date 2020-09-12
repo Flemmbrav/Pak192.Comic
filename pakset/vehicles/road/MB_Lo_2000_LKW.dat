@@ -696,3 +696,52 @@ emptyimage[sw]=./image/MB_Lo_2000_Oel.1.5
 emptyimage[w]=./image/MB_Lo_2000_Oel.1.1
 freight=oil
 ---
+obj=vehicle
+name=MB_Lo_2000_Glas
+copyright=Alex. Brose & PappeTeeMaster
+waytype=road
+engine_type=diesel
+#intro Vorbild 1932 - hier vorerst auf 1930 (Zwecks geschlossener Timeline)
+intro_year=1930
+intro_month=1
+retire_year=1940
+retire_month=11
+speed=65
+power=40
+payload=7
+gear=250
+weight=2
+runningcost=204
+cost=4068970
+length=6
+loading_time=1401
+constraint[next][0]=MB_Lo_2000_GlasH
+constraint[next][1]=none
+constraint[prev][0]=none
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.0.<$0>
+freight=glass
+freightimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.1.<$0>
+---
+obj=vehicle
+name=MB_Lo_2000_GlasH
+copyright=Alex. Brose & PappeTeeMaster
+waytype=road
+engine_type=diesel
+#intro Vorbild 1932 - hier vorerst auf 1930 (Zwecks geschlossener Timeline)
+intro_year=1930
+intro_month=1
+retire_year=1940
+retire_month=11
+speed=65
+payload=10
+weight=2
+runningcost=200
+cost=2201100
+length=6
+loading_time=2001
+constraint[next][0]=none
+constraint[prev][0]=MB_Lo_2000_Glas
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.2.<$0>
+freight=glass
+freightimage[S,W,E,N,NE,SW,NW,SE]=./image/MB_Lo_2000_Glas.3.<$0>
+---

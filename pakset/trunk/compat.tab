@@ -39,6 +39,8 @@ narrowgauge_station_pax_medium
 station_narrowgauge_Bahnsteig_1950_1
 Frachthof
 freightstation_end_new
+road_doppelstation_strab
+road_busstop_long
 #--------------------------------------
 # ways
 #--------------------------------------

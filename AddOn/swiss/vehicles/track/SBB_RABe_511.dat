@@ -293,7 +293,7 @@ constraint[prev][0]=RABe511_Bt_Back
 constraint[prev][1]=RABe511_Bt_RVD_Back
 constraint[prev][2]=RABe511_Bt_SBZ_Back
 constraint[prev][3]=none
-constraint[next][0]=RABe511_AB
+constraint[next][0]=RABe511_AB_SBZ
 
 EmptyImage[W]=./image/Electric_2011_KISS_SBB_SBZ.0.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB_SBZ.0.1

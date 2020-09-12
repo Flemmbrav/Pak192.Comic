@@ -251,7 +251,7 @@ DistributionWeight=90
 MapColor=123
 #-----
 OutputGood[0]=berries
-OutputCapacity[0]=300
+OutputCapacity[0]=30
 OutputFactor[0]=100
 #-----
 Productivity=30
@@ -285,7 +285,7 @@ DistributionWeight=90
 MapColor=123
 #-----
 OutputGood[0]=berries
-OutputCapacity[0]=300
+OutputCapacity[0]=30
 OutputFactor[0]=100
 #-----
 Productivity=35
@@ -337,12 +337,12 @@ DistributionWeight=90
 Mapcolor=38
 #-----
 InputGood[0]=berries
-InputCapacity[0]=300
+InputCapacity[0]=30
 InputSupplier[0]=5
-InputFactor[0]=100
+InputFactor[0]=500
 OutputGood[0]=juice
 OutputCapacity[0]=600
-OutputFactor[0]=55
+OutputFactor[0]=100
 #-----
 Productivity=470
 Range=35
@@ -376,9 +376,9 @@ InputCapacity[0]=300
 InputSupplier[0]=2
 InputFactor[0]=100
 InputGood[1]=berries
-InputCapacity[1]=500
+InputCapacity[1]=50
 InputSupplier[1]=1
-InputFactor[1]=100
+InputFactor[1]=10
 OutputGood[0]=icecream
 OutputCapacity[0]=500
 OutputFactor[0]=50
@@ -455,9 +455,9 @@ InputCapacity[2]=300
 InputSupplier[2]=0
 InputFactor[2]=50
 InputGood[3]=berries
-InputCapacity[3]=300
+InputCapacity[3]=30
 InputSupplier[3]=0
-InputFactor[3]=50
+InputFactor[3]=500
 #-----
 Productivity=50
 Range=0

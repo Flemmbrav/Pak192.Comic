@@ -618,7 +618,7 @@ speed_bonus=0
 #name=catg11
 #catg=11
 #metric=container
-#weight_per_unit=13000
+#weight_per_unit=19000
 #value=5000
 #speed_bonus=2
 -----------------
@@ -626,7 +626,7 @@ obj=good
 name=circuit_boards
 catg=11
 metric=container
-weight_per_unit=13000
+weight_per_unit=17000
 value=6000
 speed_bonus=0
 -----------------
@@ -634,7 +634,7 @@ obj=good
 name=fiber
 catg=11
 metric=container
-weight_per_unit=13000
+weight_per_unit=10000
 value=4600
 speed_bonus=3
 -----------------
@@ -642,7 +642,7 @@ obj=good
 name=berries
 catg=11
 metric=container
-weight_per_unit=13000
+weight_per_unit=20000
 value=4500
 speed_bonus=5
 -----------------
@@ -650,7 +650,7 @@ obj=good
 name=ironmongery
 catg=11
 metric=container
-weight_per_unit=13000
+weight_per_unit=24000
 value=5000
 speed_bonus=0
 -----------------
@@ -658,7 +658,7 @@ obj=good
 name=toys
 catg=11
 metric=container
-weight_per_unit=8000
+weight_per_unit=15000
 value=5500
 speed_bonus=0
 -----------------
@@ -666,7 +666,7 @@ obj=good
 name=garments
 catg=11
 metric=container
-weight_per_unit=13000
+weight_per_unit=24000
 value=4000
 speed_bonus=0
 -----------------
@@ -674,7 +674,7 @@ obj=good
 name=electronics
 catg=11
 metric=container
-weight_per_unit=10000
+weight_per_unit=14000
 value=5500
 speed_bonus=0
 -----------------
@@ -682,7 +682,7 @@ obj=good
 name=car_parts
 catg=11
 metric=container
-weight_per_unit=13000
+weight_per_unit=15000
 value=6500
 speed_bonus=0
 -----------------
@@ -698,7 +698,7 @@ obj=good
 name=coka_drink
 catg=11
 metric=container
-weight_per_unit=13000
+weight_per_unit=24000
 value=4500
 speed_bonus=1
 -----------------
@@ -706,7 +706,7 @@ obj=good
 name=microchips
 catg=11
 metric=container
-weight_per_unit=13000
+weight_per_unit=12000
 value=6500
 speed_bonus=1
 -----------------
