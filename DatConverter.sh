@@ -413,6 +413,14 @@ writeimages() {
 			echo "$Key=${ObjectArray[$Key]}" >> calculated/$dat
 		fi
 	done
+	for Key in "${!ObjectArray[@]}"; do
+		if [[ $Key =~ "livery" ]];then
+			if [[ ${ObjectArray[$Key]:0:2} == './' ]]; then
+				ObjectArray[$Key]=${ObjectArray[$Key]:2:${#ObjectArray[$Key]}}
+			fi
+			echo "$Key=${ObjectArray[$Key]}" >> calculated/$dat
+		fi
+	done
 }
 
 
@@ -597,9 +605,6 @@ writevehicle() {
 	fi
 	if [[ ! -z ${ObjectArray[way_constraint_prohibitive]} ]] ;then
 		echo "way_constraint_prohibitiv=${ObjectArray[way_constraint_prohibitive]}" >> calculated/$dat
-	fi
-	if [[ ! -z ${ObjectArray[liverytype]} ]] ;then
-		echo "liverytype=${ObjectArray[liverytype]}" >> calculated/$dat
 	fi
 }
 
