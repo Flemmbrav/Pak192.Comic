@@ -1207,11 +1207,18 @@ livery[57][0] = Cisalpino
 intro_year[57][0] = 1993
 intro_month[57][0] = 1
 
+livery_scheme[58] = C1
+retire_year[58] = 2002
+retire_month[58] = 12
+livery[58][0] = C1
+intro_year[58][0] = 1977
+intro_month[58][0] = 1
 
-livery_scheme[16] = C1
-retire_year[16] = 2002
-retire_month[16] = 12
-livery[16][0] = C1
-intro_year[16][0] = 1977
-intro_month[16][0] = 1
+
+livery_scheme[59] = Metropolitan
+retire_year[59] = 2004
+retire_month[59] = 12
+livery[59][0] = Metropolitan
+intro_year[59][0] = 1996
+intro_month[59][0] = 1
 
