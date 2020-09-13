@@ -768,6 +768,9 @@ toll_free_public_roads = 1
 private_car_toll_per_km = 15
 
 
+pak_overrides_savegame_settings = 1
+
+
 #LIVERY
 
 
@@ -839,12 +842,12 @@ livery[8][0] = DR
 intro_year[8][0] = 1949
 intro_month[8][0] = 1
 
-livery_scheme[8] = DRG
-retire_year[8] = 1950
-retire_month[8] = 1
-livery[8][0] = DRG
-intro_year[8][0] = 1920
-intro_month[8][0] = 1
+livery_scheme[9] = DRG
+retire_year[9] = 1950
+retire_month[9] = 1
+livery[9][0] = DRG
+intro_year[9][0] = 1920
+intro_month[9][0] = 1
 
 
 
