@@ -9,9 +9,9 @@
 #  impact these changes have!                                                  #
 #                                                                              #
 # German:                                                                      #
-#  Bitte beachten sie, das durch Änderungen an dieser Datei, Fehler im         #
-#  Verhalten des Spieles auftreten können. Verändern sie nur Daten wenn sie    #
-#  absolut sicher sind, das sie Wissen was für Folgen diese Änderungen haben!  #
+#  Bitte beachten sie, das durch ï¿½nderungen an dieser Datei, Fehler im         #
+#  Verhalten des Spieles auftreten kï¿½nnen. Verï¿½ndern sie nur Daten wenn sie    #
+#  absolut sicher sind, das sie Wissen was fï¿½r Folgen diese ï¿½nderungen haben!  #
 #                                                                              #
 #                                                                              #
 #   When you make changes in this file please remember that when you make a    #
@@ -768,7 +768,7 @@ toll_free_public_roads = 1
 private_car_toll_per_km = 15
 
 
-pak_overrides_savegame_settings = 1
+# pak_overrides_savegame_settings = 1
 
 
 #LIVERY
@@ -1039,7 +1039,7 @@ intro_year[33][0] = 2007
 intro_month[33][0] = 1
 
 livery_scheme[34] = VMV
-# weiße ODEG
+# weiï¿½e ODEG
 #retire_year[34] = 2019
 #retire_month[34] = 12
 livery[34][0] = VMV
