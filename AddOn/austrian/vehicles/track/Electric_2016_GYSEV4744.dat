@@ -10,6 +10,7 @@ speed=160
 payload=85
 freight=Passagiere
 length=12
+axles=4
 waytype=narrowgauge_track
 engine_type=electric
 loading_time=4860
@@ -34,6 +35,9 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 power=1300
+tractive_effort=170
+axles=4
+gear=100
 loading_time=4860
 
 constraint[prev][0]=Electric_2016_Desiro_ML_GYSEV_3
@@ -63,6 +67,9 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 power=1300
+tractive_effort=170
+axles=4
+gear=100
 loading_time=4860
 
 constraint[prev][0]=Electric_2016_Desiro_ML_GYSEV_2
