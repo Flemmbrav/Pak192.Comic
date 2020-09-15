@@ -19,6 +19,7 @@ waytype=narrowgauge_track
 engine_type=diesel
 smoke=diesel
 loading_time=2910
+comfort=80
 
 Constraint[Prev][0]=OBB 5022_1
 Constraint[Prev][1]=none
@@ -54,6 +55,7 @@ waytype=narrowgauge_track
 engine_type=diesel
 smoke=diesel
 loading_time=2910
+comfort=80
 
 Constraint[Prev][0]=OBB 5022
 Constraint[Next][0]=OBB 5022
