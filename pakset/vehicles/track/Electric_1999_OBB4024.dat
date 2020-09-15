@@ -6,7 +6,7 @@ intro_month=6
 retire_year=2016
 retire_month=5
 freight=Passagiere
-
+comfort=80
 payload=69
 cost=19659036
 runningcost=824
@@ -43,6 +43,7 @@ retire_year=2016
 retire_month=5
 freight=Passagiere
 
+comfort=80
 payload=62
 cost=5625906
 runningcost=398
@@ -78,6 +79,7 @@ retire_year=2016
 retire_month=5
 freight=Passagiere
 
+comfort=80
 payload=69
 cost=19659036
 runningcost=824
