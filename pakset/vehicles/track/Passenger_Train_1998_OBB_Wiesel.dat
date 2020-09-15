@@ -13,6 +13,7 @@ length=12
 waytype=narrowgauge_track
 loading_time=8790
 axles=4
+comfort=90
 
 #constraint[prev][0]=Wagen_OBB_Wiesel_2
 #constraint[prev][1]=none
@@ -44,6 +45,7 @@ length=12
 waytype=narrowgauge_track
 loading_time=8790
 axles=4
+comfort=90
 
 #constraint[prev][0]=Wagen_OBB_Wiesel_1
 #constraint[prev][1]=Wagen_OBB_Wiesel_3
@@ -76,6 +78,7 @@ length=12
 waytype=narrowgauge_track
 loading_time=9260
 axles=4
+comfort=90
 
 constraint[prev][0]=any
 
