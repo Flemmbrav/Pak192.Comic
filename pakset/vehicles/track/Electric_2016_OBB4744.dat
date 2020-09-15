@@ -13,6 +13,7 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=4860
+comfort=80
 
 constraint[prev][0]=OBB_Cityjet_Steuerwagen_vorne
 constraint[next][0]=OBB_Cityjet_Steuerwagen_hinten
@@ -45,6 +46,7 @@ tractive_effort=170
 axles=4
 gear=100
 loading_time=4860
+comfort=80
 
 constraint[prev][0]=OBB_Cityjet_Steuerwagen_hinten
 constraint[prev][1]=OBB_Cityjet_eco_Steuerwagen_hinten
@@ -79,6 +81,7 @@ tractive_effort=170
 axles=4
 gear=100
 loading_time=4860
+comfort=80
 
 constraint[prev][0]=OBB_Cityjet_Mittelwagen
 constraint[next][0]=OBB_Cityjet_Steuerwagen_vorne
@@ -111,6 +114,7 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=4860
+comfort=80
 
 constraint[prev][0]=OBB_Cityjet_eco_Steuerwagen_vorne
 constraint[next][0]=OBB_Cityjet_eco_Steuerwagen_hinten
@@ -142,6 +146,7 @@ power=1300
 gear=100
 axles=4
 loading_time=4860
+comfort=80
 
 constraint[prev][0]=OBB_Cityjet_Steuerwagen_hinten
 constraint[prev][1]=OBB_Cityjet_eco_Steuerwagen_hinten
@@ -174,6 +179,7 @@ engine_type=battery
 power=1300
 gear=100
 loading_time=4860
+comfort=80
 axles=4
 constraint[prev][0]=OBB_Cityjet_eco_Mittelwagen
 constraint[next][0]=OBB_Cityjet_Steuerwagen_vorne
