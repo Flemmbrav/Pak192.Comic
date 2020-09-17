@@ -422,6 +422,21 @@ writeimages() {
 		fi
 	done
 }
+writeroadsign() {
+	local dat=$1
+
+	for Key in "${!ObjectArray[@]}"; do
+		if [[ $Key =~ "is_prioritysignal=1" ]];then
+			echo "is_signal=1" >> calculated/$dat
+			echo "aspects=3" >> calculated/$dat
+		elif [[ $Key =~ "is_longblocksignal=1" ]];then
+			echo working_method=token_block >> calculated/$dat
+		else
+			echo "$Key=${ObjectArray[$Key]}" >> calculated/$dat
+		fi
+
+	done
+}
 
 
 writevehicle() {
@@ -636,7 +651,24 @@ writeobject() {
 			echo >> calculated/$1
 			echo "---" >> calculated/$1
 		else
-			copyobject
+			if [[ ${ObjectArray[obj]} == "roadsign" || ${ObjectArray[obj]} == "Roadsign" ]];	then
+				echo "--- Writing Object: ${ObjectArray[name]} "
+				local calculateddir=calculated/$(dirname "$dat")/
+				local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
+				# Create folder for *.dat or delete all old dats if folder already exists
+				if [ ! -d $calculateddir ]; then
+					mkdir -p $calculateddir
+				fi
+				if [ ! -d $calculatedextendeddir ]; then
+					mkdir -p $calculatedextendeddir
+				fi
+				writeroadsign $FileName
+				echo >> calculated/$1
+				echo "---" >> calculated/$1
+				
+			else
+				copyobject
+			fi
 		fi
 	else
 		copyobject
