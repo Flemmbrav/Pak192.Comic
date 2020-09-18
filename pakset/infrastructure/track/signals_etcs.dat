@@ -2,12 +2,15 @@ obj=roadsign
 name=track_signal_etcs
 copyright=Citarofahrer
 waytype=narrowgauge_track
-working_method=cab_signalling
 max_speed=999
 intro_year=1980
 intro_month=1
 cost=750
+
+working_method=cab_signalling
 is_signal=1
+aspects=2
+
 icon=> ./images/signals/signal_etcs.0.8
 cursor=./images/signals/signal_etcs.0.9
 Image[0-7]=./images/signals/signal_etcs.0.<$0>

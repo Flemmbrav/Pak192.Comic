@@ -1,0 +1,16 @@
+obj=roadsign
+name=signal_ks
+copyright=RABe514
+waytype=narrowgauge_track
+intro_year=1994
+intro_month=1
+cost=750
+
+working_method=track_circuit_block
+is_signal=1
+aspects=2
+normal_danger=1
+
+icon=> ./images/signals/signal_ks.0.8
+cursor=./images/signals/signal_ks.0.9
+Image[0-7]=./images/signals/signal_ks.0.<$0>

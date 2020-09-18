@@ -5,7 +5,12 @@ waytype=narrowgauge_track
 intro_year=1940
 intro_month=1
 cost=750
+
+working_method=track_circuit_block
 is_signal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/bridge_sbb_l.0.0
 cursor=./images/signals/bridge_sbb_l.0.1
 Image[0]=./images/signals/bridge_sbb_l.0.2
@@ -24,7 +29,12 @@ waytype=narrowgauge_track
 intro_year=1940
 intro_month=1
 cost=900
+
+working_method=track_circuit_block
 is_presignal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/bridge_pre_sbb_l.0.0
 cursor=./images/signals/bridge_pre_sbb_l.0.1
 Image[0]=./images/signals/bridge_pre_sbb_l.0.2
@@ -71,7 +81,11 @@ waytype=narrowgauge_track
 intro_year=1940
 intro_month=1
 cost=900
-is_longblocksignal=1
+
+working_method=token_block
+is_signal=1
+aspects=2
+
 icon=> ./images/signals/bridge_longblock_sbb_l.0.0
 cursor=./images/signals/bridge_longblock_sbb_l.0.1
 Image[0]=./images/signals/bridge_longblock_sbb_l.0.2

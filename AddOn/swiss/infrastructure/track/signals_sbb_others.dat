@@ -7,7 +7,12 @@ intro_year=1835
 retire_year=1980
 retire_month=1
 cost=750
+
+working_method=track_circuit_block
 is_signal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/signal_sbb_old.0.0
 cursor=./images/signals/signal_sbb_old.0.1
 Image[0]=./images/signals/signal_sbb_old.0.2
@@ -26,7 +31,12 @@ waytype=narrowgauge_track
 intro_year=1940
 intro_month=1
 cost=500
+
+working_method=track_circuit_block
 is_signal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/signal_sbb_mini.0.0
 cursor=./images/signals/signal_sbb_mini.0.1
 Image[0]=./images/signals/signal_sbb_mini.0.2
@@ -45,7 +55,12 @@ waytype=narrowgauge_track
 intro_year=1955
 intro_month=1
 cost=500
+
+working_method=track_circuit_block
 is_signal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/signal_sbb_zwerg_1.0.0
 cursor=./images/signals/signal_sbb_zwerg_1.0.1
 Image[0]=./images/signals/signal_sbb_zwerg_1.0.2
@@ -64,7 +79,12 @@ waytype=narrowgauge_track
 intro_year=1955
 intro_month=1
 cost=500
+
+working_method=track_circuit_block
 is_signal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/signal_sbb_zwerg_2.0.0
 cursor=./images/signals/signal_sbb_zwerg_2.0.1
 Image[0]=./images/signals/signal_sbb_zwerg_2.0.2

@@ -5,7 +5,12 @@ waytype=narrowgauge_track
 intro_year=1980
 intro_month=1
 cost=900
+
+working_method=track_circuit_block
 is_presignal=1
+aspects=2
+normal_danger=1
+
 icon=> ./image/presignal_nor.0.0
 cursor=./image/presignal_nor.0.1
 Image[0]=./image/presignal_nor.0.2
