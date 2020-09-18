@@ -48,7 +48,7 @@ payload=62
 cost=5625906
 runningcost=398
 weight=26
-
+engine_type=electric
 axles=2
 speed=140
 length=8
