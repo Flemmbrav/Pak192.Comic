@@ -24,13 +24,12 @@ payload=75
 cost=44976483
 runningcost=2038
 weight=57
-power=571
-gear=250
 speed=230
 length=12
 loading_time=8840
 
 is_tilting=1
+bidirectional=1
 
 constraint[prev][0]=BR_411_2
 constraint[prev][1]=BR_605_2
@@ -66,13 +65,12 @@ payload=75
 cost=44976483
 runningcost=2038
 weight=57
-power=571
-gear=250
 speed=230
 length=12
 loading_time=8840
 
 is_tilting=1
+bidirectional=1
 
 constraint[prev][0]=BR_411_4
 constraint[prev][1]=BR_411_5
@@ -108,13 +106,15 @@ payload=100
 cost=48218321
 runningcost=2333
 weight=57
-power=571
-gear=250
+power=1000
+gear=100
 speed=230
 length=12
 loading_time=11790
 
 is_tilting=1
+bidirectional=1
+tractive_effort=200
 
 constraint[prev][0]=BR_411_1
 constraint[prev][1]=BR_411_3
@@ -148,13 +148,12 @@ payload=50
 cost=41734646
 runningcost=1744
 weight=60
-power=571
-gear=250
 speed=230
 length=12
 loading_time=5890
 
 is_tilting=1
+bidirectional=1
 
 constraint[prev][0]=BR_411_3
 constraint[prev][1]=BR_411_1
@@ -188,13 +187,15 @@ payload=100
 cost=48218321
 runningcost=2333
 weight=57
-power=571
-gear=250
+power=1000
+gear=100
 speed=230
 length=12
 loading_time=11790
 
 is_tilting=1
+bidirectional=1
+tractive_effort=200
 
 constraint[prev][0]=BR_411_4
 constraint[prev][1]=BR_411_5
