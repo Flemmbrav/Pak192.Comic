@@ -25,7 +25,11 @@ waytype=track
 intro_year=1940
 intro_month=1
 cost=750
-is_longblocksignal=1
+
+working_method=token_block
+is_signal=1
+aspects=2
+
 icon=> ./images/signals/longblock_signal_sbb_l.0.0
 cursor=./images/signals/longblock_signal_sbb_l.0.1
 Image[0]=./images/signals/longblock_signal_sbb_l.0.2
@@ -44,7 +48,12 @@ waytype=track
 intro_year=1940
 intro_month=1
 cost=900
+
+working_method=track_circuit_block
 is_presignal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/presignal_sbb_l.0.0
 cursor=./images/signals/presignal_sbb_l.0.1
 Image[0]=./images/signals/presignal_sbb_l.0.2
@@ -67,7 +76,12 @@ waytype=track
 intro_year=1940
 intro_month=1
 cost=900
-is_prioritysignal=1
+
+working_method=track_circuit_block
+is_signal=1
+aspects=3
+normal_danger=1
+
 icon=> ./images/signals/presignal_sbb_l.0.0
 cursor=./images/signals/presignal_sbb_l.0.1
 Image[0]=./images/signals/presignal_sbb_l.0.2
@@ -90,7 +104,12 @@ waytype=track
 intro_year=1940
 intro_month=1
 cost=750
+
+working_method=track_circuit_block
 is_signal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/signal_sbb_l_ng.0.0
 cursor=./images/signals/signal_sbb_l_ng.0.1
 Image[0]=./images/signals/signal_sbb_l_ng.0.2

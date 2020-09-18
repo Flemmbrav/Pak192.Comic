@@ -7,7 +7,12 @@ intro_year=1835
 retire_year=1980
 retire_month=1
 cost=750
+
+working_method=track_circuit_block
 is_signal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/signal.1.8
 cursor=./images/signals/signal.1.9
 Image[0-7]=./images/signals/signal.1.<$0>
@@ -19,7 +24,12 @@ waytype=narrowgauge_track
 intro_year=1980
 intro_month=1
 cost=750
+
+working_method=track_circuit_block
 is_signal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/signal.0.8
 cursor=./images/signals/signal.0.9
 Image[0-7]=./images/signals/signal.0.<$0>
@@ -29,7 +39,12 @@ name=track_signal
 copyright=PappeTeeMaster
 waytype=narrowgauge_track
 cost=750
+
+working_method=track_circuit_block
 is_signal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/signal.1.10
 cursor=./images/signals/signal.0.10
 Image[0-7]=./images/signals/signal.1.<$0>
@@ -43,7 +58,11 @@ waytype=narrowgauge_track
 intro_year=1980
 intro_month=1
 cost=750
+
 is_presignal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/presignal.0.12
 cursor=./images/signals/presignal.0.13
 Image[0-11]=./images/signals/presignal.0.<$0>
@@ -57,7 +76,11 @@ intro_year=1865
 retire_year=1980
 retire_month=1
 cost=750
+
 is_presignal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/presignal.1.12
 cursor=./images/signals/presignal.1.13
 Image[0-11]=./images/signals/presignal.1.<$0>
@@ -67,7 +90,11 @@ name=track_presignal
 copyright=PappeTeeMaster & Flemmbrav
 waytype=narrowgauge_track
 cost=750
+
 is_presignal=1
+aspects=2
+normal_danger=1
+
 icon=> ./images/signals/presignal.1.14
 cursor=./images/signals/presignal.0.14
 Image[0-11]=./images/signals/presignal.1.<$0>
@@ -81,7 +108,12 @@ waytype=narrowgauge_track
 intro_year=1980
 intro_month=1
 cost=900
-is_prioritysignal=1
+
+working_method=track_circuit_block
+is_signal=1
+aspects=3
+normal_danger=1
+
 icon=> ./images/signals/sigpriority.0.12
 cursor=./images/signals/sigpriority.0.13
 Image[0-11]=./images/signals/sigpriority.0.<$0>
@@ -95,7 +127,12 @@ intro_year=1865
 retire_year=1980
 retire_month=1
 cost=900
-is_prioritysignal=1
+
+working_method=track_circuit_block
+is_signal=1
+aspects=3
+normal_danger=1
+
 icon=> ./images/signals/sigpriority.1.12
 cursor=./images/signals/sigpriority.1.13
 Image[0-11]=./images/signals/sigpriority.1.<$0>
@@ -105,7 +142,12 @@ name=track_sigpriority
 copyright=RABe514 & Flemmbrav
 waytype=narrowgauge_track
 cost=900
-is_prioritysignal=1
+
+working_method=track_circuit_block
+is_signal=1
+aspects=3
+normal_danger=1
+
 icon=> ./images/signals/sigpriority.1.14
 cursor=./images/signals/sigpriority.0.14
 Image[0-11]=./images/signals/sigpriority.1.<$0>
@@ -162,7 +204,11 @@ intro_year=1835
 retire_year=1980
 retire_month=1
 cost=750
-is_longblocksignal=1
+
+working_method=token_block
+is_signal=1
+aspects=2
+
 icon=> ./images/signals/siglong.1.8
 cursor=./images/signals/siglong.1.9
 Image[0-7]=./images/signals/siglong.1.<$0>
@@ -174,7 +220,11 @@ waytype=narrowgauge_track
 intro_year=1980
 intro_month=1
 cost=750
-is_longblocksignal=1
+
+working_method=token_block
+is_signal=1
+aspects=2
+
 icon=> ./images/signals/siglong.0.8
 cursor=./images/signals/siglong.0.9
 Image[0-7]=./images/signals/siglong.0.<$0>
@@ -184,7 +234,11 @@ name=track_siglong
 copyright=PappeTeeMaster
 waytype=narrowgauge_track
 cost=750
-is_longblocksignal=1
+
+working_method=token_block
+is_signal=1
+aspects=2
+
 icon=> ./images/signals/siglong.1.10
 cursor=./images/signals/siglong.0.10
 Image[0-7]=./images/signals/siglong.1.<$0>
