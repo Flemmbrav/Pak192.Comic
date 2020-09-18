@@ -20,6 +20,8 @@ engine_type=diesel
 smoke=diesel
 loading_time=5310
 
+is_tilting=1
+
 Constraint[Prev][0]=BR_612_2
 Constraint[Prev][1]=none
 Constraint[Next][0]=BR_612_2
@@ -54,6 +56,8 @@ waytype=narrowgauge_track
 engine_type=diesel
 smoke=diesel
 loading_time=5310
+
+is_tilting=1
 
 Constraint[Prev][0]=BR_612
 Constraint[Next][0]=BR_612
