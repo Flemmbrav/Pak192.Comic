@@ -22,6 +22,8 @@
 
 ################################road settings###################################
 
+#Ugly hotfix!
+threads = 4
 
 # how far cities should be minimum apart (default 16)
 minimum_city_distance = 32
