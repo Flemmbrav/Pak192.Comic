@@ -30,6 +30,8 @@ speed=230
 length=12
 loading_time=8840
 
+is_tilting=1
+
 constraint[prev][0]=BR_411_2
 constraint[prev][1]=BR_605_2
 constraint[prev][2]=Electric_1999_RABDe_500_4
@@ -69,6 +71,8 @@ gear=250
 speed=230
 length=12
 loading_time=8840
+
+is_tilting=1
 
 constraint[prev][0]=BR_411_4
 constraint[prev][1]=BR_411_5
@@ -110,6 +114,8 @@ speed=230
 length=12
 loading_time=11790
 
+is_tilting=1
+
 constraint[prev][0]=BR_411_1
 constraint[prev][1]=BR_411_3
 constraint[next][0]=BR_411_3
@@ -148,6 +154,8 @@ speed=230
 length=12
 loading_time=5890
 
+is_tilting=1
+
 constraint[prev][0]=BR_411_3
 constraint[prev][1]=BR_411_1
 constraint[next][0]=BR_411_5
@@ -185,6 +193,8 @@ gear=250
 speed=230
 length=12
 loading_time=11790
+
+is_tilting=1
 
 constraint[prev][0]=BR_411_4
 constraint[prev][1]=BR_411_5

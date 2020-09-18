@@ -236,7 +236,7 @@ curve_friction_factor_maglev=0
 curve_friction_factor_narrowgauge=0
 
 # See here: http://self.gutenberg.org/article/WHEBN0019153780/Minimum%20railway%20curve%20radius
-tilting_min_radius_effect=375
+tilting_min_radius_effect=300
 
 # These settings determine how long that it takes a road and rail vehicles to turn
 # around when it reaches the end of the line. They do not apply to boats or aircraft.
