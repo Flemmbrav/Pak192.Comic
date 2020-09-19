@@ -30,6 +30,7 @@ loading_time=8840
 
 is_tilting=1
 bidirectional=1
+has_front_cab=1
 
 constraint[prev][0]=BR_411_2
 constraint[prev][1]=BR_605_2
@@ -71,6 +72,7 @@ loading_time=8840
 
 is_tilting=1
 bidirectional=1
+has_rear_cab=1
 
 constraint[prev][0]=BR_411_4
 constraint[prev][1]=BR_411_5
