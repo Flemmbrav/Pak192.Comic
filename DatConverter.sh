@@ -564,7 +564,7 @@ writevehicle() {
 	if [[ ! -z ${ObjectArray[bidirectional]} ]] ;then
 		echo "bidirectional=${ObjectArray[bidirectional]}" >> calculated/$dat
 	fi
-	if [[ ! -z ${ObjectArray[is_tiling]} ]] ;then
+	if [[ ! -z ${ObjectArray[is_tilting]} ]] ;then
 		echo "is_tiling=${ObjectArray[is_tilting]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[minimum_runway_length]} ]] ;then
