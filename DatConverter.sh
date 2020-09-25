@@ -565,7 +565,7 @@ writevehicle() {
 		echo "bidirectional=${ObjectArray[bidirectional]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[is_tilting]} ]] ;then
-		echo "is_tiling=${ObjectArray[is_tilting]}" >> calculated/$dat
+		echo "is_tilting=${ObjectArray[is_tilting]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[minimum_runway_length]} ]] ;then
 		echo "minimum_runway_length=${ObjectArray[minimum_runway_length]}" >> calculated/$dat
@@ -619,7 +619,7 @@ writevehicle() {
 		echo "way_constraint_permissive=${ObjectArray[way_constraint_permissive]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[way_constraint_prohibitive]} ]] ;then
-		echo "way_constraint_prohibitiv=${ObjectArray[way_constraint_prohibitive]}" >> calculated/$dat
+		echo "way_constraint_prohibitive=${ObjectArray[way_constraint_prohibitive]}" >> calculated/$dat
 	fi
 }
 
