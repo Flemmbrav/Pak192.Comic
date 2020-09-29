@@ -7,7 +7,8 @@ intro_month=6
 #retire_month=5
 freight=Passagiere
 
-payload=123
+payload=48
+overcrowded_capacity=88
 cost=19462216
 runningcost=935
 weight=30
@@ -43,7 +44,8 @@ intro_month=6
 #retire_month=5
 freight=Passagiere
 
-payload=106
+payload=44
+overcrowded_capacity=60
 cost=18499349
 runningcost=854
 weight=26
@@ -53,7 +55,7 @@ speed=140
 length=10
 waytype=narrowgauge_track
 engine_type=electric
-loading_time=4820
+loading_time=5590
 
 Constraint[Prev][0]=BR_430_1
 Constraint[Next][0]=BR_430_3
@@ -76,7 +78,8 @@ intro_month=6
 #retire_month=5
 freight=Passagiere
 
-payload=106
+payload=44
+overcrowded_capacity=60
 cost=18499349
 runningcost=854
 weight=26
@@ -86,7 +89,7 @@ speed=140
 length=9
 waytype=narrowgauge_track
 engine_type=electric
-loading_time=4820
+loading_time=5590
 
 Constraint[Prev][0]=BR_430_2
 Constraint[Next][0]=BR_430_4
@@ -109,7 +112,8 @@ intro_month=6
 #retire_month=5
 freight=Passagiere
 
-payload=123
+payload=48
+overcrowded_capacity=88
 cost=19462216
 runningcost=935
 weight=30
