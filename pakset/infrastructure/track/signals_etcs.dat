@@ -2,10 +2,24 @@ obj=roadsign
 name=track_signal_etcs
 copyright=Citarofahrer
 waytype=narrowgauge_track
-intro_year=1980
+intro_year=2004
 intro_month=1
-cost=750
+cost=3000
 is_signal=1
 icon=> ./images/signals/signal_etcs.0.8
 cursor=./images/signals/signal_etcs.0.9
 Image[0-7]=./images/signals/signal_etcs.0.<$0>
+-----------------------
+#######################
+obj=roadsign
+name=track_sigchoose_etcs
+copyright=RABe514
+waytype=narrowgauge_track
+intro_year=2004
+intro_month=1
+cost=3000
+is_signal=1
+free_route=1
+icon=> ./images/signals/sigchoose_etcs.0.8
+cursor=./images/signals/sigchoose_etcs.0.9
+Image[0-7]=./images/signals/sigchoose_etcs.0.<$0>
