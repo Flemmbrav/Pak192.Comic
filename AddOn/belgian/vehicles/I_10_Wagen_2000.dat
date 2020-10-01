@@ -1,9 +1,9 @@
 
 obj=vehicle
-name=SNCB_I_10_Wagen_1987_1
+name=SNCB_I_10_Wagen_2000_1
 copyright=Flemmbrav
-intro_year=1987
-retire_year=1997
+intro_year=2000
+retire_year=2010
 freight=Passagiere
 payload=86
 cost=6272178
