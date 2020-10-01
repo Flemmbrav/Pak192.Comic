@@ -14,7 +14,7 @@ speed=160
 length=12
 waytype=narrowgauge_track
 
-constraint[prev]=any
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/SNCB_I10.0.1
 EmptyImage[E]=./image/SNCB_I10.0.0
