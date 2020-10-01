@@ -34,6 +34,9 @@ electricity_boost=0
 passenger_boost=700
 mail_boost=300
 #-----
+# EXT Stuff
+population_and_visitor_demand_capacity=100
+#-----
 Dims=3,4,4
 BackImage[0][0][0][0][0][0]=./images/leika.2.0
 BackImage[0][0][1][0][0][0]=./images/leika.0.1
