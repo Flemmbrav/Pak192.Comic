@@ -19,10 +19,38 @@
 ################################################################################
 
 # how far cities should be minimum apart (default 16)
-minimum_city_distance = 64
+minimum_city_distance = 100
 
 # chance for renovation versus new building (bigger number => less sprawling) (original war 13)
-renovation_percentage = 1
+renovation_percentage = 33
+
+#How many buildings should be rennovated
+renovations_count=12
+
+#How many rennovation attempts should be made. Rennovations can fail, so se tthis higher than renovations_count.
+renovations_try = 32
+
+renovation_influence_type = 2
+renovation_count_increase_every = 2000
+renovation_count_maximum = 25
+
+# Use proportional rennovations instead of 
+proportional_renovation_radius = 1
+renovation_range_proportions_village = 80
+renovation_range_proportions_city = 60
+renovation_range_proportions_capital = 40
+
+proportional_renovation_range_type = 1
+renovation_range_proportions_res = 150
+renovation_range_proportions_com = 100
+renovation_range_proportions_ind = 250
+
+renovation_distance_chance = 1
+
+#How likely is it to actually build a bridge when it's possible
+bridge_success_percentage = 33
+
+
 
 # at which number of inhabitants we need a new market?
 industry_increase_every = 5000
@@ -35,7 +63,7 @@ minimum_building_desity = 33
 #
 
 # avoid building next to industry
-res_start_score = 0
+res_start_score = 1
 res_near_ind = -8
 res_near_com = 0
 res_near_res = 8
@@ -47,7 +75,7 @@ com_near_com = 8
 com_near_res = 1
 
 # next to res means expensive filters and no truck after 10 pm => avoid this ...
-ind_start_score = 0
+ind_start_score = 1
 ind_near_ind = 8
 ind_near_com = 0
 ind_near_res = -8
