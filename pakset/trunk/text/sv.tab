@@ -9,9 +9,35 @@
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 28.09 2019                           #
+#                            Date Created: 4.10 2020                           #
 #                                                                              #
 ################################################################################
+#__________________________bridge - narrowgauge_track___________________________
+#__________________________bridge - narrowgauge_track___________________________
+concrete_bridge_high_speed
+Höghastighetsbro
+high_track_bridge
+Upphöjd Järnvägsbro
+high_track_bridge2
+Upphöjd Järnvägsbro
+Stahlbruecke_track
+Stålbro
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+Stromleitung_bruecke
+Kraftledningsbro
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
+road_bridge_autobahn
+Bro
+road_bridge_city
+Stadsbro
+road_bridge_concrete
+Bro
+#________________________________bridge - track_________________________________
+#________________________________bridge - track_________________________________
+ng_Bridge_1900_70kph
+Smalspårsbro
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 com_cl3_E3_01_03
@@ -54,14 +80,30 @@ track_station_good
 Modern lastkaj
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
+apiary
+Biodling
+applefarm
+Äppelodling
 Autofabrik
 Bilfabrik
 factory_Autofabrik_details
 Bilfabrik
 Autoteilefabrik
 Bildelsfabrik
+bakery_alpine
+Bageri
 bakery_northsea
 Bageri
+berry1_plantation
+Jordgubbsodling
+berry2_plantation
+Vinbärsodling
+blastfurnace
+Masugn
+bosna_stand
+Bosnakiosk
+factory_bosna_stand_details
+<title>Bosna Kiosk</title>En bosna är en Österrikisk måltid som motsvarar en varmkorv, bestående av huvudsakligen en Bratwurst-korv, lök och en senaps och ketchupblandning med currypulver. Bosna serveras med vitt bröd och är oftast grillad lite grann innan servering.
 gasstation_small
 Liten bensinmack
 factory_gasstation_small_details

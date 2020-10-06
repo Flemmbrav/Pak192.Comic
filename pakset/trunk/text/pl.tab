@@ -9,7 +9,7 @@
 #                              Language: pl Polski                             #
 #                             Encoding: ISO-8859-2                             #
 #                             Font: prop-latin2.fnt                            #
-#                           Date Created: 28.09 2019                           #
+#                            Date Created: 4.10 2020                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -253,7 +253,7 @@ Kopalnia wêgla
 factory_coalmine_details
 <title>Kopalnia wêgla</title>\n<p>Niektórzy mawiaj±, ¿e ka¿dy powinien zej¶æ "pod ziemiê", przynajmniej na jedn± zmianê, zobaczyæ jaka to ciê¿ka praca.</p>
 dairy
-Nabia³
+Mleczarnia
 factory_dairy_details
 <title>Mleczarnia</title>\n<p>W³a¶ciciel twierdzi, ¿e wyprodukowano tu najwiêkszy ser na ¶wiecie, widoczny na niebie ka¿dej nocy.</p>
 flaxfarm

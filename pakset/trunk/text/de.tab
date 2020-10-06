@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 12.07 2020                           #
+#                            Date Created: 4.10 2020                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -198,6 +198,12 @@ com_cl3_E6_01_20
 Büroturm\n\nIm sechsten Stock hat Sandy Torkai gerade ihre erste Million verdient. Kurz darauf bekam sie eine Rüge von ihrem Chef - kein Simutrans während der Arbeitszeit!
 com_cl3_E6_01_30
 Torre Caja\n\nEinmal Wolkenkratzer zum Mitnehmen, bitte!
+com_cl3_E6_02_20
+Büroturm\n\nIm sechsten Stock hat Sandy Torkai gerade ihre erste Million verdient. Kurz darauf bekam sie eine Rüge von ihrem Chef - kein Simutrans während der Arbeitszeit!
+com_cl3_E6_03_20
+Büroturm\n\nIm sechsten Stock hat Sandy Torkai gerade ihre erste Million verdient. Kurz darauf bekam sie eine Rüge von ihrem Chef - kein Simutrans während der Arbeitszeit!
+com_cl3_E6_04_20
+Büroturm\n\nIm sechsten Stock hat Sandy Torkai gerade ihre erste Million verdient. Kurz darauf bekam sie eine Rüge von ihrem Chef - kein Simutrans während der Arbeitszeit!
 com_cl4_E0_03_07
 Gasthaus
 com_cl4_E3_01_03
@@ -1780,12 +1786,18 @@ maglev_chooseway
 Plattform-Wahlsignal
 #_________________________roadsign - narrowgauge_track__________________________
 #_________________________roadsign - narrowgauge_track__________________________
+freesignal_sbb_l
+Auswahlsignal Typ SBB L
 Mindestgeschwindigkeits Signal 130
 Mindestgeschwindigkeit: 130km/h
 Mindestgeschwindigkeits Signal 260
 Mindestgeschwindigkeit: 260km/h
 presignal
 Vorsignal
+presignal_sbb_l
+Zweiblock-Signal Typ SBB L
+signal_sbb_l
+Signal Typ SBB L
 track_presignal
 Zweiblock-Signal
 track_presignal_form
@@ -1817,7 +1829,7 @@ Plattform-Wahlsignal
 track_sigchoose_light
 Plattform-Wahlsignal
 track_sigchoose_sbb
-Plattform-Wahlsignal
+Auswahlsignal Typ SBB L
 track_sigchooseend
 Ende der Plattformwahl
 track_sigchooseend_form
@@ -3295,15 +3307,15 @@ Dieseltriebwagen Class 156 "Super Sprinter"
 NR Class 156 2
 Dieseltriebwagen Class 156 "Super Sprinter"
 NSB_Flirt_1
-Elektrotriebwagen Typ 74 "Flirt"
+Elektrotriebwagen Typ 75 "Flirt Nordic"
 NSB_Flirt_2
-Elektrotriebwagen Typ 74 "Flirt"
+Elektrotriebwagen Typ 75 "Flirt Nordic"
 NSB_Flirt_3
-Elektrotriebwagen Typ 74 "Flirt"
+Elektrotriebwagen Typ 75 "Flirt Nordic"
 NSB_Flirt_4
-Elektrotriebwagen Typ 74 "Flirt"
+Elektrotriebwagen Typ 75 "Flirt Nordic"
 NSB_Flirt_5
-Elektrotriebwagen Typ 74 "Flirt"
+Elektrotriebwagen Typ 75 "Flirt Nordic"
 OBB_1014
 Elektrolokomotive Rh. 1014
 OBB_2016
@@ -3554,6 +3566,10 @@ SBB_CE_68_iib
 Elektrolokomotive Rh. Ce 6/8 II "Krokodil"
 SBB_CE_68_iic
 Elektrolokomotive Rh. Ce 6/8 II "Krokodil"
+SBB_EW_IV_AS
+Intercitywagen "Einheitswagen IV" | Dienstwagen
+SBB_EW_IV_AS_r
+Intercitywagen "Einheitswagen IV" | Dienstwagen
 SBB_EW_IV_WRm
 Speisewagen "Einheitswagen IV"
 SBB_MC76
@@ -3893,15 +3909,15 @@ Dieseltriebwagen Class 170 "Turbostar"
 XC_Class_170-3
 Dieseltriebwagen Class 170 "Turbostar"
 Zefrio_380-1
-Hochgeschwindigkeitszug "Zefrio" | Steuerwagen
+Hochgeschwindigkeitszug "Zefiro" | Steuerwagen
 Zefrio_380-2
-Hochgeschwindigkeitszug "Zefrio" | Stromabnehmerwagen
+Hochgeschwindigkeitszug "Zefiro" | Stromabnehmerwagen
 Zefrio_380-3
-Hochgeschwindigkeitszug "Zefrio" | Mittelwagen
+Hochgeschwindigkeitszug "Zefiro" | Mittelwagen
 Zefrio_380-4
-Hochgeschwindigkeitszug "Zefrio" | Stromabnehmerwagen
+Hochgeschwindigkeitszug "Zefiro" | Stromabnehmerwagen
 Zefrio_380-5
-Hochgeschwindigkeitszug "Zefrio" | Steuerwagen
+Hochgeschwindigkeitszug "Zefiro" | Steuerwagen
 #________________________________vehicle - road_________________________________
 #________________________________vehicle - road_________________________________
 1912 Benz-Schuettgut
@@ -4576,10 +4592,6 @@ Narrowgauge_Passenger_Train_2022_Zillertal_2
 Wasserstofftriebwagen | Mittelwagen
 Narrowgauge_Passenger_Train_2022_Zillertal_3
 Wasserstofftriebwagen | Steuerwagen
-SBB_EW_IV_AS
-Intercitywagen "Einheitswagen IV" | Dienstwagen
-SBB_EW_IV_AS_r
-Intercitywagen "Einheitswagen IV" | Dienstwagen
 #_____________________________vehicle - tram_track______________________________
 #_____________________________vehicle - tram_track______________________________
 B_1-VRR
