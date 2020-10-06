@@ -9,6 +9,7 @@ max_lenght=25
 intro_year=1880
 pillar_distance=1
 pillar_asymmetric=1
+has_own_way_graphics=0
 
 cursor=./images/road_bridge_50_ic.0.1
 icon=> ./images/road_bridge_50_ic.0.0
@@ -32,6 +33,7 @@ max_lenght=25
 intro_year=1880
 pillar_distance=1
 pillar_asymmetric=1
+has_own_way_graphics=0
 
 cursor=./images/road_bridge_90_ic.0.1
 icon=> ./images/road_bridge_90_ic.0.0
@@ -55,6 +57,7 @@ max_lenght=25
 intro_year=1880
 pillar_distance=1
 pillar_asymmetric=1
+has_own_way_graphics=0
 
 cursor=./images/road_bridge_130_ic.0.1
 icon=> ./images/road_bridge_130_ic.0.0

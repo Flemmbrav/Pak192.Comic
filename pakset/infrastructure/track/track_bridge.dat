@@ -12,6 +12,7 @@ pillar_asymmetric=1
 
 #EXT
 max_weight=2000
+has_own_way_graphics=0
 
 
 cursor=./images/bridge/track_bridge_55_ic.0.1
@@ -83,6 +84,7 @@ pillar_asymmetric=1
 
 #EXT
 max_weight=8000
+has_own_way_graphics=0
 
 
 cursor=./images/bridge/track_bridge_100_ic.0.1
@@ -154,6 +156,7 @@ pillar_asymmetric=1
 
 #EXT
 max_weight=6000
+has_own_way_graphics=1
 
 cursor=./images/bridge/track_bridge_160_ic.0.1
 icon=> ./images/bridge/track_bridge_160_ic.0.0
@@ -275,6 +278,7 @@ pillar_asymmetric=1
 
 #EXT
 max_weight=1600
+has_own_way_graphics=0
 
 cursor=./images/bridge/track_bridge_330_ic.0.1
 icon=> ./images/bridge/track_bridge_330_ic.0.0

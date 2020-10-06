@@ -9,6 +9,7 @@ max_lenght=10
 intro_year=1900
 pillar_distance=1
 pillar_asymmetric=1
+has_own_way_graphics=0
 
 cursor=./images/Bridge_1900_70kph.0.1
 icon=> ./images/Bridge_1900_70kph.0.0
