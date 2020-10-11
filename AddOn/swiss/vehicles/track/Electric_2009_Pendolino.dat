@@ -78,6 +78,7 @@ speed=250
 length=12
 waytype=narrowgauge_track
 is_tilting=1
+catering_level=3
 loading_time=7270
 engine_type=electric
 constraint[prev][0]=Pendolino_4_1

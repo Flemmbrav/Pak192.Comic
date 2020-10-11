@@ -14,6 +14,7 @@ freight=Passagiere
 length=11
 waytype=narrowgauge_track
 loading_time=14520
+catering_levele=3
 EmptyImage[E]=./image/ic2000_1.0.2
 EmptyImage[S]=./image/ic2000_1.0.3
 EmptyImage[W]=./image/ic2000_1.0.0

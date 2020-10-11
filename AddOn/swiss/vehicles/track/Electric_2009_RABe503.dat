@@ -64,6 +64,7 @@ speed=250
 length=12
 waytype=narrowgauge_track
 is_tilting=1
+catering_level=3
 loading_time=9740
 constraint[prev][0]=RABe503_A2
 constraint[next][0]=RABe503_B4

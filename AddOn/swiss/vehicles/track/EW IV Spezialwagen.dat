@@ -37,6 +37,7 @@ weight=43
 runningcost=1020
 cost=162870
 length=12
+catering_level=4
 constraint[prev][0]=any
 emptyimage[e]=./image/EW IV Spezialwagen.1.0
 emptyimage[n]=./image/EW IV Spezialwagen.1.3
