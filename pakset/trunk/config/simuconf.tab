@@ -854,7 +854,7 @@ intro_month[9][0] = 1
 
 
 livery_scheme[10] = DB
-retire_year[10] = 1970
+retire_year[10] = 1987
 retire_month[10] = 1
 livery[10][0] = DB
 intro_year[10][0] = 1949
@@ -864,7 +864,7 @@ livery_scheme[11] = DB_Orientrot
 retire_year[11] = 1997
 retire_month[11] = 1
 livery[11][0] = DB_Orientrot
-intro_year[11][0] = 1987
+intro_year[11][0] = 1986
 intro_month[11][0] = 1
 
 livery_scheme[12] = DB_POP

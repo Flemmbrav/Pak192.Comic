@@ -53,6 +53,8 @@ Examples of bad .png file references:
 
 ## Catering
 
+Some vehicles offer catering. The catering levels are defined as following:
+
 - catering_level=0: no catering
 - catering_level=1: trolly with snacks and coffee or a vending machine
 - catering_level=2: mini build in bistro with snacks and coffee 
@@ -60,3 +62,8 @@ Examples of bad .png file references:
 - catering_level=4: full size restaurant
 - catering_level=5: luxury restaurant with freshly cooked meals and flamboyant dishes
 - catering_level=5: disco with a cocktailbar
+
+## Classes
+
+Different vehicles offer different levels of comfort.
+Do not mistake classes as what 
