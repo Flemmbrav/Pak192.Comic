@@ -102,6 +102,7 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10340
+catering_level=2
 
 constraint[prev][0]=any
 
