@@ -153,6 +153,7 @@ weight=60
 speed=230
 length=12
 loading_time=5890
+catering_level=3
 
 is_tilting=1
 bidirectional=1

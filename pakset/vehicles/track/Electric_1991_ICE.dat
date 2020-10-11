@@ -102,6 +102,7 @@ weight=50
 speed=280
 length=12
 loading_time=4650
+catering_level=4
 
 constraint[prev][0]=BR_801_1
 constraint[next][0]=BR_801_2
@@ -135,6 +136,7 @@ weight=45
 speed=280
 length=12
 loading_time=7590
+catering_level=3
 
 constraint[prev][0]=BR_801_1
 constraint[next][0]=BR_801_2

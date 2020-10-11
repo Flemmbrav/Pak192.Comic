@@ -12,6 +12,7 @@ runningcost=1779
 cost=19570650
 length=10
 loading_time=17790
+catering_level=4
 constraint[next][0]=TGV_Duplex_Class2
 constraint[prev][0]=TGV_Duplex_Class1
 emptyimage[e]=./image/TGV.0.2

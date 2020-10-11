@@ -76,6 +76,7 @@ speed=135
 length=12
 waytype=narrowgauge_track
 loading_time=2970
+catering_level=3
 
 #constraint[prev][0]=BR_61
 #constraint[prev][1]=Henschel-Wegmann_kuppel

@@ -67,6 +67,7 @@ runningcost=977
 weight=59
 speed=320
 length=12
+catering_level=3
 
 constraint[prev][0]=ICE_DB_407_1
 constraint[next][0]=ICE_DB_407_4

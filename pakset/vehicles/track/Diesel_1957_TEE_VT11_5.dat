@@ -83,6 +83,7 @@ weight=24
 speed=160
 length=10
 waytype=narrowgauge_track
+catering_level=5
 
 constraint[prev][0]=TEE_Triebzug_1957_0
 constraint[prev][1]=TEE_Triebzug_1957_1

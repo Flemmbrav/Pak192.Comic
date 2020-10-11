@@ -166,6 +166,7 @@ waytype=narrowgauge_track
 engine_type=diesel
 smoke=diesel
 sound=none
+catering_level=5
 
 constraint[prev][0]=VT_07_PC-4
 constraint[prev][1]=VT_07_PC-5
@@ -279,6 +280,7 @@ waytype=narrowgauge_track
 engine_type=diesel
 smoke=diesel
 sound=none
+catering_level=5
 
 constraint[prev][0]=VT_07_PC-1
 constraint[prev][1]=VT_07_PC-2

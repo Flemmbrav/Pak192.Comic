@@ -81,6 +81,7 @@ waytype=narrowgauge_track
 loading_time=7270
 engine_type=electric
 is_tilting=1
+catering_level=3
 constraint[prev][0]=Electric_1999_RABDe_500_1
 constraint[next][0]=Electric_1999_RABDe_500_3
 EmptyImage[S]=./image/Electric_1999_RABDe_500.7.1

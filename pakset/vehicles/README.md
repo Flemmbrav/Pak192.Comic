@@ -59,4 +59,4 @@ Examples of bad .png file references:
 - catering_level=3: bistro with hot food and dining
 - catering_level=4: full size restaurant
 - catering_level=5: luxury restaurant with freshly cooked meals and flamboyant dishes
-- catering_level=5: disco car with a cocktailbar
+- catering_level=5: disco with a cocktailbar

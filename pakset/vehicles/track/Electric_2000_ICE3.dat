@@ -150,6 +150,7 @@ gear=240
 speed=330
 length=12
 loading_time=5380
+catering_level=4
 
 constraint[prev][0]=BR_403_2
 constraint[prev][1]=BR_403_3
@@ -165,41 +166,42 @@ EmptyImage[NE]=image/ICE_DB_403.4.5
 EmptyImage[NW]=image/ICE_DB_403.4.6
 EmptyImage[SW]=image/ICE_DB_403.4.7
 ---------
-# Fahrzeug entfernt, weil ein Bistro pro Zug ausreichend ist
-#obj=vehicle
-#name=BR_403_5
-#copyright=Flemmbrav
-#waytype=narrowgauge_track
-#engine_type=electric
-#smoke=none
-#sound=none
-#freight=Passagiere
-#intro_year=2000
-#intro_month=0
+
+obj=vehicle
+name=BR_403_5
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+intro_year=2000
+intro_month=0
 retire_year=2018
 retire_month=0
-#payload=50
-#cost=66000000
-#runningcost=1358
-#weight=57
-#power=1000
-#gear=300
-#speed=330
-#length=12
-#constraint[prev][0]=BR_403_2
-#constraint[prev][1]=BR_403_3
-#constraint[next][0]=BR_403_6
-#constraint[next][1]=BR_403_7
-#
-#EmptyImage[E]=image/ICE_DB_403.5.0
-#EmptyImage[S]=image/ICE_DB_403.5.1
-#EmptyImage[W]=image/ICE_DB_403.5.2
-#EmptyImage[N]=image/ICE_DB_403.5.3
-#EmptyImage[SE]=image/ICE_DB_403.5.4
-#EmptyImage[NE]=image/ICE_DB_403.5.5
-#EmptyImage[NW]=image/ICE_DB_403.5.6
-#EmptyImage[SW]=image/ICE_DB_403.5.7
-#---------
+payload=50
+cost=66000000
+runningcost=1358
+weight=57
+power=1000
+gear=300
+speed=330
+length=12
+catering_level=3
+constraint[prev][0]=BR_403_2
+constraint[prev][1]=BR_403_3
+constraint[next][0]=BR_403_6
+constraint[next][1]=BR_403_7
+
+EmptyImage[E]=image/ICE_DB_403.5.0
+EmptyImage[S]=image/ICE_DB_403.5.1
+EmptyImage[W]=image/ICE_DB_403.5.2
+EmptyImage[N]=image/ICE_DB_403.5.3
+EmptyImage[SE]=image/ICE_DB_403.5.4
+EmptyImage[NE]=image/ICE_DB_403.5.5
+EmptyImage[NW]=image/ICE_DB_403.5.6
+EmptyImage[SW]=image/ICE_DB_403.5.7
+---------
 obj=vehicle
 name=BR_403_6
 
@@ -227,7 +229,7 @@ loading_time=14340
 
 constraint[prev][0]=BR_403_4
 constraint[prev][1]=BR_403_6
-#constraint[prev][2]=BR_403_5
+constraint[prev][2]=BR_403_5
 constraint[next][0]=BR_403_6
 constraint[next][1]=BR_403_7
 
@@ -267,7 +269,7 @@ loading_time=14340
 
 constraint[prev][0]=BR_403_4
 constraint[prev][1]=BR_403_6
-#constraint[prev][2]=BR_403_5
+constraint[prev][2]=BR_403_5
 constraint[next][0]=BR_403_8
 
 EmptyImage[E]=image/ICE_DB_403.6.0

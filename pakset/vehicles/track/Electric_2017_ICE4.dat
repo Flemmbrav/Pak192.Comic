@@ -103,6 +103,7 @@ runningcost=3440
 weight=77
 speed=250
 length=13
+catering_level=4
 
 power=1650
 gear=200
