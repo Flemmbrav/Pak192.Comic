@@ -17,6 +17,7 @@ payload=30
 loading_time=780
 runningcost=78
 cost=855558
+catering_level=1
 
 constraint[prev][0]=any
 
