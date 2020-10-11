@@ -1227,3 +1227,17 @@ livery[59][0] = Metropolitan
 intro_year[59][0] = 1996
 intro_month[59][0] = 1
 
+
+livery_scheme[60] = DSB
+retire_year[60] = 2045
+retire_month[60] = 12
+livery[60][0] = DSB_red
+intro_year[60][0] = 1900
+intro_month[60][0] = 1
+livery[60][1] = DSB_white
+intro_year[60][1] = 1996
+intro_month[60][1] = 1
+livery[60][2] = DSB_grey
+intro_year[60][2] = 2005
+intro_month[60][2] = 1
+
