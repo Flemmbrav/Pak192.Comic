@@ -10,7 +10,7 @@ engine_type=electric
 range=0
 power=6400
 tractive_effort=300
-gear=214
+#gear=214
 speed=250
 
 weight=84
