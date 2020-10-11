@@ -541,7 +541,7 @@ writevehicle() {
 		echo "axle_load=${ObjectArray[axle_load]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[brake_force]} ]] ;then
-		echo "brake_force=${ObjectArray[break_force]}" >> calculated/$dat
+		echo "brake_force=${ObjectArray[brake_force]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[rolling_resistance]} ]] ;then
 		echo "rolling_resistance=${ObjectArray[rolling_resistance]}" >> calculated/$dat
