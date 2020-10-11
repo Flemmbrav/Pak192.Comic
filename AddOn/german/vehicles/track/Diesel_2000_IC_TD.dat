@@ -10,6 +10,7 @@ obj=vehicle
 name=Track_Diesel_2000_IC_TD_1
 copyright=Flemmbrav
 waytype=narrowgauge_track
+is_tilting=1
 engine_type=diesel
 smoke=diesel
 sound=none
@@ -48,6 +49,7 @@ name=Track_Diesel_2000_IC_TD_2
 
 copyright=Flemmbrav
 waytype=narrowgauge_track
+is_tilting=1
 engine_type=diesel
 smoke=diesel
 sound=none
@@ -86,6 +88,7 @@ name=Track_Diesel_2000_IC_TD_3
 
 copyright=Flemmbrav
 waytype=narrowgauge_track
+is_tilting=1
 engine_type=diesel
 smoke=diesel
 sound=none
@@ -121,6 +124,7 @@ name=Track_Diesel_2000_IC_TD_4
 
 copyright=Flemmbrav
 waytype=narrowgauge_track
+is_tilting=1
 engine_type=diesel
 smoke=diesel
 sound=none
