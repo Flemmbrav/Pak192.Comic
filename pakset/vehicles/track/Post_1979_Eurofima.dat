@@ -1,0 +1,41 @@
+# Different kinds of Eurofima cars and post Eurofima cars that base on the Eurofima design
+# Naming:
+# Track_Passenger_Train_1979_Eurofima_[Speed]_[Type]
+#
+# Following speeds are available:
+# 160
+# 200
+#
+# Baggage
+# Mixed
+#
+#
+# Following types of cars are already implemented:
+# Track_Passenger_Train_1979_Eurofima_200_Second_Class_Open_Coach
+#
+
+obj=vehicle
+name=Eurofima_Wagen_1979_1
+copyright=Flemmbrav
+intro_year=1979
+intro_month=3
+retire_year=1987
+retire_month=0
+freight=Post
+payload=1480
+cost=10675814
+runningcost=971
+weight=42
+speed=200
+length=12
+waytype=narrowgauge_track
+loading_time=9710
+constraint[prev][0]=any
+EmptyImage[S]=./image/Eurofima_Wagen_1979.1.1
+EmptyImage[E]=./image/Eurofima_Wagen_1979.1.0
+EmptyImage[SE]=./image/Eurofima_Wagen_1979.1.4
+EmptyImage[SW]=./image/Eurofima_Wagen_1979.1.7
+EmptyImage[N]=./image/Eurofima_Wagen_1979.1.3
+EmptyImage[W]=./image/Eurofima_Wagen_1979.1.2
+EmptyImage[NW]=./image/Eurofima_Wagen_1979.1.6
+EmptyImage[NE]=./image/Eurofima_Wagen_1979.1.5

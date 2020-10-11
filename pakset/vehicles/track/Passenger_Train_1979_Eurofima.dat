@@ -1,0 +1,175 @@
+# Different kinds of Eurofima cars and post Eurofima cars that base on the Eurofima design
+# Naming:
+# Track_Passenger_Train_1979_Eurofima_[Speed]_[Type]
+#
+# Following speeds are available:
+# 160
+# 200
+#
+# Following Types are available:
+# First_Class_Compartment
+# First_Class_Open_Coach
+# First_Class_Mixed
+# Second_Class_Compartment 
+# Second_Class_Open_Coach
+# Second_Class_Mixed
+# Restaurant
+# Buffet
+#
+#
+# Following types of cars are already implemented:
+# Track_Passenger_Train_1979_Eurofima_200_Second_Class_Open_Coach
+# Track_Passenger_Train_1979_Eurofima_200_Restaurant
+#
+
+obj=vehicle
+name=Track_Passenger_Train_1979_Eurofima_160_Second_Class_Compartment
+copyright=Flemmbrav
+intro_year=1977
+intro_month=1
+retire_year=1990
+retire_month=0
+freight=Passagiere
+payload=66
+#66 in der zweiten Klasse
+cost=7871325
+runningcost=716
+weight=42
+speed=160
+length=12
+axles=4
+waytype=narrowgauge_track
+loading_time=7160
+constraint[prev][0]=any
+
+liverytype[0]=C1
+liverytype[1]=OBB_Valousek
+
+EmptyImage[S][0]=./image/Passenger_Train_1977_Eurofima.0.1
+EmptyImage[E][0]=./image/Passenger_Train_1977_Eurofima.0.0
+EmptyImage[SE][0]=./image/Passenger_Train_1977_Eurofima.0.4
+EmptyImage[SW][0]=./image/Passenger_Train_1977_Eurofima.0.7
+EmptyImage[N][0]=./image/Passenger_Train_1977_Eurofima.0.3
+EmptyImage[W][0]=./image/Passenger_Train_1977_Eurofima.0.2
+EmptyImage[NW][0]=./image/Passenger_Train_1977_Eurofima.0.6
+EmptyImage[NE][0]=./image/Passenger_Train_1977_Eurofima.0.5
+
+EmptyImage[S][1]=./image/Eurofima_Wagen_1988.1.1
+EmptyImage[E][1]=./image/Eurofima_Wagen_1988.1.0
+EmptyImage[SE][1]=./image/Eurofima_Wagen_1988.1.4
+EmptyImage[SW][1]=./image/Eurofima_Wagen_1988.1.7
+EmptyImage[N][1]=./image/Eurofima_Wagen_1988.1.3
+EmptyImage[W][1]=./image/Eurofima_Wagen_1988.1.2
+EmptyImage[NW][1]=./image/Eurofima_Wagen_1988.1.6
+EmptyImage[NE][1]=./image/Eurofima_Wagen_1988.1.5
+
+-------------
+obj=vehicle
+name=Track_Passenger_Train_1979_Eurofima_200_Second_Class_Open_Coach
+copyright=Flemmbrav
+intro_year=1979
+intro_month=3
+retire_year=1987
+retire_month=0
+freight=Passagiere
+payload=68
+cost=8183307
+runningcost=744
+weight=42
+speed=200
+length=12
+waytype=narrowgauge_track
+loading_time=7440
+constraint[prev][0]=any
+
+liverytype[0]=DB
+liverytype[1]=DB_Orientrot
+liverytype[2]=DB_Fernverkehr
+liverytype[3]=OBB_Upgrade
+
+EmptyImage[S][0]=./image/Eurofima_Wagen_1979.0.1
+EmptyImage[E][0]=./image/Eurofima_Wagen_1979.0.0
+EmptyImage[SE][0]=./image/Eurofima_Wagen_1979.0.4
+EmptyImage[SW][0]=./image/Eurofima_Wagen_1979.0.7
+EmptyImage[N][0]=./image/Eurofima_Wagen_1979.0.3
+EmptyImage[W][0]=./image/Eurofima_Wagen_1979.0.2
+EmptyImage[NW][0]=./image/Eurofima_Wagen_1979.0.6
+EmptyImage[NE][0]=./image/Eurofima_Wagen_1979.0.5
+
+EmptyImage[S][1]=./image/Eurofima_Wagen_1986.0.1
+EmptyImage[E][1]=./image/Eurofima_Wagen_1986.0.0
+EmptyImage[SE][1]=./image/Eurofima_Wagen_1986.0.4
+EmptyImage[SW][1]=./image/Eurofima_Wagen_1986.0.7
+EmptyImage[N][1]=./image/Eurofima_Wagen_1986.0.3
+EmptyImage[W][1]=./image/Eurofima_Wagen_1986.0.2
+EmptyImage[NW][1]=./image/Eurofima_Wagen_1986.0.6
+EmptyImage[NE][1]=./image/Eurofima_Wagen_1986.0.5
+
+EmptyImage[S][2]=./image/Eurofima_Wagen_2001.0.1
+EmptyImage[E][2]=./image/Eurofima_Wagen_2001.0.0
+EmptyImage[SE][2]=./image/Eurofima_Wagen_2001.0.4
+EmptyImage[SW][2]=./image/Eurofima_Wagen_2001.0.7
+EmptyImage[N][2]=./image/Eurofima_Wagen_2001.0.3
+EmptyImage[W][2]=./image/Eurofima_Wagen_2001.0.2
+EmptyImage[NW][2]=./image/Eurofima_Wagen_2001.0.6
+EmptyImage[NE][2]=./image/Eurofima_Wagen_2001.0.5
+
+EmptyImage[S][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.1
+EmptyImage[E][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.0
+EmptyImage[SE][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.4
+EmptyImage[SW][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.7
+EmptyImage[N][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.3
+EmptyImage[W][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.2
+EmptyImage[NW][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.6
+EmptyImage[NE][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.5
+
+-------------
+obj=vehicle
+name=Track_Passenger_Train_1979_Eurofima_200_Restaurant
+copyright=Flemmbrav
+intro_year=1979
+intro_month=3
+retire_year=1987
+retire_month=0
+freight=Passagiere
+payload=38
+cost=4573025
+runningcost=416
+weight=42
+speed=200
+length=12
+waytype=narrowgauge_track
+loading_time=4160
+catering_level=4
+constraint[prev][0]=any
+
+liverytype[0]=DB
+liverytype[1]=DB_Orientrot
+liverytype[2]=DB_Fernverkehr
+
+EmptyImage[S][0]=./image/Eurofima_Wagen_1979.2.1
+EmptyImage[E][0]=./image/Eurofima_Wagen_1979.2.0
+EmptyImage[SE][0]=./image/Eurofima_Wagen_1979.2.4
+EmptyImage[SW][0]=./image/Eurofima_Wagen_1979.2.7
+EmptyImage[N][0]=./image/Eurofima_Wagen_1979.2.3
+EmptyImage[W][0]=./image/Eurofima_Wagen_1979.2.2
+EmptyImage[NW][0]=./image/Eurofima_Wagen_1979.2.6
+EmptyImage[NE][0]=./image/Eurofima_Wagen_1979.2.5
+
+EmptyImage[S][1]=./image/Eurofima_Wagen_1986.1.1
+EmptyImage[E][1]=./image/Eurofima_Wagen_1986.1.0
+EmptyImage[SE][1]=./image/Eurofima_Wagen_1986.1.4
+EmptyImage[SW][1]=./image/Eurofima_Wagen_1986.1.7
+EmptyImage[N][1]=./image/Eurofima_Wagen_1986.1.3
+EmptyImage[W][1]=./image/Eurofima_Wagen_1986.1.2
+EmptyImage[NW][1]=./image/Eurofima_Wagen_1986.1.6
+EmptyImage[NE][1]=./image/Eurofima_Wagen_1986.1.5
+
+EmptyImage[S][2]=./image/Eurofima_Wagen_2001.1.1
+EmptyImage[E][2]=./image/Eurofima_Wagen_2001.1.0
+EmptyImage[SE][2]=./image/Eurofima_Wagen_2001.1.4
+EmptyImage[SW][2]=./image/Eurofima_Wagen_2001.1.7
+EmptyImage[N][2]=./image/Eurofima_Wagen_2001.1.3
+EmptyImage[W][2]=./image/Eurofima_Wagen_2001.1.2
+EmptyImage[NW][2]=./image/Eurofima_Wagen_2001.1.6
+EmptyImage[NE][2]=./image/Eurofima_Wagen_2001.1.5
