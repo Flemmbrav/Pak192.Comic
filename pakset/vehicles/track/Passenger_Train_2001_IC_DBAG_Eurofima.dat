@@ -19,11 +19,11 @@ constraint[prev][0]=any
 
 liverytype[0]=DB_Fernverkehr
 
-EmptyImage[S]=[0]./image/Eurofima_Wagen_2001.4.1
-EmptyImage[E]=[0]./image/Eurofima_Wagen_2001.4.0
-EmptyImage[SE]=[0]./image/Eurofima_Wagen_2001.4.4
-EmptyImage[SW]=[0]./image/Eurofima_Wagen_2001.4.7
-EmptyImage[N]=[0]./image/Eurofima_Wagen_2001.4.3
-EmptyImage[W]=[0]./image/Eurofima_Wagen_2001.4.2
-EmptyImage[NW]=[0]./image/Eurofima_Wagen_2001.4.6
-EmptyImage[NE]=[0]./image/Eurofima_Wagen_2001.4.5
+EmptyImage[S][0]=./image/Eurofima_Wagen_2001.4.1
+EmptyImage[E][0]=./image/Eurofima_Wagen_2001.4.0
+EmptyImage[SE][0]=./image/Eurofima_Wagen_2001.4.4
+EmptyImage[SW][0]=./image/Eurofima_Wagen_2001.4.7
+EmptyImage[N][0]=./image/Eurofima_Wagen_2001.4.3
+EmptyImage[W][0]=./image/Eurofima_Wagen_2001.4.2
+EmptyImage[NW][0]=./image/Eurofima_Wagen_2001.4.6
+EmptyImage[NE][0]=./image/Eurofima_Wagen_2001.4.5
