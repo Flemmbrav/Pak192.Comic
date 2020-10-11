@@ -114,14 +114,14 @@ EmptyImage[W][2]=./image/Eurofima_Wagen_2001.0.2
 EmptyImage[NW][2]=./image/Eurofima_Wagen_2001.0.6
 EmptyImage[NE][2]=./image/Eurofima_Wagen_2001.0.5
 
-EmptyImage[S][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.1
-EmptyImage[E][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.0
-EmptyImage[SE][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.4
-EmptyImage[SW][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.7
-EmptyImage[N][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.3
-EmptyImage[W][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.2
-EmptyImage[NW][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.6
-EmptyImage[NE][4]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.5
+EmptyImage[S][3]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.1
+EmptyImage[E][3]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.0
+EmptyImage[SE][3]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.4
+EmptyImage[SW][3]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.7
+EmptyImage[N][3]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.3
+EmptyImage[W][3]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.2
+EmptyImage[NW][3]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.6
+EmptyImage[NE][3]=./OBB_Upgrade/Track_Passenger_Train_1979_Eurofima.3.5
 
 -------------
 obj=vehicle
