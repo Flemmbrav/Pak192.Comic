@@ -23,6 +23,11 @@ EmptyImage[NW]=./image/DR_V188.2.2
 EmptyImage[NE]=./image/DR_V188.2.3
 EmptyImage[SE]=./image/DR_V188.1.2
 EmptyImage[SW]=./image/DR_V188.1.3
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 constraint[next][0]=DR_V188b
 ----
 obj=vehicle
@@ -50,4 +55,9 @@ EmptyImage[NW]=./image/DR_V188.0.2
 EmptyImage[NE]=./image/DR_V188.1.3
 EmptyImage[SE]=./image/DR_V188.2.2
 EmptyImage[SW]=./image/DR_V188.2.3
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 constraint[prev][0]=DR_V188a

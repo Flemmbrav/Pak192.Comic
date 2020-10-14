@@ -13,6 +13,11 @@ runningcost=721
 cost=48768480
 smoke=diesel
 length=10
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 emptyimage[e]=./image/vossloh_G12.0.0
 emptyimage[n]=./image/vossloh_G12.1.1
 emptyimage[ne]=./image/vossloh_G12.1.3

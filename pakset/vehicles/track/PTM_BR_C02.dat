@@ -25,6 +25,10 @@ EmptyImage[NE]=./image/BR_C02.1.1
 EmptyImage[SE]=./image/BR_C02.1.0
 EmptyImage[SW]=./image/BR_C02.1.3
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=0
+
 constraint[prev][0]=BR_C02_Tender
 constraint[prev][1]=none
 constraint[next][0]=BR_C02_Tender
@@ -53,5 +57,9 @@ EmptyImage[SE]=./image/BR_C02.3.0
 EmptyImage[SW]=./image/BR_C02.3.3
 EmptyImage[NW]=./image/BR_C02.3.2
 EmptyImage[NE]=./image/BR_C02.3.1
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=0
 
 constraint[prev][0]=BR_C02

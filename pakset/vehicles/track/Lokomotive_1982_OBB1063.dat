@@ -14,6 +14,11 @@ weight=82
 runningcost=1537
 cost=57895200
 length=10
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 emptyimage[e]=./image/rh1063.0.0
 emptyimage[n]=./image/rh1063.0.3
 emptyimage[ne]=./image/rh1063.0.7

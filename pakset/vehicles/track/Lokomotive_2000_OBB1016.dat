@@ -16,6 +16,11 @@ brake_force=200
 runningcost=10209
 cost=312407885
 length=10
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 emptyimage[e]=./image/rh1016.0.0
 emptyimage[n]=./image/rh1016.1.1
 emptyimage[ne]=./image/rh1016.1.3

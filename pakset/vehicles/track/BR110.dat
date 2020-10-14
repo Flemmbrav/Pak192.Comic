@@ -16,6 +16,11 @@ speed=160
 length=8
 waytype=narrowgauge_track
 engine_type=electric
+
+has_front_cab=1
+has_rear_cab=1
+is_bidirectional=1
+
 EmptyImage[S]=./image/BR_110.0.3
 EmptyImage[E]=./image/BR_110.0.2
 EmptyImage[SE]=./image/BR_110.1.0

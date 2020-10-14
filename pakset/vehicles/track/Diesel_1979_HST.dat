@@ -19,6 +19,11 @@ engine_type=diesel
 smoke=smoke_diesel_thick_long
 Constraint[Prev][0]=none
 Constraint[Next][0]=Class43-2
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/Class43_HST.0.3
 EmptyImage[E]=./image/Class43_HST.0.2
 EmptyImage[SE]=./image/Class43_HST.1.0
@@ -48,6 +53,11 @@ Constraint[Prev][0]=Class43-1
 Constraint[Prev][1]=Class43-2
 Constraint[Next][0]=Class43-3
 Constraint[Next][1]=Class43-2
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Class43_HST.2.3
 EmptyImage[E]=./image/Class43_HST.2.2
 EmptyImage[SE]=./image/Class43_HST.3.0
@@ -78,6 +88,11 @@ engine_type=diesel
 smoke=smoke_diesel_thick_long
 Constraint[Prev][0]=Class43-2
 Constraint[Next][0]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/Class43_HST.4.3
 EmptyImage[E]=./image/Class43_HST.4.2
 EmptyImage[SE]=./image/Class43_HST.5.0

@@ -30,6 +30,10 @@ Constraint[Prev][0]=DT8_4_2-SSB
 Constraint[Prev][1]=none
 Constraint[Next][0]=DT8_4_2-SSB
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/DT8_4_SSB.0.3
 EmptyImage[E]=./image/DT8_4_SSB.0.2
 EmptyImage[SE]=./image/DT8_4_SSB.1.0
@@ -63,6 +67,10 @@ loading_time=2020
 Constraint[Prev][0]=DT8_4_1-SSB
 Constraint[Next][0]=DT8_4_1-SSB
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/DT8_4_SSB.2.3
 EmptyImage[E]=./image/DT8_4_SSB.2.2
@@ -100,6 +108,10 @@ Constraint[Prev][0]=DT8_10_2-SSB
 Constraint[Prev][1]=none
 Constraint[Next][0]=DT8_10_2-SSB
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/DT8_10_SSB.0.3
 EmptyImage[E]=./image/DT8_10_SSB.0.2
 EmptyImage[SE]=./image/DT8_10_SSB.1.0
@@ -133,6 +145,10 @@ loading_time=1520
 Constraint[Prev][0]=DT8_10_1-SSB
 Constraint[Next][0]=DT8_10_1-SSB
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/DT8_10_SSB.2.3
 EmptyImage[E]=./image/DT8_10_SSB.2.2
@@ -170,6 +186,10 @@ Constraint[Prev][0]=DT8_12_2-SSB
 Constraint[Prev][1]=none
 Constraint[Next][0]=DT8_12_2-SSB
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/DT8_12_SSB.0.3
 EmptyImage[E]=./image/DT8_12_SSB.0.2
 EmptyImage[SE]=./image/DT8_12_SSB.1.0
@@ -203,6 +223,10 @@ loading_time=580
 Constraint[Prev][0]=DT8_12_1-SSB
 Constraint[Next][0]=DT8_12_1-SSB
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/DT8_12_SSB.2.3
 EmptyImage[E]=./image/DT8_12_SSB.2.2

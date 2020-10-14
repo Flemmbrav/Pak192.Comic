@@ -18,6 +18,11 @@ constraint[next][0]=BR_C03_Tender
 constraint[prev][0]=BR_C03_Tender
 constraint[prev][1]=none
 sound=3
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=0
+
 emptyimage[e]=./image/brC03.0.0
 emptyimage[n]=./image/brC03.0.3
 emptyimage[ne]=./image/brC03.1.1
@@ -43,6 +48,11 @@ runningcost=0
 cost=0
 length=5
 constraint[prev][0]=BR_C03
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=0
+
 emptyimage[e]=./image/brC03.2.2
 emptyimage[n]=./image/brC03.2.3
 emptyimage[ne]=./image/brC03.3.1

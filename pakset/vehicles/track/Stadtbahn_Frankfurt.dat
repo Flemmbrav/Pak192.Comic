@@ -31,6 +31,10 @@ Constraint[Prev][2]=none
 Constraint[Next][0]=U5_2-VGF
 Constraint[Next][1]=U5_4-VGF
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U5.0.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U5.0.2
 EmptyImage[SE]=./image/Stadtbahn_Frankfurt_U5.1.0
@@ -67,6 +71,10 @@ Constraint[Next][0]=U4_1-VGF
 Constraint[Next][1]=U5_1-VGF
 Constraint[Next][2]=none
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U5.2.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U5.2.2
 EmptyImage[SE]=./image/Stadtbahn_Frankfurt_U5.3.0
@@ -101,6 +109,10 @@ Constraint[Prev][0]=U5_4-VGF
 Constraint[Next][0]=U5_2-VGF
 Constraint[Next][1]=U5_4-VGF
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U5_5.0.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U5_5.0.2
 EmptyImage[SE]=./image/Stadtbahn_Frankfurt_U5_5.1.0
@@ -134,6 +146,10 @@ loading_time=660
 Constraint[Prev][0]=U5_1-VGF
 Constraint[Prev][1]=U5_3-VGF
 Constraint[Next][0]=U5_3-VGF
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U5_5.2.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U5_5.2.2
@@ -172,6 +188,10 @@ Constraint[Prev][1]=U5_2-VGF
 Constraint[Prev][2]=none
 Constraint[Next][0]=U4_2-VGF
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U4.0.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U4.0.2
 EmptyImage[SE]=./image/Stadtbahn_Frankfurt_U4.1.0
@@ -206,6 +226,10 @@ Constraint[Prev][0]=U4_1-VGF
 Constraint[Next][0]=U4_1-VGF
 Constraint[Next][1]=U5_1-VGF
 Constraint[Next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U4.2.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U4.2.2
@@ -243,6 +267,10 @@ Constraint[Prev][0]=U3_2-VGF
 Constraint[Prev][1]=none
 Constraint[Next][0]=U3_2-VGF
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U3.0.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U3.0.2
 EmptyImage[SE]=./image/Stadtbahn_Frankfurt_U3.1.0
@@ -276,6 +304,10 @@ loading_time=1590
 Constraint[Prev][0]=U3_1-VGF
 Constraint[Next][0]=U3_1-VGF
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U3.2.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U3.2.2
@@ -313,6 +345,10 @@ Constraint[Prev][0]=U2_2-VGF
 Constraint[Prev][1]=none
 Constraint[Next][0]=U2_2-VGF
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U2.0.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U2.0.2
 EmptyImage[SE]=./image/Stadtbahn_Frankfurt_U2.1.0
@@ -346,6 +382,10 @@ loading_time=1620
 Constraint[Prev][0]=U2_1-VGF
 Constraint[Next][0]=U2_1-VGF
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/Stadtbahn_Frankfurt_U2.2.3
 EmptyImage[E]=./image/Stadtbahn_Frankfurt_U2.2.2

@@ -22,7 +22,11 @@ speed=200
 length=12
 waytype=narrowgauge_track
 
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/SNCB_199X.0.1
 EmptyImage[E]=./image/SNCB_199X.0.0
@@ -50,6 +54,10 @@ waytype=narrowgauge_track
 
 #constraint[next][0]=SNCB_I_11_Wagen_1996_0
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/SNCB_199X.2.1
 EmptyImage[E]=./image/SNCB_199X.2.0
 EmptyImage[SE]=./image/SNCB_199X.2.4
@@ -74,8 +82,12 @@ speed=200
 length=12
 waytype=narrowgauge_track
 
-constraint[prev][0]=any
+#constraint[prev][0]=any
 #constraint[prev][0]=SNCB_I_11_Wagen_1996_0
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/SNCB_199X.3.1
 EmptyImage[E]=./image/SNCB_199X.3.0
@@ -106,6 +118,10 @@ engine_type=electric
 
 constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_1
 constraint[next][0]=SNCB_AM_96_Triebwagen_1996_2
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/SNCB_199X.1.1
 EmptyImage[E]=./image/SNCB_199X.1.0
@@ -140,6 +156,10 @@ constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_2
 constraint[prev][1]=none
 constraint[next][0]=SNCB_AM_96_Triebwagen_1996_0
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/SNCB_199X.4.1
 EmptyImage[E]=./image/SNCB_199X.4.0
 EmptyImage[SE]=./image/SNCB_199X.4.4
@@ -171,6 +191,10 @@ constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_0
 constraint[next][0]=SNCB_AM_96_Triebwagen_1996_1
 constraint[next][1]=none
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/SNCB_199X.5.1
 EmptyImage[E]=./image/SNCB_199X.5.0
 EmptyImage[SE]=./image/SNCB_199X.5.4
@@ -194,6 +218,11 @@ speed=200
 length=10
 waytype=narrowgauge_track
 engine_type=electric
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/SNCB_199X.6.1
 EmptyImage[E]=./image/SNCB_199X.6.0
 EmptyImage[SE]=./image/SNCB_199X.6.4

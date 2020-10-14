@@ -37,6 +37,10 @@ constraint[prev][1]=ICE_DB_412_2
 constraint[prev][2]=none
 constraint[next][0]=ICE_DB_407_3
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=image/ICE_DB_407.0.0
 EmptyImage[S]=image/ICE_DB_407.0.1
 EmptyImage[W]=image/ICE_DB_407.0.2
@@ -70,6 +74,10 @@ length=12
 
 constraint[prev][0]=ICE_DB_407_1
 constraint[next][0]=ICE_DB_407_4
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[E]=image/ICE_DB_407.3.0
 EmptyImage[S]=image/ICE_DB_407.3.1
@@ -110,6 +118,10 @@ constraint[prev][1]=ICE_DB_407_4
 constraint[next][0]=ICE_DB_407_4
 constraint[next][1]=ICE_DB_407_5
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=image/ICE_DB_407.2.0
 EmptyImage[S]=image/ICE_DB_407.2.1
 EmptyImage[W]=image/ICE_DB_407.2.2
@@ -143,6 +155,10 @@ length=12
 
 constraint[prev][0]=ICE_DB_407_4
 constraint[next][0]=ICE_DB_407_2
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[E]=image/ICE_DB_407.4.0
 EmptyImage[S]=image/ICE_DB_407.4.1
@@ -182,6 +198,10 @@ constraint[prev][0]=ICE_DB_407_5
 constraint[next][0]=ICE_DB_407_1
 constraint[next][1]=ICE_DB_412_1
 constraint[next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[E]=image/ICE_DB_407.1.0
 EmptyImage[S]=image/ICE_DB_407.1.1

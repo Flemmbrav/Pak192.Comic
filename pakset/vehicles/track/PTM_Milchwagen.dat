@@ -14,7 +14,12 @@ freight=milk
 length=6
 loading_time=660
 waytype=narrowgauge_track
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Milchwagen1.0.1
 EmptyImage[E]=./image/Milchwagen1.0.0
 EmptyImage[SE]=./image/Milchwagen1.1.0
@@ -49,7 +54,12 @@ runningcost=403
 cost=4428030
 length=8
 loading_time=4030
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[N]=./image/Milchwagen2.1.1
 EmptyImage[S]=./image/Milchwagen2.0.1
 EmptyImage[E]=./image/Milchwagen2.0.0

@@ -17,6 +17,11 @@ runningcost=2262
 waytype=narrowgauge_track
 engine_type=diesel
 smoke=smoke_diesel_thick_long
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/DR_BR130_Ludmilla.0.3
 EmptyImage[E]=./image/DR_BR130_Ludmilla.0.2
 EmptyImage[SE]=./image/DR_BR130_Ludmilla.1.0
@@ -45,6 +50,11 @@ runningcost=4819
 waytype=narrowgauge_track
 engine_type=diesel
 smoke=smoke_diesel_thick_long
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/DR_BR142_Ludmilla.0.3
 EmptyImage[E]=./image/DR_BR142_Ludmilla.0.2
 EmptyImage[SE]=./image/DR_BR142_Ludmilla.1.0

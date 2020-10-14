@@ -30,6 +30,10 @@ loading_time=1630
 Constraint[Prev][0]=none
 Constraint[Next][0]=V_2-WL
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Wien_V.0.3
 EmptyImage[E]=./image/U-Bahn_Wien_V.0.2
 EmptyImage[SE]=./image/U-Bahn_Wien_V.1.0
@@ -66,6 +70,10 @@ Constraint[Next][0]=V_3-WL
 Constraint[Next][1]=V_2-WL
 #Constraint[Next][0]=none
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Wien_V.4.3
 EmptyImage[E]=./image/U-Bahn_Wien_V.4.2
 EmptyImage[SE]=./image/U-Bahn_Wien_V.5.0
@@ -99,6 +107,10 @@ Constraint[Prev][0]=V_2-WL
 #Constraint[Next][0]=V_1-WL
 #Constraint[Next][1]=none
 Constraint[Next][0]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Wien_V.2.3
 EmptyImage[E]=./image/U-Bahn_Wien_V.2.2
@@ -135,6 +147,10 @@ Constraint[Prev][1]=none
 #Constraint[Prev][0]=none
 Constraint[Next][0]=U_2-WL
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Wien_U.0.3
 EmptyImage[E]=./image/U-Bahn_Wien_U.0.2
 EmptyImage[SE]=./image/U-Bahn_Wien_U.1.0
@@ -169,6 +185,10 @@ Constraint[Prev][0]=U_1-WL
 Constraint[Next][0]=U_1-WL
 Constraint[Next][1]=none
 #Constraint[Next][0]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Wien_U.2.3
 EmptyImage[E]=./image/U-Bahn_Wien_U.2.2

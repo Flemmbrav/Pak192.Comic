@@ -24,6 +24,10 @@ constraint[next][0]=OBB_4010_Mittelwagen
 constraint[next][1]=OBB_4010_Steuerwagen_2
 constraint[next][2]=OBB_4010_Triebkopf_2
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/4010.0.1
 EmptyImage[E]=./image/4010.0.0
 EmptyImage[SE]=./image/4010.0.4
@@ -59,6 +63,10 @@ constraint[next][0]=OBB_4010_Mittelwagen
 constraint[next][1]=OBB_4010_Steuerwagen_2
 constraint[next][2]=OBB_4010_Triebkopf_2
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/4010.1.1
 EmptyImage[E]=./image/4010.1.0
 EmptyImage[SE]=./image/4010.1.4
@@ -93,6 +101,10 @@ constraint[prev][2]=OBB_4010_Triebkopf_1
 constraint[next][0]=OBB_4010_Steuerwagen_1
 constraint[next][1]=OBB_4010_Triebkopf_1
 constraint[next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/4010.2.1
 EmptyImage[E]=./image/4010.2.0
@@ -131,6 +143,10 @@ constraint[next][0]=OBB_4010_Mittelwagen
 constraint[next][1]=OBB_4010_Steuerwagen_2
 constraint[next][2]=OBB_4010_Triebkopf_2
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/4010.3.1
 EmptyImage[E]=./image/4010.3.0
 EmptyImage[SE]=./image/4010.3.4
@@ -167,6 +183,10 @@ constraint[prev][2]=OBB_4010_Triebkopf_1
 constraint[next][0]=OBB_4010_Steuerwagen_1
 constraint[next][1]=OBB_4010_Triebkopf_1
 constraint[next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/4010.4.1
 EmptyImage[E]=./image/4010.4.0

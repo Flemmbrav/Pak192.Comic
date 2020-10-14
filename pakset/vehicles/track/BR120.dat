@@ -16,6 +16,11 @@ speed=200
 length=10
 waytype=narrowgauge_track
 engine_type=electric
+
+has_front_cab=1
+has_rear_cab=1
+is_bidirectional=1
+
 EmptyImage[S]=./image/BR_120_0.0.3
 EmptyImage[E]=./image/BR_120_0.0.2
 EmptyImage[SE]=./image/BR_120_0.1.0
@@ -44,6 +49,11 @@ speed=200
 length=10
 waytype=narrowgauge_track
 engine_type=electric
+
+has_front_cab=1
+has_rear_cab=1
+is_bidirectional=1
+
 EmptyImage[S]=./image/BR_120_101.0.3
 EmptyImage[E]=./image/BR_120_101.0.2
 EmptyImage[SE]=./image/BR_120_101.1.0

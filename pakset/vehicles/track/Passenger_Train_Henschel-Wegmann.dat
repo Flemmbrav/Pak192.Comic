@@ -17,8 +17,12 @@ length=10
 waytype=narrowgauge_track
 engine_type=steam
 
-constraint[prev][0]=BR_61
-constraint[prev][1]=none
+#constraint[prev][0]=BR_61
+#constraint[prev][1]=none
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/BR_61.0.1
 EmptyImage[E]=./image/BR_61.0.0
@@ -51,6 +55,10 @@ constraint[prev][1]=Henschel-Wegmann
 constraint[next][0]=Henschel-Wegmann
 constraint[next][1]=Henschel-Wegmann_kuppel
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/henschel-wegmann.0.1
 EmptyImage[E]=./image/henschel-wegmann.0.0
 EmptyImage[SE]=./image/henschel-wegmann.0.4
@@ -78,10 +86,15 @@ waytype=narrowgauge_track
 loading_time=2970
 
 #constraint[prev][0]=BR_61
+#constraint[prev][1]=none
 #constraint[prev][1]=Henschel-Wegmann_kuppel
-constraint[prev][0]=any
+#constraint[prev][0]=any
 constraint[next][0]=Henschel-Wegmann
 constraint[next][1]=Henschel-Wegmann_kuppel
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/henschel-wegmann.1.1
 EmptyImage[E]=./image/henschel-wegmann.1.0
@@ -109,11 +122,16 @@ length=12
 waytype=narrowgauge_track
 loading_time=5310
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Henschel-Wegmann
 constraint[prev][1]=Henschel-Wegmann_bistro
-constraint[next][0]=Henschel-Wegmann
-constraint[next][1]=Henschel-Wegmann_bistro
-constraint[next][2]=none
+#constraint[next][0]=Henschel-Wegmann
+#constraint[next][1]=Henschel-Wegmann_bistro
+#constraint[next][2]=BR_61
+#constraint[next][3]=none
 
 EmptyImage[S]=./image/henschel-wegmann.2.1
 EmptyImage[E]=./image/henschel-wegmann.2.0

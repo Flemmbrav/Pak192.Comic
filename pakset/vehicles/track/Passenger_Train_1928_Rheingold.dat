@@ -16,6 +16,11 @@ waytype=narrowgauge_track
 loading_time=4910
 constraint[prev][0]=any
 constraint[next][0]=Rheingold_1928_2
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Rheingold_1928.1.1
 EmptyImage[E]=./image/Rheingold_1928.1.0
 EmptyImage[SE]=./image/Rheingold_1928.1.4
@@ -42,6 +47,11 @@ length=12
 waytype=narrowgauge_track
 loading_time=4910
 constraint[prev][0]=Rheingold_1928_1
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Rheingold_1928.0.1
 EmptyImage[E]=./image/Rheingold_1928.0.0
 EmptyImage[SE]=./image/Rheingold_1928.0.4
@@ -68,6 +78,11 @@ length=12
 waytype=narrowgauge_track
 loading_time=12610
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Rheingold_1928.2.1
 EmptyImage[E]=./image/Rheingold_1928.2.0
 EmptyImage[SE]=./image/Rheingold_1928.2.4

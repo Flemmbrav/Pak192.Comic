@@ -25,6 +25,10 @@ constraint[prev][1]=none
 constraint[next][0]=VT_04_PC-2
 constraint[next][1]=VT_04_PC-3
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/SVT_Hamburg_PC.1.1
 EmptyImage[E]=./image/SVT_Hamburg_PC.1.0
 EmptyImage[SE]=./image/SVT_Hamburg_PC.1.4
@@ -61,6 +65,10 @@ constraint[prev][0]=VT_04_PC-1
 constraint[next][0]=VT_04_PC-3
 #constraint[next][1]=VT_04_PC-2
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/SVT_Hamburg_PC.0.1
 EmptyImage[E]=./image/SVT_Hamburg_PC.0.0
 EmptyImage[SE]=./image/SVT_Hamburg_PC.0.4
@@ -96,6 +104,10 @@ constraint[prev][0]=VT_04_PC-1
 constraint[prev][1]=VT_04_PC-2
 constraint[next][0]=VT_04_PC-1
 constraint[next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/SVT_Hamburg_PC.2.1
 EmptyImage[E]=./image/SVT_Hamburg_PC.2.0
@@ -137,6 +149,10 @@ constraint[next][0]=VT_07_PC-3
 constraint[next][1]=VT_07_PC-4
 constraint[next][2]=VT_07_PC-5
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/SVT_Berlin_PC.1.1
 EmptyImage[E]=./image/SVT_Berlin_PC.1.0
 EmptyImage[SE]=./image/SVT_Berlin_PC.1.4
@@ -173,6 +189,10 @@ constraint[prev][2]=none
 constraint[next][0]=VT_07_PC-3
 constraint[next][1]=VT_07_PC-4
 constraint[next][2]=VT_07_PC-5
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/SVT_Berlin_PC.3.1
 EmptyImage[E]=./image/SVT_Berlin_PC.3.0
@@ -212,6 +232,10 @@ constraint[next][0]=VT_07_PC-3
 constraint[next][1]=VT_07_PC-4
 constraint[next][2]=VT_07_PC-5
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/SVT_Berlin_PC.0.1
 EmptyImage[E]=./image/SVT_Berlin_PC.0.0
 EmptyImage[SE]=./image/SVT_Berlin_PC.0.4
@@ -250,6 +274,10 @@ constraint[next][0]=VT_07_PC-1
 constraint[next][1]=VT_07_PC-2
 constraint[next][2]=none
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/SVT_Berlin_PC.2.1
 EmptyImage[E]=./image/SVT_Berlin_PC.2.0
 EmptyImage[SE]=./image/SVT_Berlin_PC.2.4
@@ -286,6 +314,10 @@ constraint[prev][2]=VT_07_PC-3
 constraint[next][0]=VT_07_PC-1
 constraint[next][1]=VT_07_PC-2
 constraint[next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/SVT_Berlin_PC.4.1
 EmptyImage[E]=./image/SVT_Berlin_PC.4.0

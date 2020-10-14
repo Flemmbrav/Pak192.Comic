@@ -11,7 +11,12 @@ runningcost=571
 cost=6280313
 length=8
 loading_time=5260
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[s]=./image/SBB_Z2.0.1
 emptyimage[se]=./image/SBB_Z2.0.2
 emptyimage[sw]=./image/SBB_Z2.0.3

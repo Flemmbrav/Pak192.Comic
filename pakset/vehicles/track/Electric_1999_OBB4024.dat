@@ -25,6 +25,10 @@ Constraint[Prev][0]=OBB_4024_3
 Constraint[Prev][1]=none
 Constraint[Next][0]=OBB_4024_2
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/OBB_4024.0.3
 EmptyImage[E]=./image/OBB_4024.0.2
 EmptyImage[SE]=./image/OBB_4024.1.0
@@ -60,6 +64,10 @@ Constraint[Prev][0]=OBB_4024_1
 Constraint[Prev][1]=OBB_4024_2
 Constraint[Next][0]=OBB_4024_2
 Constraint[Next][1]=OBB_4024_3
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/OBB_4024.4.3
 EmptyImage[E]=./image/OBB_4024.4.2
@@ -97,6 +105,10 @@ loading_time=3860
 Constraint[Prev][0]=OBB_4024_2
 Constraint[Next][0]=OBB_4024_1
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/OBB_4024.2.3
 EmptyImage[E]=./image/OBB_4024.2.2
