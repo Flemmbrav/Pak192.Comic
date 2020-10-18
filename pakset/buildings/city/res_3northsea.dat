@@ -1651,8 +1651,8 @@ Chance=40
 level=12
 needs_ground=0
 BackImage[0][0][0][0-1][0][0-1]=images/res/northsea/12_E0_01.<1-$0>.<$1>
-#Frontimage[0][0][0][1][0-2][1]=images/smoke_l.0.<$1>,28,163
-Frontimage[0][0][0][0][0-2][1]=images/smoke_l.0.<$1>,-22,-22
+#Frontimage[0][0][0][1][0-2][1]=images/smoke_l.0.<$0>,28,163
+Frontimage[0][0][0][0][0-2][1]=images/smoke_l.0.<$>,-22,-22
 ---
 Obj=building
 Name=res_cl3_E0_02_12
@@ -1667,8 +1667,8 @@ Chance=20
 level=12
 needs_ground=0
 BackImage[0][0][0][0-1][0][0-1]=images/res/northsea/12_E0_01.<3-$0>.<$1>
-#Frontimage[0][0][0][1][0-2][1]=images/smoke_l.0.<$1>,28,163
-Frontimage[0][0][0][0][0-2][1]=images/smoke_l.0.<$1>,-22,-22
+#Frontimage[0][0][0][1][0-2][1]=images/smoke_l.0.<$0>,28,163
+Frontimage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,-22,-22
 ---
 Obj=building
 Name=res_cl3_E0_03_12
@@ -1683,8 +1683,8 @@ Chance=10
 level=12
 needs_ground=0
 BackImage[0][0][0][0-1][0][0-1]=images/res/northsea/12_E0_01.<5-$0>.<$1>
-#Frontimage[0][0][0][1][0-2][1]=images/smoke_l.0.<$1>,28,163
-Frontimage[0][0][0][0][0-2][1]=images/smoke_l.0.<$1>,-22,-22
+#Frontimage[0][0][0][1][0-2][1]=images/smoke_l.0.<$0>,28,163
+Frontimage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,-22,-22
 ---
 Obj=building
 Name=res_cl3_E4_01_12
