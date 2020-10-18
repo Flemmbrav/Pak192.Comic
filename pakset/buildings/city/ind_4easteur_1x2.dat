@@ -228,9 +228,9 @@ needs_ground=0
 climates=tundra
 dims=1,2,2
 BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_15_01.0.<1-$0+$1*6>
-BackImage[0][1][0][1][0][0-1]=images/1x2/ind/E3_15_01.0.<4+$1*6>
+BackImage[0][1][0][1][0][0-1]=images/1x2/ind/E3_15_01.0.<4+$0*6>
 BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_15_01.0.<2+$0+$1*6>
-BackImage[1][0][1][1][0][0-1]=images/1x2/ind/E3_15_01.0.<5+$1*6>
+BackImage[1][0][1][1][0][0-1]=images/1x2/ind/E3_15_01.0.<5+$0*6>
 ---
 Obj=building
 name=ind_cl4_1x2_E3_02_15

@@ -583,9 +583,8 @@ freight=Passagiere
 payload=56
 cost=8398833
 runningcost=347
-weight=25
-#geschaetzt
-power=296
+weight=33
+power=300
 gear=100
 speed=60
 #geschaetzt
@@ -621,8 +620,7 @@ freight=Passagiere
 payload=56
 cost=2116884
 runningcost=192
-weight=25
-#geschaetzt
+weight=20
 speed=60
 #geschaetzt
 length=9
@@ -659,7 +657,7 @@ freight=Passagiere
 payload=71
 cost=6719186
 runningcost=330
-weight=30
+weight=32
 #geschaetzt
 power=200
 gear=100
@@ -697,7 +695,7 @@ freight=Passagiere
 payload=71
 cost=6719186
 runningcost=330
-weight=30
+weight=32
 #geschaetzt
 power=200
 gear=100
