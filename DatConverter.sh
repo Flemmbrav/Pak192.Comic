@@ -294,7 +294,7 @@ calculatecosts(){
 		
 		if [[ ! -z ${ObjectArray[engine_type]} ]] ;then
 			if [[ ${ObjectArray[engine_type]} == "electric" ]] ;then
-				PowerValue=$(( PowerValue  / 100 * 85 ))
+				PowerValue=$(( PowerValue  / 100 * 75 ))
 			fi
 		fi
 		PowerValue=$(( PowerValue / 1000 ))

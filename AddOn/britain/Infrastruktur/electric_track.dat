@@ -5,7 +5,7 @@ intro_month=1
 intro_year=1959
 waytype=narrowgauge_track
 cost=64000
-maintenance=400
+maintenance=2000
 topspeed=160
 own_waytype=electrified_track
 
