@@ -313,7 +313,7 @@ calculatecosts(){
 	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
 	#local FixCost=$(( RunningCost * 240 ))
 	local speed=${ObjectArray[speed]}
-	if [[${ObjectArray[is_tilting]} == 1]]
+	if [[${ObjectArray[is_tilting]} == 1]] ;then
 		speed=$(( speed + 10 ))
 	fi
 	#speed=$(( speed - 10 ))
