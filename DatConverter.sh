@@ -191,11 +191,7 @@ getincome() {
 	GoodSpeedBonus=$(( GoodSpeedBonus + 2 ))
 	#echo "Speed: $Speed ; GoodSpeedBonus: $GoodSpeedBonus ; SpeedBonus: $SpeedBonus"
 	#calculate the speedbonus multiplied by 10.000
-	if [ $SpeedBonus -eq 0 ];then
-		Income=10000
-	else
-		Income=$(( (( Speed * 1000 / SpeedBonus ) - 1000 ) * ( GoodSpeedBonus ) + 10000 ))
-	fi
+	Income=10000
 	#calculate the income
 	Income=$(( Income * Payload * GoodValue / 3 ))
 	#lowering the multiplyer to times 10
@@ -312,17 +308,16 @@ calculatecosts(){
 	local RunningCost=$(( Income + PowerValue ))
 	RunningCost=$(( RunningCost / 4000 ))
 	local LoadingTime=$(( Income / 300 ))
-	
+	local MinLoadingTime=$(( 10 + LoadingTime / 10 ))
+	LoadingTime=$(( 10 + LoadingTime ))
 	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
 	#local FixCost=$(( RunningCost * 240 ))
 	local speed=${ObjectArray[speed]}
-	#speed=$(( speed - 10 ))
-	local FixCost=$(( RunningCost * speed * 5 / 3 ))
-	#speed=$(( speed + 150 ))
-	if [[ $speed -gt 160 ]] ;then
-		speed=160
+	if [[${ObjectArray[is_tilting]} == 1]]
+		speed=$(( speed + 10 ))
 	fi
-	FixCost=$(( FixCost * speed / 160 ))
+	#speed=$(( speed - 10 ))
+	local FixCost=$(( RunningCost * speed * 1000 / 3 ))
 	RunningCost=$(( RunningCost / 10 ))
 	if [[ $ForcingNewValues == 1 ]];then
 		echo "loading_time=$LoadingTime" >> calculated/$dat
@@ -330,11 +325,24 @@ calculatecosts(){
 		echo "cost=$Cost" >> calculated/$dat
 		echo "fixed_cost=$FixCost" >> calculated/$dat
 	else
-		if [[ ! -z ${ObjectArray[loading_time]} ]] ;then
-			echo "loading_time=${ObjectArray[loading_time]}" >> calculated/$dat
+		#if [[ ! -z ${ObjectArray[loading_time]} ]] ;then
+		#	echo "loading_time=${ObjectArray[loading_time]}" >> calculated/$dat
+		#else
+		#	echo "loading_time=$LoadingTime" >> calculated/$dat			
+		#fi
+		
+		if [[ ! -z ${ObjectArray[min_loading_time]} ]] ;then
+			echo "min_loading_time=${ObjectArray[min_loading_time]}" >> calculated/$dat
 		else
-			echo "loading_time=$LoadingTime" >> calculated/$dat			
+			echo "min_loading_time=$MinLoadingTime" >> calculated/$dat				
 		fi
+		if [[ ! -z ${ObjectArray[max_loading_time]} ]] ;then
+			echo "max_loading_time=${ObjectArray[max_loading_time]}" >> calculated/$dat
+		else
+			echo "max_loading_time=$LoadingTime" >> calculated/$dat			
+		fi
+		
+		
 		if [[ ! -z ${ObjectArray[runningcost]} ]] ;then
 			echo "runningcost=${ObjectArray[runningcost]}" >> calculated/$dat
 		else
@@ -499,9 +507,9 @@ writevehicle() {
 		echo "power=${ObjectArray[power]}" >> calculated/$dat
 	fi
 	#only write in the gear if it is given
-	if [[ ! -z ${ObjectArray[gear]} ]] ;then
-		echo "gear=${ObjectArray[gear]}" >> calculated/$dat
-	fi
+	#if [[ ! -z ${ObjectArray[gear]} ]] ;then
+	#	echo "gear=${ObjectArray[gear]}" >> calculated/$dat
+	#fi
 	echo  >> calculated/$dat
 #Freigth
 	#only write in the freigth if it is given
@@ -596,12 +604,6 @@ writevehicle() {
 	fi
 	if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
 		echo "catering_level=${ObjectArray[catering_level]}" >> calculated/$dat
-	fi
-	if [[ ! -z ${ObjectArray[min_loading_time]} ]] ;then
-		echo "min_loading_time=${ObjectArray[min_loading_time]}" >> calculated/$dat
-	fi
-	if [[ ! -z ${ObjectArray[max_loading_time]} ]] ;then
-		echo "max_loading_time=${ObjectArray[max_loading_time]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[mixed_load_prohibition]} ]] ;then
 		echo "mixed_load_prohibition=${ObjectArray[mixed_load_prohibition]}" >> calculated/$dat
