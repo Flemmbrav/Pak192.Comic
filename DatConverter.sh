@@ -284,12 +284,7 @@ calculatecosts(){
 	local PowerValue=0
 	if [[ ! -z ${ObjectArray[power]} ]] ;then
 		local EffectivePower=${ObjectArray[power]}
-		if [[ ! -z ${ObjectArray[gear]} ]] ;then
-			local Gear=${ObjectArray[gear]}
-			EffectivePower=$(( EffectivePower * Gear ))
-		else
-			EffectivePower=$(( EffectivePower * 100 ))
-		fi
+		EffectivePower=$(( EffectivePower * 100 ))
 		PowerValue="$(getincome "None" $EffectivePower ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
 		
 		if [[ ! -z ${ObjectArray[engine_type]} ]] ;then
