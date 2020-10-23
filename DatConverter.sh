@@ -317,7 +317,7 @@ calculatecosts(){
 		speed=$(( speed + 10 ))
 	fi
 	#speed=$(( speed - 10 ))
-	local FixCost=$(( RunningCost * speed * 1000 / 3 ))
+	local FixCost=$(( RunningCost * speed * 1000 / 300 ))
 	RunningCost=$(( RunningCost / 10 ))
 	if [[ $ForcingNewValues == 1 ]];then
 		echo "loading_time=$LoadingTime" >> calculated/$dat
