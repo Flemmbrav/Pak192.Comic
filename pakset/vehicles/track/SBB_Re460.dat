@@ -14,6 +14,11 @@ weight=84
 RunningCost=8640
 length=8
 engine_type=electric
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[N]=./image/Re_460.1.1
 EmptyImage[S]=./image/Re_460.0.1
 EmptyImage[E]=./image/Re_460.0.0

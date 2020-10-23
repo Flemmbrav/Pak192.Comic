@@ -21,6 +21,11 @@ constraint[next][0]=BR 613_2
 constraint[next][1]=BR 613_3
 constraint[prev][0]=BR 613_3
 constraint[prev][1]=none
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/BR_613.0.3
 EmptyImage[E]=./image/BR_613.0.2
 EmptyImage[SE]=./image/BR_613.1.0
@@ -46,8 +51,14 @@ runningcost=368
 cost=4044521
 loading_time=3680
 length=9
+engine_type=diesel
 constraint[next][0]=BR 613_3
 constraint[prev][0]=BR 613_1
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/BR_613.4.3
 EmptyImage[E]=./image/BR_613.4.2
 EmptyImage[SE]=./image/BR_613.5.0
@@ -81,6 +92,11 @@ constraint[next][1]=none
 constraint[next][0]=BR 613_1
 constraint[prev][0]=BR 613_1
 constraint[prev][1]=BR 613_2
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/BR_613.2.3
 EmptyImage[E]=./image/BR_613.2.2
 EmptyImage[SE]=./image/BR_613.3.0

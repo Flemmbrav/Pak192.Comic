@@ -23,6 +23,11 @@ constraint[prev][0]=BR 650
 constraint[prev][1]=none
 constraint[next][0]=BR 650
 constraint[next][1]=none
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/BR_650.0.1
 EmptyImage[E]=./image/BR_650.0.0
 EmptyImage[SE]=./image/BR_650.0.4

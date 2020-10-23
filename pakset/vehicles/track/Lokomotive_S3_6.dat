@@ -24,6 +24,11 @@ EmptyImage[SE]=./image/S3_6.0.4
 EmptyImage[NE]=./image/S3_6.0.5
 EmptyImage[NW]=./image/S3_6.0.6
 EmptyImage[SW]=./image/S3_6.0.7
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=0
+
 constraint[prev][0]=S3_6_Tender
 constraint[prev][1]=none
 constraint[next][0]=S3_6_Tender
@@ -49,4 +54,9 @@ EmptyImage[SE]=./image/S3_6.1.4
 EmptyImage[NE]=./image/S3_6.1.5
 EmptyImage[NW]=./image/S3_6.1.6
 EmptyImage[SW]=./image/S3_6.1.7
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=0
+
 constraint[prev][0]=S3_6

@@ -29,6 +29,10 @@ Constraint[Prev][0]=M_3-VRR
 Constraint[Prev][1]=none
 Constraint[Next][0]=M_2-VRR
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/M-VRR.0.3
 EmptyImage[E]=./image/M-VRR.0.2
 EmptyImage[SE]=./image/M-VRR.1.0
@@ -59,6 +63,10 @@ loading_time=840
 
 Constraint[Prev][0]=M_1-VRR
 Constraint[Next][0]=M_3-VRR
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/M-VRR.2.3
 EmptyImage[E]=./image/M-VRR.2.2
@@ -93,6 +101,10 @@ loading_time=1260
 Constraint[Prev][0]=M_2-VRR
 Constraint[Next][0]=M_1-VRR
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/M-VRR.4.3
 EmptyImage[E]=./image/M-VRR.4.2
@@ -130,6 +142,10 @@ Constraint[Prev][0]=Tango_3-VRR
 Constraint[Prev][1]=none
 Constraint[Next][0]=Tango_2-VRR
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Tango-VRR.0.3
 EmptyImage[E]=./image/Tango-VRR.0.2
 EmptyImage[SE]=./image/Tango-VRR.1.0
@@ -160,6 +176,10 @@ loading_time=260
 
 Constraint[Prev][0]=Tango_1-VRR
 Constraint[Next][0]=Tango_3-VRR
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/Tango-VRR.2.3
 EmptyImage[E]=./image/Tango-VRR.2.2
@@ -194,6 +214,10 @@ loading_time=530
 Constraint[Prev][0]=Tango_2-VRR
 Constraint[Next][0]=Tango_1-VRR
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/Tango-VRR.4.3
 EmptyImage[E]=./image/Tango-VRR.4.2
@@ -232,6 +256,10 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=B_2-VRR
 Constraint[Next][1]=B_3-VRR
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/B-VRR.0.3
 EmptyImage[E]=./image/B-VRR.0.2
 EmptyImage[SE]=./image/B-VRR.1.0
@@ -262,6 +290,10 @@ loading_time=1290
 
 Constraint[Prev][0]=B_1-VRR
 Constraint[Next][0]=B_3-VRR
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/B-VRR.2.3
 EmptyImage[E]=./image/B-VRR.2.2
@@ -297,6 +329,10 @@ Constraint[Prev][0]=B_1-VRR
 Constraint[Prev][1]=B_2-VRR
 Constraint[Next][0]=B_1-VRR
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/B-VRR.4.3
 EmptyImage[E]=./image/B-VRR.4.2
@@ -334,6 +370,10 @@ Constraint[Prev][0]=K5000_2-VRR
 Constraint[Prev][1]=none
 Constraint[Next][0]=K5000_2-VRR
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/K5000-VRR.0.3
 EmptyImage[E]=./image/K5000-VRR.0.2
 EmptyImage[SE]=./image/K5000-VRR.1.0
@@ -367,6 +407,10 @@ loading_time=960
 Constraint[Prev][0]=K5000_1-VRR
 Constraint[Next][0]=K5000_1-VRR
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/K5000-VRR.2.3
 EmptyImage[E]=./image/K5000-VRR.2.2
@@ -404,6 +448,10 @@ Constraint[Prev][0]=K4500_3-VRR
 Constraint[Prev][1]=none
 Constraint[Next][0]=K4500_2-VRR
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/K4500-VRR.0.3
 EmptyImage[E]=./image/K4500-VRR.0.2
 EmptyImage[SE]=./image/K4500-VRR.1.0
@@ -436,6 +484,10 @@ loading_time=270
 
 Constraint[Prev][0]=K4500_1-VRR
 Constraint[Next][0]=K4500_3-VRR
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/K4500-VRR.4.3
 EmptyImage[E]=./image/K4500-VRR.4.2
@@ -470,6 +522,10 @@ loading_time=730
 Constraint[Prev][0]=K4500_2-VRR
 Constraint[Next][0]=K4500_1-VRR
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/K4500-VRR.2.3
 EmptyImage[E]=./image/K4500-VRR.2.2
@@ -507,6 +563,10 @@ Constraint[Prev][0]=K4000_3-VRR
 Constraint[Prev][1]=none
 Constraint[Next][0]=K4000_2-VRR
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/K4000-VRR.0.3
 EmptyImage[E]=./image/K4000-VRR.0.2
 EmptyImage[SE]=./image/K4000-VRR.1.0
@@ -539,6 +599,10 @@ loading_time=150
 
 Constraint[Prev][0]=K4000_1-VRR
 Constraint[Next][0]=K4000_3-VRR
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/K4000-VRR.4.3
 EmptyImage[E]=./image/K4000-VRR.4.2
@@ -573,6 +637,10 @@ loading_time=1210
 Constraint[Prev][0]=K4000_2-VRR
 Constraint[Next][0]=K4000_1-VRR
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/K4000-VRR.2.3
 EmptyImage[E]=./image/K4000-VRR.2.2

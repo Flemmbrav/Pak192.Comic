@@ -15,6 +15,11 @@ RunningCost=1606
 length=8
 engine_type=diesel
 smoke=diesel
+
+has_front_cab=1
+has_rear_cab=1
+is_bidirectional=1
+
 EmptyImage[N]=./image/BR119sf.1.1
 EmptyImage[S]=./image/BR119sf.0.1
 EmptyImage[E]=./image/BR119sf.0.0

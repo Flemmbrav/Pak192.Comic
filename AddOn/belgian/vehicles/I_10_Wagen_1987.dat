@@ -14,7 +14,11 @@ speed=160
 length=12
 waytype=narrowgauge_track
 
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 liverytype[0]=C1
 liverytype[1]=SNCB_grey

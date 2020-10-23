@@ -16,6 +16,10 @@ waytype=narrowgauge_track
 loading_time=5710
 constraint[prev][0]=any
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/neubauwagen_1950.0.1
 EmptyImage[E]=./image/neubauwagen_1950.0.0
 EmptyImage[SE]=./image/neubauwagen_1950.0.4
@@ -42,6 +46,10 @@ length=12
 waytype=narrowgauge_track
 loading_time=7640
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/neubauwagen_1950.2.1
 EmptyImage[E]=./image/neubauwagen_1950.2.0

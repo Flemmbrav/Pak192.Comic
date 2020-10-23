@@ -14,6 +14,11 @@ speed=160
 length=12
 waytype=narrowgauge_track
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Interregio_1988.0.1
 EmptyImage[E]=./image/Interregio_1988.0.0
 EmptyImage[SE]=./image/Interregio_1988.0.4

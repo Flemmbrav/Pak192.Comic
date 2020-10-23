@@ -19,6 +19,10 @@ loading_time=4860
 constraint[prev][0]=Electric_2011_Desiro_ML_SNCB_1
 constraint[next][0]=Electric_2011_Desiro_ML_SNCB_3
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/SNCB_AM08.1.<$0>
 -----------
 obj=vehicle
@@ -50,6 +54,10 @@ constraint[prev][6]=Electric_2011_Desiro_ML_SNCB_3
 constraint[prev][7]=none
 constraint[next][0]=Electric_2011_Desiro_ML_SNCB_2
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/SNCB_AM08.0.<$0>
 -----------
 obj=vehicle
@@ -80,5 +88,9 @@ constraint[next][4]=Electric_2007_Desiro_ML_TDR_1
 constraint[next][5]=Electric_2019_Desiro_ML_ODEG_1
 constraint[next][6]=Electric_2011_Desiro_ML_SNCB_1
 constraint[next][7]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/SNCB_AM08.2.<$0>

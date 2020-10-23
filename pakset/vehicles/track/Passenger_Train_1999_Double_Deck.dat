@@ -13,6 +13,10 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1999_Double_Deck.2.<$0>
 -----------
 obj=vehicle
@@ -30,7 +34,11 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1999_Double_Deck.3.<$0>
 ------------
@@ -49,7 +57,11 @@ length=12
 waytype=narrowgauge_track
 loading_time=10760
 
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1999_Double_Deck.0.<$0>
 ------------
@@ -67,6 +79,10 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1999_Double_Deck.1.<$0>

@@ -32,6 +32,10 @@ Constraint[Prev][1]=VTE_2-AKN
 Constraint[Prev][2]=none
 Constraint[Next][0]=VTA_2-AKN
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/VTA-AKN.0.3
 EmptyImage[E]=./image/VTA-AKN.0.2
 EmptyImage[SE]=./image/VTA-AKN.1.0
@@ -67,6 +71,10 @@ Constraint[Prev][0]=VTA_1-AKN
 Constraint[Next][0]=VTA_1-AKN
 Constraint[Next][1]=VTE_1-AKN
 Constraint[Next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/VTA-AKN.2.3
 EmptyImage[E]=./image/VTA-AKN.2.2

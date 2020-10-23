@@ -36,6 +36,10 @@ constraint[next][0]=BR_801_1
 constraint[next][1]=BR_803
 constraint[next][2]=BR_807
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=image/ICE_DB_401.2.0
 EmptyImage[S]=image/ICE_DB_401.2.1
 EmptyImage[W]=image/ICE_DB_401.2.2
@@ -73,6 +77,10 @@ constraint[next][0]=BR_801_2
 constraint[next][1]=BR_402_2
 constraint[next][2]=BR_808_2
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=image/ICE_DB_401.3.0
 EmptyImage[S]=image/ICE_DB_401.3.1
 EmptyImage[W]=image/ICE_DB_401.3.2
@@ -107,6 +115,10 @@ catering_level=4
 constraint[prev][0]=BR_801_1
 constraint[next][0]=BR_801_2
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=image/ICE_DB_401.4.0
 EmptyImage[S]=image/ICE_DB_401.4.1
 EmptyImage[W]=image/ICE_DB_401.4.2
@@ -140,6 +152,10 @@ catering_level=3
 
 constraint[prev][0]=BR_801_1
 constraint[next][0]=BR_801_2
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[E]=image/ICE_DB_401.5.0
 EmptyImage[S]=image/ICE_DB_401.5.1
@@ -176,6 +192,10 @@ constraint[prev][1]=BR_402_2
 constraint[prev][2]=none
 constraint[next][0]=BR_801_1
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=image/ICE_DB_401.0.0
 EmptyImage[S]=image/ICE_DB_401.0.1
 EmptyImage[W]=image/ICE_DB_401.0.2
@@ -210,6 +230,10 @@ constraint[prev][0]=BR_801_2
 constraint[next][0]=BR_402_1
 constraint[next][1]=BR_808_1
 constraint[next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[E]=image/ICE_DB_401.1.0
 EmptyImage[S]=image/ICE_DB_401.1.1
@@ -246,6 +270,10 @@ constraint[prev][0]=BR_808_2
 constraint[prev][1]=none
 constraint[next][0]=BR_801_1
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=image/ICE_DB_401.6.0
 EmptyImage[S]=image/ICE_DB_401.6.1
 EmptyImage[W]=image/ICE_DB_401.6.2
@@ -280,6 +308,10 @@ length=10
 constraint[prev][0]=BR_801_2
 constraint[next][0]=BR_808_1
 constraint[next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[E]=image/ICE_DB_401.7.0
 EmptyImage[S]=image/ICE_DB_401.7.1

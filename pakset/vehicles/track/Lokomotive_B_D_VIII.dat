@@ -17,6 +17,11 @@ waytype=narrowgauge_track
 engine_type=steam
 #constraint[prev][0]=Bayrische_D_VIII
 #constraint[prev][1]=none
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=image/Bayrische_D_VIII.0.1
 EmptyImage[E]=image/Bayrische_D_VIII.0.0
 EmptyImage[SE]=image/Bayrische_D_VIII.0.4

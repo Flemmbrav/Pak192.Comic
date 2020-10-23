@@ -23,7 +23,13 @@ constraint[next][1]=BR_795_beiwagen
 constraint[next][2]=vb141
 constraint[next][3]=none
 constraint[prev][0]=BR_795
-constraint[prev][1]=none
+constraint[prev][1]=BR_795_beiwagen
+constraint[prev][2]=none
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 emptyimage[e]=./image/br795.0.0
 emptyimage[n]=./image/br795.0.3
 emptyimage[ne]=./image/br795.1.1
@@ -51,11 +57,18 @@ cost=3750244
 loading_time=4310
 
 length=8
-constraint[next][0]=BR_795_beiwagen
-constraint[next][1]=vb141
-constraint[next][2]=none
+constraint[next][0]=BR_795
+constraint[next][1]=BR_795_beiwagen
+constraint[next][2]=vb141
+constraint[next][3]=none
 constraint[prev][0]=BR_795
 constraint[prev][1]=BR_795_beiwagen
+constraint[prev][2]=none
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/br795.0.0
 emptyimage[n]=./image/br795.0.3
 emptyimage[ne]=./image/br795.1.1
@@ -86,6 +99,12 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=BR_795
 constraint[prev][1]=BR_795_beiwagen
+constraint[prev][2]=none
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=0
+
 emptyimage[w]=./image/vb141.0.0
 emptyimage[n]=./image/vb141.0.3
 emptyimage[ne]=./image/vb141.1.1
@@ -95,3 +114,4 @@ emptyimage[se]=./image/vb141.1.0
 emptyimage[sw]=./image/vb141.1.3
 emptyimage[e]=./image/vb141.0.2
 freight=Post
+catering_level=8

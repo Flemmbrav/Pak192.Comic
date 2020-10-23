@@ -20,6 +20,11 @@ constraint[next][0]=BR_771_Ferkeltaxe
 constraint[next][1]=none
 constraint[prev][0]=BR_771_Ferkeltaxe
 constraint[prev][1]=none
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 emptyimage[e]=./image/br771.0.0
 emptyimage[n]=./image/br771.0.3
 emptyimage[ne]=./image/br771.1.1

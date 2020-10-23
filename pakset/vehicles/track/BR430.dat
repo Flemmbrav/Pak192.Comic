@@ -26,6 +26,10 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR_430_2
 #Constraint[Next][1]=BR_430_4
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/BR_430.0.3
 EmptyImage[E]=./image/BR_430.0.2
 EmptyImage[SE]=./image/BR_430.1.0
@@ -60,6 +64,10 @@ loading_time=5590
 Constraint[Prev][0]=BR_430_1
 Constraint[Next][0]=BR_430_3
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/BR_430.4.3
 EmptyImage[E]=./image/BR_430.4.2
 EmptyImage[SE]=./image/BR_430.5.0
@@ -93,6 +101,10 @@ loading_time=5590
 
 Constraint[Prev][0]=BR_430_2
 Constraint[Next][0]=BR_430_4
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/BR_430.6.3
 EmptyImage[E]=./image/BR_430.6.2
@@ -129,6 +141,10 @@ Constraint[Prev][0]=BR_430_3
 Constraint[Next][0]=BR_430_1
 Constraint[Next][1]=none
 #Constraint[Next][0]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/BR_430.2.3
 EmptyImage[E]=./image/BR_430.2.2

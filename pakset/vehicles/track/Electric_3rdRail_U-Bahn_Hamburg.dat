@@ -45,6 +45,10 @@ constraint[next][0]=U-Bahn_Hamburg_T1_3
 constraint[next][1]=U-Bahn_Hamburg_T1_4
 constraint[next][2]=U-Bahn_Hamburg_T6_1
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=image/U-Bahn_Hamburg_T1.0.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T1.0.2
 EmptyImage[SE]=image/U-Bahn_Hamburg_T1.1.0
@@ -85,6 +89,10 @@ constraint[next][0]=U-Bahn_Hamburg_T1_3
 constraint[next][1]=U-Bahn_Hamburg_T1_4
 constraint[next][2]=U-Bahn_Hamburg_T6_1
 constraint[next][3]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_T1.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T1.2.2
@@ -152,6 +160,10 @@ constraint[next][12]=TU2.1
 constraint[next][13]=TU2.2
 constraint[next][14]=none
 
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=image/U-Bahn_Hamburg_T1.4.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T1.4.2
 EmptyImage[SE]=image/U-Bahn_Hamburg_T1.5.0
@@ -182,7 +194,7 @@ runningcost=327
 weight=18
 #nicht gesichert, sollen deutlich leichter gewesen sein, als die T6
 power=148
-#kriegsbedingt nur zwei mal 74 kw, eigentlich hätten es vier werden sollen
+#kriegsbedingt nur zwei mal 74 kw, eigentlich hï¿½tten es vier werden sollen
 gear=100
 speed=80
 length=9
@@ -191,6 +203,10 @@ loading_time=2450
 constraint[prev][0]=U-Bahn_Hamburg_T15_2
 constraint[prev][1]=none
 constraint[next][0]=U-Bahn_Hamburg_T15_2
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_T15.0.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T15.0.2
@@ -220,7 +236,7 @@ runningcost=327
 weight=18
 #nicht gesichert, sollen deutlich leichter gewesen sein, als die T6
 power=148
-#kriegsbedingt nur zwei mal 74 kw, eigentlich hätten es vier werden sollen
+#kriegsbedingt nur zwei mal 74 kw, eigentlich hï¿½tten es vier werden sollen
 gear=100
 speed=80
 length=9
@@ -229,6 +245,10 @@ loading_time=2450
 constraint[prev][0]=U-Bahn_Hamburg_T15_1
 constraint[next][0]=U-Bahn_Hamburg_T15_1
 constraint[next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_T15.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T15.2.2
@@ -269,6 +289,10 @@ Constraint[prev][1]=U-Bahn_Hamburg_DT3_3
 Constraint[prev][2]=none
 Constraint[Next][0]=U-Bahn_Hamburg_DT1_2
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=image/U-Bahn_Hamburg_DT1.0.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT1.0.2
 EmptyImage[SE]=image/U-Bahn_Hamburg_DT1.1.0
@@ -305,6 +329,10 @@ Constraint[prev][0]=U-Bahn_Hamburg_DT1_1
 Constraint[Next][0]=U-Bahn_Hamburg_DT1_1
 Constraint[Next][1]=U-Bahn_Hamburg_DT3_1
 Constraint[Next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT1.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT1.2.2
@@ -344,6 +372,10 @@ Constraint[prev][0]=U-Bahn_Hamburg_DT2_2
 Constraint[prev][1]=none
 Constraint[Next][0]=U-Bahn_Hamburg_DT2_2
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=image/U-Bahn_Hamburg_DT2.0.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT2.0.2
 EmptyImage[SE]=image/U-Bahn_Hamburg_DT2.1.0
@@ -379,6 +411,10 @@ loading_time=2190
 Constraint[prev][0]=U-Bahn_Hamburg_DT2_1
 Constraint[Next][0]=U-Bahn_Hamburg_DT2_1
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT2.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT2.2.2
@@ -419,6 +455,10 @@ Constraint[prev][1]=U-Bahn_Hamburg_DT1_2
 Constraint[prev][2]=none
 Constraint[Next][0]=U-Bahn_Hamburg_DT3_2
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=image/U-Bahn_Hamburg_DT3.0.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT3.0.2
 EmptyImage[SE]=image/U-Bahn_Hamburg_DT3.1.0
@@ -453,6 +493,10 @@ loading_time=2300
 
 Constraint[prev][0]=U-Bahn_Hamburg_DT3_1
 Constraint[Next][0]=U-Bahn_Hamburg_DT3_3
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT3.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT3.2.2
@@ -491,6 +535,10 @@ Constraint[Next][0]=U-Bahn_Hamburg_DT3_1
 Constraint[Next][1]=U-Bahn_Hamburg_DT1_1
 Constraint[Next][2]=none
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=image/U-Bahn_Hamburg_DT3.4.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT3.4.2
 EmptyImage[SE]=image/U-Bahn_Hamburg_DT3.5.0
@@ -526,6 +574,10 @@ loading_time=2280
 constraint[prev][0]=U-Bahn_Hamburg_DT4_4
 constraint[prev][1]=none
 constraint[next][0]=U-Bahn_Hamburg_DT4_2
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT4.0.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT4.0.2
@@ -563,6 +615,10 @@ loading_time=2550
 constraint[prev][0]=U-Bahn_Hamburg_DT4_1
 constraint[next][0]=U-Bahn_Hamburg_DT4_3
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=image/U-Bahn_Hamburg_DT4.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT4.2.2
 EmptyImage[SE]=image/U-Bahn_Hamburg_DT4.3.0
@@ -598,6 +654,10 @@ loading_time=2550
 
 constraint[prev][0]=U-Bahn_Hamburg_DT4_2
 constraint[next][0]=U-Bahn_Hamburg_DT4_4
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT4.6.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT4.6.2
@@ -635,6 +695,10 @@ loading_time=2280
 constraint[prev][0]=U-Bahn_Hamburg_DT4_3
 constraint[next][0]=U-Bahn_Hamburg_DT4_1
 constraint[next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT4.4.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT4.4.2
@@ -674,6 +738,10 @@ constraint[prev][0]=U-Bahn_Hamburg_DT5_3
 constraint[prev][1]=none
 constraint[next][0]=U-Bahn_Hamburg_DT5_2
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=image/U-Bahn_Hamburg_DT5.0.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT5.0.2
 EmptyImage[SE]=image/U-Bahn_Hamburg_DT5.1.0
@@ -709,6 +777,10 @@ loading_time=680
 
 constraint[prev][0]=U-Bahn_Hamburg_DT5_1
 constraint[next][0]=U-Bahn_Hamburg_DT5_3
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT5.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT5.2.2
@@ -746,6 +818,10 @@ loading_time=760
 constraint[prev][0]=U-Bahn_Hamburg_DT5_2
 constraint[next][0]=U-Bahn_Hamburg_DT5_1
 constraint[next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT5.4.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT5.4.2

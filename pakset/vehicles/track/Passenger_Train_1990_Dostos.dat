@@ -15,7 +15,11 @@ length=12
 waytype=narrowgauge_track
 loading_time=9430
 
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[E]=./image/Dosto_1990.0.2
 EmptyImage[S]=./image/Dosto_1990.0.3
@@ -47,6 +51,10 @@ loading_time=9180
 #constraint[prev][0]=none
 #constraint[next][0]=Dosto_1990
 
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[E]=./image/Dosto_1990_SWf.0.2
 EmptyImage[S]=./image/Dosto_1990_SWf.0.3
 EmptyImage[W]=./image/Dosto_1990_SWf.0.0
@@ -74,9 +82,13 @@ length=12
 waytype=narrowgauge_track
 loading_time=9180
 
-constraint[prev][0]=any
+#constraint[prev][0]=any
 #constraint[prev][0]=Dosto_1990
 #constraint[next][0]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[E]=./image/Dosto_1990_SWb.0.2
 EmptyImage[S]=./image/Dosto_1990_SWb.0.3
