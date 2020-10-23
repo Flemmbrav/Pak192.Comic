@@ -25,6 +25,10 @@ Constraint[Prev][0]=OBB 5022_1
 Constraint[Prev][1]=none
 Constraint[Next][0]=OBB 5022_1
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/OBB_5022.0.3
 EmptyImage[E]=./image/OBB_5022.0.2
 EmptyImage[SE]=./image/OBB_5022.1.0
@@ -60,6 +64,10 @@ comfort=80
 Constraint[Prev][0]=OBB 5022
 Constraint[Next][0]=OBB 5022
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/OBB_5022.2.3
 EmptyImage[E]=./image/OBB_5022.2.2

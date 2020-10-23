@@ -20,6 +20,11 @@ comfort=80
 constraint[next][0]=OBB_4020w
 constraint[prev][0]=OBB_4020b
 constraint[prev][1]=none
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/4020.0.0
 emptyimage[n]=./image/4020.0.3
 emptyimage[ne]=./image/4020.1.3
@@ -49,6 +54,11 @@ comfort=80
 constraint[next][0]=OBB_4020
 constraint[next][1]=none
 constraint[prev][0]=OBB_4020w
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 emptyimage[e]=./image/4020.4.2
 emptyimage[n]=./image/4020.4.1
 emptyimage[ne]=./image/4020.5.1
@@ -77,6 +87,11 @@ loading_time=4980
 comfort=80
 constraint[next][0]=OBB_4020b
 constraint[prev][0]=OBB_4020
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/4020.2.2
 emptyimage[n]=./image/4020.2.1
 emptyimage[ne]=./image/4020.3.1

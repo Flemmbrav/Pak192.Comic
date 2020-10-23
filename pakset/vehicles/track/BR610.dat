@@ -20,11 +20,14 @@ engine_type=diesel
 smoke=diesel
 loading_time=5580
 
-is_tilting=1
-
 Constraint[Prev][0]=BR_610_2
 Constraint[Prev][1]=none
 Constraint[Next][0]=BR_610_2
+
+is_tilting=1
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/BR_610.0.3
 EmptyImage[E]=./image/BR_610.0.2
@@ -57,11 +60,14 @@ engine_type=diesel
 #smoke=diesel
 loading_time=5580
 
-is_tilting=1
-
 Constraint[Prev][0]=BR_610
 Constraint[Next][0]=BR_610
 Constraint[Next][1]=none
+
+is_tilting=1
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/BR_610.2.3
 EmptyImage[E]=./image/BR_610.2.2

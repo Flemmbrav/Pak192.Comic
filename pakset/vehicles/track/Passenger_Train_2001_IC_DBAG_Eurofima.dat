@@ -1,4 +1,3 @@
-
 obj=vehicle
 name=Eurofima_Wagen_2001_4
 copyright=Flemmbrav
@@ -15,7 +14,12 @@ speed=200
 length=12
 waytype=narrowgauge_track
 loading_time=9650
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 
 liverytype[0]=DB_Fernverkehr
 

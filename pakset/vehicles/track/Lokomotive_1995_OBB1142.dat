@@ -18,6 +18,11 @@ weight=83
 runningcost=3945
 cost=135987134
 length=9
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 emptyimage[e]=./image/OBB_1142.0.0
 emptyimage[n]=./image/OBB_1142.1.1
 emptyimage[ne]=./image/OBB_1142.1.3

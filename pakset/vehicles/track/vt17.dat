@@ -17,6 +17,11 @@ loading_time=2640
 constraint[next][0]=SNL VT17_2
 constraint[prev][0]=SNL VT17_1
 constraint[prev][1]=none
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/vt17.0.0
 emptyimage[n]=./image/vt17.0.3
 emptyimage[ne]=./image/vt17.0.5
@@ -46,6 +51,11 @@ loading_time=2640
 constraint[next][0]=SNL VT17
 constraint[next][1]=none
 constraint[prev][0]=SNL VT17_2
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 emptyimage[e]=./image/vt17_2.0.0
 emptyimage[n]=./image/vt17_2.0.3
 emptyimage[ne]=./image/vt17_2.0.5
@@ -72,6 +82,11 @@ length=12
 loading_time=2820
 constraint[next][0]=SNL VT17_1
 constraint[prev][0]=SNL VT17
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/vt17_1.0.0
 emptyimage[n]=./image/vt17_1.0.3
 emptyimage[ne]=./image/vt17_1.0.5

@@ -26,10 +26,15 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=1430
 
-#Constraint[Prev][0]=H_3-BVG
-#Constraint[Prev][1]=none
-Constraint[Prev][0]=none
+Constraint[Prev][0]=H_3-BVG
+Constraint[Prev][1]=I_3-BVG
+Constraint[Prev][2]=none
+#Constraint[Prev][0]=none
 Constraint[Next][0]=H_2-BVG
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Berlin_H.0.3
 EmptyImage[E]=./image/U-Bahn_Berlin_H.0.2
@@ -66,6 +71,10 @@ Constraint[Prev][1]=H_2-BVG
 Constraint[Next][0]=H_2-BVG
 Constraint[Next][1]=H_3-BVG
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Berlin_H.4.3
 EmptyImage[E]=./image/U-Bahn_Berlin_H.4.2
 EmptyImage[SE]=./image/U-Bahn_Berlin_H.5.0
@@ -97,9 +106,14 @@ engine_type=electric
 loading_time=1430
 
 Constraint[Prev][0]=H_2-BVG
-#Constraint[Next][0]=H_1-BVG
-#Constraint[Next][1]=none
-Constraint[Next][0]=none
+Constraint[Next][0]=H_1-BVG
+Constraint[Next][1]=I_1-BVG
+Constraint[Next][2]=none
+#Constraint[Next][0]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Berlin_H.2.3
 EmptyImage[E]=./image/U-Bahn_Berlin_H.2.2
@@ -133,10 +147,15 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=610
 
-#Constraint[Prev][0]=I_3-BVG
-#Constraint[Prev][1]=none
-Constraint[Prev][0]=none
+Constraint[Prev][0]=I_3-BVG
+Constraint[Prev][1]=H_3-BVG
+Constraint[Prev][2]=none
+#Constraint[Prev][0]=none
 Constraint[Next][0]=I_2-BVG
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Berlin_I.0.3
 EmptyImage[E]=./image/U-Bahn_Berlin_I.0.2
@@ -173,6 +192,10 @@ Constraint[Prev][1]=I_2-BVG
 Constraint[Next][0]=I_2-BVG
 Constraint[Next][1]=I_3-BVG
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Berlin_I.4.3
 EmptyImage[E]=./image/U-Bahn_Berlin_I.4.2
 EmptyImage[SE]=./image/U-Bahn_Berlin_I.5.0
@@ -204,9 +227,14 @@ engine_type=electric
 loading_time=610
 
 Constraint[Prev][0]=I_2-BVG
-#Constraint[Next][0]=I_1-BVG
-#Constraint[Next][1]=none
-Constraint[Next][0]=none
+Constraint[Next][0]=I_1-BVG
+Constraint[Next][1]=H_1-BVG
+Constraint[Next][2]=none
+#Constraint[Next][0]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Berlin_I.2.3
 EmptyImage[E]=./image/U-Bahn_Berlin_I.2.2
@@ -244,6 +272,10 @@ Constraint[Prev][0]=G_2-BVG
 Constraint[Prev][1]=none
 Constraint[Next][0]=G_2-BVG
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Berlin_G.0.3
 EmptyImage[E]=./image/U-Bahn_Berlin_G.0.2
 EmptyImage[SE]=./image/U-Bahn_Berlin_G.1.0
@@ -277,6 +309,10 @@ loading_time=1610
 Constraint[Prev][0]=G_1-BVG
 Constraint[Next][0]=G_1-BVG
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Berlin_G.2.3
 EmptyImage[E]=./image/U-Bahn_Berlin_G.2.2
@@ -314,6 +350,10 @@ Constraint[Prev][0]=F_2-BVG
 Constraint[Prev][1]=none
 Constraint[Next][0]=F_2-BVG
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Berlin_F.0.3
 EmptyImage[E]=./image/U-Bahn_Berlin_F.0.2
 EmptyImage[SE]=./image/U-Bahn_Berlin_F.1.0
@@ -347,6 +387,10 @@ loading_time=2370
 Constraint[Prev][0]=F_1-BVG
 Constraint[Next][0]=F_1-BVG
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Berlin_F.2.3
 EmptyImage[E]=./image/U-Bahn_Berlin_F.2.2
@@ -384,6 +428,10 @@ Constraint[Prev][0]=D_2-BVG
 Constraint[Prev][1]=none
 Constraint[Next][0]=D_2-BVG
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Berlin_D.0.3
 EmptyImage[E]=./image/U-Bahn_Berlin_D.0.2
 EmptyImage[SE]=./image/U-Bahn_Berlin_D.1.0
@@ -417,6 +465,10 @@ loading_time=2410
 Constraint[Prev][0]=D_1-BVG
 Constraint[Next][0]=D_1-BVG
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Berlin_D.2.3
 EmptyImage[E]=./image/U-Bahn_Berlin_D.2.2
@@ -454,6 +506,10 @@ Constraint[Prev][0]=E_2-BVG
 Constraint[Prev][1]=none
 Constraint[Next][0]=E_2-BVG
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Berlin_E.0.3
 EmptyImage[E]=./image/U-Bahn_Berlin_E.0.2
 EmptyImage[SE]=./image/U-Bahn_Berlin_E.1.0
@@ -487,6 +543,10 @@ loading_time=2560
 Constraint[Prev][0]=E_1-BVG
 Constraint[Next][0]=E_1-BVG
 Constraint[Next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Berlin_E.2.3
 EmptyImage[E]=./image/U-Bahn_Berlin_E.2.2
@@ -527,6 +587,10 @@ Constraint[Next][0]=AI_2-BVG
 Constraint[Next][1]=AI_1-BVG
 Constraint[Next][2]=none
 
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Berlin_A.0.3
 EmptyImage[E]=./image/U-Bahn_Berlin_A.0.2
 EmptyImage[SE]=./image/U-Bahn_Berlin_A.1.0
@@ -559,6 +623,10 @@ Constraint[Prev][0]=AI_1-BVG
 Constraint[Prev][1]=AI_2-BVG
 Constraint[Next][0]=AI_1-BVG
 Constraint[Next][1]=AI_2-BVG
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Berlin_A.2.3
 EmptyImage[E]=./image/U-Bahn_Berlin_A.2.2
@@ -599,6 +667,10 @@ Constraint[Prev][2]=none
 Constraint[Next][0]=BI_2-BVG
 Constraint[Next][1]=BI_1-BVG
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Berlin_B.0.3
 EmptyImage[E]=./image/U-Bahn_Berlin_B.0.2
 EmptyImage[SE]=./image/U-Bahn_Berlin_B.1.0
@@ -633,6 +705,10 @@ Constraint[Prev][1]=BI_2-BVG
 Constraint[Next][0]=BI_1-BVG
 Constraint[Next][1]=BI_2-BVG
 Constraint[Next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/U-Bahn_Berlin_B.2.3
 EmptyImage[E]=./image/U-Bahn_Berlin_B.2.2
@@ -674,6 +750,10 @@ Constraint[Prev][2]=none
 Constraint[Next][0]=CII_2-BVG
 Constraint[Next][1]=CII_1-BVG
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/U-Bahn_Berlin_C.0.3
 EmptyImage[E]=./image/U-Bahn_Berlin_C.0.2
 EmptyImage[SE]=./image/U-Bahn_Berlin_C.1.0
@@ -705,6 +785,10 @@ length=11
 waytype=narrowgauge_track
 engine_type=electric
 loading_time=2250
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[Prev][0]=CII_1-BVG
 Constraint[Prev][1]=CII_2-BVG

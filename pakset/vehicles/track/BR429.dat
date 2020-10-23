@@ -19,6 +19,10 @@ constraint[prev][1]=Flirt_3_Triebwagen_1
 constraint[next][0]=Flirt_3_Mittelwagen
 constraint[next][1]=Flirt_3_Triebwagen_2
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=./image/flirt.2.2
 EmptyImage[S]=./image/flirt.2.3
 EmptyImage[W]=./image/flirt.2.0
@@ -50,6 +54,10 @@ constraint[prev][0]=Flirt_3_Triebwagen_2
 constraint[prev][1]=none
 constraint[next][0]=Flirt_3_Mittelwagen
 constraint[next][1]=Flirt_3_Triebwagen_2
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[E]=./image/flirt.0.2
 EmptyImage[S]=./image/flirt.0.3
@@ -83,6 +91,10 @@ constraint[prev][0]=Flirt_3_Triebwagen_1
 constraint[prev][1]=Flirt_3_Mittelwagen
 constraint[next][0]=Flirt_3_Triebwagen_1
 constraint[next][1]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[E]=./image/flirt.4.2
 EmptyImage[S]=./image/flirt.4.3

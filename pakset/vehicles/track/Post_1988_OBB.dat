@@ -14,7 +14,12 @@ intro_month=6
 loading_time=15580
 axles=4
 catering_level=1
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Eurofima_Wagen_1988.0.1
 EmptyImage[E]=./image/Eurofima_Wagen_1988.0.0
 EmptyImage[SE]=./image/Eurofima_Wagen_1988.0.4

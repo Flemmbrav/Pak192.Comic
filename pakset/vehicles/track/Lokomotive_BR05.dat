@@ -17,6 +17,11 @@ waytype=narrowgauge_track
 engine_type=steam
 constraint[prev][0]=none
 constraint[next][0]=BR_05_Tender
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=0
+
 EmptyImage[S]=./image/BR_05.1.1
 EmptyImage[E]=./image/BR_05.1.0
 EmptyImage[SE]=./image/BR_05.1.4
@@ -41,6 +46,11 @@ length=6
 waytype=narrowgauge_track
 constraint[prev][0]=BR_05
 #constraint[next][0]=BR 05-3
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=0
+
 EmptyImage[S]=./image/BR_05.0.1
 EmptyImage[E]=./image/BR_05.0.0
 EmptyImage[SE]=./image/BR_05.0.4

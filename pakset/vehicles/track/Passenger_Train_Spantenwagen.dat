@@ -14,6 +14,11 @@ cost=7278464
 length=12
 loading_time=6620
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/ganzstahlwagen_1940.0.1
 EmptyImage[E]=./image/ganzstahlwagen_1940.0.0
 EmptyImage[SE]=./image/ganzstahlwagen_1940.0.4
@@ -39,6 +44,11 @@ runningcost=168
 cost=1850120
 loading_time=1680
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Spantenwagen.0.1
 EmptyImage[E]=./image/Spantenwagen.0.0
 EmptyImage[SE]=./image/Spantenwagen.0.4
@@ -64,6 +74,11 @@ runningcost=165
 cost=1818300
 loading_time=1650
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Spantenwagen.1.1
 EmptyImage[E]=./image/Spantenwagen.1.0
 EmptyImage[SE]=./image/Spantenwagen.1.4

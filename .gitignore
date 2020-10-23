@@ -8,3 +8,9 @@ compiled/
 # Windows
 [dD]esktop.ini
 /makeobj.exe
+/compiled_serverset/
+/compiled_addons/
+/calculatedextended/
+/calculated/
+/makeobj-extended
+/.idea/

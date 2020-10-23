@@ -23,6 +23,10 @@ Constraint[Next][0]=Metropolitan_Wagen
 Constraint[Next][1]=Metropolitan_Endwagen_2
 Constraint[Next][2]=Metropolitan_Steuerwagen_2
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=image/Metropolitan.0.0
 EmptyImage[S]=image/Metropolitan.0.1
 EmptyImage[W]=image/Metropolitan.0.2
@@ -54,6 +58,10 @@ Constraint[Prev][0]=Metropolitan_Lokomotive
 Constraint[Next][0]=Metropolitan_Wagen
 Constraint[Next][1]=Metropolitan_Endwagen_2
 Constraint[Next][2]=Metropolitan_Steuerwagen_2
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[E]=image/Metropolitan.1.0
 EmptyImage[S]=image/Metropolitan.1.1
@@ -87,6 +95,10 @@ Constraint[Prev][1]=Metropolitan_Endwagen_1
 Constraint[Prev][2]=Metropolitan_Steuerwagen_1
 Constraint[Next][0]=Metropolitan_Lokomotive
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=image/Metropolitan.2.0
 EmptyImage[S]=image/Metropolitan.2.1
 EmptyImage[W]=image/Metropolitan.2.2
@@ -119,6 +131,10 @@ Constraint[Next][0]=Metropolitan_Wagen
 Constraint[Next][1]=Metropolitan_Endwagen_2
 Constraint[Next][2]=Metropolitan_Steuerwagen_2
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E]=image/Metropolitan.3.0
 EmptyImage[S]=image/Metropolitan.3.1
 EmptyImage[W]=image/Metropolitan.3.2
@@ -150,6 +166,10 @@ Constraint[Prev][0]=Metropolitan_Wagen
 Constraint[Prev][1]=Metropolitan_Endwagen_1
 Constraint[Prev][2]=Metropolitan_Steuerwagen_1
 Constraint[Next][0]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[E]=image/Metropolitan.4.0
 EmptyImage[S]=image/Metropolitan.4.1
@@ -190,6 +210,10 @@ Constraint[Prev][2]=none
 Constraint[Next][0]=Metropolitan_Endwagen_1
 Constraint[Next][1]=Metropolitan_Lokomotive
 Constraint[Next][2]=none
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[E]=image/Metropolitan.5.0
 EmptyImage[S]=image/Metropolitan.5.1

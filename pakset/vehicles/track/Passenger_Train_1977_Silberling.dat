@@ -16,6 +16,10 @@ length=12
 waytype=narrowgauge_track
 loading_time=6090
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/Silberling.3.1
 EmptyImage[E]=./image/Silberling.3.0
 EmptyImage[SE]=./image/Silberling.3.4
@@ -42,7 +46,12 @@ length=12
 waytype=narrowgauge_track
 loading_time=6090
 
-constraint[prev][0]=any
+#constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/Silberling.4.1
 EmptyImage[E]=./image/Silberling.4.0
 EmptyImage[SE]=./image/Silberling.4.4

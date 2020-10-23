@@ -18,6 +18,10 @@ comfort=80
 constraint[prev][0]=OBB_Cityjet_Steuerwagen_vorne
 constraint[next][0]=OBB_Cityjet_Steuerwagen_hinten
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/OBB_Desiro_ML.4.1
 EmptyImage[E]=./image/OBB_Desiro_ML.4.0
 EmptyImage[SE]=./image/OBB_Desiro_ML.4.4
@@ -52,6 +56,10 @@ constraint[prev][0]=OBB_Cityjet_Steuerwagen_hinten
 constraint[prev][1]=OBB_Cityjet_eco_Steuerwagen_hinten
 constraint[prev][2]=none
 constraint[next][0]=OBB_Cityjet_Mittelwagen
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/OBB_Desiro_ML.1.1
 EmptyImage[E]=./image/OBB_Desiro_ML.1.0
@@ -88,6 +96,10 @@ constraint[next][0]=OBB_Cityjet_Steuerwagen_vorne
 constraint[next][1]=OBB_Cityjet_eco_Steuerwagen_vorne
 constraint[next][2]=none
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/OBB_Desiro_ML.7.1
 EmptyImage[E]=./image/OBB_Desiro_ML.7.0
 EmptyImage[SE]=./image/OBB_Desiro_ML.7.4
@@ -118,6 +130,10 @@ comfort=80
 
 constraint[prev][0]=OBB_Cityjet_eco_Steuerwagen_vorne
 constraint[next][0]=OBB_Cityjet_eco_Steuerwagen_hinten
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/OBB_Desiro_ML.5.1
 EmptyImage[E]=./image/OBB_Desiro_ML.5.0
@@ -153,6 +169,10 @@ constraint[prev][1]=OBB_Cityjet_eco_Steuerwagen_hinten
 constraint[prev][2]=none
 constraint[next][0]=OBB_Cityjet_eco_Mittelwagen
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/OBB_Desiro_ML.2.1
 EmptyImage[E]=./image/OBB_Desiro_ML.2.0
 EmptyImage[SE]=./image/OBB_Desiro_ML.2.4
@@ -185,6 +205,10 @@ constraint[prev][0]=OBB_Cityjet_eco_Mittelwagen
 constraint[next][0]=OBB_Cityjet_Steuerwagen_vorne
 constraint[next][1]=OBB_Cityjet_eco_Steuerwagen_vorne
 constraint[next][2]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=./image/OBB_Desiro_ML.8.1
 EmptyImage[E]=./image/OBB_Desiro_ML.8.0
