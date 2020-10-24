@@ -103,6 +103,8 @@ mail_demand=80
 electricity_boost=0
 passenger_boost=400
 mail_boost=300
+#----- EXT Stuff
+population_and_visitor_demand_capacity=21
 #-----
 Dims=2,2,1
 BackImage[0][0-1][0-1][0][0][0-1]=images/toystore.<$0>.<$1+$2*2>

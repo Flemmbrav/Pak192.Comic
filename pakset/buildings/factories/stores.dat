@@ -38,6 +38,8 @@ mail_demand=30
 electricity_boost=0
 passenger_boost=300
 mail_boost=200
+#----- EXT Stuff
+population_and_visitor_demand_capacity=200
 #-----
 needs_ground=1
 Dims=2,2,1
@@ -80,6 +82,8 @@ mail_demand=10
 electricity_boost=0
 passenger_boost=300
 mail_boost=200
+#----- EXT Stuff
+population_and_visitor_demand_capacity=70
 #-----
 needs_ground=1
 BackImage[0][0][0][0][0][0]=images/KleinerLaden.0.0
@@ -142,6 +146,8 @@ mail_demand=30
 electricity_boost=0
 passenger_boost=300
 mail_boost=200
+#----- EXT Stuff
+population_and_visitor_demand_capacity=210
 #-----
 needs_ground=1
 Dims=2,2,1
@@ -195,6 +201,8 @@ mail_demand=80
 electricity_boost=0
 passenger_boost=400
 mail_boost=300
+#----- EXT Stuff
+population_and_visitor_demand_capacity=160000
 #-----
 Dims=3,3,1
 BackImage[0][0-2][0-2][0][0][0-1]=./images/Kaufhaus.<$0+1>.<$1+$2*3>
