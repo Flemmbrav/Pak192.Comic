@@ -245,6 +245,8 @@ mail_demand=20
 electricity_boost=0
 passenger_boost=300
 mail_boost=200
+#----- EXT Stuff
+population_and_visitor_demand_capacity=170
 #-----
 needs_ground=1
 Dims=2,2,1
@@ -282,6 +284,8 @@ mail_demand=10
 electricity_boost=0
 passenger_boost=200
 mail_boost=100
+#----- EXT Stuff
+population_and_visitor_demand_capacity=90
 #-----
 needs_ground=1
 BackImage[0][0][0][0][0][0-1]=images/KleineTankstelle.0.<$0>

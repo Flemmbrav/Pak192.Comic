@@ -74,7 +74,9 @@ mail_demand=80
 electricity_boost=0
 passenger_boost=400
 mail_boost=300
-
+#----- EXT Stuff
+population_and_visitor_demand_capacity=6250
+#-----
 Dims=3,4,4
 BackImage[0][0][0][0][0][0]=./images/diy.2.0
 BackImage[0][0][1][0][0][0]=./images/diy.0.1

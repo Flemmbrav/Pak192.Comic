@@ -87,6 +87,9 @@ OutputFactor[0]=20
 sound=ekg.wav
 MapColor=55
 intro_year=1800
+#----- EXT Stuff
+population_and_visitor_demand_capacity=2500
+#-----
 dims=4,4,1
 needs_ground=1
 BackImage[0][0-3][0-3][0][0][0-4]=images/hospital.<$0>.<$1+$2*4>
