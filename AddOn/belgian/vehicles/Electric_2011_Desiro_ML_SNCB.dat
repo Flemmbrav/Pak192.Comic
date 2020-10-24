@@ -23,7 +23,8 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/SNCB_AM08.1.<$0>
+liverytype[0]=SNCB_grey
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./image/SNCB_AM08.1.<$0>
 -----------
 obj=vehicle
 name=Electric_2011_Desiro_ML_SNCB_1
@@ -58,7 +59,8 @@ has_front_cab=1
 has_rear_cab=0
 bidirectional=1
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/SNCB_AM08.0.<$0>
+liverytype[0]=SNCB_grey
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./image/SNCB_AM08.0.<$0>
 -----------
 obj=vehicle
 name=Electric_2011_Desiro_ML_SNCB_3
@@ -93,4 +95,5 @@ has_front_cab=0
 has_rear_cab=1
 bidirectional=1
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/SNCB_AM08.2.<$0>
+liverytype[0]=SNCB_grey
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./image/SNCB_AM08.2.<$0>
