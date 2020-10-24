@@ -315,7 +315,8 @@ calculatecosts(){
 	local FixCost=$(( RunningCost * speed * 1000 / 700 ))
 	RunningCost=$(( RunningCost / 10 ))
 	if [[ $ForcingNewValues == 1 ]];then
-		echo "loading_time=$LoadingTime" >> calculated/$dat
+		echo "max_loading_time=$LoadingTime" >> calculated/$dat
+		echo "min_loading_time=$MinLoadingTime" >> calculated/$dat
 		echo "runningcost=$RunningCost" >> calculated/$dat
 		echo "cost=$Cost" >> calculated/$dat
 		echo "fixed_cost=$FixCost" >> calculated/$dat
