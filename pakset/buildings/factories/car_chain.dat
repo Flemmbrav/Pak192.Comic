@@ -343,7 +343,7 @@ electricity_boost=500
 passenger_boost=800
 mail_boost=200
 #----- EXT Stuff
-population_and_visitor_demand_capacity=200
+population_and_visitor_demand_capacity=100
 #-----
 needs_ground=1
 dims=3,3,1
