@@ -308,7 +308,8 @@ calculatecosts(){
 	fi
 	local LoadingTime=$(( Income / 300 ))
 	LoadingTime=$(( LoadingTime * speed / 270 + LoadingTime / 2))
-	
+	LoadingTime=$(( LoadingTime / 100 ))
+
 	local MinLoadingTime=$(( 10 + LoadingTime / 10 ))
 	LoadingTime=$(( 10 + LoadingTime ))
 	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
