@@ -186,6 +186,8 @@ simple_tool[16]=14,R
 simple_tool[20]=,'
 simple_tool[33]=,B
 simple_tool[34]=,E
+simple_tool[129]=,^s
+simple_tool[133]=,l
 
 # THIRD SECTION: dialoge tools
 # since these tools immeadiately open only a dialoge,
