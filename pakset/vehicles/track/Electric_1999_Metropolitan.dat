@@ -26,6 +26,7 @@ Constraint[Next][2]=Metropolitan_Steuerwagen_2
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
+catering_level=1
 
 EmptyImage[E]=image/Metropolitan.0.0
 EmptyImage[S]=image/Metropolitan.0.1
@@ -62,6 +63,7 @@ Constraint[Next][2]=Metropolitan_Steuerwagen_2
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
+catering_level=2
 
 EmptyImage[E]=image/Metropolitan.1.0
 EmptyImage[S]=image/Metropolitan.1.1
@@ -98,6 +100,7 @@ Constraint[Next][0]=Metropolitan_Lokomotive
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
+catering_level=2
 
 EmptyImage[E]=image/Metropolitan.2.0
 EmptyImage[S]=image/Metropolitan.2.1
@@ -134,6 +137,7 @@ Constraint[Next][2]=Metropolitan_Steuerwagen_2
 has_front_cab=1
 has_rear_cab=0
 bidirectional=1
+catering_level=1
 
 EmptyImage[E]=image/Metropolitan.3.0
 EmptyImage[S]=image/Metropolitan.3.1
@@ -170,6 +174,7 @@ Constraint[Next][0]=none
 has_front_cab=0
 has_rear_cab=1
 bidirectional=1
+catering_level=1
 
 EmptyImage[E]=image/Metropolitan.4.0
 EmptyImage[S]=image/Metropolitan.4.1
@@ -188,13 +193,14 @@ engine_type=electric
 freight=Passagiere
 payload=0
 weight=84
-speed=220
+speed=220 
 power=6400
+tractive_effort=300
 # gear=175
 # cost=273719040
 # RunningCost=8827
 
-gear=195
+# gear=195
 cost=305001216
 runningcost=9836
 

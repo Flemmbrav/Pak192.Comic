@@ -67,3 +67,12 @@ Some vehicles offer catering. The catering levels are defined as following:
 
 Different vehicles offer different levels of comfort.
 Do not mistake classes as what 
+
+## Additional Values
+
+Do not forgot to add the following new parameters for Extended:
+
+- tractive_effort
+- has_front_cab
+- has_rear_cab
+- bidirectional
