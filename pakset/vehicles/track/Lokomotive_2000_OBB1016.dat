@@ -11,7 +11,6 @@ gear=100
 weight=86
 tractive_effort=300
 axles=4
-bidirectional=1
 brake_force=200
 runningcost=10209
 cost=312407885
