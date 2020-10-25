@@ -27,6 +27,7 @@ waytype=narrowgauge_track
 has_front_cab=1
 has_rear_cab=0
 bidirectional=1
+
 EmptyImage[E]=./image/DPZ.0.2
 EmptyImage[S]=./image/DPZ.0.3
 EmptyImage[W]=./image/DPZ.0.0

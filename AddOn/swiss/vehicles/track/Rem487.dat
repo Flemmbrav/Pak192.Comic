@@ -14,6 +14,11 @@ speed=140
 length=9
 waytype=narrowgauge_track
 engine_type=electric
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/Rem487.0.3
 EmptyImage[E]=./image/Rem487.0.2
 EmptyImage[SE]=./image/Rem487.1.0
@@ -39,6 +44,11 @@ speed=60
 length=9
 waytype=narrowgauge_track
 engine_type=battery
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/Rem487_Hybrid.0.3
 EmptyImage[E]=./image/Rem487_Hybrid.0.2
 EmptyImage[SE]=./image/Rem487_Hybrid.1.0
@@ -64,6 +74,11 @@ speed=60
 length=9
 waytype=narrowgauge_track
 engine_type=diesel
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=./image/Rem487_Hybrid.0.3
 EmptyImage[E]=./image/Rem487_Hybrid.0.2
 EmptyImage[SE]=./image/Rem487_Hybrid.1.0

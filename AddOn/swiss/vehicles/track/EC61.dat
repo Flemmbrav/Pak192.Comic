@@ -13,6 +13,11 @@ runningcost=1020
 cost=162870
 length=12
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/EC61.0.0
 emptyimage[n]=./image/EC61.0.3
 emptyimage[ne]=./image/EC61.0.5
@@ -38,6 +43,11 @@ runningcost=1020
 cost=162870
 length=12
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/EC61.1.0
 emptyimage[n]=./image/EC61.1.3
 emptyimage[ne]=./image/EC61.1.5
@@ -63,6 +73,11 @@ runningcost=1260
 cost=209670
 length=12
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/EC61.2.0
 emptyimage[n]=./image/EC61.2.3
 emptyimage[ne]=./image/EC61.2.5

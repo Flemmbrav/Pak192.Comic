@@ -17,7 +17,11 @@ length=9
 waytype=narrowgauge_track
 engine_type=electric
 sound=none
-can_lead_from_rear=1
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=image/Re420_Lion.0.3
 EmptyImage[E]=image/Re420_Lion.0.2
 EmptyImage[SE]=image/Re420_Lion.1.0
