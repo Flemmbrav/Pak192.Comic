@@ -22,6 +22,7 @@ emptyimage[s]=./image/Railjet_Taurus.0.1
 emptyimage[se]=./image/Railjet_Taurus.0.2
 emptyimage[sw]=./image/Railjet_Taurus.0.3
 emptyimage[w]=./image/Railjet_Taurus.1.0
+freight=Passagiere
 -----
 obj=vehicle
 name=Locomotvie_2008_Taurus_RJ_2
@@ -47,3 +48,4 @@ emptyimage[s]=./image/Railjet_Taurus.2.1
 emptyimage[se]=./image/Railjet_Taurus.2.2
 emptyimage[sw]=./image/Railjet_Taurus.2.3
 emptyimage[w]=./image/Railjet_Taurus.3.0
+freight=Passagiere
