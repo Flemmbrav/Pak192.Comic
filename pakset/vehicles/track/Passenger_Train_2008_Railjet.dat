@@ -1,0 +1,194 @@
+# Passenger_Train_2008_Railjet_0	Endwagen vorne
+# Passenger_Train_2008_Railjet_1	Endwagen hinten
+# Passenger_Train_2008_Railjet_2	Mittelwagen
+# Passenger_Train_2008_Railjet_3	Speisewagen vorne
+# Passenger_Train_2008_Railjet_4	Speisewagen hinten
+# Passenger_Train_2008_Railjet_5	Steuerwagen vorne
+# Passenger_Train_2008_Railjet_6	Steuerwagen hinten
+
+#Endwagen vorne
+obj=vehicle
+name=Passenger_Train_2008_Railjet_0
+copyright=Citarofahrer
+intro_year=2008
+intro_month=12
+#retire_year=2025
+#retire_month=0
+freight=Passagiere
+payload=72
+#Sitzplätze
+cost=8396718
+runningcost=763
+weight=54
+speed=230
+length=12
+waytype=narrowgauge_track
+loading_time=7630
+constraint[prev][0]=any
+constraint[next][0]=Passenger_Train_2008_Railjet_2
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.0.<$0>
+-------------
+#Endwagen hinten
+obj=vehicle
+name=Passenger_Train_2008_Railjet_1
+copyright=Citarofahrer
+intro_year=2008
+intro_month=12
+#retire_year=2025
+#retire_month=0
+freight=Passagiere
+payload=72
+#Sitzplätze
+cost=8396718
+runningcost=763
+weight=54
+speed=230
+length=12
+waytype=narrowgauge_track
+loading_time=7630
+constraint[prev][0]=Passenger_Train_2008_Railjet_2
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.1.<$0>
+-------------
+#Mittelwagen
+obj=vehicle
+name=Passenger_Train_2008_Railjet_2
+copyright=Flemmbrav & Citarofahrer
+intro_year=2008
+intro_month=12
+#retire_year=2025
+#retire_month=0
+freight=Passagiere
+payload=80
+#Sitzplätze 2. Klasse
+# 55 Sitzplätze 1. Klasse
+#Stehplätze 18,2m2
+cost=8396718
+runningcost=763
+weight=57
+speed=230
+length=12
+waytype=narrowgauge_track
+loading_time=7630
+constraint[prev][0]=Passenger_Train_2008_Railjet_0
+constraint[prev][1]=Passenger_Train_2008_Railjet_2
+constraint[prev][2]=Passenger_Train_2008_Railjet_3
+constraint[prev][3]=Passenger_Train_2008_Railjet_4
+constraint[prev][4]=Passenger_Train_2008_Railjet_5
+constraint[next][0]=Passenger_Train_2008_Railjet_1
+constraint[next][1]=Passenger_Train_2008_Railjet_2
+constraint[next][2]=Passenger_Train_2008_Railjet_3
+constraint[next][3]=Passenger_Train_2008_Railjet_4
+constraint[next][4]=Passenger_Train_2008_Railjet_6
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.2.<$0>
+-------------
+#Speisewagen vorne
+obj=vehicle
+name=Passenger_Train_2008_Railjet_3
+copyright=Citarofahrer
+intro_year=2008
+intro_month=12
+#retire_year=2025
+#retire_month=0
+freight=Passagiere
+payload=24
+#davon 10 erste Klasse
+#Sitzplätze
+# Stehplatzfläche 
+cost=8396718
+runningcost=763
+weight=56
+speed=230
+length=12
+waytype=narrowgauge_track
+loading_time=7630
+constraint[prev][0]=Passenger_Train_2008_Railjet_2
+constraint[next][0]=Passenger_Train_2008_Railjet_2
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.3.<$0>
+-------------
+#Speisewagen hinten
+obj=vehicle
+name=Passenger_Train_2008_Railjet_4
+copyright=Citarofahrer
+intro_year=2008
+intro_month=12
+#retire_year=2025
+#retire_month=0
+freight=Passagiere
+payload=24
+#davon 10 erste Klasse
+#Sitzplätze
+# Stehplatzfläche 
+cost=8396718
+runningcost=763
+weight=56
+speed=230
+length=12
+waytype=narrowgauge_track
+loading_time=7630
+constraint[prev][0]=Passenger_Train_2008_Railjet_2
+constraint[next][0]=Passenger_Train_2008_Railjet_2
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.4.<$0>
+-------------
+#Steuerwagen vorne
+obj=vehicle
+name=Passenger_Train_2008_Railjet_5
+copyright=PTM & Citarofahrer
+intro_year=2008
+intro_month=12
+#retire_year=2025
+#retire_month=0
+freight=Passagiere
+payload=10
+#Sitzplätze
+# Stehplatzfläche 
+cost=8396718
+runningcost=763
+weight=55
+speed=230
+length=12
+waytype=narrowgauge_track
+loading_time=7630
+constraint[next][0]=Passenger_Train_2008_Railjet_2
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.5.<$0>
+-------------
+#Steuerwagen vorne
+obj=vehicle
+name=Passenger_Train_2008_Railjet_5
+copyright=PTM & Citarofahrer
+intro_year=2008
+intro_month=12
+#retire_year=2025
+#retire_month=0
+freight=Passagiere
+payload=27
+#Sitzplätze
+cost=8396718
+runningcost=763
+weight=55
+speed=230
+length=12
+waytype=narrowgauge_track
+loading_time=7630
+constraint[next][0]=Passenger_Train_2008_Railjet_2
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.5.<$0>
+-------------
+#Steuerwagen hinten
+obj=vehicle
+name=Passenger_Train_2008_Railjet_6
+copyright=PTM & Citarofahrer
+intro_year=2008
+intro_month=12
+#retire_year=2025
+#retire_month=0
+freight=Passagiere
+payload=27
+#Sitzplätze
+cost=8396718
+runningcost=763
+weight=55
+speed=230
+length=12
+waytype=narrowgauge_track
+loading_time=7630
+constraint[prev][0]=Passenger_Train_2008_Railjet_2
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.6.<$0>
