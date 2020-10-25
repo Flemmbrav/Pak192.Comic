@@ -24,6 +24,9 @@ engine_type=electric
 length=11
 waytype=narrowgauge_track
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 EmptyImage[E]=./image/DPZ.0.2
 EmptyImage[S]=./image/DPZ.0.3
 EmptyImage[W]=./image/DPZ.0.0
@@ -50,6 +53,9 @@ engine_type=electric
 length=12
 waytype=narrowgauge_track
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[E]=./image/DPZ.2.2
@@ -78,6 +84,9 @@ engine_type=electric
 length=11
 waytype=narrowgauge_track
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[E]=./image/DPZ.4.2
@@ -107,6 +116,9 @@ gear=100
 length=8
 waytype=narrowgauge_track
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 EmptyImage[E]=./image/DPZ.6.2
 EmptyImage[S]=./image/DPZ.6.3
 EmptyImage[W]=./image/DPZ.6.0
@@ -134,6 +146,9 @@ gear=100
 length=9
 waytype=narrowgauge_track
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[E]=./image/DPZ.8.2
