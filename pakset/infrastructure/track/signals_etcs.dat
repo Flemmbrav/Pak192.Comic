@@ -20,6 +20,7 @@ obj=roadsign
 name=track_sigchoose_etcs
 copyright=RABe514
 waytype=narrowgauge_track
+max_speed=999
 intro_year=2004
 intro_month=1
 cost=3000
