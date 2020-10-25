@@ -16,7 +16,7 @@ intro_month=12
 #retire_month=0
 freight=Passagiere
 payload=72
-#Sitzplätze
+#Sitzplï¿½tze
 cost=8396718
 runningcost=763
 weight=54
@@ -29,7 +29,7 @@ axles=4
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
-#brake_force=100
+brake_force=119
 
 constraint[prev][0]=any
 constraint[next][0]=Passenger_Train_2008_Railjet_2
@@ -45,7 +45,7 @@ intro_month=12
 #retire_month=0
 freight=Passagiere
 payload=72
-#Sitzplätze
+#Sitzplï¿½tze
 cost=8396718
 runningcost=763
 weight=54
@@ -58,7 +58,7 @@ axles=4
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
-#brake_force=100
+brake_force=119
 
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.0.<$0>
@@ -73,9 +73,9 @@ intro_month=12
 #retire_month=0
 freight=Passagiere
 payload=80
-#Sitzplätze 2. Klasse
-# 55 Sitzplätze 1. Klasse
-#Stehplätze 18,2m2
+#Sitzplï¿½tze 2. Klasse
+# 55 Sitzplï¿½tze 1. Klasse
+#Stehplï¿½tze 18,2m2
 cost=8396718
 runningcost=763
 weight=57
@@ -88,7 +88,7 @@ axles=4
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
-#brake_force=100
+brake_force=119
 
 constraint[prev][0]=Passenger_Train_2008_Railjet_0
 constraint[prev][1]=Passenger_Train_2008_Railjet_2
@@ -113,8 +113,8 @@ intro_month=12
 freight=Passagiere
 payload=24
 #davon 10 erste Klasse
-#Sitzplätze
-# Stehplatzfläche 
+#Sitzplï¿½tze
+# Stehplatzflï¿½che 
 cost=8396718
 runningcost=763
 weight=56
@@ -128,7 +128,7 @@ axles=4
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
-#brake_force=100
+brake_force=119
 
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
 constraint[prev][1]=Passenger_Train_2008_Railjet_5
@@ -147,8 +147,8 @@ intro_month=12
 freight=Passagiere
 payload=24
 #davon 10 erste Klasse
-#Sitzplätze
-# Stehplatzfläche 
+#Sitzplï¿½tze
+# Stehplatzflï¿½che 
 cost=8396718
 runningcost=763
 weight=56
@@ -162,7 +162,7 @@ axles=4
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
-#brake_force=100
+brake_force=119
 
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
 constraint[prev][1]=Passenger_Train_2008_Railjet_5
@@ -180,8 +180,8 @@ intro_month=12
 #retire_month=0
 freight=Passagiere
 payload=27
-#Sitzplätze
-# Stehplatzfläche 
+#Sitzplï¿½tze
+# Stehplatzflï¿½che 
 cost=8396718
 runningcost=763
 weight=55
@@ -194,7 +194,7 @@ axles=4
 has_front_cab=1
 has_rear_cab=0
 bidirectional=1
-#brake_force=100
+brake_force=112
 
 constraint[next][0]=Passenger_Train_2008_Railjet_2
 constraint[next][1]=Passenger_Train_2008_Railjet_3
@@ -211,7 +211,7 @@ intro_month=12
 #retire_month=0
 freight=Passagiere
 payload=27
-#Sitzplätze
+#Sitzplï¿½tze
 cost=8396718
 runningcost=763
 weight=55
@@ -224,7 +224,7 @@ axles=4
 has_front_cab=0
 has_rear_cab=1
 bidirectional=1
-#brake_force=100
+brake_force=112
 
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
 constraint[prev][1]=Passenger_Train_2008_Railjet_3
