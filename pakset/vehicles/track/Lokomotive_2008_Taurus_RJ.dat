@@ -55,7 +55,6 @@ has_front_cab=1
 has_rear_cab=1
 bidirectional=1
 
-
 emptyimage[e]=./image/Railjet_Taurus.2.0
 emptyimage[n]=./image/Railjet_Taurus.3.1
 emptyimage[ne]=./image/Railjet_Taurus.3.3
