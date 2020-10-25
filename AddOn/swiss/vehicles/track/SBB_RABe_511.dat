@@ -25,6 +25,10 @@ constraint[prev][2]=RABe511_Bt_SBZ_Back
 constraint[prev][3]=none
 constraint[next][0]=RABe511_AB
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[W]=./image/Electric_2011_KISS_SBB.0.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB.0.1
 EmptyImage[E]=./image/Electric_2011_KISS_SBB.0.2
@@ -55,6 +59,10 @@ constraint[prev][0]=RABe511_Bt_Front
 constraint[prev][1]=RABe511_B
 constraint[next][0]=RABe511_B
 constraint[next][1]=RABe511_Bt_Back
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W]=./image/Electric_2011_KISS_SBB.1.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB.1.1
@@ -87,6 +95,10 @@ constraint[prev][1]=RABe511_B
 constraint[next][0]=RABe511_AB
 constraint[next][1]=RABe511_B
 constraint[next][2]=RABe511_Bt_Back
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W]=./image/Electric_2011_KISS_SBB.2.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB.2.1
@@ -122,6 +134,10 @@ constraint[next][0]=RABe511_Bt_Front
 constraint[next][1]=RABe511_Bt_RVD_Front
 constraint[next][2]=RABe511_Bt_SBZ_Front
 constraint[next][3]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[W]=./image/Electric_2011_KISS_SBB.3.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB.3.1
@@ -160,6 +176,10 @@ constraint[prev][2]=RABe511_Bt_SBZ_Back
 constraint[prev][3]=none
 constraint[next][0]=RABe511_AB_RVD
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[W]=./image/Electric_2011_KISS_SBB_RVD.0.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB_RVD.0.1
 EmptyImage[E]=./image/Electric_2011_KISS_SBB_RVD.0.2
@@ -190,6 +210,10 @@ constraint[prev][0]=RABe511_Bt_RVD_Front
 constraint[prev][1]=RABe511_B_RVD
 constraint[next][0]=RABe511_B_RVD
 constraint[next][1]=RABe511_Bt_RVD_Back
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W]=./image/Electric_2011_KISS_SBB_RVD.1.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB_RVD.1.1
@@ -222,6 +246,10 @@ constraint[prev][1]=RABe511_B_RVD
 constraint[next][0]=RABe511_AB_RVD
 constraint[next][1]=RABe511_B_RVD
 constraint[next][2]=RABe511_Bt_RVD_Back
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W]=./image/Electric_2011_KISS_SBB_RVD.2.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB_RVD.2.1
@@ -257,6 +285,10 @@ constraint[next][0]=RABe511_Bt_Front
 constraint[next][1]=RABe511_Bt_RVD_Front
 constraint[next][2]=RABe511_Bt_SBZ_Front
 constraint[next][3]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[W]=./image/Electric_2011_KISS_SBB_RVD.3.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB_RVD.3.1
@@ -295,6 +327,10 @@ constraint[prev][2]=RABe511_Bt_SBZ_Back
 constraint[prev][3]=none
 constraint[next][0]=RABe511_AB_SBZ
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[W]=./image/Electric_2011_KISS_SBB_SBZ.0.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB_SBZ.0.1
 EmptyImage[E]=./image/Electric_2011_KISS_SBB_SBZ.0.2
@@ -325,6 +361,10 @@ constraint[prev][0]=RABe511_Bt_SBZ_Front
 constraint[prev][1]=RABe511_B_SBZ
 constraint[next][0]=RABe511_B_SBZ
 constraint[next][1]=RABe511_Bt_SBZ_Back
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W]=./image/Electric_2011_KISS_SBB_SBZ.1.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB_SBZ.1.1
@@ -357,6 +397,10 @@ constraint[prev][1]=RABe511_B_SBZ
 constraint[next][0]=RABe511_AB_SBZ
 constraint[next][1]=RABe511_B_SBZ
 constraint[next][2]=RABe511_Bt_SBZ_Back
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W]=./image/Electric_2011_KISS_SBB_SBZ.2.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB_SBZ.2.1
@@ -392,6 +436,10 @@ constraint[next][0]=RABe511_Bt_Front
 constraint[next][1]=RABe511_Bt_RVD_Front
 constraint[next][2]=RABe511_Bt_SBZ_Front
 constraint[next][3]=none
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[W]=./image/Electric_2011_KISS_SBB_SBZ.3.0
 EmptyImage[N]=./image/Electric_2011_KISS_SBB_SBZ.3.1

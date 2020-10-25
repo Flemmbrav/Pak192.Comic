@@ -15,6 +15,10 @@ loading_time=5720
 
 constraint[prev][0]=any
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[S]=./image/EWIAP.0.1
 EmptyImage[E]=./image/EWIAP.0.0
 EmptyImage[SE]=./image/EWIAP.0.4
@@ -40,6 +44,10 @@ waytype=narrowgauge_track
 loading_time=5720
 
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[S]=./image/EWIBP.0.1
 EmptyImage[E]=./image/EWIBP.0.0

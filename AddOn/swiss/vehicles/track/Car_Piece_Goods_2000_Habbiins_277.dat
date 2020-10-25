@@ -15,6 +15,11 @@ cost=6138100
 length=12
 loading_time=8000
 constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[e]=./image/Habbiins_277.0.0
 emptyimage[n]=./image/Habbiins_277.0.3
 emptyimage[ne]=./image/Habbiins_277.0.5
