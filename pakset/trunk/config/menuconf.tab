@@ -181,7 +181,11 @@ simple_tool[13]=12,%
 simple_tool[14]=13,"
 simple_tool[15]=,U
 simple_tool[16]=14,R
-simple_tool[17]=,X
+#simple_tool[17]=,X
+
+simple_tool[20]=,'
+simple_tool[33]=,B
+simple_tool[34]=,E
 
 # THIRD SECTION: dialoge tools
 # since these tools immeadiately open only a dialoge,
