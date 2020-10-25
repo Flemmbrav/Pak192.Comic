@@ -27,6 +27,9 @@ EmptyImage[NE]=./image/CD_471_SC2.0.5
 EmptyImage[NW]=./image/CD_471_SC2.0.6
 EmptyImage[SW]=./image/CD_471_SC2.0.7
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=CD_471c
 constraint[prev][1]=CD_471_SCc
 constraint[prev][2]=CD_471_SC2c
@@ -52,6 +55,9 @@ waytype=narrowgauge_track
 loading_time=9180
 engine_type=electric
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=CD_471_SC2a
 constraint[next][0]=CD_471_SC2c
 
@@ -82,6 +88,9 @@ waytype=narrowgauge_track
 loading_time=9180
 engine_type=electric
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=CD_471_SC2b
 
 constraint[next][0]=CD_471a
