@@ -290,8 +290,10 @@ sighting_distance_meters = 875
 # This is the maximum speed in km/h at which rail (including narrow gauge, monorail and maglev)
 # vehicles may travel in the drive by sight working method. 0 = as fast as they can
 # stop within their sighting distance with no other limit.
+#
+# 50kph "Permissives Fahren" in east Germany?
 
-max_speed_drive_by_sight_kmh = 40
+max_speed_drive_by_sight_kmh = 50
 
 # Corners of greater than 45 degrees have their radius calculated. However, because of 
 # the rigid tile system in Simutrans, this produces unrealistic results when applied
@@ -981,11 +983,11 @@ livery[26][0] = OBB_RCA
 intro_year[26][0] = 1995
 intro_month[26][0] = 1
 
-livery_scheme[27] = OBB_Valousek
-retire_year[27] = 2002
+livery_scheme[27] = OBB_Elfenbein
+retire_year[27] = 1988
 retire_month[27] = 12
-livery[27][0] = OBB_Valousek
-intro_year[27][0] = 1988
+livery[27][0] = OBB_Elfenbein
+intro_year[27][0] = 1945
 intro_month[27][0] = 1
 
 livery_scheme[28] = OBB_Jet
@@ -1003,12 +1005,6 @@ livery[29][0] = OBB_Cityshuttle
 intro_year[29][0] = 2002
 intro_month[29][0] = 1
 
-livery_scheme[40] = OBB_Elfenbein
-retire_year[40] = 1988
-retire_month[40] = 12
-livery[40][0] = OBB_Elfenbein
-intro_year[40][0] = 1945
-intro_month[40][0] = 1
 
 
 
@@ -1187,13 +1183,13 @@ livery[54][0] = SBB_Nachtzug
 intro_year[54][0] = 1964
 intro_month[54][0] = 1
 
-livery_scheme[55] = OBB_Valousek
-retire_year[55] = 2002
-retire_month[55] = 12
-livery[55][0] = OBB_Valousek
-intro_year[55][0] = 1988
-intro_month[55][0] = 1
 
+livery_scheme[55] = Cisalpino
+retire_year[55] = 2009
+retire_month[55] = 12
+livery[55][0] = Cisalpino
+intro_year[55][0] = 1993
+intro_month[55][0] = 1
 
 
 
@@ -1205,11 +1201,11 @@ livery[56][0] = TEE
 intro_year[56][0] = 1957
 intro_month[56][0] = 1
 
-livery_scheme[57] = Cisalpino
-retire_year[57] = 2009
+livery_scheme[57] = SNCB_grey
+retire_year[57] = 2050
 retire_month[57] = 12
-livery[57][0] = Cisalpino
-intro_year[57][0] = 1993
+livery[57][0] = SNCB_grey
+intro_year[57][0] = 2000
 intro_month[57][0] = 1
 
 livery_scheme[58] = C1
@@ -1243,10 +1239,11 @@ intro_month[60][2] = 1
 
 
 
+livery_scheme[40] = Pride
+retire_year[40] = 2100
+retire_month[40] = 12
+livery[40][0] = Pride
+intro_year[40][0] = 1920
+intro_month[40][0] = 1
 
-livery_scheme[59] = SNCB_grey
-retire_year[59] = 2050
-retire_month[59] = 12
-livery[59][0] = SNCB_grey
-intro_year[59][0] = 2000
-intro_month[59][0] = 1
+#next livery is 61
