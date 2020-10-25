@@ -302,15 +302,16 @@ calculatecosts(){
 	local Cost=$(( Income + 10 * PowerValue ))
 	local RunningCost=$(( Income + PowerValue ))
 	RunningCost=$(( RunningCost / 4000 ))
-	local LoadingTime=$(( Income / 300 ))
-	local MinLoadingTime=$(( 10 + LoadingTime / 10 ))
-	LoadingTime=$(( 10 + LoadingTime ))
-	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
-	#local FixCost=$(( RunningCost * 240 ))
 	local speed=${ObjectArray[speed]}
 	if [[${ObjectArray[is_tilting]} == 1]] ;then
 		speed=$(( speed + 10 ))
 	fi
+	local LoadingTime=$(( Income / 300 ))
+	LoadingTime=$(( LoadingTime * speed / 70 ))
+	local MinLoadingTime=$(( 10 + LoadingTime / 10 ))
+	LoadingTime=$(( 10 + LoadingTime ))
+	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
+	#local FixCost=$(( RunningCost * 240 ))
 	#speed=$(( speed - 10 ))
 	local FixCost=$(( RunningCost * speed * 1000 / 700 ))
 	RunningCost=$(( RunningCost / 10 ))
