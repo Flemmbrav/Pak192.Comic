@@ -16,6 +16,7 @@ runningcost=10160
 cost=311718528
 length=10
 
+brake_force=140
 
 has_front_cab=1
 has_rear_cab=1
@@ -48,6 +49,7 @@ runningcost=10160
 cost=311718528
 length=10
 
+brake_force=140
 
 has_front_cab=1
 has_rear_cab=1
