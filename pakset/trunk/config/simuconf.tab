@@ -1246,4 +1246,26 @@ livery[40][0] = Pride
 intro_year[40][0] = 1920
 intro_month[40][0] = 1
 
-#next livery is 61
+livery_scheme[61] = Hupac
+retire_year[61] = 2100
+retire_month[61] = 12
+livery[61][0] = Hupac
+intro_year[61][0] = 2000
+intro_month[61][0] = 1
+
+livery_scheme[62] = boxxpress
+retire_year[62] = 2100
+retire_month[62] = 12
+livery[62][0] = boxxpress
+intro_year[62][0] = 2000
+intro_month[62][0] = 1
+
+livery_scheme[63] = PKP_Cargo
+retire_year[63] = 2100
+retire_month[63] = 12
+livery[63][0] = PKP_Cargo
+intro_year[63][0] = 2000
+intro_month[63][0] = 1
+
+
+#next livery is 64
