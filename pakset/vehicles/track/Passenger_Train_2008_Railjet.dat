@@ -102,7 +102,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=7630
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
+constraint[prev][1]=Passenger_Train_2008_Railjet_5
 constraint[next][0]=Passenger_Train_2008_Railjet_2
+constraint[next][1]=Passenger_Train_2008_Railjet_6
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.3.<$0>
 -------------
 #Speisewagen hinten
@@ -126,7 +128,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=7630
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
+constraint[prev][1]=Passenger_Train_2008_Railjet_5
 constraint[next][0]=Passenger_Train_2008_Railjet_2
+constraint[next][1]=Passenger_Train_2008_Railjet_6
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.4.<$0>
 -------------
 #Steuerwagen vorne
@@ -170,6 +174,8 @@ length=12
 waytype=narrowgauge_track
 loading_time=7630
 constraint[next][0]=Passenger_Train_2008_Railjet_2
+constraint[next][1]=Passenger_Train_2008_Railjet_3
+constraint[next][2]=Passenger_Train_2008_Railjet_4
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.5.<$0>
 -------------
 #Steuerwagen hinten
@@ -191,4 +197,6 @@ length=12
 waytype=narrowgauge_track
 loading_time=7630
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
+constraint[prev][1]=Passenger_Train_2008_Railjet_3
+constraint[prev][2]=Passenger_Train_2008_Railjet_4
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.6.<$0>
