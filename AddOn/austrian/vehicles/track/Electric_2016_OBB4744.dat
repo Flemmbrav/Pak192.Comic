@@ -14,6 +14,9 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=4860
 axles=4
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=OBB_Cityjet_Steuerwagen_vorne
 constraint[next][0]=OBB_Cityjet_Steuerwagen_hinten
 
@@ -39,6 +42,9 @@ axles=4
 gear=100
 loading_time=4860
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=Electric_2016_Desiro_ML_GYSEV_3
 constraint[prev][1]=OBB_Cityjet_Steuerwagen_hinten
 constraint[prev][2]=OBB_Cityjet_4746_Steuerwagen_hinten
@@ -71,6 +77,9 @@ axles=4
 gear=100
 loading_time=4860
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=OBB_Cityjet_Mittelwagen
 constraint[next][0]=Electric_2016_Desiro_ML_GYSEV_1
 constraint[next][1]=OBB_Cityjet_Steuerwagen_vorne
