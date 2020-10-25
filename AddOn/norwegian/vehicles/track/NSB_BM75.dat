@@ -16,6 +16,9 @@ power=1500
 gear=120
 loading_time=4100
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=NSB_Flirt_5
 constraint[prev][1]=none
 constraint[next][0]=NSB_Flirt_2
@@ -45,6 +48,9 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=4100
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=NSB_Flirt_1
 constraint[next][0]=NSB_Flirt_3
 
@@ -75,6 +81,9 @@ power=1500
 gear=120
 loading_time=4100
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=NSB_Flirt_2
 constraint[next][0]=NSB_Flirt_4
 
@@ -103,6 +112,9 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=4100
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=NSB_Flirt_3
 constraint[next][0]=NSB_Flirt_5
 
@@ -133,6 +145,9 @@ power=1500
 gear=120
 loading_time=4100
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=NSB_Flirt_4
 constraint[next][0]=NSB_Flirt_1
 constraint[next][1]=none

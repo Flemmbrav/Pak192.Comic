@@ -20,6 +20,9 @@ loading_time=160
 Constraint[Prev][0]=Flexity_Marsellie-6
 Constraint[Prev][1]=none
 Constraint[Next][0]=Flexity_Marsellie-2
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 length=4
 EmptyImage[W]=./tram_image/Flexity_Marsellie.0.0
@@ -45,6 +48,9 @@ freight=Passagiere
 payload=50
 engine_type=electric
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 cost=299063
 RunningCost=27
 loading_time=270
@@ -80,6 +86,9 @@ freight=Passagiere
 payload=40
 engine_type=electric
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 cost=4453210
 RunningCost=125
 loading_time=220
@@ -112,6 +121,9 @@ freight=Passagiere
 payload=40
 engine_type=electric
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 cost=4453210
 RunningCost=125
 loading_time=220
@@ -142,6 +154,9 @@ freight=Passagiere
 payload=50
 engine_type=electric
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 cost=299063
 RunningCost=27
 loading_time=270
@@ -174,6 +189,9 @@ freight=Passagiere
 payload=30
 engine_type=electric
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 cost=4393398
 RunningCost=119
 loading_time=160
