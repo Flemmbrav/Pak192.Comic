@@ -16,6 +16,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.0.<$0>
@@ -38,6 +41,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.1.<$0>
@@ -60,6 +66,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10760
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.2.<$0>
 ------------
@@ -82,6 +91,9 @@ waytype=narrowgauge_track
 loading_time=10760
 
 constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.3.<$0>
 -----------
@@ -105,6 +117,9 @@ loading_time=10340
 catering_level=2
 
 constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.4.<$0>
 
@@ -125,6 +140,10 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.1.<$0>
 -----------
 obj=vehicle
@@ -141,6 +160,9 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.2.<$0>
@@ -159,6 +181,9 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.0.<$0>
@@ -184,6 +209,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.0.<$0>
@@ -206,6 +234,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.1.<$0>
@@ -228,6 +259,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10760
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.2.<$0>
 ------------
@@ -249,6 +283,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10760
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.3.<$0>

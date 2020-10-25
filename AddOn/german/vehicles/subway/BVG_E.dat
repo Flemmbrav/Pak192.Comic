@@ -19,6 +19,10 @@ waytype=narrowgauge_track
 engine_type=electric
 #loading_time=2560
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 Constraint[Prev][0]=E_2-BVG
 Constraint[Prev][1]=E_4-BVG
 Constraint[Prev][2]=none
@@ -53,6 +57,10 @@ length=10
 waytype=narrowgauge_track
 engine_type=electric
 #loading_time=2560
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[Prev][0]=E_1-BVG
 Constraint[Next][0]=E_1-BVG

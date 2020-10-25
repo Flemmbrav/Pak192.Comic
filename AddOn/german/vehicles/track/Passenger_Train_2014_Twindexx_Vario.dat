@@ -14,6 +14,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario.0.<$0>
@@ -34,6 +37,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario.1.<$0>
@@ -54,6 +60,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10760
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario.2.<$0>
 ------------
@@ -73,6 +82,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10760
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario.3.<$0>
@@ -94,6 +106,9 @@ length=12
 waytype=narrowgauge_track
 #engine_type=electric
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.0.<$0>
@@ -116,6 +131,9 @@ engine_type=electric
 power=2300
 gear=100
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=Twindex_Vario_Triebwagen_PC_2
 constraint[prev][1]=none
 
@@ -139,6 +157,9 @@ engine_type=electric
 power=2300
 gear=100
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=any
 
 constraint[next][0]=Twindex_Vario_Triebwagen_PC_1
@@ -165,6 +186,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10340
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=any
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.0.<$0>
@@ -185,7 +209,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=10760
 
-
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.1.<$0>
 ------------
 obj=vehicle
@@ -206,4 +232,7 @@ loading_time=10760
 
 constraint[prev][0]=any
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.2.<$0>

@@ -23,6 +23,10 @@ EmptyImage[NE]=./image/E91_9.1.4
 EmptyImage[SE]=./image/E91_9.0.3
 EmptyImage[SW]=./image/E91_9.0.4
 constraint[next][0]=DR_E91_9b
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 ---
 obj=vehicle
 name=DR_E91_9b
@@ -50,6 +54,10 @@ EmptyImage[SE]=./image/E91_9.2.3
 EmptyImage[SW]=./image/E91_9.2.4
 constraint[next][0]=DR_E91_9c
 constraint[prev][0]=DR_E91_9
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 ---
 obj=vehicle
 name=DR_E91_9c
@@ -76,4 +84,8 @@ EmptyImage[NE]=./image/E91_9.5.4
 EmptyImage[SE]=./image/E91_9.4.3
 EmptyImage[SW]=./image/E91_9.4.4
 constraint[prev][0]=DR_E91_9b
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 ---

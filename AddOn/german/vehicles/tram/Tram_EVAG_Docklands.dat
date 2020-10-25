@@ -34,6 +34,9 @@ EmptyImage[N]=image/EVAG_P89.0.1
 EmptyImage[W]=image/EVAG_P89.0.0
 EmptyImage[NW]=image/EVAG_P89.1.2
 EmptyImage[NE]=image/EVAG_P89.1.1
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 ------
 obj=vehicle
 name=EVAG_P89_2
@@ -71,6 +74,9 @@ EmptyImage[N]=image/EVAG_P89.2.1
 EmptyImage[W]=image/EVAG_P89.2.0
 EmptyImage[NW]=image/EVAG_P89.3.2
 EmptyImage[NE]=image/EVAG_P89.3.1
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 -----
 
@@ -110,6 +116,9 @@ EmptyImage[N]=image/EVAG_P86.0.1
 EmptyImage[W]=image/EVAG_P86.0.0
 EmptyImage[NW]=image/EVAG_P86.1.2
 EmptyImage[NE]=image/EVAG_P86.1.1
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 ------
 obj=vehicle
 name=EVAG_P86_2
@@ -147,6 +156,9 @@ EmptyImage[N]=image/EVAG_P86.2.1
 EmptyImage[W]=image/EVAG_P86.2.0
 EmptyImage[NW]=image/EVAG_P86.3.2
 EmptyImage[NE]=image/EVAG_P86.3.1
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 -----
 

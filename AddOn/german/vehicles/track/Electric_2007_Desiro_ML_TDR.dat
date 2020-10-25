@@ -16,6 +16,10 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=4860
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Electric_2007_Desiro_ML_TDR_1
 constraint[next][0]=Electric_2007_Desiro_ML_TDR_3
 
@@ -39,6 +43,10 @@ waytype=narrowgauge_track
 engine_type=electric
 power=1300
 loading_time=4860
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 
 constraint[prev][0]=Electric_2016_Desiro_ML_GYSEV_3
 constraint[prev][1]=OBB_Cityjet_Steuerwagen_hinten
@@ -70,6 +78,10 @@ waytype=narrowgauge_track
 engine_type=electric
 power=1300
 loading_time=4860
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=Electric_2007_Desiro_ML_TDR_2
 constraint[next][0]=Electric_2016_Desiro_ML_GYSEV_1

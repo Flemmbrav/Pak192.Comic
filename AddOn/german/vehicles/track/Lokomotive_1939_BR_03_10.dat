@@ -15,6 +15,10 @@ gear=200
 length=9
 waytype=narrowgauge_track
 engine_type=steam
+has_front_cab=1
+has_rear_cab=0
+bidirectional=0
+
 constraint[prev][0]=none
 constraint[next][0]=BR_03_10_Tender
 EmptyImage[S]=./image/BR 03_10.1.1
@@ -40,6 +44,10 @@ speed=140
 length=5
 waytype=narrowgauge_track
 constraint[prev][0]=BR_03_10
+has_front_cab=0
+has_rear_cab=0
+bidirectional=0
+
 EmptyImage[S]=./image/BR 03_10.0.1
 EmptyImage[E]=./image/BR 03_10.0.0
 EmptyImage[SE]=./image/BR 03_10.0.4

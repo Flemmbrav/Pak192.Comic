@@ -13,6 +13,10 @@ runningcost=213
 cost=2344650
 length=14
 loading_time=2130
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=any
 
 freight=fiber

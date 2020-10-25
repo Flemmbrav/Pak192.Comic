@@ -29,6 +29,10 @@ gear=200
 speed=200
 length=12
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=BR_411_2
 constraint[prev][1]=Track_Diesel_2000_IC_TD_2
 constraint[prev][2]=Track_Diesel_2000_IC_TD_DSB_2
@@ -67,6 +71,10 @@ power=560
 gear=200
 speed=200
 length=12
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=Track_Diesel_2000_IC_TD_4
 constraint[next][0]=Track_Diesel_2000_IC_TD_1
@@ -107,6 +115,10 @@ gear=200
 speed=200
 length=12
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Track_Diesel_2000_IC_TD_1
 constraint[next][0]=Track_Diesel_2000_IC_TD_4
 
@@ -142,6 +154,10 @@ power=560
 gear=200
 speed=200
 length=12
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 constraint[prev][0]=Track_Diesel_2000_IC_TD_3
 constraint[next][0]=Track_Diesel_2000_IC_TD_2

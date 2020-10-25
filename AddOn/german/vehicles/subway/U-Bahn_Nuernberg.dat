@@ -25,6 +25,10 @@ length=11
 waytype=narrowgauge_track
 engine_type=electric
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 Constraint[Prev][0]=DT3_2-VAG
 Constraint[Prev][1]=none
 #Constraint[Prev][0]=none
@@ -58,6 +62,10 @@ speed=80
 length=10
 waytype=narrowgauge_track
 engine_type=electric
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[Prev][0]=DT3_1-VAG
 Constraint[Next][0]=DT3_1-VAG
@@ -93,6 +101,10 @@ length=11
 waytype=narrowgauge_track
 engine_type=electric
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 Constraint[Prev][0]=DT2_2-VAG
 Constraint[Prev][1]=none
 #Constraint[Prev][0]=none
@@ -126,6 +138,10 @@ speed=80
 length=10
 waytype=narrowgauge_track
 engine_type=electric
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[Prev][0]=DT2_1-VAG
 Constraint[Next][0]=DT2_1-VAG
@@ -161,6 +177,10 @@ length=11
 waytype=narrowgauge_track
 engine_type=electric
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 Constraint[Prev][0]=DT1_2-VAG
 Constraint[Prev][1]=none
 #Constraint[Prev][0]=none
@@ -194,6 +214,10 @@ speed=80
 length=10
 waytype=narrowgauge_track
 engine_type=electric
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 Constraint[Prev][0]=DT1_1-VAG
 Constraint[Next][0]=DT1_1-VAG

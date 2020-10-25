@@ -17,6 +17,10 @@ power=1300
 gear=100
 loading_time=3510
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Electric_2014_Flirt3_Nordbahn_4
 constraint[prev][1]=Electric_2014_Flirt3_NahSh_4
 constraint[prev][2]=Electric_2014_Flirt3_DB_4
@@ -45,6 +49,10 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=4100
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Electric_2014_Flirt3_Nordbahn_1
 constraint[prev][1]=Electric_2014_Flirt3_Nordbahn_2
 constraint[next][0]=Electric_2014_Flirt3_Nordbahn_2
@@ -70,6 +78,10 @@ length=7
 waytype=narrowgauge_track
 engine_type=electric
 loading_time=4100
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 constraint[prev][0]=Electric_2014_Flirt3_Nordbahn_1
 constraint[prev][1]=Electric_2014_Flirt3_Nordbahn_2
@@ -97,6 +109,10 @@ engine_type=electric
 power=1300
 gear=100
 loading_time=3510
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=Electric_2014_Flirt3_Nordbahn_1
 constraint[prev][1]=Electric_2014_Flirt3_Nordbahn_2
@@ -129,6 +145,10 @@ power=1300
 gear=100
 loading_time=3510
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Electric_2014_Flirt3_Nordbahn_4
 constraint[prev][1]=Electric_2014_Flirt3_NahSh_4
 constraint[prev][2]=Electric_2014_Flirt3_DB_4
@@ -157,6 +177,10 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=4100
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Electric_2014_Flirt3_NahSh_1
 constraint[prev][1]=Electric_2014_Flirt3_NahSh_2
 constraint[next][0]=Electric_2014_Flirt3_NahSh_2
@@ -182,6 +206,10 @@ length=7
 waytype=narrowgauge_track
 engine_type=electric
 loading_time=4100
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 constraint[prev][0]=Electric_2014_Flirt3_NahSh_1
 constraint[prev][1]=Electric_2014_Flirt3_NahSh_2
@@ -209,6 +237,10 @@ engine_type=electric
 power=1300
 gear=100
 loading_time=3510
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=Electric_2014_Flirt3_NahSh_1
 constraint[prev][1]=Electric_2014_Flirt3_NahSh_2
@@ -241,6 +273,10 @@ power=1300
 gear=100
 loading_time=3510
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Electric_2014_Flirt3_Nordbahn_4
 constraint[prev][1]=Electric_2014_Flirt3_NahSh_4
 constraint[prev][2]=Electric_2014_Flirt3_DB_4
@@ -269,6 +305,10 @@ waytype=narrowgauge_track
 engine_type=electric
 loading_time=4100
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=Electric_2014_Flirt3_DB_1
 constraint[prev][1]=Electric_2014_Flirt3_DB_2
 constraint[next][0]=Electric_2014_Flirt3_DB_2
@@ -294,6 +334,10 @@ length=7
 waytype=narrowgauge_track
 engine_type=electric
 loading_time=4100
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 constraint[prev][0]=Electric_2014_Flirt3_DB_1
 constraint[prev][1]=Electric_2014_Flirt3_DB_2
@@ -321,6 +365,10 @@ engine_type=electric
 power=1300
 gear=100
 loading_time=3510
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 
 constraint[prev][0]=Electric_2014_Flirt3_DB_1
 constraint[prev][1]=Electric_2014_Flirt3_DB_2

@@ -71,6 +71,10 @@ is_tilting=0
 
 copyright=Flemmbrav
 
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=image/145_RBH.0.3
 EmptyImage[E]=image/145_RBH.0.2
 EmptyImage[SE]=image/145_RBH.1.0
@@ -113,6 +117,10 @@ is_tall=1
 is_tilting=0
 
 copyright=Flemmbrav
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
 
 EmptyImage[S]=image/145_zza.0.3
 EmptyImage[E]=image/145_zza.0.2

@@ -14,6 +14,9 @@ weight=44
 speed=200
 length=12
 constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 waytype=narrowgauge_track
 loading_time=4470
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2007_City_Night_Line.0.<$0>
@@ -36,6 +39,9 @@ speed=200
 length=12
 waytype=narrowgauge_track
 constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2007_City_Night_Line.1.<$0>
 ---
 
@@ -59,6 +65,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=9180
 constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2007_City_Night_Line.2.<$0>
 ---
 
@@ -79,6 +88,9 @@ speed=200
 length=12
 waytype=narrowgauge_track
 constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2007_City_Night_Line.3.<$0>
 ---
 
@@ -98,6 +110,9 @@ payload=42
 freight=Passagiere
 length=12
 constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 waytype=narrowgauge_track
 loading_time=9180
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2007_City_Night_Line.4.<$0>
@@ -119,6 +134,9 @@ weight=42
 speed=200
 length=12
 constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 waytype=narrowgauge_track
 loading_time=4470
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2007_City_Night_Line.5.<$0>
@@ -142,5 +160,8 @@ speed=200
 length=12
 waytype=narrowgauge_track
 constraint[prev][0]=any
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2007_City_Night_Line.6.<$0>
 ---
