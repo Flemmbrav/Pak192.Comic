@@ -26,7 +26,7 @@ waytype=narrowgauge_track
 loading_time=7630
 constraint[prev][0]=any
 constraint[next][0]=Passenger_Train_2008_Railjet_2
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.1.<$0>
 -------------
 #Endwagen hinten
 obj=vehicle
@@ -47,7 +47,7 @@ length=12
 waytype=narrowgauge_track
 loading_time=7630
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.1.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.0.<$0>
 -------------
 #Mittelwagen
 obj=vehicle
@@ -102,8 +102,10 @@ length=12
 waytype=narrowgauge_track
 loading_time=7630
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
+constraint[prev][1]=Passenger_Train_2008_Railjet_5
 constraint[next][0]=Passenger_Train_2008_Railjet_2
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.3.<$0>
+constraint[next][1]=Passenger_Train_2008_Railjet_6
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.4.<$0>
 -------------
 #Speisewagen hinten
 obj=vehicle
@@ -126,30 +128,10 @@ length=12
 waytype=narrowgauge_track
 loading_time=7630
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
+constraint[prev][1]=Passenger_Train_2008_Railjet_5
 constraint[next][0]=Passenger_Train_2008_Railjet_2
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.4.<$0>
--------------
-#Steuerwagen vorne
-obj=vehicle
-name=Passenger_Train_2008_Railjet_5
-copyright=PTM & Citarofahrer
-intro_year=2008
-intro_month=12
-#retire_year=2025
-#retire_month=0
-freight=Passagiere
-payload=10
-#Sitzplätze
-# Stehplatzfläche 
-cost=8396718
-runningcost=763
-weight=55
-speed=230
-length=12
-waytype=narrowgauge_track
-loading_time=7630
-constraint[next][0]=Passenger_Train_2008_Railjet_2
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.5.<$0>
+constraint[next][1]=Passenger_Train_2008_Railjet_6
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.3.<$0>
 -------------
 #Steuerwagen vorne
 obj=vehicle
@@ -162,6 +144,7 @@ intro_month=12
 freight=Passagiere
 payload=27
 #Sitzplätze
+# Stehplatzfläche 
 cost=8396718
 runningcost=763
 weight=55
@@ -170,7 +153,9 @@ length=12
 waytype=narrowgauge_track
 loading_time=7630
 constraint[next][0]=Passenger_Train_2008_Railjet_2
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.5.<$0>
+constraint[next][1]=Passenger_Train_2008_Railjet_3
+constraint[next][2]=Passenger_Train_2008_Railjet_4
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.6.<$0>
 -------------
 #Steuerwagen hinten
 obj=vehicle
@@ -191,4 +176,6 @@ length=12
 waytype=narrowgauge_track
 loading_time=7630
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.6.<$0>
+constraint[prev][1]=Passenger_Train_2008_Railjet_3
+constraint[prev][2]=Passenger_Train_2008_Railjet_4
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.5.<$0>
