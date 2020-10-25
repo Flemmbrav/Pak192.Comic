@@ -19,6 +19,9 @@ engine_type=electric
 power=700
 gear=130
 
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=Narrowgauge_Passenger_Train_2012_g
 constraint[prev][1]=none
 constraint[next][0]=Narrowgauge_Passenger_Train_2012_b
@@ -44,6 +47,9 @@ cost=794310
 length=8
 engine_type=electric
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=Narrowgauge_Passenger_Train_2012_a
 constraint[next][0]=Narrowgauge_Passenger_Train_2012_c
 constraint[next][1]=Narrowgauge_Passenger_Train_2012_g
@@ -71,6 +77,9 @@ engine_type=electric
 power=700
 gear=130
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=Narrowgauge_Passenger_Train_2012_b
 constraint[next][0]=Narrowgauge_Passenger_Train_2012_d
 constraint[next][1]=Narrowgauge_Passenger_Train_2012_e
@@ -96,6 +105,9 @@ cost=794310
 length=10
 engine_type=electric
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=Narrowgauge_Passenger_Train_2012_c
 constraint[next][0]=Narrowgauge_Passenger_Train_2012_e
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Electric_2012_Adler.3.<$0>
@@ -122,6 +134,9 @@ engine_type=electric
 power=700
 gear=130
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=Narrowgauge_Passenger_Train_2012_c
 constraint[prev][1]=Narrowgauge_Passenger_Train_2012_d
 constraint[next][0]=Narrowgauge_Passenger_Train_2012_f
@@ -147,6 +162,9 @@ cost=794310
 length=8
 engine_type=electric
 
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 constraint[prev][0]=Narrowgauge_Passenger_Train_2012_e
 constraint[next][0]=Narrowgauge_Passenger_Train_2012_g
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Electric_2012_Adler.5.<$0>
@@ -173,6 +191,9 @@ engine_type=electric
 power=700
 gear=130
 
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
 constraint[prev][0]=Narrowgauge_Passenger_Train_2012_b
 constraint[prev][1]=Narrowgauge_Passenger_Train_2012_f
 constraint[next][0]=Narrowgauge_Passenger_Train_2012_a
