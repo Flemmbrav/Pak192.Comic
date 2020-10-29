@@ -13,7 +13,6 @@ runningcost=638
 cost=6615000
 length=12
 
-constraint[prev][0]=any
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1
@@ -44,7 +43,6 @@ runningcost=638
 cost=6615000
 length=12
 
-constraint[prev][0]=any
 has_front_cab=0
 has_rear_cab=0
 bidirectional=1

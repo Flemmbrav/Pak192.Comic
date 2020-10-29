@@ -18,6 +18,11 @@ waytype=narrowgauge_track
 engine_type=diesel
 smoke=diesel
 sound=none
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=image/285.0.3
 EmptyImage[E]=image/285.0.2
 EmptyImage[SE]=image/285.1.0
@@ -47,6 +52,11 @@ waytype=narrowgauge_track
 engine_type=diesel
 smoke=diesel
 sound=none
+
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
 EmptyImage[S]=image/246_LNVG.0.3
 EmptyImage[E]=image/246_LNVG.0.2
 EmptyImage[SE]=image/246_LNVG.1.0
