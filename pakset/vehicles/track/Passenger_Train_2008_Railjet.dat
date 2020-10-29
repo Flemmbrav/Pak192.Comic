@@ -26,7 +26,7 @@ waytype=narrowgauge_track
 loading_time=7630
 constraint[prev][0]=any
 constraint[next][0]=Passenger_Train_2008_Railjet_2
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.1.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.0.<$0>
 -------------
 #Endwagen hinten
 obj=vehicle
@@ -47,7 +47,7 @@ length=12
 waytype=narrowgauge_track
 loading_time=7630
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.1.<$0>
 -------------
 #Mittelwagen
 obj=vehicle
