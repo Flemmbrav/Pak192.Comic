@@ -17,7 +17,11 @@ cost=2344650
 length=6
 loading_time=2130
 freight=coal
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Kohlewagen1.0.<$0>
 freightimagetype[0]=coal
 freightimagetype[1]=ore
@@ -45,7 +49,11 @@ length=8
 #muesste eigentlich kuerzer sein
 loading_time=2130
 freight=coal
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[W,S,SE,SW]=./image/Kohlewagen2.0.<$0>
 freightimagetype[0]=coal
 freightimagetype[1]=ore
@@ -73,7 +81,11 @@ length=8
 #muesste eigentlich kuerzer sein
 loading_time=2840
 freight=coal
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[W,S,SE,SW]=./image/Kohlewagen3.0.<$0>
 freightimagetype[0]=coal
 freightimagetype[1]=ore
@@ -101,7 +113,11 @@ cost=2344650
 length=7
 loading_time=2130
 freight=coal
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E,S,NW,SW,W,N,SE,NE]=./image/Kohlewagen4.0.<$0>
 freightimagetype[0]=coal
 freightimagetype[1]=ore
@@ -129,7 +145,11 @@ cost=3126200
 length=8
 loading_time=2840
 freight=coal
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E,S,NW,SW,W,N,SE,NE]=./image/Kohlewagen5.0.<$0>
 freightimagetype[0]=coal
 freightimagetype[1]=ore
@@ -155,7 +175,11 @@ cost=4689300
 length=8
 loading_time=4260
 freight=coal
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[E,S,NW,SW,W,N,SE,NE]=./image/Kohlewagen6.0.<$0>
 freightimagetype[0]=coal
 freightimagetype[1]=ore

@@ -14,7 +14,11 @@ runningcost=183
 cost=2009700
 length=8
 loading_time=1830
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[s]=./image/Getreidewagen2.1.1
 emptyimage[se]=./image/Getreidewagen2.1.2
 emptyimage[sw]=./image/Getreidewagen2.1.3

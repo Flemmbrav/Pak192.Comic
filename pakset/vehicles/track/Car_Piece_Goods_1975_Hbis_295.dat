@@ -14,5 +14,9 @@ cost=2344650
 length=7
 loading_time=2130
 freight=flour
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Piece_Goods_1975_Hbis_295.0.<$0>

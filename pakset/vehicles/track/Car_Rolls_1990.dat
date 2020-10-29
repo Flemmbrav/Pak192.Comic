@@ -16,7 +16,10 @@ length=12
 #muesste eigentlich 11 lang sein
 loading_time=2310
 freight=cable
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 emptyimage[e]=./image/Car_Rolls_1990.0.0
 emptyimage[n]=./image/Car_Rolls_1990.0.3

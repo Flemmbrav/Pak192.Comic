@@ -14,7 +14,11 @@ cost=3536050
 length=8
 loading_time=2310
 freight=cable
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[s,w,se,sw]=./image/Car_1920_Rolls.0.<$0>
 freightimagetype[0]=cable
 freightimagetype[1]=carpet

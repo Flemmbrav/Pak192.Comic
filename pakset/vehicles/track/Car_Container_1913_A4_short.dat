@@ -13,7 +13,10 @@ runningcost=213
 cost=2344650
 length=5
 loading_time=2130
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 freight=fiber
 freightimagetype[0]=circuit_boards

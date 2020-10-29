@@ -14,7 +14,11 @@ cost=2536050
 length=8
 loading_time=2310
 freight=billet
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1920_Billet.0.<$0%4>
 freightimage[0][s,w,se,sw,n,e,nw,ne]=./image/Car_1920_Billet.1.<$0%4>
 freightimagetype[0]=billet
@@ -36,7 +40,11 @@ cost=3381400
 length=8
 loading_time=3070
 freight=billet
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Car_1965_Billet.0.<$0%4>
 freightimage[0][s,w,se,sw,n,e,nw,ne]=./image/Car_1965_Billet.1.<$0%4>
 freightimagetype[0]=billet

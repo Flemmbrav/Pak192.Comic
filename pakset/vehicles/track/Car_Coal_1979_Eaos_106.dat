@@ -15,7 +15,11 @@ cost=2344650
 length=7
 loading_time=2130
 freight=coal
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Coal_1979_Eaos_106.0.<$0>
 freightimagetype[0]=coal
 freightimagetype[1]=ore

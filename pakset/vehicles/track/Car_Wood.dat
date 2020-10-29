@@ -12,7 +12,11 @@ runningcost=400
 cost=4000000
 length=8
 loading_time=4000
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
+
 emptyimage[s]=./image/holzwagen1.1.1
 emptyimage[se]=./image/holzwagen1.1.2
 emptyimage[sw]=./image/holzwagen1.1.3
@@ -49,7 +53,10 @@ length=12
 #muesste eigentlich 11 lang sein
 loading_time=2310
 freight=logs
-constraint[prev][0]=any
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 emptyimage[e]=./image/Holztransport_Rnoos_644.0.0
 emptyimage[n]=./image/Holztransport_Rnoos_644.0.3
