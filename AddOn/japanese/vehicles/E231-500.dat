@@ -17,7 +17,7 @@ engine_type=electric
 loading_time=5340
 
 has_front_cab=1
-has_rear_cab0=0
+has_rear_cab=0
 bidirectional=1
 constraint[prev][0]=E231-500-4
 constraint[prev][1]=none

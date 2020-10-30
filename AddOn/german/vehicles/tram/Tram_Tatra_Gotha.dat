@@ -25,6 +25,11 @@ EmptyImage[N]=./tram_image/KT4d_GTH.0.1
 EmptyImage[W]=./tram_image/KT4d_GTH.0.0
 EmptyImage[NW]=./tram_image/KT4d_GTH.0.6
 EmptyImage[NE]=./tram_image/KT4d_GTH.0.5
+
+has_front_cab=1
+has_rear_cab=0
+bidirectional=1
+
 constraint[prev][0]=CKD_Tatra_KT4d_GTH_H
 constraint[prev][1]=none
 constraint[next][0]=CKD_Tatra_KT4d_GTH_H
@@ -56,6 +61,11 @@ EmptyImage[N]=./tram_image/KT4d_GTH.1.1
 EmptyImage[W]=./tram_image/KT4d_GTH.1.0
 EmptyImage[NW]=./tram_image/KT4d_GTH.1.6
 EmptyImage[NE]=./tram_image/KT4d_GTH.1.5
+
+has_front_cab=0
+has_rear_cab=1
+bidirectional=1
+
 constraint[prev][0]=CKD_Tatra_KT4d_GTH_F
 constraint[next][0]=CKD_Tatra_KT4d_GTH_F
 constraint[next][1]=none
