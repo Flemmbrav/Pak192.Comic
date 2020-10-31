@@ -279,7 +279,10 @@ readline() {
 calculatecosts(){
 	local dat=$1
 	#get the income of the vehicle by 1000 times
-	local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
+	local capa=${ObjectArray[overcrowded_capacity]}
+	local capa2=${ObjectArray[payload]}
+	capa=$(( capa + capa2 ))
+	local Income="$(getincome ${ObjectArray[freight]} $capa ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
 	#get the value of the power installed, this is essentially the income of 
 	local PowerValue=0
 	if [[ ! -z ${ObjectArray[power]} ]] ;then
@@ -304,7 +307,7 @@ calculatecosts(){
 	RunningCost=$(( RunningCost / 4000 ))
 	local speed=${ObjectArray[speed]}
 	if [[${ObjectArray[is_tilting]} == 1]] ;then
-		speed=$(( speed + 10 ))
+		speed=$(( speed + 20 ))
 	fi
 	local LoadingTime=$(( Income / 300 ))
 	LoadingTime=$(( LoadingTime * speed / 270 + LoadingTime / 2))
@@ -561,6 +564,8 @@ writevehicle() {
 	fi
 	if [[ ! -z ${ObjectArray[is_tall]} ]] ;then
 		echo "is_tall=${ObjectArray[is_tall]}" >> calculated/$dat
+	else
+		echo "is_tall=1" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[has_front_cab]} ]] ;then
 		echo "has_front_cab=${ObjectArray[has_front_cab]}" >> calculated/$dat
@@ -597,9 +602,6 @@ writevehicle() {
 	fi
 	if [[ ! -z ${ObjectArray[overcrowded_capacity]} ]] ;then
 		echo "overcrowded_capacity=${ObjectArray[overcrowded_capacity]}" >> calculated/$dat
-	fi
-	if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
-		echo "catering_level=${ObjectArray[catering_level]}" >> calculated/$dat
 	fi
 	if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
 		echo "catering_level=${ObjectArray[catering_level]}" >> calculated/$dat
