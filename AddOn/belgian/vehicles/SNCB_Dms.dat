@@ -1,6 +1,6 @@
 obj=vehicle
 name=SNCB_Dms
-copyright=Flemmbrav & CFModels
+copyright=Flemmbrav
 intro_year=1987
 retire_year=2001
 freight=Post
