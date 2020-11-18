@@ -1,0 +1,11 @@
+obj=ground_obj
+name=OneWithNature
+copyright=Leartin
+cost=100000
+DistributionWeight=5
+trees_on_top=0
+seasons=1
+climates=temperate, tundra, rocky
+Image[0][0]=./image/OneWithNature.0.0
+Image[0][1]=./image/OneWithNature.0.1
+noinfo=1
