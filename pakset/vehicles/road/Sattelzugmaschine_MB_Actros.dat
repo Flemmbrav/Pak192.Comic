@@ -2,6 +2,7 @@ obj=vehicle
 name=MB_ACTROS
 copyright=PappeTeeMaster
 waytype=road
+engine_type=diesel
 intro_year=2011
 intro_month=7
 speed=80
