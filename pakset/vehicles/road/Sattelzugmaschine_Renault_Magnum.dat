@@ -2,6 +2,7 @@ obj=vehicle
 name=Renault_Magnum
 copyright=PappeTeeMaster
 waytype=road
+engine_type=diesel
 intro_year=1990
 intro_month=1
 retire_year=2013
