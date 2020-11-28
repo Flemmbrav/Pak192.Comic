@@ -170,7 +170,7 @@ way_max_bridge_len = 4095
 #
 # other recommended vaule for 192comic is 1975
 #
-starting_year = 1930
+starting_year = 1975
 
 # Starting month of the game for people who want to start in summer (default 1=January)
 starting_month = 4
