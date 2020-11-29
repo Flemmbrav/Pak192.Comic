@@ -306,7 +306,7 @@ calculatecosts(){
 	local RunningCost=$(( Income + PowerValue ))
 	RunningCost=$(( RunningCost / 4000 ))
 	local speed=${ObjectArray[speed]}
-	if [[${ObjectArray[is_tilting]} == 1]] ;then
+	if [[ ${ObjectArray[is_tilting]} == 1 ]] ;then
 		speed=$(( speed + 20 ))
 	fi
 	local LoadingTime=$(( Income / 300 ))
