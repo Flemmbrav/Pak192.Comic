@@ -10,6 +10,7 @@ cost=6272178
 runningcost=570
 loading_time=5700
 weight=41
+brake_force=83
 speed=160
 length=12
 waytype=narrowgauge_track
