@@ -9,6 +9,7 @@ speed=80
 power=650
 gear=124
 weight=60
+brake_force=66
 runningcost=504
 cost=20182240
 smoke=diesel

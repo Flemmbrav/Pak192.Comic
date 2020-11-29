@@ -10,6 +10,7 @@ speed=120
 freight=flour
 payload=63
 weight=26
+brake_force=58
 runningcost=569
 cost=6138100
 length=12

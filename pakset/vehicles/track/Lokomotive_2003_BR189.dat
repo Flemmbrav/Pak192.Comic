@@ -14,6 +14,7 @@ gear=147
 speed=140
 
 weight=87
+brake_force=131
 axles=4
 axle_load=22
 

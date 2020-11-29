@@ -10,6 +10,7 @@ speed=100
 payload=29
 #with 82m3 and 0,35t/m3 for hop
 weight=24
+brake_force=58
 runningcost=213
 cost=2344650
 length=8

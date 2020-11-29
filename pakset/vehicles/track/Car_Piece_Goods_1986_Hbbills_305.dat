@@ -9,6 +9,7 @@ retire_year=2001
 speed=120
 payload=33
 weight=16
+brake_force=29
 runningcost=213
 cost=2344650
 length=7

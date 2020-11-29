@@ -10,6 +10,7 @@ payload=20
 cost=30000000
 runningcost=3000
 weight=42
+brake_force=93
 speed=200
 length=12
 waytype=narrowgauge_track

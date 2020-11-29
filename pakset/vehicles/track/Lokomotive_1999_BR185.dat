@@ -14,6 +14,7 @@ tractive_effort=300
 speed=140
 
 weight=85
+brake_force=126
 axles=4
 axle_load=22
 

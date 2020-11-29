@@ -9,6 +9,7 @@ intro_month=9
 speed=120
 payload=44
 weight=18
+brake_force=36
 runningcost=213
 cost=2344650
 length=8

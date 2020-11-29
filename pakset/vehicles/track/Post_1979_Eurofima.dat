@@ -26,6 +26,7 @@ payload=1480
 cost=10675814
 runningcost=971
 weight=42
+brake_force=93
 speed=200
 length=12
 waytype=narrowgauge_track
