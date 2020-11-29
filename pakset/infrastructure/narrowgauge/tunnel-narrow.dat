@@ -6,7 +6,6 @@ topspeed=90
 cost=100000
 maintenance=7373
 intro_year=1840
-way=narrowgauge_tunnel_090
 icon=> ./images/tunnel-narrow.0.3
 cursor=./images/tunnel-narrow.1.3
 BackImage[N][0]=./images/tunnel-narrow.1.1
