@@ -33,12 +33,7 @@ brake_force=119
 
 #constraint[prev][0]=any
 constraint[next][0]=Passenger_Train_2008_Railjet_2
-
-has_front_cab=0
-has_rear_cab=0
-bidirectional=1
-
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.1.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.0.<$0>
 -------------
 #Endwagen hinten
 obj=vehicle
@@ -66,12 +61,7 @@ bidirectional=1
 brake_force=119
 
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
-
-has_front_cab=0
-has_rear_cab=0
-bidirectional=1
-
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.1.<$0>
 -------------
 #Mittelwagen
 obj=vehicle
@@ -110,11 +100,6 @@ constraint[next][1]=Passenger_Train_2008_Railjet_2
 constraint[next][2]=Passenger_Train_2008_Railjet_3
 constraint[next][3]=Passenger_Train_2008_Railjet_4
 constraint[next][4]=Passenger_Train_2008_Railjet_6
-
-has_front_cab=0
-has_rear_cab=0
-bidirectional=1
-
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.2.<$0>
 -------------
 #Speisewagen vorne
@@ -149,11 +134,6 @@ constraint[prev][0]=Passenger_Train_2008_Railjet_2
 constraint[prev][1]=Passenger_Train_2008_Railjet_5
 constraint[next][0]=Passenger_Train_2008_Railjet_2
 constraint[next][1]=Passenger_Train_2008_Railjet_6
-
-has_front_cab=0
-has_rear_cab=0
-bidirectional=1
-
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.4.<$0>
 -------------
 #Speisewagen hinten
@@ -188,11 +168,6 @@ constraint[prev][0]=Passenger_Train_2008_Railjet_2
 constraint[prev][1]=Passenger_Train_2008_Railjet_5
 constraint[next][0]=Passenger_Train_2008_Railjet_2
 constraint[next][1]=Passenger_Train_2008_Railjet_6
-
-has_front_cab=0
-has_rear_cab=0
-bidirectional=1
-
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.3.<$0>
 -------------
 #Steuerwagen vorne
@@ -224,11 +199,6 @@ brake_force=112
 constraint[next][0]=Passenger_Train_2008_Railjet_2
 constraint[next][1]=Passenger_Train_2008_Railjet_3
 constraint[next][2]=Passenger_Train_2008_Railjet_4
-
-has_front_cab=1
-has_rear_cab=0
-bidirectional=1
-
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.6.<$0>
 -------------
 #Steuerwagen hinten
@@ -259,9 +229,4 @@ brake_force=112
 constraint[prev][0]=Passenger_Train_2008_Railjet_2
 constraint[prev][1]=Passenger_Train_2008_Railjet_3
 constraint[prev][2]=Passenger_Train_2008_Railjet_4
-
-has_front_cab=0
-has_rear_cab=1
-bidirectional=1
-
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2008_Railjet.5.<$0>
