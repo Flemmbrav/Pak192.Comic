@@ -8,13 +8,22 @@ intro_year=1989
 retire_year=1997
 freight=Passagiere
 payload=60
+comfort=150
+catering_level=2
 cost=6272178
 runningcost=570
 loading_time=5700
 weight=42
+axles=4
+axle_load=11
+brake_force=75
 speed=160
 length=12
 waytype=narrowgauge_track
+
+has_front_cab=0
+has_rear_cab=0
+bidirectional=1
 
 constraint[prev][0]=any
 
