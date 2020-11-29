@@ -9,7 +9,8 @@ intro_month=10
 #retire_month=5
 freight=Passagiere
 
-payload=88
+payload=48
+overcrowded_capacity=88
 cost=20515780
 runningcost=1029
 weight=28
@@ -47,7 +48,8 @@ intro_month=10
 #retire_month=5
 freight=Passagiere
 
-payload=96
+payload=48
+overcrowded_capacity=88
 cost=20515780
 runningcost=1029
 weight=28
@@ -84,7 +86,7 @@ intro_month=10
 #retire_month=5
 freight=Passagiere
 
-payload=96
+payload=48
 overcrowded_capacity=88
 cost=20515780
 runningcost=1029
@@ -122,7 +124,8 @@ intro_month=10
 #retire_month=5
 freight=Passagiere
 
-payload=88
+payload=48
+overcrowded_capacity=88
 cost=20515780
 runningcost=1029
 weight=28

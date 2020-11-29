@@ -7,7 +7,8 @@ retire_year=2015
 retire_month=5
 freight=Passagiere
 
-payload=84
+payload=48
+overcrowded_capacity=88
 cost=20515780
 runningcost=1029
 weight=27
@@ -47,7 +48,8 @@ retire_year=2015
 retire_month=5
 freight=Passagiere
 
-payload=96
+payload=48
+overcrowded_capacity=88
 cost=19447715
 runningcost=939
 weight=26
@@ -84,7 +86,8 @@ retire_year=2015
 retire_month=5
 freight=Passagiere
 
-payload=96
+payload=48
+overcrowded_capacity=88
 cost=19447715
 runningcost=939
 weight=26
@@ -121,7 +124,7 @@ retire_year=2015
 retire_month=5
 freight=Passagiere
 
-payload=84
+payload=48
 overcrowded_capacity=88
 cost=20515780
 runningcost=1029
