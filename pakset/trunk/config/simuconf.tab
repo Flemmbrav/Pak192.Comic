@@ -294,6 +294,7 @@ sighting_distance_meters = 875
 # 50kph "Permissives Fahren" in east Germany?
 
 max_speed_drive_by_sight_kmh = 50
+max_speed_drive_by_sight_tram_kmh = 70
 
 # Corners of greater than 45 degrees have their radius calculated. However, because of 
 # the rigid tile system in Simutrans, this produces unrealistic results when applied
