@@ -10,9 +10,7 @@ payload=32
 cost=8183307
 runningcost=744
 weight=42
-brake_force=75
-speed=120
-length=12
+speed=120length=12
 waytype=narrowgauge_track
 loading_time=7440
 constraint[prev][0]=any
