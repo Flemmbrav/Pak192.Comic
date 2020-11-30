@@ -875,3 +875,17 @@ retire_year[13] = 2045
 retire_month[13] = 12
 livery[13][0] = DSB
 intro_year[13][0] = 1900
+
+livery_scheme[14] = Dispolok
+retire_year[14] = 2002
+retire_month[14] = 1
+livery[14][0] = Dispolok
+intro_year[14][0] = 1990
+intro_month[14][0] = 1
+
+livery_scheme[15] = alex
+retire_year[15] = 2100
+retire_month[15] = 1
+livery[15][0] = alex
+intro_year[15][0] = 1990
+intro_month[15][0] = 1
