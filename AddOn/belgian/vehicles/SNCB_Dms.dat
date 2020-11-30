@@ -22,7 +22,7 @@ has_rear_cab=0
 bidirectional=1
 
 liverytype[0]=C1
-liverytype[1]=SNCB_grey
+liverytype[1]=SNCB_new_look
 EmptyImage[S][0-1]=./image/SNCB_Dms.<$0>.1
 EmptyImage[E][0-1]=./image/SNCB_Dms.<$0>.0
 EmptyImage[SE][0-1]=./image/SNCB_Dms.<$0>.4

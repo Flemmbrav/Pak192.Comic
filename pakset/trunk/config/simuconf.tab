@@ -814,11 +814,11 @@ livery[4][0] = OBB_Valousek
 intro_year[4][0] = 1988
 intro_month[4][0] = 1
 
-livery_scheme[5] = SNCB_grey
+livery_scheme[5] = SNCB_new_look
 retire_year[5] = 2050
 retire_month[5] = 12
-livery[5][0] = SNCB_grey
-intro_year[5][0] = 2000
+livery[5][0] = SNCB_new_look
+intro_year[5][0] = 1995
 intro_month[5][0] = 1
 
 livery_scheme[6] = C1

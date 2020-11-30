@@ -30,7 +30,7 @@ has_front_cab=1
 has_rear_cab=1
 bidirectional=1
 
-liverytype[0]=SNCB_grey
+liverytype[0]=SNCB_new_look
 EmptyImage[S][0]=image/SNCB_HLE18.0.3
 EmptyImage[E][0]=image/SNCB_HLE18.0.2
 EmptyImage[SE][0]=image/SNCB_HLE18.1.0

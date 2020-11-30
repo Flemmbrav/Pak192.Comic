@@ -48,7 +48,7 @@ has_rear_cab=0
 
 liverytype[0]=C1
 liverytype[1]=OBB_Valousek
-liverytype[2]=SNCB_grey
+liverytype[2]=SNCB_new_look
 
 EmptyImage[S][0]=./image/Passenger_Train_1977_Eurofima.0.1
 EmptyImage[E][0]=./image/Passenger_Train_1977_Eurofima.0.0
