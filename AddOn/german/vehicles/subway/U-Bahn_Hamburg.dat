@@ -1453,7 +1453,7 @@ EmptyImage[NE]=image/U-Bahn_Hamburg_DT4.5.1
 ------
 
 obj=vehicle
-name=U-Bahn_Hamburg_DT4_1
+name=U-Bahn_Hamburg_DT4U_1
 copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
