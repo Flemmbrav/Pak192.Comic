@@ -8,7 +8,6 @@
 # vehicles.
 # If something during loading is not found, it will be looked up here and
 # retried.
-================================================================================
 #
 ##-------------------------------------
 # player buildings
@@ -1009,8 +1008,6 @@ Eurorunner_20_Alex_PC
 V16
 Eurorunner_20_MRCE
 V16
-=======
-#
 SNCB_AM_96_Triebwagen_1996_0
 Track_Electric_1996_AM96_0
 SNCB_AM_96_Triebwagen_1996_1
@@ -1055,4 +1052,3 @@ SNCB_Dms
 Track_Post_1987_Dms
 SNCB_Dms_grey
 Track_Post_2000_Dms
->>>>>>> master

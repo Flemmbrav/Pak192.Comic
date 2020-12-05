@@ -889,3 +889,10 @@ retire_month[15] = 1
 livery[15][0] = alex
 intro_year[15][0] = 1990
 intro_month[15][0] = 1
+
+livery_scheme[16] = Urban
+retire_year[16] = 2100
+retire_month[16] = 1
+livery[16][0] = Urban
+intro_year[16][0] = 1850
+intro_month[16][0] = 1
