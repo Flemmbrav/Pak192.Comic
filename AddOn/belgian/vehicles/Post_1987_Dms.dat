@@ -13,4 +13,4 @@ length=12
 waytype=narrowgauge_track
 loading_time=9650
 constraint[prev][0]=any
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Post_1987_Dms.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Post_1987_Dms.0.<$0>
