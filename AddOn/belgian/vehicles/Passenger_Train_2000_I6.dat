@@ -2,7 +2,7 @@
 
 
 obj=vehicle
-name=SNCB_I_6_Wagen_2000_1
+name=Passenger_Train_2000_I6
 copyright=Flemmbrav
 intro_year=1989
 retire_year=1997
@@ -15,14 +15,5 @@ weight=42
 speed=160
 length=12
 waytype=narrowgauge_track
-
 constraint[prev][0]=any
-
-EmptyImage[S]=./image/SNCB_I6.1.1
-EmptyImage[E]=./image/SNCB_I6.1.0
-EmptyImage[SE]=./image/SNCB_I6.1.4
-EmptyImage[SW]=./image/SNCB_I6.1.7
-EmptyImage[N]=./image/SNCB_I6.1.3
-EmptyImage[W]=./image/SNCB_I6.1.2
-EmptyImage[NW]=./image/SNCB_I6.1.6
-EmptyImage[NE]=./image/SNCB_I6.1.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2000_I6.0.<$0>

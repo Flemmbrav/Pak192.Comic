@@ -1,0 +1,17 @@
+obj=vehicle
+name=Track_Passenger_Train_2020_M7_0
+# B
+copyright=Flemmbrav
+intro_year=2020
+intro_month=1
+runningcost=1020
+cost=11220825
+weight=53
+speed=200
+payload=140
+freight=Passagiere
+length=12
+waytype=narrowgauge_track
+loading_time=10200
+constraint[prev][0]=any
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2020_M7.0.<$0>
