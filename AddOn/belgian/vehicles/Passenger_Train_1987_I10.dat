@@ -5,6 +5,7 @@ intro_year=1987
 retire_year=1997
 freight=Passagiere
 payload=86
+overcrowded_capacity=42
 cost=6272178
 runningcost=570
 loading_time=5700

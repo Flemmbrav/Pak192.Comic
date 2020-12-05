@@ -5,6 +5,7 @@ intro_year=1989
 retire_year=1997
 freight=Passagiere
 payload=60
+overcrowded_capacity=20
 comfort=150
 catering_level=2
 cost=6272178
@@ -23,7 +24,5 @@ has_rear_cab=0
 bidirectional=1
 
 liverytype[0]=C1
-liverytype[1]=SNCB_new_look
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./C1/Passenger_Train_1989_I6.0.<$0>
-EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=./SNCB_new_look/Passenger_Train_2000_I6.0.<$0>
