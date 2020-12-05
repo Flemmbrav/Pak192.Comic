@@ -896,3 +896,24 @@ retire_month[16] = 1
 livery[16][0] = Urban
 intro_year[16][0] = 1850
 intro_month[16][0] = 1
+
+livery_scheme[17] = LNVG
+retire_year[17] = 2100
+retire_month[17] = 1
+livery[17][0] = LNVG
+intro_year[17][0] = 2000
+intro_month[17][0] = 1
+
+livery_scheme[18] = BWegt
+retire_year[18] = 2100
+retire_month[18] = 1
+livery[18][0] = BWegt
+intro_year[18][0] = 2000
+intro_month[18][0] = 1
+
+livery_scheme[19] = NahSH
+retire_year[19] = 2100
+retire_month[19] = 1
+livery[19][0] = NahSH
+intro_year[19][0] = 2000
+intro_month[19][0] = 1

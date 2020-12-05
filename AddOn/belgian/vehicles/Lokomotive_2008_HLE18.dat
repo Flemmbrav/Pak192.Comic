@@ -31,5 +31,5 @@ has_rear_cab=1
 bidirectional=1
 
 liverytype[0]=SNCB_new_look
-EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Lokomotive_2008_HLE18.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Lokomotive_2008_HLE18.0.<$0>
 ----

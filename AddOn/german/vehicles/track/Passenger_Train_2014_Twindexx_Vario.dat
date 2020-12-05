@@ -7,7 +7,8 @@ runningcost=1034
 cost=11376338
 weight=51
 speed=160
-payload=140
+payload=110
+overcrowded_capacity=160
 # 110 Seats
 freight=Passagiere
 length=12
@@ -18,7 +19,10 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario.0.<$0>
+liverytype[0]=DB
+liverytype[1]=NahSH
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Twindexx_Vario.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.0.<$0>
 -----------
 obj=vehicle
 name=Passenger_Train_2014_Twindexx_Vario_DBpza_783_0
@@ -85,29 +89,6 @@ has_rear_cab=1
 bidirectional=1
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario.3.<$0>
-
---------------------------
-
-obj=vehicle
-name=Twindex_Vario_Mittelwagen_PC
-copyright=Flemmbrav
-intro_year=2014
-intro_month=12
-runningcost=651
-cost=16358000
-weight=50
-speed=160
-payload=156
-freight=Passagiere
-length=12
-waytype=narrowgauge_track
-#engine_type=electric
-
-has_front_cab=0
-has_rear_cab=0
-bidirectional=1
-
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.0.<$0>
 
 -----------
 obj=vehicle

@@ -26,8 +26,8 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=Electric_1996_AM96_1
-constraint[next][0]=Electric_1996_AM96_2
+constraint[prev][0]=Track_Electric_1996_AM96_1
+constraint[next][0]=Track_Electric_1996_AM96_2
 
 has_front_cab=0
 has_rear_cab=0
@@ -35,8 +35,8 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 liverytype[1]=Urban
-EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.0.<$0>
-EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.0.<$0>
 -------------
 obj=vehicle
 name=Track_Electric_1996_AM96_1
@@ -62,9 +62,9 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=Electric_1996_AM96_2
+constraint[prev][0]=Track_Electric_1996_AM96_2
 constraint[prev][1]=none
-constraint[next][0]=Electric_1996_AM96_0
+constraint[next][0]=Track_Electric_1996_AM96_0
 
 has_front_cab=1
 has_rear_cab=0
@@ -72,8 +72,8 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 liverytype[1]=Urban
-EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.1.<$0>
-EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.1.<$0>
 -------------
 obj=vehicle
 name=Track_Electric_1996_AM96_2
@@ -97,8 +97,8 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=Electric_1996_AM96_0
-constraint[next][0]=Electric_1996_AM96_1
+constraint[prev][0]=Track_Electric_1996_AM96_0
+constraint[next][0]=Track_Electric_1996_AM96_1
 constraint[next][1]=none
 
 has_front_cab=0
@@ -107,5 +107,5 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 liverytype[1]=Urban
-EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.2.<$0>
-EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.2.<$0>

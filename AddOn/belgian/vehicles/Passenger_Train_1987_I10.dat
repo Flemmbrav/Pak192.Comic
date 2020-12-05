@@ -26,5 +26,5 @@ bidirectional=1
 liverytype[0]=C1
 liverytype[1]=SNCB_new_look
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./C1/Passenger_Train_1987_I10.0.<$0>
-EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=./SNCB_new_look/Passenger_Train_2000_I10.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./C1/Passenger_Train_1987_I10.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=./SNCB_new_look/Passenger_Train_2000_I10.0.<$0>

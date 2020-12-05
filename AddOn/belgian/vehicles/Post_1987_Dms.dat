@@ -23,5 +23,5 @@ bidirectional=1
 
 liverytype[0]=C1
 liverytype[1]=SNCB_new_look
-EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./C1/Post_1987_Dms.0.<$0>
-EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=./SNCB_new_look/Post_2000_Dms.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./C1/Post_1987_Dms.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=./SNCB_new_look/Post_2000_Dms.0.<$0>
