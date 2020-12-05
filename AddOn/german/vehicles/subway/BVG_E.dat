@@ -25,7 +25,8 @@ bidirectional=1
 
 Constraint[Prev][0]=E_2-BVG
 Constraint[Prev][1]=E_4-BVG
-Constraint[Prev][2]=none
+Constraint[Prev][2]=E_4U-BVG
+Constraint[Prev][3]=none
 Constraint[Next][0]=E_2-BVG
 
 EmptyImage[S]=./image/E-BVB.0.3
@@ -65,7 +66,8 @@ bidirectional=1
 Constraint[Prev][0]=E_1-BVG
 Constraint[Next][0]=E_1-BVG
 Constraint[Next][1]=E_3-BVG
-Constraint[Next][2]=none
+Constraint[Next][2]=E_3U-BVG
+Constraint[Next][3]=none
 
 EmptyImage[S]=./image/E-BVB.2.3
 EmptyImage[E]=./image/E-BVB.2.2
