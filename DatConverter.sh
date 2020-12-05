@@ -280,6 +280,7 @@ calculatecosts(){
 	local dat=$1
 	#get the income of the vehicle by 1000 times
 	local capa=${ObjectArray[overcrowded_capacity]}
+	capa=$(( capa / 3 ))
 	local capa2=${ObjectArray[payload]}
 	capa=$(( capa + capa2 ))
 	local Income="$(getincome ${ObjectArray[freight]} $capa ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
@@ -311,7 +312,7 @@ calculatecosts(){
 	fi
 	local LoadingTime=$(( Income / 300 ))
 	LoadingTime=$(( LoadingTime * speed / 270 + LoadingTime / 2))
-	LoadingTime=$(( LoadingTime / 100 ))
+	LoadingTime=$(( LoadingTime / 150 ))
 
 	local MinLoadingTime=$(( 10 + LoadingTime / 10 ))
 	LoadingTime=$(( 10 + LoadingTime ))
