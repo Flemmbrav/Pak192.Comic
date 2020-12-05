@@ -17,6 +17,8 @@ intro_month=12
 freight=Passagiere
 payload=72
 #Sitzpl�tze
+overcrowded_capacity=36
+#gesch�tzt
 cost=8396718
 runningcost=763
 weight=54
@@ -46,6 +48,8 @@ intro_month=12
 freight=Passagiere
 payload=72
 #Sitzpl�tze
+overcrowded_capacity=36
+#gesch�tzt
 cost=8396718
 runningcost=763
 weight=54
@@ -72,10 +76,12 @@ intro_month=12
 #retire_year=2025
 #retire_month=0
 freight=Passagiere
-payload=80
+payload=55
+overcrowded_capacity=36
+#gesch�tzt
 #Sitzpl�tze 2. Klasse
 # 55 Sitzpl�tze 1. Klasse
-#Stehpl�tze 18,2m2
+#Stehpl�tze 36,4m2
 cost=8396718
 runningcost=763
 weight=57
@@ -114,6 +120,7 @@ freight=Passagiere
 payload=24
 #davon 10 erste Klasse
 #Sitzpl�tze
+overcrowded_capacity=36
 # Stehplatzfl�che 
 cost=8396718
 runningcost=763
@@ -148,6 +155,7 @@ freight=Passagiere
 payload=24
 #davon 10 erste Klasse
 #Sitzpl�tze
+overcrowded_capacity=36
 # Stehplatzfl�che 
 cost=8396718
 runningcost=763

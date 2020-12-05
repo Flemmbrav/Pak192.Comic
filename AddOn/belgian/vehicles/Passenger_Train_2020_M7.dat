@@ -25,4 +25,4 @@ has_rear_cab=0
 bidirectional=1
 
 liverytype[0]=SNCB_new_look
-EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./image/Passenger_Train_2020_M7.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_2020_M7.0.<$0>

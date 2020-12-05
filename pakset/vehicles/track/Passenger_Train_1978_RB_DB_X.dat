@@ -7,7 +7,8 @@ retire_year=1999
 retire_month=5
 freight=Passagiere
 
-payload=110
+payload=80
+overcrowded_capacity=120
 cost=8579505
 runningcost=780
 weight=31
@@ -42,7 +43,8 @@ retire_year=1999
 retire_month=5
 freight=Passagiere
 
-payload=114
+payload=88
+overcrowded_capacity=140
 cost=8891487
 runningcost=808
 weight=28
@@ -75,7 +77,8 @@ retire_year=1999
 retire_month=5
 freight=Passagiere
 
-payload=110
+payload=80
+overcrowded_capacity=120
 cost=8579505
 runningcost=780
 weight=31

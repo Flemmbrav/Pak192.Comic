@@ -9,6 +9,7 @@ intro_month=1
 freight=Passagiere
 payload=78
 # 78 Sitzplaetze
+overcrowded_capacity=36
 cost=7871325
 runningcost=716
 weight=47
