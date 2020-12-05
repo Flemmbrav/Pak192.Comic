@@ -13,4 +13,4 @@ speed=200
 length=10
 waytype=narrowgauge_track
 engine_type=electric
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Lokomotive_1997_HLE13.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Lokomotive_1997_HLE13.0.<$0>

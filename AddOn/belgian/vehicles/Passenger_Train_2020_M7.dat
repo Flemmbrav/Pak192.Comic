@@ -14,4 +14,4 @@ length=12
 waytype=narrowgauge_track
 loading_time=10200
 constraint[prev][0]=any
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2020_M7.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2020_M7.0.<$0>

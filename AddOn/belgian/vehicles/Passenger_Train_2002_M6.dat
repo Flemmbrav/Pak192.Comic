@@ -17,7 +17,7 @@ loading_time=9620
 constraint[prev][0]=SNCB_M_6_Wagen_2002_2
 constraint[prev][1]=Track_Lokomotive_2008_HLE18
 constraint[prev][2]=none
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.0.<$0>
 -----------
 obj=vehicle
 name=Track_Passenger_Train_2002_M6_1
@@ -40,7 +40,7 @@ constraint[next][0]=SNCB_M_6_Wagen_2002_1
 constraint[next][1]=Track_Lokomotive_2008_HLE18
 constraint[next][2]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.1.<$0>
 ------------
 obj=vehicle
 name=Track_Passenger_Train_2002_M6_2
@@ -60,7 +60,7 @@ length=12
 waytype=narrowgauge_track
 loading_time=10200
 constraint[prev][0]=any
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.2.<$0>
 ------------
 obj=vehicle
 name=Track_Passenger_Train_2002_M6_3
@@ -78,4 +78,4 @@ length=12
 waytype=narrowgauge_track
 loading_time=10200
 constraint[prev][0]=any
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.3.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.3.<$0>

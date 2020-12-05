@@ -18,7 +18,7 @@ speed=200
 length=12
 waytype=narrowgauge_track
 constraint[prev][0]=any
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1996_I11.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_1996_I11.0.<$0>
 -------------
 obj=vehicle
 name=Track_Passenger_Train_1996_I11_1
@@ -34,7 +34,7 @@ weight=53
 speed=200
 length=12
 waytype=narrowgauge_track
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1996_I11.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_1996_I11.1.<$0>
 -------------
 obj=vehicle
 name=Track_Passenger_Train_1996_I11_2
@@ -51,4 +51,4 @@ speed=200
 length=12
 waytype=narrowgauge_track
 constraint[prev][0]=any
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1996_I11.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_1996_I11.2.<$0>
