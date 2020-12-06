@@ -101,7 +101,7 @@ compile() {
             if [[ $? != 0 ]]; then
                 echo "Error: makeobj-extended returned an error for $dat. Aborting..."
 		set -e o pipefail
-                echo -e "\x1B[33mErroe: Can not compile $dat\x1B[0m"
+                echo -e "\x1B[33mError: Can not compile $dat\x1B[0m"
                 rm "$csv.in"
                 exit $?
             fi

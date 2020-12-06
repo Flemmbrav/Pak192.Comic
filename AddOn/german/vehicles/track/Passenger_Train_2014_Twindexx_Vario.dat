@@ -19,10 +19,8 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-liverytype[0]=DB
-liverytype[1]=NahSH
+liverytype[0]=DB_Regio
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Twindexx_Vario.0.<$0>
-EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.0.<$0>
 -----------
 obj=vehicle
 name=Passenger_Train_2014_Twindexx_Vario_DBpza_783_0
@@ -33,7 +31,8 @@ runningcost=1034
 cost=11376338
 weight=52
 speed=160
-payload=155
+payload=125
+overcrowded_capacity=160
 # 125 Seats
 freight=Passagiere
 length=12
@@ -44,7 +43,13 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario.1.<$0>
+liverytype[0]=DB_Regio
+liverytype[1]=NahSH
+liverytype[2]=DB_Fernverkehr
+
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Twindexx_Vario.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][2]=image/Passenger_Train_2014_Twindexx_Vario_IC2.0.<$0>
 ------------
 obj=vehicle
 name=Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1
@@ -55,7 +60,8 @@ runningcost=1076
 cost=11832391
 weight=52
 speed=160
-payload=129
+payload=59
+overcrowded_capacity=200
 # 59 Seats
 freight=Passagiere
 length=12
@@ -66,7 +72,10 @@ has_front_cab=1
 has_rear_cab=0
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario.2.<$0>
+liverytype[0]=DB_Regio
+liverytype[1]=DB_Fernverkehr
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_IC2.1.<$0>
 ------------
 obj=vehicle
 name=Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_2
@@ -77,7 +86,8 @@ runningcost=1076
 cost=11832391
 weight=52
 speed=160
-payload=129
+payload=59
+overcrowded_capacity=200
 # 59 Seats
 freight=Passagiere
 length=12
@@ -88,11 +98,15 @@ has_front_cab=0
 has_rear_cab=1
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario.3.<$0>
+liverytype[0]=DB_Regio
+liverytype[1]=DB_Fernverkehr
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Twindexx_Vario.3.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_IC2.2.<$0>
 
 -----------
 obj=vehicle
-name=Twindex_Vario_Triebwagen_PC_1
+name=Dosto_5g_F_500M
+#name=Twindex_Vario_Triebwagen_PC_1
 copyright=Flemmbrav
 intro_year=2014
 intro_month=12
@@ -101,6 +115,7 @@ cost=78938049
 weight=87
 speed=160
 payload=100
+overcrowded_capacity=100
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
@@ -111,14 +126,18 @@ gear=100
 has_front_cab=1
 has_rear_cab=0
 bidirectional=1
-constraint[prev][0]=Twindex_Vario_Triebwagen_PC_2
-constraint[prev][1]=none
+#constraint[prev][0]=Twindex_Vario_Triebwagen_PC_2
+#constraint[prev][1]=none
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.1.<$0>
+liverytype[0]=DB_Regio
+liverytype[1]=NahSH
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Double_Deck.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.1.<$0>
 
 -----------
 obj=vehicle
-name=Twindex_Vario_Triebwagen_PC_2
+name=Dosto_5g_B_500M
+#name=Twindex_Vario_Triebwagen_PC_2
 copyright=Flemmbrav
 intro_year=2014
 intro_month=12
@@ -127,6 +146,7 @@ cost=78938049
 weight=87
 speed=160
 payload=100
+overcrowded_capacity=100
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
@@ -138,75 +158,10 @@ has_front_cab=0
 has_rear_cab=1
 bidirectional=1
 
-constraint[next][0]=Twindex_Vario_Triebwagen_PC_1
-constraint[next][1]=none
+#constraint[next][0]=Twindex_Vario_Triebwagen_PC_1
+#constraint[next][1]=none
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.2.<$0>
-
-
------------
-
-obj=vehicle
-name=Passenger_Train_2014_Twindexx_Vario_DBpza_783_0_IC2
-copyright=Flemmbrav
-intro_year=2014
-intro_month=6
-runningcost=1034
-cost=11376338
-weight=52
-speed=160
-payload=155
-# 125 Seats
-freight=Passagiere
-length=12
-waytype=narrowgauge_track
-loading_time=10340
-
-has_front_cab=0
-has_rear_cab=0
-bidirectional=1
-
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.0.<$0>
-------------
-obj=vehicle
-name=Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1_IC2
-copyright=Flemmbrav
-intro_year=2014
-intro_month=6
-runningcost=1076
-cost=11832391
-weight=52
-speed=160
-payload=129
-# 59 Seats
-freight=Passagiere
-length=12
-waytype=narrowgauge_track
-loading_time=10760
-
-has_front_cab=1
-has_rear_cab=0
-bidirectional=1
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.1.<$0>
-------------
-obj=vehicle
-name=Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_2_IC2
-copyright=Flemmbrav
-intro_year=2014
-intro_month=6
-runningcost=1076
-cost=11832391
-weight=52
-speed=160
-payload=129
-# 59 Seats
-freight=Passagiere
-length=12
-waytype=narrowgauge_track
-loading_time=10760
-
-
-has_front_cab=0
-has_rear_cab=1
-bidirectional=1
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_IC2.2.<$0>
+liverytype[0]=DB_Regio
+liverytype[1]=NahSH
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Double_Deck.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.2.<$0>

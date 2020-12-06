@@ -35,8 +35,8 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 liverytype[1]=Urban
-EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.0.<$0>
-EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.0.<$0>
 -------------
 obj=vehicle
 name=Track_Electric_1996_AM96_1
@@ -72,8 +72,8 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 liverytype[1]=Urban
-EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.1.<$0>
-EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.1.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.1.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.1.<$0>
 -------------
 obj=vehicle
 name=Track_Electric_1996_AM96_2
@@ -107,5 +107,5 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 liverytype[1]=Urban
-EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.2.<$0>
-EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.2.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.2.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.2.<$0>

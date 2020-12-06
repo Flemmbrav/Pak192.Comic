@@ -29,7 +29,7 @@ has_rear_cab=0
 bidirectional=1
 
 liverytype[0]=SNCB_new_look
-EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_1996_I11.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_1996_I11.0.<$0>
 -------------
 obj=vehicle
 name=Track_Passenger_Train_1996_I11_1
@@ -57,7 +57,7 @@ has_rear_cab=0
 bidirectional=1
 
 liverytype[0]=SNCB_new_look
-EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_1996_I11.1.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_1996_I11.1.<$0>
 -------------
 obj=vehicle
 name=Track_Passenger_Train_1996_I11_2
@@ -86,4 +86,4 @@ has_rear_cab=1
 bidirectional=1
 
 liverytype[0]=SNCB_new_look
-EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_1996_I11.2.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_1996_I11.2.<$0>
