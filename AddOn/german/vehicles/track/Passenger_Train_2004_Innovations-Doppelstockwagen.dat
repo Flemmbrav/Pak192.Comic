@@ -21,7 +21,7 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-liverytype[0]=DB
+liverytype[0]=DB_Regio
 liverytype[1]=BWegt
 liverytype[2]=LNVG
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.0.<$0>
@@ -51,7 +51,7 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-liverytype[0]=DB
+liverytype[0]=DB_Regio
 liverytype[1]=LNVG
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.1.<$0>
 EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.1.<$0>
@@ -79,7 +79,7 @@ has_front_cab=1
 has_rear_cab=0
 bidirectional=1
 
-liverytype[0]=DB
+liverytype[0]=DB_Regio
 liverytype[1]=BWegt
 liverytype[2]=LNVG
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.2.<$0>
@@ -109,7 +109,7 @@ has_front_cab=0
 has_rear_cab=1
 bidirectional=1
 
-liverytype[0]=DB
+liverytype[0]=DB_Regio
 liverytype[1]=BWegt
 liverytype[2]=LNVG
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.3.<$0>
@@ -140,5 +140,5 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-liverytype[0]=DB
+liverytype[0]=DB_Regio
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.4.<$0>

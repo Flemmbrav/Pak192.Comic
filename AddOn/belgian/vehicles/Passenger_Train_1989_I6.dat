@@ -25,4 +25,4 @@ bidirectional=1
 
 liverytype[0]=C1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./C1/Passenger_Train_1989_I6.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./C1/Passenger_Train_1989_I6.0.<$0>
