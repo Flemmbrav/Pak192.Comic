@@ -22,7 +22,7 @@ bidirectional=1
 liverytype[0]=DB
 liverytype[1]=NahSH
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Twindexx_Vario.0.<$0>
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.0.<$0>
 -----------
 obj=vehicle
 name=Passenger_Train_2014_Twindexx_Vario_DBpza_783_0
