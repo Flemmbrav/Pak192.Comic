@@ -35,6 +35,7 @@ copyright=Flemmbrav
 liverytype[0]=DB_Fernverkehr
 liverytype[1]=DB_Regio
 liverytype[2]=DB_Cargo
+liverytype[3]=MET
 
 EmptyImage[S][0]=image/BR_101.0.3
 EmptyImage[E][0]=image/BR_101.0.2
@@ -62,6 +63,15 @@ EmptyImage[N][2]=image/BR_101.0.1
 EmptyImage[W][2]=image/BR_101.0.0
 EmptyImage[NW][2]=image/BR_101.1.2
 EmptyImage[NE][2]=image/BR_101.1.1
+
+EmptyImage[E][3]=image/Metropolitan.5.0
+EmptyImage[S][3]=image/Metropolitan.5.1
+EmptyImage[W][3]=image/Metropolitan.5.2
+EmptyImage[N][3]=image/Metropolitan.5.3
+EmptyImage[SE][3]=image/Metropolitan.5.4
+EmptyImage[NE][3]=image/Metropolitan.5.5
+EmptyImage[NW][3]=image/Metropolitan.5.6
+EmptyImage[SW][3]=image/Metropolitan.5.7
 
 cost=305425536
 runningcost=9866
