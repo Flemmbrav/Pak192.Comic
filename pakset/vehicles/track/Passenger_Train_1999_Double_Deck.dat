@@ -18,7 +18,8 @@ has_front_cab=1
 has_rear_cab=0
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1999_Double_Deck.2.<$0>
+liverytype[0]=DB_Regio
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_1999_Double_Deck.2.<$0>
 -----------
 obj=vehicle
 name=Dosto_4g_B_500
@@ -42,7 +43,8 @@ has_front_cab=0
 has_rear_cab=1
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1999_Double_Deck.3.<$0>
+liverytype[0]=DB_Regio
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_1999_Double_Deck.3.<$0>
 ------------
 obj=vehicle
 name=Dosto_4g_M_500
@@ -66,7 +68,8 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1999_Double_Deck.0.<$0>
+liverytype[0]=DB_Regio
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_1999_Double_Deck.0.<$0>
 ------------
 obj=vehicle
 name=Dosto_4g_M_750
@@ -89,4 +92,5 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1999_Double_Deck.1.<$0>
+liverytype[0]=DB_Regio
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_1999_Double_Deck.1.<$0>

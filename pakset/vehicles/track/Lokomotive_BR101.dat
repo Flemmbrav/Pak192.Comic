@@ -32,14 +32,36 @@ bidirectional=1
 
 copyright=Flemmbrav
 
-EmptyImage[S]=image/BR_101.0.3
-EmptyImage[E]=image/BR_101.0.2
-EmptyImage[SE]=image/BR_101.1.0
-EmptyImage[SW]=image/BR_101.1.3
-EmptyImage[N]=image/BR_101.0.1
-EmptyImage[W]=image/BR_101.0.0
-EmptyImage[NW]=image/BR_101.1.2
-EmptyImage[NE]=image/BR_101.1.1
+liverytype[0]=DB_Fernverkehr
+liverytype[1]=DB_Regio
+liverytype[2]=DB_Cargo
+
+EmptyImage[S][0]=image/BR_101.0.3
+EmptyImage[E][0]=image/BR_101.0.2
+EmptyImage[SE][0]=image/BR_101.1.0
+EmptyImage[SW][0]=image/BR_101.1.3
+EmptyImage[N][0]=image/BR_101.0.1
+EmptyImage[W][0]=image/BR_101.0.0
+EmptyImage[NW][0]=image/BR_101.1.2
+EmptyImage[NE][0]=image/BR_101.1.1
+
+EmptyImage[S][1]=image/BR_101.0.3
+EmptyImage[E][1]=image/BR_101.0.2
+EmptyImage[SE][1]=image/BR_101.1.0
+EmptyImage[SW][1]=image/BR_101.1.3
+EmptyImage[N][1]=image/BR_101.0.1
+EmptyImage[W][1]=image/BR_101.0.0
+EmptyImage[NW][1]=image/BR_101.1.2
+EmptyImage[NE][1]=image/BR_101.1.1
+
+EmptyImage[S][2]=image/BR_101.0.3
+EmptyImage[E][2]=image/BR_101.0.2
+EmptyImage[SE][2]=image/BR_101.1.0
+EmptyImage[SW][2]=image/BR_101.1.3
+EmptyImage[N][2]=image/BR_101.0.1
+EmptyImage[W][2]=image/BR_101.0.0
+EmptyImage[NW][2]=image/BR_101.1.2
+EmptyImage[NE][2]=image/BR_101.1.1
 
 cost=305425536
 runningcost=9866

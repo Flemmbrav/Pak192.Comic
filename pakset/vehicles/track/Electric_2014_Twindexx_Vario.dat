@@ -20,7 +20,8 @@ has_front_cab=1
 has_rear_cab=0
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Double_Deck.0.<$0>
+liverytype[0]=DB_Regio
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Double_Deck.0.<$0>
 -----------
 obj=vehicle
 name=Dosto_5g_B_500M
@@ -46,4 +47,5 @@ has_front_cab=0
 has_rear_cab=1
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_2014_Double_Deck.1.<$0>
+liverytype[0]=DB_Regio
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Double_Deck.1.<$0>

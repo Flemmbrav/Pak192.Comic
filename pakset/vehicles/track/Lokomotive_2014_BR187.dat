@@ -31,14 +31,15 @@ bidirectional=1
 
 copyright=Flemmbrav
 
-EmptyImage[S]=./image/BR_187.0.3
-EmptyImage[E]=./image/BR_187.0.2
-EmptyImage[SE]=./image/BR_187.1.0
-EmptyImage[SW]=./image/BR_187.1.3
-EmptyImage[N]=./image/BR_187.0.1
-EmptyImage[W]=./image/BR_187.0.0
-EmptyImage[NW]=./image/BR_187.1.2
-EmptyImage[NE]=./image/BR_187.1.1
+liverytype[0]=DB_Cargo
+EmptyImage[S][0]=./image/BR_187.0.3
+EmptyImage[E][0]=./image/BR_187.0.2
+EmptyImage[SE][0]=./image/BR_187.1.0
+EmptyImage[SW][0]=./image/BR_187.1.3
+EmptyImage[N][0]=./image/BR_187.0.1
+EmptyImage[W][0]=./image/BR_187.0.0
+EmptyImage[NW][0]=./image/BR_187.1.2
+EmptyImage[NE][0]=./image/BR_187.1.1
 
 cost=179416205
 runningcost=5061
