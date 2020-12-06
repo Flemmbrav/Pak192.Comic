@@ -25,7 +25,7 @@ liverytype[0]=DB
 liverytype[1]=BWegt
 liverytype[2]=LNVG
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.0.<$0>
-EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.0.<$0>
 EmptyImage[W,N,E,S,SE,NE,NW,SW][2]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.0.<$0>
 -----------
 obj=vehicle
@@ -83,7 +83,7 @@ liverytype[0]=DB
 liverytype[1]=BWegt
 liverytype[2]=LNVG
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.2.<$0>
-EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.1.<$0>
 EmptyImage[W,N,E,S,SE,NE,NW,SW][2]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.2.<$0>
 ------------
 obj=vehicle
@@ -113,7 +113,7 @@ liverytype[0]=DB
 liverytype[1]=BWegt
 liverytype[2]=LNVG
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2004_Innovations-Doppelstockwagen.3.<$0>
-EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_BWegt.2.<$0>
 EmptyImage[W,N,E,S,SE,NE,NW,SW][2]=image/Passenger_Train_2004_Innovations-Doppelstockwagen_LNVG.3.<$0>
 -----------
 obj=vehicle

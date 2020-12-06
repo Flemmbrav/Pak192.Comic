@@ -114,4 +114,5 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=./SNCB_new_look/Passenger_Train_2002_M6.3.<$0>
+liverytype[0]=SNCB_new_look
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_2002_M6.3.<$0>
