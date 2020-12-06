@@ -74,7 +74,7 @@ bidirectional=1
 
 liverytype[0]=DB_Regio
 liverytype[1]=DB_Fernverkehr
-EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Twindexx_Vario.2.<$0>
 EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_IC2.1.<$0>
 ------------
 obj=vehicle
