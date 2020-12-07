@@ -773,7 +773,7 @@ toll_free_public_roads = 1
 private_car_toll_per_km = 15
 
 
-pak_overrides_savegame_settings = 1
+pak_overrides_savegame_settings = 0
 
 
 #LIVERY
