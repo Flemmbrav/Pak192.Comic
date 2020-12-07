@@ -7,6 +7,7 @@ retire_year=1955
 retire_month=0
 freight=Passagiere
 payload=52
+overcrowded_capacity=18
 cost=5063487
 runningcost=460
 weight=29

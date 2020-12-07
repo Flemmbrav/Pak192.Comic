@@ -41,6 +41,7 @@ intro_month=10
 retire_year=1982
 retire_month=10
 payload=72
+overcrowded_capacity=36
 cost=8768034
 runningcost=797
 freight=Passagiere

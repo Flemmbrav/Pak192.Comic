@@ -8,6 +8,7 @@ intro_month=6
 freight=Passagiere
 
 payload=77
+overcrowded_capacity=36
 cost=25635629
 runningcost=1113
 weight=58
@@ -49,6 +50,7 @@ intro_month=6
 freight=Passagiere
 
 payload=77
+overcrowded_capacity=36
 cost=25635629
 runningcost=1113
 weight=58
