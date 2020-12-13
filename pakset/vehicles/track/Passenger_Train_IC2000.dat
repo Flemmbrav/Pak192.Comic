@@ -15,7 +15,7 @@ freight=Passagiere
 length=11
 waytype=narrowgauge_track
 loading_time=14520
-constraint[prev][0]=any
+#constraint[prev][0]=any
 
 has_front_cab=0
 has_rear_cab=0
@@ -78,7 +78,7 @@ freight=Passagiere
 length=11
 waytype=narrowgauge_track
 loading_time=13490
-constraint[prev][0]=none
+#constraint[prev][0]=none
 
 has_front_cab=0
 has_rear_cab=1
@@ -142,7 +142,7 @@ freight=Post
 length=11
 waytype=narrowgauge_track
 loading_time=14520
-constraint[prev][0]=any
+#constraint[prev][0]=any
 
 has_front_cab=0
 has_rear_cab=0
