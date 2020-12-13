@@ -11,7 +11,14 @@ weight=16
 gear=100
 power=160
 speed=65
-payload=80
+
+# Vorbild 27 Sitz- und 103 Stehplätze
+payload=27
+overcrowded_capacity=103
+
+# Anzahl Achsen
+axles=4
+
 freight=Passagiere
 length=11
 waytype=tram_track
@@ -42,7 +49,14 @@ runningcost=239
 cost=2626965
 weight=14
 speed=65
-payload=90
+
+# Vorbild 29 Sitz- und 112 Stehplätze
+payload=29
+overcrowded_capacity=112
+
+# Anzahl Achsen
+axles=4
+
 freight=Passagiere
 length=11
 waytype=tram_track
@@ -74,7 +88,14 @@ weight=10
 gear=100
 power=160
 speed=55
-payload=60
+
+# Vorbild 38 Sitz- und 83 Stehplätze (Alle Teile zusammen)
+payload=19
+overcrowded_capacity=40
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=8
 waytype=tram_track
@@ -105,7 +126,14 @@ weight=10
 gear=100
 power=160
 speed=55
-payload=60
+
+# Vorbild 38 Sitz- und 83 Stehplätze (Alle Teile zusammen)
+payload=19
+overcrowded_capacity=43
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=8
 waytype=tram_track
@@ -136,7 +164,14 @@ weight=18
 gear=100
 power=180
 speed=55
-payload=80
+
+# Vorbild 28 Sitz- und 66 Stehplätze
+payload=28
+overcrowded_capacity=66
+
+# Anzahl Achsen
+axles=4
+
 freight=Passagiere
 length=11
 waytype=tram_track
@@ -167,7 +202,14 @@ runningcost=92
 cost=1012028
 weight=14
 speed=55
-payload=90
+
+# Vorbild 29 Sitz- und 92 Stehplätze
+payload=29
+overcrowded_capacity=92
+
+# Anzahl Achsen
+axles=4
+
 freight=Passagiere
 length=11
 waytype=tram_track
