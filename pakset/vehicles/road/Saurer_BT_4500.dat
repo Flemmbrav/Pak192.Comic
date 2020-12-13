@@ -9,7 +9,19 @@ retire_year=1949
 retire_month=1
 speed=50
 power=88
+
+# Vorbild 44 Sitzplätze und 22 Stehplätze in der Stadtbusversion
 payload=44
+overcrowded_capacity=22
+
+# Reichweite Vorbild 500km
+range=500
+
+# Anzahl Achsen
+axles=2
+
+
+
 gear=250
 weight=8
 runningcost=224
@@ -38,7 +50,11 @@ retire_year=1949
 retire_month=1
 speed=66
 power=88
+
+#Vorbild 44 Sitzplätze und 0 Stehplätze in der Überlandversion
 payload=44
+overcrowded_capacity=0
+
 gear=250
 weight=6
 runningcost=357

@@ -9,7 +9,17 @@ retire_year=1961
 retire_month=1
 speed=50
 power=107
-payload=55
+
+#Vorbild 23 Sitzplätze und 71 Stehplätze in der Stadtbusversion
+payload=46
+overcrowded_capacity=48
+
+# Reichweite Vorbild ca 880km - Berechnet aus Tankinhalt und Normverbrauch
+range=880
+
+# Anzahl Achsen
+axles=2
+
 gear=150
 weight=9
 runningcost=259
@@ -38,7 +48,11 @@ retire_year=1961
 retire_month=1
 speed=68
 power=107
-payload=55
+
+#Vorbild 57 Sitzplätze und 0 Stehplätze in der Überlandversion
+payload=57
+overcrowded_capacity=0
+
 gear=150
 weight=9
 runningcost=328
@@ -67,7 +81,11 @@ retire_year=1961
 retire_month=1
 speed=50
 power=105
-payload=55
+
+#Vorbild 23 Sitzplätze und 71 Stehplätze in der Stadtbusversion
+payload=46
+overcrowded_capacity=48
+
 gear=150
 weight=9
 runningcost=243
