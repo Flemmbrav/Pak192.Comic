@@ -13,7 +13,15 @@ intro_month=7
 #retire_month=5
 freight=Passagiere
 
-payload=49
+# Vorbild 106 Sitz- und 160 Stehplätze (komplett)
+# Sitzplatzverteilung 1-25  2-15  3-26  4-15  5-25
+# Stehplatzverteilung 1-35  2-27  3-36  4-27  5-35
+payload=25
+overcrowded_capacity=35
+
+# Anzahl Achsen
+axles=3
+
 cost=7470849
 runningcost=203
 weight=16
@@ -47,7 +55,15 @@ intro_month=7
 #retire_month=5
 freight=Passagiere
 
-payload=29
+# Vorbild 106 Sitz- und 160 Stehplätze (komplett)
+# Sitzplatzverteilung 1-25  2-15  3-26  4-15  5-25
+# Stehplatzverteilung 1-35  2-27  3-36  4-27  5-35
+payload=15
+overcrowded_capacity=27
+
+# Anzahl Achsen
+axles=2
+
 cost=180395
 runningcost=16
 weight=7
@@ -82,7 +98,15 @@ intro_month=7
 #retire_month=5
 freight=Passagiere
 
-payload=43
+# Vorbild 106 Sitz- und 160 Stehplätze (komplett)
+# Sitzplatzverteilung 1-25  2-15  3-26  4-15  5-25
+# Stehplatzverteilung 1-35  2-27  3-36  4-27  5-35
+payload=26
+overcrowded_capacity=36
+
+# Anzahl Achsen
+axles=2
+
 cost=267482
 runningcost=24
 weight=11
@@ -115,7 +139,15 @@ intro_month=7
 #retire_month=5
 freight=Passagiere
 
-payload=57
+# Vorbild 106 Sitz- und 160 Stehplätze (komplett)
+# Sitzplatzverteilung 1-25  2-15  3-26  4-15  5-25  NGT12_4 ist 5
+# Stehplatzverteilung 1-35  2-27  3-36  4-27  5-35  NGT12_4 ist 5
+payload=25
+overcrowded_capacity=35
+
+# Anzahl Achsen
+axles=3
+
 cost=7520613
 runningcost=207
 weight=16

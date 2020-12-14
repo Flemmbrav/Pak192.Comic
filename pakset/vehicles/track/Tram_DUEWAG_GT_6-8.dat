@@ -12,7 +12,15 @@ weight=10
 gear=100
 power=95
 speed=67
-payload=38
+
+# Vorbild 39 Sitz- und 163 Stehplätze in der Stadtausführung ohne Mittelwagen (Thür Waldbahn)
+# Vorbild 46 Sitz- und 143 Stehplätze in der Überlandausführung ohne Mittelwagen (Thür Waldbahn)
+payload=39
+overcrowded_capacity=163
+
+# Anzahl Achsen
+axles=3
+
 freight=Passagiere
 length=7
 waytype=tram_track
@@ -52,7 +60,14 @@ weight=9
 gear=100
 power=110
 speed=67
+
+# keine genauen Angaben gefunden (31 Stammt aus den früheren Werten)
 payload=31
+overcrowded_capacity=62
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=6
 waytype=tram_track
@@ -89,7 +104,14 @@ cost=658177
 loading_time=600
 weight=7
 speed=67
+
+# keine genauen Angaben gefunden (21 Stammt aus den früheren Werten)
 payload=21
+overcrowded_capacity=32
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=4
 waytype=tram_track
@@ -127,7 +149,15 @@ weight=10
 gear=100
 power=95
 speed=67
-payload=38
+
+# Vorbild 39 Sitz- und 163 Stehplätze in der Stadtausführung ohne Mittelwagen (Thür Waldbahn)
+# Vorbild 46 Sitz- und 143 Stehplätze in der Überlandausführung ohne Mittelwagen (Thür Waldbahn)
+payload=39
+overcrowded_capacity=163
+
+# Anzahl Achsen
+axles=3
+
 freight=Passagiere
 length=8
 waytype=tram_track
