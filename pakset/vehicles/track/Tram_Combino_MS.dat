@@ -71,8 +71,8 @@ speed=75
 payload=18
 overcrowded_capacity=36
 
-# Anzahl Achsen
-axles=0
+# Anzahl Achsen - eigentlich 0
+axles=1
 
 freight=Passagiere
 length=6
@@ -165,8 +165,8 @@ speed=75
 payload=18
 overcrowded_capacity=36
 
-# Anzahl Achsen
-axles=0
+# Anzahl Achsen - eigentlich 0
+axles=1
 
 freight=Passagiere
 length=6
