@@ -11,7 +11,14 @@ weight=10
 gear=100
 power=160
 speed=55
-payload=60
+
+# Vorbild 38 Sitz- und 83 Stehplätze (Alle Teile zusammen)
+payload=19
+overcrowded_capacity=40
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=8
 waytype=tram_track
@@ -47,7 +54,14 @@ weight=10
 gear=100
 power=160
 speed=55
-payload=60
+
+# Vorbild 38 Sitz- und 83 Stehplätze (Alle Teile zusammen)
+payload=19
+overcrowded_capacity=43
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=8
 waytype=tram_track
