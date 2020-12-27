@@ -34,14 +34,14 @@ EmptyImage[W][0]=./image/Silberling.0.2
 EmptyImage[NW][0]=./image/Silberling.0.6
 EmptyImage[NE][0]=./image/Silberling.0.5
 
-EmptyImage[S]=./DB_Regio/Silberling.0.1
-EmptyImage[E]=./DB_Regio/Silberling.0.0
-EmptyImage[SE]=./DB_Regio/Silberling.0.4
-EmptyImage[SW]=./DB_Regio/Silberling.0.7
-EmptyImage[N]=./DB_Regio/Silberling.0.3
-EmptyImage[W]=./DB_Regio/Silberling.0.2
-EmptyImage[NW]=./DB_Regio/Silberling.0.6
-EmptyImage[NE]=./DB_Regio/Silberling.0.5
+EmptyImage[S][1]=./DB_Regio/Silberling.0.1
+EmptyImage[E][1]=./DB_Regio/Silberling.0.0
+EmptyImage[SE][1]=./DB_Regio/Silberling.0.4
+EmptyImage[SW][1]=./DB_Regio/Silberling.0.7
+EmptyImage[N][1]=./DB_Regio/Silberling.0.3
+EmptyImage[W][1]=./DB_Regio/Silberling.0.2
+EmptyImage[NW][1]=./DB_Regio/Silberling.0.6
+EmptyImage[NE][1]=./DB_Regio/Silberling.0.5
 -----------------------------
 obj=vehicle
 name=n-Wagen_BDnf_738.1_Silberling
