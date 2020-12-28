@@ -18,6 +18,9 @@ sound=churchbells.wav
 pax_level=30
 MapColor=48
 intro_year=1800
+#----- EXT Stuff
+population_and_visitor_demand_capacity=400
+#-----
 dims=3,3,1
 needs_ground=1
 BackImage[0][0-2][0-2][0][0][0-4]=images/graveyard.<$0>.<$1+$2*3>
@@ -42,6 +45,9 @@ sound=churchbells.wav
 pax_level=30
 MapColor=48
 intro_year=1800
+#----- EXT Stuff
+population_and_visitor_demand_capacity=400
+#-----
 dims=3,3,1
 needs_ground=1
 BackImage[0][0-2][0-2][0][0][0-4]=images/graveyard02.<$0>.<$1+$2*3>
@@ -66,6 +72,9 @@ sound=graveyardgate.wav
 pax_level=30
 MapColor=48
 intro_year=1800
+#----- EXT Stuff
+population_and_visitor_demand_capacity=400
+#-----
 dims=3,3,1
 needs_ground=1
 BackImage[0][0-2][0-2][0][0][0-4]=images/graveyard_spooky.<$0>.<$1+$2*3>

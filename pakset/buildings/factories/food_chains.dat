@@ -141,6 +141,8 @@ mail_demand=10
 electricity_boost=0
 passenger_boost=800
 mail_boost=200
+#----- EXT Stuff
+population_and_visitor_demand_capacity=400
 #-----
 needs_ground=1
 Dims=1,1,1
@@ -472,6 +474,8 @@ mail_demand=30
 electricity_boost=100
 passenger_boost=500
 mail_boost=100
+#----- EXT Stuff
+population_and_visitor_demand_capacity=500
 #-----
 dims=1,1,1
 BackImage[0][0][0][0][0][0-1]=images/cherryontop.0.<$0>

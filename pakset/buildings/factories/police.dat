@@ -17,6 +17,9 @@ InputFactor[0]=100
 pax_level=30
 MapColor=15
 intro_year=1900
+#----- EXT Stuff
+population_and_visitor_demand_capacity=25
+#-----
 dims=2,2,1
 BackImage[0][0][0][0][0][0]=images/Knast1.0.0
 BackImage[0][0][0][1][0][0]=images/Knast1.0.1
