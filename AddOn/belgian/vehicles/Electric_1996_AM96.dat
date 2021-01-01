@@ -26,13 +26,8 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-<<<<<<< HEAD
 constraint[prev][0]=Track_Electric_1996_AM96_1
 constraint[next][0]=Track_Electric_1996_AM96_2
-=======
-constraint[prev][0]=Track_EElectric_1996_AM96_1
-constraint[next][0]=Track_EElectric_1996_AM96_2
->>>>>>> origin/master
 
 has_front_cab=0
 has_rear_cab=0
@@ -67,7 +62,6 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-<<<<<<< HEAD
 constraint[prev][0]=Track_Electric_1996_AM96_2
 constraint[prev][1]=none
 constraint[next][0]=Track_Electric_1996_AM96_0
@@ -75,12 +69,6 @@ constraint[next][0]=Track_Electric_1996_AM96_0
 has_front_cab=1
 has_rear_cab=0
 bidirectional=1
-=======
-constraint[prev][0]=Track_EElectric_1996_AM96_2
-constraint[prev][1]=Track_EElectric_1996_AM96_U2
-constraint[prev][2]=none
-constraint[next][0]=Track_EElectric_1996_AM96_0
->>>>>>> origin/master
 
 liverytype[0]=SNCB_new_look
 liverytype[1]=Urban
@@ -109,101 +97,11 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-<<<<<<< HEAD
 constraint[prev][0]=Track_Electric_1996_AM96_0
 constraint[next][0]=Track_Electric_1996_AM96_1
 constraint[next][1]=none
-=======
-constraint[prev][0]=Track_EElectric_1996_AM96_0
-constraint[next][0]=Track_EElectric_1996_AM96_1
-constraint[next][1]=Track_EElectric_1996_AM96_U1
-constraint[next][2]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96.2.<$0>
--------------
-
-
-obj=vehicle
-name=Track_Electric_1996_AM96_U0
-copyright=Flemmbrav
-intro_year=1996
-intro_month=3
-retire_year=2010
-retire_month=12
-freight=Passagiere
-payload=80
-cost=6354480
-runningcost=578
-loading_time=5780
-weight=53
-speed=160
-length=12
-waytype=narrowgauge_track
-engine_type=electric
->>>>>>> origin/master
-
-has_front_cab=0
-has_rear_cab=1
-bidirectional=1
-
-<<<<<<< HEAD
 liverytype[0]=SNCB_new_look
 liverytype[1]=Urban
 EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Electric_1996_AM96.2.<$0>
 EmptyImage[E,S,W,N,SE,NE,NW,SW][1]=./Urban/Electric_1996_AM96.2.<$0>
-=======
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96_Urban.0.<$0>
--------------
-obj=vehicle
-name=Track_Electric_1996_AM96_U1
-copyright=Flemmbrav
-intro_year=1996
-intro_month=3
-retire_year=2010
-retire_month=12
-freight=Passagiere
-payload=54
-cost=52898394
-runningcost=1823
-loading_time=3900
-weight=63
-power=1400
-gear=150
-speed=160
-length=12
-waytype=narrowgauge_track
-engine_type=electric
-
-constraint[prev][0]=Track_EElectric_1996_AM96_2
-constraint[prev][1]=Track_EElectric_1996_AM96_U2
-constraint[prev][2]=none
-constraint[next][0]=Track_EElectric_1996_AM96_U0
-
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96_Urban.1.<$0>
--------------
-obj=vehicle
-name=Electric_1996_AM96_U2
-copyright=Flemmbrav
-intro_year=1996
-intro_month=3
-retire_year=2010
-retire_month=12
-freight=Passagiere
-payload=54
-cost=4289274
-runningcost=390
-loading_time=3900
-weight=53
-speed=160
-length=12
-waytype=narrowgauge_track
-engine_type=electric
-
-constraint[prev][0]=Track_EElectric_1996_AM96_U0
-constraint[next][0]=Track_EElectric_1996_AM96_1
-constraint[next][1]=Track_EElectric_1996_AM96_U1
-constraint[next][2]=none
-
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96_Urban.2.<$0>
--------------
->>>>>>> origin/master

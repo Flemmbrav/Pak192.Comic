@@ -7,17 +7,12 @@ intro_month=11
 runningcost=962
 cost=10579635
 weight=50
-<<<<<<< HEAD
 brake_force=96
 axles=4
 axle_load=13
 speed=160
 payload=128
 overcrowded_capacity=56
-=======
-speed=160
-payload=132
->>>>>>> origin/master
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
@@ -26,7 +21,7 @@ loading_time=9620
 constraint[prev][0]=SNCB_M_6_Wagen_2002_2
 constraint[prev][1]=Track_Lokomotive_2008_HLE18
 constraint[prev][2]=none
-<<<<<<< HEAD
+
 
 has_front_cab=1
 has_rear_cab=0
@@ -34,9 +29,6 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_2002_M6.0.<$0>
-=======
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.0.<$0>
->>>>>>> origin/master
 -----------
 obj=vehicle
 name=Track_Passenger_Train_2002_M6_1
@@ -47,17 +39,12 @@ intro_month=11
 runningcost=962
 cost=10579635
 weight=50
-<<<<<<< HEAD
 brake_force=96
 axles=4
 axle_load=13
 speed=160
 payload=128
 overcrowded_capacity=56
-=======
-speed=160
-payload=132
->>>>>>> origin/master
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
@@ -67,16 +54,12 @@ constraint[next][0]=SNCB_M_6_Wagen_2002_1
 constraint[next][1]=Track_Lokomotive_2008_HLE18
 constraint[next][2]=none
 
-<<<<<<< HEAD
 has_front_cab=0
 has_rear_cab=1
 bidirectional=1
 
 liverytype[0]=SNCB_new_look
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_2002_M6.1.<$0>
-=======
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.1.<$0>
->>>>>>> origin/master
 ------------
 obj=vehicle
 name=Track_Passenger_Train_2002_M6_2
@@ -99,7 +82,6 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10200
-<<<<<<< HEAD
 
 has_front_cab=0
 has_rear_cab=0
@@ -107,10 +89,6 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_2002_M6.2.<$0>
-=======
-constraint[prev][0]=any
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.2.<$0>
->>>>>>> origin/master
 ------------
 obj=vehicle
 name=Track_Passenger_Train_2002_M6_3
@@ -132,7 +110,6 @@ length=12
 waytype=narrowgauge_track
 loading_time=10200
 constraint[prev][0]=any
-<<<<<<< HEAD
 
 has_front_cab=0
 has_rear_cab=0
@@ -140,6 +117,3 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Passenger_Train_2002_M6.3.<$0>
-=======
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2002_M6.3.<$0>
->>>>>>> origin/master

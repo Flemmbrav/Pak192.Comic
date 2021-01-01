@@ -18,7 +18,6 @@ brake_force=75
 speed=160
 length=12
 waytype=narrowgauge_track
-<<<<<<< HEAD
 
 has_front_cab=0
 has_rear_cab=0
@@ -27,7 +26,3 @@ bidirectional=1
 liverytype[0]=C1
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./C1/Passenger_Train_1989_I6.0.<$0>
-=======
-constraint[prev][0]=any
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_1989_I6.0.<$0>
->>>>>>> origin/master
