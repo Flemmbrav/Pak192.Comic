@@ -53,7 +53,7 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_U
+constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_2
 constraint[prev][1]=SNCB_AM_96_Triebwagen_1996_U_2
 constraint[prev][2]=none
 constraint[next][0]=SNCB_AM_96_Triebwagen_1996_0
@@ -151,7 +151,7 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_U
+constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_2
 constraint[prev][1]=SNCB_AM_96_Triebwagen_1996_U_2
 constraint[prev][2]=none
 constraint[next][0]=SNCB_AM_96_Triebwagen_1996_U_0
@@ -184,7 +184,7 @@ waytype=narrowgauge_track
 engine_type=electric
 
 constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_U_0
-constraint[next][0]=SNCB_AM_96_Triebwagen_1996_U
+constraint[next][0]=SNCB_AM_96_Triebwagen_1996_1
 constraint[next][1]=SNCB_AM_96_Triebwagen_1996_U_1
 constraint[next][2]=none
 
