@@ -26,6 +26,7 @@ freightimagetype[3]=gravel
 freightimagetype[4]=salt
 freightimagetype[5]=limestone
 freightimagetype[6]=plastics
+freightimagetype[7]=copper
 FreightImage[0-4][E,S,W,N,SE,NE,NW,SW]=./image/Kohlewagen1.<$0+1>.<$1>
 -----
 obj=vehicle
@@ -54,6 +55,7 @@ freightimagetype[3]=gravel
 freightimagetype[4]=salt
 freightimagetype[5]=limestone
 freightimagetype[6]=plastics
+freightimagetype[7]=copper
 FreightImage[0-4][W,S,SE,SW]=./image/Kohlewagen2.<$0+1>.<$1>
 -----
 obj=vehicle
@@ -82,6 +84,7 @@ freightimagetype[3]=gravel
 freightimagetype[4]=salt
 freightimagetype[5]=limestone
 freightimagetype[6]=plastics
+freightimagetype[7]=copper
 FreightImage[0-4][W,S,SE,SW]=./image/Kohlewagen3.<$0+1>.<$1>
 -----
 obj=vehicle
@@ -110,6 +113,7 @@ freightimagetype[3]=gravel
 freightimagetype[4]=salt
 freightimagetype[5]=limestone
 freightimagetype[6]=plastics
+freightimagetype[7]=copper
 FreightImage[0-4][E,S,NW,SW,W,N,SE,NE]=./image/Kohlewagen4.<$0+1>.<$1>
 -----
 obj=vehicle
@@ -138,6 +142,7 @@ freightimagetype[3]=gravel
 freightimagetype[4]=salt
 freightimagetype[5]=limestone
 freightimagetype[6]=plastics
+freightimagetype[7]=copper
 FreightImage[0-4][E,S,NW,SW,W,N,SE,NE]=./image/Kohlewagen5.<$0+1>.<$1>
 -----
 obj=vehicle
@@ -164,4 +169,5 @@ freightimagetype[3]=gravel
 freightimagetype[4]=salt
 freightimagetype[5]=limestone
 freightimagetype[6]=plastics
+freightimagetype[7]=copper
 FreightImage[0-4][E,S,NW,SW,W,N,SE,NE]=./image/Kohlewagen6.<$0+1>.<$1>

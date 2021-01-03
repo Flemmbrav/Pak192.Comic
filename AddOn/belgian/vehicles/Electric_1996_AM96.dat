@@ -1,10 +1,11 @@
-# AM 96 	Mittelwagen 		= SNCB_AM_96_Triebwagen_1996_0
-# AM 96 	Steuerwagen vorne 	= SNCB_AM_96_Triebwagen_1996_1
-# AM 96 	Steuerwagen hinten 	= SNCB_AM_96_Triebwagen_1996_2
+# AM 96 	Mittelwagen 		= Electric_1996_AM96_0
+# AM 96 	Steuerwagen vorne 	= Electric_1996_AM96_1
+# AM 96 	Steuerwagen hinten 	= Electric_1996_AM96_2
+
 
 
 obj=vehicle
-name=SNCB_AM_96_Triebwagen_1996_0
+name=Track_Electric_1996_AM96_0
 copyright=Flemmbrav
 intro_year=1996
 intro_month=3
@@ -21,20 +22,13 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_1
-constraint[next][0]=SNCB_AM_96_Triebwagen_1996_2
+constraint[prev][0]=Track_EElectric_1996_AM96_1
+constraint[next][0]=Track_EElectric_1996_AM96_2
 
-EmptyImage[S]=./image/SNCB_199X.1.1
-EmptyImage[E]=./image/SNCB_199X.1.0
-EmptyImage[SE]=./image/SNCB_199X.1.4
-EmptyImage[SW]=./image/SNCB_199X.1.7
-EmptyImage[N]=./image/SNCB_199X.1.3
-EmptyImage[W]=./image/SNCB_199X.1.2
-EmptyImage[NW]=./image/SNCB_199X.1.6
-EmptyImage[NE]=./image/SNCB_199X.1.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96.0.<$0>
 -------------
 obj=vehicle
-name=SNCB_AM_96_Triebwagen_1996_1
+name=Track_Electric_1996_AM96_1
 copyright=Flemmbrav
 intro_year=1996
 intro_month=3
@@ -53,22 +47,15 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_2
-constraint[prev][1]=SNCB_AM_96_Triebwagen_1996_U_2
+constraint[prev][0]=Track_EElectric_1996_AM96_2
+constraint[prev][1]=Track_EElectric_1996_AM96_U2
 constraint[prev][2]=none
-constraint[next][0]=SNCB_AM_96_Triebwagen_1996_0
+constraint[next][0]=Track_EElectric_1996_AM96_0
 
-EmptyImage[S]=./image/SNCB_199X.4.1
-EmptyImage[E]=./image/SNCB_199X.4.0
-EmptyImage[SE]=./image/SNCB_199X.4.4
-EmptyImage[SW]=./image/SNCB_199X.4.7
-EmptyImage[N]=./image/SNCB_199X.4.3
-EmptyImage[W]=./image/SNCB_199X.4.2
-EmptyImage[NW]=./image/SNCB_199X.4.6
-EmptyImage[NE]=./image/SNCB_199X.4.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96.1.<$0>
 -------------
 obj=vehicle
-name=SNCB_AM_96_Triebwagen_1996_2
+name=Track_Electric_1996_AM96_2
 copyright=Flemmbrav
 intro_year=1996
 intro_month=3
@@ -85,24 +72,17 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_0
-constraint[next][0]=SNCB_AM_96_Triebwagen_1996_1
-constraint[next][1]=SNCB_AM_96_Triebwagen_1996U_1
+constraint[prev][0]=Track_EElectric_1996_AM96_0
+constraint[next][0]=Track_EElectric_1996_AM96_1
+constraint[next][1]=Track_EElectric_1996_AM96_U1
 constraint[next][2]=none
 
-EmptyImage[S]=./image/SNCB_199X.5.1
-EmptyImage[E]=./image/SNCB_199X.5.0
-EmptyImage[SE]=./image/SNCB_199X.5.4
-EmptyImage[SW]=./image/SNCB_199X.5.7
-EmptyImage[N]=./image/SNCB_199X.5.3
-EmptyImage[W]=./image/SNCB_199X.5.2
-EmptyImage[NW]=./image/SNCB_199X.5.6
-EmptyImage[NE]=./image/SNCB_199X.5.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96.2.<$0>
 -------------
 
 
 obj=vehicle
-name=SNCB_AM_96_Triebwagen_1996_U_0
+name=Track_Electric_1996_AM96_U0
 copyright=Flemmbrav
 intro_year=1996
 intro_month=3
@@ -119,20 +99,13 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_U_1
-constraint[next][0]=SNCB_AM_96_Triebwagen_1996_U_2
+constraint[prev][0]=Electric_1996_AM96_U1
+constraint[next][0]=Electric_1996_AM96_U2
 
-EmptyImage[S]=./image/SNCB_199XU.1.1
-EmptyImage[E]=./image/SNCB_199XU.1.0
-EmptyImage[SE]=./image/SNCB_199XU.1.4
-EmptyImage[SW]=./image/SNCB_199XU.1.7
-EmptyImage[N]=./image/SNCB_199XU.1.3
-EmptyImage[W]=./image/SNCB_199XU.1.2
-EmptyImage[NW]=./image/SNCB_199XU.1.6
-EmptyImage[NE]=./image/SNCB_199XU.1.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96_Urban.0.<$0>
 -------------
 obj=vehicle
-name=SNCB_AM_96_Triebwagen_1996_U_1
+name=Track_Electric_1996_AM96_U1
 copyright=Flemmbrav
 intro_year=1996
 intro_month=3
@@ -151,22 +124,15 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_2
-constraint[prev][1]=SNCB_AM_96_Triebwagen_1996_U_2
+constraint[prev][0]=Track_EElectric_1996_AM96_2
+constraint[prev][1]=Track_EElectric_1996_AM96_U2
 constraint[prev][2]=none
-constraint[next][0]=SNCB_AM_96_Triebwagen_1996_U_0
+constraint[next][0]=Track_EElectric_1996_AM96_U0
 
-EmptyImage[S]=./image/SNCB_199XU.4.1
-EmptyImage[E]=./image/SNCB_199XU.4.0
-EmptyImage[SE]=./image/SNCB_199XU.4.4
-EmptyImage[SW]=./image/SNCB_199XU.4.7
-EmptyImage[N]=./image/SNCB_199XU.4.3
-EmptyImage[W]=./image/SNCB_199XU.4.2
-EmptyImage[NW]=./image/SNCB_199XU.4.6
-EmptyImage[NE]=./image/SNCB_199XU.4.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96_Urban.1.<$0>
 -------------
 obj=vehicle
-name=SNCB_AM_96_Triebwagen_1996_U_2
+name=Electric_1996_AM96_U2
 copyright=Flemmbrav
 intro_year=1996
 intro_month=3
@@ -183,17 +149,10 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=SNCB_AM_96_Triebwagen_1996_U_0
-constraint[next][0]=SNCB_AM_96_Triebwagen_1996_1
-constraint[next][1]=SNCB_AM_96_Triebwagen_1996_U_1
+constraint[prev][0]=Track_EElectric_1996_AM96_U0
+constraint[next][0]=Track_EElectric_1996_AM96_1
+constraint[next][1]=Track_EElectric_1996_AM96_U1
 constraint[next][2]=none
 
-EmptyImage[S]=./image/SNCB_199XU.5.1
-EmptyImage[E]=./image/SNCB_199XU.5.0
-EmptyImage[SE]=./image/SNCB_199XU.5.4
-EmptyImage[SW]=./image/SNCB_199XU.5.7
-EmptyImage[N]=./image/SNCB_199XU.5.3
-EmptyImage[W]=./image/SNCB_199XU.5.2
-EmptyImage[NW]=./image/SNCB_199XU.5.6
-EmptyImage[NE]=./image/SNCB_199XU.5.5
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96_Urban.2.<$0>
 -------------

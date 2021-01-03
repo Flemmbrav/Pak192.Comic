@@ -101,7 +101,7 @@ compile() {
             if [[ $? != 0 ]]; then
                 echo "Error: Makeobj returned an error for $dat. Aborting..."
 		set -e o pipefail
-                echo -e "\x1B[33mErroe: Can not compile $dat\x1B[0m"
+                echo -e "\x1B[33mError: Can not compile $dat\x1B[0m"
                 rm "$csv.in"
                 exit $?
             fi
@@ -141,7 +141,7 @@ fi
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
 compile '192' 'Landscape' 'calculated/pakset/landscape/ground/*.dat'
-compile '192' 'Landscape' 'calculated/pakset/landscape/ground_obj/*.dat'
+compile '192' 'Landscape' 'calculated/pakset/landscape/ground_objects/*.dat'
 compile '192' 'Landscape' 'calculated/pakset/landscape/tree/*.dat'
 compile '48' 'Landscape' 'calculated/pakset/landscape/pedestrians/*.dat'
 compile '192' 'Buildings' 'calculated/pakset/buildings/**/*.dat'

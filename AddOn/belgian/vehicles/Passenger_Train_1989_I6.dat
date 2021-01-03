@@ -1,0 +1,16 @@
+obj=vehicle
+name=Track_Passenger_Train_1989_I6
+copyright=Flemmbrav
+intro_year=1989
+retire_year=1997
+freight=Passagiere
+payload=60
+cost=6272178
+runningcost=570
+loading_time=5700
+weight=42
+speed=160
+length=12
+waytype=narrowgauge_track
+constraint[prev][0]=any
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_1989_I6.0.<$0>

@@ -1,0 +1,16 @@
+obj=vehicle
+name=Track_Passenger_Train_1987_I10
+copyright=Flemmbrav
+intro_year=1987
+retire_year=1997
+freight=Passagiere
+payload=86
+cost=6272178
+runningcost=570
+loading_time=5700
+weight=41
+speed=160
+length=12
+waytype=narrowgauge_track
+constraint[prev][0]=any
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_1987_I10.0.<$0>
