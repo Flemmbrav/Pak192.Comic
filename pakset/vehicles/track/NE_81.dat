@@ -14,6 +14,8 @@ gear=100
 weight=46
 freight=Passagiere
 payload=78
+has_front_cab=1
+has_rear_cab=1
 bidirectional=1
 
 smoke=smoke_diesel_thin_short
@@ -52,6 +54,8 @@ gear=0
 weight=32
 freight=Passagiere
 payload=80
+has_front_cab=1
+has_rear_cab=1
 bidirectional=1
 
 engine_type=diesel
