@@ -1,11 +1,14 @@
 obj=vehicle
 name=Dosto_4g_F_500
+#DBpbzfa 763.5
 copyright=Flemmbrav
 intro_year=1999
 intro_month=6
 runningcost=1034
 cost=11376338
-weight=58
+weight=52
+brake_force=128
+axles=4
 speed=160
 payload=80
 overcrowded_capacity=140
@@ -13,6 +16,8 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10340
+is_tall=1
+is_tilting=0
 
 has_front_cab=1
 has_rear_cab=0
@@ -23,12 +28,15 @@ EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_1999_Double_Deck.2.<$0>
 -----------
 obj=vehicle
 name=Dosto_4g_B_500
+#DBpbzfa 763.5
 copyright=Flemmbrav
 intro_year=1999
 intro_month=6
 runningcost=1034
 cost=11376338
-weight=58
+weight=52
+brake_force=128
+axles=4
 speed=160
 payload=80
 overcrowded_capacity=140
@@ -36,6 +44,8 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10340
+is_tall=1
+is_tilting=0
 
 #constraint[prev][0]=any
 
@@ -48,12 +58,15 @@ EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_1999_Double_Deck.3.<$0>
 ------------
 obj=vehicle
 name=Dosto_4g_M_500
+#DBpza 752.5
 copyright=Flemmbrav
 intro_year=1999
 intro_month=6
 runningcost=1076
 cost=11832391
-weight=58
+weight=49
+brake_force=127
+axles=4
 speed=160
 payload=125
 overcrowded_capacity=180
@@ -61,6 +74,8 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10760
+is_tall=1
+is_tilting=0
 
 #constraint[prev][0]=any
 
@@ -73,18 +88,23 @@ EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_1999_Double_Deck.0.<$0>
 ------------
 obj=vehicle
 name=Dosto_4g_M_750
+#DBpza 753.5
 copyright=Flemmbrav
 intro_year=1999
 intro_month=6
 runningcost=1002
 cost=24993000
-weight=58
+weight=49
+brake_force=127
+axles=4
 speed=160
 payload=135
 overcrowded_capacity=160
 freight=Passagiere
 length=12
 waytype=narrowgauge_track
+is_tall=1
+is_tilting=0
 
 #constraint[prev][0]=any
 
