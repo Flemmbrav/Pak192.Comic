@@ -17,7 +17,6 @@ speed=200
 length=10
 waytype=narrowgauge_track
 engine_type=electric
-<<<<<<< HEAD
 
 is_tall=1
 is_tilting=0
@@ -28,6 +27,3 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 EmptyImage[E,S,W,N,SE,NE,NW,SW][0]=./SNCB_new_look/Lokomotive_1997_HLE13.0.<$0>
-=======
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Lokomotive_1997_HLE13.0.<$0>
->>>>>>> origin/master

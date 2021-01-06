@@ -20,7 +20,6 @@ speed=200
 length=9
 waytype=narrowgauge_track
 engine_type=electric
-<<<<<<< HEAD
 smoke=none
 sound=none
 
@@ -33,7 +32,3 @@ bidirectional=1
 
 liverytype[0]=SNCB_new_look
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=./SNCB_new_look/Lokomotive_2008_HLE18.0.<$0>
-=======
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Lokomotive_2008_HLE18.0.<$0>
->>>>>>> origin/master
-----
