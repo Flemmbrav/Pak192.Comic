@@ -22,8 +22,8 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=Track_EElectric_1996_AM96_1
-constraint[next][0]=Track_EElectric_1996_AM96_2
+constraint[prev][0]=Track_Electric_1996_AM96_1
+constraint[next][0]=Track_Electric_1996_AM96_2
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96.0.<$0>
 -------------
@@ -47,10 +47,10 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=Track_EElectric_1996_AM96_2
-constraint[prev][1]=Track_EElectric_1996_AM96_U2
+constraint[prev][0]=Track_Electric_1996_AM96_2
+constraint[prev][1]=Track_Electric_1996_AM96_U2
 constraint[prev][2]=none
-constraint[next][0]=Track_EElectric_1996_AM96_0
+constraint[next][0]=Track_Electric_1996_AM96_0
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96.1.<$0>
 -------------
@@ -72,9 +72,9 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=Track_EElectric_1996_AM96_0
-constraint[next][0]=Track_EElectric_1996_AM96_1
-constraint[next][1]=Track_EElectric_1996_AM96_U1
+constraint[prev][0]=Track_Electric_1996_AM96_0
+constraint[next][0]=Track_Electric_1996_AM96_1
+constraint[next][1]=Track_Electric_1996_AM96_U1
 constraint[next][2]=none
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96.2.<$0>
@@ -124,10 +124,10 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=Track_EElectric_1996_AM96_2
-constraint[prev][1]=Track_EElectric_1996_AM96_U2
+constraint[prev][0]=Track_Electric_1996_AM96_2
+constraint[prev][1]=Track_Electric_1996_AM96_U2
 constraint[prev][2]=none
-constraint[next][0]=Track_EElectric_1996_AM96_U0
+constraint[next][0]=Track_Electric_1996_AM96_U0
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96_Urban.1.<$0>
 -------------
@@ -149,9 +149,9 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=Track_EElectric_1996_AM96_U0
-constraint[next][0]=Track_EElectric_1996_AM96_1
-constraint[next][1]=Track_EElectric_1996_AM96_U1
+constraint[prev][0]=Track_Electric_1996_AM96_U0
+constraint[next][0]=Track_Electric_1996_AM96_1
+constraint[next][1]=Track_Electric_1996_AM96_U1
 constraint[next][2]=none
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96_Urban.2.<$0>
