@@ -546,7 +546,7 @@ tolerance_modifier_percentage = 66
 # was used instead. That setting was calculated in tens of meters. If "distance_per_tile" is
 # specified in simuconf.tab, it will be converted to meters_per_tile by the game.
 
-meters_per_tile = 100
+meters_per_tile = 200
 
 # These next settings affect the interaction between comfort and revenue. Comfort only
 # affects passenger traffic. Passengers have a certain level of comfort that
@@ -773,7 +773,7 @@ toll_free_public_roads = 1
 private_car_toll_per_km = 15
 
 
-# pak_overrides_savegame_settings = 1
+pak_overrides_savegame_settings = 0
 
 
 #LIVERY

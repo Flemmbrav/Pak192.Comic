@@ -10,7 +10,9 @@ payload=0
 cost=265035277
 runningcost=8372
 weight=84
+axles=4
 power=5600
+tractive_effort=340
 #gear=196
 speed=200
 length=10
@@ -19,6 +21,8 @@ engine_type=electric
 
 liverytype[0]=DB
 liverytype[1]=DB_Orientrot
+liverytype[2]=DB_Regio
+liverytype[3]=DB_Fernverkehr
 
 bidirectional=1
 has_front_cab=1
@@ -41,3 +45,21 @@ EmptyImage[N][1]=./image/BR_120_101.0.1
 EmptyImage[W][1]=./image/BR_120_101.0.0
 EmptyImage[NW][1]=./image/BR_120_101.1.2
 EmptyImage[NE][1]=./image/BR_120_101.1.1
+
+EmptyImage[S][2]=./DB_Regio/BR_120.0.3
+EmptyImage[E][2]=./DB_Regio/BR_120.0.2
+EmptyImage[SE][2]=./DB_Regio/BR_120.1.0
+EmptyImage[SW][2]=./DB_Regio/BR_120.1.3
+EmptyImage[N][2]=./DB_Regio/BR_120.0.1
+EmptyImage[W][2]=./DB_Regio/BR_120.0.0
+EmptyImage[NW][2]=./DB_Regio/BR_120.1.2
+EmptyImage[NE][2]=./DB_Regio/BR_120.1.1
+
+EmptyImage[S][3]=./DB_Fernverkehr/BR_120.0.3
+EmptyImage[E][3]=./DB_Fernverkehr/BR_120.0.2
+EmptyImage[SE][3]=./DB_Fernverkehr/BR_120.1.0
+EmptyImage[SW][3]=./DB_Fernverkehr/BR_120.1.3
+EmptyImage[N][3]=./DB_Fernverkehr/BR_120.0.1
+EmptyImage[W][3]=./DB_Fernverkehr/BR_120.0.0
+EmptyImage[NW][3]=./DB_Fernverkehr/BR_120.1.2
+EmptyImage[NE][3]=./DB_Fernverkehr/BR_120.1.1

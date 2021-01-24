@@ -13,7 +13,16 @@ retire_year=1998
 retire_month=5
 freight=Passagiere
 
-payload=39
+# Vorbild 46 Sitz- und 104 Stehplätze (komplett)
+# Sitzplatzverteilung 1-17  2-12  3-17
+# Stehplatzverteilung 1-37  2-30  3-37
+
+payload=17
+overcrowded_capacity=37
+
+# Anzahl Achsen
+axles=3
+
 cost=6057605
 runningcost=245
 weight=15
@@ -47,7 +56,16 @@ retire_year=1998
 retire_month=5
 freight=Passagiere
 
-payload=26
+# Vorbild 46 Sitz- und 104 Stehplätze (komplett)
+# Sitzplatzverteilung 1-17  2-12  3-17
+# Stehplatzverteilung 1-37  2-30  3-37
+
+payload=12
+overcrowded_capacity=30
+
+# Anzahl Achsen
+axles=2
+
 cost=926855
 runningcost=84
 weight=9
@@ -78,7 +96,16 @@ retire_year=1998
 retire_month=5
 freight=Passagiere
 
-payload=39
+# Vorbild 46 Sitz- und 104 Stehplätze (komplett)
+# Sitzplatzverteilung 1-17  2-12  3-17
+# Stehplatzverteilung 1-37  2-30  3-37
+
+payload=17
+overcrowded_capacity=37
+
+# Anzahl Achsen
+axles=3
+
 cost=6057605
 runningcost=245
 weight=15
@@ -115,7 +142,16 @@ retire_year=2015
 retire_month=5
 freight=Passagiere
 
-payload=46
+# Vorbild 54 Sitz- und 101 Stehplätze (komplett)
+# Sitzplatzverteilung 1-25  2-4  3-25
+# Stehplatzverteilung 1-46  2-9  3-46
+
+payload=25
+overcrowded_capacity=46
+
+# Anzahl Achsen
+axles=2
+
 cost=7220230
 runningcost=246
 weight=16
@@ -149,7 +185,17 @@ retire_year=2015
 retire_month=5
 freight=Passagiere
 
-payload=31
+
+# Vorbild 54 Sitz- und 101 Stehplätze (komplett)
+# Sitzplatzverteilung 1-25  2-4  3-25
+# Stehplatzverteilung 1-46  2-9  3-46
+
+payload=4
+overcrowded_capacity=9
+
+# Anzahl Achsen
+axles=2
+
 cost=660091
 runningcost=60
 weight=8
@@ -180,7 +226,16 @@ retire_year=2015
 retire_month=5
 freight=Passagiere
 
-payload=46
+# Vorbild 54 Sitz- und 101 Stehplätze (komplett)
+# Sitzplatzverteilung 1-25  2-4  3-25
+# Stehplatzverteilung 1-46  2-9  3-46
+
+payload=25
+overcrowded_capacity=46
+
+# Anzahl Achsen
+axles=2
+
 cost=7220230
 runningcost=246
 weight=16
@@ -217,7 +272,13 @@ intro_month=7
 #retire_month=5
 freight=Passagiere
 
-payload=84
+# Vorbild 54 Sitz- und 113 Stehplätze (komplett)
+payload=27
+overcrowded_capacity=56
+
+# Anzahl Achsen
+axles=4
+
 cost=8546463
 runningcost=251
 weight=25
@@ -251,7 +312,13 @@ intro_month=7
 #retire_month=5
 freight=Passagiere
 
-payload=68
+# Vorbild 54 Sitz- und 113 Stehplätze (komplett)
+payload=27
+overcrowded_capacity=57
+
+# Anzahl Achsen
+axles=2
+
 cost=3126351
 runningcost=109
 weight=15

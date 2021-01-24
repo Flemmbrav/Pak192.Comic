@@ -169,6 +169,8 @@ mail_demand=100
 electricity_boost=0
 passenger_boost=1000
 mail_boost=1000
+#----- EXT Stuff
+population_and_visitor_demand_capacity=400
 #-----
 dims=1,1,2
 needs_ground=1
@@ -201,6 +203,8 @@ mail_demand=100
 electricity_boost=0
 passenger_boost=0
 mail_boost=1000
+#----- EXT Stuff
+population_and_visitor_demand_capacity=300
 #-----
 dims=2,2,1
 needs_ground=1
@@ -231,6 +235,8 @@ mail_demand=50
 electricity_boost=0
 passenger_boost=1000
 mail_boost=1000
+#----- EXT Stuff
+population_and_visitor_demand_capacity=2000
 #-----
 dims=1,1,4
 needs_ground=1

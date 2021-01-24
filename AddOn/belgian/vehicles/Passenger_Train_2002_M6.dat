@@ -22,6 +22,7 @@ constraint[prev][0]=SNCB_M_6_Wagen_2002_2
 constraint[prev][1]=Track_Lokomotive_2008_HLE18
 constraint[prev][2]=none
 
+
 has_front_cab=1
 has_rear_cab=0
 bidirectional=1

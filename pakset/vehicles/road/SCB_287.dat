@@ -8,7 +8,17 @@ intro_month=3
 speed=100
 power=200
 gear=75
-payload=158
+
+# Vorbildlos 79 Sitzplätze und 79 Stehplätze
+payload=79
+overcrowded_capacity=79
+
+# Reichweite Vorbild unbekannt
+range=500
+
+# Anzahl Achsen
+axles=3
+
 weight=9
 runningcost=988
 cost=13607786

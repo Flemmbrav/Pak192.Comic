@@ -7,6 +7,7 @@ intro_month=0
 #retire_month=0
 freight=Passagiere
 payload=100
+overcrowded_capacity=70
 cost=18534788
 runningcost=830
 weight=40

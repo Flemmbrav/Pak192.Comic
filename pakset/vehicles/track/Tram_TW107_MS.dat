@@ -11,7 +11,14 @@ weight=16
 gear=100
 power=165
 speed=50
-payload=45
+
+# Vorbildsituation unbekannt 45 Plätze
+payload=20
+overcrowded_capacity=25
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=8
 waytype=tram_track
@@ -42,7 +49,14 @@ runningcost=124
 cost=1368510
 weight=14
 speed=50
-payload=55
+
+# Vorbildsituation unbekannt 55 Plätze
+payload=20
+overcrowded_capacity=30
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=8
 waytype=tram_track

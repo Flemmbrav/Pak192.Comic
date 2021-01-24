@@ -15,6 +15,7 @@ retire_month=5
 freight=Passagiere
 
 payload=88
+overcrowded_capacity=60
 cost=9751148
 runningcost=485
 weight=26
@@ -55,6 +56,7 @@ retire_month=5
 freight=Passagiere
 
 payload=88
+overcrowded_capacity=60
 cost=9751148
 runningcost=485
 weight=26

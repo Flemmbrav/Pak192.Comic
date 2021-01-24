@@ -19,6 +19,7 @@ loading_time=6160
 
 liverytype[0]=DB_Orientrot
 liverytype[1]=DB_Fernverkehr
+liverytype[2]=DB_Regio
 
 has_front_cab=1
 has_rear_cab=0
@@ -41,6 +42,15 @@ EmptyImage[N][1]=./image/Eurofima_Wagen_2001.2.3
 EmptyImage[W][1]=./image/Eurofima_Wagen_2001.2.2
 EmptyImage[NW][1]=./image/Eurofima_Wagen_2001.2.6
 EmptyImage[NE][1]=./image/Eurofima_Wagen_2001.2.5
+
+EmptyImage[S][2]=./DB_Regio/Eurofima_Wagen_2001.2.1
+EmptyImage[E][2]=./DB_Regio/Eurofima_Wagen_2001.2.0
+EmptyImage[SE][2]=./DB_Regio/Eurofima_Wagen_2001.2.4
+EmptyImage[SW][2]=./DB_Regio/Eurofima_Wagen_2001.2.7
+EmptyImage[N][2]=./DB_Regio/Eurofima_Wagen_2001.2.3
+EmptyImage[W][2]=./DB_Regio/Eurofima_Wagen_2001.2.2
+EmptyImage[NW][2]=./DB_Regio/Eurofima_Wagen_2001.2.6
+EmptyImage[NE][2]=./DB_Regio/Eurofima_Wagen_2001.2.5
 -------------
 obj=vehicle
 name=Eurofima_Wagen_1986_3
@@ -63,6 +73,7 @@ constraint[prev][0]=any
 
 liverytype[0]=DB_Orientrot
 liverytype[1]=DB_Fernverkehr
+liverytype[2]=DB_Regio
 
 has_front_cab=0
 has_rear_cab=1
@@ -85,3 +96,12 @@ EmptyImage[N][1]=./image/Eurofima_Wagen_2001.3.3
 EmptyImage[W][1]=./image/Eurofima_Wagen_2001.3.2
 EmptyImage[NW][1]=./image/Eurofima_Wagen_2001.3.6
 EmptyImage[NE][1]=./image/Eurofima_Wagen_2001.3.5
+
+EmptyImage[S][2]=./DB_Regio/Eurofima_Wagen_2001.3.1
+EmptyImage[E][2]=./DB_Regio/Eurofima_Wagen_2001.3.0
+EmptyImage[SE][2]=./DB_Regio/Eurofima_Wagen_2001.3.4
+EmptyImage[SW][2]=./DB_Regio/Eurofima_Wagen_2001.3.7
+EmptyImage[N][2]=./DB_Regio/Eurofima_Wagen_2001.3.3
+EmptyImage[W][2]=./DB_Regio/Eurofima_Wagen_2001.3.2
+EmptyImage[NW][2]=./DB_Regio/Eurofima_Wagen_2001.3.6
+EmptyImage[NE][2]=./DB_Regio/Eurofima_Wagen_2001.3.5

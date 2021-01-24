@@ -50,6 +50,9 @@ intro_year=1800
 climates=desert
 dims=1,2,4
 needs_ground=0
+#----- EXT Stuff
+population_and_visitor_demand_capacity=100
+#-----
 BackImage[0,2][0-1][0][0][0][0]=images/cleopatra.<$0/2>.<1-$1>,0,10
 BackImage[1,3][0][0-1][0][0][0]=images/cleopatra.<($0-1)/2>.<$1+2>,0,10
 ---
@@ -76,5 +79,8 @@ MapColor=10
 intro_year=1930
 dims=1,2,4
 needs_ground=0
+#----- EXT Stuff
+population_and_visitor_demand_capacity=100
+#-----
 BackImage[0,2][0-1][0][0][0][0-1]=images/cleopatra.<2+$0/2+$2*2>.<1-$1>
 BackImage[1,3][0][0-1][0][0][0-1]=images/cleopatra.<2+($0-1)/2+$2*2>.<$1+2>

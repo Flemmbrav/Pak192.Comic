@@ -20,7 +20,9 @@ has_rear_cab=0
 bidirectional=1
 
 liverytype[0]=DB_Regio
+liverytype[1]=LNVG
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Twindexx_Vario.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_LNVG.0.<$0>
 -----------
 obj=vehicle
 name=Passenger_Train_2014_Twindexx_Vario_DBpza_783_0
@@ -46,10 +48,12 @@ bidirectional=1
 liverytype[0]=DB_Regio
 liverytype[1]=NahSH
 liverytype[2]=DB_Fernverkehr
+liverytype[3]=LNVG
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Twindexx_Vario.1.<$0>
 EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_NahSh.0.<$0>
 EmptyImage[W,N,E,S,SE,NE,NW,SW][2]=image/Passenger_Train_2014_Twindexx_Vario_IC2.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][3]=image/Passenger_Train_2014_Twindexx_Vario_LNVG.1.<$0>
 ------------
 obj=vehicle
 name=Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1
@@ -74,8 +78,10 @@ bidirectional=1
 
 liverytype[0]=DB_Regio
 liverytype[1]=DB_Fernverkehr
+liverytype[2]=LNVG
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Twindexx_Vario.2.<$0>
 EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_IC2.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][2]=image/Passenger_Train_2014_Twindexx_Vario_LNVG.2.<$0>
 ------------
 obj=vehicle
 name=Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_2
@@ -100,8 +106,10 @@ bidirectional=1
 
 liverytype[0]=DB_Regio
 liverytype[1]=DB_Fernverkehr
+liverytype[2]=LNVG
 EmptyImage[W,N,E,S,SE,NE,NW,SW][0]=image/Passenger_Train_2014_Twindexx_Vario.3.<$0>
 EmptyImage[W,N,E,S,SE,NE,NW,SW][1]=image/Passenger_Train_2014_Twindexx_Vario_IC2.2.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW][2]=image/Passenger_Train_2014_Twindexx_Vario_LNVG.3.<$0>
 
 -----------
 obj=vehicle

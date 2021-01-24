@@ -194,6 +194,8 @@ mail_demand=5
 electricity_boost=0
 passenger_boost=1000
 mail_boost=200
+#----- EXT Stuff
+population_and_visitor_demand_capacity=1000
 #-----
 needs_ground=1
 dims=2,2,1

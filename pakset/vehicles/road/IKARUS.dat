@@ -10,7 +10,17 @@ retire_month=4
 speed=67
 power=141
 gear=50
-payload=58
+
+#Vorbild 23 Sitzplätze und 75 Stehplätze in der Stadtbusversion
+payload=46
+overcrowded_capacity=52
+
+# Reichweite Vorbild unbekannt
+range=500
+
+# Anzahl Achsen
+axles=2
+
 weight=9
 runningcost=282
 cost=4383549
@@ -42,7 +52,17 @@ retire_month=4
 speed=67
 power=181
 gear=50
-payload=53
+
+#Vorbild 36 Sitzplätze und 107 Stehplätze (Beide Teile zusammen)
+payload=36
+overcrowded_capacity=36
+
+# Reichweite Vorbild unbekannt
+range=500
+
+# Anzahl Achsen
+axles=2
+
 weight=8
 runningcost=274
 cost=4662134
@@ -73,7 +93,17 @@ retire_month=4
 speed=67
 power=181
 gear=50
-payload=35
+
+#Vorbild 36 Sitzplätze und 107 Stehplätze (Beide Teile zusammen)
+payload=36
+overcrowded_capacity=35
+
+# Reichweite Vorbild unbekannt
+range=500
+
+# Anzahl Achsen
+axles=1
+
 weight=5
 runningcost=143
 cost=1574265

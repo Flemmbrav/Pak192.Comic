@@ -10,7 +10,17 @@ retire_month=7
 speed=100
 power=190
 gear=75
-payload=150
+
+# Vorbildlos 75 Sitzplätze und 75 Stehplätze
+payload=75
+overcrowded_capacity=75
+
+# Reichweite Vorbildlos
+range=500
+
+# Anzahl Achsen
+axles=3
+
 weight=10
 runningcost=997
 cost=13574063

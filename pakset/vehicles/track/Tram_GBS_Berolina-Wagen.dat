@@ -9,9 +9,17 @@ retire_month=2
 runningcost=141
 cost=2852708
 weight=10
+speed=35
 gear=150
 power=56
-speed=35
+
+# Vorbildsituation unbekannt, außer 20 Sitzplätze
+payload=20
+overcrowded_capacity=15
+
+# Anzahl Achsen
+axles=2
+
 payload=40
 freight=Passagiere
 length=7
@@ -44,7 +52,14 @@ runningcost=101
 cost=1110120
 weight=9
 speed=35
-payload=40
+
+# Vorbildsituation unbekannt, außer 20 Sitzplätze
+payload=20
+overcrowded_capacity=20
+
+# Anzahl Achsen
+axles=2
+
 freight=Passagiere
 length=7
 waytype=tram_track

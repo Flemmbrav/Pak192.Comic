@@ -10,7 +10,17 @@ retire_month=4
 speed=70
 power=200
 gear=100
-payload=53
+
+#Vorbild 223 Sitz- und Stehplätze (Alle drei Teile zusammen)
+payload=36
+overcrowded_capacity=39
+
+# Reichweite Vorbild unbekannt
+range=500
+
+# Anzahl Achsen
+axles=2
+
 weight=8
 runningcost=355
 cost=7548409
@@ -39,7 +49,17 @@ intro_month=1
 retire_year=2002
 retire_month=4
 speed=70
-payload=35
+
+#Vorbild 223 Sitz- und Stehplätze (Alle drei Teile zusammen)
+payload=36
+overcrowded_capacity=37
+
+# Reichweite Vorbild unbekannt
+range=500
+
+# Anzahl Achsen
+axles=1
+
 weight=5
 runningcost=150
 cost=1649629
@@ -66,7 +86,17 @@ intro_month=1
 retire_year=2002
 retire_month=4
 speed=70
-payload=35
+
+#Vorbild 223 Sitz- und Stehplätze (Alle drei Teile zusammen)
+payload=36
+overcrowded_capacity=37
+
+# Reichweite Vorbild unbekannt
+range=500
+
+# Anzahl Achsen
+axles=1
+
 weight=5
 runningcost=150
 cost=1649629

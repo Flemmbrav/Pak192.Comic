@@ -12,7 +12,14 @@ weight=14
 gear=150
 power=90
 speed=40
-payload=69
+
+# Vorbild 28 Sitzplätze, 41 Stehplätze
+payload=28
+overcrowded_capacity=41
+
+# Anzahl Achsen
+axles=4
+
 freight=Passagiere
 length=8
 waytype=tram_track
@@ -44,7 +51,14 @@ runningcost=192
 cost=2113056
 weight=12
 speed=40
-payload=69
+
+# Vorbild 28 Sitzplätze, 41 Stehplätze
+payload=28
+overcrowded_capacity=41
+
+# Anzahl Achsen
+axles=4
+
 freight=Passagiere
 length=8
 waytype=tram_track
