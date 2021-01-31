@@ -99,8 +99,8 @@ length=12
 waytype=narrowgauge_track
 engine_type=electric
 
-constraint[prev][0]=Electric_1996_AM96_U1
-constraint[next][0]=Electric_1996_AM96_U2
+constraint[prev][0]=Track_Electric_1996_AM96_U1
+constraint[next][0]=Track_Electric_1996_AM96_U2
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96_Urban.0.<$0>
 -------------
@@ -132,7 +132,7 @@ constraint[next][0]=Track_Electric_1996_AM96_U0
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1996_AM96_Urban.1.<$0>
 -------------
 obj=vehicle
-name=Electric_1996_AM96_U2
+name=Track_Electric_1996_AM96_U2
 copyright=Flemmbrav
 intro_year=1996
 intro_month=3
