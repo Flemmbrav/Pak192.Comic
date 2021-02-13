@@ -383,7 +383,7 @@ OutputGood[0]=icecream
 OutputCapacity[0]=500
 OutputFactor[0]=50
 #-----
-Productivity=300
+Productivity=500
 Range=0
 expand_probability=1000
 expand_minimum=3
