@@ -9,7 +9,7 @@ OutputGood[0]=oil
 OutputCapacity[0]=1000
 OutputFactor[0]=100
 #-----
-Productivity=350
+Productivity=750
 Range=20
 expand_probability=2500
 expand_minimum=10
@@ -43,7 +43,7 @@ OutputGood[0]=oil
 OutputCapacity[0]=4000
 OutputFactor[0]=100
 #-----
-Productivity=2510
+Productivity=4510
 Range=120
 expand_probability=2500
 expand_minimum=10
