@@ -1,7 +1,7 @@
 obj=vehicle
 name= Diesellokomotive MaK DE1024
 copyright=Signalschruber
-intro_year=1990
+intro_year=1989
 intro_month=1
 retire_year=2003
 retire_month=1
@@ -11,7 +11,7 @@ cost=93103296
 runningcost=2731
 weight=117
 power=2650
-gear=160
+gear=180
 speed=160
 length=11
 waytype=narrowgauge_track
