@@ -259,7 +259,7 @@ Range=25
 #-----
 Min_fields=4
 Max_fields=30
-Production_per_field=30
+Production_per_field=3
 fields=berry1_plantation_field
 #-----
 electricity_amount=0
@@ -293,7 +293,7 @@ Range=30
 #-----
 Min_fields=3
 Max_fields=25
-Production_per_field=35
+Production_per_field=4
 fields[0-1]=berry_fields_<$0>
 has_snow[0-1]=1
 #-----
@@ -339,7 +339,7 @@ Mapcolor=38
 InputGood[0]=berries
 InputCapacity[0]=30
 InputSupplier[0]=5
-InputFactor[0]=500
+InputFactor[0]=20
 OutputGood[0]=juice
 OutputCapacity[0]=600
 OutputFactor[0]=100
@@ -443,11 +443,11 @@ DistributionWeight=100
 Mapcolor=159
 #-----
 InputGood[0]=sugar
-InputCapacity[0]=500
+InputCapacity[0]=50
 InputSupplier[0]=1
 InputFactor[0]=100
 InputGood[1]=flour
-InputCapacity[1]=500
+InputCapacity[1]=50
 InputSupplier[1]=1
 InputFactor[1]=100
 InputGood[2]=milk
@@ -455,9 +455,9 @@ InputCapacity[2]=300
 InputSupplier[2]=0
 InputFactor[2]=50
 InputGood[3]=berries
-InputCapacity[3]=30
+InputCapacity[3]=20
 InputSupplier[3]=0
-InputFactor[3]=500
+InputFactor[3]=30
 #-----
 Productivity=50
 Range=0
