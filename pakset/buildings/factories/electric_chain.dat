@@ -51,7 +51,7 @@ OutputGood[0]=cable
 OutputCapacity[0]=100
 OutputFactor[0]=10
 #-----
-Productivity=12
+Productivity=50
 Range=5
 expand_probability=250
 expand_minimum=2
