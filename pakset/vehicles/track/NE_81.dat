@@ -10,7 +10,7 @@ retire_month=12
 waytype=narrowgauge_track
 speed=100
 power=500
-gear=100
+gear=180
 weight=46
 freight=Passagiere
 payload=78
@@ -61,6 +61,7 @@ cost=50000
 RunningCost=300
 
 length=12
+
 EmptyImage[W]=image/NE_81_VS.0.0
 EmptyImage[N]=image/NE_81_VS.0.1
 EmptyImage[E]=image/NE_81_VS.0.2
