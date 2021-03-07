@@ -15,4 +15,4 @@ length=12
 waytype=narrowgauge_track
 
 constraint[prev][0]=any
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2000_I10.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_2000_I10.0.<$0>

@@ -11,7 +11,7 @@ payload=2
 weight=22
 runningcost=213
 cost=2344650
-length=10
+length=9
 loading_time=2130
 constraint[prev][0]=any
 

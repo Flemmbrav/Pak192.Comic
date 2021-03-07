@@ -230,9 +230,9 @@ InputCapacity[1]=300
 InputFactor[1]=100
 OutputGood[0]=coka_drink
 OutputCapacity[0]=400
-OutputFactor[0]=100
+OutputFactor[0]=200
 #-----
-Productivity=800
+Productivity=80
 Range=200
 #-----
 electricity_amount=200
