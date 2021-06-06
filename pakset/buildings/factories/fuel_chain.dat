@@ -87,7 +87,7 @@ OutputGood[2]=heavy_oil
 OutputCapacity[2]=4000
 OutputFactor[2]=20
 #-----
-Productivity=6000
+Productivity=2000
 Range=200
 expand_probability=2500
 expand_minimum=40
@@ -160,7 +160,7 @@ OutputGood[0]=plastics
 OutputCapacity[0]=4000
 OutputFactor[0]=100
 #-----
-Productivity=6000
+Productivity=2000
 Range=200
 expand_probability=2500
 expand_minimum=20
