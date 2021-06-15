@@ -31,7 +31,7 @@ freight=Passagiere
 length=12
 waytype=narrowgauge_track
 loading_time=10200
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2020_M7.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2020_M7.1.<$0>
 ---
 obj=vehicle
 name=Track_Passenger_Train_2020_M7_2
@@ -49,5 +49,5 @@ length=12
 waytype=narrowgauge_track
 loading_time=10200
 constraint[prev][0]=any
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2020_M7.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=./image/Passenger_Train_2020_M7.2.<$0>
 ---
