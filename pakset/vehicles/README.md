@@ -11,6 +11,9 @@ We start with
 > obj=vehicle
 
 as first line. That's a no brainer and in every dat-file of a vehicle.
+
+> name=Track_Passenger_Train_1999_Doppelstockwagen
+
 After that, we define the name of the vehicle. For that, read further into the naming of vehicles in the following paragraphs.
 
 > intro_year=1999
