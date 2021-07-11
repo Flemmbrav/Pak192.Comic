@@ -22,3 +22,16 @@ single_way=0
 icon=> ./image/sigspeed.1.4
 cursor=./image/sigspeed.1.5
 Image[0-3]=./image/sigspeed.1.<$0>
+
+-----------------------
+obj=roadsign
+name=track_sigspeed_100
+copyright=Flemmbrav
+waytype=narrowgauge_track
+intro_year=1870
+cost=10000
+min_speed=101
+single_way=0
+icon=> ./image/sigspeed.2.4
+cursor=./image/sigspeed.2.5
+Image[0-3]=./image/sigspeed.2.<$0>
