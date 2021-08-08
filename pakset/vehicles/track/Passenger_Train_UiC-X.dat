@@ -24,9 +24,9 @@ emptyimage[sw]=./image/UIC-X.0.7
 emptyimage[w]=./image/UIC-X.0.2
 freight=Passagiere
 constraint[prev][0]=any
-constraint[next][0]=UIC-X_Post_D_Zug
-constraint[next][1]=UIC-X_D_Zug
-constraint[next][2]=none
+#constraint[next][0]=UIC-X_Post_D_Zug
+#constraint[next][1]=UIC-X_D_Zug
+#constraint[next][2]=none
 ---
 obj=vehicle
 name=UIC-X
@@ -53,9 +53,9 @@ emptyimage[sw]=./image/UIC-X.1.7
 emptyimage[w]=./image/UIC-X.1.2
 freight=Passagiere
 constraint[prev][0]=any
-constraint[next][0]=UIC-X_Post
-constraint[next][1]=UIC-X
-constraint[next][2]=none
+#constraint[next][0]=UIC-X_Post
+#constraint[next][1]=UIC-X
+#constraint[next][2]=none
 ---
 obj=vehicle
 name=UIC-X_IC
@@ -82,6 +82,6 @@ emptyimage[sw]=./image/UIC-X.2.7
 emptyimage[w]=./image/UIC-X.2.2
 freight=Passagiere
 constraint[prev][0]=any
-constraint[next][0]=UIC-X_IC
-constraint[next][1]=none
+#constraint[next][0]=UIC-X_IC
+#constraint[next][1]=none
 ---
