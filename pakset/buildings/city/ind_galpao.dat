@@ -1,0 +1,12 @@
+Obj=building
+name=ind_Galpao_Logistico
+copyright=Matias
+intro_month=1
+intro_year=2013
+type=ind
+Chance=20
+level=18
+needs_ground=0
+climates=tropic,mediterran,temperate,tundra
+dims=2,2,1
+BackImage[0][0-1][0-1][0][0][0-1]=images/ind/galpao.<$0>.<$1+2*$2>
