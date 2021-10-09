@@ -11,7 +11,7 @@ OutputGood[0]=copper
 OutputCapacity[0]=500
 OutputFactor[0]=100
 #-----
-Productivity=120
+Productivity=240
 Range=20
 expand_probability=250
 expand_minimum=10
