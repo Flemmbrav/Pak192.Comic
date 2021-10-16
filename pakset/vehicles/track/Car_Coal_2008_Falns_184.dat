@@ -1,0 +1,27 @@
+obj=vehicle
+name=Car_Coal_2008_Falns_184
+copyright=Flemmbrav
+waytype=narrowgauge_track
+intro_year=1981
+intro_month=9
+retire_month=3
+retire_year=2009
+speed=100
+payload=56
+#with 85m3 and 0,7t/m3 for coal
+weight=24
+runningcost=213
+cost=2344650
+length=6
+loading_time=2130
+freight=coal
+constraint[prev][0]=any
+EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Coal_2008_Falns_184.0.<$0>
+freightimagetype[0]=coal
+freightimagetype[1]=ore
+freightimagetype[2]=copper
+freightimagetype[3]=sand
+freightimagetype[4]=limestone
+freightimagetype[5]=salt
+freightimagetype[6]=plastics
+FreightImage[0-6][s,w,se,sw,n,e,nw,ne]=./image/Car_Coal_2008_Falns_184.<$0+1>.<$1>
