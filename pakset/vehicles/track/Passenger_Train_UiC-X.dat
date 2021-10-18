@@ -28,10 +28,10 @@ has_front_cab=0
 has_rear_cab=0
 bidirectional=1
 
-#reaconstraint[prev][0]=any
-constraint[next][0]=UIC-X_Post_D_Zug
-constraint[next][1]=UIC-X_D_Zug
-constraint[next][2]=none
+#constraint[prev][0]=any
+#constraint[next][0]=UIC-X_Post_D_Zug
+#constraint[next][1]=UIC-X_D_Zug
+#constraint[next][2]=none
 ---
 obj=vehicle
 name=UIC-X
@@ -68,9 +68,9 @@ has_rear_cab=0
 bidirectional=1
 
 constraint[prev][0]=any
-constraint[next][0]=UIC-X_Post
-constraint[next][1]=UIC-X
-constraint[next][2]=none
+#constraint[next][0]=UIC-X_Post
+#constraint[next][1]=UIC-X
+#constraint[next][2]=none
 ---
 obj=vehicle
 name=UIC-X_IC
@@ -102,6 +102,6 @@ has_rear_cab=0
 bidirectional=1
 
 constraint[prev][0]=any
-constraint[next][0]=UIC-X_IC
-constraint[next][1]=none
+#constraint[next][0]=UIC-X_IC
+#constraint[next][1]=none
 ---

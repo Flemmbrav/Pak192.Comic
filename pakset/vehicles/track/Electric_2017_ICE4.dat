@@ -30,7 +30,7 @@ loading_time=8990
 cost=9890595
 runningcost=899
 weight=54
-speed=250
+speed=265
 length=13
 
 constraint[prev][0]=ICE_DB_412_2
@@ -72,7 +72,7 @@ loading_time=9910
 cost=10905015
 runningcost=991
 weight=45
-speed=250
+speed=265
 length=13
 
 constraint[prev][0]=ICE_DB_412_1
@@ -114,12 +114,12 @@ loading_time=6920
 cost=90019050
 runningcost=3440
 weight=77
-speed=250
+speed=265
 length=13
 catering_level=4
 
 power=1650
-gear=200
+gear=250
 
 constraint[prev][0]=ICE_DB_412_3
 constraint[next][0]=ICE_DB_412_4
@@ -159,11 +159,11 @@ loading_time=9910
 cost=93315915
 runningcost=3740
 weight=61
-speed=250
+speed=265
 length=13
 
 power=1650
-gear=200
+gear=250
 
 constraint[prev][0]=ICE_DB_412_6
 constraint[prev][1]=ICE_DB_412_4
@@ -206,7 +206,7 @@ loading_time=9910
 cost=10905015
 runningcost=991
 weight=45
-speed=250
+speed=265
 length=13
 
 constraint[prev][0]=ICE_DB_412_6
@@ -250,11 +250,11 @@ loading_time=9910
 cost=93315915
 runningcost=3740
 weight=61
-speed=250
+speed=265
 length=13
 
 power=1650
-gear=200
+gear=250
 
 constraint[prev][0]=ICE_DB_412_4
 constraint[prev][1]=ICE_DB_412_5
@@ -294,7 +294,7 @@ loading_time=9910
 cost=10905015
 runningcost=991
 weight=45
-speed=250
+speed=265
 length=13
 
 constraint[prev][0]=ICE_DB_412_7
@@ -336,7 +336,7 @@ loading_time=8990
 cost=9890595
 runningcost=899
 weight=54
-speed=250
+speed=265
 length=13
 
 constraint[prev][0]=ICE_DB_412_7

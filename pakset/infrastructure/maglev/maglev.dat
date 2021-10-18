@@ -6,7 +6,7 @@ copyright=Leartin
 intro_month=2
 intro_year=1997
 cost=9000000
-maintenace=75000
+maintenance=17500
 topspeed=600
 
 Image[NS][0]=./images/maglev.0.0,0,48

@@ -13,7 +13,7 @@ InputCapacity[0]=8000
 InputSupplier[0]=1
 InputFactor[0]=50
 #-----
-Productivity=6000
+Productivity=3000
 Range=120
 #-----
 #electricity_amount=0
@@ -49,7 +49,7 @@ InputCapacity[0]=4000
 InputSupplier[0]=1
 InputFactor[0]=50
 #-----
-Productivity=4000
+Productivity=2000
 Range=120
 #-----
 #electricity_amount=0

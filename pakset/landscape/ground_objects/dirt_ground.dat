@@ -1,0 +1,100 @@
+obj=ground_obj
+Name=dirtground_0
+copyright=Leartin
+cost=10
+DistributionWeight=10
+seasons=5
+trees_on_top=1
+climates=rocky, tundra
+Image[0][0-4]=./image/dirtground.<$0>.0
+---
+obj=ground_obj
+Name=dirtground_1
+copyright=Leartin
+cost=10
+DistributionWeight=10
+seasons=5
+trees_on_top=1
+climates=rocky, tundra
+Image[0][0-4]=./image/dirtground.<$0>.1
+---
+obj=ground_obj
+Name=dirtground_2
+copyright=Leartin
+cost=10
+DistributionWeight=10
+seasons=5
+trees_on_top=1
+climates=rocky, tundra
+Image[0][0-4]=./image/dirtground.<$0>.2
+---
+obj=ground_obj
+Name=dirtground_3
+copyright=Leartin
+cost=10
+DistributionWeight=10
+seasons=5
+trees_on_top=1
+climates=rocky, tundra
+Image[0][0-4]=./image/dirtground.<$0>.3
+---
+obj=ground_obj
+Name=dirtground_4
+copyright=Leartin
+cost=10
+DistributionWeight=10
+seasons=5
+trees_on_top=1
+climates=rocky, tundra
+Image[0][0-4]=./image/dirtground.<$0>.4
+---
+obj=ground_obj
+Name=dirtground_5
+copyright=Leartin
+cost=10
+DistributionWeight=10
+seasons=5
+trees_on_top=1
+climates=rocky, tundra
+Image[0][0-4]=./image/dirtground.<$0>.5
+---
+obj=ground_obj
+Name=dirtground_6
+copyright=Leartin
+cost=10
+DistributionWeight=10
+seasons=5
+trees_on_top=1
+climates=rocky, tundra
+Image[0][0-4]=./image/dirtground.<$0>.6
+---
+obj=ground_obj
+Name=dirtground_7
+copyright=Leartin
+cost=10
+DistributionWeight=10
+seasons=5
+trees_on_top=1
+climates=rocky, tundra
+Image[0][0-4]=./image/dirtground.<$0>.7
+---
+obj=ground_obj
+Name=dirtground_8
+copyright=Leartin
+cost=10
+DistributionWeight=10
+seasons=5
+trees_on_top=1
+climates=rocky, tundra
+Image[0][0-4]=./image/dirtground.<$0>.8
+---
+obj=ground_obj
+Name=dirtground_9
+copyright=Leartin
+cost=10
+DistributionWeight=10
+seasons=5
+trees_on_top=1
+climates=rocky, tundra
+Image[0][0-4]=./image/dirtground.<$0>.9
+--------------------

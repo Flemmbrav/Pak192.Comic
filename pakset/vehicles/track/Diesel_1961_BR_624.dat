@@ -1,0 +1,134 @@
+obj=vehicle
+name=BR 624
+copyright=Signalschruber
+
+intro_year=1961
+intro_month=1
+retire_year=1972
+retire_month=12
+
+waytype=narrowgauge_track
+speed=120
+power=331
+gear=180
+weight=46
+freight=Passagiere
+payload=68
+
+smoke=smoke_diesel_thin_short
+
+engine_type=diesel
+sound=2
+
+cost=100000
+RunningCost=100
+
+length=12
+EmptyImage[W]=image/BR_624.0.0
+EmptyImage[N]=image/BR_624.0.1
+EmptyImage[E]=image/BR_624.0.2
+EmptyImage[S]=image/BR_624.0.3
+EmptyImage[SE]=image/BR_624.1.0
+EmptyImage[NE]=image/BR_624.1.1
+EmptyImage[NW]=image/BR_624.1.2
+EmptyImage[SW]=image/BR_624.1.3
+
+Constraint[Prev][0]=BR 624 Schluss
+Constraint[Prev][1]=BR 614 Schluss
+Constraint[Prev][2]=none
+
+Constraint[Next][0]=BR 624 Schluss
+Constraint[Next][1]=BR 624 Mittelwagen
+Constraint[Next][2]=BR 614 Schluss
+Constraint[Next][3]=BR 614 Mittelwagen
+
+--------
+
+obj=vehicle
+name=BR 624 Mittelwagen
+copyright=Signalschruber
+
+intro_year=1961
+intro_month=1
+retire_year=1972
+retire_month=12
+
+waytype=narrowgauge_track
+speed=120
+power=0
+gear=0
+weight=32
+freight=Passagiere
+payload=88
+
+engine_type=diesel
+sound=2
+
+cost=100000
+RunningCost=100
+
+length=12
+EmptyImage[W]=image/BR_624_3.0.0
+EmptyImage[N]=image/BR_624_3.0.1
+EmptyImage[E]=image/BR_624_3.0.2
+EmptyImage[S]=image/BR_624_3.0.3
+EmptyImage[SE]=image/BR_624_3.1.0
+EmptyImage[NE]=image/BR_624_3.1.1
+EmptyImage[NW]=image/BR_624_3.1.2
+EmptyImage[SW]=image/BR_624_3.1.3
+
+Constraint[Prev][0]=BR 624
+Constraint[Prev][1]=BR 624 Mittelwagen
+Constraint[Prev][2]=BR 614
+Constraint[Prev][3]=BR 614 Mittelwagen
+
+Constraint[Next][0]=BR 624 Schluss
+Constraint[Next][1]=BR 624 Mittelwagen
+Constraint[Next][2]=BR 614 Schluss
+Constraint[Next][3]=BR 614 Mittelwagen
+
+--------
+
+obj=vehicle
+name=BR 624 Schluss
+copyright=Signalschruber
+
+intro_year=1961
+intro_month=1
+retire_year=1972
+retire_month=12
+
+waytype=narrowgauge_track
+speed=120
+power=331
+gear=180
+weight=46
+freight=Passagiere
+payload=68
+
+smoke=smoke_diesel_thin_short
+
+engine_type=diesel
+sound=2
+
+cost=100000
+RunningCost=100
+
+length=12
+EmptyImage[W]=image/BR_624_2.0.0
+EmptyImage[N]=image/BR_624_2.0.1
+EmptyImage[E]=image/BR_624_2.0.2
+EmptyImage[S]=image/BR_624_2.0.3
+EmptyImage[SE]=image/BR_624_2.1.0
+EmptyImage[NE]=image/BR_624_2.1.1
+EmptyImage[NW]=image/BR_624_2.1.2
+EmptyImage[SW]=image/BR_624_2.1.3
+
+Constraint[Prev][0]=BR 624
+Constraint[Prev][1]=BR 624 Mittelwagen
+Constraint[Prev][2]=BR 614
+Constraint[Prev][3]=BR 614 Mittelwagen
+
+Constraint[Next][0]=BR 624
+Constraint[Next][1]=BR 614
+Constraint[Next][2]=none

@@ -39,7 +39,7 @@ OutputGood[0]=ore
 OutputCapacity[0]=100
 OutputFactor[0]=100
 #-----
-Productivity=1000
+Productivity=4000
 Range=200
 #expand_probability=
 #expand_minimum=

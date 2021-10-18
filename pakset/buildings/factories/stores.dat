@@ -22,7 +22,7 @@ InputFactor[2]=100
 InputSupplier[2]=0
 InputGood[3]=honey
 InputCapacity[3]=300
-InputFactor[3]=100
+InputFactor[3]=20
 InputSupplier[3]=0
 #-----
 Productivity=330
