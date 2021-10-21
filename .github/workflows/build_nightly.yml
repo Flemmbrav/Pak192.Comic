@@ -3,108 +3,7 @@ name: Nightly build Ubuntu
 on: [push]
 
 jobs:
-  compile_pak192-comic:
-
-    runs-on: ubuntu-latest
-   
-    steps:
-    - uses: actions/checkout@v1
-
-    - name: install_dependencies
-      run: |
-        sudo apt-get -y update
-        sudo apt-get -ym install libpng-dev
-        sudo apt-get -ym install libsdl2-dev
-        sudo apt-get -ym install libbz2-dev
-        sudo apt-get -ym install autoconf
-        svn checkout svn://servers.simutrans.org/simutrans simutrans
-    - name: setup
-      run: |
-        cd simutrans/trunk
-        autoconf
-        ./configure
-        cat config.default >>/dev/stderr
-    - name: make makeobj
-      run: |
-          cd simutrans/trunk/makeobj
-          make
-          mv makeobj ../../..
-          cd ../../..
-          rm -rf simutrans
-
-    - name: make pak192
-      run: |
-        bash COMPILE.sh
-    - name: Rename result
-      run: |
-        mv compiled pak192.comic-nightly
-        zip -r pak192-nightly.zip pak192.comic-nightly
-
-    - name: Update binaries of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192-nightly.zip
-        asset_name: pak192-nightly.zip
-        tag: Nightly
-        overwrite: true
-
-  compile_pak192-comic-addons:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v1
-
-    - name: install_dependencies
-      run: |
-          sudo apt-get -y update
-          sudo apt-get -ym install libpng-dev
-          sudo apt-get -ym install libsdl2-dev
-          sudo apt-get -ym install libbz2-dev
-          sudo apt-get -ym install autoconf
-          svn checkout svn://servers.simutrans.org/simutrans simutrans
-    - name: setup
-      run: |
-        cd simutrans/trunk
-        autoconf
-        ./configure
-        cat config.default >>/dev/stderr
-    - name: make makeobj
-      run: |
-          cd simutrans/trunk/makeobj
-          make
-          mv makeobj ../../..
-          cd ../../..
-          rm -rf simutrans
-
-    - name: Compile pak192.comic addons
-      run: bash COMPILE_ADDON.sh
-
-    - name: zip addons
-      run: |
-        mv compiled_addons pak192.comic-nightly-addons
-        zip -r pak192-nightly-addons.zip pak192.comic-nightly-addons
-        
-    - name: Compile pak192.comic themes
-      run: bash COMPILE_THEME.sh
-
-    - name: Update Addons of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192-nightly-addons.zip
-        asset_name: pak192-nightly-addons.zip
-        tag: Nightly
-        overwrite: true
-        
-    - name: Update Themes of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./themes.zip
-        asset_name: themes.zip
-        tag: Nightly
-        overwrite: true
+  
 
   datconverter_and_compile_pak192-comic-addons:
     runs-on: ubuntu-latest
@@ -133,7 +32,9 @@ jobs:
           mv makeobj ../../..
           cd ../../..
           rm -rf simutrans
-
+    - name: Version the Pakset
+      run: echo "Obj=ground\nName=Outside\ncopyright=Pak192.Comic $(git rev-list --count --first-parent HEAD)\nImage[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
+    
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
 
@@ -199,7 +100,10 @@ jobs:
           mv makeobj ../../..
           cd ../../..
           rm -rf simutrans
-
+    - name: Version the Pakset
+      run: echo "Obj=ground\nName=Outside\ncopyright=Pak192.Comic Serverset $(git rev-list --count --first-parent HEAD)\nImage[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
+    
+    
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
 
