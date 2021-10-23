@@ -40,78 +40,80 @@ compile() {
     local size=${#size[@]}
 
     for dat in $3; do
-        # get directory where the dat file is located
-        local dir=$(dirname "$dat")
+        if [ -f "$dat" ] ; then
+            # get directory where the dat file is located
+            local dir=$(dirname "$dat")
 
-        # hash the dat file
-        local IFS=' '
-        local dathash=($(sha256sum "$dat"))
-        local dathash=$dathash
-        local IFS=,
+            # hash the dat file
+            local IFS=' '
+            local dathash=($(sha256sum "$dat"))
+            local dathash=$dathash
+            local IFS=,
 
-        # obtain all image names inside the dat file
-        local images=$(awk -F= '
-            BEGIN {
-                IGNORECASE=1
-            }
-            {
-                if (/^([^#]*image\[|cursor|icon)/) {
-                    match($2, /(\.+[\/\\])*[a-z0-9\/\-_\\()]+/);
-                    images[substr($2, RSTART, RLENGTH)]++
+            # obtain all image names inside the dat file
+            local images=$(awk -F= '
+                BEGIN {
+                    IGNORECASE=1
                 }
-            }
-            END {
-                for (img in images) {
-                    if (img != "-") {
-                        printf "'$dir'/%s.png,", img
+                {
+                    if (/^([^#]*image\[|cursor|icon)/) {
+                        match($2, /(\.+[\/\\])*[a-z0-9\/\-_\\()]+/);
+                        images[substr($2, RSTART, RLENGTH)]++
                     }
                 }
-            }' "$dat")
+                END {
+                    for (img in images) {
+                        if (img != "-") {
+                            printf "'$dir'/%s.png,", img
+                        }
+                    }
+                }' "$dat")
 
-        if [[ ! -z $images ]]; then
-            # hash all the images
-            tempsha=$(sha256sum $images)
+            if [[ ! -z $images ]]; then
+                # hash all the images
+                tempsha=$(sha256sum $images)
 
-            if [[ $? != 0 ]]; then
-                echo -e "\x1B[33mWarning: Failed to get one or more hashes on $dat\x1B[0m"
-            fi
-
-            local imghash=($(printf '%s %s\n' $tempsha | awk '{ printf "%s,", $1 }'))
-        fi
-
-        # get the hashes from the previous run
-        local validate=($(awk -F, "\$1 == \"$dat\"" "$csv"))
-
-        # assume no recompilation necessary
-        local recompile=0
-
-        # check hashes and number of images
-        if [[ $dathash != ${validate[1]} || $((${#validate[*]} - 2)) != ${#imghash[*]} ]]; then
-            local recompile=1
-        else
-            # check all image hashes
-            for hash in ${imghash[*]}; do
-                if [[ ! "${validate[*]}" =~ $hash ]]; then
-                    local recompile=1
+                if [[ $? != 0 ]]; then
+                    echo -e "\x1B[33mWarning: Failed to get one or more hashes on $dat\x1B[0m"
                 fi
-            done
-        fi
 
-        # recompiling if necessary
-        if [[ $recompile == 1 ]]; then
-            ./makeobj pak$1 ./compiled/ "./$dat" &> /dev/null
-            if [[ $? != 0 ]]; then
-                echo "Error: Makeobj returned an error for $dat. Aborting..."
-                rm "$csv.in"
-                exit $?
+                local imghash=($(printf '%s %s\n' $tempsha | awk '{ printf "%s,", $1 }'))
             fi
+
+            # get the hashes from the previous run
+            local validate=($(awk -F, "\$1 == \"$dat\"" "$csv"))
+
+            # assume no recompilation necessary
+            local recompile=0
+
+            # check hashes and number of images
+            if [[ $dathash != ${validate[1]} || $((${#validate[*]} - 2)) != ${#imghash[*]} ]]; then
+                local recompile=1
+            else
+                # check all image hashes
+                for hash in ${imghash[*]}; do
+                    if [[ ! "${validate[*]}" =~ $hash ]]; then
+                        local recompile=1
+                    fi
+                done
+            fi
+
+            # recompiling if necessary
+            if [[ $recompile == 1 ]]; then
+                ./makeobj pak$1 ./compiled/ "./$dat" &> /dev/null
+                if [[ $? != 0 ]]; then
+                    echo "Error: Makeobj returned an error for $dat. Aborting..."
+                    rm "$csv.in"
+                    exit $?
+                fi
+            fi
+
+            # put the hashes in the $csv.in file
+            echo "$dat,$dathash,${imghash[*]}" >> "$csv.in"
+
+            progressbar $index $size $dat
+            local index=$(( $index + 1 ))
         fi
-
-        # put the hashes in the $csv.in file
-        echo "$dat,$dathash,${imghash[*]}" >> "$csv.in"
-
-        progressbar $index $size $dat
-        local index=$(( $index + 1 ))
     done
 
     # jump line because of progress bar
