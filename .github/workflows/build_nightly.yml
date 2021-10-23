@@ -101,7 +101,10 @@ jobs:
           cd ../../..
           rm -rf simutrans
     - name: Version the Pakset
-      run: echo "Obj=ground\nName=Outside\ncopyright=Pak192.Comic Serverset $(git rev-list --count --first-parent HEAD)\nImage[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
+      run: echo "Obj=ground
+      Name=Outside
+      copyright=Pak192.Comic $(git rev-list --count --first-parent HEAD)
+      Image[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
     
     
     - name: Converting dat files
