@@ -32,6 +32,11 @@ jobs:
           mv makeobj ../../..
           cd ../../..
           rm -rf simutrans
+
+
+    - name: Compile pak192.comic themes
+      run: bash COMPILE_THEME.sh
+
     - name: Version the Pakset
       run: sed -i "s/copyright=.*/copyright=Pak192.Comic Nightly Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
 
@@ -70,6 +75,16 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: ./pak192-nightly-datconverter.zip
         asset_name: pak192-nightly-datconverter.zip
+        tag: Nightly
+        overwrite: true
+
+        
+    - name: Update Themes of Nightly Release
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./themes.zip
+        asset_name: themes.zip
         tag: Nightly
         overwrite: true
 

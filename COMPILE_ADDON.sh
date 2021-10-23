@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 echo 'pak192.comic open-source repository AddOn compiler for Unix'
 echo -e '======================================================\n'
 

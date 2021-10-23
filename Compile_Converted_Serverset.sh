@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 echo 'pak192.comic open-source repository Serverset compiler for Unix'
 echo -e '======================================================\n'
 

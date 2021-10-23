@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 #general functions that don't have a single purpose
 
 trim() {
@@ -58,8 +60,8 @@ readgoodline() {
 	#reads a line and adds it to the ObjectArray
 	local Line="$1"
 	shift
-  local PosHash=`expr index "$Line" '#'`
-  local PosEq=`expr index "$Line" '='`
+	local PosHash=`expr index "$Line" '#'`
+	local PosEq=`expr index "$Line" '='`
 
 	if [ $PosHash -gt 0 ]
 	then
@@ -189,17 +191,23 @@ getincome() {
 	local GoodValue=${GoodsValueArray[$Good]}
 	local Income=0
 	GoodSpeedBonus=$(( GoodSpeedBonus + 2 ))
-	#echo "Speed: $Speed ; GoodSpeedBonus: $GoodSpeedBonus ; SpeedBonus: $SpeedBonus"
+	#echo "Speed: "$Speed" ; GoodSpeedBonus: "$GoodSpeedBonus" ; SpeedBonus: "$SpeedBonus;
 	#calculate the speedbonus multiplied by 10.000
 	if [ $SpeedBonus -eq 0 ];then
 		Income=10000
 	else
 		Income=$(( (( Speed * 1000 / SpeedBonus ) - 1000 ) * ( GoodSpeedBonus ) + 10000 ))
+		#(( 13/3 Speed <= SpeedBonus )
 	fi
 	#calculate the income
 	Income=$(( Income * Payload * GoodValue / 3 ))
 	#lowering the multiplyer to times 10
 	Income=$(( Income / 10 ))
+
+	if [ 0 -gt $Income ];then
+		Income=0
+	fi
+	
 	echo $Income
 }
 
@@ -305,7 +313,7 @@ calculatecosts(){
 	fi
 	#malus for passenger trains as they usually get higher average payload
 	if [[ ${ObjectArray[freight]} == "Passagiere" ]] ;then
-		Income=$(( Income / 100 * 110 ))
+		Income=$(( Income * 100 / 110 ))
 	fi
 	#calculate the runningcosts
 	local Cost=$(( Income + 10 * PowerValue ))
@@ -629,9 +637,9 @@ Commands:
 				readallfiles 'pakset/vehicles/**/*.dat'
 				readallfiles 'AddOn/**/vehicles/**/*.dat'
 			else	
-				echo "- Edit Costoum .dat Files "
+				#echo "- Edit Costoum .dat Files "
 
-				#readfile "pakset/vehicles/track/Tram_Combino_MS.dat"
+				readfile "pakset/vehicles/water/Alsterdampfer.dat"
 				#readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
 				#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
 
