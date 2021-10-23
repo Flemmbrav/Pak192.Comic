@@ -2,10 +2,10 @@ obj=vehicle
 name=Car_Coal_2008_Falns_184
 copyright=Flemmbrav
 waytype=narrowgauge_track
-intro_year=1981
+intro_year=2008
 intro_month=9
-retire_month=3
-retire_year=2009
+#retire_month=3
+#retire_year=2009
 speed=100
 payload=56
 #with 85m3 and 0,7t/m3 for coal
