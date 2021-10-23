@@ -37,7 +37,7 @@ jobs:
           echo "Obj=ground
           Name=Outside
           copyright=Pak192.Comic Nightly $(git rev-list --count --first-parent HEAD)
-          eImage[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
+          Image[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
 
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
@@ -104,13 +104,13 @@ jobs:
           mv makeobj ../../..
           cd ../../..
           rm -rf simutrans
-          
+
     - name: Version the Pakset
       run: |
           echo "Obj=ground
           Name=Outside
           copyright=Pak192.Comic Serverset $(git rev-list --count --first-parent HEAD)
-          eImage[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
+          Image[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
     
     
     - name: Converting dat files
