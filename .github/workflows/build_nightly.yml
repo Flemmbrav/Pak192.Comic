@@ -33,7 +33,7 @@ jobs:
           cd ../../..
           rm -rf simutrans
     - name: Version the Pakset
-      run: sed -i "s/copyright=.*/copyright=Pak192.Comic Nightly Rev $(git rev-list --count --first-parent HEAD)/" ./outside.dat
+      run: sed -i "s/copyright=.*/copyright=Pak192.Comic Nightly Rev $(git rev-list --count --first-parent HEAD)/" .pakset/landscape/ground/outside.dat
 
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
@@ -102,7 +102,7 @@ jobs:
           rm -rf simutrans
 
     - name: Version the Pakset
-      run: sed -i "s/copyright=.*/copyright=Pak192.Comic Severset Rev $(git rev-list --count --first-parent HEAD)/" ./outside.dat
+      run: sed -i "s/copyright=.*/copyright=Pak192.Comic Severset Rev $(git rev-list --count --first-parent HEAD)/" .pakset/landscape/ground/outside.dat
     
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
