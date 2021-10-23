@@ -114,7 +114,9 @@ compile() {
             # put the hashes in the $csv.in file
             echo "$dat,$dathash,${imghash[*]}" >> "$csv.in"
 
-            progressbar $index $size $dat
+            if [ $TERM ] ; then
+                progressbar $index $size $dat
+            fi
             local index=$(( $index + 1 ))
         fi
     done
