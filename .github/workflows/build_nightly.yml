@@ -33,11 +33,7 @@ jobs:
           cd ../../..
           rm -rf simutrans
     - name: Version the Pakset
-      run: |
-          echo "Obj=ground
-Name=Outside
-copyright=Pak192.Comic Nightly Rev $(git rev-list --count --first-parent HEAD)
-Image[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
+      run: sed -i "s/copyright=.*/copyright=Pak192.Comic Nightly Rev $(git rev-list --count --first-parent HEAD)/" ./outside.dat
 
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
@@ -106,12 +102,7 @@ Image[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
           rm -rf simutrans
 
     - name: Version the Pakset
-      run: |
-          echo "Obj=ground
-Name=Outside
-copyright=Pak192.Comic Serverset Rev $(git rev-list --count --first-parent HEAD)
-Image[0][0]=./images/outside.0.0" > pakset/landscape/ground/outside.dat
-    
+      run: sed -i "s/copyright=.*/copyright=Pak192.Comic Severset Rev $(git rev-list --count --first-parent HEAD)/" ./outside.dat
     
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
