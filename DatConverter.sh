@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+#set -e
 
 #general functions that don't have a single purpose
 
@@ -227,10 +227,16 @@ readallfiles() {
 	local directionary=$1
 	IFS='
 	'
-  for dat in $directionary ; do
-		echo "-- Performing Work At: $dat "
-		readfile $dat
-	done
+	if [ ${#directionary[@]} -gt 0 ] ; then
+
+	  	for dat in $directionary ; do
+
+	  		if [ -f "$dat" ] ; then
+				echo "-- Performing Work At: $dat "
+				readfile $dat
+			fi
+		done
+	fi
 }
 
 
@@ -239,6 +245,7 @@ readfile() {
 	#creates a new ObjectArray
 	#runs readline for each line in the file
 	local Filename=$1
+	echo "nutze cat";
 	local File=`cat $Filename | tr -d '\r'`
 
 	`rm -f calculated/$Filename`
