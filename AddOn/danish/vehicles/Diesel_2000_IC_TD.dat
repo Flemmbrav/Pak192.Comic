@@ -1,7 +1,7 @@
-# Track_Diesel_2000_IC_TD_DSB_1 = 1. Steuerwagen 	(p 2,0, BR_411)(n 3)
-# Track_Diesel_2000_IC_TD_DSB_3 = 1. Mittelwagen  	(p 1)(n 4)
-# Track_Diesel_2000_IC_TD_DSB_4 = 2. Mittelwagen  	(p 4)(n 2)
-# Track_Diesel_2000_IC_TD_DSB_2 = 2. Steuerwagen 	(p 4)(n 1,0, BR_411)
+# Track_Diesel_2000_IC_TD_1 = 1. Steuerwagen 	(p 2,0, BR_411)(n 3)
+# Track_Diesel_2000_IC_TD_3 = 1. Mittelwagen  	(p 1)(n 4)
+# Track_Diesel_2000_IC_TD_4 = 2. Mittelwagen  	(p 4)(n 2)
+# Track_Diesel_2000_IC_TD_2 = 2. Steuerwagen 	(p 4)(n 1,0, BR_411)
 
 
 
@@ -34,14 +34,14 @@ constraint[prev][2]=Track_Diesel_2000_IC_TD_DSB_2
 constraint[prev][3]=none
 constraint[next][0]=Track_Diesel_2000_IC_TD_DSB_3
 
-EmptyImage[S]=image/Diesel_2000_IC_TD_DSB.0.3
-EmptyImage[E]=image/Diesel_2000_IC_TD_DSB.0.2
-EmptyImage[SE]=image/Diesel_2000_IC_TD_DSB.1.0
-EmptyImage[SW]=image/Diesel_2000_IC_TD_DSB.1.3
-EmptyImage[N]=image/Diesel_2000_IC_TD_DSB.0.1
-EmptyImage[W]=image/Diesel_2000_IC_TD_DSB.0.0
-EmptyImage[NW]=image/Diesel_2000_IC_TD_DSB.1.2
-EmptyImage[NE]=image/Diesel_2000_IC_TD_DSB.1.1
+EmptyImage[E]=image/Diesel_2000_IC_TD_DSB.0.0
+EmptyImage[S]=image/Diesel_2000_IC_TD_DSB.0.1
+EmptyImage[W]=image/Diesel_2000_IC_TD_DSB.0.2
+EmptyImage[N]=image/Diesel_2000_IC_TD_DSB.0.3
+EmptyImage[SE]=image/Diesel_2000_IC_TD_DSB.0.4
+EmptyImage[NE]=image/Diesel_2000_IC_TD_DSB.0.5
+EmptyImage[NW]=image/Diesel_2000_IC_TD_DSB.0.6
+EmptyImage[SW]=image/Diesel_2000_IC_TD_DSB.0.7
 ---------
 obj=vehicle
 name=Track_Diesel_2000_IC_TD_DSB_2
@@ -67,19 +67,19 @@ speed=200
 length=12
 
 constraint[prev][0]=Track_Diesel_2000_IC_TD_DSB_4
-constraint[next][0]=Track_Diesel_2000_IC_TD_DSB_1
-constraint[next][1]=Track_Diesel_2000_IC_TD_1
+constraint[next][0]=Track_Diesel_2000_IC_TD_1
+constraint[next][1]=Track_Diesel_2000_IC_TD_DSB_1
 constraint[next][2]=BR_411_1
 constraint[next][3]=none
 
-EmptyImage[S]=image/Diesel_2000_IC_TD_DSB.2.3
-EmptyImage[E]=image/Diesel_2000_IC_TD_DSB.2.2
-EmptyImage[SE]=image/Diesel_2000_IC_TD_DSB.3.0
-EmptyImage[SW]=image/Diesel_2000_IC_TD_DSB.3.3
-EmptyImage[N]=image/Diesel_2000_IC_TD_DSB.2.1
-EmptyImage[W]=image/Diesel_2000_IC_TD_DSB.2.0
-EmptyImage[NW]=image/Diesel_2000_IC_TD_DSB.3.2
-EmptyImage[NE]=image/Diesel_2000_IC_TD_DSB.3.1
+EmptyImage[E]=image/Diesel_2000_IC_TD_DSB.1.0
+EmptyImage[S]=image/Diesel_2000_IC_TD_DSB.1.1
+EmptyImage[W]=image/Diesel_2000_IC_TD_DSB.1.2
+EmptyImage[N]=image/Diesel_2000_IC_TD_DSB.1.3
+EmptyImage[SE]=image/Diesel_2000_IC_TD_DSB.1.4
+EmptyImage[NE]=image/Diesel_2000_IC_TD_DSB.1.5
+EmptyImage[NW]=image/Diesel_2000_IC_TD_DSB.1.6
+EmptyImage[SW]=image/Diesel_2000_IC_TD_DSB.1.7
 ---------
 obj=vehicle
 name=Track_Diesel_2000_IC_TD_DSB_3
@@ -107,14 +107,14 @@ length=12
 constraint[prev][0]=Track_Diesel_2000_IC_TD_DSB_1
 constraint[next][0]=Track_Diesel_2000_IC_TD_DSB_4
 
-EmptyImage[S]=image/Diesel_2000_IC_TD_DSB.4.3
-EmptyImage[E]=image/Diesel_2000_IC_TD_DSB.4.2
-EmptyImage[SE]=image/Diesel_2000_IC_TD_DSB.5.0
-EmptyImage[SW]=image/Diesel_2000_IC_TD_DSB.5.3
-EmptyImage[N]=image/Diesel_2000_IC_TD_DSB.4.1
-EmptyImage[W]=image/Diesel_2000_IC_TD_DSB.4.0
-EmptyImage[NW]=image/Diesel_2000_IC_TD_DSB.5.2
-EmptyImage[NE]=image/Diesel_2000_IC_TD_DSB.5.1
+EmptyImage[E]=image/Diesel_2000_IC_TD_DSB.2.0
+EmptyImage[S]=image/Diesel_2000_IC_TD_DSB.2.1
+EmptyImage[W]=image/Diesel_2000_IC_TD_DSB.2.2
+EmptyImage[N]=image/Diesel_2000_IC_TD_DSB.2.3
+EmptyImage[SE]=image/Diesel_2000_IC_TD_DSB.2.4
+EmptyImage[NE]=image/Diesel_2000_IC_TD_DSB.2.5
+EmptyImage[NW]=image/Diesel_2000_IC_TD_DSB.2.6
+EmptyImage[SW]=image/Diesel_2000_IC_TD_DSB.2.7
 ---------
 obj=vehicle
 name=Track_Diesel_2000_IC_TD_DSB_4
@@ -142,11 +142,11 @@ length=12
 constraint[prev][0]=Track_Diesel_2000_IC_TD_DSB_3
 constraint[next][0]=Track_Diesel_2000_IC_TD_DSB_2
 
-EmptyImage[S]=image/Diesel_2000_IC_TD_DSB.6.3
-EmptyImage[E]=image/Diesel_2000_IC_TD_DSB.6.2
-EmptyImage[SE]=image/Diesel_2000_IC_TD_DSB.7.0
-EmptyImage[SW]=image/Diesel_2000_IC_TD_DSB.7.3
-EmptyImage[N]=image/Diesel_2000_IC_TD_DSB.6.1
-EmptyImage[W]=image/Diesel_2000_IC_TD_DSB.6.0
-EmptyImage[NW]=image/Diesel_2000_IC_TD_DSB.7.2
-EmptyImage[NE]=image/Diesel_2000_IC_TD_DSB.7.1
+EmptyImage[E]=image/Diesel_2000_IC_TD_DSB.2.0
+EmptyImage[S]=image/Diesel_2000_IC_TD_DSB.2.1
+EmptyImage[W]=image/Diesel_2000_IC_TD_DSB.2.2
+EmptyImage[N]=image/Diesel_2000_IC_TD_DSB.2.3
+EmptyImage[SE]=image/Diesel_2000_IC_TD_DSB.2.4
+EmptyImage[NE]=image/Diesel_2000_IC_TD_DSB.2.5
+EmptyImage[NW]=image/Diesel_2000_IC_TD_DSB.2.6
+EmptyImage[SW]=image/Diesel_2000_IC_TD_DSB.2.7
