@@ -11,8 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    -
-
 
     - name: Compile pak192.comic themes
       run: bash COMPILE_THEME.sh
