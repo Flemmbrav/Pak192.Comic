@@ -44,7 +44,7 @@ compile() {
         if [ -f "$dat" ] ; then
             echo -e "Compiling $dat"
 
-            ./makeobj pak$1 ./compiled_converted/ "./$dat" &> /dev/null
+            ./makeobj pak$1 ./compiled_converted_addons/ "./$dat" &> /dev/null
                 if [[ $? != 0 ]]; then
                     echo "Error: Makeobj returned an error for $dat. Aborting..."
                 fi
