@@ -42,7 +42,7 @@ compile() {
     for dat in $3; do
 
         if [ -f "$dat" ] ; then
-
+            echo -e "Compiling $dat"
             ./makeobj pak$1 ./compiled_converted/ "./$dat" &> /dev/null
                 if [[ $? != 0 ]]; then
                     echo "Error: Makeobj returned an error for $dat. Aborting..."
