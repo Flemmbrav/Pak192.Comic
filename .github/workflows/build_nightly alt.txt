@@ -11,7 +11,27 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    -
+    - name: install_dependencies
+      run: |
+          sudo apt-get -y update
+          sudo apt-get -ym install libpng-dev
+          sudo apt-get -ym install libsdl2-dev
+          sudo apt-get -ym install libbz2-dev
+          sudo apt-get -ym install autoconf
+          svn checkout svn://servers.simutrans.org/simutrans simutrans
+    - name: setup
+      run: |
+        cd simutrans/trunk
+        autoconf
+        ./configure
+        cat config.default >>/dev/stderr
+    - name: make makeobj
+      run: |
+          cd simutrans/trunk/makeobj
+          make
+          mv makeobj ../../..
+          cd ../../..
+          rm -rf simutrans
 
 
     - name: Compile pak192.comic themes
@@ -74,7 +94,27 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    
+    - name: install_dependencies
+      run: |
+          sudo apt-get -y update
+          sudo apt-get -ym install libpng-dev
+          sudo apt-get -ym install libsdl2-dev
+          sudo apt-get -ym install libbz2-dev
+          sudo apt-get -ym install autoconf
+          svn checkout svn://servers.simutrans.org/simutrans simutrans
+    - name: setup
+      run: |
+        cd simutrans/trunk
+        autoconf
+        ./configure
+        cat config.default >>/dev/stderr
+    - name: make makeobj
+      run: |
+          cd simutrans/trunk/makeobj
+          make
+          mv makeobj ../../..
+          cd ../../..
+          rm -rf simutrans
 
     - name: Version the Pakset
       run: sed -i "s/copyright=.*/copyright=Pak192.Comic Severset Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
