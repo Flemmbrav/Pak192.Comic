@@ -1,6 +1,6 @@
 obj=vehicle
 name=Narrowgauge_Passenger_Train_2006_Observation_Car_Ap
-copyright=Flemmbrav
+copyright=Flemmbrav & Citarofahrer
 waytype=track
 
 intro_year=1996
@@ -24,7 +24,7 @@ emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_2006_Observation_Car.0.<
 ----
 obj=vehicle
 name=Narrowgauge_Passenger_Train_2006_Observation_Car_Wrp
-copyright=Flemmbrav
+copyright=Flemmbrav & Citarofahrer
 waytype=track
 
 intro_year=1996
