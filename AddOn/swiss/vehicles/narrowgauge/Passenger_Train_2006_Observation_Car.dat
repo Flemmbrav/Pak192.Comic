@@ -20,7 +20,7 @@ cost=1012506
 
 constraint[prev][0]=any
 
-emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_1996_Observation_Car.0.<$0>
+emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_2006_Observation_Car.0.<$0>
 ----
 obj=vehicle
 name=Narrowgauge_Passenger_Train_2006_Observation_Car_Wrp
@@ -44,4 +44,4 @@ cost=1012506
 
 constraint[prev][0]=any
 
-emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_1996_Observation_Car.1.<$0>
+emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_2006_Observation_Car.1.<$0>
