@@ -10,7 +10,7 @@ retire_month=6
 
 speed=80
 weight=9
-length=7
+length=6
 
 freight=Passagiere
 payload=40
@@ -90,7 +90,7 @@ retire_month=6
 
 speed=80
 weight=9
-length=7
+length=6
 
 freight=Passagiere
 payload=48
@@ -116,7 +116,7 @@ retire_month=6
 
 speed=80
 weight=9
-length=8
+length=7
 
 freight=Passagiere
 payload=40
