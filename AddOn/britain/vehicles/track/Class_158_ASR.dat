@@ -24,7 +24,8 @@ brake_force=29
 smoke=diesel
 sound=none
 
-can_lead_from_rear=1
+has_front_cab=1
+has_rear_cab=0
 bidirectional=1
 
 min_loading_time=25
@@ -72,7 +73,8 @@ brake_force=29
 smoke=diesel
 sound=none
 
-can_lead_from_rear=1
+has_front_cab=0
+has_rear_cab=1
 bidirectional=1
 
 min_loading_time=25
