@@ -84,6 +84,7 @@ constraint[next][1]=BR_411_1
 constraint[next][2]=Electric_1999_RABDe_500_0
 constraint[next][3]=none
 
+liverytype[0]=DB_Fernverkehr
 EmptyImage[E][0]=DB_Fernverkehr/Electric_1996_IC-T.1.0
 EmptyImage[S][0]=DB_Fernverkehr/Electric_1996_IC-T.1.1
 EmptyImage[W][0]=DB_Fernverkehr/Electric_1996_IC-T.1.2
@@ -127,6 +128,7 @@ constraint[prev][1]=BR_411_3
 constraint[next][0]=BR_411_3
 constraint[next][1]=BR_411_4
 
+liverytype[0]=DB_Fernverkehr
 EmptyImage[E][0]=DB_Fernverkehr/Electric_1996_IC-T.2.0
 EmptyImage[S][0]=DB_Fernverkehr/Electric_1996_IC-T.2.1
 EmptyImage[W][0]=DB_Fernverkehr/Electric_1996_IC-T.2.2
@@ -168,6 +170,7 @@ constraint[prev][1]=BR_411_1
 constraint[next][0]=BR_411_5
 constraint[next][1]=BR_411_2
 
+liverytype[0]=DB_Fernverkehr
 EmptyImage[E][0]=DB_Fernverkehr/Electric_1996_IC-T.3.0
 EmptyImage[S][0]=DB_Fernverkehr/Electric_1996_IC-T.3.1
 EmptyImage[W][0]=DB_Fernverkehr/Electric_1996_IC-T.3.2
@@ -211,6 +214,7 @@ constraint[prev][1]=BR_411_5
 constraint[next][0]=BR_411_2
 constraint[next][1]=BR_411_5
 
+liverytype[0]=DB_Fernverkehr
 EmptyImage[E][0]=DB_Fernverkehr/Electric_1996_IC-T.4.0
 EmptyImage[S][0]=DB_Fernverkehr/Electric_1996_IC-T.4.1
 EmptyImage[W][0]=DB_Fernverkehr/Electric_1996_IC-T.4.2
