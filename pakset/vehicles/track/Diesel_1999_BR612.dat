@@ -97,6 +97,7 @@ bidirectional=1
 
 liverytype[0]=DB_Regio
 liverytype[1]=DB_Fernverkehr
+liverytype[2]=BWegt
 
 EmptyImage[S][0]=./image/BR_612.2.3
 EmptyImage[E][0]=./image/BR_612.2.2
