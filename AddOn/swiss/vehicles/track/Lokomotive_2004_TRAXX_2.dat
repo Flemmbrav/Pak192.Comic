@@ -42,6 +42,8 @@ EmptyImage[NE]=image/Re_484.1.1
 obj=vehicle
 name=RE_484_PC
 copyright=Flemmbrav
+
+waytype=narrowgauge_track
 intro_year=2004
 intro_month=1
 retire_year=2007
@@ -82,6 +84,12 @@ obj=vehicle
 name=Re_484_Cisalpino
 copyright=Flemmbrav
 
+waytype=narrowgauge_track
+intro_year=2004
+intro_month=1
+retire_year=2007
+retire_month=1
+
 engine_type=electric
 speed=140
 power=5600
@@ -116,6 +124,8 @@ EmptyImage[NE]=image/Re_484_Cisalpino.1.1
 obj=vehicle
 name=Re_484_Cisalpino_PC
 copyright=Flemmbrav
+
+waytype=narrowgauge_track
 intro_year=2004
 intro_month=1
 retire_year=2007
