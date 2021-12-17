@@ -1,23 +1,33 @@
 obj=vehicle
 name=E03
 copyright=Flemmbrav
+
 waytype=narrowgauge_track
-engine_type=electric
 intro_year=1970
 intro_month=11
 retire_year=1980
 retire_month=1
+
+engine_type=electric
 speed=200
 power=7740
+tractive_effort=312
+
 gear=203
 weight=116
-runningcost=12015
-cost=379826723
-length=10
+axles=6
 
+smoke=none
+sound=none
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
+
+freight=None
+payload=0
+runningcost=12015
+cost=379826723
+length=10
 
 liverytype[0]=DB
 EmptyImage[S][0]=./image/BR_103.0.3
