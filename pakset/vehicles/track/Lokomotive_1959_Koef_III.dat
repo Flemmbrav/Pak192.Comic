@@ -1,21 +1,33 @@
 obj=vehicle
 name=Koef_III
 copyright=Flemmbrav
+
 waytype=narrowgauge_track
 intro_year=1959
 intro_month=3
+#retire_year=1979
+#retire_month=0
+
+engine_type=diesel
 speed=45
 power=177
+tractive_effort=83
+
 gear=102
 weight=22
-runningcost=104
-cost=4412759
-length=5
-smoke=diesel
+axles=2
 
+smoke=diesel
+sound=none
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
+
+freight=None
+payload=0
+runningcost=104
+cost=4412759
+length=5
 
 emptyimage[e]=./image/Koef_II_rot.0.2
 emptyimage[n]=./image/Koef_II_rot.0.3
