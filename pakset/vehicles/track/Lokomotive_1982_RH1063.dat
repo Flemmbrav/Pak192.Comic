@@ -1,23 +1,33 @@
 obj=vehicle
 name=Rh 1063
 copyright=PappeTeeMaster
+
 waytype=narrowgauge_track
-engine_type=electric
 intro_year=1982
 intro_month=7
+#retire_year=1992
+#retire_month=0
+
+engine_type=electric
 speed=100
 power=2000
 tractive_effort=260
+
 axles=4
 gear=100
 weight=82
-runningcost=1537
-cost=57895200
-length=10
 
+smoke=none
+sound=none
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
+
+freight=None
+payload=0
+runningcost=1537
+cost=57895200
+length=10
 
 emptyimage[e]=./image/rh1063.0.0
 emptyimage[n]=./image/rh1063.0.3
