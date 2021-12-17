@@ -1,22 +1,32 @@
 obj=vehicle
 name=vossloh_G12
 copyright=PappeTeeMaster
+
 waytype=narrowgauge_track
-engine_type=diesel
 intro_year=2008
 intro_month=2
+
+engine_type=diesel
 speed=100
 power=1200
+tractive_effort=291
+brake_force=200
+
 gear=159
 weight=80
-runningcost=721
-cost=48768480
-smoke=diesel
-length=10
+axles=4
 
+smoke=diesel
+sound=none
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
+
+freight=None
+payload=0
+runningcost=721
+cost=48768480
+length=10
 
 emptyimage[e]=./image/vossloh_G12.0.0
 emptyimage[n]=./image/vossloh_G12.1.1
