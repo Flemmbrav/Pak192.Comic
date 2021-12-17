@@ -1,23 +1,33 @@
 obj=vehicle
 name=SNL_V200
 copyright=Schnils
+
 waytype=narrowgauge_track
 intro_year=1953
 intro_month=3
 retire_year=1984
 retire_month=9
+
+engine_type=diesel
 speed=140
 power=1618
+tractive_effort=235
+
 gear=175
 weight=80
-runningcost=2188
-cost=75892180
-length=11
-smoke=diesel
+axles=4
 
+smoke=diesel
+sound=none
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
+
+freight=None
+payload=0
+runningcost=2188
+cost=75892180
+length=11
 
 emptyimage[e]=./image/v200.0.0
 emptyimage[n]=./image/v200.0.3
