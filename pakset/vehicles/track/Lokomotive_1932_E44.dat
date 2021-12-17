@@ -1,23 +1,33 @@
 obj=vehicle
 name=CRZ E44
 copyright=PappeTeeMaster
+
 waytype=narrowgauge_track
-speed=90
 intro_year=1932
 intro_month=1
 retire_year=1955
 retire_month=12
-power=1860
-gear=150
-cost=60947550
-weight=78
-RunningCost=1601
-length=9
-engine_type=electric
 
+engine_type=electric
+speed=90
+power=2200
+tractive_effort=196
+
+gear=150
+weight=78
+axles=4
+
+smoke=none
+sound=none
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
+
+freight=None
+payload=0
+cost=60947550
+RunningCost=1601
+length=9
 
 EmptyImage[N]=./image/E44.1.1
 EmptyImage[S]=./image/E44.0.1
