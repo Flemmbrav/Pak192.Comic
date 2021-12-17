@@ -1,22 +1,30 @@
 obj=vehicle
 name=Rh 1822
 copyright=PappeTeeMaster
+
 waytype=narrowgauge_track
-engine_type=electric
 intro_year=1990
 intro_month=1
 retire_year=1995
 retire_month=12
+
+engine_type=electric
 speed=140
 power=4400
-gear=100
 tractive_effort=280
-axles=4
+
+gear=100
 weight=82
+axles=4
+
+freight=None
+payload=0
 runningcost=4347
 cost=152170726
 length=10
 
+smoke=none
+sound=none
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
