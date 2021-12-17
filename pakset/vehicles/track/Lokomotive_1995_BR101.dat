@@ -1,5 +1,7 @@
 obj=vehicle
 name=BR_101
+copyright=Flemmbrav
+
 waytype=narrowgauge_track
 intro_year=1996
 intro_month=0
@@ -7,30 +9,25 @@ intro_month=0
 #retire_month=5
 
 engine_type=electric
-range=0
 power=6400
 tractive_effort=300
-gear=195
 speed=220
 
+gear=195
 weight=84
 axles=4
-axle_load=21
 
 smoke=none
 sound=none
-
-freight=None
-payload=0
-length=10
-is_tall=1
-is_tilting=0
-
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
 
-copyright=Flemmbrav
+freight=None
+payload=0
+cost=305425536
+runningcost=9866
+length=10
 
 liverytype[0]=DB_Fernverkehr
 liverytype[1]=DB_Regio
@@ -72,6 +69,3 @@ EmptyImage[SE][3]=image/Metropolitan.5.4
 EmptyImage[NE][3]=image/Metropolitan.5.5
 EmptyImage[NW][3]=image/Metropolitan.5.6
 EmptyImage[SW][3]=image/Metropolitan.5.7
-
-cost=305425536
-runningcost=9866
