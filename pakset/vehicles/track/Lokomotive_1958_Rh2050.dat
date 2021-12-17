@@ -1,26 +1,33 @@
 obj=vehicle
 name=Rh 2050
 copyright=PappeTeeMaster
+
 waytype=narrowgauge_track
-speed=100
 intro_year=1958
 intro_month=1
 retire_year=1962
 retire_month=10
+
+engine_type=diesel
+speed=100
 power=1119
 tractive_effort=178
+
 axles=4
 gear=90
 weight=75
-cost=41122802
-RunningCost=1097
-length=8
-engine_type=diesel
-smoke=diesel
 
+smoke=diesel
+sound=none
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
+
+freight=None
+payload=0
+cost=41122802
+RunningCost=1097
+length=8
 
 EmptyImage[N]=./image/RH_2050.1.1
 EmptyImage[S]=./image/RH_2050.0.1
