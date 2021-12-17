@@ -1,34 +1,31 @@
 obj=vehicle
 name=BR_146_TRAXX
+copyright=Flemmbrav
+
 waytype=narrowgauge_track
 intro_year=1999
 intro_month=1
 
 engine_type=electric
-range=0
 power=4800
 tractive_effort=300
-gear=159
 speed=160
 
-weight=85
+gear=159
+weight=84
 axles=4
-axle_load=22
 
 smoke=none
 sound=none
-
-freight=None
-payload=0
-length=9
-is_tall=1
-is_tilting=0
-
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
 
-copyright=Flemmbrav
+freight=None
+payload=0
+cost=176399942
+runningcost=5191
+length=9
 
 liverytype[0]=DB_Regio
 EmptyImage[S][0]=./image/BR_146.0.3
@@ -39,6 +36,3 @@ EmptyImage[N][0]=./image/BR_146.0.1
 EmptyImage[W][0]=./image/BR_146.0.0
 EmptyImage[NW][0]=./image/BR_146.1.2
 EmptyImage[NE][0]=./image/BR_146.1.1
-
-cost=176399942
-runningcost=5191
