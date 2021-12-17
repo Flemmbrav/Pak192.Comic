@@ -1,5 +1,7 @@
 obj=vehicle
 name=BR_128
+copyright=Flemmbrav
+
 waytype=narrowgauge_track
 intro_year=1994
 intro_month=7
@@ -7,27 +9,25 @@ retire_year=1997
 retire_month=5
 
 engine_type=electric
-range=0
 power=6400
 tractive_effort=300
-#gear=214
 speed=250
 
+#gear=214
 weight=84
 axles=4
-axle_load=21
 
-freight=None
-payload=0
-length=9
-is_tall=1
-is_tilting=0
-
+smoke=none
+sound=none
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
 
-copyright=Flemmbrav
+freight=None
+payload=0
+cost=344544794
+runningcost=11587
+length=9
 
 EmptyImage[S]=image/BR_128.0.3
 EmptyImage[E]=image/BR_128.0.2
@@ -37,6 +37,3 @@ EmptyImage[N]=image/BR_128.0.1
 EmptyImage[W]=image/BR_128.0.0
 EmptyImage[NW]=image/BR_128.1.2
 EmptyImage[NE]=image/BR_128.1.1
-
-cost=344544794
-runningcost=11587
