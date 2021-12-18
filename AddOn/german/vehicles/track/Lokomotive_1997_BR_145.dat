@@ -1,5 +1,7 @@
 obj=vehicle
 name=BR_145
+copyright=Flemmbrav
+
 waytype=narrowgauge_track
 intro_year=1997
 intro_month=1
@@ -7,29 +9,25 @@ retire_year=2000
 retire_month=1
 
 engine_type=electric
-range=0
 power=4200
 tractive_effort=300
-gear=149
 speed=140
 
+gear=149
 weight=80
 axles=4
-axle_load=20
 
 smoke=none
 sound=none
-
-freight=None
-payload=0
-length=9
-is_tall=1
-is_tilting=0
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
 
-copyright=Flemmbrav
+freight=None
+payload=0
+cost=117817321
+runningcost=2761
+length=9
 
 EmptyImage[S]=image/145.0.3
 EmptyImage[E]=image/145.0.2
@@ -40,12 +38,12 @@ EmptyImage[W]=image/145.0.0
 EmptyImage[NW]=image/145.1.2
 EmptyImage[NE]=image/145.1.1
 
-cost=117817321
-runningcost=2761
 
 ---------
 obj=vehicle
 name=BR_145_RBH
+copyright=Flemmbrav
+
 waytype=narrowgauge_track
 intro_year=1997
 intro_month=1
@@ -53,30 +51,25 @@ retire_year=2000
 retire_month=1
 
 engine_type=electric
-range=0
 power=4200
 tractive_effort=300
-gear=149
 speed=140
 
+gear=149
 weight=80
 axles=4
-axle_load=20
 
 smoke=none
 sound=none
-
-freight=None
-payload=0
-length=9
-is_tall=1
-is_tilting=0
-
-copyright=Flemmbrav
-
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
+
+freight=None
+payload=0
+cost=117817321
+runningcost=2761
+length=9
 
 EmptyImage[S]=image/145_RBH.0.3
 EmptyImage[E]=image/145_RBH.0.2
@@ -87,12 +80,12 @@ EmptyImage[W]=image/145_RBH.0.0
 EmptyImage[NW]=image/145_RBH.1.2
 EmptyImage[NE]=image/145_RBH.1.1
 
-cost=117817321
-runningcost=2761
-
 ---------
+
 obj=vehicle
 name=BR_145_zza
+copyright=Flemmbrav
+
 waytype=narrowgauge_track
 intro_year=1997
 intro_month=1
@@ -100,30 +93,25 @@ retire_year=2000
 retire_month=1
 
 engine_type=electric
-range=0
 power=4200
 tractive_effort=300
-gear=149
 speed=140
 
+gear=149
 weight=80
 axles=4
-axle_load=20
 
 smoke=none
 sound=none
-
-freight=None
-payload=0
-length=9
-is_tall=1
-is_tilting=0
-
-copyright=Flemmbrav
-
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
+
+freight=None
+payload=0
+cost=117817321
+runningcost=2761
+length=9
 
 EmptyImage[S]=image/145_zza.0.3
 EmptyImage[E]=image/145_zza.0.2
@@ -133,6 +121,3 @@ EmptyImage[N]=image/145_zza.0.1
 EmptyImage[W]=image/145_zza.0.0
 EmptyImage[NW]=image/145_zza.1.2
 EmptyImage[NE]=image/145_zza.1.1
-
-cost=117817321
-runningcost=2761
