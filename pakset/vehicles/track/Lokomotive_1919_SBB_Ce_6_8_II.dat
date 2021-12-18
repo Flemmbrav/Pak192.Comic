@@ -14,7 +14,8 @@ power=550
 tractive_effort=68
 
 gear=150
-weight=45
+weight=49
+axles=3
 
 smoke=none
 sound=none
@@ -56,7 +57,8 @@ power=550
 tractive_effort=69
 
 gear=150
-weight=45
+weight=33
+axles=2
 
 smoke=none
 sound=none
@@ -99,7 +101,8 @@ power=550
 tractive_effort=68
 
 gear=150
-weight=45
+weight=49
+axles=3
 
 smoke=none
 sound=none
