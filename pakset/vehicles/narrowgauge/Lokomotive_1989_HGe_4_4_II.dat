@@ -1,20 +1,31 @@
 obj=vehicle
 name=Narrowgauge_Lokomotive_1989_HGe_4_4_II
 copyright=Flemmbrav
-waytype=track
 
+waytype=track
 intro_year=1989
 intro_month=3
 
-speed=100
-weight=64
-length=8
 engine_type=electric
-power=1875
-gear=100
+power=1932
+speed=100
+tractive_effort=230
 
+weight=64
+gear=100
+axles=4
+
+smoke=none
+sound=none
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
+freight=None
+payload=0
 runningcost=1084
 cost=41016750
+length=8
 
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Lokomotive_1989_HGe_4_4_II.0.<$0>
 
