@@ -1,26 +1,37 @@
 obj=vehicle
 name=BR_03_10
 copyright=Flemmbrav
+
+waytype=narrowgauge_track
 intro_year=1939
 intro_month=1
 retire_year=1941
 retire_month=1
-smoke=Steam3
-cost=35865188  
-runningcost=1139 
-weight=103
+
+engine_type=steam
 speed=140
 power=1317
+tractive_effort=138
+
+weight=103
 gear=200
-length=9
-waytype=narrowgauge_track
-engine_type=steam
+axles=6
+
+smoke=Steam3
+sound=none
 has_front_cab=1
 has_rear_cab=0
 bidirectional=0
 
+freight=None
+payload=0
+cost=35865188  
+runningcost=1139 
+length=9
+
 constraint[prev][0]=none
 constraint[next][0]=BR_03_10_Tender
+
 EmptyImage[S]=./image/BR 03_10.1.1
 EmptyImage[E]=./image/BR 03_10.1.0
 EmptyImage[SE]=./image/BR 03_10.1.4
@@ -33,20 +44,30 @@ EmptyImage[NE]=./image/BR 03_10.1.7
 obj=vehicle
 name=BR_03_10_Tender
 copyright=Flemmbrav
+
+waytype=narrowgauge_track
 intro_year=1939
 intro_month=1
 retire_year=1941
 retire_month=1
-cost=0
-runningcost=00
-weight=34
+
+weight=79
 speed=140
-length=5
-waytype=narrowgauge_track
-constraint[prev][0]=BR_03_10
+axles=4
+
+smoke=none
+sound=none
 has_front_cab=0
 has_rear_cab=0
 bidirectional=0
+
+freight=None
+payload=0
+cost=0
+runningcost=00
+length=5
+
+constraint[prev][0]=BR_03_10
 
 EmptyImage[S]=./image/BR 03_10.0.1
 EmptyImage[E]=./image/BR 03_10.0.0
