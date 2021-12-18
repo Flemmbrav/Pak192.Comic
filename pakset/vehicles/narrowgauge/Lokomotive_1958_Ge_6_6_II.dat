@@ -1,22 +1,33 @@
 obj=vehicle
 name=Narrowgauge_Lokomotive_1958_Ge_6_6_II
 copyright=Gohstgamer
-waytype=track
 
+waytype=track
 intro_year=1958
 intro_month=4
 retire_year=1974
 retire_month=5
 
-speed=80
-weight=65
-length=10
 engine_type=electric
+speed=80
 power=1764
-gear=100
+tractive_effort=218
 
+weight=65
+gear=100
+axles=6
+
+smoke=none
+sound=none
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
+freight=None
+payload=0
 runningcost=900
 cost=32211460
+length=10
 
 emptyimage[s,w,se,sw,n,e,nw,ne]=image/Lokomotive_1958_Ge_6_6_II.0.<$0>
 
