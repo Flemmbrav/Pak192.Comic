@@ -1,22 +1,33 @@
 obj=vehicle
 name=Narrowgauge_Lokomotive_1921_Ge_6_6_I
 copyright=Flemmbrav
-waytype=track
 
+waytype=track
 intro_year=1921
 intro_month=6
 retire_year=1948
 retire_month=5
 
-speed=55
-weight=66
-length=10
 engine_type=electric
-power=794
-gear=100
+speed=55
+power=840
+tractive_Effort=127
 
+weight=66
+gear=100
+axles=6
+
+smoke=none
+sound=none
+has_front_cab=1
+has_rear_cab=1
+bidirectional=1
+
+freight=None
+payload=0
 runningcost=409
 cost=16773965
+length=10
 
 emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Lokomotive_1921_Ge_6_6_I.0.<$0>
 
