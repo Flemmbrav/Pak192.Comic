@@ -1,37 +1,33 @@
 obj=vehicle
 name=BR 152
-waytype=narrowgauge_track
 copyright=Flemmbrav
+
+waytype=narrowgauge_track
 intro_year=1998
 intro_month=0
 retire_year=2015
 retire_month=0
 
 engine_type=electric
-range=0
 power=6400
 tractive_effort=300
-gear=149
 speed=140
 
+gear=149
 weight=86
 axles=4
-axle_load=22
 
 smoke=none
 sound=none
-
-freight=None
-payload=0
-length=10
-is_tall=1
-is_tilting=0
-
 has_front_cab=1
 has_rear_cab=1
 bidirectional=1
 
-copyright=Flemmbrav
+freight=None
+payload=0
+cost=212970778
+runningcost=6037
+length=10
 
 EmptyImage[S]=image/152.0.3
 EmptyImage[E]=image/152.0.2
@@ -41,6 +37,3 @@ EmptyImage[N]=image/152.0.1
 EmptyImage[W]=image/152.0.0
 EmptyImage[NW]=image/152.1.2
 EmptyImage[NE]=image/152.1.1
-
-cost=212970778
-runningcost=6037
