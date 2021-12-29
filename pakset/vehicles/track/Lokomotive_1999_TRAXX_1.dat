@@ -50,12 +50,12 @@ retire_year=2005
 retire_month=2
 
 engine_type=electric
-power=4800
+power=5600
 tractive_effort=300
-speed=160
+speed=140
 
-gear=159
-weight=84
+gear=148
+weight=85
 axles=4
 
 smoke=none
