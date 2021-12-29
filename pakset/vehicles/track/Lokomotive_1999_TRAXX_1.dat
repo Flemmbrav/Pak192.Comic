@@ -40,7 +40,7 @@ EmptyImage[NE]=./image/dosto_4g_traxx_bwsp.7.1
 ---------
 
 obj=vehicle
-name=BR_185
+name=BR_185_TRAXX_freight
 copyright=Flemmbrav
 
 waytype=narrowgauge_track
