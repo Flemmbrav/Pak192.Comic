@@ -28,6 +28,7 @@ runningcost=5191
 length=9
 
 liverytype[0]=DB_Regio
+liverytype[1]=BWegt
 EmptyImage[S][0]=./DB_Regio/BR_146.0.3
 EmptyImage[E][0]=./DB_Regio/BR_146.0.2
 EmptyImage[SE][0]=./DB_Regio/BR_146.1.0
@@ -36,3 +37,13 @@ EmptyImage[N][0]=./DB_Regio/BR_146.0.1
 EmptyImage[W][0]=./DB_Regio/BR_146.0.0
 EmptyImage[NW][0]=./DB_Regio/BR_146.1.2
 EmptyImage[NE][0]=./DB_Regio/BR_146.1.1
+
+
+EmptyImage[S][1]=./BWegt/dosto_4g_traxx_bwsp.6.3
+EmptyImage[E][1]=./BWegt/dosto_4g_traxx_bwsp.6.2
+EmptyImage[SE][1]=./BWegt/dosto_4g_traxx_bwsp.7.0
+EmptyImage[SW][1]=./BWegt/dosto_4g_traxx_bwsp.7.3
+EmptyImage[N][1]=./BWegt/dosto_4g_traxx_bwsp.6.1
+EmptyImage[W][1]=./BWegt/dosto_4g_traxx_bwsp.6.0
+EmptyImage[NW][1]=./BWegt/dosto_4g_traxx_bwsp.7.2
+EmptyImage[NE][1]=./BWegt/dosto_4g_traxx_bwsp.7.1
