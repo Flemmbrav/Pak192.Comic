@@ -16,6 +16,7 @@ value=165
 speed_bonus=13
 weight_per_unit=75
 
+number_of_classes=5
 class_revenue_percent[0]=33
 class_revenue_percent[1]=66
 class_revenue_percent[2]=100

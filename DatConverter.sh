@@ -322,7 +322,7 @@ calculatepayload(){
 			local ComfortI=0
 			ComfortI=${ObjectArray[comfort[$i]]}
 			local SpaceTaken=0
-			SpaceTaken=$(( ComfortI * PayloadI * 7 / 2 ))
+			SpaceTaken=$(( ComfortI * PayloadI * 9 / 2 ))
 			echo "SpraceTaken = $SpaceTaken"
 			FreeSpace=$(( FreeSpace -  SpaceTaken))
 		done
@@ -345,8 +345,18 @@ calculatepayload(){
 				echo "Rearcap = 2500"
 			fi
 		fi
+		if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
+			FreeSpace=$(( FreeSpace - (catering_level * 750 ) ))
+			echo "Catering $((catering_level * 750 ))"
+		fi
 		echo "Result = $FreeSpace"
-
+		if [[ 0 -gt $FreeSpace ]] ;then
+			FreeSpace=0
+		fi
+		FreeSpace=$(( FreeSpace / 250 ))
+		FreeSpace=$(( FreeSpace + length + length ))
+		ObjectArray[overcrowded_capacity]=$FreeSpace
+		echo $FreeSpace
 
 
 	fi
