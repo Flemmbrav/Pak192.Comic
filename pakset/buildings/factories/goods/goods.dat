@@ -15,6 +15,12 @@ catg=0
 value=165
 speed_bonus=13
 weight_per_unit=75
+
+class_revenue_percent[0]=33
+class_revenue_percent[1]=66
+class_revenue_percent[2]=100
+class_revenue_percent[3]=150
+class_revenue_percent[4]=200
 -----------------
 obj=good
 name=Post
