@@ -1,5 +1,38 @@
 #!/bin/bash
 
+# Structure of the file:
+# - parameters for balancing
+#   - buildings
+#   - vehicles
+# - general functions that don't have a single purpose and are used quite often
+# - single use functions that run once the script starts
+#   - functions related to reading the goods from the goods file
+# - functions related to balancing
+# - functions related to writing certain objects
+# - the main function
+
+
+
+#parameters for balancing
+
+    #buildings
+
+    	#will be used in case no class proporion is given in the dat file
+   		BuildingClassProportion0=1
+   		BuildingClassProportion1=4
+   		BuildingClassProportion2=40
+   		BuildingClassProportion3=50
+   		BuildingClassProportion4=5
+
+    #vehicles
+
+    	ClassMultiplyer0=200
+    	ClassMultiplyer1=150
+    	ClassMultiplyer2=100
+    	ClassMultiplyer3=66
+    	ClassMultiplyer4=33
+
+
 #general functions that don't have a single purpose
 
 trim() {
@@ -25,6 +58,7 @@ trim() {
 }
 
 
+#single use functions that run once the script starts
 
 #functions related to reading the goods from the goods file
 
@@ -58,8 +92,8 @@ readgoodline() {
 	#reads a line and adds it to the ObjectArray
 	local Line="$1"
 	shift
-  local PosHash=`expr index "$Line" '#'`
-  local PosEq=`expr index "$Line" '='`
+	local PosHash=`expr index "$Line" '#'`
+  	local PosEq=`expr index "$Line" '='`
 
 	if [ $PosHash -gt 0 ]
 	then
@@ -177,6 +211,13 @@ getspeedbonus() {
 }
 
 
+
+
+
+
+
+
+
 getincome() {
 	#returns the income multiplied by 1.000
 	local Good=$1
@@ -211,79 +252,75 @@ getincome() {
 
 
 
-readallfiles() {
-	local directionary=$1
-	IFS='
-	'
-  for dat in $directionary ; do
-		echo "-- Performing Work At: $dat "
-		readfile $dat
-	done
-}
-
-
-readfile() {
-	#opens a file
-	#creates a new ObjectArray
-	#runs readline for each line in the file
-	local Filename=$1
-	local File=`cat $Filename | tr -d '\r'`
-
-	`rm -f calculated/$Filename`
-	declare -A ObjectArray
-	local IFS='
-'
-	for Line in $File; do
-  	PosMin=`expr index "$Line" '-'`
-		if [ $PosMin -eq 1 ]
-		then
-			writeobject $Filename
-			unset ObjectArray
-			declare -A ObjectArray
-		else 
-			readline $Line
-		fi
-	done
-	if [[ ! -z ${ObjectArray[obj]} ]] ;then
-		writeobject $Filename
-	fi
-	unset ObjectArray
-}
-
-
-readline() {
-	#reads a line and adds it to the ObjectArray
-	local Line="$1"
-	if [[ ! -z $Line ]];then
-		shift
-		local PosHash=`expr index "$Line" '#'`
-		local PosEq=`expr index "$Line" '='`
-
-		if [ $PosHash -gt 0 ]
-		then
-			Line=${Line:0:$((PosHash - 1))}
-		fi
-		if [ $PosEq -gt 0 -a ${#Line} -gt 0 ]
-		then
-			Name=${Line:0:$((PosEq - 1))}
-			Name="$(trim $Name)"
-			Name=${Name,,}
-			Value=${Line:PosEq}
-			Value="$(trim $Value)"
-			ObjectArray[$Name]=$Value
-		fi
-	fi
-}
-
-
-calculatecosts(){
+calculatepayload(){
 	local dat=$1
-	#get the income of the vehicle by 1000 times
-	local capa=${ObjectArray[overcrowded_capacity]}
-	capa=$(( capa / 3 ))
+	local length=8
+	local width=3200
+
+	StandardComfort=(200 150 100 66 33)
+
+	StandardPayloadPerLength=8
+	StandardPayloadPerLength0=3
+	StandardPayloadPerLength1=6
+	StandardPayloadPerLength2=8
+	StandardPayloadPerLength3=10
+	StandardPayloadPerLength4=12
+
+
+
+	if [[ ! -z ${ObjectArray[payload]} ]] ;then
+	#only write in the payload if it is given at all
+
+		if [[ ! -z ${ObjectArray[length]} ]] ;then
+			length=${ObjectArray[length]}
+		fi
+
+		if [[ ${ObjectArray[waytype]} == track || ${ObjectArray[waytype]} == tram_track || ${ObjectArray[is_tall]} == 0 ]] ;then
+			width=$(( $width * 2 / 3 ))
+		fi
+
+		ObjectArray[payload[0]]=0
+		ObjectArray[payload[1]]=0
+		ObjectArray[payload[2]]=${ObjectArray[payload]}
+
+	fi
+
+	for i in {0..5} ;do
+		if [[ ! -z ${ObjectArray[payload[$i]]} ]] ;then
+			echo "payload[$i]=${ObjectArray[payload[$i]]}" >> calculated/$dat
+
+			if [[ ! -z ${ObjectArray[comfort[$i]]} ]] ;then
+				echo "comfort[$i]=${ObjectArray[comfort[$i]]}" >> calculated/$dat
+			else
+				echo "comfort[$i]=${StandardComfort[$i]}" >> calculated/$dat
+			fi
+		fi
+	done
+
+
+	if [[ ! -z ${ObjectArray[overcrowded_capacity]} ]] ;then
+		echo "overcrowded_capacity=${ObjectArray[overcrowded_capacity]}" >> calculated/$dat
+	fi
+	if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
+		echo "catering_level=${ObjectArray[catering_level]}" >> calculated/$dat
+	fi
+
+}
+
+calculatevehicleincome(){
+	local dat=$1
+
+
+	local capaOC=${ObjectArray[overcrowded_capacity]}
+	
 	local capa2=${ObjectArray[payload]}
-	capa=$(( capa + capa2 ))
-	local Income="$(getincome ${ObjectArray[freight]} $capa ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
+	local payingcapa=$(( capaOC / 3 + capa2))
+
+	#echo "test"
+	local Income="$(getincome ${ObjectArray[freight]} $payingcapa ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
+	
+
+
 	#get the value of the power installed, this is essentially the income of 
 	local PowerValue=0
 	if [[ ! -z ${ObjectArray[power]} ]] ;then
@@ -298,10 +335,26 @@ calculatecosts(){
 		fi
 		PowerValue=$(( PowerValue / 1000 ))
 	fi
+	
+
+
 	#malus for passenger trains as they usually get higher average payload
 	if [[ ${ObjectArray[freight]} == "Passagiere" ]] ;then
 		Income=$(( Income / 100 * 110 ))
 	fi
+
+	echo $Income
+}
+
+
+calculatecosts(){
+	local dat=$1
+	#get the income of the vehicle by 1000 times
+
+	Income=$(calculatevehicleincome $dat )
+	#echo $Income
+	#echo "lalala"
+
 	#calculate the runningcosts
 	local Cost=$(( Income + 10 * PowerValue ))
 	local RunningCost=$(( Income + PowerValue ))
@@ -321,7 +374,7 @@ calculatecosts(){
 	#speed=$(( speed - 10 ))
 	local FixCost=$(( RunningCost * speed * 1000 / 700 ))
 	RunningCost=$(( RunningCost / 10 ))
-	if [[ $ForcingNewValues == 1 ]];then
+	if [[ $ForcingNewValues == 1 || $ForcingNewPrices == 1 ]];then
 		echo "max_loading_time=$LoadingTime" >> calculated/$dat
 		echo "min_loading_time=$MinLoadingTime" >> calculated/$dat
 		echo "runningcost=$RunningCost" >> calculated/$dat
@@ -433,6 +486,19 @@ writeimages() {
 		fi
 	done
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 writeroadsign() {
 	local dat=$1
 
@@ -447,6 +513,34 @@ writeroadsign() {
 		fi
 
 	done
+}
+
+writebuilding() {
+	local dat=$1
+	local HasClassProportion=0
+
+	if [[ ObjectArray[type]=="res" || ObjectArray[type]=="com" ||ObjectArray[type]=="ind" ]];then
+		for Key in "${!ObjectArray[@]}"; do
+			if [[ $Key =~ "class_proportion" ]];then
+				HasClassProportion=1
+			fi
+		done
+	#echo "has class proportion: $HasClassProportion"
+		if [[ HasClassProportion -eq 0 ]];then
+			for Key in "${!ObjectArray[@]}"; do
+				echo "$Key=${ObjectArray[$Key]}" >> calculated/$dat
+			done
+
+			echo "class_proportion[0]=$BuildingClassProportion0" >> calculated/$dat
+			echo "class_proportion[1]=$BuildingClassProportion1" >> calculated/$dat
+			echo "class_proportion[2]=$BuildingClassProportion2" >> calculated/$dat
+			echo "class_proportion[3]=$BuildingClassProportion3" >> calculated/$dat
+			echo "class_proportion[4]=$BuildingClassProportion4" >> calculated/$dat
+		else
+			copyobject
+		fi
+		#copyobject
+	fi
 }
 
 
@@ -497,10 +591,9 @@ writevehicle() {
 		Weigth=$(( 2 * Weigth ))
 		echo "weight=$Weigth" >> calculated/$dat
 	fi
-	#only write in the length if it is given
-	if [[ ! -z ${ObjectArray[length]} ]] ;then
-		echo "length=${ObjectArray[length]}" >> calculated/$dat
-	fi
+	#length has to be given. This will return an error if not, but that's intended
+	echo "length=${ObjectArray[length]}" >> calculated/$dat
+
 	#only write in the engine type if it is given
 	if [[ ! -z ${ObjectArray[engine_type]} ]] ;then
 		echo "engine_type=${ObjectArray[engine_type]}" >> calculated/$dat
@@ -509,20 +602,15 @@ writevehicle() {
 	if [[ ! -z ${ObjectArray[power]} ]] ;then
 		echo "power=${ObjectArray[power]}" >> calculated/$dat
 	fi
-	#only write in the gear if it is given
-	#if [[ ! -z ${ObjectArray[gear]} ]] ;then
-	#	echo "gear=${ObjectArray[gear]}" >> calculated/$dat
-	#fi
 	echo  >> calculated/$dat
 #Freigth
 	#only write in the freigth if it is given
 	if [[ ! -z ${ObjectArray[freight]} ]] ;then
 		echo "freight=${ObjectArray[freight]}" >> calculated/$dat
 	fi
-	#only write in the payload if it is given
-	if [[ ! -z ${ObjectArray[payload]} ]] ;then
-		echo "payload=${ObjectArray[payload]}" >> calculated/$dat
-	fi
+
+	#calculate the payload and stuff
+	calculatepayload $dat
 	#calculate the costs and loading time
 	calculatecosts $dat
 	echo  >> calculated/$dat
@@ -537,6 +625,8 @@ writevehicle() {
 	if [[ ! -z ${ObjectArray[sound]} ]] ;then
 		echo "sound=${ObjectArray[sound]}" >> calculated/$dat
 	fi
+
+
 	#return images
 	writeimages
 
@@ -598,15 +688,6 @@ writevehicle() {
 	if [[ ! -z ${ObjectArray[tractive_effort]} ]] ;then
 		echo "tractive_effort=${ObjectArray[tractive_effort]}" >> calculated/$dat
 	fi
-	if [[ ! -z ${ObjectArray[comfort]} ]] ;then
-		echo "comfort=${ObjectArray[comfort]}" >> calculated/$dat
-	fi
-	if [[ ! -z ${ObjectArray[overcrowded_capacity]} ]] ;then
-		echo "overcrowded_capacity=${ObjectArray[overcrowded_capacity]}" >> calculated/$dat
-	fi
-	if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
-		echo "catering_level=${ObjectArray[catering_level]}" >> calculated/$dat
-	fi
 	if [[ ! -z ${ObjectArray[mixed_load_prohibition]} ]] ;then
 		echo "mixed_load_prohibition=${ObjectArray[mixed_load_prohibition]}" >> calculated/$dat
 	fi
@@ -626,6 +707,17 @@ writevehicle() {
 		echo "way_constraint_prohibitive=${ObjectArray[way_constraint_prohibitive]}" >> calculated/$dat
 	fi
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 copyobject() {
@@ -654,25 +746,37 @@ writeobject() {
 			writevehicle $FileName
 			echo >> calculated/$1
 			echo "---" >> calculated/$1
-		else
-			if [[ ${ObjectArray[obj]} == "roadsign" || ${ObjectArray[obj]} == "Roadsign" ]];	then
-				echo "--- Writing Object: ${ObjectArray[name]} "
-				local calculateddir=calculated/$(dirname "$dat")/
-				local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
-				# Create folder for *.dat or delete all old dats if folder already exists
-				if [ ! -d $calculateddir ]; then
-					mkdir -p $calculateddir
-				fi
-				if [ ! -d $calculatedextendeddir ]; then
-					mkdir -p $calculatedextendeddir
-				fi
-				writeroadsign $FileName
-				echo >> calculated/$1
-				echo "---" >> calculated/$1
-				
-			else
-				copyobject
+		elif [[ ${ObjectArray[obj]} == "roadsign" || ${ObjectArray[obj]} == "Roadsign" ]];	then
+			echo "--- Writing Object: ${ObjectArray[name]} "
+			local calculateddir=calculated/$(dirname "$dat")/
+			local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
+			# Create folder for *.dat or delete all old dats if folder already exists
+			if [ ! -d $calculateddir ]; then
+				mkdir -p $calculateddir
 			fi
+			if [ ! -d $calculatedextendeddir ]; then
+				mkdir -p $calculatedextendeddir
+			fi
+			writeroadsign $FileName
+			echo >> calculated/$1
+			echo "---" >> calculated/$1
+		elif [[ ${ObjectArray[obj]} == "building" || ${ObjectArray[obj]} == "Building" ]];	then
+			#`rm -f calculated/$Filename`
+			echo "--- Writing Object: ${ObjectArray[name]}"
+			local calculateddir=calculated/$(dirname "$dat")/
+			local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
+			# Create folder for *.dat or delete all old dats if folder already exists
+			if [ ! -d $calculateddir ]; then
+				mkdir -p $calculateddir
+			fi
+			if [ ! -d $calculatedextendeddir ]; then
+				mkdir -p $calculatedextendeddir
+			fi
+			writebuilding $FileName	
+			echo >> calculated/$1
+			echo "---" >> calculated/$1
+		else
+			copyobject
 		fi
 	else
 		copyobject
@@ -680,14 +784,107 @@ writeobject() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+readallfiles() {
+	local directionary=$1
+	IFS='
+	'
+  for dat in $directionary ; do
+		echo "-- Performing Work At: $dat "
+		readfile $dat
+	done
+}
+
+
+readfile() {
+	#opens a file
+	#creates a new ObjectArray
+	#runs readline for each line in the file
+	local Filename=$1
+	local File=`cat $Filename | tr -d '\r'`
+
+	`rm -f calculated/$Filename`
+	declare -A ObjectArray
+	local IFS='
+'
+	for Line in $File; do
+  	PosMin=`expr index "$Line" '-'`
+		if [ $PosMin -eq 1 ]
+		then
+			writeobject $Filename
+			unset ObjectArray
+			declare -A ObjectArray
+		else 
+			readline $Line
+		fi
+	done
+	if [[ ! -z ${ObjectArray[obj]} ]] ;then
+		writeobject $Filename
+	fi
+	unset ObjectArray
+}
+
+
+readline() {
+	#reads a line and adds it to the ObjectArray
+	local Line="$1"
+	if [[ ! -z $Line ]];then
+		shift
+		local PosHash=`expr index "$Line" '#'`
+		local PosEq=`expr index "$Line" '='`
+
+		if [ $PosHash -gt 0 ]
+		then
+			Line=${Line:0:$((PosHash - 1))}
+		fi
+		if [ $PosEq -gt 0 -a ${#Line} -gt 0 ]
+		then
+			Name=${Line:0:$((PosEq - 1))}
+			Name="$(trim $Name)"
+			Name=${Name,,}
+			Value=${Line:PosEq}
+			Value="$(trim $Value)"
+			ObjectArray[$Name]=$Value
+		fi
+	fi
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 echohelp() {
 	echo "DatConverter Beta Version
-Copies the pakset-directionary to a new location and dds not given values to dat files
+Copies the pakset-directionary to a new location and adds not given values to dat files
 Features:
 !    constraint-groups: use exclamation marks in front of constraints to refer to a group
 Commands:
 -h   displays the help and stopp the program after that
--f   forcing new prices on vehicles
+-f   forcing new values on vehicles
+-p   only forcing new prices on vehicles
 -a   converting the whole directionary
 -v   converting all vehicles"
 }
@@ -698,6 +895,7 @@ Commands:
 	echo "==== Dat Converter ===="
 	#reading the arguments
 	ForcingNewValues=0
+	ForcingNewPrices=0
 	ReadAll=0
 	AllVehicles=0
 	Help=0
@@ -705,6 +903,10 @@ Commands:
 	for arg in "$@"; do
 		if [[ $arg == "-f" ]];then
 			ForcingNewValues=1
+			echo "- -f Forcing New Values"
+		fi
+		if [[ $arg == "-p" ]];then
+			ForcingNewPrices=1
 			echo "- -f Forcing New Prices"
 		fi
 		if [[ $arg == "-a" ]];then
@@ -768,12 +970,12 @@ Commands:
 			else	
 				echo "- Edit Costoum .dat Files "
 
-				#readfile "pakset/vehicles/track/Tram_Combino_MS.dat"
+				readfile "pakset/buildings/city/ind_1tropic_1x2.dat"
 				#readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
 				#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
 
 				#readallfiles 'calculated/AddOn/britain/infrastruktur/*.dat'
-				#readallfiles 'calculated/AddOn/belgian/**/*.dat'
+				readallfiles 'AddOn/belgian/**/*.dat'
 				#readallfiles 'calculated/AddOn/britain/vehicles/**/*.dat'
 				#readallfiles 'calculated/AddOn/czech/vehicles/**/*.dat'
 				#readallfiles 'calculated/AddOn/german/vehicles/**/*.dat'
