@@ -280,8 +280,12 @@ calculatepayload(){
 				echo "comfort[$i]=${ObjectArray[comfort[$i]]}" >> calculated/$dat
 			else
 				if [[ 0 -eq ${ObjectArray[payload[$i]]} ]] ;then
-				echo "comfort[$i]=0" >> calculated/$dat
-				ObjectArray[comfort[$i]]=0
+					echo "comfort[$i]=0" >> calculated/$dat
+					ObjectArray[comfort[$i]]=0
+				else
+					echo "comfort[$i]=${StandardComfort[$i]}" >> calculated/$dat
+					ObjectArray[comfort[$i]]=${StandardComfort[$i]}
+				fi
 			fi
 		fi
 	done
