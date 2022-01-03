@@ -383,7 +383,7 @@ calculatecosts(){
 		
 	for i in {0..4} ;do
 		if [[ ! -z ${ObjectArray[payload[$i]]} ]] ;then
-			payingcapa=$(( ObjectArray[payload[$i]] * OPriceForClasses[$i] ))
+			payingcapa=$(( ObjectArray[payload[$i]] * PriceForClasses[$i] ))
 		fi
 	done
 	payingcapa=$(( payingcapa / 100 ))
@@ -398,6 +398,7 @@ calculatecosts(){
 	fi
 
 	#echo "test"
+	#echo $payingcapa
 	local Income="$(getincome ${ObjectArray[freight]} $payingcapa ${ObjectArray[waytype]} ${ObjectArray[intro_year]} $payingspeed)"
 	
 
