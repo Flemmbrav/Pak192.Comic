@@ -386,11 +386,16 @@ calculatevehicleincome(){
 	payingcapa=$(( payingcapa / 100 ))
 
 	if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
-		payingcapa=$(( payingcapa +  catering_level * 15 ))
+		payingcapa=$(( payingcapa + catering_level * 15 ))
+	fi
+	local payingspeed=${ObjectArray[speed]}
+
+	if [[ ! -z ${ObjectArray[is_tilting]} ]] ;then
+		payingspeed=$(( payingspeed + ObjectArray[is_tilting] * 5 ))
 	fi
 
 	#echo "test"
-	local Income="$(getincome ${ObjectArray[freight]} $payingcapa ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
+	local Income="$(getincome ${ObjectArray[freight]} $payingcapa ${ObjectArray[waytype]} ${ObjectArray[intro_year]} $payingspeed)"
 	
 
 
