@@ -375,10 +375,15 @@ calculatevehicleincome(){
 
 
 	local capaOC=${ObjectArray[overcrowded_capacity]}
-	
-	local capa2=${ObjectArray[payload]}
-	local payingcapa=$(( capaOC / 3 + capa2))
 
+	local payingcapa=$(( capaOC * 25 ))
+		
+	for i in {0..4} ;do
+		if [[ ! -z ${ObjectArray[payload[$i]]} ]] ;then
+			payingcapa=$(( ObjectArray[payload[$i]] * OPriceForClasses[$i] ))
+		fi
+	done
+	payingcapa=$(( payingcapa / 100 ))
 	#echo "test"
 	local Income="$(getincome ${ObjectArray[freight]} $payingcapa ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
 	
@@ -399,6 +404,7 @@ calculatevehicleincome(){
 		PowerValue=$(( PowerValue / 1000 ))
 	fi
 	
+	Income=$(( Income + PowerValue ))
 
 
 	#malus for passenger trains as they usually get higher average payload
