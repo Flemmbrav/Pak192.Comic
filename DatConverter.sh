@@ -370,8 +370,11 @@ calculatepayload(){
 
 }
 
-calculatevehicleincome(){
+
+calculatecosts(){
 	local dat=$1
+	#get the income of the vehicle by 1000 times
+
 
 
 	local capaOC=${ObjectArray[overcrowded_capacity]}
@@ -414,7 +417,6 @@ calculatevehicleincome(){
 		PowerValue=$(( PowerValue / 1000 ))
 	fi
 	
-	Income=$(( Income + PowerValue ))
 
 
 	#malus for passenger trains as they usually get higher average payload
@@ -422,15 +424,6 @@ calculatevehicleincome(){
 		Income=$(( Income / 100 * 110 ))
 	fi
 
-	echo $Income
-}
-
-
-calculatecosts(){
-	local dat=$1
-	#get the income of the vehicle by 1000 times
-
-	Income=$(calculatevehicleincome $dat )
 	#echo $Income
 	#echo "lalala"
 
@@ -440,7 +433,7 @@ calculatecosts(){
 	RunningCost=$(( RunningCost / 4000 ))
 	local speed=${ObjectArray[speed]}
 	if [[ ${ObjectArray[is_tilting]} == 1 ]] ;then
-		speed=$(( speed + 20 ))
+		speed=$(( speed + 10 ))
 	fi
 	local LoadingTime=$(( Income / 300 ))
 	LoadingTime=$(( LoadingTime * speed / 270 + LoadingTime / 2))
