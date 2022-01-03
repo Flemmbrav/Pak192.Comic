@@ -263,105 +263,110 @@ calculatepayload(){
 	local length=8
 	local width=3200
 
+	if [[ ! -z ${ObjectArray[freight]} ]] ;then
+	if [[ ${ObjectArray[freight]} -eq "Passagiere" || ${ObjectArray[freight]} -eq "passagiere" ]] ;then
 
-	if [[ ! -z ${ObjectArray[payload]} ]] ;then
-	#only write in the payload if it is given at all
-		ObjectArray[payload[0]]=0
-		ObjectArray[payload[1]]=0
-		ObjectArray[payload[2]]=${ObjectArray[payload]}
-	fi
 
-	
-	for i in {0..4} ;do
-		if [[ ! -z ${ObjectArray[payload[$i]]} ]] ;then
-			echo "payload[$i]=${ObjectArray[payload[$i]]}" >> calculated/$dat
 
-			if [[ ! -z ${ObjectArray[comfort[$i]]} ]] ;then
-				echo "comfort[$i]=${ObjectArray[comfort[$i]]}" >> calculated/$dat
-			else
-				if [[ 0 -eq ${ObjectArray[payload[$i]]} ]] ;then
-					echo "comfort[$i]=0" >> calculated/$dat
-					ObjectArray[comfort[$i]]=0
+		if [[ ! -z ${ObjectArray[payload]} ]] ;then
+		#only write in the payload if it is given at all
+			ObjectArray[payload[0]]=0
+			ObjectArray[payload[1]]=0
+			ObjectArray[payload[2]]=${ObjectArray[payload]}
+		fi
+
+		
+		for i in {0..4} ;do
+			if [[ ! -z ${ObjectArray[payload[$i]]} ]] ;then
+				echo "payload[$i]=${ObjectArray[payload[$i]]}" >> calculated/$dat
+
+				if [[ ! -z ${ObjectArray[comfort[$i]]} ]] ;then
+					echo "comfort[$i]=${ObjectArray[comfort[$i]]}" >> calculated/$dat
 				else
-					echo "comfort[$i]=${StandardComfort[$i]}" >> calculated/$dat
-					ObjectArray[comfort[$i]]=${StandardComfort[$i]}
+					if [[ 0 -eq ${ObjectArray[payload[$i]]} ]] ;then
+						echo "comfort[$i]=0" >> calculated/$dat
+						ObjectArray[comfort[$i]]=0
+					else
+						echo "comfort[$i]=${StandardComfort[$i]}" >> calculated/$dat
+						ObjectArray[comfort[$i]]=${StandardComfort[$i]}
+					fi
 				fi
 			fi
-		fi
-	done
-
-
-	
-	if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
-		echo "catering_level=${ObjectArray[catering_level]}" >> calculated/$dat
-	fi
-
-
-
-	if [[ -z ${ObjectArray[overcrowded_capacity]} ]] ;then
-
-		if [[ ! -z ${ObjectArray[payload[0]]} ]] ;then
-
-			if [[ ! -z ${ObjectArray[length]} ]] ;then
-				length=${ObjectArray[length]}
-			else
-				length=0
-			fi
-
-			if [[ ${ObjectArray[waytype]} == track || ${ObjectArray[waytype]} == tram_track || ${ObjectArray[is_tall]} == 0 ]] ;then
-				width=$(( $width * 2 / 3 ))
-			fi
-		fi
-
-		# 3200*8=25.600*mm*tile/2
-		local FreeSpace=$(( width * length ))
-		echo "Budget = $FreeSpace"
-		for i in {0..4} ;do
-			local PayloadI=0
-			PayloadI=${ObjectArray[payload[$i]]}
-			local ComfortI=0
-			ComfortI=${ObjectArray[comfort[$i]]}
-			local SpaceTaken=0
-			SpaceTaken=$(( ComfortI * PayloadI * 9 / 2 ))
-			echo "SpraceTaken = $SpaceTaken"
-			FreeSpace=$(( FreeSpace -  SpaceTaken))
 		done
-		if [[ ! -z ${ObjectArray[power]} ]] ;then
-			local PowerI=${ObjectArray[power]}
-			PowerI=$(( PowerI * 2 ))
-			echo "PowerI= $PowerI"
-			FreeSpace=$(( FreeSpace - PowerI ))
-		fi
 
-		if [[ ! -z ${ObjectArray[has_front_cab]} ]] ;then
-			if [[ ${ObjectArray[has_front_cab]} -eq 1 ]] ;then
-				FreeSpace=$(( FreeSpace - 2500 ))
-				echo "Frontcap = 2500"
-			fi
-		fi
-		if [[ ! -z ${ObjectArray[has_rear_cab]} ]] ;then
-			if [[ ${ObjectArray[has_rear_cab]} -eq 1 ]] ;then
-				FreeSpace=$(( FreeSpace - 2500 ))
-				echo "Rearcap = 2500"
-			fi
-		fi
+
+		
 		if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
-			FreeSpace=$(( FreeSpace - (catering_level * 750 ) ))
-			echo "Catering $((catering_level * 750 ))"
+			echo "catering_level=${ObjectArray[catering_level]}" >> calculated/$dat
 		fi
-		echo "Result = $FreeSpace"
-		if [[ 0 -gt $FreeSpace ]] ;then
-			FreeSpace=0
-		fi
-		FreeSpace=$(( FreeSpace / 250 ))
-		FreeSpace=$(( FreeSpace + length + length ))
-		ObjectArray[overcrowded_capacity]=$FreeSpace
-		echo $FreeSpace
 
 
+
+		if [[ -z ${ObjectArray[overcrowded_capacity]} ]] ;then
+
+			if [[ ! -z ${ObjectArray[payload[0]]} ]] ;then
+
+				if [[ ! -z ${ObjectArray[length]} ]] ;then
+					length=${ObjectArray[length]}
+				else
+					length=0
+				fi
+
+				if [[ ${ObjectArray[waytype]} == track || ${ObjectArray[waytype]} == tram_track || ${ObjectArray[is_tall]} == 0 ]] ;then
+					width=$(( $width * 2 / 3 ))
+				fi
+			fi
+
+			# 3200*8=25.600*mm*tile/2
+			local FreeSpace=$(( width * length ))
+			#echo "Budget = $FreeSpace"
+			for i in {0..4} ;do
+				local PayloadI=0
+				PayloadI=${ObjectArray[payload[$i]]}
+				local ComfortI=0
+				ComfortI=${ObjectArray[comfort[$i]]}
+				local SpaceTaken=0
+				SpaceTaken=$(( ComfortI * PayloadI * 9 / 2 ))
+			#	echo "SpraceTaken = $SpaceTaken"
+				FreeSpace=$(( FreeSpace -  SpaceTaken))
+			done
+			if [[ ! -z ${ObjectArray[power]} ]] ;then
+				local PowerI=${ObjectArray[power]}
+				PowerI=$(( PowerI * 4 ))
+			#	echo "PowerI= $PowerI"
+				FreeSpace=$(( FreeSpace - PowerI ))
+			fi
+
+			if [[ ! -z ${ObjectArray[has_front_cab]} ]] ;then
+				if [[ ${ObjectArray[has_front_cab]} -eq 1 ]] ;then
+					FreeSpace=$(( FreeSpace - 2500 ))
+			#		echo "Frontcap = 2500"
+				fi
+			fi
+			if [[ ! -z ${ObjectArray[has_rear_cab]} ]] ;then
+				if [[ ${ObjectArray[has_rear_cab]} -eq 1 ]] ;then
+					FreeSpace=$(( FreeSpace - 2500 ))
+			#		echo "Rearcap = 2500"
+				fi
+			fi
+			if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
+				FreeSpace=$(( FreeSpace - (${ObjectArray[catering_level]} * 1000 ) ))
+			#	echo "Catering $((${ObjectArray[catering_level]} * 1000 ))"
+			fi
+			#echo "Result = $FreeSpace"
+			if [[ 0 -gt $FreeSpace ]] ;then
+				FreeSpace=0
+			fi
+			FreeSpace=$(( FreeSpace / 250 ))
+			FreeSpace=$(( FreeSpace + length + length ))
+			ObjectArray[overcrowded_capacity]=$FreeSpace
+			#echo $FreeSpace
+
+
+		fi
+		echo "overcrowded_capacity=${ObjectArray[overcrowded_capacity]}" >> calculated/$dat
 	fi
-	echo "overcrowded_capacity=${ObjectArray[overcrowded_capacity]}" >> calculated/$dat
-
+	fi
 
 }
 
