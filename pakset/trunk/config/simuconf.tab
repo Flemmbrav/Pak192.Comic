@@ -931,3 +931,10 @@ retire_month[21] = 1
 livery[21][0] = MET
 intro_year[21][0] = 1996
 intro_month[21][0] = 1
+
+livery_scheme[22] = RBH
+retire_year[22] = 2100
+retire_month[22] = 1
+livery[22][0] = RBH
+intro_year[22][0] = 1996
+intro_month[22][0] = 1
