@@ -404,7 +404,7 @@ calculatevehicleincome(){
 	if [[ ! -z ${ObjectArray[power]} ]] ;then
 		local EffectivePower=${ObjectArray[power]}
 		EffectivePower=$(( EffectivePower * 100 ))
-		PowerValue="$(getincome "None" $EffectivePower ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
+		PowerValue="$(getincome "None" $EffectivePower ${ObjectArray[waytype]} ${ObjectArray[intro_year]} $payingspeed)"
 		
 		if [[ ! -z ${ObjectArray[engine_type]} ]] ;then
 			if [[ ${ObjectArray[engine_type]} == "electric" ]] ;then
