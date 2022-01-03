@@ -26,11 +26,17 @@
 
     #vehicles
 
-    	ClassMultiplyer0=200
-    	ClassMultiplyer1=150
-    	ClassMultiplyer2=100
-    	ClassMultiplyer3=66
-    	ClassMultiplyer4=33
+		StandardComfort=(33 66 100 150 200)
+		PriceForClasses=(33 66 100 150 200)
+
+		StandardPayloadPerLength=8
+		StandardPayloadPerLength0=3
+		StandardPayloadPerLength1=6
+		StandardPayloadPerLength2=8
+		StandardPayloadPerLength3=10
+		StandardPayloadPerLength4=12
+
+
 
 
 #general functions that don't have a single purpose
@@ -256,16 +262,6 @@ calculatepayload(){
 	local dat=$1
 	local length=8
 	local width=3200
-
-	StandardComfort=(200 150 100 66 33)
-
-	StandardPayloadPerLength=8
-	StandardPayloadPerLength0=3
-	StandardPayloadPerLength1=6
-	StandardPayloadPerLength2=8
-	StandardPayloadPerLength3=10
-	StandardPayloadPerLength4=12
-
 
 
 	if [[ ! -z ${ObjectArray[payload]} ]] ;then
