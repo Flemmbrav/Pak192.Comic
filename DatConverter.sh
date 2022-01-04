@@ -36,7 +36,7 @@
 		StandardPayloadPerLength3=10
 		StandardPayloadPerLength4=12
 
-
+		FreeSpace=0
 
 
 #general functions that don't have a single purpose
@@ -301,9 +301,6 @@ calculatepayload(){
 		fi
 
 
-
-		if [[ -z ${ObjectArray[overcrowded_capacity]} ]] ;then
-
 			if [[ ! -z ${ObjectArray[payload[0]]} ]] ;then
 
 				if [[ ! -z ${ObjectArray[length]} ]] ;then
@@ -317,64 +314,65 @@ calculatepayload(){
 				fi
 			fi
 
-			# 3200*8=25.600*mm*tile/2
-			local FreeSpace=$(( width * length ))
-			#echo "Budget = $FreeSpace"
-			for i in {0..4} ;do
-				local PayloadI=0
-				PayloadI=${ObjectArray[payload[$i]]}
-				local ComfortI=0
-				ComfortI=${ObjectArray[comfort[$i]]}
-				local SpaceTaken=0
-				SpaceTaken=$(( ComfortI * PayloadI * 9 / 2 ))
-			#	echo "SpraceTaken = $SpaceTaken"
-				FreeSpace=$(( FreeSpace -  SpaceTaken))
-			done
-			if [[ ! -z ${ObjectArray[power]} ]] ;then
-				local PowerI=${ObjectArray[power]}
-				PowerI=$(( PowerI * 4 ))
-			#	echo "PowerI= $PowerI"
-				FreeSpace=$(( FreeSpace - PowerI ))
-			fi
+		# 3200*8=25.600*mm*tile/2
+		FreeSpace=$(( width * length ))
+		#echo "Budget = $FreeSpace"
+		for i in {0..4} ;do
+			local PayloadI=0
+			PayloadI=${ObjectArray[payload[$i]]}
+			local ComfortI=0
+			ComfortI=${ObjectArray[comfort[$i]]}
+			local SpaceTaken=0
+			SpaceTaken=$(( ComfortI * PayloadI * 9 / 2 ))
+		#	echo "SpraceTaken = $SpaceTaken"
+			FreeSpace=$(( FreeSpace -  SpaceTaken))
+		done
+		if [[ ! -z ${ObjectArray[power]} ]] ;then
+			local PowerI=${ObjectArray[power]}
+			PowerI=$(( PowerI * 4 ))
+		#	echo "PowerI= $PowerI"
+			FreeSpace=$(( FreeSpace - PowerI ))
+		fi
 
-			if [[ ! -z ${ObjectArray[has_front_cab]} ]] ;then
-				if [[ ${ObjectArray[has_front_cab]} -eq 1 ]] ;then
-					FreeSpace=$(( FreeSpace - 2500 ))
-			#		echo "Frontcap = 2500"
-				fi
+		if [[ ! -z ${ObjectArray[has_front_cab]} ]] ;then
+			if [[ ${ObjectArray[has_front_cab]} -eq 1 ]] ;then
+				FreeSpace=$(( FreeSpace - 2500 ))
+		#		echo "Frontcap = 2500"
 			fi
-			if [[ ! -z ${ObjectArray[has_rear_cab]} ]] ;then
-				if [[ ${ObjectArray[has_rear_cab]} -eq 1 ]] ;then
-					FreeSpace=$(( FreeSpace - 2500 ))
-			#		echo "Rearcap = 2500"
-				fi
+		fi
+		if [[ ! -z ${ObjectArray[has_rear_cab]} ]] ;then
+			if [[ ${ObjectArray[has_rear_cab]} -eq 1 ]] ;then
+				FreeSpace=$(( FreeSpace - 2500 ))
+		#		echo "Rearcap = 2500"
 			fi
-			if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
-				FreeSpace=$(( FreeSpace - (${ObjectArray[catering_level]} * 1000 ) ))
-			#	echo "Catering $((${ObjectArray[catering_level]} * 1000 ))"
-			fi
-			#echo "Result = $FreeSpace"
-			if [[ 0 -gt $FreeSpace ]] ;then
-				FreeSpace=0
-			fi
-			FreeSpace=$(( FreeSpace / 250 ))
-			FreeSpace=$(( FreeSpace + length + length ))
+		fi
+		if [[ ! -z ${ObjectArray[catering_level]} ]] ;then
+			FreeSpace=$(( FreeSpace - (${ObjectArray[catering_level]} * 1000 ) ))
+		#	echo "Catering $((${ObjectArray[catering_level]} * 1000 ))"
+		fi
+		#echo "Result = $FreeSpace"
+		if [[ 0 -gt $FreeSpace ]] ;then
+			FreeSpace=0
+		fi
+		FreeSpace=$(( FreeSpace / 250 ))
+		FreeSpace=$(( FreeSpace + length + length ))
 
-			local payingcapa=0
-				
-			for i in {0..4} ;do
-				if [[ ! -z ${ObjectArray[payload[$i]]} ]] ;then
-					payingcapa=$(( ObjectArray[payload[$i]] + payingcapa ))
-				fi
-			done
-
-			if [[ payingcapa -eq 0 ]] ;then
-				ObjectArray[overcrowded_capacity]=0
-			else
-				ObjectArray[overcrowded_capacity]=$FreeSpace
+		local payingcapa=0
+			
+		for i in {0..4} ;do
+			if [[ ! -z ${ObjectArray[payload[$i]]} ]] ;then
+				payingcapa=$(( ObjectArray[payload[$i]] + payingcapa ))
 			fi
-			#echo $FreeSpace
+		done
 
+		if [[ payingcapa -eq 0 ]] ;then
+			ObjectArray[overcrowded_capacity]=0
+		fi
+
+		if [[ -z ${ObjectArray[overcrowded_capacity]} ]] ;then
+
+			ObjectArray[overcrowded_capacity]=$FreeSpace
+		
 
 		fi
 		echo "overcrowded_capacity=${ObjectArray[overcrowded_capacity]}" >> calculated/$dat
@@ -452,6 +450,10 @@ calculatecosts(){
 	local LoadingTime=$(( Income / 300 ))
 	LoadingTime=$(( LoadingTime * speed / 270 + LoadingTime / 2))
 	LoadingTime=$(( LoadingTime / 150 ))
+	
+	if [[ ${ObjectArray[overcrowded_capacity]} -gt $FreeSpace ]] ;then
+		LoadingTime=$(( LoadingTime + ObjectArray[overcrowded_capacity] - FreeSpace ))
+	fi
 
 	local MinLoadingTime=$(( 10 + LoadingTime / 10 ))
 	LoadingTime=$(( 10 + LoadingTime ))
