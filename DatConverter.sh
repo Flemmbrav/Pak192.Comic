@@ -359,7 +359,20 @@ calculatepayload(){
 			fi
 			FreeSpace=$(( FreeSpace / 250 ))
 			FreeSpace=$(( FreeSpace + length + length ))
-			ObjectArray[overcrowded_capacity]=$FreeSpace
+
+			local payingcapa=0
+				
+			for i in {0..4} ;do
+				if [[ ! -z ${ObjectArray[payload[$i]]} ]] ;then
+					payingcapa=$(( ObjectArray[payload[$i]] + payingcapa ))
+				fi
+			done
+
+			if [[ payingcapa -eq 0 ]] ;then
+				ObjectArray[overcrowded_capacity]=0
+			else
+				ObjectArray[overcrowded_capacity]=$FreeSpace
+			fi
 			#echo $FreeSpace
 
 
@@ -383,7 +396,7 @@ calculatecosts(){
 		
 	for i in {0..4} ;do
 		if [[ ! -z ${ObjectArray[payload[$i]]} ]] ;then
-			payingcapa=$(( ObjectArray[payload[$i]] * PriceForClasses[$i] ))
+			payingcapa=$(( ObjectArray[payload[$i]] * PriceForClasses[$i] + payingcapa ))
 		fi
 	done
 	payingcapa=$(( payingcapa / 100 ))
