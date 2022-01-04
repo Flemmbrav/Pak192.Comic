@@ -1,3 +1,5 @@
+# not a TRAXX yet
+
 obj=vehicle
 name=BR_145
 copyright=Flemmbrav
@@ -5,7 +7,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 intro_year=1997
 intro_month=1
-retire_year=2000
+retire_year=2001
 retire_month=1
 
 engine_type=electric

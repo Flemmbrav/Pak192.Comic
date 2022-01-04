@@ -1,10 +1,14 @@
+# TRAXX
+
 obj=vehicle
 name=BR_146_TRAXX
 copyright=Flemmbrav
 
 waytype=narrowgauge_track
-intro_year=1999
+intro_year=2001
 intro_month=1
+retire_year=2005
+retire_month=1
 
 engine_type=electric
 power=4800
