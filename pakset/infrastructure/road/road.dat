@@ -91,9 +91,9 @@ name=industry_road
 copyright=Leartin
 intro_month=1
 intro_year=1945
-cost=500
-maintenance=110
-topspeed=50
+cost=900
+maintenance=250
+topspeed=70
 icon=> ./images/way/road-icon-cursor.7.0
 cursor=./images/way/road-icon-cursor.7.1
 
