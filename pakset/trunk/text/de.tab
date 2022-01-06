@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 4.10 2020                           #
+#                            Date Created: 6.01 2022                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -1372,6 +1372,8 @@ cement
 Zement
 chemicals
 Chemikalien
+circuit_boards
+Leiterplatten
 coal
 Kohle
 coca_leaves
@@ -1398,6 +1400,8 @@ flour
 Mehl
 fuel
 Benzin
+garments
+Kleider
 glass
 Glas
 gold
@@ -1432,6 +1436,8 @@ malt
 Malz
 meat
 Fleisch
+microchips
+Mikrochips
 milk
 Milch
 naphtha
@@ -1734,6 +1740,8 @@ CATEGORY_09
 Leichtes Schüttgut
 CATEGORY_10
 Rollengut
+CATEGORY_11
+Container
 Narrowgauge
 Normalspur
 narrowgauge vehicle
@@ -2865,23 +2873,23 @@ Elektrolokomotive Re 450 "DPZ"
 DPZ_5
 Elektrolokomotive Re 450 "DPZ"
 DPZ_g_1
-Doppelstocksteuerwagen "DPZ"
+Doppelstockwagen "DPZ" | Steuerwagen
 DPZ_g_2
-Doppelstocksteuerwagen "DPZ"
+Doppelstockwagen "DPZ" | Steuerwagen
 DPZ_g_3
-Doppelstockwagen "DPZ"
+Doppelstockwagen "DPZ" | Mittelwagen
 DPZ_g_4
 Elektrolokomotive Re 450 "DPZ"
 DPZ_g_5
 Elektrolokomotive Re 450 "DPZ"
 DPZ_NDW
-Doppelstockwagen "NDW"
+Doppelstockwagen "NDW" | Niederflurwagen
 DPZ_r_1
-Doppelstocksteuerwagen "DPZ"
+Doppelstockwagen "DPZ" | Steuerwagen
 DPZ_r_2
-Doppelstocksteuerwagen "DPZ"
+Doppelstockwagen "DPZ" | Steuerwagen
 DPZ_r_3
-Doppelstockwagen "DPZ"
+Doppelstockwagen "DPZ" | Mittelwagen
 DPZ_r_4
 Elektrolokomotive Re 450 "DPZ"
 DPZ_r_5
@@ -4462,6 +4470,10 @@ Narrowgauge_Car_2005_Post
 Postwagen
 Narrowgauge_Car_2005_Wood
 Holzwagen
+Narrowgauge_Car_Container_1980
+Containerwagen
+Narrowgauge_Car_Piece_goods_1900_2
+Stückgutwagen
 Narrowgauge_Electric_1917_HGe_2_2
 Posttriebwagen Typ HGe 2/2
 Narrowgauge_Electric_1941_BCFhe_2_4
@@ -4538,6 +4550,8 @@ Narrowgauge_Passenger_Train_1941_BCFt_1
 Steuerwagen Typ BCfT
 Narrowgauge_Passenger_Train_1947
 Personenwagen mit Mitteleinstieg
+Narrowgauge_Passenger_Train_1955
+Personenwagen mit mitteleinstieg
 Narrowgauge_Passenger_Train_1962_EW_I
 Personenwagen "Einheitswagen I"
 Narrowgauge_Passenger_Train_1972_1
@@ -4562,6 +4576,10 @@ Narrowgauge_Passenger_Train_1997_GTW_5
 Triebwagen Typ GTW | Steuerwagen
 Narrowgauge_Passenger_Train_2006
 Niederflurpersonenwagen
+Narrowgauge_Passenger_Train_2006_Observation_Car_Ap
+Panoramawagen
+Narrowgauge_Passenger_Train_2006_Observation_Car_Wrp
+Panoramaspeisewagen
 Narrowgauge_Passenger_Train_2012_a
 Elektrotriebwagen "Adler" ABeh 150
 Narrowgauge_Passenger_Train_2012_b
@@ -4811,7 +4829,7 @@ Kanalschiff
 MS_Stavangar
 MS Stavanger
 RMS_BlackDragon
-RMS Back Dragon
+RMS Black Dragon
 #___________________________________way - air___________________________________
 #___________________________________way - air___________________________________
 rw_marked
