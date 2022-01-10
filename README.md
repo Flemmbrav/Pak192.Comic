@@ -32,13 +32,16 @@ Pakset and theme for Simutrans
 2. Switch to Pak192.Comic directory
 3. Get yourself a new makeobj and put it in this folder.
 3. Start compile with preconfigured compiler :
-	1. To compile under windows, run the **`COMPILE.ps1`** via PowerShell.
-	2. To compile under unix, run the **`COMPILE.sh`**.
-4.Copy the folder named **compiled** in your usual Simutrans game folder and rename it to **Pak192.Comic**.
+	1. ~~To compile under windows, run the **`COMPILE.ps1`** via PowerShell.~~
+	2. To compile under unix:
+        - run the **`DatConverter.sh`**.
+        - run the **`COMPILE_Converted.sh`**.
+4. Copy the folder named **compiled_converted** in your usual Simutrans game folder and rename it to **Pak192.Comic**.
 5. Start Simutrans the way you did before, and you'll see a menu asking you for a pakset to run. Select **Pak192.Comic** to run this pakset.
 6. Happy playing.
 
-The same progress has to be done to compile the addons or the theme as well. Just use the **`COMPILE_ADDONS.sh`** or the **`COMPILE_THEME.sh`** instead.
+The same progress has to be done to compile the addons or the theme as well. Just use the **`COMPILE_Converted_AddOns.sh`** or the **`COMPILE_THEME.sh`** instead.
+You can also compile a pakset with already included addons by running the **`COMPILE_Converted_Serverset.sh`**.instead of **`COMPILE_Converted.sh`**..
 
 ## Bug reports
 
