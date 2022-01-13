@@ -8,13 +8,13 @@ intro_month=6
 #retire_year=1975
 #retire_month=5
 
-speed=80
+speed=90
 weight=20
 length=8
 
 
 freight=Passagiere
-payload=46
+payload=55
 loading_time=650
 runningcost=65
 cost=710094

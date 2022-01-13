@@ -56,6 +56,8 @@ mail_demand=10
 electricity_boost=0
 passenger_boost=1000
 mail_boost=0
+enables_pax=1
+enables_post=1
 #-----
 needs_ground=1
 Dims=3,3,1
