@@ -505,7 +505,6 @@ Freightimage[se]=./image/W50_Landwirt_SZ.1.7
 Freightimage[sw]=./image/W50_Landwirt_SZ.1.5
 Freightimage[w]=./image/W50_Landwirt_SZ.1.1
 ---
----
 obj=vehicle
 name=W50_Container_SZ
 copyright=PappeTeeMaster
