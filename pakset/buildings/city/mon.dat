@@ -2,8 +2,8 @@
 #                                PAK192.COMIC                                  #
 ################################################################################
 #                         !!!! Rules   -   Regeln !!!!                         #
-#  Die Leveleinteilung von Denkmälern sollte, nach der Anzahl der              #
-#  Passagiere/Monat ausgerichtet werden. Hierfür exestieren keine Richtwerte!  #
+#  Die Leveleinteilung von DenkmÃ¤lern sollte, nach der Anzahl der              #
+#  Passagiere/Monat ausgerichtet werden. HierfÃ¼r exestieren keine Richtwerte!  #
 #  Sollte sie einem Grafiker/Entwickler gewidmet sein, so wird seine Anzahl    #
 #  der erstellten Objekte * 2 als level verwendet.                             #
 #                                                                              #
@@ -23,7 +23,7 @@
 
 obj=building
 name=mon_ptm1
-#Monument für PTM, Grafiker, Leitung P192C
+#Monument fÃ¼r PTM, Grafiker, Leitung P192C
 copyright=PappeTeeMaster & Leartin
 intro_year=1850
 type=mon
@@ -34,7 +34,7 @@ BackImage[0][0][0][0][0][0-1]=images/mon/mon_ptm1.<$0>.0
 ---
 obj=building
 name=mon_werniman
-#Monument für Werniman für die Bereitstellung eines Repository für P192C
+#Monument fÃ¼r Werniman fÃ¼r die Bereitstellung eines Repository fÃ¼r P192C
 copyright=Leartin
 intro_year=1850
 type=mon
@@ -46,7 +46,7 @@ BackImage[0][0][0][0][0][0-1]=images/mon/mon_werniman.<$0>.0
 ---
 obj=building
 name=mon_cruzer
-#Monument für Cruzer, Pakgründer, Leitung P192C
+#Monument fÃ¼r Cruzer, PakgrÃ¼nder, Leitung P192C
 copyright=Flemmbrav
 intro_year=1835
 type=mon
@@ -58,7 +58,7 @@ BackImage[0][0][0][0][0][1]=images/mon/Cruzer_Denkmal.1.0
 ---
 obj=building
 name=mon_brose
-#Monument für Alexander Brose, Grafiker mit Gebäudeschwerpunkt
+#Monument fÃ¼r Alexander Brose, Grafiker mit GebÃ¤udeschwerpunkt
 copyright=Flemmbrav & Leartin
 intro_year=1970
 type=mon
@@ -79,7 +79,7 @@ frontImage[0][0][0][0][0-9][0-1]=images/mon/alexdenkmal_frontimg.0.<$0>
 ---
 obj=building
 name=mon_flemm
-#Monument für Flemmbrav, Grafiker für Schienenfahrzeuge und -Infrastruktur
+#Monument fÃ¼r Flemmbrav, Grafiker fÃ¼r Schienenfahrzeuge und -Infrastruktur
 copyright=Flemmbrav & Leartin
 intro_year=1936
 type=mon
@@ -118,7 +118,7 @@ frontImage[0][0][0][0][23][0-1]=images/mon/mon_flemm.2.5
 ---
 obj=building
 name=mon_leartin
-#Monument für Leartin, Grafiker mit Gebäudeschwerpunkt und Freizeitwahnsinniger
+#Monument fÃ¼r Leartin, Grafiker mit GebÃ¤udeschwerpunkt und Freizeitwahnsinniger
 copyright=Flemmbrav
 intro_year=1970
 type=mon
@@ -189,7 +189,7 @@ BackImage[0][0][0][0][0][0-1]=images/mon/mon_incredible.<$0>.0
 #  These Monuments are tributes to other games, books or movies. While smaller #
 #  references can hide in any regular object (eg. logos on office towers),     #
 #  these are much more explicit and should in turn be somewhat representative  #
-#  of the franchise in question.											   #
+#  of the franchise in question.		                      									   #
 ################################################################################
 
 
@@ -252,7 +252,7 @@ FrontImage[0][0][0][0][0][0-1]=images/mon/mon_creeper.1.2
 ---
 obj=building
 name=mon_pokeball
-#Franchise: PoKéMoN
+#Franchise: PoKÃ©MoN
 copyright=Leartin
 #climates=tropic
 intro_year=1996
@@ -263,12 +263,26 @@ level=30
 build_time=12000
 BackImage[0][0][0][0][0][0-1]=images/mon/mon_pokeball.<$0>.0
 ---
+obj=building
+name=mon_tetris
+#Franchise: Tetris
+copyright=Leartin
+#climates=tropic
+intro_year=1989
+intro_month=4
+type=mon
+needs_ground=0
+level=50
+build_time=12000
+BackImage[0][0][0][0][0][0-1]=images/mon/mon_tetris.<$0>.0
+FrontImage[0][0][0][0][0][0-1]=images/mon/mon_tetris.2.0
+---
 
 ################################################################################
 #                           MONUMENTS TO BE UNIQUE                             #
 #  There is nothing these monuments represent, they have no deeper meaning to  #
 #  them. But perhaps due to their design or for other reasons, they should not #
-#  appear in the game too often. 											   #
+#  appear in the game too often. 								                      			   #
 ################################################################################
 
 obj=building
