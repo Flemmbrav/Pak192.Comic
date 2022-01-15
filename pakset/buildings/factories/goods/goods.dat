@@ -388,9 +388,17 @@ name=icecream
 catg=4
 metric=pallets
 weight_per_unit=100
-value=290
-speed_bonus=5
+value=220
+speed_bonus=8
 ------------------
+obj=good
+name=cheese
+catg=4
+metric=pallets
+weight_per_unit=100
+value=290
+speed_bonus=1
+-----------------
 # cat 5: prisoners ############################################
 -----------------
 #obj=good

@@ -24,6 +24,10 @@ InputGood[3]=honey
 InputCapacity[3]=300
 InputFactor[3]=20
 InputSupplier[3]=0
+InputGood[4]=cheese
+InputCapacity[4]=15
+InputFactor[4]=20
+InputSupplier[4]=0
 #-----
 Productivity=330
 Range=30
@@ -128,6 +132,10 @@ InputGood[7]=coka_drink
 InputCapacity[7]=150
 InputFactor[7]=20
 InputSupplier[7]=0
+InputGood[8]=cheese
+InputCapacity[8]=30
+InputFactor[8]=20
+InputSupplier[8]=0
 #-----
 Productivity=330
 Range=30
