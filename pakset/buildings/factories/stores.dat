@@ -26,7 +26,7 @@ InputFactor[3]=20
 InputSupplier[3]=0
 InputGood[4]=cheese
 InputCapacity[4]=15
-InputFactor[4]=20
+InputFactor[4]=2
 InputSupplier[4]=0
 #-----
 Productivity=330
@@ -134,7 +134,7 @@ InputFactor[7]=20
 InputSupplier[7]=0
 InputGood[8]=cheese
 InputCapacity[8]=30
-InputFactor[8]=20
+InputFactor[8]=2
 InputSupplier[8]=0
 #-----
 Productivity=330
