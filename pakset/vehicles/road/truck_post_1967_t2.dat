@@ -1,0 +1,27 @@
+obj=vehicle
+name=road_truck_post_1967_t2
+copyright=Alex. Brose & Sojo
+waytype=road
+---
+intro_year=1967
+intro_month=5
+#retire_year=1979
+#retire_month=11
+#
+runningcost=83
+cost=1375194
+weight=2
+speed=100
+payload=180
+length=6
+loading_time=660
+#
+engine_type=diesel
+power=50
+gear=50
+#
+constraint[next][0]=none
+constraint[prev][0]=none
+emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/truck_post_1967_t2.0.<$0>
+freight=Post
+---

@@ -89,6 +89,15 @@ image[s,w,e,n,ne,sw,nw,se]=./citycar/detroitelectric.5.<$0>
 distributionweight=6
 -----
 obj=citycar
+name=belchfire01
+copyright=Leartin
+intro_year=1934
+#retire_year=
+speed=40
+image[s,w,e,n,ne,sw,nw,se]=./citycar/belchfire_runabout.0.<$0>
+distributionweight=4
+-----
+obj=citycar
 name=citycar00
 copyright=PappeTeeMaster
 intro_year=1967

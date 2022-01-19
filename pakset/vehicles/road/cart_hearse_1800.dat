@@ -1,0 +1,27 @@
+obj=vehicle
+name=road_cart_hearse_1800
+copyright=Leartin, Cruzer
+waytype=road
+#
+intro_year=1800
+intro_month=1
+#retire_year=1950
+#retire_month=11
+#
+runningcost=26
+cost=348100
+weight=1
+speed=25
+payload=1
+length=6
+loading_time=260
+sound=funeral_march.wav
+#
+constraint[next][0]=none
+constraint[prev][0]=road_draft_1800_horse1
+constraint[prev][1]=road_draft_1800_horse2
+constraint[prev][2]=road_draft_1800_horse3
+constraint[prev][3]=road_draft_1800_horse4
+freight=deceased
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/cart_hearse_1800.0.<$0>
+---

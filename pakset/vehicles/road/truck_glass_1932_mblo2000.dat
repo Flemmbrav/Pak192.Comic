@@ -1,0 +1,57 @@
+obj=vehicle
+name=road_truck_glass_1932_mblo2000
+copyright=Alex. Brose & PappeTeeMaster
+waytype=road
+#
+#intro Vorbild 1932 - hier vorerst auf 1930 (Zwecks geschlossener Timeline)
+intro_year=1930
+intro_month=1
+retire_year=1940
+retire_month=11
+#
+runningcost=204
+cost=4068970
+weight=2
+speed=65
+payload=7
+length=6
+loading_time=1401
+#
+engine_type=diesel
+power=40
+gear=250
+#
+constraint[next][0]=road_trailer_glass_1932_mblo2000
+constraint[next][1]=none
+constraint[prev][0]=none
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_glass_1932_mblo2000.0.<$0>
+freight=glass
+freightimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_glass_1932_mblo2000.1.<$0>
+---
+obj=vehicle
+name=road_trailer_glass_1932_mblo2000
+copyright=Alex. Brose & PappeTeeMaster
+waytype=road
+#
+#intro Vorbild 1932 - hier vorerst auf 1930 (Zwecks geschlossener Timeline)
+intro_year=1930
+intro_month=1
+retire_year=1940
+retire_month=11
+#
+runningcost=200
+cost=2201100
+weight=2
+speed=65
+payload=10
+length=6
+loading_time=2001
+#
+engine_type=diesel
+#
+constraint[next][0]=none
+constraint[prev][0]=road_truck_glass_1932_mblo2000
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_glass_1932_mblo2000.2.<$0>
+freight=glass
+freightimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_glass_1932_mblo2000.3.<$0>
+---
