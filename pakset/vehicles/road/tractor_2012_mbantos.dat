@@ -1,0 +1,23 @@
+obj=vehicle
+#name=MB_Antos
+name=road_tractor_2012_mbantos
+copyright=PappeTeeMaster
+waytype=road
+#
+intro_year=2012
+intro_month=1
+#
+runningcost=367
+cost=14296500
+weight=7
+speed=80
+length=3
+#
+engine_type=diesel
+power=375
+# Auch hier gibt es vom Hersteller ein breites Motorenprogramm.
+# Möglich bis maximal 460kW.
+gear=150
+#
+constraint[prev][0]=none
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/tractor_2012_mbantos.0.2

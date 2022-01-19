@@ -1,0 +1,26 @@
+obj=vehicle
+name=road_cart_police_1800
+copyright=Leartin, Cruzer
+waytype=road
+#
+intro_year=1800
+intro_month=1
+retire_year=1932
+retire_month=11
+#
+runningcost=26
+cost=348100
+weight=1
+speed=25
+payload=6
+length=6
+loading_time=260
+#
+constraint[next][0]=road_truck_police_1800_horseback
+constraint[prev][0]=horse1
+constraint[prev][1]=horse2
+constraint[prev][2]=horse3
+constraint[prev][3]=horse4
+emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/cart_police_1800.0.<$0>
+freight=suspects
+---

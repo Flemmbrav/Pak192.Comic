@@ -1,0 +1,25 @@
+obj=vehicle
+name=road_truck_ambulance_1967_vwt2
+copyright=Alex. Brose
+waytype=road
+#
+intro_year=1967
+intro_month=5
+#
+runningcost=26
+cost=348100
+weight=1
+speed=100
+payload=1
+length=6
+sound=ambulance.wav
+#
+engine_type=diesel
+power=50
+gear=50
+#
+constraint[next][0]=none
+constraint[prev][0]=none
+emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/truck_ambulance_1967_vwt2.0.<$0>
+freight=patients
+---

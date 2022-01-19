@@ -6,31 +6,23 @@
 	cattle (Rinder)
 	milk (Milch)
 	cars (Autos)
-	glass (Glas)*
+	glass (Glas)
 	patients (Patienten)
 	deceased (Verstoreben)
 	*cement (Zement)
 1= piece good(Stückgut)
 	flour (Mehl)
-	car_parts (Autoteile)
-	berries (Beeren)
 	juice (Saft)
-	coka_drink (Cola)
 	textiles (Kleidung)
-	fiber (Textilfaser)
-	toys (Spielzeug)
-	vine (Wein)
-	beer (Bier)
-	rum (Rum)
+	vine (Wein)***
+	beer (Bier)***
+	rum (Rum)***
 	furniture (Möbel)
 	honey (Honig)
 	wax (Wachs)**
 	comics (Comics)
 	paint (Farbe)
 	sausages (Würste)
-	ironmongery (Kleinteile)
-	lightbulbs (Glühbirnen)
-	electronics (Elektrogeräte)
 2=bulk_good (Schüttgut)
 	coal (Kohle)
 	ore (Erz)
@@ -51,6 +43,7 @@
 	dairy (Milchprodukte)
 	meat (Fleisch)
 	icecream (Speiseeis)
+	cheese (Käse)
 5=prisoners (Gefangene)
 	suspects (Verdächtige)
 	convicts (Verurteilte)
@@ -71,12 +64,25 @@
 	apples (Äpfel)
 	hop (Hopfen)
 	coka_leaves (Colablätter)
+	potatoes* (Kartoffeln)
 10=rolled_goods
 	yarn (Garn)
 	fabric (Stoff)
-	carpet** (Teppich)
+	carpet (Teppich)
 	paper (Papier)
 	cable (Kabel)
+11=container
+	car_parts (Autoteile)
+	berries (Beeren)
+	coka_drink (Cola)
+	fiber (Textilfaser)
+	toys (Spielzeug)
+	ironmongery (Kleinteile)
+	lightbulbs (Glühbirnen)
+	electronics (Elektrogeräte)
+	circuit_boards
+	microchips
+	garments
 
 
 
