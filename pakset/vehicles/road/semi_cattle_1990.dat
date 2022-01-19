@@ -17,4 +17,4 @@ loading_time=6918
 constraint[next][0]=none
 EmptyImage[S,W,E,N,NE,SW,NW,SE]=./image/semi_cattle_1990.0.<$0>
 freight=cattle
-freightimage[S,W,E,N,NE,SW,NW,SE]=./image/semi_cattle_1990.1.<$0>
+---
