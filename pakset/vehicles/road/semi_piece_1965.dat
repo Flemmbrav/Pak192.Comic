@@ -17,6 +17,7 @@ length=6
 loading_time=5350
 #
 constraint[next][0]=none
+constraint[prev][0]=any
 EmptyImage[S,W,E,N,NE,SW,NW,SE]=./image/semi_piece_1965.0.<$0>
 freight=paint
 freightimagetype[0]=generic

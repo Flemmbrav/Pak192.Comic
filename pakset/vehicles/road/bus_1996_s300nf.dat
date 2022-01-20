@@ -23,7 +23,7 @@ smoke=Diesel_small
 #
 constraint[next][0]=none
 constraint[prev][0]=none
-emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1996_s300nf.png.0.<$0>
+emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1996_s300nf.0.<$0>
 freight=Passagiere
 ---
 obj=vehicle
@@ -51,7 +51,7 @@ smoke=Diesel_small
 #
 constraint[next][0]=none
 constraint[prev][0]=none
-emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1996_s300nf.png.1.<$0>
+emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1996_s300nf.1.<$0>
 freight=Passagiere
 ---
 

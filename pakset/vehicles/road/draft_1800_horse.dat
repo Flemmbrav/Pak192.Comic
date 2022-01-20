@@ -103,7 +103,7 @@ constraint[next][8]=road_cart_police_1800
 constraint[next][9]=road_cart_hearse_1800
 constraint[next][10]=road_cart_ambulance_1800
 constraint[prev][0]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/draft_1800_horse.3.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/draft_1800_horse.2.<$0>
 ---
 obj=vehicle
 name=road_draft_1800_horse4
@@ -140,5 +140,5 @@ constraint[next][10]=road_cart_ambulance_1800
 constraint[next][11]=road_draft_1800_horse4
 constraint[prev][0]=road_draft_1800_horse4
 constraint[prev][1]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/draft_1800_horse.1.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/draft_1800_horse.3.<$0>
 ---
