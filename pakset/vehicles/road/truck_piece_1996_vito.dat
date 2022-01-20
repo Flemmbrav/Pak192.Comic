@@ -37,4 +37,4 @@ freightimagetype[9]=comics
 freightimagetype[10]=beer
 freightimagetype[11]=vine
 freightimagetype[12]=rum
-freightimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_piece_1996_vito.<$0>.<$1>
+freightimage[0-12][S,W,E,N,NE,SW,NW,SE]=./image/truck_piece_1996_vito.<$0>.<$1>
