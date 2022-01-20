@@ -2,7 +2,7 @@ obj=vehicle
 name=road_truck_post_1967_t2
 copyright=Alex. Brose & Sojo
 waytype=road
----
+#
 intro_year=1967
 intro_month=5
 #retire_year=1979
