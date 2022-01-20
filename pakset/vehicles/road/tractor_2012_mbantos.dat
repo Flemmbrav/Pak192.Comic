@@ -20,4 +20,4 @@ power=375
 gear=150
 #
 constraint[prev][0]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/tractor_2012_mbantos.0.2
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/tractor_2012_mbantos.0.<$0>

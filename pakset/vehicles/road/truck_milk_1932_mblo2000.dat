@@ -25,9 +25,9 @@ gear=250
 constraint[next][0]=road_trailer_milk_1932_mblo2000
 constraint[next][1]=none
 constraint[prev][0]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_milk_1932_mblo2000.0.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_milk_1932_mblo2000.0.<$0>
 freight=milk
-freightimage[S,W,E,N,NE,SW,NW,SE]./image/truck_milk_1932_mblo2000.1.<$0>
+freightimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_milk_1932_mblo2000.1.<$0>
 ---
 obj=vehicle
 name=road_trailer_milk_1932_mblo2000
@@ -52,7 +52,7 @@ engine_type=diesel
 #
 constraint[next][0]=none
 constraint[prev][0]=road_truck_milk_1932_mblo2000
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_milk_1932_mblo2000.0.<$0+8>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_milk_1932_mblo2000.0.<$0+8>
 freight=milk
-freightimage[S,W,E,N,NE,SW,NW,SE]./image/truck_milk_1932_mblo2000.1.<$0+8>
+freightimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_milk_1932_mblo2000.1.<$0+8>
 ---

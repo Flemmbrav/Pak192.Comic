@@ -22,7 +22,7 @@ power=210
 constraint[prev][0]=none
 constraint[next][0]=road_trailer_piece_1995_mb814
 constraint[next][1]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_piece_1995_mb814.0.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_piece_1995_mb814.0.<$0>
 freight=juice
 freightimagetype[0]=generic
 freightimagetype[1]=flour
@@ -56,7 +56,7 @@ loading_time=1687
 #
 constraint[prev][0]=road_truck_piece_1995_mb814
 constraint[next][0]=None
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_piece_1995_mb814.0.<$0+8>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_piece_1995_mb814.0.<$0+8>
 freight=juice
 freightimagetype[0]=generic
 freightimagetype[1]=flour

@@ -23,7 +23,7 @@ constraint[prev][0]=none
 constraint[next][0]=road_trailer_post_1995_mb814
 constraint[next][1]=none
 freight=Post
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_post_1995_mb814.0.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_post_1995_mb814.0.<$0>
 ---
 obj=vehicle
 name=road_trailer_post_1995_mb814
@@ -46,4 +46,4 @@ loading_time=2192
 constraint[prev][0]=road_truck_post_1995_mb814
 constraint[next][0]=None
 freight=Post
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_post_1995_mb814.0.<$0+8>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_post_1995_mb814.0.<$0+8>

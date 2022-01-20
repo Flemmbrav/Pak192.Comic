@@ -24,7 +24,7 @@ smoke=Diesel_small
 constraint[next][0]=none
 constraint[prev][0]=none
 freight=Passagiere
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/bus_1972_ikarus.0.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1972_ikarus.0.<$0>
 ---
 obj=vehicle
 name=road_bus_1972_ikarus260t
@@ -52,7 +52,7 @@ gear=50
 constraint[next][0]=none
 constraint[prev][0]=none
 freight=Passagiere
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/bus_1972_ikarus.1.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1972_ikarus.1.<$0>
 ---
 obj=vehicle
 name=road_bus_1972_ikarus280
@@ -80,7 +80,7 @@ smoke=Diesel_small
 constraint[next][0]=road_bus_1972_ikarus280back
 constraint[prev][0]=none
 freight=Passagiere
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/bus_1972_ikarus.2.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1972_ikarus.2.<$0>
 ---
 obj=vehicle
 name=road_bus_1972_ikarus280back
@@ -107,7 +107,7 @@ gear=50
 constraint[next][0]=none
 constraint[prev][0]=road_bus_1972_ikarus280
 freight=Passagiere
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/bus_1972_ikarus.3.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1972_ikarus.3.<$0>
 ---
 obj=vehicle
 name=road_bus_1972_ikarus280t
@@ -134,7 +134,7 @@ gear=50
 #
 constraint[next][0]=road_bus_1972_ikarus280tback
 constraint[prev][0]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/bus_1972_ikarus.2.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1972_ikarus.2.<$0>
 freight=Passagiere
 ---
 obj=vehicle
@@ -162,7 +162,7 @@ gear=50
 constraint[next][0]=none
 constraint[prev][0]=road_bus_1972_ikarus280t
 freight=Passagiere
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/bus_1972_ikarus.4.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1972_ikarus.4.<$0>
 ---
 obj=vehicle
 name=road_bus_1972_ikarus293
@@ -190,7 +190,7 @@ smoke=Diesel_small
 constraint[next][0]=road_bus_1972_ikarus293center
 constraint[prev][0]=none
 freight=Passagiere
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/bus_1972_ikarus.5.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1972_ikarus.5.<$0>
 ---
 obj=vehicle
 name=road_bus_1972_ikarus293center
@@ -213,7 +213,7 @@ loading_time=1500
 constraint[next][0]=road_bus_1972_ikarus293back
 constraint[prev][0]=road_bus_1972_ikarus293
 freight=Passagiere
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/bus_1972_ikarus.6.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1972_ikarus.6.<$0>
 -----
 obj=vehicle
 name=road_bus_1972_ikarus293back
@@ -235,5 +235,5 @@ loading_time=1500
 constraint[next][0]=none
 constraint[prev][0]=road_bus_1972_ikarus293center
 freight=Passagiere
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/bus_1972_ikarus.7.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1972_ikarus.7.<$0>
 ---

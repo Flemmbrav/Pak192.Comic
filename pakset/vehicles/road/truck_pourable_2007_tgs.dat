@@ -29,7 +29,7 @@ freightimagetype[0]=grain
 freightimagetype[1]=malt
 freightimagetype[2]=sugar
 freightimagetype[3]=coffee
-freightimage[0-3][S,W,E,N,NE,SW,NW,SE]=./image/truck_pourable_2007_tgs.<$0>.<$1>
+freightimage[0-3][S,W,E,N,NE,SW,NW,SE]=./image/truck_pourable_2007_tgs.<$0+1>.<$1>
 ---
 obj=vehicle
 name=road_trailer_pourable_2007_tgs
@@ -57,5 +57,5 @@ freightimagetype[0]=grain
 freightimagetype[1]=malt
 freightimagetype[2]=sugar
 freightimagetype[3]=coffee
-freightimage[0-3][S,W,E,N,NE,SW,NW,SE]=./image/truck_pourable_2007_tgs.<$0>.<$1+8>
+freightimage[0-3][S,W,E,N,NE,SW,NW,SE]=./image/truck_pourable_2007_tgs.<$0+1>.<$1+8>
 ---

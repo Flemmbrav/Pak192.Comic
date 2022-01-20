@@ -21,7 +21,7 @@ gear=50
 constraint[next][0]=road_trailer_piece_1994
 constraint[next][1]=none
 constraint[prev][0]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_piece_1994.0.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_piece_1994.0.<$0>
 freight=juice
 -----
 obj=vehicle
@@ -42,6 +42,6 @@ loading_time=4680
 #
 constraint[next][0]=none
 constraint[prev][0]=road_truck_piece_1994
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_piece_1994.1.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_piece_1994.1.<$0>
 freight=juice
 -----

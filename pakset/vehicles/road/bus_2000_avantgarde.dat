@@ -22,6 +22,6 @@ gear=45
 #
 constraint[next][0]=none
 constraint[prev][0]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/bus_2000_avantgarde.0.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_2000_avantgarde.0.<$0>
 freight=Passagiere
 -----

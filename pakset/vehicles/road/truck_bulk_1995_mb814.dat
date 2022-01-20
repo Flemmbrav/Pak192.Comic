@@ -22,7 +22,7 @@ power=210
 constraint[prev][0]=none
 constraint[next][0]=road_trailer_bulk_1995_mb814
 constraint[next][1]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_bulk_1995_mb814.0.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_bulk_1995_mb814.0.<$0>
 freight=coal
 freightimagetype[0]=coal
 freightimagetype[1]=ore
@@ -53,7 +53,7 @@ loading_time=1137
 #
 constraint[prev][0]=road_truck_bulk_1995_mb814
 constraint[next][0]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_bulk_1995_mb814.0.<$0+8>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_bulk_1995_mb814.0.<$0+8>
 freight=coal
 freightimagetype[0]=coal
 freightimagetype[1]=ore

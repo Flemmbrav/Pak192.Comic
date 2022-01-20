@@ -24,7 +24,7 @@ gear=250
 constraint[next][0]=road_trailer_oil_1932_mblo2000
 constraint[next][1]=none
 constraint[prev][0]=none
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_oil_1932_mblo2000.0.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_oil_1932_mblo2000.0.<$0>
 freight=oil
 freightimagetype[0]=oil
 freightimagetype[1]=naphtha
@@ -32,7 +32,7 @@ freightimagetype[2]=fuel
 freightimagetype[3]=heavy_oil
 freightimagetype[4]=solvent
 freightimagetype[5]=ink
-Freightimage[0-5][S,W,E,N,NE,SW,NW,SE]./image/truck_oil_1932_mblo2000.<$0+1>.<$1>
+Freightimage[0-5][S,W,E,N,NE,SW,NW,SE]=./image/truck_oil_1932_mblo2000.<$0+1>.<$1>
 ---
 obj=vehicle
 name=road_trailer_oil_1932_mblo2000
@@ -57,7 +57,7 @@ engine_type=diesel
 #
 constraint[next][0]=none
 constraint[prev][0]=road_truck_oil_1932_mblo2000
-emptyimage[S,W,E,N,NE,SW,NW,SE]./image/truck_oil_1932_mblo2000.0.<$0+8>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_oil_1932_mblo2000.0.<$0+8>
 freight=oil
 freightimagetype[0]=oil
 freightimagetype[1]=naphtha
@@ -65,5 +65,5 @@ freightimagetype[2]=fuel
 freightimagetype[3]=heavy_oil
 freightimagetype[4]=solvent
 freightimagetype[5]=ink
-Freightimage[0-5][S,W,E,N,NE,SW,NW,SE]./image/truck_oil_1932_mblo2000.<$0+1>.<$1+8>
+Freightimage[0-5][S,W,E,N,NE,SW,NW,SE]=./image/truck_oil_1932_mblo2000.<$0+1>.<$1+8>
 ---
