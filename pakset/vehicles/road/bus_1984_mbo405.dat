@@ -72,6 +72,7 @@ engine_type=diesel
 power=220
 gear=100
 #
+constraint[prev][0]=road_bus_1984_mbo405g
 constraint[next][0]=none
 emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1984_mbo405.2.<$0>
 freight=Passagiere
