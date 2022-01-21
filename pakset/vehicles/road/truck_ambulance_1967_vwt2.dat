@@ -5,6 +5,8 @@ waytype=road
 #
 intro_year=1967
 intro_month=5
+#retire_year=1979
+#retire_month=11
 #
 runningcost=26
 cost=348100

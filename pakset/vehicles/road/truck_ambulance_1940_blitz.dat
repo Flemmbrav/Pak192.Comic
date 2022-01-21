@@ -1,0 +1,27 @@
+obj=vehicle
+name=road_truck_ambulance_1940_blitz
+copyright=Alex. Brose
+waytype=road
+#
+intro_year=1940
+intro_month=6
+retire_year=1966
+retire_month=12
+#
+runningcost=260
+cost=5329206
+weight=4
+speed=68
+payload=1
+length=6
+loading_time=1740
+#
+engine_type=diesel
+power=54
+gear=250
+#
+constraint[next][0]=none
+constraint[prev][0]=none
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_ambulance_1940_blitz.0.<$0>
+freight=patients
+---

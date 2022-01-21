@@ -1,0 +1,26 @@
+obj=vehicle
+name=road_truck_hearse_1932_mblo2000
+copyright=Alex. Brose & PappeTeeMaster
+waytype=road
+#
+intro_year=1932
+intro_month=1
+#retire_year=1951
+#retire_month=1
+#
+runningcost=112
+cost=3420518
+weight=7
+speed=40
+payload=1
+length=6
+loading_time=894
+#
+engine_type=diesel
+power=40
+gear=250
+#
+constraint[next][0]=none
+emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_hearse_1932_mblo2000.0.<$0>
+freight=deceased
+---
