@@ -208,7 +208,7 @@ BackImage[0][0][0][0][0][0-1]=images/hotdogs.2.<$0>
 #############
 -------------
 obj=factory
-name=dairy
+name=dairy_factory
 #Milchwerke
 copyright=PappeTeeMaster
 Location=Land
