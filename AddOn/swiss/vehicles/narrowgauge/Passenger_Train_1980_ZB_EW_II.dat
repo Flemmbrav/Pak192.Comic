@@ -19,6 +19,5 @@ runningcost=72
 cost=792396
 
 constraint[prev][0]=any
-constraint[next][0]=none
 
 emptyimage[s,w,se,sw]=./image/Passenger_Train_1980_ZB_EW_II.0.<$0>
