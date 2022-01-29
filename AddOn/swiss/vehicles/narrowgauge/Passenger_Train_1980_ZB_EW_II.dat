@@ -13,7 +13,7 @@ weight=14
 length=8
 
 freight=Passagiere
-payload=42
+payload=64
 loading_time=720
 runningcost=72
 cost=792396
