@@ -313,7 +313,7 @@ calculatecosts(){
 		
 		if [[ ! -z ${ObjectArray[engine_type]} ]] ;then
 			if [[ ${ObjectArray[engine_type]} == "electric" ]] ;then
-				PowerValue=$(( PowerValue  / 100 * 85 ))
+				PowerValue=$(( PowerValue  / 100 * 70 ))
 			fi
 		fi
 		PowerValue=$(( PowerValue / 1000 ))
@@ -646,7 +646,7 @@ Commands:
 			else	
 				#echo "- Edit Costoum .dat Files "
 
-				readfile "pakset/vehicles/water/Alsterdampfer.dat"
+				readfile "pakset/vehicles/road/W50_Sattelzug.dat"
 				#readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
 				#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
 
