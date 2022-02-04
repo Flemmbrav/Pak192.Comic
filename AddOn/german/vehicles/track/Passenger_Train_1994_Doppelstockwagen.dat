@@ -18,7 +18,7 @@ loading_time=10340
 
 constraint[prev][0]=any
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1994_Double_Deck.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1994_Double_Deck.1.<$0>
 -----------
 obj=vehicle
 name=Passenger_Train_1994_Double_Deck_DBpza_751_1
@@ -40,7 +40,7 @@ loading_time=10340
 
 constraint[prev][0]=any
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1994_Double_Deck.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Passenger_Train_1994_Double_Deck.0.<$0>
 ------------
 obj=vehicle
 name=Passenger_Train_1994_Double_Deck_DBpbzfa_761_2_1
