@@ -27,9 +27,9 @@ jobs:
         cat config.default >>/dev/stderr
     - name: make makeobj
       run: |
-          cd simutrans/trunk/makeobj
+          cd simutrans/trunk/src/makeobj
           make
-          mv makeobj ../../..
+          mv makeobj ../../../..
           cd ../../..
           rm -rf simutrans
 
