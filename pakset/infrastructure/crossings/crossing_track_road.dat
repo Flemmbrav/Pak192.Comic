@@ -3,7 +3,7 @@ name=track-road-crossing
 copyright=PappeTeeMaster
 waytype[0]=road
 waytype[1]=narrowgauge_track
-speed[0]=50
+speed[0]=100
 speed[1]=160
 sound=crossing.wav
 
