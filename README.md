@@ -47,6 +47,15 @@ You can also compile a pakset with already included addons by running the **`COM
 
 Feel free to create a issue to this repository when you encountered any technical errors.
 
+## Contribute
+
+Yes this is a thing!
+Pak192.Comic is open source (duh), freely adjustable and auto compiles from github actions. That means, you could just clone the repository, do some funky changes and have github build your very own version without doing a lot for it. There's no weird encoding, no encrypted values, nothing. If you go to the dat file for your favourite steam engine and change the maximum speed from 100 to 2000, you just did that. It'll appear in the game just like that. Don't like coal power stations? Just get rid of them. Want to have a rainbow coloured subway? Just draw a rainbow on the image of your favourite subway train.
+That's pretty cool, right?
+But how about you share your funky changes with the rest of the world by adding them to this repository once they work out just fine. That way you could improve the world!… or well, at least this game.
+
+In case you need help modifiing or contributing towateds the game, do not hesitate to ask for some.
+
 ## License
 
 The content provided in this Git is published under CC-BY-SA 3.0, which is available in the `LICENSE.md`. If you want to credit the Git as a whole, or in case you can not identify the author, and only then, you may credit "pak192.comic team" as author.
