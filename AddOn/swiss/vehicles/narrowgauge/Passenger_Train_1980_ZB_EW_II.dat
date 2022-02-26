@@ -13,7 +13,10 @@ weight=14
 length=8
 
 freight=Passagiere
-payload=64
+payload=45
+#payload is at 6pax per pair of windows and 3pax for half a window
+#payload=64
+#irl pax are 8 per pair of windows, but that doesn't bring a proper game balance right now
 loading_time=720
 runningcost=72
 cost=792396
