@@ -176,6 +176,7 @@ passenger_boost=300
 mail_boost=200
 #-----
 Dims=4,4,1
+needs_ground=1
 BackImage[0][0-3][0-3][0][0][0-1]=./images/yarnmill.<$0>.<$1+$2*4>
 BackImage[0][0][1][1][0][0-1]=./images/yarnmill.4.<$0*4>
 #############
