@@ -82,6 +82,7 @@ type=com
 Chance=20
 level=9
 climates=tundra
+needs_ground=1
 BackImage[0][0][0][0][0][0-4]=images/plaza/easteur/09_E0_02.<$0>.0
 FrontImage[0][0][0][0][0-3][0-3]=images/fountain_spray.<$0>.0
 ---
