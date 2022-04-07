@@ -650,14 +650,17 @@ toolbar[13][14]=general_tool[33],126,,2
 toolbar[13][15]=-b,123
 
 # list tools
-toolbar[14][0]=dialog_tool[14],130
-toolbar[14][1]=dialog_tool[15],131
+toolbar[14][0]=dialog_tool[27],139
+toolbar[14][1]=dialog_tool[14],130
 toolbar[14][2]=dialog_tool[25],132
-toolbar[14][3]=dialog_tool[16],133
-toolbar[14][4]=dialog_tool[17],134
-toolbar[14][5]=dialog_tool[18],135
-toolbar[14][6]=dialog_tool[19],136
-toolbar[14][7]=-b,137
+toolbar[14][3]=dialog_tool[15],138
+toolbar[14][4]=dialog_tool[26],131
+toolbar[14][5]=dialog_tool[16],133
+toolbar[14][6]=dialog_tool[17],134
+toolbar[14][7]=dialog_tool[18],135
+toolbar[14][8]=dialog_tool[19],136
+toolbar[14][9]=-b,137
+
 
 # editor tools
 toolbar[15][0]=general_tool[9],140

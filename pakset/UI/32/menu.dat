@@ -111,8 +111,8 @@ Image[22]=> misc_list_editor.2.1
 Image[23]=> misc_list_editor.2.2
 Image[24]=> misc_list_editor.2.4
 Image[25]=> misc_list_editor.0.2
-Image[26]=> -
-Image[27]=> -
+Image[26]=> misc_list_editor.0.8
+Image[27]=> misc_list_editor.0.9
 Image[28]=> misc_list_editor.2.7
 -------------------
 obj=menu
