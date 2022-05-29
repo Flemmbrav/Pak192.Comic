@@ -3,6 +3,7 @@
 # Content:
 # - Original ICE 1 and 2 identical to the one in the pakset
 # - Power Heads with Swiss-Paket
+# - Power Heads and Driving Trailers in "Klimaschuetzer" Livery
 
 # TOC:
 # - Power Heads in front of the Train
@@ -47,10 +48,12 @@ speed=280
 length=10
 
 constraint[prev][0]=BR_808_2
-constraint[prev][1]=BR_402_2
-constraint[prev][2]=BR_402_2_CH-D
-constraint[prev][3]=BR_402_2_CH-CD
-constraint[prev][4]=none
+constraint[prev][1]=BR_808_2_Klimaschuetzer
+constraint[prev][2]=BR_402_2
+constraint[prev][3]=BR_402_2_CH-D
+constraint[prev][4]=BR_402_2_CH-CD
+constraint[prev][5]=BR_402_2_Klimaschuetzer
+constraint[prev][6]=none
 constraint[next][0]=BR_801_1
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.6.<$0>
@@ -81,10 +84,12 @@ speed=280
 length=10
 
 constraint[prev][0]=BR_808_2
-constraint[prev][1]=BR_402_2
-constraint[prev][2]=BR_402_2_CH-D
-constraint[prev][3]=BR_402_2_CH-CD
-constraint[prev][4]=none
+constraint[prev][1]=BR_808_2_Klimaschuetzer
+constraint[prev][2]=BR_402_2
+constraint[prev][3]=BR_402_2_CH-D
+constraint[prev][4]=BR_402_2_CH-CD
+constraint[prev][5]=BR_402_2_Klimaschuetzer
+constraint[prev][6]=none
 constraint[next][0]=BR_801_1
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.0.<$0>
@@ -115,13 +120,51 @@ speed=280
 length=10
 
 constraint[prev][0]=BR_808_2
-constraint[prev][1]=BR_402_2
-constraint[prev][2]=BR_402_2_CH-D
-constraint[prev][3]=BR_402_2_CH-CD
-constraint[prev][4]=none
+constraint[prev][1]=BR_808_2_Klimaschuetzer
+constraint[prev][2]=BR_402_2
+constraint[prev][3]=BR_402_2_CH-D
+constraint[prev][4]=BR_402_2_CH-CD
+constraint[prev][5]=BR_402_2_Klimaschuetzer
+constraint[prev][6]=none
 constraint[next][0]=BR_801_1
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.2.<$0>
+
+---
+
+# ICE 2 Power Head "Klimaschuetzer"
+obj=vehicle
+name=BR_402_1_Klimaschuetzer
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+
+intro_year=1990
+intro_month=0
+retire_year=2001
+retire_month=0
+cost=384600384
+runningcost=8421
+#runningcost=13421
+weight=77
+power=4800
+gear=310
+speed=280
+length=10
+
+constraint[prev][0]=BR_808_2
+constraint[prev][1]=BR_808_2_Klimaschuetzer
+constraint[prev][2]=BR_402_2
+constraint[prev][3]=BR_402_2_CH-D
+constraint[prev][4]=BR_402_2_CH-CD
+constraint[prev][5]=BR_402_2_Klimaschuetzer
+constraint[prev][6]=none
+constraint[next][0]=BR_801_1
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Klimaschuetzer.2.<$0>
 
 
 
@@ -156,10 +199,12 @@ length=10
 
 constraint[prev][0]=BR_801_2
 constraint[next][0]=BR_808_1
-constraint[next][1]=BR_402_1
-constraint[next][2]=BR_402_1_CH-D
-constraint[next][3]=BR_402_1_CH-CH
-constraint[next][4]=none
+constraint[next][1]=BR_808_1_Klimaschuetzer
+constraint[next][2]=BR_402_1
+constraint[next][3]=BR_402_1_Klimaschuetzer
+constraint[next][4]=BR_402_1_CH-D
+constraint[next][5]=BR_402_1_CH-CH
+constraint[next][6]=none
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.7.<$0>
 
@@ -190,10 +235,12 @@ length=10
 
 constraint[prev][0]=BR_801_2
 constraint[next][0]=BR_808_1
-constraint[next][1]=BR_402_1
-constraint[next][2]=BR_402_1_CH-D
-constraint[next][3]=BR_402_1_CH-CH
-constraint[next][4]=none
+constraint[next][1]=BR_808_1_Klimaschuetzer
+constraint[next][2]=BR_402_1
+constraint[next][3]=BR_402_1_Klimaschuetzer
+constraint[next][4]=BR_402_1_CH-D
+constraint[next][5]=BR_402_1_CH-CH
+constraint[next][6]=none
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.1.<$0>
 
@@ -224,12 +271,50 @@ length=10
 
 constraint[prev][0]=BR_801_2
 constraint[next][0]=BR_808_1
-constraint[next][1]=BR_402_1
-constraint[next][2]=BR_402_1_CH-D
-constraint[next][3]=BR_402_1_CH-CH
-constraint[next][4]=none
+constraint[next][1]=BR_808_1_Klimaschuetzer
+constraint[next][2]=BR_402_1
+constraint[next][3]=BR_402_1_Klimaschuetzer
+constraint[next][4]=BR_402_1_CH-D
+constraint[next][5]=BR_402_1_CH-CH
+constraint[next][6]=none
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.3.<$0>
+
+---
+
+# ICE 2 Power Head "Klimaschuetzer"
+obj=vehicle
+name=BR_402_2_Klimaschuetzer
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+
+intro_year=1990
+intro_month=0
+retire_year=2001
+retire_month=0
+cost=384600384
+runningcost=8421
+#runningcost=13421
+weight=77
+power=4800
+gear=310
+speed=280
+length=10
+
+constraint[prev][0]=BR_801_2
+constraint[next][0]=BR_808_1
+constraint[next][1]=BR_808_1_Klimaschuetzer
+constraint[next][2]=BR_402_1
+constraint[next][3]=BR_402_1_Klimaschuetzer
+constraint[next][4]=BR_402_1_CH-D
+constraint[next][5]=BR_402_1_CH-CH
+constraint[next][6]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Klimaschuetzer.3.<$0>
 
 
 
@@ -264,6 +349,7 @@ loading_time=9870
 
 constraint[prev][0]=none
 constraint[next][0]=BR_801_1
+
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.0.<$0>
 
 ---
@@ -291,12 +377,77 @@ length=13
 loading_time=9870
 
 constraint[prev][0]=BR_808_2
-constraint[prev][1]=BR_402_2
-constraint[prev][2]=BR_402_2_CH-D
-constraint[prev][3]=BR_402_2_CH-CH
+constraint[prev][1]=BR_808_2_Klimaschuetzer
+constraint[prev][2]=BR_402_2
+constraint[prev][3]=BR_402_2_CH-D
+constraint[prev][4]=BR_402_2_CH-CD
+constraint[prev][5]=BR_402_2_Klimaschuetzer
 constraint[next][0]=BR_801_1
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.0.<$0>
+
+---
+
+# ICE 2 Driving Trailer as first vehicle of the train "Klimaschuetzer"
+obj=vehicle
+name=BR_808_0_Klimaschuetzer
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+
+intro_year=1995
+intro_month=0
+retire_year=2001
+retire_month=0
+payload=65
+cost=10854773
+runningcost=987
+weight=47
+speed=250
+length=13
+loading_time=9870
+
+constraint[prev][0]=none
+constraint[next][0]=BR_801_1
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Klimaschuetzer.0.<$0>
+
+---
+
+# ICE 2 Driving Trailer in the middle of the train "Klimaschuetzer"
+obj=vehicle
+name=BR_808_1_Klimaschuetzer
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+
+intro_year=1995
+intro_month=0
+retire_year=2001
+retire_month=0
+payload=65
+cost=10854773
+runningcost=987
+weight=47
+speed=280
+length=13
+loading_time=9870
+
+constraint[prev][0]=BR_808_2
+constraint[prev][1]=BR_808_2_Klimaschuetzer
+constraint[prev][2]=BR_402_2
+constraint[prev][3]=BR_402_2_CH-D
+constraint[prev][4]=BR_402_2_CH-CD
+constraint[prev][5]=BR_402_2_Klimaschuetzer
+constraint[next][0]=BR_801_1
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Klimaschuetzer.0.<$0>
 
 
 -----------------------------------------------------------------
@@ -328,12 +479,49 @@ loading_time=9870
 
 constraint[prev][0]=BR_801_2
 constraint[next][0]=BR_808_1
-constraint[next][1]=BR_402_1
-constraint[next][2]=BR_402_1_CH-D
-constraint[next][3]=BR_402_1_CH-CH
-constraint[next][4]=none
+constraint[next][1]=BR_808_1_Klimaschuetzer
+constraint[next][2]=BR_402_1
+constraint[next][3]=BR_402_1_Klimaschuetzer
+constraint[next][4]=BR_402_1_CH-D
+constraint[next][5]=BR_402_1_CH-CH
+constraint[next][6]=none
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.1.<$0>
+
+---
+
+# ICE 2 Driving Trailer identical to the one in the pakset "Klimaschuetzer"
+obj=vehicle
+name=BR_808_2_Klimaschuetzer
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+
+intro_year=1995
+intro_month=0
+retire_year=2001
+retire_month=0
+payload=65
+cost=10854773
+runningcost=987
+weight=47
+speed=280
+length=13
+loading_time=9870
+
+constraint[prev][0]=BR_801_2
+constraint[next][0]=BR_808_1
+constraint[next][1]=BR_808_1_Klimaschuetzer
+constraint[next][2]=BR_402_1
+constraint[next][3]=BR_402_1_Klimaschuetzer
+constraint[next][4]=BR_402_1_CH-D
+constraint[next][5]=BR_402_1_CH-CH
+constraint[next][6]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Klimaschuetzer.1.<$0>
 
 
 -----------------------------------------------------------------
@@ -365,9 +553,12 @@ loading_time=11630
 constraint[prev][0]=BR_402_1
 constraint[prev][1]=BR_402_1_CH-D
 constraint[prev][2]=BR_402_1_CH-CH
-constraint[prev][3]=BR_808_0
-constraint[prev][4]=BR_808_1
-constraint[prev][5]=BR_801_1
+constraint[prev][3]=BR_402_1_Klimaschuetzer
+constraint[prev][4]=BR_808_0
+constraint[prev][5]=BR_808_0_Klimaschuetzer
+constraint[prev][6]=BR_808_1
+constraint[prev][7]=BR_808_1_Klimaschuetzer
+constraint[prev][8]=BR_801_1
 constraint[next][0]=BR_801_1
 constraint[next][1]=BR_803
 constraint[next][2]=BR_807
@@ -406,10 +597,12 @@ constraint[prev][0]=BR_801_2
 constraint[prev][1]=BR_803
 constraint[prev][2]=BR_807
 constraint[next][0]=BR_801_2
-constraint[next][1]=BR_402_2
-constraint[next][2]=BR_402_2_CH-D
-constraint[next][3]=BR_402_2_CH-CH
-constraint[next][4]=BR_808_2
+constraint[next][1]=BR_801_2_Klimaschuetzer
+constraint[next][2]=BR_402_2
+constraint[next][3]=BR_402_2_CH-D
+constraint[next][4]=BR_402_2_CH-CH
+constraint[next][5]=BR_402_2_Klimaschuetzer
+constraint[next][6]=BR_808_2
 
 EmptyImage[E]=image/Electric_1991_ICE_DB_401.3.0
 EmptyImage[S]=image/Electric_1991_ICE_DB_401.3.1
