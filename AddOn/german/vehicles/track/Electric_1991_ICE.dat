@@ -18,7 +18,7 @@
 
 
 
------------------------------------------------------------------
+#-----------------------------------------------------------------
 
 # Power Heads in front of the Train
 
@@ -372,14 +372,14 @@ constraint[next][0]=BR_801_1
 constraint[next][1]=BR_803
 constraint[next][2]=BR_807
 
-EmptyImage[E]=image/ICE_DB_401.2.0
-EmptyImage[S]=image/ICE_DB_401.2.1
-EmptyImage[W]=image/ICE_DB_401.2.2
-EmptyImage[N]=image/ICE_DB_401.2.3
-EmptyImage[SE]=image/ICE_DB_401.2.4
-EmptyImage[NE]=image/ICE_DB_401.2.5
-EmptyImage[NW]=image/ICE_DB_401.2.6
-EmptyImage[SW]=image/ICE_DB_401.2.7
+EmptyImage[E]=image/Electric_1991_ICE_DB_401.2.0
+EmptyImage[S]=image/Electric_1991_ICE_DB_401.2.1
+EmptyImage[W]=image/Electric_1991_ICE_DB_401.2.2
+EmptyImage[N]=image/Electric_1991_ICE_DB_401.2.3
+EmptyImage[SE]=image/Electric_1991_ICE_DB_401.2.4
+EmptyImage[NE]=image/Electric_1991_ICE_DB_401.2.5
+EmptyImage[NW]=image/Electric_1991_ICE_DB_401.2.6
+EmptyImage[SW]=image/Electric_1991_ICE_DB_401.2.7
 -------
 obj=vehicle
 name=BR_801_2
@@ -411,14 +411,14 @@ constraint[next][2]=BR_402_2_CH-D
 constraint[next][3]=BR_402_2_CH-CH
 constraint[next][4]=BR_808_2
 
-EmptyImage[E]=image/ICE_DB_401.3.0
-EmptyImage[S]=image/ICE_DB_401.3.1
-EmptyImage[W]=image/ICE_DB_401.3.2
-EmptyImage[N]=image/ICE_DB_401.3.3
-EmptyImage[SE]=image/ICE_DB_401.3.4
-EmptyImage[NE]=image/ICE_DB_401.3.5
-EmptyImage[NW]=image/ICE_DB_401.3.6
-EmptyImage[SW]=image/ICE_DB_401.3.7
+EmptyImage[E]=image/Electric_1991_ICE_DB_401.3.0
+EmptyImage[S]=image/Electric_1991_ICE_DB_401.3.1
+EmptyImage[W]=image/Electric_1991_ICE_DB_401.3.2
+EmptyImage[N]=image/Electric_1991_ICE_DB_401.3.3
+EmptyImage[SE]=image/Electric_1991_ICE_DB_401.3.4
+EmptyImage[NE]=image/Electric_1991_ICE_DB_401.3.5
+EmptyImage[NW]=image/Electric_1991_ICE_DB_401.3.6
+EmptyImage[SW]=image/Electric_1991_ICE_DB_401.3.7
 -------
 obj=vehicle
 name=BR_803
