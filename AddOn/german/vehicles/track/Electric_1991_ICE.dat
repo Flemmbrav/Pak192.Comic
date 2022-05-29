@@ -53,7 +53,7 @@ constraint[prev][3]=BR_402_2_CH-CD
 constraint[prev][4]=none
 constraint[next][0]=BR_801_1
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.6.$0
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.6.<$0>
 
 ---
 
@@ -87,7 +87,7 @@ constraint[prev][3]=BR_402_2_CH-CD
 constraint[prev][4]=none
 constraint[next][0]=BR_801_1
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.0.$0
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.0.<$0>
 
 ---
 
@@ -121,7 +121,7 @@ constraint[prev][3]=BR_402_2_CH-CD
 constraint[prev][4]=none
 constraint[next][0]=BR_801_1
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.2.$0
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.2.<$0>
 
 
 
@@ -161,7 +161,7 @@ constraint[next][2]=BR_402_1_CH-D
 constraint[next][3]=BR_402_1_CH-CH
 constraint[next][4]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.7.$0
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.7.<$0>
 
 ---
 
@@ -195,7 +195,7 @@ constraint[next][2]=BR_402_1_CH-D
 constraint[next][3]=BR_402_1_CH-CH
 constraint[next][4]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.1.$0
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.1.<$0>
 
 ---
 
@@ -229,7 +229,7 @@ constraint[next][2]=BR_402_1_CH-D
 constraint[next][3]=BR_402_1_CH-CH
 constraint[next][4]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.3.$0
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.3.<$0>
 
 
 
@@ -264,7 +264,7 @@ loading_time=9870
 
 constraint[prev][0]=none
 constraint[next][0]=BR_801_1
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.0.$0
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.0.<$0>
 
 ---
 
@@ -296,7 +296,7 @@ constraint[prev][2]=BR_402_2_CH-D
 constraint[prev][3]=BR_402_2_CH-CD
 constraint[next][0]=BR_801_1
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.2.$0
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.2.<$0>
 
 
 -----------------------------------------------------------------
@@ -333,7 +333,7 @@ constraint[next][2]=BR_402_1_CH-D
 constraint[next][3]=BR_402_1_CH-CH
 constraint[next][4]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.1.$0
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.1.<$0>
 
 
 -----------------------------------------------------------------
