@@ -296,7 +296,7 @@ constraint[prev][2]=BR_402_2_CH-D
 constraint[prev][3]=BR_402_2_CH-CD
 constraint[next][0]=BR_801_1
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.2.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.0.<$0>
 
 
 -----------------------------------------------------------------
