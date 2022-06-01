@@ -12,6 +12,7 @@
 # - Driving Trailers at the end of the Train
 # - Passenger cars in the middle of the Train
 # - Post cars in the middle of the Train
+# - Freight cars in the middle of the Train
 
 
 
@@ -57,6 +58,7 @@ constraint[prev][5]=BR_402_2_Klimaschuetzer
 constraint[prev][6]=none
 constraint[next][0]=BR_801_1
 constraint[next][1]=BR_801_1_Post
+constraint[next][2]=BR_801_1_Piece_Good
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401.6.<$0>
 
@@ -94,6 +96,7 @@ constraint[prev][5]=BR_402_2_Klimaschuetzer
 constraint[prev][6]=none
 constraint[next][0]=BR_801_1
 constraint[next][1]=BR_801_1_Post
+constraint[next][2]=BR_801_1_Piece_Good
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.0.<$0>
 
@@ -131,6 +134,7 @@ constraint[prev][5]=BR_402_2_Klimaschuetzer
 constraint[prev][6]=none
 constraint[next][0]=BR_801_1
 constraint[next][1]=BR_801_1_Post
+constraint[next][2]=BR_801_1_Piece_Good
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_CH_Paket.2.<$0>
 
@@ -168,6 +172,7 @@ constraint[prev][5]=BR_402_2_Klimaschuetzer
 constraint[prev][6]=none
 constraint[next][0]=BR_801_1
 constraint[next][1]=BR_801_1_Post
+constraint[next][2]=BR_801_1_Piece_Good
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Klimaschuetzer.2.<$0>
 
@@ -204,6 +209,7 @@ length=10
 
 constraint[prev][0]=BR_801_2
 constraint[prev][1]=BR_801_1_Post
+constraint[prev][2]=BR_801_1_Piece_Good
 constraint[next][0]=BR_808_1
 constraint[next][1]=BR_808_1_Klimaschuetzer
 constraint[next][2]=BR_402_1
@@ -241,6 +247,7 @@ length=10
 
 constraint[prev][0]=BR_801_2
 constraint[prev][1]=BR_801_1_Post
+constraint[prev][2]=BR_801_1_Piece_Good
 constraint[next][0]=BR_808_1
 constraint[next][1]=BR_808_1_Klimaschuetzer
 constraint[next][2]=BR_402_1
@@ -278,6 +285,7 @@ length=10
 
 constraint[prev][0]=BR_801_2
 constraint[prev][1]=BR_801_1_Post
+constraint[prev][2]=BR_801_1_Piece_Good
 constraint[next][0]=BR_808_1
 constraint[next][1]=BR_808_1_Klimaschuetzer
 constraint[next][2]=BR_402_1
@@ -315,6 +323,7 @@ length=10
 
 constraint[prev][0]=BR_801_2
 constraint[prev][1]=BR_801_1_Post
+constraint[prev][2]=BR_801_1_Piece_Good
 constraint[next][0]=BR_808_1
 constraint[next][1]=BR_808_1_Klimaschuetzer
 constraint[next][2]=BR_402_1
@@ -691,7 +700,7 @@ EmptyImage[SW]=image/Electric_1991_ICE_DB_401.5.7
 
 -----------------------------------------------------------------
 
-# Passenger cars in the middle of the Train
+# Post cars in the middle of the Train
 
 
 obj=vehicle
@@ -715,15 +724,61 @@ speed=280
 length=12
 loading_time=7590
 
+
 constraint[prev][0]=BR_402_1
 constraint[prev][1]=BR_402_1_CH-D
 constraint[prev][2]=BR_402_1_CH-CH
 constraint[prev][3]=BR_801_1_Post
+constraint[prev][4]=BR_801_1_Piece_Good
 
 constraint[next][0]=BR_801_1_Post
 constraint[next][1]=BR_402_2
 constraint[next][2]=BR_402_2_CH-D
 constraint[next][3]=BR_402_2_CH-CH
+constraint[next][4]=BR_801_1_Piece_Good
 
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Post_and_Goods.0.<$0>
+
+
+
+-----------------------------------------------------------------
+
+# Post cars in the middle of the Train
+
+
+obj=vehicle
+name=BR_801_1_Piece_Good
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+
+intro_year=1995
+intro_month=0
+retire_year=2001
+retire_month=0
+payload=50
+cost=8349825
+runningcost=759
+weight=45
+speed=280
+length=12
+loading_time=7590
+
+constraint[prev][0]=BR_402_1
+constraint[prev][1]=BR_402_1_CH-D
+constraint[prev][2]=BR_402_1_CH-CH
+constraint[prev][3]=BR_801_1_Post
+constraint[prev][4]=BR_801_1_Piece_Good
+
+constraint[next][0]=BR_801_1_Post
+constraint[next][1]=BR_402_2
+constraint[next][2]=BR_402_2_CH-D
+constraint[next][3]=BR_402_2_CH-CH
+constraint[next][4]=BR_801_1_Piece_Good
+
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Post_and_Goods.1.<$0>
