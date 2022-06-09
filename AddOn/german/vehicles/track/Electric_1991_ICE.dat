@@ -406,7 +406,7 @@ constraint[prev][0]=BR_808_2
 constraint[prev][1]=BR_808_2_Klimaschuetzer
 constraint[prev][2]=BR_402_2
 constraint[prev][3]=BR_402_2_CH-D
-constraint[prev][4]=BR_402_2_CH-CD
+constraint[prev][4]=BR_402_2_CH-CH
 constraint[prev][5]=BR_402_2_Klimaschuetzer
 constraint[next][0]=BR_801_1
 
@@ -469,7 +469,7 @@ constraint[prev][0]=BR_808_2
 constraint[prev][1]=BR_808_2_Klimaschuetzer
 constraint[prev][2]=BR_402_2
 constraint[prev][3]=BR_402_2_CH-D
-constraint[prev][4]=BR_402_2_CH-CD
+constraint[prev][4]=BR_402_2_CH-CH
 constraint[prev][5]=BR_402_2_Klimaschuetzer
 constraint[next][0]=BR_801_1
 
