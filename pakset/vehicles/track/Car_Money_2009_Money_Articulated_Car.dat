@@ -11,6 +11,7 @@ speed=300
 length=12
 waytype=narrowgauge_track
 loading_time=9650
+constraint[prev][0]=any
 constraint[next][0]=Track_Money_2009_Money_Articulated_Car-b
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Track_Money_2009_Money_Articulated_Car-a.0.<$0>
 -------------------------------------------
