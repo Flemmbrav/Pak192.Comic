@@ -735,16 +735,18 @@ loading_time=7590
 constraint[prev][0]=BR_402_1
 constraint[prev][1]=BR_402_1_CH-D
 constraint[prev][2]=BR_402_1_CH-CH
-constraint[prev][3]=BR_801_1_Post
-constraint[prev][4]=BR_801_1_Piece_Good
-constraint[prev][5]=BR_801_1_Cooled_Good
+constraint[prev][3]=BR_402_2_Klimaschuetzer
+constraint[prev][4]=BR_801_1_Post
+constraint[prev][5]=BR_801_1_Piece_Good
+constraint[prev][6]=BR_801_1_Cooled_Good
 
 constraint[next][0]=BR_801_1_Post
 constraint[next][1]=BR_402_2
 constraint[next][2]=BR_402_2_CH-D
 constraint[next][3]=BR_402_2_CH-CH
-constraint[next][4]=BR_801_1_Piece_Good
-constraint[next][5]=BR_801_1_Cooled_Good
+constraint[next][4]=BR_402_2_Klimaschuetzer
+constraint[next][5]=BR_801_1_Piece_Good
+constraint[next][6]=BR_801_1_Cooled_Good
 
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Post_and_Goods.0.<$0>
@@ -780,16 +782,18 @@ loading_time=7590
 constraint[prev][0]=BR_402_1
 constraint[prev][1]=BR_402_1_CH-D
 constraint[prev][2]=BR_402_1_CH-CH
-constraint[prev][3]=BR_801_1_Post
-constraint[prev][4]=BR_801_1_Piece_Good
-constraint[prev][5]=BR_801_1_Cooled_Good
+constraint[prev][3]=BR_402_2_Klimaschuetzer
+constraint[prev][4]=BR_801_1_Post
+constraint[prev][5]=BR_801_1_Piece_Good
+constraint[prev][6]=BR_801_1_Cooled_Good
 
 constraint[next][0]=BR_801_1_Post
 constraint[next][1]=BR_402_2
 constraint[next][2]=BR_402_2_CH-D
 constraint[next][3]=BR_402_2_CH-CH
-constraint[next][4]=BR_801_1_Piece_Good
-constraint[next][5]=BR_801_1_Cooled_Good
+constraint[next][4]=BR_402_2_Klimaschuetzer
+constraint[next][5]=BR_801_1_Piece_Good
+constraint[next][6]=BR_801_1_Cooled_Good
 
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Post_and_Goods.1.<$0>
@@ -818,16 +822,18 @@ loading_time=7590
 constraint[prev][0]=BR_402_1
 constraint[prev][1]=BR_402_1_CH-D
 constraint[prev][2]=BR_402_1_CH-CH
-constraint[prev][3]=BR_801_1_Post
-constraint[prev][4]=BR_801_1_Piece_Good
-constraint[prev][5]=BR_801_1_Cooled_Good
+constraint[prev][3]=BR_402_2_Klimaschuetzer
+constraint[prev][4]=BR_801_1_Post
+constraint[prev][5]=BR_801_1_Piece_Good
+constraint[prev][6]=BR_801_1_Cooled_Good
 
 constraint[next][0]=BR_801_1_Post
 constraint[next][1]=BR_402_2
 constraint[next][2]=BR_402_2_CH-D
 constraint[next][3]=BR_402_2_CH-CH
-constraint[next][4]=BR_801_1_Piece_Good
-constraint[next][5]=BR_801_1_Cooled_Good
+constraint[next][4]=BR_402_2_Klimaschuetzer
+constraint[next][5]=BR_801_1_Piece_Good
+constraint[next][6]=BR_801_1_Cooled_Good
 
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=image/Electric_1991_ICE_DB_401_Post_and_Goods.2.<$0>
