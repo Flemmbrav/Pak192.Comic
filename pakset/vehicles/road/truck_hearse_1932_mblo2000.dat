@@ -5,6 +5,7 @@ waytype=road
 #
 intro_year=1932
 intro_month=1
+retire_year=1962
 #retire_year=1951
 #retire_month=1
 #
@@ -20,6 +21,7 @@ engine_type=diesel
 power=40
 gear=250
 #
+constraint[prev][0]=none
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/truck_hearse_1932_mblo2000.0.<$0>
 freight=deceased
