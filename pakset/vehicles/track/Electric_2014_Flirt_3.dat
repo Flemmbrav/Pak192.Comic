@@ -19,14 +19,7 @@ constraint[prev][1]=Flirt_3_Triebwagen_1
 constraint[next][0]=Flirt_3_Mittelwagen
 constraint[next][1]=Flirt_3_Triebwagen_2
 
-EmptyImage[E]=./image/Electric_2014_Flirt3.2.2
-EmptyImage[S]=./image/Electric_2014_Flirt3.2.3
-EmptyImage[W]=./image/Electric_2014_Flirt3.2.0
-EmptyImage[N]=./image/Electric_2014_Flirt3.2.1
-EmptyImage[SE]=./image/Electric_2014_Flirt3.3.0
-EmptyImage[NE]=./image/Electric_2014_Flirt3.3.1
-EmptyImage[NW]=./image/Electric_2014_Flirt3.3.2
-EmptyImage[SW]=./image/Electric_2014_Flirt3.3.3
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2014_Flirt3.0.<$0>
 -----------
 obj=vehicle
 name=Flirt_3_Triebwagen_1
@@ -51,14 +44,7 @@ constraint[prev][1]=none
 constraint[next][0]=Flirt_3_Mittelwagen
 constraint[next][1]=Flirt_3_Triebwagen_2
 
-EmptyImage[E]=./image/Electric_2014_Flirt3.0.2
-EmptyImage[S]=./image/Electric_2014_Flirt3.0.3
-EmptyImage[W]=./image/Electric_2014_Flirt3.0.0
-EmptyImage[N]=./image/Electric_2014_Flirt3.0.1
-EmptyImage[SE]=./image/Electric_2014_Flirt3.1.0
-EmptyImage[NE]=./image/Electric_2014_Flirt3.1.1
-EmptyImage[NW]=./image/Electric_2014_Flirt3.1.2
-EmptyImage[SW]=./image/Electric_2014_Flirt3.1.3
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2014_Flirt3.2.<$0>
 -----------
 obj=vehicle
 name=Flirt_3_Triebwagen_2
@@ -84,11 +70,4 @@ constraint[prev][1]=Flirt_3_Mittelwagen
 constraint[next][0]=Flirt_3_Triebwagen_1
 constraint[next][1]=none
 
-EmptyImage[E]=./image/Electric_2014_Flirt3.4.2
-EmptyImage[S]=./image/Electric_2014_Flirt3.4.3
-EmptyImage[W]=./image/Electric_2014_Flirt3.4.0
-EmptyImage[N]=./image/Electric_2014_Flirt3.4.1
-EmptyImage[SE]=./image/Electric_2014_Flirt3.5.0
-EmptyImage[NE]=./image/Electric_2014_Flirt3.5.1
-EmptyImage[NW]=./image/Electric_2014_Flirt3.5.2
-EmptyImage[SW]=./image/Electric_2014_Flirt3.5.3
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2014_Flirt3.3.<$0>
