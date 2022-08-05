@@ -64,7 +64,6 @@ Constraint[Prev][0]=X_1-WL
 Constraint[Prev][1]=X_2-WL
 Constraint[Next][0]=X_3-WL
 Constraint[Next][1]=X_2-WL
-#Constraint[Next][0]=none
 
 EmptyImage[S]=./image/U-Bahn_Wien_X.4.3
 EmptyImage[E]=./image/U-Bahn_Wien_X.4.2
