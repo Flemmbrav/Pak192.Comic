@@ -1,5 +1,5 @@
 obj=vehicle
-name=TEE_Triebzug_1957_0
+name=Diesel_1957_TEE_Triebzug_0
 copyright=Flemmbrav
 intro_year=1957
 intro_month=3
@@ -14,28 +14,28 @@ cost=37340352
 runningcost=1113
 weight=46
 speed=160
-length=11
+length=9
 waytype=narrowgauge_track
 
-constraint[prev][0]=TEE_Triebzug_1957_4
+constraint[prev][0]=Diesel_1957_TEE_Triebzug_4
 constraint[prev][1]=none
-constraint[next][0]=TEE_Triebzug_1957_1
-constraint[next][1]=TEE_Triebzug_1957_2
-constraint[next][2]=TEE_Triebzug_1957_4
+constraint[next][0]=Diesel_1957_TEE_Triebzug_1
+constraint[next][1]=Diesel_1957_TEE_Triebzug_2
+constraint[next][2]=Diesel_1957_TEE_Triebzug_4
 
-EmptyImage[S]=./image/TEE_Triebzug_1957.3.1
-EmptyImage[E]=./image/TEE_Triebzug_1957.3.0
-EmptyImage[SE]=./image/TEE_Triebzug_1957.3.4
-EmptyImage[SW]=./image/TEE_Triebzug_1957.3.7
-EmptyImage[N]=./image/TEE_Triebzug_1957.3.3
-EmptyImage[W]=./image/TEE_Triebzug_1957.3.2
-EmptyImage[NW]=./image/TEE_Triebzug_1957.3.6
-EmptyImage[NE]=./image/TEE_Triebzug_1957.3.5
+EmptyImage[S]=./image/Diesel_1957_TEE_Triebzug.3.1
+EmptyImage[E]=./image/Diesel_1957_TEE_Triebzug.3.0
+EmptyImage[SE]=./image/Diesel_1957_TEE_Triebzug.3.4
+EmptyImage[SW]=./image/Diesel_1957_TEE_Triebzug.3.7
+EmptyImage[N]=./image/Diesel_1957_TEE_Triebzug.3.3
+EmptyImage[W]=./image/Diesel_1957_TEE_Triebzug.3.2
+EmptyImage[NW]=./image/Diesel_1957_TEE_Triebzug.3.6
+EmptyImage[NE]=./image/Diesel_1957_TEE_Triebzug.3.5
 
 --------
 
 obj=vehicle
-name=TEE_Triebzug_1957_1
+name=Diesel_1957_TEE_Triebzug_1
 copyright=Flemmbrav
 intro_year=1957
 intro_month=3
@@ -48,27 +48,27 @@ runningcost=606
 loading_time=6060
 weight=25
 speed=160
-length=10
+length=8
 waytype=narrowgauge_track
 
-constraint[prev][0]=TEE_Triebzug_1957_0
-constraint[prev][1]=TEE_Triebzug_1957_1
-constraint[next][0]=TEE_Triebzug_1957_1
-constraint[next][1]=TEE_Triebzug_1957_2
+constraint[prev][0]=Diesel_1957_TEE_Triebzug_0
+constraint[prev][1]=Diesel_1957_TEE_Triebzug_1
+constraint[next][0]=Diesel_1957_TEE_Triebzug_1
+constraint[next][1]=Diesel_1957_TEE_Triebzug_2
 
-EmptyImage[S]=./image/TEE_Triebzug_1957.0.1
-EmptyImage[E]=./image/TEE_Triebzug_1957.0.0
-EmptyImage[SE]=./image/TEE_Triebzug_1957.0.4
-EmptyImage[SW]=./image/TEE_Triebzug_1957.0.7
-EmptyImage[N]=./image/TEE_Triebzug_1957.0.3
-EmptyImage[W]=./image/TEE_Triebzug_1957.0.2
-EmptyImage[NW]=./image/TEE_Triebzug_1957.0.6
-EmptyImage[NE]=./image/TEE_Triebzug_1957.0.5
+EmptyImage[S]=./image/Diesel_1957_TEE_Triebzug.0.1
+EmptyImage[E]=./image/Diesel_1957_TEE_Triebzug.0.0
+EmptyImage[SE]=./image/Diesel_1957_TEE_Triebzug.0.4
+EmptyImage[SW]=./image/Diesel_1957_TEE_Triebzug.0.7
+EmptyImage[N]=./image/Diesel_1957_TEE_Triebzug.0.3
+EmptyImage[W]=./image/Diesel_1957_TEE_Triebzug.0.2
+EmptyImage[NW]=./image/Diesel_1957_TEE_Triebzug.0.6
+EmptyImage[NE]=./image/Diesel_1957_TEE_Triebzug.0.5
 
 --------
 
 obj=vehicle
-name=TEE_Triebzug_1957_2
+name=Diesel_1957_TEE_Triebzug_2
 copyright=Flemmbrav
 intro_year=1957
 intro_month=3
@@ -81,27 +81,27 @@ runningcost=250
 loading_time=2500
 weight=24
 speed=160
-length=10
+length=8
 waytype=narrowgauge_track
 
-constraint[prev][0]=TEE_Triebzug_1957_0
-constraint[prev][1]=TEE_Triebzug_1957_1
-constraint[next][0]=TEE_Triebzug_1957_3
-constraint[next][1]=TEE_Triebzug_1957_4
+constraint[prev][0]=Diesel_1957_TEE_Triebzug_0
+constraint[prev][1]=Diesel_1957_TEE_Triebzug_1
+constraint[next][0]=Diesel_1957_TEE_Triebzug_3
+constraint[next][1]=Diesel_1957_TEE_Triebzug_4
 
-EmptyImage[S]=./image/TEE_Triebzug_1957.2.1
-EmptyImage[E]=./image/TEE_Triebzug_1957.2.0
-EmptyImage[SE]=./image/TEE_Triebzug_1957.2.4
-EmptyImage[SW]=./image/TEE_Triebzug_1957.2.7
-EmptyImage[N]=./image/TEE_Triebzug_1957.2.3
-EmptyImage[W]=./image/TEE_Triebzug_1957.2.2
-EmptyImage[NW]=./image/TEE_Triebzug_1957.2.6
-EmptyImage[NE]=./image/TEE_Triebzug_1957.2.5
+EmptyImage[S]=./image/Diesel_1957_TEE_Triebzug.2.1
+EmptyImage[E]=./image/Diesel_1957_TEE_Triebzug.2.0
+EmptyImage[SE]=./image/Diesel_1957_TEE_Triebzug.2.4
+EmptyImage[SW]=./image/Diesel_1957_TEE_Triebzug.2.7
+EmptyImage[N]=./image/Diesel_1957_TEE_Triebzug.2.3
+EmptyImage[W]=./image/Diesel_1957_TEE_Triebzug.2.2
+EmptyImage[NW]=./image/Diesel_1957_TEE_Triebzug.2.6
+EmptyImage[NE]=./image/Diesel_1957_TEE_Triebzug.2.5
 
 --------
 
 obj=vehicle
-name=TEE_Triebzug_1957_3
+name=Diesel_1957_TEE_Triebzug_3
 copyright=Flemmbrav
 intro_year=1957
 intro_month=3
@@ -114,27 +114,27 @@ runningcost=606
 loading_time=6060
 weight=25
 speed=160
-length=10
+length=8
 waytype=narrowgauge_track
 
-constraint[prev][0]=TEE_Triebzug_1957_2
-constraint[prev][1]=TEE_Triebzug_1957_3
-constraint[next][0]=TEE_Triebzug_1957_3
-constraint[next][1]=TEE_Triebzug_1957_4
+constraint[prev][0]=Diesel_1957_TEE_Triebzug_2
+constraint[prev][1]=Diesel_1957_TEE_Triebzug_3
+constraint[next][0]=Diesel_1957_TEE_Triebzug_3
+constraint[next][1]=Diesel_1957_TEE_Triebzug_4
 
-EmptyImage[S]=./image/TEE_Triebzug_1957.1.1
-EmptyImage[E]=./image/TEE_Triebzug_1957.1.0
-EmptyImage[SE]=./image/TEE_Triebzug_1957.1.4
-EmptyImage[SW]=./image/TEE_Triebzug_1957.1.7
-EmptyImage[N]=./image/TEE_Triebzug_1957.1.3
-EmptyImage[W]=./image/TEE_Triebzug_1957.1.2
-EmptyImage[NW]=./image/TEE_Triebzug_1957.1.6
-EmptyImage[NE]=./image/TEE_Triebzug_1957.1.5
+EmptyImage[S]=./image/Diesel_1957_TEE_Triebzug.1.1
+EmptyImage[E]=./image/Diesel_1957_TEE_Triebzug.1.0
+EmptyImage[SE]=./image/Diesel_1957_TEE_Triebzug.1.4
+EmptyImage[SW]=./image/Diesel_1957_TEE_Triebzug.1.7
+EmptyImage[N]=./image/Diesel_1957_TEE_Triebzug.1.3
+EmptyImage[W]=./image/Diesel_1957_TEE_Triebzug.1.2
+EmptyImage[NW]=./image/Diesel_1957_TEE_Triebzug.1.6
+EmptyImage[NE]=./image/Diesel_1957_TEE_Triebzug.1.5
 
 --------
 
 obj=vehicle
-name=TEE_Triebzug_1957_4
+name=Diesel_1957_TEE_Triebzug_4
 copyright=Flemmbrav
 intro_year=1957
 intro_month=3
@@ -149,20 +149,20 @@ cost=37340352
 runningcost=1113
 weight=46
 speed=160
-length=11
+length=9
 waytype=narrowgauge_track
 
-constraint[prev][0]=TEE_Triebzug_1957_0
-constraint[prev][1]=TEE_Triebzug_1957_2
-constraint[prev][2]=TEE_Triebzug_1957_3
-constraint[next][0]=TEE_Triebzug_1957_0
+constraint[prev][0]=Diesel_1957_TEE_Triebzug_0
+constraint[prev][1]=Diesel_1957_TEE_Triebzug_2
+constraint[prev][2]=Diesel_1957_TEE_Triebzug_3
+constraint[next][0]=Diesel_1957_TEE_Triebzug_0
 constraint[next][1]=none
 
-EmptyImage[S]=./image/TEE_Triebzug_1957.4.1
-EmptyImage[E]=./image/TEE_Triebzug_1957.4.0
-EmptyImage[SE]=./image/TEE_Triebzug_1957.4.4
-EmptyImage[SW]=./image/TEE_Triebzug_1957.4.7
-EmptyImage[N]=./image/TEE_Triebzug_1957.4.3
-EmptyImage[W]=./image/TEE_Triebzug_1957.4.2
-EmptyImage[NW]=./image/TEE_Triebzug_1957.4.6
-EmptyImage[NE]=./image/TEE_Triebzug_1957.4.5
+EmptyImage[S]=./image/Diesel_1957_TEE_Triebzug.4.1
+EmptyImage[E]=./image/Diesel_1957_TEE_Triebzug.4.0
+EmptyImage[SE]=./image/Diesel_1957_TEE_Triebzug.4.4
+EmptyImage[SW]=./image/Diesel_1957_TEE_Triebzug.4.7
+EmptyImage[N]=./image/Diesel_1957_TEE_Triebzug.4.3
+EmptyImage[W]=./image/Diesel_1957_TEE_Triebzug.4.2
+EmptyImage[NW]=./image/Diesel_1957_TEE_Triebzug.4.6
+EmptyImage[NE]=./image/Diesel_1957_TEE_Triebzug.4.5
