@@ -183,6 +183,18 @@ level=30
 build_time=12000
 BackImage[0][0][0][0][0][0-1]=images/mon/mon_incredible.<$0>.0
 ---
+obj=building
+name=mon_25years
+#Monument für 25 Jahre Simutrans! :tada:
+copyright=Flemmbrav
+intro_year=2022
+type=mon
+needs_ground=0
+level=100
+build_time=18000
+BackImage[0][0][0][0][0][0]=images/mon/mon_25_years.0.0
+BackImage[0][0][0][0][0][1]=images/mon/mon_25_years.1.0
+---
 
 ################################################################################
 #                          MONUMENTS TO FRANCHISES                             #
