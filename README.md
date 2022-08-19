@@ -1,5 +1,5 @@
 # Pak192.Comic
-![logo](https://github.com/Flemmbrav/Pak192.Comic/blob/Standard/pakset/UI/128/images/big_logo_0_3.png?raw=true)
+![logo](pakset/UI/128/images/big_logo_0_3.png)
 
 Pakset and theme for Simutrans
 
