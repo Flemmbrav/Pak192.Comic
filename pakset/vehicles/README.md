@@ -50,7 +50,7 @@ Visual length of the vehicle. The vehicle will have a size of its length times 6
 
 > waytype=narrowgauge_track 
 
-Waytype of the vehicle. Mind that ´narrowgauge_track´ and ´track´ are swapped in this pakset.
+Waytype of the vehicle. Mind that `narrowgauge_track` and `track` are swapped in this pakset.
 
 > loading_time=10340
 
