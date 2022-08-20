@@ -183,18 +183,7 @@ level=30
 build_time=12000
 BackImage[0][0][0][0][0][0-1]=images/mon/mon_incredible.<$0>.0
 ---
-obj=building
-name=mon_25years
-#Monument für 25 Jahre Simutrans! :tada:
-copyright=Flemmbrav
-intro_year=2022
-type=mon
-needs_ground=0
-level=100
-build_time=18000
-BackImage[0][0][0][0][0][0]=images/mon/mon_25_years.0.0
-BackImage[0][0][0][0][0][1]=images/mon/mon_25_years.1.0
----
+
 
 ################################################################################
 #                          MONUMENTS TO FRANCHISES                             #
@@ -204,7 +193,17 @@ BackImage[0][0][0][0][0][1]=images/mon/mon_25_years.1.0
 #  of the franchise in question.		                      									   #
 ################################################################################
 
-
+obj=building
+name=mon_25years
+#Franchise: Simutrans - Monument für 25 Jahre Simutrans! :tada:
+copyright=Leartin
+intro_year=2022
+type=mon
+needs_ground=0
+level=100
+build_time=18000
+BackImage[0][0][0][0][0][0-1]=images/mon/mon_25_years.<$0>.0
+---
 
 obj=building
 name=mon_at_at
@@ -288,6 +287,17 @@ level=50
 build_time=12000
 BackImage[0][0][0][0][0][0-1]=images/mon/mon_tetris.<$0>.0
 FrontImage[0][0][0][0][0][0-1]=images/mon/mon_tetris.2.0
+---
+obj=building
+name=mon_anno
+#Franchise: Anno-Series (Anno 1602)
+copyright=MaxDesign
+intro_year=1602
+type=mon
+needs_ground=0
+level=40
+build_time=40000
+BackImage[0][0][0][0][0][0-1]=images/mon/mon_anno.<$0>.0
 ---
 
 ################################################################################
