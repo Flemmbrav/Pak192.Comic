@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 19.08 2022                           #
+#                           Date Created: 21.08 2022                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -570,6 +570,8 @@ Kleingarten mit Gartenbahn\n\nDa seine Frau eine Modelleisenbahn im Haus verweig
 #________________________________building - mon_________________________________
 mon_25years
 25 Jahre Simutrans!\n\nUnd wir feiern mit!
+mon_anno
+Anno 1602 Denkmal\n\nIm Jahre 1602 lief hier ein Schiff auf Grund. Anlässlich des 420ten Jahrestags haben wohl einige Menschen die verborgenen Schätze dieses Schiffes genauer untersucht, und sich daraufhin dazu entschlossen, diesem Schiff eine etwas würdigere Aufmachung zu verleihen.
 mon_at_at
 AT-AT\n\nDer Allterrain-Angriffstransporter ist eine vierbeinige, mechanische Infanteriekampfvehikeleinheit, welche von den Bodentruppen des Imperiums sowohl wegen ihres einschüchternden psychologischen Effekts verwendet werden, als auch wegen ihrer taktischen Vorzüge. In diesem Fall ist es aber nur eine Statue zur Feier des alljährlichen Star-Wars-Tags. May the Fourth be with you!
 mon_brose
@@ -1434,6 +1436,8 @@ cattle
 Rinder
 cement
 Zement
+cheese
+Käse
 chemicals
 Chemikalien
 circuit_boards
@@ -3559,11 +3563,11 @@ Nahverkehrstriebzug "Flirt 3" | Triebwagen
 Flirt_3_Triebwagen_2
 Nahverkehrstriebzug "Flirt 3" | Triebwagen
 Flirt_Mittelwagen
-Nahverkehrstriebzug "Flirt 3" | Mittelwagen
+Nahverkehrstriebzug "Flirt" | Mittelwagen
 Flirt_Triebwagen_1
-Nahverkehrstriebzug "Flirt 3" | Triebwagen
+Nahverkehrstriebzug "Flirt" | Triebwagen
 Flirt_Triebwagen_2
-Nahverkehrstriebzug "Flirt 3" | Triebwagen
+Nahverkehrstriebzug "Flirt" | Triebwagen
 FSR Class 156 1
 Dieseltriebwagen Class 156 "Super Sprinter"
 FSR Class 156 2
@@ -3577,7 +3581,7 @@ Schnellzugwagen "Mark 3"
 G_1-BVG
 U-Bahnwagen BVG Typ G "Giesela"
 G_2-BVG
-U-Bahnwagen BVG Typ G "Gisela"
+U-Bahnwagen BVG Typ G "Giesela"
 GA Class 156 1
 Dieseltriebwagen Class 156 "Super Sprinter"
 GA Class 156 2
@@ -6038,6 +6042,8 @@ Kanalschiff-Category-07
 Kanalschiff
 Kanalschiff-Post
 Kanalschiff
+MS_Bergen
+MS Bergen
 MS_Stavangar
 MS Stavanger
 RMS_BlackDragon
