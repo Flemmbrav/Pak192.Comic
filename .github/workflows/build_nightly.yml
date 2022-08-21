@@ -38,7 +38,7 @@ jobs:
       run: bash COMPILE_THEME.sh
 
     - name: Version the Pakset
-      run: sed -i "s/copyright=.*/copyright=Pak192.Comic 0.6 Git Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
+      run: sed -i "s/copyright=.*/copyright=Pak192.Comic Nightly Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
 
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
