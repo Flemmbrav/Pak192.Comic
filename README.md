@@ -1,5 +1,5 @@
 # Pak192.Comic
-![logo](pakset/UI/128/images/big_logo_0_3.png)
+![logo](pakset/UI/128/images/big_logo_25_years.png)
 
 Pakset and theme for Simutrans
 
