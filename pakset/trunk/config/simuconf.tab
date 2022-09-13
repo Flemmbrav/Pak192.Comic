@@ -77,7 +77,7 @@ beginner_price_factor = 2100
 station_coverage = 2
 
 # things to overcrowded destinations won't load if active (default off)
-avoid_overcrowding = 1
+avoid_overcrowding = 0
 
 # if enabled (default = 0 off) stops may have different capacities for passengers, mail, and freight
 seperate_halt_capacities = 1
