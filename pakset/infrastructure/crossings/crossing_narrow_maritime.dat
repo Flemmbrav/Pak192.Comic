@@ -3,7 +3,7 @@ name=crossing_narrow_maritime
 copyright=Flemmbrav
 waytype[0]=track
 waytype[1]=water
-speed[0]=55
+speed[0]=50
 speed[1]=30
 
 openimage[ns][0]=./images/crossing_narrow_maritime.1.1
