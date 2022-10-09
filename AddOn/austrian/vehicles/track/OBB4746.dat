@@ -16,6 +16,28 @@ loading_time=4860
 
 constraint[prev][0]=OBB_Cityjet_4746_Steuerwagen_vorne
 constraint[next][0]=OBB_Cityjet_4746_Steuerwagen_hinten
+constraint[next][1]=OBB_Cityjet_4746_Mittelwagen_2
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.4.<$0>
+-----------
+obj=vehicle
+name=OBB_Cityjet_4746_Mittelwagen_2
+copyright=Flemmbrav
+intro_year=2023
+intro_month=0
+runningcost=784
+cost=15556349
+weight=45
+speed=160
+payload=85
+freight=Passagiere
+length=12
+waytype=narrowgauge_track
+engine_type=electric
+loading_time=4860
+
+constraint[prev][0]=OBB_Cityjet_4746_Mittelwagen
+constraint[next][0]=OBB_Cityjet_4746_Steuerwagen_hinten
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.4.<$0>
 -----------
