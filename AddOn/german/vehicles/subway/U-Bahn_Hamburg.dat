@@ -1752,7 +1752,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=none
+sound=ET2010.wav
 freight=Passagiere
 
 intro_year=2012
@@ -1788,7 +1788,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=none
+sound=ET2010.wav
 freight=Passagiere
 
 intro_year=2012
@@ -1823,7 +1823,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=none
+sound=ET2010.wav
 freight=Passagiere
 
 intro_year=2012
