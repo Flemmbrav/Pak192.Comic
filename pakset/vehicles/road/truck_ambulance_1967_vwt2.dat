@@ -19,6 +19,7 @@ sound=ambulance.wav
 engine_type=diesel
 power=50
 gear=50
+sound=ambulance.wav
 #
 constraint[next][0]=none
 constraint[prev][0]=none

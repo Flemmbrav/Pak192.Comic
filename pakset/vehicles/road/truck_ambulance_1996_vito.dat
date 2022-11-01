@@ -19,6 +19,7 @@ loading_time=998
 engine_type=diesel
 power=90
 gear=100
+sound=ambulance.wav
 #
 constraint[next][0]=none
 constraint[prev][0]=none
