@@ -134,8 +134,8 @@ power=250
 gear=110
 smoke=Diesel_small
 #
-constraint[prev][0]=none
-constraint[next][0]=road_bus_1995_s321land
+constraint[prev][0]=road_bus_1995_s321land
+constraint[next][0]=none
 emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1995_s300.4.<$0>
 freight=Passagiere
 ---
