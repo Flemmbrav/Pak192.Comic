@@ -13,6 +13,7 @@ runningcost=30000
 intro_year=1900
 intro_month=2
 loading_time=243380
+sound=boat-horn.wav
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
