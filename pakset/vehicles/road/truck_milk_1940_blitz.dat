@@ -16,6 +16,8 @@ payload=9
 length=6
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=truck.wav
 power=54
 gear=250
 #
@@ -42,8 +44,6 @@ weight=4
 speed=68
 payload=14
 length=6
-#
-engine_type=diesel
 #
 constraint[next][0]=none
 constraint[prev][0]=road_truck_milk_1940_blitz

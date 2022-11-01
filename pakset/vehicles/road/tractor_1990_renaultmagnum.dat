@@ -16,6 +16,8 @@ speed=80
 length=3
 #
 engine_type=diesel
+sound=truck.wav
+smoke=Diesel_small
 power=368
 # es gab wie so oft unterschiedliche Leistungsstufen
 # 368kW war ein zwischenzeitlicher Höchstwert, der

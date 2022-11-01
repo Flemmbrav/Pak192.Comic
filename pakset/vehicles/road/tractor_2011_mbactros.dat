@@ -14,6 +14,8 @@ speed=80
 length=3
 #
 engine_type=diesel
+sound=truck.wav
+smoke=Diesel_small
 power=375
 gear=150
 #

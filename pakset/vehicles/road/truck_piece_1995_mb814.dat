@@ -17,6 +17,8 @@ length=6
 loading_time=1898
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=truck.wav
 power=210
 #
 constraint[prev][0]=none

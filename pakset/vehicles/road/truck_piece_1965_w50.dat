@@ -17,6 +17,8 @@ length=6
 loading_time=2140
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=truck.wav
 power=92
 gear=250
 #
@@ -57,8 +59,6 @@ speed=80
 payload=15
 length=6
 loading_time=3210
-#
-engine_type=diesel
 #
 constraint[next][0]=none
 constraint[prev][0]=W50_Stueckgut

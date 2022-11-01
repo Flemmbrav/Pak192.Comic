@@ -15,6 +15,8 @@ length=7
 loading_time=2560
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=truck.wav
 power=480
 gear=100
 #

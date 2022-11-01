@@ -19,6 +19,7 @@ loading_time=4120
 engine_type=diesel
 power=294
 smoke=Diesel_small
+sound=truck.wav
 #
 constraint[prev][0]=none
 constraint[next][0]=road_trailer_pourable_2007_tgs

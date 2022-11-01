@@ -17,6 +17,8 @@ length=6
 loading_time=1130
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=truck.wav
 power=92
 gear=250
 #
@@ -43,8 +45,6 @@ speed=80
 payload=18
 length=6
 loading_time=1700
-#
-engine_type=diesel
 #
 constraint[next][0]=none
 constraint[prev][0]=road_truck_milk_1965_w50

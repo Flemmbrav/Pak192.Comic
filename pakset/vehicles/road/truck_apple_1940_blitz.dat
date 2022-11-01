@@ -18,6 +18,8 @@ length=6
 loading_time=995
 #
 engine_type=diesel
+sound=truck.wav
+smoke=Diesel_small
 #
 constraint[next][0]=road_trailer_apple_1940_blitz
 constraint[next][1]=none
@@ -47,8 +49,6 @@ speed=68
 payload=10
 length=6
 loading_time=1421
-#
-engine_type=diesel
 #
 constraint[next][0]=none
 constraint[prev][0]=road_truck_apple_1940_blitz

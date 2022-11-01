@@ -17,6 +17,8 @@ length=6
 loading_time=0
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=truck.wav
 power=25
 gear=100
 #
@@ -46,6 +48,8 @@ length=8
 loading_time=0
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=truck.wav
 power=25
 gear=100
 #

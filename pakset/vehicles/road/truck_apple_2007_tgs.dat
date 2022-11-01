@@ -17,8 +17,9 @@ length=8
 loading_time=4120
 #
 engine_type=diesel
-power=294
+sound=truck.wav
 smoke=Diesel_small
+power=294
 #
 constraint[prev][0]=none
 constraint[next][0]=road_trailer_apple_2007_tgs

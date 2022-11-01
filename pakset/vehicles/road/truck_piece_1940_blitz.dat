@@ -17,6 +17,8 @@ length=6
 loading_time=2570
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=truck.wav
 power=54
 gear=250
 #
@@ -58,8 +60,6 @@ speed=68
 payload=11
 length=6
 loading_time=2350
-#
-engine_type=diesel
 #
 constraint[next][0]=none
 constraint[prev][0]=road_truck_piece_1940_blitz

@@ -14,6 +14,8 @@ speed=80
 length=3
 #
 engine_type=diesel
+sound=truck.wav
+smoke=Diesel_small
 power=375
 # Auch hier gibt es vom Hersteller ein breites Motorenprogramm.
 # Möglich bis maximal 460kW.

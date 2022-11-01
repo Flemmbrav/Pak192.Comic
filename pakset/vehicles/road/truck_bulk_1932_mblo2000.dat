@@ -18,6 +18,8 @@ length=6
 loading_time=853
 #
 engine_type=diesel
+sound=truck.wav
+smoke=Diesel_small
 power=40
 gear=250
 #
@@ -53,8 +55,6 @@ speed=65
 payload=9
 length=6
 loading_time=1279
-#
-engine_type=diesel
 #
 constraint[next][0]=none
 constraint[prev][0]=road_truck_bulk_1932_mblo2000
