@@ -18,6 +18,7 @@ length=7
 waytype=tram_track
 engine_type=electric
 loading_time=960
+sound=ET2010.wav
 
 Constraint[Prev][0]=M5000_2-MLT
 Constraint[Prev][1]=none
@@ -52,6 +53,7 @@ length=11
 waytype=tram_track
 engine_type=electric
 loading_time=960
+sound=ET2010.wav
 
 Constraint[Prev][0]=M5000_1-MLT
 Constraint[Next][0]=M5000_1-MLT

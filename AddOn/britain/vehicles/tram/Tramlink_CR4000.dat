@@ -20,6 +20,7 @@ length=6
 waytype=tram_track
 engine_type=electric
 loading_time=950
+sound=ET2010.wav
 
 Constraint[Prev][0]=Tramlink_CR4000_3
 Constraint[Prev][1]=none
@@ -54,6 +55,7 @@ length=1
 waytype=tram_track
 engine_type=electric
 loading_time=110
+sound=ET2010.wav
 
 Constraint[Prev][0]=Tramlink_CR4000_1
 Constraint[Next][0]=Tramlink_CR4000_3
@@ -87,6 +89,7 @@ length=11
 waytype=tram_track
 engine_type=electric
 loading_time=950
+sound=ET2010.wav
 
 Constraint[Prev][0]=Tramlink_CR4000_2
 Constraint[Next][0]=Tramlink_CR4000_1
@@ -123,6 +126,7 @@ length=6
 waytype=tram_track
 engine_type=electric
 loading_time=950
+sound=ET2010.wav
 
 Constraint[Prev][0]=Tramlink_CR4000_2_3
 Constraint[Prev][1]=none
@@ -157,6 +161,7 @@ length=1
 waytype=tram_track
 engine_type=electric
 loading_time=110
+sound=ET2010.wav
 
 Constraint[Prev][0]=Tramlink_CR4000_2_1
 Constraint[Next][0]=Tramlink_CR4000_2_3
@@ -190,6 +195,7 @@ length=11
 waytype=tram_track
 engine_type=electric
 loading_time=950
+sound=ET2010.wav
 
 Constraint[Prev][0]=Tramlink_CR4000_2_2
 Constraint[Next][0]=Tramlink_CR4000_2_1
