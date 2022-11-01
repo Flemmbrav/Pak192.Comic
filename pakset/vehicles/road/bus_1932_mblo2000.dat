@@ -21,6 +21,7 @@ loading_time=894
 engine_type=diesel
 power=40
 gear=250
+sound=bus.wav
 #
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1932_mblo2000.0.<$0>
@@ -49,6 +50,7 @@ loading_time=1192
 engine_type=diesel
 power=40
 gear=250
+sound=bus.wav
 #
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1932_mblo2000.1.<$0>
@@ -77,6 +79,7 @@ loading_time=1579
 engine_type=diesel
 power=40
 gear=250
+sound=bus.wav
 #
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1932_mblo2000.2.<$0>
@@ -105,6 +108,7 @@ loading_time=2105
 engine_type=diesel
 power=40
 gear=250
+sound=bus.wav
 #
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1932_mblo2000.3.<$0>

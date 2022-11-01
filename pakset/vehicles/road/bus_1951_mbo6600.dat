@@ -19,6 +19,7 @@ loading_time=1962
 engine_type=diesel
 power=107
 gear=150
+sound=bus.wav
 #
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1951_mbo6600.0.<$0>
@@ -45,6 +46,7 @@ loading_time=2608
 engine_type=diesel
 power=107
 gear=150
+sound=bus.wav
 #
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1951_mbo6600.1.<$0>
@@ -71,6 +73,7 @@ loading_time=1890
 engine_type=electric
 power=105
 gear=150
+sound=bus.wav
 #
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1951_mbo6600.2.<$0>

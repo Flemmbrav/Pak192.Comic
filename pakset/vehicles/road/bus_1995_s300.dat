@@ -21,6 +21,7 @@ engine_type=diesel
 power=220
 gear=110
 smoke=Diesel_small
+sound=bus.wav
 #
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -49,6 +50,7 @@ engine_type=diesel
 power=250
 gear=110
 smoke=Diesel_small
+sound=bus.wav
 #
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -78,6 +80,7 @@ engine_type=diesel
 power=250
 gear=110
 smoke=Diesel_small
+sound=bus.wav
 #
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -104,6 +107,7 @@ length=10
 loading_time=4800
 #
 engine_type=diesel
+sound=bus.wav
 #
 constraint[next][0]=road_bus_1995_s321landback
 constraint[prev][0]=none
@@ -133,6 +137,7 @@ engine_type=diesel
 power=250
 gear=110
 smoke=Diesel_small
+sound=bus.wav
 #
 constraint[prev][0]=road_bus_1995_s321land
 constraint[next][0]=none

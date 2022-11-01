@@ -18,6 +18,7 @@ engine_type=diesel
 power=200
 gear=75
 smoke=Diesel_small
+sound=bus.wav
 #
 constraint[next][0]=none
 constraint[prev][0]=none

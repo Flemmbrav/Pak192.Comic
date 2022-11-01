@@ -19,6 +19,8 @@ loading_time=1176
 engine_type=diesel
 power=220
 gear=70
+smoke=Diesel_small
+sound=bus.wav
 #
 constraint[prev][0]=none
 constraint[next][0]=none
@@ -44,6 +46,7 @@ length=8
 loading_time=950
 #
 engine_type=diesel
+sound=bus.wav
 #
 constraint[prev][0]=none
 constraint[next][0]=road_bus_2001_530c1gback
@@ -69,6 +72,7 @@ length=8
 loading_time=950
 #
 engine_type=diesel
+smoke=Diesel_small
 power=260
 gear=100
 #
@@ -94,6 +98,8 @@ length=10
 loading_time=2533
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=bus.wav
 power=220
 gear=100
 #

@@ -19,6 +19,8 @@ loading_time=7590
 engine_type=diesel
 power=428
 gear=55
+smoke=Diesel_small
+sound=bus.wav
 #
 constraint[next][0]=none
 constraint[prev][0]=none

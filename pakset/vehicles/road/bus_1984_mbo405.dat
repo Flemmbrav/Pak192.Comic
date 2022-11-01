@@ -17,6 +17,8 @@ length=10
 loading_time=1247
 #
 engine_type=diesel
+sound=bus.wav
+smoke=Diesel_small
 power=150
 gear=70
 #
@@ -44,6 +46,7 @@ length=8
 loading_time=1008
 #
 engine_type=diesel
+sound=bus.wav
 #
 constraint[prev][0]=none
 constraint[next][0]=road_bus_1984_mbo405gback
@@ -69,6 +72,8 @@ length=8
 loading_time=1008
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=bus.wav
 power=220
 gear=100
 #
@@ -96,6 +101,8 @@ length=10
 loading_time=2167
 #
 engine_type=diesel
+smoke=Diesel_small
+sound=bus.wav
 power=150
 gear=100
 #
