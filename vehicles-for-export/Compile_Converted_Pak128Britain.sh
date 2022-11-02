@@ -2,7 +2,7 @@
 
 set -e
 
-echo 'pak192.comic open-source repository Serverset compiler for Unix'
+echo 'pak192.comic open-source repository compiler for Linux'
 echo -e '======================================================\n'
 
 echo 'This bash compiles this repository into a new folder'
@@ -43,7 +43,8 @@ compile() {
 
         if [ -f "$dat" ] ; then
             echo -e "Compiling $dat"
-            ./makeobj pak$1 ./compiled_serverset/ "./$dat" &> /dev/null
+
+            ./makeobj pak$1 ./compiled_converted/ "./$dat" &> /dev/null
                 if [[ $? != 0 ]]; then
                     echo "Error: Makeobj returned an error for $dat. Aborting..."
                 fi
@@ -109,7 +110,7 @@ compile() {
  #           # recompiling if necessary
   #          if [[ $recompile == 1 ]]; then
    #             
-    #       set -e o pipefail
+    #		set -e o pipefail
     #                echo -e "\x1B[33mError: Can not compile $dat\x1B[0m"
     #                rm "$csv.in"
     #                exit $?
@@ -140,11 +141,11 @@ fi
 echo -e 'OK\n'
 
 # Create folder for *.paks or delete all old paks if folder already exists
-if [ ! -d 'compiled_serverset' ]; then
-    mkdir compiled_serverset
+if [ ! -d '../Pak128Britain' ]; then
+    mkdir ../Pak128Britain
 fi
 
-csv=compiled_serverset/compiled_serverset.csv
+csv=../Pak128Britain/compile.csv
 
 # No file from last run, create empty one
 if [ ! -f $csv ]; then
@@ -152,49 +153,12 @@ if [ ! -f $csv ]; then
 fi
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
-compile '192' 'Landscape' 'calculated/pakset/landscape/ground/*.dat'
-compile '192' 'Landscape' 'calculated/pakset/landscape/ground_objects/*.dat'
-compile '192' 'Landscape' 'calculated/pakset/landscape/tree/*.dat'
-compile '48' 'Landscape' 'calculated/pakset/landscape/pedestrians/*.dat'
-compile '192' 'Buildings' 'calculated/pakset/buildings/**/*.dat'
-compile '192' 'Infrastructure' 'calculated/pakset/infrastructure/**/*.dat'
-compile '192' 'Vehicles' 'calculated/pakset/vehicles/**/*.dat'
-compile '192' 'Goods' 'calculated/pakset/buildings/factories/goods/*.dat'
-compile '32' 'User Interface' 'calculated/pakset/UI/32/*.dat'
-compile '64' 'User Interface' 'calculated/pakset/UI/64/*.dat'
-compile '128' 'User Interface' 'calculated/pakset/UI/128/*.dat'
-compile '192' 'User Interface' 'calculated/pakset/UI/192/*.dat'
-compile '384' 'Larger Objects' 'calculated/pakset/384/**/*.dat'
+compile '128' 'Vehicles' '../Pak128Britain/*.dat'
 
-compile '192' 'AddOns 1/5' 'calculated/AddOn/*.dat'
-compile '192' 'AddOns 2/5' 'calculated/AddOn/**/*.dat'
-compile '192' 'AddOns 3/5' 'calculated/AddOn/**/**/*.dat'
-compile '192' 'AddOns 4/5' 'calculated/AddOn/**/**/**/*.dat'
-compile '192' 'AddOns 5/5' 'calculated/AddOn/**/**/**/**/*.dat'
-
-#compile '192' 'British Stuff 1/2' 'calculated/AddOn/britain/**/*.dat'
-#compile '192' 'British Stuff 2/2' 'calculated/AddOn/britain/**/**/*.dat'
-#compile '192' 'Austrian Stuff' 'calculated/AddOn/austrian/**/**/*.dat'
-#compile '192' 'British Infrastrukture' 'calculated/AddOn/britain/Infrastruktur/*.dat'
-#compile '192' 'British Vehicles' 'calculated/AddOn/britain/vehicles/**/*.dat'
-#compile '192' 'Belgish Stuff' 'calculated/AddOn/belgian/**/*.dat'
-#compile '192' 'Czech Vehicles' 'calculated/AddOn/czech/vehicles/**/*.dat'
-#compile '192' 'Danish Stuff' 'calculated/AddOn/danish/**/*.dat'
-#compile '192' 'French Stuff' 'calculated/AddOn/french/**/*.dat'
-#compile '192' 'German Vehicles' 'calculated/AddOn/german/vehicles/**/*.dat'
-#compile '192' 'Japanese Stuff' 'calculated/AddOn/japanese/**/*.dat'
-#compile '192' 'Luxembourgian Stuff' 'calculated/AddOn/luxembourgian/vehicles/*.dat'
-#compile '192' 'Norwegian Stuff 1/2' 'calculated/AddOn/norwegian/**/*.dat'
-#compile '192' 'Norwegian Stuff 2/2' 'calculated/AddOn/norwegian/**/**/*.dat'
-#compile '192' 'Swiss Stuff' 'calculated/AddOn/swiss/**/**/*.dat'
 # Finished successfully, get rid of old csv
 mv "$csv.in" "$csv"
 
-echo -e '------------------------------------------------------'
-echo -e 'Moving Trunk (configs, sound, text)\n\n'
-
-cp -r calculated/pakset/trunk/* compiled_serverset
 
 echo '======================================================'
-echo 'Serverset folder complete!'
+echo 'Pakset complete!'
 echo '======================================================'

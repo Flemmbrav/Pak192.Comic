@@ -1,0 +1,897 @@
+### UNIQUE GOODS TYPES ###
+# Passengers
+# Class: passengers
+obj=good
+name=Passagiere
+mapcolor=79
+metric=
+catg=0
+number_of_classes=5
+#
+#value=42
+value=50
+#
+value[0]=55
+to_distance[0]=16
+value[1]=50
+to_distance[1]=500
+value[2]=45
+to_distance[2]=2500
+value[3]=40
+to_distance[3]=5000
+value[4]=35
+to_distance[4]=0
+
+class_revenue_percent[0]=50
+class_revenue_percent[1]=100
+class_revenue_percent[2]=150
+class_revenue_percent[3]=200
+class_revenue_percent[4]=300
+
+speed_bonus=18
+weight_per_unit=70
+-----------------------
+# Mail
+# Class: mail
+obj=good
+name=Post
+mapcolor=31
+metric=bundles
+catg=0
+number_of_classes=2
+#
+#value=48
+value=57
+#
+value[0]=7
+to_distance[0]=16
+value[1]=6
+to_distance[1]=32
+value[2]=5
+to_distance[2]=500
+value[3]=2
+to_distance[3]=1000
+value[4]=1
+to_distance[4]=0
+
+class_revenue_percent[0]=100
+class_revenue_percent[1]=250
+
+speed_bonus=15
+weight_per_unit=1
+-----------------------
+# Livestock
+# Class: Livestock treated as class of own.
+obj=good
+name=livestock
+mapcolor=115
+metric=head
+catg=0
+#
+#value=35
+value=56
+#
+value[0]=67
+to_distance[0]=16
+value[1]=56
+to_distance[1]=32
+value[2]=52
+to_distance[2]=0
+speed_bonus=2
+weight_per_unit=120
+------------------------------------------
+# None
+obj=good
+name=None
+metric=
+catg=0
+value=0
+weight_per_unit=1
+-----------------------
+# Cars
+# Class: not given, but treat as IV
+obj=good
+name=Autos
+mapcolor=131
+metric=cars
+catg=0
+#
+#value=225
+value=284
+#
+value[0]=324
+to_distance[0]=32
+value[1]=284
+to_distance[1]=48
+value[2]=225
+to_distance[2]=80
+value[3]=198
+to_distance[3]=0
+speed_bonus=15
+weight_per_unit=1800
+-----------------------
+# Fresh fish (caught from the sea)
+# Class: not given, but treat as III
+obj=good
+name=FreshFish
+mapcolor=149
+metric=paletten
+catg=0
+#
+value=133
+#
+value[0]=110
+to_distance[0]=32
+value[1]=93
+to_distance[1]=48
+value[2]=70
+to_distance[2]=80
+value[3]=50
+to_distance[3]=0
+speed_bonus=15
+weight_per_unit=1000
+-----------------------
+### BULK GOODS ###
+# Coal
+# Class: A
+obj=good
+name=Kohle
+mapcolor=208
+metric=tonnen
+catg=2
+#
+#value=35
+value=45
+#
+value[0]=58
+to_distance[0]=32
+value[1]=45
+to_distance[1]=48
+value[2]=23
+to_distance[2]=80
+value[3]=20
+to_distance[3]=240
+value[4]=0
+speed_bonus=0
+weight_per_unit=1000
+-----------------------
+# Iron Ore
+# Class: A
+obj=good
+name=Eisenerz
+mapcolor=130
+metric=tonnen
+catg=2
+#
+#value=35
+value=45
+#
+value[0]=58
+to_distance[0]=32
+value[1]=45
+to_distance[1]=48
+value[2]=23
+to_distance[2]=80
+value[3]=20
+to_distance[3]=240
+value[4]=0
+speed_bonus=0
+weight_per_unit=1000
+-----------------------
+# Wood Chip
+# Class: not given, but treat as B
+obj=good
+name=woodchip
+mapcolor=68
+metric=tonnen
+catg=2
+#
+#value=35
+value=53
+#
+value[0]=70
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=28
+to_distance[3]=240
+value[4]=0
+speed_bonus=0
+weight_per_unit=1000
+-----------------------
+# Stone
+# Class: B
+obj=good
+name=Stone
+mapcolor=12
+metric=tonnen
+catg=2
+#
+#value=35
+value=53
+#
+value[0]=70
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=28
+to_distance[3]=240
+value[4]=0
+speed_bonus=0
+weight_per_unit=1000
+-----------------------
+# Clay
+# Class: B
+obj=good
+name=clay
+mapcolor=93
+metric=tonnen
+catg=2
+#
+#value=35
+value=53
+#
+value[0]=70
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=28
+to_distance[3]=240
+value[4]=0
+speed_bonus=0
+weight_per_unit=1000
+-----------------------
+# Cement
+# Not given, but treat as C
+obj=good
+name=Cement
+mapcolor=14
+metric=tonnen
+catg=2
+#
+#value=35
+value=75
+#
+value[0]=90
+to_distance[0]=32
+value[1]=75
+to_distance[1]=48
+value[2]=60
+to_distance[2]=80
+value[3]=35
+to_distance[3]=0
+speed_bonus=0
+weight_per_unit=1000
+-----------------------
+obj=good
+# Class: C
+name=grain
+mapcolor=29
+metric=tonnen
+catg=2
+#
+#value=35
+value=75
+#
+value[0]=90
+to_distance[0]=32
+value[1]=75
+to_distance[1]=48
+value[2]=60
+to_distance[2]=80
+value[3]=35
+to_distance[3]=0
+speed_bonus=1
+weight_per_unit=1000
+-----------------------
+### PIECE GOODS ###
+# Subcategory - High Speedbonus
+# Books
+# Class: III
+obj=good
+name=Bucher
+metric=paletten
+catg=1
+#
+#value=51
+value=133
+#
+value[0]=155
+to_distance[0]=32
+value[1]=133
+to_distance[1]=48
+value[2]=100
+to_distance[2]=80
+value[3]=90
+to_distance[3]=0
+speed_bonus=10
+weight_per_unit=810
+-----------------------
+# Fruit
+# Class: I
+obj=good
+name=fruit
+mapcolor=133
+metric=paletten
+catg=1
+#
+#value=51
+value=68
+#
+value[0]=80
+to_distance[0]=32
+value[1]=68
+to_distance[1]=48
+value[2]=51
+to_distance[2]=80
+value[3]=37
+to_distance[3]=0
+speed_bonus=10
+weight_per_unit=730
+-----------------------
+# Vegetables
+# Class: I
+obj=good
+name=vegetables
+mapcolor=136
+metric=paletten
+catg=1
+#
+#value=51
+value=65
+#
+value[0]=77
+to_distance[0]=32
+value[1]=65
+to_distance[1]=48
+value[2]=49
+to_distance[2]=80
+value[3]=35
+to_distance[3]=0
+speed_bonus=15
+weight_per_unit=700
+-----------------------
+# Newspaper
+# Class: not given, but treat as III
+obj=good
+name=newspaper
+mapcolor=223
+metric=paletten
+catg=1
+#
+#value=51
+value=105
+#
+value[0]=122
+to_distance[0]=32
+value[1]=105
+to_distance[1]=48
+value[2]=79
+to_distance[2]=80
+value[3]=71
+to_distance[3]=0
+speed_bonus=10
+weight_per_unit=790
+------------------------------------------
+# Subcategory - Low Speedbonus
+# Hardware
+# Class: I
+obj=good
+name=hardware
+mapcolor=213
+metric=paletten
+catg=1
+#
+#value=35
+value=69
+#
+value[0]=83
+to_distance[0]=32
+value[1]=69
+to_distance[1]=48
+value[2]=53
+to_distance[2]=80
+value[3]=38
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=750
+-----------------------
+# Furniture
+# Class: not given, but treat as III
+obj=good
+name=Moebel
+mapcolor=152
+metric=paletten
+catg=1
+#
+#value=50
+value=53
+#
+value[0]=62
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=36
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=400
+-----------------------
+# Textiles
+# Class: III
+obj=good
+name=textile
+mapcolor=18
+metric=paletten
+catg=1
+#
+#value=35
+value=57
+#
+value[0]=67
+to_distance[0]=32
+value[1]=57
+to_distance[1]=48
+value[2]=43
+to_distance[2]=80
+value[3]=39
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=430
+-----------------------
+# Flour
+# Class: C
+obj=good
+name=flour
+mapcolor=175
+metric=paletten
+catg=1
+#
+#value=35
+value=63
+#
+value[0]=76
+to_distance[0]=32
+value[1]=63
+to_distance[1]=48
+value[2]=
+to_distance[2]=80
+value[3]=
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=840
+-----------------------
+# Beer
+# Class: I
+obj=good
+name=beer
+mapcolor=28
+metric=barrels
+catg=1
+#
+#value=35
+value=74
+#
+value[0]=88
+to_distance[0]=32
+value[1]=74
+to_distance[1]=48
+value[2]=56
+to_distance[2]=80
+value[3]=40
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=800
+-----------------------
+# Cider
+# Class: not given, but treat as I
+obj=good
+name=cider
+mapcolor=159
+metric=barrels
+catg=1
+#
+#value=35
+value=73
+#
+value[0]=86
+to_distance[0]=32
+value[1]=73
+to_distance[1]=48
+value[2]=55
+to_distance[2]=80
+value[3]=39
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=780
+-----------------------
+# Pharmaceuticals
+# Class: not given, but treat as IV
+obj=good
+name=pharmaceuticals
+mapcolor=53
+metric=paletten
+catg=1
+#
+#value=35
+value=91
+#
+value[0]=104
+to_distance[0]=32
+value[1]=91
+to_distance[1]=48
+value[2]=73
+to_distance[2]=80
+value[3]=64
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=580
+-----------------------
+# Plastic
+# Class: not given, but treat as C
+obj=good
+name=Plastik
+mapcolor=5
+metric=paletten
+catg=1
+#
+#value=35
+value=38
+#
+value[0]=45
+to_distance[0]=32
+value[1]=38
+to_distance[1]=48
+value[2]=30
+to_distance[2]=80
+value[3]=18
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=500
+-----------------------
+# Paper
+# Class: I
+obj=good
+name=Papier
+mapcolor=15
+metric=paletten
+catg=1
+#
+#value=35
+value=74
+#
+value[0]=88
+to_distance[0]=32
+value[1]=74
+to_distance[1]=48
+value[2]=56
+to_distance[2]=80
+value[3]=40
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=800
+-----------------------
+# Wool
+# Class: not given, but treat as C
+obj=good
+name=wool
+metric=sack
+catg=1
+#
+#value=35
+value=29
+#
+value[0]=34
+to_distance[0]=32
+value[1]=29
+to_distance[1]=48
+value[2]=23
+to_distance[2]=80
+value[3]=13
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=380
+-------------------------
+# China
+# Class: II
+obj=good
+name=china
+mapcolor=7
+metric=paletten
+catg=1
+#
+#value=35
+value=52
+#
+value[0]=60
+to_distance[0]=32
+value[1]=52
+to_distance[1]=48
+value[2]=41
+to_distance[2]=80
+value[3]=34
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=450
+------------------------------------------
+# Bricks
+# Class: B
+obj=good
+name=bricks
+mapcolor=38
+metric=paletten
+catg=1
+#
+#value=35
+value=43
+#
+value[0]=57
+to_distance[0]=32
+value[1]=43
+to_distance[1]=48
+value[2]=33
+to_distance[2]=80
+value[3]=23
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=820
+---------------------------------------
+# Canned Food
+# Class: not given, but treat as IV
+obj=good
+name=canned_food
+mapcolor=10
+metric=paletten
+catg=1
+#
+#value=35
+value=129
+#
+value[0]=148
+to_distance[0]=32
+value[1]=129
+to_distance[1]=48
+value[2]=103
+to_distance[2]=80
+value[3]=90
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=820
+---------------------------------------
+### LONG GOODS ###
+# Steel
+# Class C
+obj=good
+name=Stahl
+mapcolor=9
+metric=tonnen
+catg=6
+#
+#value=35
+value=75
+#
+value[0]=90
+to_distance[0]=32
+value[1]=75
+to_distance[1]=48
+value[2]=60
+to_distance[2]=80
+value[3]=35
+to_distance[3]=0
+speed_bonus=2
+weight_per_unit=1000
+-----------------------
+# Wrought iron
+# Class: C
+obj=good
+name=WroughtIron
+mapcolor=90
+metric=tonnen
+catg=6
+#
+value=53
+#
+value[0]=70
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=28
+to_distance[3]=240
+value[4]=0
+speed_bonus=0
+weight_per_unit=1000
+-----------------------
+# Planks
+# Class: not given, but treat as I
+obj=good
+name=Bretter
+mapcolor=94
+metric=tonnen
+catg=6
+#
+#value=35
+value=93
+#
+value[0]=110
+to_distance[0]=32
+value[1]=93
+to_distance[1]=48
+value[2]=70
+to_distance[2]=80
+value[3]=50
+to_distance[3]=0
+speed_bonus=2
+weight_per_unit=1000
+-----------------------
+### BULK LIQUIDS ###
+# Crude Oil
+# Class: I
+obj=good
+name=Oel
+mapcolor=218
+metric=kilolitres
+catg=3
+#
+#value=35
+value=83
+#
+value[0]=99
+to_distance[0]=32
+value[1]=83
+to_distance[1]=48
+value[2]=63
+to_distance[2]=80
+value[3]=45
+to_distance[3]=0
+speed_bonus=0
+# http://www.bp.com/conversionfactors.jsp
+weight_per_unit=858
+-----------------------
+# Petrol
+# Class: I
+obj=good
+name=Gasoline
+mapcolor=71
+metric=kilolitres
+catg=3
+#
+#value=35
+value=70
+#
+value[0]=83
+to_distance[0]=32
+value[1]=70
+to_distance[1]=48
+value[2]=53
+to_distance[2]=80
+value[3]=38
+to_distance[3]=0
+speed_bonus=0
+# http://www.bp.com/conversionfactors.jsp
+weight_per_unit=740
+-----------------------
+# Fuel Oil
+# Class: I
+obj=good
+name=FuelOil
+mapcolor=101
+metric=kilolitres
+catg=3
+#
+#value=35
+value=93
+#
+value[0]=110
+to_distance[0]=32
+value[1]=93
+to_distance[1]=48
+value[2]=70
+to_distance[2]=80
+value[3]=50
+to_distance[3]=0
+speed_bonus=0
+weight_per_unit=1000
+-----------------------
+# Chemicals
+# Class: C
+obj=good
+name=Chemicals
+metric=kilolitres
+catg=3
+#
+#value=35
+value=66
+#
+value[0]=77
+to_distance[0]=32
+value[1]=66
+to_distance[1]=48
+value[2]=53
+to_distance[2]=80
+value[3]=31
+to_distance[3]=0
+speed_bonus=0
+weight_per_unit=860
+-----------------------
+### COOLED GOODS ###
+# Meat
+# Class: II
+obj=good
+name=meat
+mapcolor=135
+metric=paletten
+catg=4
+#
+#value=69
+value=47
+#
+value[0]=54
+to_distance[0]=32
+value[1]=47
+to_distance[1]=48
+value[2]=37
+to_distance[2]=80
+value[3]=31
+to_distance[3]=0
+speed_bonus=15
+weight_per_unit=410
+-----------------------
+# Fish
+# Class: not given, but treat as I
+obj=good
+name=fish
+mapcolor=23
+metric=paletten
+catg=4
+#
+#value=69
+value=48
+#
+value[0]=45
+to_distance[0]=32
+value[1]=38
+to_distance[1]=48
+value[2]=29
+to_distance[2]=80
+value[3]=21
+to_distance[3]=0
+speed_bonus=15
+weight_per_unit=410
+-----------------------
+# Milk
+# Class: not given, but treat as I
+# http://www.igg.org.uk/gansg/12-linind/milk.htm
+# Each churn held 17 gal., or 77l
+# For capacity of churn vans, see:
+# http://www.gersociety.org.uk/index.php/rolling-stock/misc-stock/milk-vans
+# This gives about 5 churns per loadable unit for standard food vehicles.
+obj=good
+name=milk
+mapcolor=215
+metric=churns (x5)
+catg=4
+#
+#value=69
+value=32
+#
+value[0]=51
+to_distance[0]=32
+value[1]=43
+to_distance[1]=48
+value[2]=32
+to_distance[2]=80
+value[3]=23
+to_distance[3]=160
+value[4]=0
+to_distance[4]=0
+speed_bonus=15
+weight_per_unit=385
