@@ -73,6 +73,15 @@ if [ ${#directionary[@]} -gt 0 ] ; then
 	done
 fi
 
+`rm -rf ../Pak128Britain/image/`
+`rm -rf ../Pak128Britain/tram_image/`
+`rm -rf ../Pak128Britain/AddOn/`
+`rm -rf ../Pak128Britain/*.dat`
+`rm -rf ../Pak128Britain/makeobj`
+`rm -rf ../ToBeExported/`
+`rm -rf ../Pak128Britain/ToBeExported/`
+
+
 
 #./makeobj pak128
 #`rm -rf ./makeobj`
