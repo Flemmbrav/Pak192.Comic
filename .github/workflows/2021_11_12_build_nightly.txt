@@ -27,9 +27,9 @@ jobs:
         cat config.default >>/dev/stderr
     - name: make makeobj
       run: |
-          cd simutrans/trunk/src/makeobj
+          cd simutrans/trunk/makeobj
           make
-          mv makeobj ../../../..
+          mv makeobj ../../..
           cd ../../..
           rm -rf simutrans
 
@@ -110,9 +110,9 @@ jobs:
         cat config.default >>/dev/stderr
     - name: make makeobj
       run: |
-          cd simutrans/trunk/src/makeobj
+          cd simutrans/trunk/makeobj
           make
-          mv makeobj ../../../..
+          mv makeobj ../../..
           cd ../../..
           rm -rf simutrans
 
@@ -136,54 +136,5 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: ./pak192.comic-serverset-nightly.zip
         asset_name: pak192.comic-serverset-nightly.zip
-        tag: Nightly
-        overwrite: true
-        
-        
-  compile_vehicle_exports:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v1
-
-    - name: install_dependencies
-      run: |
-          sudo apt-get -y update
-          sudo apt-get -ym install libpng-dev
-          sudo apt-get -ym install libsdl2-dev
-          sudo apt-get -ym install libbz2-dev
-          sudo apt-get -ym install autoconf
-          sudo apt-get -ym install imagemagick
-          svn checkout svn://servers.simutrans.org/simutrans simutrans
-    - name: setup
-      run: |
-        cd simutrans/trunk
-        autoconf
-        ./configure
-        cat config.default >>/dev/stderr
-    - name: make makeobj
-      run: |
-          cd simutrans/trunk/src/makeobj
-          make
-          mv makeobj ../../../..
-          cd ../../..
-          rm -rf simutrans
-
-    - name: Compile pak192.comic vehicles als pak128.britain vehicles
-      run: |
-          cd vehicles-for-export
-          bash Compile_Pak128Britain_Vehicles.sh
-          cd ..
-    - name: zip vehicles
-      run: |
-        mv Pak128Britain pak192.comic-vehicles-for-pak128britain
-        zip -r pak192.comic-vehicles-for-pak128britain.zip pak192.comic-vehicles-for-pak128britain
-
-    - name: Update Serverset of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192.comic-vehicles-for-pak128britain.zip
-        asset_name: pak192.comic-vehicles-for-pak128britain.zip
         tag: Nightly
         overwrite: true
