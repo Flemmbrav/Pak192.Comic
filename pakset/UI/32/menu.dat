@@ -111,9 +111,20 @@ Image[22]=> misc_list_editor.2.1
 Image[23]=> misc_list_editor.2.2
 Image[24]=> misc_list_editor.2.4
 Image[25]=> misc_list_editor.0.2
-Image[26]=> misc_list_editor.0.8
-Image[27]=> misc_list_editor.0.9
+Image[26]=> misc_list_editor.3.0
+Image[27]=> misc_list_editor.3.1
 Image[28]=> misc_list_editor.2.7
+Image[29]=> misc_list_editor.3.2
+Image[30]=> misc_list_editor.3.3
+Image[31]=> misc_list_editor.3.4
+Image[32]=> misc_list_editor.3.5
+Image[33]=> misc_list_editor.3.6
+Image[34]=> misc_list_editor.3.7
+Image[35]=> misc_list_editor.2.6
+
+
+
+
 -------------------
 obj=menu
 name=BarTools

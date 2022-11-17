@@ -329,11 +329,11 @@ dialog_tool[35]=35
 #
 
 # toolbar[0] is always main menu
-toolbar[0][0]=dialog_tool[1],0
-toolbar[0][1]=dialog_tool[28],24
-toolbar[0][2]=dialog_tool[13],1
-toolbar[0][3]=dialog_tool[12],2
-toolbar[0][4]=dialog_tool[2],3
+toolbar[0][0]=dialog_tool[1]
+toolbar[0][1]=dialog_tool[28]
+toolbar[0][2]=dialog_tool[13]
+toolbar[0][3]=dialog_tool[12]
+toolbar[0][4]=dialog_tool[2]
 toolbar[0][5]=general_tool[0],4
 toolbar[0][6]=toolbar[1],5,,VIEW,VIEW.txt
 toolbar[0][7]=-
@@ -354,17 +354,18 @@ toolbar[0][21]=general_tool[1],21
 toolbar[0][22]=toolbar[13],22,,ABRISSTOOLS,abriss.txt
 toolbar[0][23]=-
 toolbar[0][24]=x
-toolbar[0][25]=dialog_tool[3],25
+toolbar[0][25]=dialog_tool[3]
 toolbar[0][26]=toolbar[14],26,,LISTTOOLS,list.txt
-toolbar[0][27]=dialog_tool[4],27
-toolbar[0][28]=dialog_tool[5],28
+toolbar[0][27]=dialog_tool[4]
+toolbar[0][28]=dialog_tool[5]
 toolbar[0][29]=-,34
 toolbar[0][30]=simple_tool[2],30
 toolbar[0][31]=simple_tool[0],31
 toolbar[0][32]=simple_tool[1],32
-toolbar[0][33]=dialog_tool[0],33
+toolbar[0][33]=dialog_tool[0]
 toolbar[0][34]=toolbar[15],29,,EDITTOOLS,edittools.txt
-toolbar[0][35]=-,34
+toolbar[0][35]=dialog_tool[27]
+toolbar[0][36]=-,34
 
 # invisible tools
 toolbar[0][68]=simple_tool[7],,.,+1
@@ -650,15 +651,15 @@ toolbar[13][14]=general_tool[33],126,,2
 toolbar[13][15]=-b,123
 
 # list tools
-toolbar[14][0]=dialog_tool[27],139
-toolbar[14][1]=dialog_tool[14],130
-toolbar[14][2]=dialog_tool[25],132
-toolbar[14][3]=dialog_tool[15],138
-toolbar[14][4]=dialog_tool[26],131
-toolbar[14][5]=dialog_tool[16],133
-toolbar[14][6]=dialog_tool[17],134
-toolbar[14][7]=dialog_tool[18],135
-toolbar[14][8]=dialog_tool[19],136
+toolbar[14][0]=dialog_tool[33]
+toolbar[14][1]=dialog_tool[14]
+toolbar[14][2]=dialog_tool[25]
+toolbar[14][3]=dialog_tool[15]
+toolbar[14][4]=dialog_tool[32]
+toolbar[14][5]=dialog_tool[16]
+toolbar[14][6]=dialog_tool[17]
+toolbar[14][7]=dialog_tool[18]
+toolbar[14][8]=dialog_tool[19]
 toolbar[14][9]=-b,137
 
 
@@ -670,14 +671,14 @@ toolbar[15][3]=general_tool[14],143,,city_road
 toolbar[15][4]=general_tool[29],144
 toolbar[15][5]=simple_tool[3],145
 toolbar[15][6]=general_tool[26],146
-toolbar[15][7]=dialog_tool[20],147,(
-toolbar[15][8]=dialog_tool[21],148,/
-toolbar[15][9]=dialog_tool[22],149,&
-toolbar[15][10]=dialog_tool[23],150
-toolbar[15][11]=dialog_tool[35],153
+toolbar[15][7]=dialog_tool[20],,(
+toolbar[15][8]=dialog_tool[21],,/
+toolbar[15][9]=dialog_tool[22],,&
+toolbar[15][10]=dialog_tool[23]
+toolbar[15][11]=dialog_tool[35]
 toolbar[15][12]=simple_tool[6],151
 toolbar[15][13]=ways(3,255)
-toolbar[15][14]=dialog_tool[24],152
+toolbar[15][14]=dialog_tool[24]
 toolbar[15][15]=-b,137
 
 
