@@ -9,9 +9,9 @@
 #  impact these changes have!                                                  #
 #                                                                              #
 # German:                                                                      #
-#  Bitte beachten sie, das Änderungen an dieser Datei Fehler im Verhalten des  #
-#  Spieles auftreten können. Verändern sie nur Daten wenn sie absolut sicher   #
-#  sind, das sie Wissen was für Folgen diese Änderungen haben!                 #
+#  Bitte beachten sie, das Ã„nderungen an dieser Datei Fehler im Verhalten des  #
+#  Spieles auftreten kÃ¶nnen. VerÃ¤ndern sie nur Daten wenn sie absolut sicher   #
+#  sind, das sie Wissen was fÃ¼r Folgen diese Ã„nderungen haben!                 #
 #                                                                              #
 #                                                                              #
 #   When you make changes in this file please remember that when you make a    #
@@ -97,8 +97,8 @@ Image[8]=> -
 Image[9]=> -
 Image[10]=> -
 Image[11]=> -
-Image[12]=> main.0.1
-Image[13]=> main.0.2
+Image[12]=> main.0.2
+Image[13]=> main.0.1
 Image[14]=> misc_list_editor.0.0
 Image[15]=> misc_list_editor.0.1
 Image[16]=> misc_list_editor.0.3
@@ -111,15 +111,15 @@ Image[22]=> misc_list_editor.2.1
 Image[23]=> misc_list_editor.2.2
 Image[24]=> misc_list_editor.2.4
 Image[25]=> misc_list_editor.0.2
-Image[26]=> misc_list_editor.3.0
-Image[27]=> misc_list_editor.3.1
+Image[26]=> misc_list_editor.4.0
+Image[27]=> misc_list_editor.4.1
 Image[28]=> misc_list_editor.2.7
-Image[29]=> misc_list_editor.3.2
-Image[30]=> misc_list_editor.3.3
-Image[31]=> misc_list_editor.3.4
-Image[32]=> misc_list_editor.3.5
-Image[33]=> misc_list_editor.3.6
-Image[34]=> misc_list_editor.3.7
+Image[29]=> misc_list_editor.4.2
+Image[30]=> misc_list_editor.4.3
+Image[31]=> misc_list_editor.4.4
+Image[32]=> misc_list_editor.4.5
+Image[33]=> misc_list_editor.4.6
+Image[34]=> misc_list_editor.4.7
 Image[35]=> misc_list_editor.2.6
 
 
