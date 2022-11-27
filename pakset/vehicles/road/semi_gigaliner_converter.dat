@@ -18,4 +18,4 @@ length=3
 #
 constraint[prev][0]=any
 constraint[next][0]=any
-emptyimage[S,W,E,N,NE,SW,NW,SE]=semi_gigaliner_converter.0.<$0>
+emptyimage[S,W,E,N,NE,SW,NW,SE]=image/semi_gigaliner_converter.0.<$0>
