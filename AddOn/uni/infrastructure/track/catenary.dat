@@ -261,7 +261,8 @@ own_waytype=electrified_track
 icon=> ./images/wayobj/track_catenary_80_swapped.3.3
 cursor=./images/wayobj/track_catenary_80_swapped.3.2
 
-FrontImage[EW,NS,S,N,E,W]=./images/wayobj/track_catenary_80_swapped.0.<$0>
+FrontImage[S,N,E,W]=./images/wayobj/track_catenary_80_swapped.0.<$0+2>
+FrontImage[EW,NS]=./images/wayobj/track_catenary_80_swapped.3.<$0+4>
 FrontImage[SW,NW,NE,SE,NSEW,NSW]=./images/wayobj/track_catenary_80_swapped.1.<$0>
 FrontImage[NSE,SEW,NEW]=./images/wayobj/track_catenary_80_swapped.2.<$0>
 FrontDiagonal[SW,NW,NE,SE]=./images/wayobj/track_catenary_80_swapped.1.<$0>
@@ -275,7 +276,8 @@ FrontImageUp[9]=./images/wayobj/track_catenary_80_swapped.2.6
 FrontImageUp[3]=./images/wayobj/track_catenary_80_swapped.3.6
 FrontImageUp[6]=./images/wayobj/track_catenary_80_swapped.0.6
 
-BackImage[EW,NS,S,N,E,W]=./images/wayobj/track_catenary_80_swapped.0.<$0+7>
+BackImage[S,N,E,W]=./images/wayobj/track_catenary_80_swapped.0.<$0+9>
+BackImage[EW,NS]=-
 BackImage[SW,NW,NE,SE,NSEW,NSW]=./images/wayobj/track_catenary_80_swapped.1.<$0+7>
 BackImage[NSE,SEW,NEW]=./images/wayobj/track_catenary_80_swapped.2.<$0+7>
 BackDiagonal[SW,NW,NE,SE]=./images/wayobj/track_catenary_80_swapped.1.<$0+7>
@@ -303,7 +305,8 @@ own_waytype=electrified_track
 icon=> ./images/wayobj/track_catenary_160_swapped.3.3
 cursor=./images/wayobj/track_catenary_160_swapped.3.2
 
-FrontImage[EW,NS,S,N,E,W]=./images/wayobj/track_catenary_160_swapped.0.<$0>
+FrontImage[S,N,E,W]=./images/wayobj/track_catenary_160_swapped.0.<$0+2>
+FrontImage[EW,NS]=./images/wayobj/track_catenary_160_swapped.3.<$0+4>
 FrontImage[SW,NW,NE,SE,NSEW,NSW]=./images/wayobj/track_catenary_160_swapped.1.<$0>
 FrontImage[NSE,SEW,NEW]=./images/wayobj/track_catenary_160_swapped.2.<$0>
 FrontDiagonal[SW,NW,NE,SE]=./images/wayobj/track_catenary_160_swapped.1.<$0>
@@ -317,7 +320,8 @@ FrontImageUp[9]=./images/wayobj/track_catenary_160_swapped.2.6
 FrontImageUp[3]=./images/wayobj/track_catenary_160_swapped.3.6
 FrontImageUp[6]=./images/wayobj/track_catenary_160_swapped.0.6
 
-BackImage[EW,NS,S,N,E,W]=./images/wayobj/track_catenary_160_swapped.0.<$0+7>
+BackImage[S,N,E,W]=./images/wayobj/track_catenary_160_swapped.0.<$0+9>
+BackImage[EW,NS]=-
 BackImage[SW,NW,NE,SE,NSEW,NSW]=./images/wayobj/track_catenary_160_swapped.1.<$0+7>
 BackImage[NSE,SEW,NEW]=./images/wayobj/track_catenary_160_swapped.2.<$0+7>
 BackDiagonal[SW,NW,NE,SE]=./images/wayobj/track_catenary_160_swapped.1.<$0+7>
@@ -345,7 +349,8 @@ own_waytype=electrified_track
 icon=> ./images/wayobj/track_catenary_inf_swapped.3.3
 cursor=./images/wayobj/track_catenary_inf_swapped.3.2
 
-FrontImage[EW,NS,S,N,E,W]=./images/wayobj/track_catenary_inf_swapped.0.<$0>
+FrontImage[S,N,E,W]=./images/wayobj/track_catenary_inf_swapped.0.<$0+2>
+FrontImage[EW,NS]=./images/wayobj/track_catenary_inf_swapped.3.<$0+4>
 FrontImage[SW,NW,NE,SE,NSEW,NSW]=./images/wayobj/track_catenary_inf_swapped.1.<$0>
 FrontImage[NSE,SEW,NEW]=./images/wayobj/track_catenary_inf_swapped.2.<$0>
 FrontDiagonal[SW,NW,NE,SE]=./images/wayobj/track_catenary_inf_swapped.1.<$0>
@@ -359,7 +364,8 @@ FrontImageUp[9]=./images/wayobj/track_catenary_inf_swapped.2.6
 FrontImageUp[3]=./images/wayobj/track_catenary_inf_swapped.3.6
 FrontImageUp[6]=./images/wayobj/track_catenary_inf_swapped.0.6
 
-BackImage[EW,NS,S,N,E,W]=./images/wayobj/track_catenary_inf_swapped.0.<$0+7>
+BackImage[S,N,E,W]=./images/wayobj/track_catenary_inf_swapped.0.<$0+9>
+BackImage[EW,NS]=-
 BackImage[SW,NW,NE,SE,NSEW,NSW]=./images/wayobj/track_catenary_inf_swapped.1.<$0+7>
 BackImage[NSE,SEW,NEW]=./images/wayobj/track_catenary_inf_swapped.2.<$0+7>
 BackDiagonal[SW,NW,NE,SE]=./images/wayobj/track_catenary_inf_swapped.1.<$0+7>
