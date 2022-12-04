@@ -1,3 +1,7 @@
+################################################################################
+#                              SHORT DOCKS GOODS                               #
+################################################################################
+
 Obj=building
 Name=dock_empty
 copyright=Leartin
@@ -41,6 +45,11 @@ cursor=./images/station/dock_ic.2.1
 BackImage[0-15][0][0][0][0][0-1]=./images/station/dock_basic.<($0/2)%4>.<$0%2+($0/8)*2+$1*4>,0,10
 FrontImage[0-15][0][0][0][0][0-1]=./images/station/dock_goods01.<$1>.<$0%2+($0/8)*2>
 -----
+
+################################################################################
+#                               LONG DOCKS GOODS                               #
+################################################################################
+
 Obj=building
 Name=dock_long
 copyright=Leartin
@@ -73,7 +82,50 @@ FrontImage[0,1][0][0][0][0][0-1]=./images/station/dock_goods01.<$1>.<$0>
 FrontImage[2][2][0][0][0][0-1]=./images/station/dock_goods01.<$0>.<2>
 FrontImage[3][0][2][0][0][0-1]=./images/station/dock_goods01.<$0>.<3>
 -----
-###COMPATABILITY ONLY###
+
+################################################################################
+#                               SHORT DOCKS PAX                                #
+################################################################################
+
+Obj=building
+Name=dock_pax
+copyright=Leartin
+type=harbour
+enables_pax=1
+Level=1
+intro_year = 1821
+intro_month = 1
+Dims=1,1,16
+NoInfo=1
+icon=> ./images/station/dock_ic.5.0
+cursor=./images/station/dock_ic.5.1
+BackImage[0-15][0][0][0][0][0-1]=./images/station/dock_pax.<($0/2)%4>.<$0%2+($0/8)*2+$1*4>,0,10
+-----
+
+################################################################################
+#                                LONG DOCKS PAX                                #
+################################################################################
+
+Obj=building
+Name=dock_long_pax
+copyright=Leartin
+type=harbour
+enables_pax=1
+Level=3
+intro_year = 1821
+intro_month = 1
+Dims=1,3,4
+NoInfo=1
+icon=> ./images/station/dock_ic.6.0
+cursor=./images/station/dock_ic.6.1
+BackImage[0,2][0-2][0][0][0][0-1]=./images/station/dock_long_pax.<$0>.<$1+$2*3>,0,10
+BackImage[1,3][0][0-2][0][0][0-1]=./images/station/dock_long_pax.<$0>.<$1+$2*3>,0,10
+-----
+
+################################################################################
+#                              COMPATABILITY ONLY                              #
+################################################################################
+
 Obj=building
 Name=dock_easy
 copyright=PappeTeeMaster
