@@ -164,8 +164,9 @@ waytype=narrowgauge_track
 engine_type=electric
 
 Constraint[Prev][0]=DT1_2-VAG
-Constraint[Prev][1]=A_2-MVG
-Constraint[Prev][2]=none
+Constraint[Prev][1]=DT1_2-VAG_2
+Constraint[Prev][2]=A_2-MVG
+Constraint[Prev][3]=none
 #Constraint[Prev][0]=none
 Constraint[Next][0]=DT1_2-VAG
 
@@ -201,7 +202,8 @@ engine_type=electric
 Constraint[Prev][0]=DT1_1-VAG
 Constraint[Next][0]=A_1-MVG
 Constraint[Next][1]=DT1_1-VAG
-Constraint[Next][2]=none
+Constraint[Next][2]=DT1_1-VAG_2
+Constraint[Next][3]=none
 #Constraint[Next][0]=none
 
 EmptyImage[S]=./image/U-Bahn_Nuernberg_DT1.2.3
