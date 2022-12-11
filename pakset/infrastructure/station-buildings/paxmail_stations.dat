@@ -41,6 +41,27 @@ BackImage[0-3][0][0][0][0-2][0-1]=./images/UBahn2.<$1+$2*3>.<$0>
 ###################
 #
 Obj=building
+name=extension_postoffice
+copyright=Leartin
+intro_month=5
+intro_year=1930
+retire_month=5
+retire_year=1996
+type=extension
+#level=20
+capacity=500
+cost=500000
+maintenance=75000
+needs_ground=1
+enables_post=1
+noinfo=1
+Dims=1,1,1
+icon=> ./images/postoffice.0.2
+cursor=./images/postoffice.0.3
+BackImage[0][0][0][0][0][0-1]=./images/postoffice.0.<$0>
+-----
+#
+Obj=building
 name=extension_Postamt
 copyright=Leartin
 intro_month=5
@@ -54,10 +75,9 @@ needs_ground=1
 enables_post=1
 noinfo=1
 Dims=1,1,1
-icon=> ./images/Postamt.0.2
-cursor=./images/Postamt.0.3
-BackImage[0][0][0][0][0][0]=./images/Postamt.0.0
-BackImage[0][0][0][0][0][1]=./images/Postamt.0.1
+icon=> ./images/postoffice.1.2
+cursor=./images/postoffice.1.3
+BackImage[0][0][0][0][0][0-1]=./images/postoffice.1.<$0>
 -----
 ###################
 # MISC EXTENSIONS #
