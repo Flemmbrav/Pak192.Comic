@@ -2,12 +2,10 @@
 
 
 obj=vehicle
-name=Passenger_Train_2000_I6
+name=Passenger_Train_2018_I6
 copyright=Flemmbrav
-intro_year=2000
-retire_year=2018
-#intro_year=1989
-#retire_year=1997
+intro_year=2018
+#retire_year=2028
 freight=Passagiere
 payload=66
 cost=6272178
