@@ -4,8 +4,10 @@
 obj=vehicle
 name=Passenger_Train_2000_I6
 copyright=Flemmbrav
-intro_year=1989
-retire_year=1997
+intro_year=2000
+retire_year=2025
+#intro_year=1989
+#retire_year=1997
 freight=Passagiere
 payload=66
 cost=6272178
