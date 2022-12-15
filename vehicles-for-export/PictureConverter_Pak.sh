@@ -23,12 +23,11 @@ convertpng() {
 	#Converting second player colour to blue
 	convert $oldimage -fill '#111177' -opaque '#7B5803' -fill '#111188' -opaque '#8E6F04' -fill '#111199' -opaque '#A18605' -fill '#1111AA' -opaque '#B49D07' -fill '#1111BB' -opaque '#C6B408' -fill '#1111CC' -opaque '#D9CB0A' -fill '#1111DD' -opaque '#ECE20B' -fill '#1111EE' -opaque '#FFF90D' $oldimage
 
-	convert $oldimage -brightness-contrast -15x25 -modulate 100,80 $oldimage
-	#convert $oldimage -resize 66.6666666% $oldimage
-	convert $oldimage -resize 133.3333333% $oldimage
-	convert $oldimage -adaptive-resize 50% $oldimage	
-	convert $oldimage -roll +0-4 $oldimage
-	#0px to the right and -4 px down
+	convert $oldimage -interpolative-resize 50%% $oldimage
+	convert $oldimage -adaptive-resize 66.6666666%% $oldimage
+	convert $oldimage -brightness-contrast 0x15 $oldimage
+	convert $oldimage -roll +0-1 $oldimage
+	#0px to the right and -1 px down
 
 }
 

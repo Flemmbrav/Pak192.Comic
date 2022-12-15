@@ -6,7 +6,8 @@ convertpng() {
 
 	local oldimage=$1
 	#echo $oldimage
-	convert $oldimage -transparent '#e7ffff' -transparent '#000000' -transparent '#001eff' $oldimage
+	#convert $oldimage -transparent '#e7ffff' -transparent '#000000' -transparent '#001eff' $oldimage
+	convert $oldimage -transparent '#e7ffff' -transparent '#001eff' $oldimage
 	#convert Test.png -transparent '#000000' Test.png
 
 	#Converting first player colour to red
@@ -23,12 +24,6 @@ convertpng() {
 	#Converting second player colour to blue
 	convert $oldimage -fill '#111177' -opaque '#7B5803' -fill '#111188' -opaque '#8E6F04' -fill '#111199' -opaque '#A18605' -fill '#1111AA' -opaque '#B49D07' -fill '#1111BB' -opaque '#C6B408' -fill '#1111CC' -opaque '#D9CB0A' -fill '#1111DD' -opaque '#ECE20B' -fill '#1111EE' -opaque '#FFF90D' $oldimage
 
-	convert $oldimage -brightness-contrast -15x25 -modulate 100,80 $oldimage
-	#convert $oldimage -resize 66.6666666% $oldimage
-	convert $oldimage -resize 133.3333333% $oldimage
-	convert $oldimage -adaptive-resize 50% $oldimage	
-	convert $oldimage -roll +0-4 $oldimage
-	#0px to the right and -4 px down
 
 }
 
@@ -48,14 +43,10 @@ readallfiles() {
 	fi
 }
 
-#`rm -rf converted_image/`
-#mkdir -p converted_image/image
-#`cp -rf image/* converted_image/image`
-
-echo "==== Picture Converter ===="
-readallfiles '../Pak128Britain/image/*.png'
-readallfiles '../Pak128Britain/tram_image/*.png'
-readallfiles '../Pak128Britain/**/image/*.png'
-readallfiles '../Pak128Britain/**/tram_image/*.png'
+echo "==== Special Colour Eraser ===="
+readallfiles '../ToBeExported/image/*.png'
+readallfiles '../ToBeExported/tram_image/*.png'
+readallfiles '../ToBeExported/**/image/*.png'
+readallfiles '../ToBeExported/**/tram_image/*.png'
 echo "==== done ===="
 # pause
