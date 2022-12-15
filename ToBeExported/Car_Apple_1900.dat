@@ -1,0 +1,24 @@
+obj=vehicle
+name=Narrowgauge_Car_1900_Apple
+copyright=Leartin, PTM
+waytype=track
+intro_year=1900
+intro_month=1
+retire_month=3
+retire_year=1925
+speed=40
+payload=8
+weight=7
+runningcost=114
+cost=1250480
+length=6
+loading_time=2130
+constraint[prev][0]=any
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Apple_1900.0.<$0>
+freight=apples
+FreightImage[0-3][S,W,SE,SW,N,E,NW,NE]=./image/Car_Apple_1900.<$0+1>.<$1>
+freightimagetype[0]=apples
+freightimagetype[1]=hop
+freightimagetype[2]=potatoes
+freightimagetype[3]=coca_leaves

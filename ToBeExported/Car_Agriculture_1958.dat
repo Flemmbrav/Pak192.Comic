@@ -1,0 +1,37 @@
+obj=vehicle
+name=Getreidewagen_Track1
+#original vehicle is a Tads958
+#www.dybas.de/dybas/gw/gw_t_9/g958.html
+copyright=PappeTeeMaster & Flemmbrav
+waytype=narrowgauge_track
+intro_year=1958
+intro_month=3
+#retire_month=7
+#retire_year=1980
+speed=130
+payload=54
+#83m3 equal around 54t
+weight=13
+runningcost=244
+cost=2679600
+length=8
+loading_time=2440
+constraint[prev][0]=any
+EmptyImage[S]=./image/Getreidewagen1.0.1
+EmptyImage[N]=./image/Getreidewagen1.0.5
+EmptyImage[E]=./image/Getreidewagen1.0.0
+EmptyImage[W]=./image/Getreidewagen1.0.4
+EmptyImage[SE]=./image/Getreidewagen1.0.6
+EmptyImage[NW]=./image/Getreidewagen1.0.2
+EmptyImage[SW]=./image/Getreidewagen1.0.3
+EmptyImage[NE]=./image/Getreidewagen1.0.7
+freight=grain
+freightimagetype[0]=grain
+FreightImage[0][S]=./image/Getreidewagen1.1.1
+FreightImage[0][N]=./image/Getreidewagen1.1.5
+FreightImage[0][E]=./image/Getreidewagen1.1.0
+FreightImage[0][W]=./image/Getreidewagen1.1.4
+FreightImage[0][SE]=./image/Getreidewagen1.1.6
+FreightImage[0][NW]=./image/Getreidewagen1.1.2
+FreightImage[0][SW]=./image/Getreidewagen1.1.3
+FreightImage[0][NE]=./image/Getreidewagen1.1.7

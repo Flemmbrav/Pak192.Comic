@@ -1,0 +1,16 @@
+
+obj=vehicle
+name=Track_Lokomotive_1997_HLE13
+copyright=Flemmbrav
+intro_year=1997
+retire_year=2009
+cost=228616190
+runningcost=7176
+weight=90
+power=5200
+gear=183
+speed=200
+length=10
+waytype=narrowgauge_track
+engine_type=electric
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Lokomotive_1997_HLE13.0.<$0>

@@ -1,0 +1,26 @@
+obj=vehicle
+name=Passenger_Train_1980_ZB_EW_II
+copyright=Flemmbrav
+waytype=track
+
+intro_year=1980
+intro_month=6
+retire_year=2008
+retire_month=5
+
+speed=100
+weight=14
+length=8
+
+freight=Passagiere
+payload=45
+#payload is at 6pax per pair of windows and 3pax for half a window
+#payload=64
+#irl pax are 8 per pair of windows, but that doesn't bring a proper game balance right now
+loading_time=720
+runningcost=72
+cost=792396
+
+constraint[prev][0]=any
+
+emptyimage[s,w,se,sw]=./image/Passenger_Train_1980_ZB_EW_II.0.<$0>

@@ -172,6 +172,7 @@ jobs:
     - name: Compile pak192.comic vehicles als pak128.britain vehicles
       run: |
           cd vehicles-for-export
+          bash Prepare_Vehicles_For_Export.sh
           bash Compile_Pak128Britain_Vehicles.sh
           cd ..
     - name: zip vehicles
