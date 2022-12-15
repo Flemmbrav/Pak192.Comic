@@ -16,7 +16,7 @@ waytype=narrowgauge_track
 engine_type=diesel
 power=213
 gear=150
-smoke=none
+smoke=diesel
 sound=none
 loading_time=4000
 
@@ -53,7 +53,7 @@ waytype=narrowgauge_track
 engine_type=diesel
 power=213
 gear=150
-smoke=none
+smoke=diesel
 sound=none
 loading_time=4000
 
