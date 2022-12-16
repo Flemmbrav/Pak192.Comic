@@ -22,6 +22,7 @@ convertpng() {
 
 	#echo $oldimage
 	#convert $oldimage -transparent '#e7ffff' -transparent '#000000' -transparent '#001eff' $oldimage
+	convert $oldimage -channel A -threshold 150 $oldimage
 	convert $oldimage -transparent '#e7ffff' -transparent '#001eff' $oldimage
 	#convert Test.png -transparent '#000000' Test.png
 
@@ -38,15 +39,17 @@ decide_colours() {
 
 	if [[ $oldimage =~ "EW_IV" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelgruen[@]}
-	elif [[ $oldimage =~ "CD_"  || $oldimage =~ "U-Bahn_Munchen" || $oldimage =~ "4010" || $oldimage =~ "4020" || $oldimage =~ "LNVG" ]] ; then
+	elif [[ $oldimage =~ "U-Bahn_Hamburg" || $oldimage =~ "_DB" ]] ; then
+		convertpng $oldimage ${farbset_rot[@]} ${farbset_knallgelb[@]}
+	elif [[ $oldimage =~ "CD_"  || $oldimage =~ "U-Bahn_Munchen" || $oldimage =~ "4010" || $oldimage =~ "4020" || $oldimage =~ "LNVG" || $oldimage =~ "Electric_2019_Desiro_ML_ODEG" ]] ; then
 		convertpng $oldimage ${farbset_blau[@]} ${farbset_knallgelb[@]}
 	elif [[ $oldimage =~ "Railjet" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelrot[@]}
-	elif [[ $oldimage =~ "BWegt" || $oldimage =~ "U-Bahn_Berlin" ]] ; then
+	elif [[ $oldimage =~ "BWegt" || $oldimage =~ "U-Bahn_Berlin"  || $oldimage =~ "SSB" || $oldimage =~ "E-BV" ]] ; then
 		convertpng $oldimage ${farbset_knallgelb[@]} ${farbset_blau[@]}
 	elif [[ $oldimage =~ "DSB" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelblau[@]}
-	elif [[ $oldimage =~ "E231-500" || $oldimage =~ "E235-0" || $oldimage =~ "Ustra" ]] ; then
+	elif [[ $oldimage =~ "E231-500" || $oldimage =~ "E235-0" || $oldimage =~ "Ustra" || $oldimage =~ "Nordbahn" ]] ; then
 		convertpng $oldimage ${farbset_gruen[@]} ${farbset_gruen[@]}
 	elif [[ $oldimage =~ "Stadtbahn_Frankfurt_U4" || $oldimage =~ "Stadtbahn_Frankfurt_U5" || $oldimage =~ "Electric_2004_Flirt" || $oldimage =~ "Electric_2014_Flirt3" || $oldimage =~ "NahSH" || $oldimage =~ "nahsh" ]] ; then
 		convertpng $oldimage ${farbset_tuerkies[@]} ${farbset_gelb[@]}

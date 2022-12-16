@@ -1,0 +1,16 @@
+obj=vehicle
+name=Track_Post_1987_Dms
+copyright=Flemmbrav
+intro_year=1987
+retire_year=2001
+freight=Post
+payload=1680
+cost=10611216
+runningcost=965
+weight=43
+speed=160
+length=12
+waytype=narrowgauge_track
+loading_time=9650
+constraint[prev][0]=any
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Post_1987_Dms.0.<$0>
