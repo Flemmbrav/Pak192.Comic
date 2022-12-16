@@ -35,9 +35,8 @@ readgoods() {
 	#creates a new GoodArray including all the parameters of a single good
 	#runs readgoodline for each line in the file
 	#saves the good to an array when it's fully read
-	local GoodsFile=`cat pakset/buildings/factories/goods/goods.dat | tr -d '\r'`
+	local GoodsFile=`cat Goods_Pak128Britain.dat | tr -d '\r'`
 
-	`rm -f calculated/pakset/buildings/factories/goods/goods.dat`
 	declare -A GoodArray
 	IFS='
 	'
@@ -225,6 +224,13 @@ getincome() {
 
 readallfiles() {
 	local directionary=$1
+	local AddOnFolder=0
+	for arg in "$@"; do
+		if [[ $arg == "-a" ]];then
+			AddOnFolder=1
+			echo "- -a AddOn folder"
+		fi
+	done
 	IFS='
 	'
 	if [ ${#directionary[@]} -gt 0 ] ; then
@@ -233,7 +239,7 @@ readallfiles() {
 
 	  		if [ -f "$dat" ] ; then
 				echo "-- Performing Work At: $dat "
-				readfile $dat
+				readfile $dat $AddOnFolder
 			fi
 		done
 	fi
@@ -245,6 +251,7 @@ readfile() {
 	#creates a new ObjectArray
 	#runs readline for each line in the file
 	local Filename=$1
+	local AddOnFolder=$2
 	echo "nutze cat";
 	local File=`cat $Filename | tr -d '\r'`
 
@@ -256,7 +263,7 @@ readfile() {
   	PosMin=`expr index "$Line" '-'`
 		if [ $PosMin -eq 1 ]
 		then
-			writeobject $Filename
+			writeobject $Filename $AddOnFolder
 			unset ObjectArray
 			declare -A ObjectArray
 		else 
@@ -264,7 +271,7 @@ readfile() {
 		fi
 	done
 	if [[ ! -z ${ObjectArray[obj]} ]] ;then
-		writeobject $Filename
+		writeobject $Filename $AddOnFolder
 	fi
 	unset ObjectArray
 }
@@ -297,6 +304,7 @@ readline() {
 
 calculatecosts(){
 	local dat=$1
+	local calculatedfile=$2
 	#get the income of the vehicle by 1000 times
 	local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
 	#get the value of the power installed, this is essentially the income of 
@@ -340,31 +348,31 @@ calculatecosts(){
 	FixCost=$(( FixCost * speed / 160 ))
 	RunningCost=$(( RunningCost / 10 ))
 	if [[ $ForcingNewValues == 1 ]];then
-		echo "loading_time=$LoadingTime" >> calculated/$dat
-		echo "runningcost=$RunningCost" >> calculated/$dat
-		echo "cost=$Cost" >> calculated/$dat
-		echo "fixed_cost=$FixCost" >> calculated/$dat
+		echo "loading_time=$LoadingTime" >> $calculatedfile
+		echo "runningcost=$RunningCost" >> $calculatedfile
+		echo "cost=$Cost" >> $calculatedfile
+		#echo "fixed_cost=$FixCost" >> $calculatedfile
 	else
 		if [[ ! -z ${ObjectArray[loading_time]} ]] ;then
-			echo "loading_time=${ObjectArray[loading_time]}" >> calculated/$dat
+			echo "loading_time=${ObjectArray[loading_time]}" >> $calculatedfile
 		else
-			echo "loading_time=$LoadingTime" >> calculated/$dat			
+			echo "loading_time=$LoadingTime" >> $calculatedfile	
 		fi
 		if [[ ! -z ${ObjectArray[runningcost]} ]] ;then
-			echo "runningcost=${ObjectArray[runningcost]}" >> calculated/$dat
+			echo "runningcost=${ObjectArray[runningcost]}" >> $calculatedfile
 		else
-			echo "runningcost=$RunningCost" >> calculated/$dat			
+			echo "runningcost=$RunningCost" >> $calculatedfile	
 		fi
 		if [[ ! -z ${ObjectArray[cost]} ]] ;then
-			echo "cost=${ObjectArray[cost]}" >> calculated/$dat
+			echo "cost=${ObjectArray[cost]}" >> $calculatedfile
 		else
-			echo "cost=$Cost" >> calculated/$dat
+			echo "cost=$Cost" >> $calculatedfile
 		fi
 		if [[ ! -z ${ObjectArray[fixed_cost]} ]] ;then
-			echo "fixed_cost=$FixCost" >> calculated/$dat
+			echo "fixed_cost=$FixCost" >> $calculatedfile
 			#echo "fixed_cost=${ObjectArray[fixed_cost]}" >> calculated/$dat
 		else
-			echo "fixed_cost=$FixCost" >> calculated/$dat
+			echo "fixed_cost=$FixCost" >> $calculatedfile
 		fi
 		
 		
@@ -374,6 +382,7 @@ calculatecosts(){
 
 writeconstraints() {
 	Direction=$1
+	local calculatedfile=$2
 	local CounterBefore=0
 	local CounterAfter=0
 	local HasToBeRemade=0
@@ -394,12 +403,12 @@ writeconstraints() {
 '
 				if [[ $Direction == "next" ]];then	
 					for Line in $File; do
-						echo "constraint[$Direction][$CounterAfter]=$Line" >> calculated/$dat
+						echo "constraint[$Direction][$CounterAfter]=$Line" >> $calculatedfile
 						CounterAfter=$(( CounterAfter + 1 ))						
 					done
 				else
 					for Line in $File; do
-						echo "constraint[$Direction][$CounterAfter]=$Line" >> calculated/$dat
+						echo "constraint[$Direction][$CounterAfter]=$Line" >> $calculatedfile
 						CounterAfter=$(( CounterAfter + 1 ))						
 					done
 				fi
@@ -408,7 +417,7 @@ writeconstraints() {
 			CounterBefore=$(( CounterBefore + 1 ))
 			CounterAfter=$(( CounterAfter + 1 ))
 		else
-			echo "constraint[$Direction][$CounterAfter]=${ObjectArray["constraint[$Direction][$CounterBefore]"]}" >> calculated/$dat
+			echo "constraint[$Direction][$CounterAfter]=${ObjectArray["constraint[$Direction][$CounterBefore]"]}" >> $calculatedfile
 			CounterBefore=$(( CounterBefore + 1 ))
 			CounterAfter=$(( CounterAfter + 1 ))
 		fi
@@ -420,12 +429,13 @@ writeconstraints() {
 
 
 writeimages() {
+	local calculatedfile=$1
 	for Key in "${!ObjectArray[@]}"; do
 		if [[ $Key =~ "image" ]];then
 			if [[ ${ObjectArray[$Key]:0:2} == './' ]]; then
 				ObjectArray[$Key]=${ObjectArray[$Key]:2:${#ObjectArray[$Key]}}
 			fi
-			echo "$Key=${ObjectArray[$Key]}" >> calculated/$dat
+			echo "$Key=${ObjectArray[$Key]}" >> $calculatedfile
 		fi
 	done
 }
@@ -433,94 +443,104 @@ writeimages() {
 
 writevehicle() {
 	local dat=$1
-	echo "calculated/$dat"
-	
+	local calculateddir=$2
+	local calculatedfile="$calculateddir/$(basename "$dat")"
+	#echo "$dat"
 #Object
 	#the object being a vehicle is given by running this function
-	echo "obj=vehicle" >> calculated/$dat
+	echo "obj=vehicle" >> $calculatedfile
 	#the name of the vehicle has to be given
-	echo "name=${ObjectArray[name]}" >> calculated/$dat
+	echo "name=${ObjectArray[name]}" >> $calculatedfile
 	#only write the name of the author if it is given
 	if [[ ! -z ${ObjectArray[copyright]} ]] ;then
-		echo "copyright=${ObjectArray[copyright]}" >> calculated/$dat
+		echo "copyright=${ObjectArray[copyright]}" >> $calculatedfile
 	fi
-	echo  >> calculated/$dat
+	echo >> $calculatedfile
 #Dates
 	#the intro year of the vehicle has to be given
-	echo "intro_year=${ObjectArray[intro_year]}" >> calculated/$dat
+	echo "intro_year=${ObjectArray[intro_year]}" >> $calculatedfile
 	#only write in the intro month if it is given
 	if [[ ! -z ${ObjectArray[intro_month]} ]] ;then
-		echo "intro_month=${ObjectArray[intro_month]}" >> calculated/$dat
+		echo "intro_month=${ObjectArray[intro_month]}" >> $calculatedfile
 	fi
 	#only write in the outro year if it is given
 	if [[ ! -z ${ObjectArray[retire_year]} ]] ;then
-		echo "retire_year=${ObjectArray[retire_year]}" >> calculated/$dat
+		echo "retire_year=${ObjectArray[retire_year]}" >> $calculatedfile
 	fi
 	#only write in the outro month if it is given
 	if [[ ! -z ${ObjectArray[retire_month]} ]] ;then
-		echo "retire_month=${ObjectArray[retire_month]}" >> calculated/$dat
+		echo "retire_month=${ObjectArray[retire_month]}" >> $calculatedfile
 	fi
-	echo  >> calculated/$dat
+	echo >> $calculatedfile
 #Parameters
 	#the waytype of the vehicle has to be given
-	echo "waytype=${ObjectArray[waytype]}" >> calculated/$dat
+	if [[ ${ObjectArray[waytype]} == "track" ]] ;then
+		echo "waytype=track" >> $calculatedfile
+	else
+		if [[ ${ObjectArray[waytype]} == "narrowgauge_track" ]] ;then
+			echo "waytype=track" >> $calculatedfile
+		else
+			echo "waytype=${ObjectArray[waytype]}" >> $calculatedfile
+		fi
+	fi
 	#write the speed if given, else write the speed used in the speedbonus
 	if [[ ! -z ${ObjectArray[speed]} ]] ;then
-		echo "speed=${ObjectArray[speed]}" >> calculated/$dat
+		echo "speed=${ObjectArray[speed]}" >> $calculatedfile
 	else
 		local SpeedBonus="$(getspeedbonus ${ObjectArray[waytype]} ${ObjectArray[intro_month]} )"
-		echo "speed=$SpeedBonus" >> calculated/$dat
+		echo "speed=$SpeedBonus" >> $calculatedfile
 	fi
 	#write the weigth if given, else write the 2t for every length
 	if [[ ! -z ${ObjectArray[weight]} ]] ;then
-		echo "weight=${ObjectArray[weight]}" >> calculated/$dat
+		echo "weight=${ObjectArray[weight]}" >> $calculatedfile
 	else
 		local Weigth=${ObjectArray[length]}
 		Weigth=$(( 2 * Weigth ))
-		echo "weight=$Weigth" >> calculated/$dat
+		echo "weight=$Weigth" >> $calculatedfile
 	fi
 	#only write in the length if it is given
 	if [[ ! -z ${ObjectArray[length]} ]] ;then
-		echo "length=${ObjectArray[length]}" >> calculated/$dat
+		echo "length=${ObjectArray[length]}" >> $calculatedfile
 	fi
 	#only write in the engine type if it is given
 	if [[ ! -z ${ObjectArray[engine_type]} ]] ;then
-		echo "engine_type=${ObjectArray[engine_type]}" >> calculated/$dat
+		echo "engine_type=${ObjectArray[engine_type]}" >> $calculatedfile
 	fi
 	#only write in the power if it is given
 	if [[ ! -z ${ObjectArray[power]} ]] ;then
-		echo "power=${ObjectArray[power]}" >> calculated/$dat
+		echo "power=${ObjectArray[power]}" >> $calculatedfile
 	fi
 	#only write in the gear if it is given
 	if [[ ! -z ${ObjectArray[gear]} ]] ;then
-		echo "gear=${ObjectArray[gear]}" >> calculated/$dat
+		echo "gear=${ObjectArray[gear]}" >> $calculatedfile
 	fi
-	echo  >> calculated/$dat
+	echo >> $calculatedfile
 #Freigth
 	#only write in the freigth if it is given
 	if [[ ! -z ${ObjectArray[freight]} ]] ;then
-		echo "freight=${ObjectArray[freight]}" >> calculated/$dat
+		echo "freight=${ObjectArray[freight]}" >> $calculatedfile
 	fi
 	#only write in the payload if it is given
 	if [[ ! -z ${ObjectArray[payload]} ]] ;then
-		echo "payload=${ObjectArray[payload]}" >> calculated/$dat
+		echo "payload=${ObjectArray[payload]}" >> $calculatedfile
 	fi
 	#calculate the costs and loading time
-	calculatecosts $dat
-	echo  >> calculated/$dat
-	writeconstraints "prev"
-	writeconstraints "next"
-	echo  >> calculated/$dat
+	calculatecosts $dat $calculatedfile
+	echo >> $calculatedfile
+	writeconstraints "prev" $calculatedfile
+	writeconstraints "next" $calculatedfile
+	echo >> $calculatedfile
 	#only write in the smoke if it is given
 	if [[ ! -z ${ObjectArray[smoke]} ]] ;then
-		echo "smoke=${ObjectArray[smoke]}" >> calculated/$dat
+		echo "smoke=${ObjectArray[smoke]}" >> $calculatedfile
 	fi
 	#only write in the sound if it is given
 	if [[ ! -z ${ObjectArray[sound]} ]] ;then
-		echo "sound=${ObjectArray[sound]}" >> calculated/$dat
+		echo "sound=${ObjectArray[sound]}" >> $calculatedfile
 	fi
 	#return images
-	writeimages
+	writeimages $calculatedfile
+	#echo "---" >> $calculatedfile
 }
 
 
@@ -532,29 +552,40 @@ copyobject() {
 
 writeobject() { 
 	local FileName=$1
+	local AddOnFolder=$2
+	#echo $AddOnFolder
 	if [[ ! -z ${ObjectArray[obj]} ]] ;then
 		if [[ ${ObjectArray[obj]} == "vehicle" || ${ObjectArray[obj]} == "Vehicle" ]];	then
-			#`rm -f calculated/$Filename`
-			echo "--- Writing Object: ${ObjectArray[name]} "
+			if [[ ${ObjectArray[freight]} == "Passagiere" || ${ObjectArray[freight]} == "passagiere"  || ${ObjectArray[freight]} == "Post"  || ${ObjectArray[freight]} == "post"  || ${ObjectArray[freight]} == "None"  || ${ObjectArray[freight]} == "none" || -z ${ObjectArray[freight]} ]];	then
+				#`rm -f calculated/$Filename`
+				echo "--- Writing Object: ${ObjectArray[name]} "
 
-			# get directory where the dat file is located
-			local calculateddir=calculated/$(dirname "$dat")/
-			local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
-			# Create folder for *.dat or delete all old dats if folder already exists
-			if [ ! -d $calculateddir ]; then
-					mkdir -p $calculateddir
+				# get directory where the dat file is located
+				if [[ $AddOnFolder == 1 ]] ;then
+					local calculateddir=../Pak96Comic/AddOn/$(dirname "$dat")/
+				else
+					local calculateddir=../Pak96Comic/$(dirname "$dat")/
+				fi
+				local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
+				# Create folder for *.dat or delete all old dats if folder already exists
+				if [ ! -d $calculateddir ]; then
+						mkdir -p $calculateddir
+				fi
+				if [ ! -d $calculatedextendeddir ]; then
+						mkdir -p $calculatedextendeddir
+				fi
+				if [[ $AddOnFolder == "1" ]] ;then
+					calculateddir="../Pak96Comic/AddOn"
+					#echo "true"
+				else
+					calculateddir="../Pak96Comic"
+					#echo "false"
+				fi
+				writevehicle $FileName $calculateddir
+				echo >> $calculateddir/$(basename "$1")
+				echo "---" >> $calculateddir/$(basename "$1")
 			fi
-			if [ ! -d $calculatedextendeddir ]; then
-					mkdir -p $calculatedextendeddir
-			fi
-			writevehicle $FileName
-			echo >> calculated/$1
-			echo "---" >> calculated/$1
-		else
-			copyobject
 		fi
-	else
-		copyobject
 	fi
 }
 
@@ -604,64 +635,18 @@ Commands:
 		echohelp
 	else
 
-		echo "- Creating Directionaries "
-		IFS='
-		'
-		`rm -rf calculated/`
-		#`rm -rf calculatedextended/`
-		#mkdir -p calculatedextended/pakset
-		mkdir -p calculated/pakset
-		#mkdir -p calculatedextended/AddOn
-		mkdir -p calculated/AddOn
-		#`cp -rf pakset/* calculatedextended/pakset`
-		`cp -rf pakset/* calculated/pakset`
-		#`cp -rf AddOn/* calculatedextended/AddOn`
-		`cp -rf AddOn/* calculated/AddOn`
-
 		declare -A ReConvertList
 		declare -A GoodsValueArray
 		declare -A GoodsSpeedBonusArray
 		declare -A GoodsWeigthArray
 		echo "- Read Meta Files"
 		readgoods
-		SpeedBonusFile=`cat pakset/trunk/config/speedbonus.tab | tr -d '\r'`
+		SpeedBonusFile=`cat Speedbonus_Pak128Britain.tab | tr -d '\r'`
 
-		if [[ $ReadAll == 1 ]];then
-			echo "- Edit All .dat Files"
-			readallfiles 'pakset/*.dat'
-			readallfiles 'pakset/**/*.dat'
-			readallfiles 'pakset/**/**/*.dat'
-			readallfiles 'pakset/**/**/**/*.dat'
-			readallfiles 'pakset/**/**/**/**/*.dat'
-			readallfiles 'AddOn/*.dat'
-			readallfiles 'AddOn/**/*.dat'
-			readallfiles 'AddOn/**/**/*.dat'
-			readallfiles 'AddOn/**/**/**/*.dat'
-			readallfiles 'AddOn/**/**/**/**/*.dat'
-		else
-			if [[ $AllVehicles == 1 ]] ;then
-				echo "- Edit All Vehicle .dat Files "
-				readallfiles 'pakset/384/vehicles/*.dat'
-				readallfiles 'pakset/vehicles/**/*.dat'
-				readallfiles 'AddOn/**/vehicles/**/*.dat'
-			else	
-				#echo "- Edit Costoum .dat Files "
-
-				readfile "pakset/vehicles/road/W50_Sattelzug.dat"
-				#readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
-				#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
-
-				#readallfiles 'calculated/AddOn/britain/infrastruktur/*.dat'
-				#readallfiles 'calculated/AddOn/belgian/**/*.dat'
-				#readallfiles 'calculated/AddOn/britain/vehicles/**/*.dat'
-				#readallfiles 'calculated/AddOn/czech/vehicles/**/*.dat'
-				#readallfiles 'calculated/AddOn/german/vehicles/**/*.dat'
-				#readallfiles 'calculated/AddOn/japanese/*.dat'
-
-				#readallfiles 'pakset/landscape/**/*.dat'
-				#readallfiles 'ConvertTest/*.dat'
-			fi
-		fi
+		
+		readallfiles "../ToBeExported/*.dat"
+		readallfiles "../ToBeExported/**/*.dat" -a
+				
 		echo "- Re-Converting The Files Affected By Constraint-Groups"
 		ReConvert=1
 		for ReFile in "${ReConvertList[@]}"; do

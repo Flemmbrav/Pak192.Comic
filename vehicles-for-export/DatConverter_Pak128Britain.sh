@@ -619,11 +619,11 @@ Commands:
 		fi
 		if [[ $arg == "-a" ]];then
 			ReadAll=1
-			echo "- -a Convertig All Files"
+			echo "- -a Converting All Files"
 		fi
 		if [[ $arg == "-v" ]];then
 			AllVehicles=1
-			echo "- -v Convertig All Vehicles"
+			echo "- -v Converting All Vehicles"
 		fi
 		if [[ $arg == "-h" ]];then
 			Help=1
