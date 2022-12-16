@@ -3,7 +3,7 @@ name=BR_218
 copyright=Flemmbrav
 intro_year=1971
 intro_month=5
-retire_year=1986
+retire_year=1974
 retire_month=6
 freight=None
 payload=0
@@ -11,6 +11,7 @@ cost=80550701
 runningcost=2314
 weight=80
 power=1839
+#MTU TB10
 gear=163
 speed=140
 length=8
