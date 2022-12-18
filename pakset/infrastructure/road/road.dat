@@ -48,7 +48,8 @@ copyright=Leartin&Cruzer
 intro_year=1835
 cost=500
 maintenance=110
-topspeed=50
+topspeed=55
+#topspeed=50
 icon=> ./images/way/road-icon-cursor.2.0
 cursor=./images/way/road-icon-cursor.2.1
 
@@ -118,7 +119,8 @@ copyright=Leartin&Cruzer
 intro_year=1890
 cost=900
 maintenance=250
-topspeed=70
+topspeed=80
+#topspeed=70
 icon=> ./images/way/road-icon-cursor.3.0
 cursor=./images/way/road-icon-cursor.3.1
 
