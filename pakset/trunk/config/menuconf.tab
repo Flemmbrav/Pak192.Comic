@@ -368,10 +368,11 @@ toolbar[0][35]=dialog_tool[27]
 toolbar[0][36]=-,34
 
 # invisible tools
-toolbar[0][68]=simple_tool[7],,.,+1
-toolbar[0][69]=simple_tool[7],,#44,-1
-toolbar[0][70]=simple_tool[19],,+,+
-toolbar[0][71]=simple_tool[19],,-,-
+toolbar[0][37]=simple_tool[7],,.,+1
+toolbar[0][38]=simple_tool[7],,#44,-1
+toolbar[0][39]=simple_tool[19],,+,+
+toolbar[0][40]=simple_tool[19],,-,-
+toolbar[0][41]=simple_tool[7],,COMMA,-1
 
 # view tools
 toolbar[1][0]=general_tool[0],35
