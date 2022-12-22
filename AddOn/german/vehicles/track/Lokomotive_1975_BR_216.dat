@@ -2,6 +2,7 @@ obj=vehicle
 name=Lokomotive_1975_BR_216
 copyright=Flemmbrav
 intro_year=1975
+build_year=1964
 intro_month=5
 retire_year=1986
 retire_month=5

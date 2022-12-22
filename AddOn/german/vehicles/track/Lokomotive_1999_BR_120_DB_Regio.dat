@@ -2,6 +2,7 @@ obj=vehicle
 name=BR_120_DB_Regio
 copyright=Flemmbrav
 intro_year=1999
+build_year=1986
 intro_month=3
 retire_year=2025
 retire_month=0

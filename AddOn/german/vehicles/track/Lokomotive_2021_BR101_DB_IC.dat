@@ -2,6 +2,7 @@ obj=vehicle
 name=Lokomotive_2021_BR101_DB_IC
 copyright=Flemmbrav
 intro_year=2021
+build_year=1996
 intro_month=11
 retire_year=2022
 retire_month=11
