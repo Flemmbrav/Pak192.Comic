@@ -2,6 +2,7 @@ obj=vehicle
 name=Track_Post_2000_Dms
 copyright=Flemmbrav & CFModels
 intro_year=2000
+build_year=1987
 freight=Post
 payload=1680
 cost=10611216

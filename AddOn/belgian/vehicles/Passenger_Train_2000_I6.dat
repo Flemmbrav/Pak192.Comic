@@ -5,6 +5,7 @@ obj=vehicle
 name=Passenger_Train_2000_I6
 copyright=Flemmbrav
 intro_year=2000
+build_year=1977
 retire_year=2018
 #intro_year=1989
 #retire_year=1997

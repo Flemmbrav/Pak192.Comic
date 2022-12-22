@@ -3,6 +3,7 @@ obj=vehicle
 name=Passenger_Train_2000_I10
 copyright=Flemmbrav
 intro_year=2000
+build_year=1987
 retire_year=2010
 freight=Passagiere
 payload=86

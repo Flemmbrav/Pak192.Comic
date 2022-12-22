@@ -1,3 +1,9 @@
+# ges ist:  12+12+13 = 37
+# ges soll: 16+16       = 32
+# durch 12 Türe fallen 24 px = L4 weg => 33
+# fehlen noch 6 px
+
+
 obj=vehicle
 name=BR_420_1
 copyright=Flemmbrav
