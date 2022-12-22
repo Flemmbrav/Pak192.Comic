@@ -551,6 +551,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1945
+build_year=1912
+latest_reconstruction=1945
 intro_month=2
 retire_year=1959
 retire_month=11
@@ -609,6 +611,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1945
+build_year=1912
+latest_reconstruction=1945
 intro_month=2
 retire_year=1959
 retire_month=11
@@ -669,6 +673,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1958
+build_year=1912
+latest_reconstruction=1958
 intro_month=2
 retire_year=1970
 retire_month=11
@@ -727,6 +733,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1958
+build_year=1912
+latest_reconstruction=1958
 intro_month=2
 retire_year=1970
 retire_month=11
@@ -865,6 +873,7 @@ sound=none
 freight=Passagiere
 
 intro_year=1981
+build_year=1958
 intro_month=6
 retire_year=1989
 retire_month=7
@@ -903,6 +912,7 @@ sound=none
 freight=Passagiere
 
 intro_year=1981
+build_year=1958
 intro_month=6
 retire_year=1989
 retire_month=7
@@ -1017,6 +1027,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1984
+build_year=1962
+latest_reconstruction=1984
 intro_month=6
 retire_year=2004
 retire_month=5
@@ -1053,6 +1065,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1984
+build_year=1962
+latest_reconstruction=1984
 intro_month=6
 retire_year=2004
 retire_month=5
@@ -1203,6 +1217,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1995
+build_year=1968
+latest_reconstruction=1995
 intro_month=6
 retire_year=2015
 retire_month=11
@@ -1241,6 +1257,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1995
+build_year=1968
+latest_reconstruction=1995
 intro_month=6
 retire_year=2015
 retire_month=11
@@ -1275,6 +1293,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1995
+build_year=1968
+latest_reconstruction=1995
 intro_month=6
 retire_year=2015
 retire_month=11
