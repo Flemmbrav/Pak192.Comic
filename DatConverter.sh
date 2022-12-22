@@ -299,9 +299,9 @@ calculatecosts(){
 	local dat=$1
 	#get the income of the vehicle by 1000 times
 	local year=${ObjectArray[intro_year]} 
-	if [[ ! -z ${ObjectArray[build_year]} &&  ! -z ${ObjectArray[latest_reconstruction]}]] ;then
-		year = ${ObjectArray[build_year]} + ${ObjectArray[latest_reconstruction]}
-		year = $year / 2
+	if [[ ! -z ${ObjectArray[build_year]} &&  ! -z ${ObjectArray[latest_reconstruction]} ]] ;then
+		year=$(( ObjectArray[build_year] + ObjectArray[latest_reconstruction] ))
+		year=$((year / 2))
 	elif [[ ! -z ${ObjectArray[build_year]} ]] ;then
 		year = ${ObjectArray[build_year]}
 	fi
@@ -657,7 +657,10 @@ Commands:
 			else	
 				#echo "- Edit Costoum .dat Files "
 
-				readfile "pakset/vehicles/road/W50_Sattelzug.dat"
+				#readfile "pakset/vehicles/road/W50_Sattelzug.dat"
+				readfile "AddOn/german/vehicles/track/Passenger_Train_2016_Locomore.dat"
+				readfile "AddOn/german/vehicles/track/Passenger_Train_2017_Flixtrain.dat"
+				readfile "AddOn/german/vehicles/track/Passenger_Train_2020_Flixtrain.dat"
 				#readfile "pakset/vehicles/track/Tram_DUEWAG_Grossraumwagen.dat"
 				#readfile "pakset/vehicles/narrowgauge/Car_1885_Piece_goods.dat"
 
