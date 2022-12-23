@@ -1,4 +1,17 @@
 ### UNIQUE GOODS TYPES ###
+
+# good=none is used to set the prices for engines
+obj=good
+name=None
+metric=
+catg=0
+value=25
+speed_bonus=8
+weight_per_unit=0
+
+
+###
+
 # Passengers
 # Class: passengers
 obj=good
