@@ -2,6 +2,7 @@ obj=vehicle
 name=Passenger_Train_2020_Bpm_61_20-90_EC
 copyright=Flemmbrav
 intro_year=2020
+build_year=1989
 intro_month=1
 retire_year=2030
 retire_month=0

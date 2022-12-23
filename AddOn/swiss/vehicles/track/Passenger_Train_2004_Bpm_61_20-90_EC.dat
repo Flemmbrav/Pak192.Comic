@@ -2,6 +2,7 @@ obj=vehicle
 name=Passenger_Train_2004_Bpm_61_20-90_EC
 copyright=Flemmbrav
 intro_year=2004
+build_year=1989
 intro_month=1
 retire_year=2021
 retire_month=0

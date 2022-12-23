@@ -2,6 +2,7 @@ obj=vehicle
 name=Passenger_Train_1989_Bpm_61_20-70_RIC_Z1
 copyright=Flemmbrav
 intro_year=1989
+build_year=1980
 intro_month=1
 retire_year=2010
 retire_month=0

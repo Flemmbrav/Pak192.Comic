@@ -2,6 +2,7 @@ obj=vehicle
 name=Passenger_Train_1993_Bpm_61_20-90_Cisalpino
 copyright=Flemmbrav
 intro_year=1993
+build_year=1989
 intro_month=1
 retire_year=2009
 retire_month=0
