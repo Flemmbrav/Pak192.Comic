@@ -169,41 +169,17 @@ jobs:
           cd ../../..
           rm -rf simutrans
 
-    - name: Compile pak192.comic vehicles for export
+    - name: Compile pak192.comic vehicles als pak128.britain vehicles
       run: |
           cd vehicles-for-export
           bash Prepare_Vehicles_For_Export.sh
-          bash Compile_Pak_Vehicles.sh
-          bash Compile_Pak96Comic_Vehicles.sh
           bash Compile_Pak128Britain_Vehicles.sh
           cd ..
     - name: zip vehicles
       run: |
-        mv Pak pak192.comic-vehicles-for-pak
-        zip -r pak192.comic-vehicles-for-pak.zip pak192.comic-vehicles-for-pak
-        mv Pak96Comic pak192.comic-vehicles-for-pak96comic
-        zip -r pak192.comic-vehicles-for-pak96comic.zip pak192.comic-vehicles-for-pak96comic
         mv Pak128Britain pak192.comic-vehicles-for-pak128britain
         zip -r pak192.comic-vehicles-for-pak128britain.zip pak192.comic-vehicles-for-pak128britain
 
-    - name: Update Serverset of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192.comic-vehicles-for-pak.zip
-        asset_name: pak192.comic-vehicles-for-pak128britain.zip
-        tag: Nightly
-        overwrite: true
-        
-    - name: Update Serverset of Nightly Release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192.comic-vehicles-for-pak96comic.zip
-        asset_name: pak192.comic-vehicles-for-pak128britain.zip
-        tag: Nightly
-        overwrite: true
-        
     - name: Update Serverset of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
       with:
