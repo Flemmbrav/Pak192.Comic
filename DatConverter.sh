@@ -303,7 +303,7 @@ calculatecosts(){
 		year=$(( ObjectArray[build_year] + ObjectArray[latest_reconstruction] ))
 		year=$((year / 2))
 	elif [[ ! -z ${ObjectArray[build_year]} ]] ;then
-		year = ${ObjectArray[build_year]}
+		year=${ObjectArray[build_year]}
 	fi
 	local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} $year ${ObjectArray[speed]})"
 	#local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
