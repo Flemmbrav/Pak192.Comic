@@ -304,9 +304,17 @@ readline() {
 
 calculatecosts(){
 	local dat=$1
-	local calculatedfile=$2
 	#get the income of the vehicle by 1000 times
-	local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
+	local year=${ObjectArray[intro_year]} 
+	if [[ ! -z ${ObjectArray[build_year]} &&  ! -z ${ObjectArray[latest_reconstruction]} ]] ;then
+		year=$(( ObjectArray[build_year] + ObjectArray[latest_reconstruction] ))
+		year=$((year / 2))
+	elif [[ ! -z ${ObjectArray[build_year]} ]] ;then
+		year=${ObjectArray[build_year]}
+	fi
+	local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} $year ${ObjectArray[speed]})"
+	#local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
+	
 	#get the value of the power installed, this is essentially the income of 
 	local PowerValue=0
 	if [[ ! -z ${ObjectArray[power]} ]] ;then
@@ -317,7 +325,8 @@ calculatecosts(){
 		else
 			EffectivePower=$(( EffectivePower * 100 ))
 		fi
-		PowerValue="$(getincome "None" $EffectivePower ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
+		PowerValue="$(getincome "None" $EffectivePower ${ObjectArray[waytype]} $year ${ObjectArray[speed]})"
+		#PowerValue="$(getincome "None" $EffectivePower ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
 		
 		if [[ ! -z ${ObjectArray[engine_type]} ]] ;then
 			if [[ ${ObjectArray[engine_type]} == "electric" ]] ;then
