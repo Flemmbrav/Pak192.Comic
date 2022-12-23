@@ -22,6 +22,19 @@ After that, we define the name of the vehicle. For that, read further into the n
 
 Is next. Please use the year of the introduction of the vehicle to service. This is not about when the vehicle is build, but rather on the date it can be put into service from the company purcheasing it.
 
+Additionally, you can add the date the vehicle is build by:
+
+> build_year=1974
+
+while
+
+> latest_reconstruction=2016
+
+Can be used to date the latest big technical upgrade of the vehicle (new engine, new boogies etc.).
+Don't use this for visual/comfort improvments, but just for big technical upgrades.
+
+These two values (build_year and latest_reconstruction) will be used to have a more realistical pricing for the vehicle. They are not part of an usual Simutrans dat file and thus have no value outside of this enviroment.
+
 > runningcost=1034
 
 > cost=11376338
