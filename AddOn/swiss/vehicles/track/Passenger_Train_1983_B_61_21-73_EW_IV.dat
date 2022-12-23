@@ -28,6 +28,7 @@ obj=vehicle
 name=Passenger_Train_1990_B_61_21-73_EW_IV_BT
 copyright=Flemmbrav
 intro_year=1990
+build_year=1983
 intro_month=1
 retire_year=1999
 retire_month=0
