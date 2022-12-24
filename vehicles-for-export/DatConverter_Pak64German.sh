@@ -483,14 +483,14 @@ writevehicle() {
 	echo >> $calculatedfile
 #Parameters
 	#the waytype of the vehicle has to be given
-	if [[ ${ObjectArray[waytype]} == "track" ]] ;then
-		echo "waytype=track" >> $calculatedfile
-	else
-		if [[ ${ObjectArray[waytype]} == "narrowgauge_track" ]] ;then
-			echo "waytype=track" >> $calculatedfile
+	if [[ ${ObjectArray[waytype]} == "track" || ${ObjectArray[waytype]} == "narrowgauge_track" ]] ;then
+		if [[ $dat =~ "U-Bahn" || $dat =~ "3rdRail" ]] ; then
+			echo "waytype=narrowgauge_track" >> $calculatedfile
 		else
-			echo "waytype=${ObjectArray[waytype]}" >> $calculatedfile
+			echo "waytype=track" >> $calculatedfile
 		fi
+	else
+		echo "waytype=${ObjectArray[waytype]}" >> $calculatedfile
 	fi
 	#write the speed if given, else write the speed used in the speedbonus
 	if [[ ! -z ${ObjectArray[speed]} ]] ;then
@@ -571,9 +571,9 @@ writeobject() {
 
 				# get directory where the dat file is located
 				if [[ $AddOnFolder == 1 ]] ;then
-					local calculateddir=../Pak/AddOn/$(dirname "$dat")/
+					local calculateddir=../Pak64German/AddOn/$(dirname "$dat")/
 				else
-					local calculateddir=../Pak/$(dirname "$dat")/
+					local calculateddir=../Pak64German/$(dirname "$dat")/
 				fi
 				local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
 				# Create folder for *.dat or delete all old dats if folder already exists
@@ -584,10 +584,10 @@ writeobject() {
 						mkdir -p $calculatedextendeddir
 				fi
 				if [[ $AddOnFolder == "1" ]] ;then
-					calculateddir="../Pak/AddOn"
+					calculateddir="../Pak64German/AddOn"
 					#echo "true"
 				else
-					calculateddir="../Pak"
+					calculateddir="../Pak64German"
 					#echo "false"
 				fi
 				writevehicle $FileName $calculateddir

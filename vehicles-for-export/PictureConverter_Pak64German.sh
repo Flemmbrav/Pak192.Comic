@@ -44,9 +44,9 @@ readallfiles() {
 #`cp -rf image/* converted_image/image`
 
 echo "==== Picture Converter ===="
-#readallfiles '../Pak64German/image/*.png'
+readallfiles '../Pak64German/image/*.png'
 readallfiles '../Pak64German/tram_image/*.png'
-#readallfiles '../Pak64German/**/image/*.png'
-#readallfiles '../Pak64German/**/tram_image/*.png'
+readallfiles '../Pak64German/**/image/*.png'
+readallfiles '../Pak64German/**/tram_image/*.png'
 echo "==== done ===="
 # pause
