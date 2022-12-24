@@ -191,7 +191,7 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: ./pak192.comic-vehicles-for-pak.zip
-        asset_name: pak192.comic-vehicles-for-pak128britain.zip
+        asset_name: pak192.comic-vehicles-for-pak.zip
         tag: Nightly
         overwrite: true
         
@@ -200,7 +200,7 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: ./pak192.comic-vehicles-for-pak96comic.zip
-        asset_name: pak192.comic-vehicles-for-pak128britain.zip
+        asset_name: pak192.comic-vehicles-for-pak96comic.zip
         tag: Nightly
         overwrite: true
         
