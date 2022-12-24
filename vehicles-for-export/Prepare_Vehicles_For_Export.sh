@@ -14,6 +14,7 @@ mkdir -p ../ToBeExported/AddOn/tram_image
 
 `cp -rf ../AddOn/austrian/vehicles/track/* ../ToBeExported/AddOn`
 `cp -rf ../AddOn/belgian/vehicles/* ../ToBeExported/AddOn`
+`cp -rf ../AddOn/britain/vehicles/* ../ToBeExported/AddOn`
 `cp -rf ../AddOn/czech/vehicles/track/* ../ToBeExported/AddOn`
 `cp -rf ../AddOn/danish/vehicles/* ../ToBeExported/AddOn`
 `cp -rf ../AddOn/french/vehicles/* ../ToBeExported/AddOn`
