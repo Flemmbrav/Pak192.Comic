@@ -11,12 +11,14 @@ convertpng() {
 	#convert $oldimage -brightness-contrast 0x25 $oldimage
 	#convert $oldimage -interpolative-resize 50%% $oldimage
 	#convert $oldimage -adaptive-resize 66.6666666%% $oldimage
+	convert $oldimage -roll +0+2 $oldimage
+	#0px to the right and 2 px down => equals 0,5px down after the scaling
 	convert $oldimage -resize 133.3333333% $oldimage
 	#convert $oldimage -adaptive-resize 25%% $oldimage
 	convert $oldimage -adaptive-resize 50%% $oldimage
 	convert $oldimage -adaptive-resize 50%% $oldimage
 	convert $oldimage -brightness-contrast 0x25 $oldimage
-	convert $oldimage -roll +0-2 $oldimage
+	#convert $oldimage -roll +0-2 $oldimage
 	#0px to the right and -2 px down
 
 }
