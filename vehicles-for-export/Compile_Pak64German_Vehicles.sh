@@ -43,6 +43,7 @@ fi
 
 `rm -rf ../Pak64German/image/`
 `rm -rf ../Pak64German/tram_image/`
+`rm -rf ../Pak64German/ToBeExported/`
 `rm -rf ../Pak64German/AddOn/`
 `rm -rf ../Pak64German/*.dat`
 `rm -rf ../Pak64German/makeobj`

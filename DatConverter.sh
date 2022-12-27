@@ -245,7 +245,7 @@ readfile() {
 	#creates a new ObjectArray
 	#runs readline for each line in the file
 	local Filename=$1
-	echo "nutze cat";
+	#echo "nutze cat";
 	local File=`cat $Filename | tr -d '\r'`
 
 	`rm -f calculated/$Filename`

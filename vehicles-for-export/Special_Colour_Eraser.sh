@@ -6,6 +6,7 @@ farbset_rot=('#511111' '#661111' '#811111' '#991111' '#B11111' '#CC1111' '#E1111
 farbset_dunkelrot=('#211111' '#331111' '#511111' '#661111' '#811111'  '#991111' '#B11111' '#CC1111')
 farbset_blau=('#0f0f7e' '#14148e' '#1818a6' '#1e1ec0' '#2323ce' '#2a2ada' '#3131ed' '#3f3fff')
 farbset_dunkelblau=('#040445' '#0d0d6f' '#0f0f7e' '#14148e' '#1818a6' '#1e1ec0' '#2323ce' '#2a2ada')
+farbset_lila=('#511177' '#661188' '#8111AA' '#9911C0' '#B111CE' '#CC11DA' '#E111ED' '#FF11FF')
 farbset_gruen=('#115111' '#116611' '#118111' '#119911' '#11B111' '#11CC11' '#11E111' '#11FF11')
 farbset_dunkelgruen=('#112111' '#113311' '#115111' '#116611' '#118111' '#119911' '#11B111' '#11CC11')
 farbset_tuerkies=('#115151' '#116666' '#118181' '#119999' '#11B1B1' '#11CCCC' '#11E1E1' '#11FFFF')
@@ -41,17 +42,21 @@ decide_colours() {
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelgruen[@]}
 	elif [[ $oldimage =~ "U-Bahn_Hamburg" || $oldimage =~ "_DB" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_knallgelb[@]}
-	elif [[ $oldimage =~ "CD_"  || $oldimage =~ "U-Bahn_Munchen" || $oldimage =~ "4010" || $oldimage =~ "4020" || $oldimage =~ "LNVG" || $oldimage =~ "Electric_2019_Desiro_ML_ODEG" ]] ; then
+	elif [[ $oldimage =~ "CD_"  || $oldimage =~ "U-Bahn_Munchen" || $oldimage =~ "4010" || $oldimage =~ "4020" || $oldimage =~ "LNVG" || $oldimage =~ "Electric_2019_Desiro_ML_ODEG" || $oldimage =~ "Railpool" || $oldimage =~ "boxxpress" ]] ; then
 		convertpng $oldimage ${farbset_blau[@]} ${farbset_knallgelb[@]}
 	elif [[ $oldimage =~ "Railjet" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelrot[@]}
-	elif [[ $oldimage =~ "BWegt" || $oldimage =~ "U-Bahn_Berlin"  || $oldimage =~ "SSB" || $oldimage =~ "E-BV" ]] ; then
+	elif [[ $oldimage =~ "BWegt" || $oldimage =~ "bwsp" || $oldimage =~ "U-Bahn_Berlin"  || $oldimage =~ "SSB" || $oldimage =~ "E-BV" || $oldimage =~ "Eurostar" ]|| $oldimage =~ "EVAG_P89" ] ; then
 		convertpng $oldimage ${farbset_knallgelb[@]} ${farbset_blau[@]}
+	elif [[ $oldimage =~ "GYSEV" ]] ; then
+		convertpng $oldimage ${farbset_gruen[@]} ${farbset_knallgelb[@]}
 	elif [[ $oldimage =~ "DSB" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelblau[@]}
+	elif [[ $oldimage =~ "SVT" || $oldimage =~ "henschel-wegmann" || $oldimage =~ "Rheingold_1928" ]] ; then
+		convertpng $oldimage ${farbset_lila[@]} ${farbset_rot[@]}
 	elif [[ $oldimage =~ "E231-500" || $oldimage =~ "E235-0" || $oldimage =~ "Ustra" || $oldimage =~ "Nordbahn" ]] ; then
 		convertpng $oldimage ${farbset_gruen[@]} ${farbset_gruen[@]}
-	elif [[ $oldimage =~ "Stadtbahn_Frankfurt_U4" || $oldimage =~ "Stadtbahn_Frankfurt_U5" || $oldimage =~ "Electric_2004_Flirt" || $oldimage =~ "Electric_2014_Flirt3" || $oldimage =~ "NahSH" || $oldimage =~ "nahsh" ]] ; then
+	elif [[ $oldimage =~ "Stadtbahn_Frankfurt_U4" || $oldimage =~ "Stadtbahn_Frankfurt_U5" || $oldimage =~ "Electric_2004_Flirt" || $oldimage =~ "Electric_2014_Flirt3" || $oldimage =~ "NahSH" || $oldimage =~ "NahSh" || $oldimage =~ "nahsh" || $oldimage =~ "AlphaTrains" || $oldimage =~ "Mintling" ]] ; then
 		convertpng $oldimage ${farbset_tuerkies[@]} ${farbset_gelb[@]}
 	else
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_blau[@]}
@@ -79,5 +84,8 @@ readallfiles '../ToBeExported/image/*.png'
 readallfiles '../ToBeExported/tram_image/*.png'
 readallfiles '../ToBeExported/**/image/*.png'
 readallfiles '../ToBeExported/**/tram_image/*.png'
+
+#decide_colours '../ToBeExported/image/Diesel_1935_SVT_Hamburg.png'
+
 echo "==== done ===="
 # pause

@@ -184,9 +184,12 @@ getincome() {
 	local Payload=$2
 	local Waytype=$3
 	local Year=$4
-	local Speed=$5
-	local SpeedBonus="$(getspeedbonus $Waytype $Year)"
-	local GoodSpeedBonus=${GoodsSpeedBonusArray[$Good]}
+	#local Speed=$5
+	local Speed=200
+	#local SpeedBonus="$(getspeedbonus $Waytype $Year)"
+	local SpeedBonus=1
+	#local GoodSpeedBonus=${GoodsSpeedBonusArray[$Good]}
+	local GoodSpeedBonus=0
 	local GoodValue=${GoodsValueArray[$Good]}
 	local Income=0
 	GoodSpeedBonus=$(( GoodSpeedBonus + 2 ))
@@ -252,7 +255,7 @@ readfile() {
 	#runs readline for each line in the file
 	local Filename=$1
 	local AddOnFolder=$2
-	echo "nutze cat";
+	#echo "nutze cat";
 	local File=`cat $Filename | tr -d '\r'`
 
 	`rm -f calculated/$Filename`
@@ -312,6 +315,11 @@ calculatecosts(){
 	elif [[ ! -z ${ObjectArray[build_year]} ]] ;then
 		year=${ObjectArray[build_year]}
 	fi
+
+	if [[ ${ObjectArray[freight]} == "Post" ]] ;then
+		ObjectArray[payload]=$(( ObjectArray[payload] * 100 / 2000 ))
+	fi
+
 	local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} $year ${ObjectArray[speed]})"
 	#local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
 	
@@ -340,9 +348,10 @@ calculatecosts(){
 		Income=$(( Income * 100 / 110 ))
 	fi
 	#calculate the runningcosts
-	local Cost=$(( Income + 10 * PowerValue ))
-	local RunningCost=$(( Income + PowerValue ))
-	RunningCost=$(( RunningCost / 4000 ))
+	local Cost=$(( Income + PowerValue / 5 ))
+	Cost=$(( Cost / 20 ))
+	local RunningCost=$(( Income + PowerValue / 2))
+	RunningCost=$(( RunningCost / 20000 ))
 	local LoadingTime=$(( Income / 300 ))
 	
 	#the next two lines are for the experimental implementation of fix costs. The running costs will be reduced to 10%, while the fix costs are a nice guess on what they should look like. I did some short math on them, but it's very vague.
@@ -484,14 +493,17 @@ writevehicle() {
 #Parameters
 	#the waytype of the vehicle has to be given
 	if [[ ${ObjectArray[waytype]} == "track" || ${ObjectArray[waytype]} == "narrowgauge_track" ]] ;then
-		if [[ $dat =~ "U-Bahn" || $dat =~ "3rdRail" ]] ; then
+		if [[ $dat =~ "U-Bahn" || $dat =~ "3rdRail" || $dat =~ "Electric_1984_vt17" ]] ; then
 			echo "waytype=narrowgauge_track" >> $calculatedfile
+			ObjectArray[waytype]="narrowgauge_track"
 		else
 			echo "waytype=track" >> $calculatedfile
+			ObjectArray[waytype]="track"
 		fi
 	else
 		echo "waytype=${ObjectArray[waytype]}" >> $calculatedfile
 	fi
+		echo "waytype=${ObjectArray[waytype]}" >> $calculatedfile
 	#write the speed if given, else write the speed used in the speedbonus
 	if [[ ! -z ${ObjectArray[speed]} ]] ;then
 		echo "speed=${ObjectArray[speed]}" >> $calculatedfile
@@ -524,7 +536,14 @@ writevehicle() {
 		echo "gear=${ObjectArray[gear]}" >> $calculatedfile
 	fi
 	echo >> $calculatedfile
-#Freigth
+
+	#calculate the costs and loading time
+	calculatecosts $dat $calculatedfile
+	echo >> $calculatedfile
+	writeconstraints "prev" $calculatedfile
+	writeconstraints "next" $calculatedfile
+	echo >> $calculatedfile
+	#Freigth
 	#only write in the freigth if it is given
 	if [[ ! -z ${ObjectArray[freight]} ]] ;then
 		echo "freight=${ObjectArray[freight]}" >> $calculatedfile
@@ -533,12 +552,6 @@ writevehicle() {
 	if [[ ! -z ${ObjectArray[payload]} ]] ;then
 		echo "payload=${ObjectArray[payload]}" >> $calculatedfile
 	fi
-	#calculate the costs and loading time
-	calculatecosts $dat $calculatedfile
-	echo >> $calculatedfile
-	writeconstraints "prev" $calculatedfile
-	writeconstraints "next" $calculatedfile
-	echo >> $calculatedfile
 	#only write in the smoke if it is given
 	if [[ ! -z ${ObjectArray[smoke]} ]] ;then
 		echo "smoke=${ObjectArray[smoke]}" >> $calculatedfile
