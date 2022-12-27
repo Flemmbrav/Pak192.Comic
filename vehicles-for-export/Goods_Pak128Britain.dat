@@ -5,10 +5,11 @@ obj=good
 name=None
 metric=
 catg=0
-value=25
+value=250
 speed_bonus=8
 weight_per_unit=0
 
+---
 
 ###
 
@@ -93,14 +94,6 @@ to_distance[2]=0
 speed_bonus=2
 weight_per_unit=120
 ------------------------------------------
-# None
-obj=good
-name=None
-metric=
-catg=0
-value=0
-weight_per_unit=1
------------------------
 # Cars
 # Class: not given, but treat as IV
 obj=good

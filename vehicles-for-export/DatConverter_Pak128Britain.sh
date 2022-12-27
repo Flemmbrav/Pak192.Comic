@@ -108,6 +108,7 @@ savegoodtoram() {
 			GoodsWeigthArray[${GoodArray[name]}]=${GoodsWeigthArray[catg${GoodArray[catg]}]}
 		fi
 	fi
+	#echo $((GoodsValueArray["None"]))
 }
 
 
@@ -198,11 +199,11 @@ getincome() {
 		Income=$(( (( Speed * 1000 / SpeedBonus ) - 1000 ) * ( GoodSpeedBonus ) + 10000 ))
 		#(( 13/3 Speed <= SpeedBonus )
 	fi
+	#echo $(( GoodsValueArray["None"] ))
 	#calculate the income
 	Income=$(( Income * Payload * GoodValue / 3 ))
 	#lowering the multiplyer to times 10
 	Income=$(( Income / 10 ))
-
 	if [ 0 -gt $Income ];then
 		Income=0
 	fi
@@ -312,10 +313,14 @@ calculatecosts(){
 	elif [[ ! -z ${ObjectArray[build_year]} ]] ;then
 		year=${ObjectArray[build_year]}
 	fi
+
+	if [[ ${ObjectArray[freight]} == "Post" ]] ;then
+		ObjectArray[payload]=$(( ObjectArray[payload] * 100 / 2000 ))
+	fi
+
 	local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} $year ${ObjectArray[speed]})"
 	#local Income="$(getincome ${ObjectArray[freight]} ${ObjectArray[payload]} ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
-	
-	#get the value of the power installed, this is essentially the income of 
+	#get the value of the power installed, this is essentially the income of
 	local PowerValue=0
 	if [[ ! -z ${ObjectArray[power]} ]] ;then
 		local EffectivePower=${ObjectArray[power]}
@@ -327,7 +332,7 @@ calculatecosts(){
 		fi
 		PowerValue="$(getincome "None" $EffectivePower ${ObjectArray[waytype]} $year ${ObjectArray[speed]})"
 		#PowerValue="$(getincome "None" $EffectivePower ${ObjectArray[waytype]} ${ObjectArray[intro_year]} ${ObjectArray[speed]})"
-		
+		#echo "Power Value=" $PowerValue
 		if [[ ! -z ${ObjectArray[engine_type]} ]] ;then
 			if [[ ${ObjectArray[engine_type]} == "electric" ]] ;then
 				PowerValue=$(( PowerValue  / 100 * 70 ))
@@ -337,10 +342,10 @@ calculatecosts(){
 	fi
 	#malus for passenger trains as they usually get higher average payload
 	if [[ ${ObjectArray[freight]} == "Passagiere" ]] ;then
-		Income=$(( Income * 100 / 110 ))
+		Income=$(( Income * 100 / 270 ))
 	fi
 	#calculate the runningcosts
-	local Cost=$(( Income + 10 * PowerValue ))
+	local Cost=$(( Income + PowerValue / 5 ))
 	local RunningCost=$(( Income + PowerValue ))
 	RunningCost=$(( RunningCost / 4000 ))
 	local LoadingTime=$(( Income / 300 ))
@@ -485,12 +490,12 @@ writevehicle() {
 	#the waytype of the vehicle has to be given
 	if [[ ${ObjectArray[waytype]} == "track" ]] ;then
 		echo "waytype=narrowgauge_track" >> $calculatedfile
+		ObjectArray[waytype]="narrowgauge_track"
+	elif [[ ${ObjectArray[waytype]} == "narrowgauge_track" ]] ;then
+		echo "waytype=track" >> $calculatedfile
+		ObjectArray[waytype]="track"
 	else
-		if [[ ${ObjectArray[waytype]} == "narrowgauge_track" ]] ;then
-			echo "waytype=track" >> $calculatedfile
-		else
-			echo "waytype=${ObjectArray[waytype]}" >> $calculatedfile
-		fi
+		echo "waytype=${ObjectArray[waytype]}" >> $calculatedfile
 	fi
 	#write the speed if given, else write the speed used in the speedbonus
 	if [[ ! -z ${ObjectArray[speed]} ]] ;then
@@ -524,7 +529,13 @@ writevehicle() {
 		echo "gear=${ObjectArray[gear]}" >> $calculatedfile
 	fi
 	echo >> $calculatedfile
-#Freigth
+	#calculate the costs and loading time
+	calculatecosts $dat $calculatedfile
+	echo >> $calculatedfile
+	writeconstraints "prev" $calculatedfile
+	writeconstraints "next" $calculatedfile
+	echo >> $calculatedfile
+	#Freigth
 	#only write in the freigth if it is given
 	if [[ ! -z ${ObjectArray[freight]} ]] ;then
 		echo "freight=${ObjectArray[freight]}" >> $calculatedfile
@@ -533,12 +544,6 @@ writevehicle() {
 	if [[ ! -z ${ObjectArray[payload]} ]] ;then
 		echo "payload=${ObjectArray[payload]}" >> $calculatedfile
 	fi
-	#calculate the costs and loading time
-	calculatecosts $dat $calculatedfile
-	echo >> $calculatedfile
-	writeconstraints "prev" $calculatedfile
-	writeconstraints "next" $calculatedfile
-	echo >> $calculatedfile
 	#only write in the smoke if it is given
 	if [[ ! -z ${ObjectArray[smoke]} ]] ;then
 		echo "smoke=${ObjectArray[smoke]}" >> $calculatedfile
@@ -655,6 +660,7 @@ Commands:
 		
 		readallfiles "../ToBeExported/*.dat"
 		readallfiles "../ToBeExported/**/*.dat" -a
+		#readfile "../ToBeExported/Lokomotive_1994_BR128.dat"
 				
 		echo "- Re-Converting The Files Affected By Constraint-Groups"
 		ReConvert=1
