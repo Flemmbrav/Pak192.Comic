@@ -46,7 +46,7 @@ decide_colours() {
 		convertpng $oldimage ${farbset_blau[@]} ${farbset_knallgelb[@]}
 	elif [[ $oldimage =~ "Railjet" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelrot[@]}
-	elif [[ $oldimage =~ "BWegt" || $oldimage =~ "bwsp" || $oldimage =~ "U-Bahn_Berlin"  || $oldimage =~ "SSB" || $oldimage =~ "E-BV" || $oldimage =~ "Eurostar" ]|| $oldimage =~ "EVAG_P89" ] ; then
+	elif [[ $oldimage =~ "BWegt" || $oldimage =~ "bwsp" || $oldimage =~ "U-Bahn_Berlin"  || $oldimage =~ "SSB" || $oldimage =~ "E-BV" || $oldimage =~ "Eurostar" || $oldimage =~ "EVAG_P89" ]] ; then
 		convertpng $oldimage ${farbset_knallgelb[@]} ${farbset_blau[@]}
 	elif [[ $oldimage =~ "GYSEV" ]] ; then
 		convertpng $oldimage ${farbset_gruen[@]} ${farbset_knallgelb[@]}
