@@ -493,17 +493,15 @@ writevehicle() {
 #Parameters
 	#the waytype of the vehicle has to be given
 	if [[ ${ObjectArray[waytype]} == "track" || ${ObjectArray[waytype]} == "narrowgauge_track" ]] ;then
-		if [[ $dat =~ "U-Bahn" || $dat =~ "3rdRail" || $dat =~ "Electric_1984_vt17" ]] ; then
-			echo "waytype=narrowgauge_track" >> $calculatedfile
+		if [[ $dat =~ "U-Bahn" || $dat =~ "3rdRail" || $dat =~ "Electric_1984_vt17" || $dat =~ "BVG_E" || $dat =~ "BVB_E" ]] ; then
 			ObjectArray[waytype]="narrowgauge_track"
+		elif [[ $dat =~ "Stadtbahn_Frankfurt" || $dat =~ "Stadtbahn_Rhein-Ruhr" || $dat =~ "Stuttgarter_Stadtbahn" ]] ; then
+			ObjectArray[waytype]="tram_track"
 		else
-			echo "waytype=track" >> $calculatedfile
 			ObjectArray[waytype]="track"
 		fi
-	else
-		echo "waytype=${ObjectArray[waytype]}" >> $calculatedfile
 	fi
-		echo "waytype=${ObjectArray[waytype]}" >> $calculatedfile
+	echo "waytype=${ObjectArray[waytype]}" >> $calculatedfile
 	#write the speed if given, else write the speed used in the speedbonus
 	if [[ ! -z ${ObjectArray[speed]} ]] ;then
 		echo "speed=${ObjectArray[speed]}" >> $calculatedfile
