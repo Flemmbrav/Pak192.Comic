@@ -25,6 +25,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR_423_2
 #Constraint[Next][1]=BR_423_4
 
+sound=BR425.wav
 EmptyImage[S]=./image/BR_423.0.3
 EmptyImage[E]=./image/BR_423.0.2
 EmptyImage[SE]=./image/BR_423.1.0
@@ -58,6 +59,7 @@ loading_time=5610
 Constraint[Prev][0]=BR_423_1
 Constraint[Next][0]=BR_423_3
 
+sound=BR425.wav
 EmptyImage[S]=./image/BR_423.4.3
 EmptyImage[E]=./image/BR_423.4.2
 EmptyImage[SE]=./image/BR_423.5.0
@@ -91,6 +93,7 @@ loading_time=5610
 Constraint[Prev][0]=BR_423_2
 Constraint[Next][0]=BR_423_4
 
+sound=BR425.wav
 EmptyImage[S]=./image/BR_423.6.3
 EmptyImage[E]=./image/BR_423.6.2
 EmptyImage[SE]=./image/BR_423.7.0
@@ -126,6 +129,7 @@ Constraint[Next][0]=BR_423_1
 Constraint[Next][1]=none
 #Constraint[Next][0]=none
 
+sound=BR425.wav
 EmptyImage[S]=./image/BR_423.2.3
 EmptyImage[E]=./image/BR_423.2.2
 EmptyImage[SE]=./image/BR_423.3.0
