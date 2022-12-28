@@ -8,7 +8,7 @@ retire_year=1980
 retire_month=1
 cost=750
 
-working_method=track_circuit_block
+working_method=absolute_block
 is_signal=1
 aspects=2
 normal_danger=1
@@ -25,7 +25,7 @@ intro_year=1980
 intro_month=1
 cost=750
 
-working_method=track_circuit_block
+working_method=absolute_block
 is_signal=1
 aspects=2
 normal_danger=1
@@ -40,7 +40,7 @@ copyright=PappeTeeMaster
 waytype=narrowgauge_track
 cost=750
 
-working_method=track_circuit_block
+working_method=absolute_block
 is_signal=1
 aspects=2
 normal_danger=1
@@ -109,7 +109,7 @@ intro_year=1980
 intro_month=1
 cost=900
 
-working_method=track_circuit_block
+working_method=absolute_block
 is_signal=1
 aspects=3
 normal_danger=1
@@ -128,7 +128,7 @@ retire_year=1980
 retire_month=1
 cost=900
 
-working_method=track_circuit_block
+working_method=absolute_block
 is_signal=1
 aspects=3
 normal_danger=1
@@ -143,7 +143,7 @@ copyright=RABe514 & Flemmbrav
 waytype=narrowgauge_track
 cost=900
 
-working_method=track_circuit_block
+working_method=absolute_block
 is_signal=1
 aspects=3
 normal_danger=1
