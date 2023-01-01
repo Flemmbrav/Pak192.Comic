@@ -173,7 +173,8 @@ engine_type=electric
 loading_time=4820
 
 Constraint[Prev][0]=BR_425_4
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR_427
+Constraint[Prev][2]=none
 Constraint[Next][0]=BR_425_4
 
 sound=BR425.wav
