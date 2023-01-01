@@ -66,7 +66,7 @@ constraint[prev][5]=Electric_2007_Desiro_ML_TDR_3
 constraint[prev][6]=Electric_2019_Desiro_ML_ODEG_4
 constraint[prev][7]=Electric_2011_Desiro_ML_SNCB_3
 constraint[prev][8]=none
-constraint[next][0]=OBB_Cityjet_4748_Mittelwagen
+constraint[next][0]=OBB_Cityjet_4748_Mittelwagen_1
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/OBB_Desiro_ML.0.<$0>
 -----------
