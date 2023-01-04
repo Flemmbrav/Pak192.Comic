@@ -2,9 +2,10 @@
 obj=vehicle
 name=BR_425_BOB_4
 copyright=Flemmbrav
-intro_year=1998
-intro_month=6
-retire_year=2015
+intro_year=2022
+build_year=1998
+intro_month=1
+retire_year=2030
 retire_month=5
 freight=Passagiere
 
@@ -44,9 +45,10 @@ EmptyImage[NE]=./image/Electric_1998_BR_425-426_BOB.3.3
 obj=vehicle
 name=BR_426_BOB_1
 copyright=Flemmbrav
-intro_year=1998
-intro_month=6
-retire_year=2015
+intro_year=2022
+build_year=1998
+intro_month=1
+retire_year=2030
 retire_month=5
 freight=Passagiere
 
