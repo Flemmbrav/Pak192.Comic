@@ -42,13 +42,13 @@ decide_colours() {
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelgruen[@]}
 	elif [[ $oldimage =~ "U-Bahn_Hamburg" || $oldimage =~ "_DB" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_knallgelb[@]}
-	elif [[ $oldimage =~ "CD_"  || $oldimage =~ "U-Bahn_Munchen" || $oldimage =~ "4010" || $oldimage =~ "4020" || $oldimage =~ "LNVG" || $oldimage =~ "Electric_2019_Desiro_ML_ODEG" || $oldimage =~ "Railpool" || $oldimage =~ "boxxpress" ]] ; then
+	elif [[ $oldimage =~ "CD_"  || $oldimage =~ "U-Bahn_Munchen" || $oldimage =~ "4010" || $oldimage =~ "4020" || $oldimage =~ "LNVG" || $oldimage =~ "Electric_2019_Desiro_ML_ODEG" || $oldimage =~ "Railpool" || $oldimage =~ "boxxpress" || $oldimage =~ "Electric_1998_BR_425-426_BOB" ]] ; then
 		convertpng $oldimage ${farbset_blau[@]} ${farbset_knallgelb[@]}
 	elif [[ $oldimage =~ "Railjet" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelrot[@]}
 	elif [[ $oldimage =~ "BWegt" || $oldimage =~ "bwsp" || $oldimage =~ "U-Bahn_Berlin"  || $oldimage =~ "SSB" || $oldimage =~ "E-BV" || $oldimage =~ "Eurostar" || $oldimage =~ "EVAG_P89" || $oldimage =~ "Electric_2007_Desiro_ML_TDR" ]] ; then
 		convertpng $oldimage ${farbset_knallgelb[@]} ${farbset_blau[@]}
-	elif [[ $oldimage =~ "GYSEV" ]] ; then
+	elif [[ $oldimage =~ "GYSEV" || $oldimage =~ "Electric_2008_BR_422_VRR" ]] ; then
 		convertpng $oldimage ${farbset_gruen[@]} ${farbset_knallgelb[@]}
 	elif [[ $oldimage =~ "DSB" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelblau[@]}

@@ -23,11 +23,15 @@ loading_time=4820
 
 Constraint[Prev][0]=BR_425_4
 Constraint[Prev][1]=BR_427
-Constraint[Prev][2]=none
+Constraint[Prev][2]=BR_425_Transdev_4
+Constraint[Prev][3]=BR_425_BOB_4
+Constraint[Prev][4]=none
 Constraint[Next][0]=BR_425_1
 Constraint[Next][1]=BR_426_1
 Constraint[Next][2]=BR_427
-Constraint[Next][3]=none
+Constraint[Next][3]=BR_425_Transdev_1
+Constraint[Next][4]=BR_426_BOB_1
+Constraint[Next][5]=none
 
 sound=BR425.wav
 EmptyImage[S]=./image/Electric_1998_BR_427.0.3
