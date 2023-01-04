@@ -48,8 +48,8 @@ jobs:
 
     - name: zip converted_addons
       run: |
-        mv compiled_converted_addons pak192.comic-nightly-addons-datconverter
-        zip -r pak192-nightly-addons-datconverter.zip pak192.comic-nightly-addons-datconverter
+        mv compiled_converted_addons addons/pak192.comic
+        zip -r pak192-nightly-addons-datconverter.zip addons
 
     - name: make pak192
       run: |
@@ -57,8 +57,8 @@ jobs:
 
     - name: Rename result
       run: |
-        mv compiled_converted pak192.comic-nightly-datconverter
-        zip -r pak192-nightly-datconverter.zip pak192.comic-nightly-datconverter
+        mv compiled_converted pak192.comic-nightly
+        zip -r pak192-nightly-datconverter.zip pak192.comic-nightly
 
     - name: Update Addons of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
@@ -180,14 +180,14 @@ jobs:
           cd ..
     - name: zip vehicles
       run: |
-        mv Pak pak192.comic-vehicles-for-pak
-        zip -r pak192.comic-vehicles-for-pak.zip pak192.comic-vehicles-for-pak
-        mv Pak64German pak192.comic-vehicles-for-pak64german
-        zip -r pak192.comic-vehicles-for-pak64german.zip pak192.comic-vehicles-for-pak64german
-        mv Pak96Comic pak192.comic-vehicles-for-pak96comic
-        zip -r pak192.comic-vehicles-for-pak96comic.zip pak192.comic-vehicles-for-pak96comic
-        mv Pak128Britain pak192.comic-vehicles-for-pak128britain
-        zip -r pak192.comic-vehicles-for-pak128britain.zip pak192.comic-vehicles-for-pak128britain
+        mv Pak pak
+        zip -r pak192.comic-vehicles-for-pak.zip pak
+        mv Pak64German addons/pak64.german
+        zip -r pak192.comic-vehicles-for-pak64german.zip addons
+        mv Pak96Comic addons/pak96.comic
+        zip -r pak192.comic-vehicles-for-pak96comic.zip addons
+        mv Pak128Britain addons/pak128.Britain
+        zip -r pak192.comic-vehicles-for-pak128britain.zip addons
 
     - name: Update Serverset of Nightly Release
       uses: svenstaro/upload-release-action@v1-release

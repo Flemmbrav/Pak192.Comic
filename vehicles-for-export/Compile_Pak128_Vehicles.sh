@@ -45,6 +45,7 @@ fi
 
 `rm -rf ../Pak128/image/`
 `rm -rf ../Pak128/tram_image/`
+`rm -rf ../Pak128/ToBeExported/`
 `rm -rf ../Pak128/AddOn/`
 `rm -rf ../Pak128/*.dat`
 `rm -rf ../Pak128/makeobj`

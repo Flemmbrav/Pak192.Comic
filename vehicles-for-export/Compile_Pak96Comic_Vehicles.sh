@@ -43,6 +43,7 @@ fi
 
 `rm -rf ../Pak96Comic/image/`
 `rm -rf ../Pak96Comic/tram_image/`
+`rm -rf ../Pak96Comic/ToBeExported/`
 `rm -rf ../Pak96Comic/AddOn/`
 `rm -rf ../Pak96Comic/*.dat`
 `rm -rf ../Pak96Comic/makeobj`

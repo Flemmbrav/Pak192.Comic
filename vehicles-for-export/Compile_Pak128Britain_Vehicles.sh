@@ -45,6 +45,7 @@ fi
 
 `rm -rf ../Pak128Britain/image/`
 `rm -rf ../Pak128Britain/tram_image/`
+`rm -rf ../Pak128Britain/ToBeExported/`
 `rm -rf ../Pak128Britain/AddOn/`
 `rm -rf ../Pak128Britain/*.dat`
 `rm -rf ../Pak128Britain/makeobj`

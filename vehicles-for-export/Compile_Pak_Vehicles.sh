@@ -43,6 +43,7 @@ fi
 
 `rm -rf ../Pak/image/`
 `rm -rf ../Pak/tram_image/`
+`rm -rf ../Pak/ToBeExported/`
 `rm -rf ../Pak/AddOn/`
 `rm -rf ../Pak/*.dat`
 `rm -rf ../Pak/makeobj`
