@@ -7,7 +7,8 @@ smoke=none
 sound=none
 freight=Passagiere
 
-intro_year=1991
+intro_year=1995
+build_year=1989
 intro_month=6
 #retire_year=2008
 #retire_month=5
@@ -44,7 +45,8 @@ smoke=none
 sound=none
 freight=Passagiere
 
-intro_year=1991
+intro_year=1995
+build_year=1989
 intro_month=6
 #retire_year=2008
 #retire_month=5
@@ -84,6 +86,7 @@ sound=none
 freight=Passagiere
 
 intro_year=1991
+build_year=1986
 intro_month=6
 retire_year=2008
 retire_month=5
@@ -121,6 +124,7 @@ sound=none
 freight=Passagiere
 
 intro_year=1991
+build_year=1986
 intro_month=6
 retire_year=2008
 retire_month=5
