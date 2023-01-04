@@ -187,11 +187,11 @@ jobs:
         mv Pak addons/pak
         zip -r pak192.comic-vehicles-for-pak.zip addons/pak
         rm -rf addons/
-        mkdir -p addons/pak128.Britain
+        mkdir -p addons/pak64.german
         mv Pak64German addons/pak64.german
         zip -r pak192.comic-vehicles-for-pak64german.zip addons
         rm -rf addons/
-        mkdir -p addons/pak128.Britain
+        mkdir -p addons/pak96.comic
         mv Pak96Comic addons/pak96.comic
         zip -r pak192.comic-vehicles-for-pak96comic.zip addons
         rm -rf addons/
