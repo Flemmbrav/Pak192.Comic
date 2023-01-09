@@ -128,6 +128,7 @@ length=4
 waytype=tram_track
 engine_type=electric
 loading_time=630
+sound=Muenchen_GT6N.wav
 
 Constraint[Prev][0]=GT8N_3
 Constraint[Prev][1]=none
@@ -163,6 +164,7 @@ length=5
 waytype=tram_track
 engine_type=electric
 loading_time=530
+sound=Muenchen_GT6N.wav
 
 Constraint[Prev][0]=GT8N_1
 Constraint[Prev][1]=GT8N_2
@@ -198,6 +200,7 @@ length=8
 waytype=tram_track
 engine_type=electric
 loading_time=630
+sound=Muenchen_GT6N.wav
 
 Constraint[Prev][0]=GT8N_1
 Constraint[Prev][1]=GT8N_2
