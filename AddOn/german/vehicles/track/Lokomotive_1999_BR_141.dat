@@ -15,7 +15,7 @@ weight=66
 power=2400
 gear=158
 speed=120
-length=8
+length=7
 waytype=narrowgauge_track
 engine_type=electric
 
