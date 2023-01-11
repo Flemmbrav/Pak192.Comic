@@ -110,19 +110,19 @@ BackImage[0][1][1][0][0][1]=./images/sidewalk.1.0
 BackImage[0][1][0][0][0][1]=./images/sidewalk.1.0
 BackImage[1][1][1][0][0][1]=./images/sidewalk.1.0
 BackImage[1][0][1][0][0][1]=./images/sidewalk.1.0
----------------
-obj=building
-name=tow_fw_01
-copyright=PappeTeeMaster
-type=tow
-chance=100
-level=10
-build_time=0
-intro_year=1835
-Intro_month=1
-climates=temperate, mediterran
-needs_ground=1
-Dims=2,2,1
+#---------------
+#obj=building
+#name=tow_fw_01
+#copyright=PappeTeeMaster
+#type=tow
+#chance=100
+#level=10
+#build_time=0
+#intro_year=1835
+#Intro_month=1
+#climates=temperate, mediterran
+#needs_ground=1
+#Dims=2,2,1
 #BackImage[0][0][0][0][0][0]=./images/fachwerk01.0.0
 #BackImage[0][0][1][0][0][0]=./images/german01.0.1
 #BackImage[0][0][0][0][0][1]=./images/fachwerk01.0.1
@@ -132,13 +132,3 @@ Dims=2,2,1
 #BackImage[0][1][1][0][0][0]=./images/sidewalk.0.0
 #BackImage[0][1][0][0][0][1]=./images/sidewalk.1.0
 #BackImage[0][1][1][0][0][1]=./images/sidewalk.1.0
-
-BackImage[0][0][0][0][0][0]=./images/german01.0.0
-BackImage[0][0][1][0][0][0]=./images/german01.0.1
-BackImage[0][0][0][0][0][1]=./images/german01.1.0
-BackImage[0][0][1][0][0][1]=./images/german01.1.1
-
-BackImage[0][1][0][0][0][0]=./images/sidewalk.0.0
-BackImage[0][1][1][0][0][0]=./images/sidewalk.0.0
-BackImage[0][1][0][0][0][1]=./images/sidewalk.1.0
-BackImage[0][1][1][0][0][1]=./images/sidewalk.1.0
