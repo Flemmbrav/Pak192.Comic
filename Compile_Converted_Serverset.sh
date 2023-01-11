@@ -181,7 +181,7 @@ mv "$csv.in" "$csv"
 echo -e '------------------------------------------------------'
 echo -e 'Moving Trunk (configs, sound, text)\n\n'
 
-cp -r calculated/pakset/trunk/* compiled_serverset
+cp -r pakset/trunk/* compiled_serverset
 
 echo '======================================================'
 echo 'Serverset folder complete!'
