@@ -160,7 +160,7 @@ mv "$csv.in" "$csv"
 echo -e '------------------------------------------------------'
 echo -e 'Moving Trunk (configs, sound, text)\n\n'
 
-cp -r pakset/trunk/* compiled_converted
+cp -r calculated/pakset/trunk/* compiled_converted
 
 echo '======================================================'
 echo 'Pakset complete!'
