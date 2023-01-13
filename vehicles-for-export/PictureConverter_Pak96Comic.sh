@@ -8,14 +8,30 @@ convertpng() {
 	#echo $oldimage
 	
 	#convert $oldimage -transparent '#000000' $oldimage
-	convert $oldimage -interpolative-resize 50%% $oldimage
+	#convert $oldimage -interpolative-resize 50%% $oldimage
+	#convert $oldimage -interpolative-resize 37.777777% $oldimage
+	#convert $oldimage -interpolative-resize 42.222222% $oldimage
+	#convert $oldimage -interpolative-resize 50%% $oldimage
 	#convert $oldimage -interpolative-resize 66.6666666%% $oldimage
 	#convert $oldimage -liquid-rescale 75%% $oldimage
 	#convert $oldimage -interpolative-resize 66.6666666%% $oldimage
-	convert $oldimage -brightness-contrast 0x25 $oldimage
-	#convert $oldimage -roll +0-2 $oldimage
-	#0px to the right and -2 px down
-	convert $oldimage -channel A -threshold 254 $oldimage
+	#convert $oldimage -interpolative-resize 58.3333333% $oldimage
+
+	#convert $oldimage -magnify -resize 116.666666% -interpolative-resize 50% -interpolative-resize 50% $oldimage
+	
+	#convert $oldimage -resize 116.666666% -interpolative-resize 50% $oldimage
+	#convert $oldimage -interpolative-resize 116.666666% -interpolative-resize 50% $oldimage
+	#convert $oldimage -magnify $oldimage
+	#convert $oldimage -resize 116.666666% $oldimage
+	#convert $oldimage -interpolative-resize 50% -interpolative-resize 50% $oldimage
+	#convert $oldimage -interpolative-resize 116.666666% -adaptive-sharpen 2 $oldimage
+	convert $oldimage -interpolative-resize 116.666666% -interpolative-resize 50% $oldimage
+
+
+	#convert $oldimage -brightness-contrast 0x30 $oldimage
+	convert $oldimage -brightness-contrast 5x25 -roll -8-12 -channel A -threshold 15% $oldimage
+	#-8px to the right and -12 px down
+	#convert $oldimage -channel A -threshold 254 $oldimage
 
 }
 

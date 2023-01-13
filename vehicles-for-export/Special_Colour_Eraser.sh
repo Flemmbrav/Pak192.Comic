@@ -42,7 +42,7 @@ decide_colours() {
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelgruen[@]}
 	elif [[ $oldimage =~ "U-Bahn_Hamburg" || $oldimage =~ "_DB" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_knallgelb[@]}
-	elif [[ $oldimage =~ "CD_"  || $oldimage =~ "U-Bahn_Munchen" || $oldimage =~ "4010" || $oldimage =~ "4020" || $oldimage =~ "LNVG" || $oldimage =~ "Electric_2019_Desiro_ML_ODEG" || $oldimage =~ "Railpool" || $oldimage =~ "boxxpress" || $oldimage =~ "Electric_1998_BR_425-426_BOB" ]] ; then
+	elif [[ $oldimage =~ "CD_"  || $oldimage =~ "U-Bahn_Munchen" || $oldimage =~ "4010" || $oldimage =~ "4020" || $oldimage =~ "LNVG" || $oldimage =~ "Electric_2019_Desiro_ML_ODEG" || $oldimage =~ "Railpool" || $oldimage =~ "boxxpress" || $oldimage =~ "Electric_1998_BR_425-426_BOB" || $oldimage =~ "Electric_1998_BR_423_BWegt" || $oldimage =~ "Electric_2014_BR_430_BWegt" || $oldimage =~ "Interregio_1988" || $oldimage =~ "Hydrogene_1997_Simutrans_Logo" || $oldimage =~ "_RBH" ]] ; then
 		convertpng $oldimage ${farbset_blau[@]} ${farbset_knallgelb[@]}
 	elif [[ $oldimage =~ "Railjet" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelrot[@]}
@@ -56,7 +56,7 @@ decide_colours() {
 		convertpng $oldimage ${farbset_lila[@]} ${farbset_rot[@]}
 	elif [[ $oldimage =~ "E231-500" || $oldimage =~ "E235-0" || $oldimage =~ "Ustra" || $oldimage =~ "Nordbahn" ]] ; then
 		convertpng $oldimage ${farbset_gruen[@]} ${farbset_gruen[@]}
-	elif [[ $oldimage =~ "Stadtbahn_Frankfurt_U4" || $oldimage =~ "Stadtbahn_Frankfurt_U5" || $oldimage =~ "Electric_2004_Flirt" || $oldimage =~ "Electric_2014_Flirt3" || $oldimage =~ "NahSH" || $oldimage =~ "NahSh" || $oldimage =~ "nahsh" || $oldimage =~ "AlphaTrains" || $oldimage =~ "Mintling" ]] ; then
+	elif [[ $oldimage =~ "Stadtbahn_Frankfurt_U4" || $oldimage =~ "Stadtbahn_Frankfurt_U5" || $oldimage =~ "Electric_2004_Flirt" || $oldimage =~ "Electric_2014_Flirt3" || $oldimage =~ "NahSH" || $oldimage =~ "NahSh" || $oldimage =~ "nahsh" || $oldimage =~ "AlphaTrains" || $oldimage =~ "Mintling" || $oldimage =~ "_Alex" ]] ; then
 		convertpng $oldimage ${farbset_tuerkies[@]} ${farbset_gelb[@]}
 	else
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_blau[@]}

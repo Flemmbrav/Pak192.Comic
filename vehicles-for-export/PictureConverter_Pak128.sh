@@ -11,14 +11,15 @@ convertpng() {
 
 	#convert $oldimage -brightness-contrast -15x25 -modulate 100,80 $oldimage
 	#convert $oldimage -brightness-contrast 0x5 -modulate 100,80 $oldimage
+	#convert $oldimage -brightness-contrast 0x5 $oldimage
 	#convert $oldimage -resize 66.6666666% $oldimage
 	convert $oldimage -resize 133.3333333% $oldimage
 	convert $oldimage -adaptive-resize 50% $oldimage	
 	#Characteristics of: -resize 66.6666666% instead of -resize 133.3333333% -adaptive-resize 50%
 	#  - looks more blurry
 	#  - less risk of weird windows
-	convert $oldimage -roll +0-4 $oldimage
-	#0px to the right and -4 px down
+	convert $oldimage -roll +0+0 $oldimage
+	#0px to the right and 0px down
 
 }
 

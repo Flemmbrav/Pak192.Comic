@@ -11,6 +11,8 @@ mkdir -p ../ToBeExported/AddOn/tram_image
 `cp -rf ../pakset/vehicles/narrowgauge/* ../ToBeExported`
 `cp -rf ../pakset/vehicles/tram/* ../ToBeExported`
 `cp -rf ../pakset/vehicles/track/* ../ToBeExported`
+`cp -rf ../pakset/vehicles/road/* ../ToBeExported`
+#`cp -rf ../pakset/vehicles/smoke/* ../ToBeExported`
 
 `cp -rf ../AddOn/austrian/vehicles/track/* ../ToBeExported/AddOn`
 `cp -rf ../AddOn/belgian/vehicles/* ../ToBeExported/AddOn`

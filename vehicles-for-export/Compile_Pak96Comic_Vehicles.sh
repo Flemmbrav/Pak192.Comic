@@ -27,7 +27,7 @@ if [ ${#directionary[@]} -gt 0 ] ; then
 	for dat in $directionary ; do
 		if [ -f "$dat" ] ; then
 			echo "-- Performing Work At: $dat "
-			./makeobj pak96 ../Pak96Comic/ "./$dat"
+			./makeobj pak112 ../Pak96Comic/ "./$dat"
 		fi
 	done
 fi
@@ -36,7 +36,7 @@ if [ ${#directionary[@]} -gt 0 ] ; then
 	for dat in $directionary ; do
 		if [ -f "$dat" ] ; then
 			echo "-- Performing Work At: $dat "
-			./makeobj pak96 ../Pak96Comic/ "./$dat"
+			./makeobj pak112 ../Pak96Comic/ "./$dat"
 		fi
 	done
 fi

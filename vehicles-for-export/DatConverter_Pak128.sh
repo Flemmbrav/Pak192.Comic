@@ -333,15 +333,15 @@ calculatecosts(){
 				PowerValue=$(( PowerValue  / 100 * 70 ))
 			fi
 		fi
-		PowerValue=$(( PowerValue / 1000 ))
+		PowerValue=$(( PowerValue / 10000 ))
 	fi
 	#malus for passenger trains as they usually get higher average payload
 	if [[ ${ObjectArray[freight]} == "Passagiere" ]] ;then
 		Income=$(( Income * 100 / 110 ))
 	fi
 	#calculate the runningcosts
-	local Cost=$(( Income * 5 / 4 + PowerValue * 2 / 5 ))
-	local RunningCost=$(( Income * 4 + PowerValue ))
+	local Cost=$(( 2 * Income + 5 * PowerValue ))
+	local RunningCost=$(( Income + PowerValue ))
 	RunningCost=$(( RunningCost / 4000 ))
 	local LoadingTime=$(( Income / 300 ))
 	
@@ -509,9 +509,7 @@ writevehicle() {
 	fi
 	#only write in the length if it is given
 	if [[ ! -z ${ObjectArray[length]} ]] ;then
-		local length=${ObjectArray[length]}
-		length=$(( ( length * 112 + 56 ) / 96 ))
-		echo "length=$length" >> $calculatedfile
+		echo "length=${ObjectArray[length]}" >> $calculatedfile
 	fi
 	#only write in the engine type if it is given
 	if [[ ! -z ${ObjectArray[engine_type]} ]] ;then
@@ -573,9 +571,9 @@ writeobject() {
 
 				# get directory where the dat file is located
 				if [[ $AddOnFolder == 1 ]] ;then
-					local calculateddir=../Pak96Comic/AddOn/$(dirname "$dat")/
+					local calculateddir=../Pak128/AddOn/$(dirname "$dat")/
 				else
-					local calculateddir=../Pak96Comic/$(dirname "$dat")/
+					local calculateddir=../Pak128/$(dirname "$dat")/
 				fi
 				local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
 				# Create folder for *.dat or delete all old dats if folder already exists
@@ -586,10 +584,10 @@ writeobject() {
 						mkdir -p $calculatedextendeddir
 				fi
 				if [[ $AddOnFolder == "1" ]] ;then
-					calculateddir="../Pak96Comic/AddOn"
+					calculateddir="../Pak128/AddOn"
 					#echo "true"
 				else
-					calculateddir="../Pak96Comic"
+					calculateddir="../Pak128"
 					#echo "false"
 				fi
 				writevehicle $FileName $calculateddir

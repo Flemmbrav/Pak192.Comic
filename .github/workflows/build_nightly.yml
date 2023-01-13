@@ -195,6 +195,10 @@ jobs:
         mv Pak96Comic addons/pak96.comic
         zip -r pak192.comic-vehicles-for-pak96comic.zip addons
         rm -rf addons/
+        mkdir -p addons/pak128
+        mv Pak128 addons/pak128
+        zip -r pak192.comic-vehicles-for-pak128.zip addons
+        rm -rf addons/
         mkdir -p addons/pak128.Britain
         mv Pak128Britain addons/pak128.Britain
         zip -r pak192.comic-vehicles-for-pak128britain.zip addons
@@ -232,5 +236,14 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: ./pak192.comic-vehicles-for-pak128britain.zip
         asset_name: pak192.comic-vehicles-for-pak128britain.zip
+        tag: Nightly
+        overwrite: true
+        
+    - name: Update Serverset of Nightly Release
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./pak192.comic-vehicles-for-pak128.zip
+        asset_name: pak192.comic-vehicles-for-pak128.zip
         tag: Nightly
         overwrite: true
