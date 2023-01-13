@@ -178,6 +178,7 @@ jobs:
           bash Compile_Pak_Vehicles.sh
           bash Compile_Pak64German_Vehicles.sh
           bash Compile_Pak96Comic_Vehicles.sh
+          bash Compile_Pak128_Vehicles.sh
           bash Compile_Pak128Britain_Vehicles.sh
           cd ..
     - name: zip vehicles
