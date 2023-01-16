@@ -20,6 +20,9 @@
 # 1999 - 2012 DT4.5	80km/h				grau/weiﬂ
 # 2012 - **** DT5	80km/h				grau/rot
 #
+# 1992 - **** AL    40km/h  				orange
+#
+
 
 
 obj=vehicle
@@ -56,7 +59,8 @@ constraint[prev][8]=U-Bahn_Hamburg_TU1_1
 constraint[prev][9]=U-Bahn_Hamburg_TU1_2
 constraint[prev][10]=U-Bahn_Hamburg_TU2_1
 constraint[prev][11]=U-Bahn_Hamburg_TU2_2
-constraint[prev][12]=none
+constraint[prev][12]=U-Bahn_Hamburg_AL
+constraint[prev][13]=none
 
 constraint[next][0]=U-Bahn_Hamburg_T1_1
 constraint[next][1]=U-Bahn_Hamburg_T1_2
@@ -127,7 +131,8 @@ constraint[next][8]=U-Bahn_Hamburg_TU1_1
 constraint[next][9]=U-Bahn_Hamburg_TU1_2
 constraint[next][10]=U-Bahn_Hamburg_TU2_1
 constraint[next][11]=U-Bahn_Hamburg_TU2_2
-constraint[next][12]=none
+constraint[next][12]=U-Bahn_Hamburg_AL
+constraint[next][13]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_T1.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T1.2.2
@@ -174,7 +179,8 @@ constraint[prev][8]=U-Bahn_Hamburg_TU1_1
 constraint[prev][9]=U-Bahn_Hamburg_TU1_2
 constraint[prev][10]=U-Bahn_Hamburg_TU2_1
 constraint[prev][11]=U-Bahn_Hamburg_TU2_2
-constraint[prev][12]=none
+constraint[prev][12]=U-Bahn_Hamburg_AL
+constraint[prev][13]=none
 
 constraint[next][0]=U-Bahn_Hamburg_T1_1
 constraint[next][1]=U-Bahn_Hamburg_T1_2
@@ -245,7 +251,8 @@ constraint[next][8]=U-Bahn_Hamburg_TU1_1
 constraint[next][9]=U-Bahn_Hamburg_TU1_2
 constraint[next][10]=U-Bahn_Hamburg_TU2_1
 constraint[next][11]=U-Bahn_Hamburg_TU2_2
-constraint[next][12]=none
+constraint[next][12]=U-Bahn_Hamburg_AL
+constraint[next][13]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_T1_1.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T1_1.2.2
@@ -292,7 +299,8 @@ constraint[prev][8]=U-Bahn_Hamburg_TU1_1
 constraint[prev][9]=U-Bahn_Hamburg_TU1_2
 constraint[prev][10]=U-Bahn_Hamburg_TU2_1
 constraint[prev][11]=U-Bahn_Hamburg_TU2_2
-constraint[prev][12]=none
+constraint[prev][12]=U-Bahn_Hamburg_AL
+constraint[prev][13]=none
 
 constraint[next][0]=U-Bahn_Hamburg_T1_1
 constraint[next][1]=U-Bahn_Hamburg_T1_2
@@ -306,7 +314,8 @@ constraint[next][8]=U-Bahn_Hamburg_TU1_1
 constraint[next][9]=U-Bahn_Hamburg_TU1_2
 constraint[next][10]=U-Bahn_Hamburg_TU2_1
 constraint[next][11]=U-Bahn_Hamburg_TU2_2
-constraint[next][12]=none
+constraint[next][12]=U-Bahn_Hamburg_AL
+constraint[next][13]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_T6.0.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T6.0.2
@@ -353,7 +362,8 @@ constraint[prev][8]=U-Bahn_Hamburg_TU1_1
 constraint[prev][9]=U-Bahn_Hamburg_TU1_2
 constraint[prev][10]=U-Bahn_Hamburg_TU2_1
 constraint[prev][11]=U-Bahn_Hamburg_TU2_2
-constraint[prev][12]=none
+constraint[prev][12]=U-Bahn_Hamburg_AL
+constraint[prev][13]=none
 
 constraint[next][0]=U-Bahn_Hamburg_T1_1
 constraint[next][1]=U-Bahn_Hamburg_T1_2
@@ -367,7 +377,8 @@ constraint[next][8]=U-Bahn_Hamburg_TU1_1
 constraint[next][9]=U-Bahn_Hamburg_TU1_2
 constraint[next][10]=U-Bahn_Hamburg_TU2_1
 constraint[next][11]=U-Bahn_Hamburg_TU2_2
-constraint[next][12]=none
+constraint[next][12]=U-Bahn_Hamburg_AL
+constraint[next][13]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_T14.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T14.2.2
@@ -414,7 +425,8 @@ constraint[prev][8]=U-Bahn_Hamburg_TU1_1
 constraint[prev][9]=U-Bahn_Hamburg_TU1_2
 constraint[prev][10]=U-Bahn_Hamburg_TU2_1
 constraint[prev][11]=U-Bahn_Hamburg_TU2_2
-constraint[prev][12]=none
+constraint[prev][12]=U-Bahn_Hamburg_AL
+constraint[prev][13]=none
 
 constraint[next][0]=U-Bahn_Hamburg_T1_1
 constraint[next][1]=U-Bahn_Hamburg_T1_2
@@ -428,7 +440,8 @@ constraint[next][8]=U-Bahn_Hamburg_TU1_1
 constraint[next][9]=U-Bahn_Hamburg_TU1_2
 constraint[next][10]=U-Bahn_Hamburg_TU2_1
 constraint[next][11]=U-Bahn_Hamburg_TU2_2
-constraint[next][12]=none
+constraint[next][12]=U-Bahn_Hamburg_AL
+constraint[next][13]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_T14.0.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T14.0.2
@@ -477,7 +490,8 @@ constraint[prev][8]=U-Bahn_Hamburg_TU1_1
 constraint[prev][9]=U-Bahn_Hamburg_TU1_2
 constraint[prev][10]=U-Bahn_Hamburg_TU2_1
 constraint[prev][11]=U-Bahn_Hamburg_TU2_2
-constraint[prev][12]=none
+constraint[prev][12]=U-Bahn_Hamburg_AL
+constraint[prev][13]=none
 
 constraint[next][0]=U-Bahn_Hamburg_T15_2
 
@@ -528,7 +542,8 @@ constraint[next][8]=U-Bahn_Hamburg_TU1_1
 constraint[next][9]=U-Bahn_Hamburg_TU1_2
 constraint[next][10]=U-Bahn_Hamburg_TU2_1
 constraint[next][11]=U-Bahn_Hamburg_TU2_2
-constraint[next][12]=none
+constraint[next][12]=U-Bahn_Hamburg_AL
+constraint[next][13]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_T15.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_T15.2.2
@@ -551,8 +566,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1945
-build_year=1912
-latest_reconstruction=1945
 intro_month=2
 retire_year=1959
 retire_month=11
@@ -577,7 +590,8 @@ constraint[prev][8]=U-Bahn_Hamburg_TU1_1
 constraint[prev][9]=U-Bahn_Hamburg_TU1_2
 constraint[prev][10]=U-Bahn_Hamburg_TU2_1
 constraint[prev][11]=U-Bahn_Hamburg_TU2_2
-constraint[prev][12]=none
+constraint[prev][12]=U-Bahn_Hamburg_AL
+constraint[prev][13]=none
 
 constraint[next][0]=U-Bahn_Hamburg_T1_1
 constraint[next][1]=U-Bahn_Hamburg_T1_2
@@ -611,8 +625,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1945
-build_year=1912
-latest_reconstruction=1945
 intro_month=2
 retire_year=1959
 retire_month=11
@@ -650,7 +662,8 @@ constraint[next][8]=U-Bahn_Hamburg_TU1_1
 constraint[next][9]=U-Bahn_Hamburg_TU1_2
 constraint[next][10]=U-Bahn_Hamburg_TU2_1
 constraint[next][11]=U-Bahn_Hamburg_TU2_2
-constraint[next][12]=none
+constraint[next][12]=U-Bahn_Hamburg_AL
+constraint[next][13]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_TU1.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_TU1.2.2
@@ -673,8 +686,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1958
-build_year=1912
-latest_reconstruction=1958
 intro_month=2
 retire_year=1970
 retire_month=11
@@ -699,7 +710,8 @@ constraint[prev][8]=U-Bahn_Hamburg_TU1_1
 constraint[prev][9]=U-Bahn_Hamburg_TU1_2
 constraint[prev][10]=U-Bahn_Hamburg_TU2_1
 constraint[prev][11]=U-Bahn_Hamburg_TU2_2
-constraint[prev][12]=none
+constraint[prev][12]=U-Bahn_Hamburg_AL
+constraint[prev][13]=none
 
 constraint[next][0]=U-Bahn_Hamburg_T1_1
 constraint[next][1]=U-Bahn_Hamburg_T1_2
@@ -733,8 +745,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1958
-build_year=1912
-latest_reconstruction=1958
 intro_month=2
 retire_year=1970
 retire_month=11
@@ -772,7 +782,8 @@ constraint[next][8]=U-Bahn_Hamburg_TU1_1
 constraint[next][9]=U-Bahn_Hamburg_TU1_2
 constraint[next][10]=U-Bahn_Hamburg_TU2_1
 constraint[next][11]=U-Bahn_Hamburg_TU2_2
-constraint[next][12]=none
+constraint[next][12]=U-Bahn_Hamburg_AL
+constraint[next][13]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_TU2.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_TU2.2.2
@@ -811,7 +822,8 @@ Constraint[prev][0]=U-Bahn_Hamburg_DT1_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT1_4
 Constraint[prev][2]=U-Bahn_Hamburg_DT3_3
 Constraint[prev][3]=U-Bahn_Hamburg_DT3E_3
-Constraint[prev][4]=none
+constraint[prev][4]=U-Bahn_Hamburg_AL
+constraint[prev][5]=none
 Constraint[Next][0]=U-Bahn_Hamburg_DT1_2
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT1_beige.0.3
@@ -850,7 +862,8 @@ Constraint[Next][0]=U-Bahn_Hamburg_DT1_1
 Constraint[Next][1]=U-Bahn_Hamburg_DT1_3
 Constraint[Next][2]=U-Bahn_Hamburg_DT3_1
 Constraint[Next][3]=U-Bahn_Hamburg_DT3E_1
-Constraint[Next][4]=none
+constraint[next][4]=U-Bahn_Hamburg_AL
+constraint[next][5]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT1_beige.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT1_beige.2.2
@@ -873,7 +886,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1981
-build_year=1958
 intro_month=6
 retire_year=1989
 retire_month=7
@@ -890,7 +902,8 @@ Constraint[prev][0]=U-Bahn_Hamburg_DT1_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT1_4
 Constraint[prev][2]=U-Bahn_Hamburg_DT3_3
 Constraint[prev][3]=U-Bahn_Hamburg_DT3E_3
-Constraint[prev][4]=none
+constraint[prev][4]=U-Bahn_Hamburg_AL
+constraint[prev][5]=none
 Constraint[Next][0]=U-Bahn_Hamburg_DT1_4
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT1.0.3
@@ -912,7 +925,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1981
-build_year=1958
 intro_month=6
 retire_year=1989
 retire_month=7
@@ -930,7 +942,8 @@ Constraint[Next][0]=U-Bahn_Hamburg_DT1_1
 Constraint[Next][1]=U-Bahn_Hamburg_DT1_3
 Constraint[Next][2]=U-Bahn_Hamburg_DT3_1
 Constraint[Next][3]=U-Bahn_Hamburg_DT3E_1
-Constraint[Next][4]=none
+constraint[next][4]=U-Bahn_Hamburg_AL
+constraint[next][5]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT1.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT1.2.2
@@ -967,7 +980,8 @@ length=9
 
 Constraint[prev][0]=U-Bahn_Hamburg_DT2_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT2E_2
-Constraint[prev][2]=none
+constraint[prev][2]=U-Bahn_Hamburg_AL
+constraint[prev][3]=none
 Constraint[Next][0]=U-Bahn_Hamburg_DT2_2
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT2.0.3
@@ -1004,7 +1018,8 @@ length=10
 Constraint[prev][0]=U-Bahn_Hamburg_DT2_1
 Constraint[Next][0]=U-Bahn_Hamburg_DT2_1
 Constraint[Next][1]=U-Bahn_Hamburg_DT2E_1
-Constraint[Next][2]=none
+constraint[next][2]=U-Bahn_Hamburg_AL
+constraint[next][3]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT2.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT2.2.2
@@ -1027,8 +1042,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1984
-build_year=1962
-latest_reconstruction=1984
 intro_month=6
 retire_year=2004
 retire_month=5
@@ -1043,7 +1056,8 @@ length=9
 
 Constraint[prev][0]=U-Bahn_Hamburg_DT2_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT2E_2
-Constraint[prev][2]=none
+constraint[prev][2]=U-Bahn_Hamburg_AL
+constraint[prev][3]=none
 Constraint[Next][0]=U-Bahn_Hamburg_DT2E_2
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT2E.0.3
@@ -1065,8 +1079,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1984
-build_year=1962
-latest_reconstruction=1984
 intro_month=6
 retire_year=2004
 retire_month=5
@@ -1082,7 +1094,8 @@ length=10
 Constraint[prev][0]=U-Bahn_Hamburg_DT2E_1
 Constraint[Next][0]=U-Bahn_Hamburg_DT2_1
 Constraint[Next][1]=U-Bahn_Hamburg_DT2E_1
-Constraint[Next][2]=none
+constraint[next][2]=U-Bahn_Hamburg_AL
+constraint[next][3]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT2E.2.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT2E.2.2
@@ -1121,7 +1134,8 @@ Constraint[prev][0]=U-Bahn_Hamburg_DT1_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT1_4
 Constraint[prev][2]=U-Bahn_Hamburg_DT3_3
 Constraint[prev][3]=U-Bahn_Hamburg_DT3E_3
-Constraint[prev][4]=none
+constraint[prev][4]=U-Bahn_Hamburg_AL
+constraint[prev][5]=none
 Constraint[Next][0]=U-Bahn_Hamburg_DT3_2
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT3.0.3
@@ -1194,7 +1208,8 @@ Constraint[Next][0]=U-Bahn_Hamburg_DT1_1
 Constraint[Next][1]=U-Bahn_Hamburg_DT1_3
 Constraint[Next][2]=U-Bahn_Hamburg_DT3_1
 Constraint[Next][3]=U-Bahn_Hamburg_DT3E_1
-Constraint[Next][4]=none
+constraint[next][4]=U-Bahn_Hamburg_AL
+constraint[next][5]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT3.4.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT3.4.2
@@ -1217,8 +1232,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1995
-build_year=1968
-latest_reconstruction=1995
 intro_month=6
 retire_year=2015
 retire_month=11
@@ -1235,7 +1248,8 @@ Constraint[prev][0]=U-Bahn_Hamburg_DT1_2
 Constraint[prev][1]=U-Bahn_Hamburg_DT1_4
 Constraint[prev][2]=U-Bahn_Hamburg_DT3_3
 Constraint[prev][3]=U-Bahn_Hamburg_DT3E_3
-Constraint[prev][4]=none
+constraint[prev][4]=U-Bahn_Hamburg_AL
+constraint[prev][5]=none
 Constraint[Next][0]=U-Bahn_Hamburg_DT3E_2
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT3E.0.3
@@ -1257,8 +1271,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1995
-build_year=1968
-latest_reconstruction=1995
 intro_month=6
 retire_year=2015
 retire_month=11
@@ -1293,8 +1305,6 @@ sound=none
 freight=Passagiere
 
 intro_year=1995
-build_year=1968
-latest_reconstruction=1995
 intro_month=6
 retire_year=2015
 retire_month=11
@@ -1312,7 +1322,8 @@ Constraint[Next][0]=U-Bahn_Hamburg_DT1_1
 Constraint[Next][1]=U-Bahn_Hamburg_DT1_3
 Constraint[Next][2]=U-Bahn_Hamburg_DT3_1
 Constraint[Next][3]=U-Bahn_Hamburg_DT3E_1
-Constraint[Next][4]=none
+constraint[next][4]=U-Bahn_Hamburg_AL
+constraint[next][5]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT3E.4.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT3E.4.2
@@ -1324,6 +1335,7 @@ EmptyImage[NW]=image/U-Bahn_Hamburg_DT3E.5.2
 EmptyImage[NE]=image/U-Bahn_Hamburg_DT3E.5.1
 
 ------
+
 
 obj=vehicle
 name=U-Bahn_Hamburg_DT4_1
@@ -1350,7 +1362,8 @@ length=9
 constraint[prev][0]=U-Bahn_Hamburg_DT4_4
 constraint[prev][1]=U-Bahn_Hamburg_DT4U_4
 constraint[prev][2]=U-Bahn_Hamburg_DT4_5_4
-constraint[prev][3]=none
+constraint[prev][3]=U-Bahn_Hamburg_AL
+constraint[prev][4]=none
 constraint[next][0]=U-Bahn_Hamburg_DT4_2
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT4.0.3
@@ -1459,7 +1472,8 @@ constraint[prev][0]=U-Bahn_Hamburg_DT4_3
 constraint[next][0]=U-Bahn_Hamburg_DT4_1
 constraint[next][1]=U-Bahn_Hamburg_DT4U_1
 constraint[next][2]=U-Bahn_Hamburg_DT4_5_1
-constraint[next][3]=none
+constraint[next][3]=U-Bahn_Hamburg_AL
+constraint[next][4]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT4.4.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT4.4.2
@@ -1497,7 +1511,8 @@ length=9
 constraint[prev][0]=U-Bahn_Hamburg_DT4_4
 constraint[prev][1]=U-Bahn_Hamburg_DT4U_4
 constraint[prev][2]=U-Bahn_Hamburg_DT4_5_4
-constraint[prev][3]=none
+constraint[prev][3]=U-Bahn_Hamburg_AL
+constraint[prev][4]=none
 constraint[next][0]=U-Bahn_Hamburg_DT4U_2
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT4_Urban.0.3
@@ -1606,7 +1621,8 @@ constraint[prev][0]=U-Bahn_Hamburg_DT4U_3
 constraint[next][0]=U-Bahn_Hamburg_DT4_1
 constraint[next][1]=U-Bahn_Hamburg_DT4U_1
 constraint[next][2]=U-Bahn_Hamburg_DT4_5_1
-constraint[next][3]=none
+constraint[next][3]=U-Bahn_Hamburg_AL
+constraint[next][4]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT4_Urban.4.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT4_Urban.4.2
@@ -1644,7 +1660,8 @@ length=9
 constraint[prev][0]=U-Bahn_Hamburg_DT4_4
 constraint[prev][1]=U-Bahn_Hamburg_DT4U_4
 constraint[prev][2]=U-Bahn_Hamburg_DT4_5_4
-constraint[prev][3]=none
+constraint[prev][3]=U-Bahn_Hamburg_AL
+constraint[prev][4]=none
 constraint[next][0]=U-Bahn_Hamburg_DT4_5_2
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT4_5.0.3
@@ -1753,7 +1770,8 @@ constraint[prev][0]=U-Bahn_Hamburg_DT4_5_3
 constraint[next][0]=U-Bahn_Hamburg_DT4_1
 constraint[next][1]=U-Bahn_Hamburg_DT4U_1
 constraint[next][2]=U-Bahn_Hamburg_DT4_5_1
-constraint[next][3]=none
+constraint[next][3]=U-Bahn_Hamburg_AL
+constraint[next][4]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT4_5.4.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT4_5.4.2
@@ -1772,13 +1790,13 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=ET2010.wav
+sound=none
 freight=Passagiere
 
 intro_year=2012
 intro_month=10
-#retire_year=2022
-#retire_month=0
+retire_year=2028
+retire_month=0
 payload=100
 cost=6574875
 runningcost=219
@@ -1789,7 +1807,8 @@ speed=80
 length=9
 
 constraint[prev][0]=U-Bahn_Hamburg_DT5_3
-constraint[prev][1]=none
+constraint[prev][1]=U-Bahn_Hamburg_AL
+constraint[prev][2]=none
 constraint[next][0]=U-Bahn_Hamburg_DT5_2
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT5.0.3
@@ -1808,13 +1827,13 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=ET2010.wav
+sound=none
 freight=Passagiere
 
 intro_year=2012
 intro_month=10
-#retire_year=2022
-#retire_month=0
+retire_year=2028
+retire_month=0
 payload=89
 cost=6482764
 runningcost=211
@@ -1843,13 +1862,13 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=ET2010.wav
+sound=none
 freight=Passagiere
 
 intro_year=2012
 intro_month=0
-#retire_year=2022
-#retire_month=10
+retire_year=2028
+retire_month=10
 payload=100
 cost=6574875
 runningcost=219
@@ -1861,7 +1880,8 @@ length=9
 
 constraint[prev][0]=U-Bahn_Hamburg_DT5_2
 constraint[next][0]=U-Bahn_Hamburg_DT5_1
-constraint[next][1]=none
+constraint[next][1]=U-Bahn_Hamburg_AL
+constraint[next][2]=none
 
 EmptyImage[S]=image/U-Bahn_Hamburg_DT5.4.3
 EmptyImage[E]=image/U-Bahn_Hamburg_DT5.4.2
@@ -1871,3 +1891,182 @@ EmptyImage[N]=image/U-Bahn_Hamburg_DT5.4.1
 EmptyImage[W]=image/U-Bahn_Hamburg_DT5.4.0
 EmptyImage[NW]=image/U-Bahn_Hamburg_DT5.5.2
 EmptyImage[NE]=image/U-Bahn_Hamburg_DT5.5.1
+
+------
+
+obj=vehicle
+name=U-Bahn_Hamburg_DT6_1
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+
+intro_year=2027
+intro_month=12
+#retire_year=2012
+#retire_month=9
+payload=86
+cost=7872011
+runningcost=364
+weight=19
+power=200
+gear=100
+speed=80
+length=7
+
+constraint[prev][0]=U-Bahn_Hamburg_DT6_4
+constraint[prev][1]=U-Bahn_Hamburg_AL
+constraint[prev][2]=none
+constraint[next][0]=U-Bahn_Hamburg_DT6_2
+
+EmptyImage[S]=image/U-Bahn_Hamburg_DT6.0.3
+EmptyImage[E]=image/U-Bahn_Hamburg_DT6.0.2
+EmptyImage[SE]=image/U-Bahn_Hamburg_DT6.1.0
+EmptyImage[SW]=image/U-Bahn_Hamburg_DT6.1.3
+EmptyImage[N]=image/U-Bahn_Hamburg_DT6.0.1
+EmptyImage[W]=image/U-Bahn_Hamburg_DT6.0.0
+EmptyImage[NW]=image/U-Bahn_Hamburg_DT6.1.2
+EmptyImage[NE]=image/U-Bahn_Hamburg_DT6.1.1
+---------
+obj=vehicle
+name=U-Bahn_Hamburg_DT6_2
+
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+
+intro_year=2027
+intro_month=12
+#retire_year=2012
+#retire_month=9
+payload=96
+cost=8163896
+runningcost=391
+weight=12
+power=200
+gear=100
+speed=80
+length=6
+
+constraint[prev][0]=U-Bahn_Hamburg_DT6_1
+constraint[next][0]=U-Bahn_Hamburg_DT6_3
+
+EmptyImage[S]=image/U-Bahn_Hamburg_DT6.2.3
+EmptyImage[E]=image/U-Bahn_Hamburg_DT6.2.2
+EmptyImage[SE]=image/U-Bahn_Hamburg_DT6.3.0
+EmptyImage[SW]=image/U-Bahn_Hamburg_DT6.3.3
+EmptyImage[N]=image/U-Bahn_Hamburg_DT6.2.1
+EmptyImage[W]=image/U-Bahn_Hamburg_DT6.2.0
+EmptyImage[NW]=image/U-Bahn_Hamburg_DT6.3.2
+EmptyImage[NE]=image/U-Bahn_Hamburg_DT6.3.1
+---------
+obj=vehicle
+name=U-Bahn_Hamburg_DT6_3
+
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+
+intro_year=2027
+intro_month=12
+#retire_year=2012
+#retire_month=9
+payload=96
+cost=8163896
+runningcost=391
+weight=12
+power=200
+gear=100
+speed=80
+length=6
+
+constraint[prev][0]=U-Bahn_Hamburg_DT6_2
+constraint[next][0]=U-Bahn_Hamburg_DT6_4
+
+EmptyImage[S]=image/U-Bahn_Hamburg_DT6.6.3
+EmptyImage[E]=image/U-Bahn_Hamburg_DT6.6.2
+EmptyImage[SE]=image/U-Bahn_Hamburg_DT6.7.0
+EmptyImage[SW]=image/U-Bahn_Hamburg_DT6.7.3
+EmptyImage[N]=image/U-Bahn_Hamburg_DT6.6.1
+EmptyImage[W]=image/U-Bahn_Hamburg_DT6.6.0
+EmptyImage[NW]=image/U-Bahn_Hamburg_DT6.7.2
+EmptyImage[NE]=image/U-Bahn_Hamburg_DT6.7.1
+---------
+obj=vehicle
+name=U-Bahn_Hamburg_DT6_4
+
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=electric
+smoke=none
+sound=none
+freight=Passagiere
+
+intro_year=2027
+intro_month=12
+#retire_year=2012
+#retire_month=9
+payload=86
+cost=7872011
+runningcost=364
+weight=19
+power=200
+gear=100
+speed=80
+length=7
+
+constraint[prev][0]=U-Bahn_Hamburg_DT6_3
+constraint[next][0]=U-Bahn_Hamburg_DT6_1
+constraint[next][1]=U-Bahn_Hamburg_AL
+constraint[next][2]=none
+
+EmptyImage[S]=image/U-Bahn_Hamburg_DT6.4.3
+EmptyImage[E]=image/U-Bahn_Hamburg_DT6.4.2
+EmptyImage[SE]=image/U-Bahn_Hamburg_DT6.5.0
+EmptyImage[SW]=image/U-Bahn_Hamburg_DT6.5.3
+EmptyImage[N]=image/U-Bahn_Hamburg_DT6.4.1
+EmptyImage[W]=image/U-Bahn_Hamburg_DT6.4.0
+EmptyImage[NW]=image/U-Bahn_Hamburg_DT6.5.2
+EmptyImage[NE]=image/U-Bahn_Hamburg_DT6.5.1
+
+------
+
+
+obj=vehicle
+name=U-Bahn_Hamburg_AL
+copyright=Flemmbrav
+waytype=narrowgauge_track
+engine_type=battery
+smoke=none
+sound=none
+#freight=Passagiere
+
+intro_year=1992
+intro_month=12
+#retire_year=1921
+#retire_month=11
+#payload=43
+cost=5053266
+runningcost=251
+weight=36
+power=300
+gear=100
+speed=40
+length=10
+
+EmptyImage[S]=image/U-Bahn_Hamburg_AL.0.3
+EmptyImage[E]=image/U-Bahn_Hamburg_AL.0.2
+EmptyImage[SE]=image/U-Bahn_Hamburg_AL.1.0
+EmptyImage[SW]=image/U-Bahn_Hamburg_AL.1.3
+EmptyImage[N]=image/U-Bahn_Hamburg_AL.0.1
+EmptyImage[W]=image/U-Bahn_Hamburg_AL.0.0
+EmptyImage[NW]=image/U-Bahn_Hamburg_AL.1.2
+EmptyImage[NE]=image/U-Bahn_Hamburg_AL.1.1
