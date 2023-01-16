@@ -185,23 +185,23 @@ jobs:
       run: |
         rm -rf addons/
         mkdir -p addons/pak
-        mv Pak addons/pak
+        mv Pak/* addons/pak
         zip -r pak192.comic-vehicles-for-pak.zip addons/pak
         rm -rf addons/
         mkdir -p addons/pak64.german
-        mv Pak64German/ addons/pak64.german
+        mv Pak64German/* addons/pak64.german
         zip -r pak192.comic-vehicles-for-pak64german.zip addons
         rm -rf addons/
         mkdir -p addons/pak96.comic
-        mv Pak96Comic/ addons/pak96.comic
+        mv Pak96Comic/* addons/pak96.comic
         zip -r pak192.comic-vehicles-for-pak96comic.zip addons
         rm -rf addons/
         mkdir -p addons/pak128
-        mv Pak128/ addons/pak128
+        mv Pak128/* addons/pak128
         zip -r pak192.comic-vehicles-for-pak128.zip addons
         rm -rf addons/
         mkdir -p addons/pak128.Britain
-        mv Pak128Britain/ addons/pak128.Britain
+        mv Pak128Britain/* addons/pak128.Britain
         zip -r pak192.comic-vehicles-for-pak128britain.zip addons
 
     - name: Update Serverset of Nightly Release
