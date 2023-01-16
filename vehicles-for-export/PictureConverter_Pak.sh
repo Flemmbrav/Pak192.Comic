@@ -15,8 +15,8 @@ convertpng() {
 	convert $oldimage -adaptive-resize 50%% $oldimage
 	convert $oldimage -adaptive-resize 50%% $oldimage
 	convert $oldimage -brightness-contrast 0x15 $oldimage
-	convert $oldimage -roll +0-2 $oldimage
-	#0px to the right and -2 px down
+	convert $oldimage -roll +0-1 $oldimage
+	#0px to the right and -1 px down
 
 }
 
