@@ -2,8 +2,8 @@
 # Fahrzeuge der Hamburger Hochbahn
 #
 # 1912 - 1914 T1 	60km/h	"Erstlieferung"	beige
-# 1914 - 1921 T1 	60km/h	"Erstlieferung"	gr¸n
-# 1921 - 1940 T6 	60km/h	"Nachlieferung"	gr¸n
+# 1914 - 1921 T1 	60km/h	"Erstlieferung"	gr√ºn
+# 1921 - 1940 T6 	60km/h	"Nachlieferung"	gr√ºn
 # 1939 - 1940 T14 	80km/h	"Probewagen"	beige
 # 1949 - 1958 T14 	80km/h	"Probewagen"	beige/rot
 # 1940 - 1958 T15 	80km/h	"Probewagen"	beige/rot
@@ -15,9 +15,9 @@
 # 1984 - 2004 DT2E	70km/h				grau/rot
 # 1968 - 1988 DT3	80km/h				grau/rot
 # 1995 - 2015 DT3E	80km/h				grau/rot
-# 1988 - 2000 DT4	80km/h				grau/weiﬂ
+# 1988 - 2000 DT4	80km/h				grau/wei√ü
 # 1988 - 2012 DT4U	80km/h				Whole Car
-# 1999 - 2012 DT4.5	80km/h				grau/weiﬂ
+# 1999 - 2012 DT4.5	80km/h				grau/wei√ü
 # 2012 - **** DT5	80km/h				grau/rot
 #
 # 1992 - **** AL    40km/h  				orange
@@ -473,7 +473,7 @@ runningcost=327
 weight=18
 #nicht gesichert, sollen deutlich leichter gewesen sein, als die T6
 power=148
-#kriegsbedingt nur zwei mal 74 kw, eigentlich h‰tten es vier werden sollen
+#kriegsbedingt nur zwei mal 74 kw, eigentlich h√§tten es vier werden sollen
 gear=100
 speed=80
 length=9
@@ -523,7 +523,7 @@ runningcost=327
 weight=18
 #nicht gesichert, sollen deutlich leichter gewesen sein, als die T6
 power=148
-#kriegsbedingt nur zwei mal 74 kw, eigentlich h‰tten es vier werden sollen
+#kriegsbedingt nur zwei mal 74 kw, eigentlich h√§tten es vier werden sollen
 gear=100
 speed=80
 length=9
@@ -566,6 +566,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1945
+build_year=1912
+latest_reconstruction=1945
 intro_month=2
 retire_year=1959
 retire_month=11
@@ -625,6 +627,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1945
+build_year=1912
+latest_reconstruction=1945
 intro_month=2
 retire_year=1959
 retire_month=11
@@ -686,6 +690,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1958
+build_year=1912
+latest_reconstruction=1958
 intro_month=2
 retire_year=1970
 retire_month=11
@@ -745,6 +751,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1958
+build_year=1912
+latest_reconstruction=1958
 intro_month=2
 retire_year=1970
 retire_month=11
@@ -886,6 +894,7 @@ sound=none
 freight=Passagiere
 
 intro_year=1981
+build_year=1958
 intro_month=6
 retire_year=1989
 retire_month=7
@@ -925,6 +934,7 @@ sound=none
 freight=Passagiere
 
 intro_year=1981
+build_year=1958
 intro_month=6
 retire_year=1989
 retire_month=7
@@ -1042,6 +1052,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1984
+build_year=1962
+latest_reconstruction=1984
 intro_month=6
 retire_year=2004
 retire_month=5
@@ -1079,6 +1091,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1984
+build_year=1962
+latest_reconstruction=1984
 intro_month=6
 retire_year=2004
 retire_month=5
@@ -1232,6 +1246,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1995
+build_year=1968
+latest_reconstruction=1995
 intro_month=6
 retire_year=2015
 retire_month=11
@@ -1271,6 +1287,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1995
+build_year=1968
+latest_reconstruction=1995
 intro_month=6
 retire_year=2015
 retire_month=11
@@ -1305,6 +1323,8 @@ sound=none
 freight=Passagiere
 
 intro_year=1995
+build_year=1968
+latest_reconstruction=1995
 intro_month=6
 retire_year=2015
 retire_month=11
@@ -1790,7 +1810,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=none
+sound=ET2010.wav
 freight=Passagiere
 
 intro_year=2012
@@ -1827,7 +1847,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=none
+sound=ET2010.wav
 freight=Passagiere
 
 intro_year=2012
@@ -1862,7 +1882,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=none
+sound=ET2010.wav
 freight=Passagiere
 
 intro_year=2012
@@ -1900,7 +1920,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=none
+sound=ET2010.wav
 freight=Passagiere
 
 intro_year=2027
@@ -1937,7 +1957,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=none
+sound=ET2010.wav
 freight=Passagiere
 
 intro_year=2027
@@ -1972,7 +1992,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=none
+sound=ET2010.wav
 freight=Passagiere
 
 intro_year=2027
@@ -2007,7 +2027,7 @@ copyright=Flemmbrav
 waytype=narrowgauge_track
 engine_type=electric
 smoke=none
-sound=none
+sound=ET2010.wav
 freight=Passagiere
 
 intro_year=2027
