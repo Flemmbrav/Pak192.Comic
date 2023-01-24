@@ -1,9 +1,9 @@
 #Orientrot
 obj=vehicle
-name=Lokomotive_1986_BR_140
+name=Lokomotive_1986_BR_110
 copyright=Flemmbrav
 intro_year=1986
-build_year=1957
+build_year=1956
 intro_month=5
 retire_year=1999
 retire_month=5
@@ -11,10 +11,10 @@ freight=None
 payload=0
 cost=85092480
 runningcost=2363
-weight=83
-power=3700
-gear=142
-speed=110
+weight=85
+power=3620
+gear=188
+speed=140
 length=8
 waytype=narrowgauge_track
 engine_type=electric
