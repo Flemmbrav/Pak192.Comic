@@ -52,7 +52,7 @@ speed=160
 length=12
 waytype=narrowgauge_track
 engine_type=diesel
-#smoke=diesel
+smoke=diesel
 loading_time=5580
 
 Constraint[Prev][0]=BR_610
