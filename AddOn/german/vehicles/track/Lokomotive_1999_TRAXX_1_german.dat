@@ -2,7 +2,8 @@
 obj=vehicle
 name=BR_146_TRAXX_bwsp
 copyright=Flemmbrav
-intro_year=1999
+intro_year=2014
+build_year=1999
 intro_month=1
 freight=None
 payload=0
