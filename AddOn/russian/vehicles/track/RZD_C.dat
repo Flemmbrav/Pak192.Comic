@@ -11,6 +11,7 @@ RunningCost=1
 length=12
 intro_year=1998
 intro_month=11
+constraint[prev][0]=any
 EmptyImage[E]=./image/RZD_C.0.0
 EmptyImage[S]=./image/RZD_C.0.1
 EmptyImage[W]=./image/RZD_C.0.2

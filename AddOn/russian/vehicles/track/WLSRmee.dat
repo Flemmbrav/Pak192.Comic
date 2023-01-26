@@ -11,6 +11,7 @@ RunningCost=1
 length=12
 intro_year=1998
 intro_month=11
+constraint[prev][0]=any
 EmptyImage[E]=./image/WLSRmee.0.0
 EmptyImage[S]=./image/WLSRmee.0.1
 EmptyImage[W]=./image/WLSRmee.0.2
