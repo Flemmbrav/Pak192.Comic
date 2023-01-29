@@ -7,7 +7,7 @@ waytype=narrowgauge_track
 cost=30250
 maintenance=1100
 topspeed=50
-system_type=0
+system_type=69
 
 Image[NS][0]=./images/way/track_55.0.0
 Image[EW][0]=./images/way/track_55.0.1
@@ -119,7 +119,7 @@ waytype=narrowgauge_track
 cost=100000
 maintenance=2000
 topspeed=80
-system_type=0
+system_type=69
 
 Image[NS][0]=./images/way/track_100.0.0
 Image[EW][0]=./images/way/track_100.0.1
@@ -231,7 +231,7 @@ waytype=narrowgauge_track
 cost=169000
 maintenance=2600
 topspeed=120
-system_type=0
+system_type=69
 
 Image[NS][0]=./images/way/track_130.0.0
 Image[EW][0]=./images/way/track_130.0.1
@@ -343,7 +343,7 @@ waytype=narrowgauge_track
 cost=256000
 maintenance=3200
 topspeed=160
-system_type=0
+system_type=69
 
 Image[NS][0]=./images/way/track_160.0.0
 Image[EW][0]=./images/way/track_160.0.1
@@ -455,7 +455,7 @@ waytype=narrowgauge_track
 cost=529000
 maintenance=4600
 topspeed=200
-system_type=0
+system_type=69
 
 Image[NS][0]=./images/way/track_230.0.0
 Image[EW][0]=./images/way/track_230.0.1
@@ -567,7 +567,7 @@ waytype=narrowgauge_track
 cost=676000
 maintenance=5200
 topspeed=250
-system_type=0
+system_type=69
 
 Image[NS][0]=./images/way/track_260.0.0
 Image[EW][0]=./images/way/track_260.0.1
@@ -679,7 +679,7 @@ waytype=narrowgauge_track
 cost=1089000
 maintenance=6600
 topspeed=300
-system_type=0
+system_type=69
 
 Image[NS][0]=./images/way/track_330.0.0
 Image[EW][0]=./images/way/track_330.0.1
@@ -792,7 +792,7 @@ waytype=narrowgauge_track
 cost=1602500
 maintenance=9000
 topspeed=999
-system_type=0
+system_type=69
 
 Image[NS][0]=./images/way/track_infty.0.0
 Image[EW][0]=./images/way/track_infty.0.1

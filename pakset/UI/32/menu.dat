@@ -40,7 +40,8 @@ Image[14]=>misc_list_editor.3.6
 Image[15]=>misc_list_editor.3.6
 Image[16]=>view_slope.0.2
 Image[17]=>toolbars.2.2
-Image[18]=>toolbars.3.2
+Image[18]=>toolbars.2.2
+Image[19]=>toolbars.3.2
 -------------------
 obj=menu
 name=GeneralTools
@@ -418,3 +419,6 @@ Image[277]=> special_slopes.8.5
 Image[278]=> special_slopes.8.6
 Image[279]=> special_slopes.8.7
 Image[280]=> special_slopes.8.8
+###########################################
+Image[281]=> toolbars.15.0
+Image[282]=> toolbars.15.2
