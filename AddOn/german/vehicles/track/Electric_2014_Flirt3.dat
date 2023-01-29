@@ -53,7 +53,7 @@ constraint[next][0]=Electric_2014_Flirt3_BWegt_2
 constraint[next][1]=Electric_2014_Flirt3_BWegt_3
 constraint[next][2]=Electric_2014_Flirt3_BWegt_4
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2014_Flirt3_BWegt.0.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2014_Flirt3_BWegt.1.<$0>
 
 -----------
 
@@ -79,7 +79,7 @@ constraint[prev][2]=Electric_2014_Flirt3_BWegt_3
 constraint[next][0]=Electric_2014_Flirt3_BWegt_3
 constraint[next][1]=Electric_2014_Flirt3_BWegt_4
 
-EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2014_Flirt3_BWegt.1.<$0>
+EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2014_Flirt3_BWegt.0.<$0>
 
 -----------
 obj=vehicle
