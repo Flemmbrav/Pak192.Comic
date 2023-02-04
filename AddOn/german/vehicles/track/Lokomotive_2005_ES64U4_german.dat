@@ -28,6 +28,7 @@ name=Lokomotive_2008_MRCE_Taurus
 copyright=PappeTeeMaster
 waytype=narrowgauge_track
 engine_type=electric
+build_year=2005
 intro_year=2008
 intro_month=3
 retire_year=2030

@@ -1,7 +1,8 @@
 obj=vehicle
 name=Lokomotive_2003_ES64F4_MRCE
 copyright=Flemmbrav
-intro_year=2003
+build_year=2003
+intro_year=2008
 intro_month=0
 retire_year=2015
 retire_month=0
