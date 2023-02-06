@@ -39,6 +39,7 @@ jobs:
 
     - name: Version the Pakset
       run: sed -i "s/copyright=.*/copyright=Pak192.Comic Nightly Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
+      run: sed -i "s/Image[0-3]=.*/Image[0-3]=> ./images/big_logo_nightly.<$0/2>.<$0%2>" ./pakset/UI/128/big_logo.dat
 
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
@@ -120,6 +121,7 @@ jobs:
 
     - name: Version the Pakset
       run: sed -i "s/copyright=.*/copyright=Pak192.Comic Severset Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
+      run: sed -i "s/Image[0-3]=.*/Image[0-3]=> ./images/big_logo_serverset_nightly.<$0/2>.<$0%2>" ./pakset/UI/128/big_logo.dat
     
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
