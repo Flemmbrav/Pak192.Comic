@@ -11,6 +11,9 @@ pillar_distance=1
 pillar_asymmetric=1
 has_own_way_graphics=0
 
+#EXT
+max_weight=300
+
 cursor=./images/Bridge_1900_70kph.0.1
 icon=> ./images/Bridge_1900_70kph.0.0
 
