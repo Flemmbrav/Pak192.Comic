@@ -13,6 +13,7 @@ engine_type=diesel
 smoke=smoke_diesel_medium_short
 power=1800
 gear=100
+sound=diesel.wav
 
 runningcost=1195
 cost=45907200
