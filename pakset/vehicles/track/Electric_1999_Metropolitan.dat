@@ -12,8 +12,8 @@ RunningCost=616
 length=12
 intro_year=1999
 intro_month=8
-retire_year=2008
-retire_month=8
+retire_year=2004
+retire_month=12
 loading_time=6160
 
 Constraint[Prev][0]=Metropolitan_Wagen
@@ -46,8 +46,8 @@ RunningCost=616
 length=12
 intro_year=1999
 intro_month=8
-retire_year=2008
-retire_month=8
+retire_year=2004
+retire_month=12
 loading_time=6160
 
 Constraint[Prev][0]=Metropolitan_Lokomotive
@@ -78,8 +78,8 @@ RunningCost=616
 length=12
 intro_year=1999
 intro_month=8
-retire_year=2008
-retire_month=8
+retire_year=2004
+retire_month=12
 loading_time=6160
 
 Constraint[Prev][0]=Metropolitan_Wagen
@@ -110,8 +110,8 @@ RunningCost=486
 length=12
 intro_year=1999
 intro_month=8
-retire_year=2008
-retire_month=8
+retire_year=2004
+retire_month=12
 loading_time=4860
 
 Constraint[Prev][0]=none
@@ -142,8 +142,8 @@ RunningCost=486
 length=12
 intro_year=1999
 intro_month=8
-retire_year=2008
-retire_month=8
+retire_year=2004
+retire_month=12
 loading_time=4860
 
 Constraint[Prev][0]=Metropolitan_Wagen
@@ -181,8 +181,8 @@ runningcost=9836
 length=10
 intro_year=1999
 intro_month=8
-retire_year=2008
-retire_month=8
+retire_year=2004
+retire_month=12
 
 Constraint[Prev][0]=Metropolitan_Endwagen_2
 Constraint[Prev][1]=Metropolitan_Lokomotive
