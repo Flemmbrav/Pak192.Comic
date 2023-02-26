@@ -1,7 +1,8 @@
 obj=vehicle
 name=EW_I_B_klb
 copyright=Citarofahrer
-intro_year=1956
+intro_year=1984
+build_year=1956
 intro_month=1
 retire_year=1976
 retire_month=1
