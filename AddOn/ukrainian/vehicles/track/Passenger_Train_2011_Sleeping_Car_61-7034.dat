@@ -1,0 +1,28 @@
+obj=vehicle
+name=Passenger_Train_2011_Sleeping_Car_61-7034
+#https://www.kvsz.com/index.php/en/production/passenger/passenger-cars-of-locomotive-traction/item/2183-passenger-sleeping-coach-mod-61-7034-under-ric-clearance
+copyright=Flemmbrav
+intro_year=2021
+# introduced in 2021
+# https://uk.wikipedia.org/wiki/%D0%92%D0%B0%D0%B3%D0%BE%D0%BD_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%96_61-7034
+intro_month=1
+#retire_year=1990
+#retire_month=0
+freight=Passagiere
+payload=33
+cost=7871325
+runningcost=716
+weight=58
+speed=200
+length=12
+waytype=narrowgauge_track
+loading_time=7160
+constraint[prev][0]=any
+EmptyImage[S]=./image/Passenger_Train_2011_Sleeping_Car_61-7034.0.1
+EmptyImage[E]=./image/Passenger_Train_2011_Sleeping_Car_61-7034.0.0
+EmptyImage[SE]=./image/Passenger_Train_2011_Sleeping_Car_61-7034.0.4
+EmptyImage[SW]=./image/Passenger_Train_2011_Sleeping_Car_61-7034.0.7
+EmptyImage[N]=./image/Passenger_Train_2011_Sleeping_Car_61-7034.0.3
+EmptyImage[W]=./image/Passenger_Train_2011_Sleeping_Car_61-7034.0.2
+EmptyImage[NW]=./image/Passenger_Train_2011_Sleeping_Car_61-7034.0.6
+EmptyImage[NE]=./image/Passenger_Train_2011_Sleeping_Car_61-7034.0.5
