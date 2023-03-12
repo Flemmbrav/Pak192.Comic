@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 4.03 2023                           #
+#                           Date Created: 12.03 2023                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -3799,7 +3799,7 @@ Schnellzuglokomotive BR E 10
 Lokomotive_1956_BR_141
 Elektrolokomotive BR E 41
 Lokomotive_1957_BR_10
-Schnellzugdampflokomotive BR 10
+Schnellzugdampflokomotive BR 10 "Schwarzer Schwan"
 Lokomotive_1957_BR_140
 Elektrolokomotive BR E 40
 Lokomotive_1959_BR_110
@@ -4173,11 +4173,11 @@ Intercitysteuerwagen
 Passenger_Train_2007_City_Night_Line_WRmz131
 Speisewagen WRmz 131 "City Night Line"
 Passenger_Train_2008_Railjet_0
-Intercitywagen "Railjet"
+Intercitywagen "Railjet" | Endwagen
 Passenger_Train_2008_Railjet_1
 Intercitywagen "Railjet" | Endwagen
 Passenger_Train_2008_Railjet_2
-Intercitywagen "Railjet" | Endwagen
+Intercitywagen "Railjet"
 Passenger_Train_2008_Railjet_3
 Speisewagen "Railjet"
 Passenger_Train_2008_Railjet_4
