@@ -31,3 +31,15 @@ Image[S,W,N,E][0]=./image/duck.0.<$0>
 Image[SE,SW,NW,NE][0]=./image/duck.0.<$0>
 
 #Image[S,SE,E,NE,N,NW,W,SW][1]=-
+------
+obj=ground_obj
+name=shark
+copyright=Flemmbrav
+seasons=1
+distributionweight=25
+cost=0
+speed=10
+waytype=water
+climates=water
+trees_on_top=1
+Image[S,W,SE,SW,N,E,NW,NE][0]=./image/shark.0.<$0>
