@@ -21,4 +21,4 @@ cost=792396
 constraint[prev][0]=any
 constraint[next][0]=none
 
-emptyimage[s,w,se,sw]=./image/Passenger_Train_1972.2.<$0>
+emptyimage[s,w,se,sw,n,e,nw,ne]=./image/Passenger_Train_1972.2.<$0>
