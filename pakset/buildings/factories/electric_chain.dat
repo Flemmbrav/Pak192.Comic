@@ -43,13 +43,13 @@ MapColor=63
 #-----
 InputGood[0]=copper
 InputCapacity[0]=1000
-InputFactor[0]=70
+InputFactor[0]=350
 InputGood[1]=plastics
 InputCapacity[1]=1000
-InputFactor[1]=30
+InputFactor[1]=70
 OutputGood[0]=cable
 OutputCapacity[0]=100
-OutputFactor[0]=10
+OutputFactor[0]=100
 #-----
 Productivity=50
 Range=5
