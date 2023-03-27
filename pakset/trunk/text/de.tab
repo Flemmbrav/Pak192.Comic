@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 12.03 2023                           #
+#                           Date Created: 27.03 2023                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -1836,6 +1836,8 @@ Narrowgauge
 Normalspur
 narrowgauge vehicle
 Zug
+narrowgauge_track
+Schmalspurbahnschiene
 Narrowgaugedepot
 Eisenbahndepot (Normalspur)
 remove monorails
@@ -1848,6 +1850,8 @@ sack
 Sack
 Speedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
 Geschwindigkeit für unten angeführte Preise:\nStraßenverkehr: %i km/h        | Schmalspurbahn: %i km/h\nSchiffe: %i km/h                 | Luftfahrt: %i km/h\n
+track
+Gleis
 Train
 Zug
 tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
@@ -2379,9 +2383,9 @@ Transrapid
 #__________________________vehicle - narrowgauge_track__________________________
 #__________________________vehicle - narrowgauge_track__________________________
 A_1-MVG
-U-Bahnwagen MVG Typ A
+U-Bahnwagen MVG Typ A (Stromschiene)
 A_2-MVG
-U-Bahnwagen MVG Typ A
+U-Bahnwagen MVG Typ A (Stromschiene)
 Adler
 Dampflokomotive "Adler"
 Adler_Klasse1
@@ -2397,19 +2401,19 @@ Schüttgutwagen
 Adler_Stueckgut
 Stückgutwagen
 Adler_Tender
-Adler Tender
+Dampflokomotive Adler (Tender)
 AI_1-BVG
-U-Bahnwagen BVG Bauart A I | Motorwagen
+U-Bahnwagen BVG Bauart A I | Motorwagen (Stromschiene)
 AI_2-BVG
-U-Bahnwagen BVG Baureihe AI | Beiwagen\n
+U-Bahnwagen BVG Baureihe A I | Beiwagen (Stromschiene)
 AWH_Halbgepaeckwagen_2003
 Halbgepäckwagen BDcm 874.1 "City Night Line"
 AWH_Liegewagen_1999_NJ
 Liegewagen Bvcmbz 59-90 "Nightjet"
 B_1-MVG
-U-Bahnwagen MVG Typ B
+U-Bahnwagen MVG Typ B (Stromschiene)
 B_2-MVG
-U-Bahnwagen MVG Typ B
+U-Bahnwagen MVG Typ B (Stromschiene)
 B_IX
 Dampflokomotive Typ IX
 B_IX_Tender
@@ -2435,11 +2439,11 @@ Dampflokomotive Typ VIII
 BBO_1670
 Elektrolokomotive Rh. 1670
 Begleitwagen_RalPin
-Begleitwagen Rollende Landstrasse | Ralpin
+Begleitwagen "Rollende Landstrasse"
 BI_1-BVG
-U-Bahnwagen BVG Typ B I "Tunneleule" | Motorwagen
+U-Bahnwagen BVG Typ B I "Tunneleule" | Motorwagen (Stromschiene)
 BI_2-BVG
-U-Bahnwagen BVG Typ B I "Tunneleule" | Beiwagen
+U-Bahnwagen BVG Typ B I "Tunneleule" | Beiwagen (Stromschiene)
 BR 150
 Güterzuglokomotive BR E 50
 BR 152
@@ -2463,23 +2467,23 @@ Dieseltriebwagen BR 624 | Mittelwagen
 BR 624 Schluss
 Dieseltriebwagen BR 624 | Steuerwagen
 BR 642
-Nahverkehrstriebwagen Rh. 5022 "Desiro" | Steuerwagen
+Nahverkehrstriebwagen Rh. 5022 "Desiro"
 BR 642_1
-Nahverkehrstriebwagen Rh. 5022 "Desiro" | Steuerwagen
+Nahverkehrstriebwagen Rh. 5022 "Desiro"
 BR 650
 Nahverkehrstriebwagen BR 650 "Regio Shuttle"
 BR_01_10
-Schnellzugdampflokomotive DR BR 01.10
+Schnellzugdampflokomotive BR 01.10
 BR_01_10_Tender
-Schnellzugdampflokomotive DR BR 01.10 | Tender
+Schnellzugdampflokomotive BR 01.10 (Tender)
 BR_03_10
-Schnellzugdampflokomotive DR BR 03.10
+Schnellzugdampflokomotive BR 03.10
 BR_03_10_Tender
-Schnellzugdampflokomotive DR BR 03.10 | Tender
+Schnellzugdampflokomotive BR 03.10 (Tender)
 BR_05
-Schnellzugdampflokomotive DR BR 05
+Schnellzugdampflokomotive BR 05
 BR_05_Tender
-Schnellzugdampflokomotive DR BR 05 | Tender
+Schnellzugdampflokomotive BR 05 (Tender)
 BR_101
 Intercitylokomotive BR 101
 BR_110
@@ -2551,9 +2555,9 @@ Mehrsystemlokomotive BR 187 "TRAXX 3"
 BR_189
 Mehrsystemlokomotive BR 189 "Eurosprinter"
 BR_19
-Dampfmotorveruchslokomotive DR BR 19.10
+Dampfmotorveruchslokomotive BR 19.10
 BR_19_Tender
-Dampfmotorveruchslokomotive DR BR 19.10 (Tender)
+Dampfmotorveruchslokomotive BR 19.10 (Tender)
 BR_193
 Elektrolokomotive BR 193 "Vectron"
 BR_216
@@ -2693,39 +2697,39 @@ Stadtschnellbahn Triebzug BR 430 | Mittelwagen
 BR_430_BWegt_4
 Stadtschnellbahn Triebzug BR 430 | Steuerwagen
 BR_470_1
-Stadtschnellbahn Triebzug BR 470 | Steuerwagen
+Stadtschnellbahn Triebzug BR 470 | Steuerwagen (Stromschiene)
 BR_470_2
-Stadtschnellbahn Triebzug BR 870 | Mittelwagen
+Stadtschnellbahn Triebzug BR 870 | Mittelwagen (Stromschiene)
 BR_470_3
-Stadtschnellbahn Triebzug BR 470 | Steuerwagen
+Stadtschnellbahn Triebzug BR 470 | Steuerwagen (Stromschiene)
 BR_471_1
-Stadtschnellbahn Triebzug BR 471 | Steuerwagen
+Stadtschnellbahn Triebzug BR 471 | Steuerwagen (Stromschiene)
 BR_471_2
-Stadtschnellbahn Triebzug BR 871 | Mittelwagen
+Stadtschnellbahn Triebzug BR 871 | Mittelwagen (Stromschiene)
 BR_471_3
-Stadtschnellbahn Triebzug BR 471 | Steuerwagen
+Stadtschnellbahn Triebzug BR 471 | Steuerwagen (Stromschiene)
 BR_472_1
-Stadtschnellbahn Triebzug BR 472 | Steuerwagen
+Stadtschnellbahn Triebzug BR 472 | Steuerwagen (Stromschiene)
 BR_472_2
-Stadtschnellbahn Triebzug BR 472 | Mittelwagen
+Stadtschnellbahn Triebzug BR 472 | Mittelwagen (Stromschiene)
 BR_472_3
-Stadtschnellbahn Triebzug BR 472 | Steuerwagen
+Stadtschnellbahn Triebzug BR 472 | Steuerwagen (Stromschiene)
 BR_474_1
-Stadtschnellbahn Triebzug BR 474 | Steuerwagen
+Stadtschnellbahn Triebzug BR 474 | Steuerwagen (Stromschiene)
 BR_474_2
-Stadtschnellbahn Triebzug BR 874 | Mittelwagen
+Stadtschnellbahn Triebzug BR 874 | Mittelwagen (Stromschiene)
 BR_474_3
-Stadtschnellbahn Triebzug BR 474 | Steuerwagen
+Stadtschnellbahn Triebzug BR 474 | Steuerwagen (Stromschiene)
 BR_475_1-BVG
-Stadtschnellbahn Triebzug BR 475 | Steuerwagen
+Stadtschnellbahn Triebzug BR 475 | Steuerwagen (Stromschiene)
 BR_475_2-BVG
-Stadtschnellbahn Triebzug BR 475 | Steuerwagen
+Stadtschnellbahn Triebzug BR 475 | Steuerwagen (Stromschiene)
 BR_490_1
-Stadtschnellbahn Triebzug BR 490 | Steuerwagen
+Stadtschnellbahn Triebzug BR 490 | Steuerwagen (Stromschiene)
 BR_490_2
-Stadtschnellbahn Triebzug BR 490 | Mittelwagen
+Stadtschnellbahn Triebzug BR 490 | Mittelwagen (Stromschiene)
 BR_490_3
-Stadtschnellbahn Triebzug BR 490 | Steuerwagen
+Stadtschnellbahn Triebzug BR 490 | Steuerwagen (Stromschiene)
 BR_61
 Schnellzugtenderlokomotive BR 61
 BR_610
@@ -2733,17 +2737,17 @@ Neigetechniktriebzug BR 610 "Pendolino"
 BR_610_2
 Neigetechniktriebzug BR 610 "Pendolino"
 BR_612
-Neigetechniktriebzug BR 612
+Neigetechniktriebzug BR 612 "Regio Swinger"
 BR_612_2
-Neigetechniktriebzug BR 612
+Neigetechniktriebzug BR 612 "Regio Swinger"
 BR_612_2_BWegt
-Neigetechniktriebzug BR 612
+Neigetechniktriebzug BR 612 "Regio Swinger"
 BR_612_2_IC
-Neigetechniktriebzug BR 612
+Neigetechniktriebzug BR 612 "Regio Swinger"
 BR_612_BWegt
-Neigetechniktriebzug BR 612
+Neigetechniktriebzug BR 612 "Regio Swinger"
 BR_612_IC
-Neigetechniktriebzug BR 612
+Neigetechniktriebzug BR 612 "Regio Swinger"
 BR_628
 Nahverkehrstriebwagen BR 628 | Triebwagen
 BR_629
@@ -2789,23 +2793,23 @@ Intercityexpress "ICE" | Steuerwagen
 BR_808_2_Klimaschuetzer
 Intercityexpress "ICE" "Klimaschützer" | Steuerwagen
 BR_875_1-BVG
-Stadtschnellbahn Triebzug BR 875 | Beiwagen
+Stadtschnellbahn Triebzug BR 875 | Beiwagen (Stromschiene)
 BR_875_2-BVG
-Stadtschnellbahn Triebzug BR 875 | Beiwagen
+Stadtschnellbahn Triebzug BR 875 | Beiwagen (Stromschiene)
 BR_928
 Nahverkehrstriebwagen BR 928 | Beiwagen
 BR_C01
 Einheitsdampflokomotive BR 01
 BR_C01_Tender
-Einheitsdampflokomotive BR 01 | Tender
+Einheitsdampflokomotive BR 01 (Tender)
 BR_C02
-Einheitsdampflokomotive DR BR 02
+Einheitsdampflokomotive BR 02
 BR_C02_Tender
-Einheitsdampflokomotive DR BR 02 (Tender)
+Einheitsdampflokomotive BR 02 (Tender)
 BR_C03
-Einheitsdampflokomotive DR BR 03
+Einheitsdampflokomotive BR 03
 BR_C03_Tender
-Einheitsdampflokomotive DR BR 03 | Tender
+Einheitsdampflokomotive BR 03 (Tender)
 BR119sf
 Dieselokomotive BR 119 "U-Boot"
 BRC 55
@@ -2815,25 +2819,25 @@ Dieselokomotive Class 59
 BS514
 Doppelstocktriebwagenzug Typ BS514 "Desiro Double Deck" | Mittelwagen
 C_1-LT
-U-Bahnwagen TfL Typ C
+U-Bahnwagen TfL Typ C (Stromschiene)
 C_1-MVG
-U-Bahnwagen MVG Typ C
+U-Bahnwagen MVG Typ C (Stromschiene)
 C_2-LT
-U-Bahnwagen TfL Typ C
+U-Bahnwagen TfL Typ C (Stromschiene)
 C_2-MVG
-U-Bahnwagen MVG Typ C
+U-Bahnwagen MVG Typ C (Stromschiene)
 C_3-LT
-U-Bahnwagen TfL Typ C
+U-Bahnwagen TfL Typ C (Stromschiene)
 C_3-MVG
-U-Bahnwagen MVG Typ C
+U-Bahnwagen MVG Typ C (Stromschiene)
 C_4-LT
-U-Bahnwagen TfL Typ C
+U-Bahnwagen TfL Typ C (Stromschiene)
 C2_1-MVG
-U-Bahnwagen MVG Typ C2
+U-Bahnwagen MVG Typ C2 (Stromschiene)
 C2_2-MVG
-U-Bahnwagen MVG Typ C2
+U-Bahnwagen MVG Typ C2 (Stromschiene)
 C2_3-MVG
-U-Bahnwagen MVG Typ C2
+U-Bahnwagen MVG Typ C2 (Stromschiene)
 Car_1900_Sheetmetal
 Coilwagen
 Car_1920_Billet
@@ -2921,9 +2925,9 @@ Doppelstocktriebzug BR 471 "CityElefant" | Mittelwagen
 CD_471c
 Doppelstocktriebzug BR 471 "CityElefant" | Steuerwagen
 CII_1-BVG
-U-Bahnwagen BVG Typ C II "Langwagen"
+U-Bahnwagen BVG Typ C II "Langwagen" (Stromschiene)
 CII_2-BVG
-U-Bahnwagen BVG Typ C II "Langwagen"
+U-Bahnwagen BVG Typ C II "Langwagen" (Stromschiene)
 Cityshuttle
 Nahverkehrswagen "CtiyShuttle" | Mittelwagen
 Cityshuttle1
@@ -3113,31 +3117,31 @@ Elektrotriebwagen Class 357 "Electrostar"
 Class_357_C2C-4
 Elektrotriebwagen Class 357 "Electrostar"
 Class_375_SE-1
-Elektrotriebwagen Class 375 "Electrostar"
+Elektrotriebwagen Class 375 "Electrostar" (Stromschiene)
 Class_375_SE-2
-Elektrotriebwagen Class 375 "Electrostar"
+Elektrotriebwagen Class 375 "Electrostar" (Stromschiene)
 Class_375_SE-3
-Elektrotriebwagen Class 375 "Electrostar"
+Elektrotriebwagen Class 375 "Electrostar" (Stromschiene)
 Class_375_SE-4
-Elektrotriebwagen Class 375 "Electrostar"
+Elektrotriebwagen Class 375 "Electrostar" (Stromschiene)
 Class_376_SE-1
-Elektrotriebwagen Class 376 "Electrostar"
+Elektrotriebwagen Class 376 "Electrostar" (Stromschiene)
 Class_376_SE-2
-Elektrotriebwagen Class 376 "Electrostar"
+Elektrotriebwagen Class 376 "Electrostar" (Stromschiene)
 Class_376_SE-3
-Elektrotriebwagen Class 376 "Electrostar"
+Elektrotriebwagen Class 376 "Electrostar" (Stromschiene)
 Class_376_SE-4
-Elektrotriebwagen Class 376 "Electrostar"
+Elektrotriebwagen Class 376 "Electrostar" (Stromschiene)
 Class_376_SE-5
-Elektrotriebwagen Class 376 "Electrostar"
+Elektrotriebwagen Class 376 "Electrostar" (Stromschiene)
 Class_377_1_SR-1
-Elektrotriebwagen Class 377 "Electrostar"
+Elektrotriebwagen Class 377 "Electrostar" (Stromschiene)
 Class_377_1_SR-2
-Elektrotriebwagen Class 377 "Electrostar"
+Elektrotriebwagen Class 377 "Electrostar" (Stromschiene)
 Class_377_1_SR-3
-Elektrotriebwagen Class 377 "Electrostar"
+Elektrotriebwagen Class 377 "Electrostar" (Stromschiene)
 Class_377_1_SR-4
-Elektrotriebwagen Class 377 "Electrostar"
+Elektrotriebwagen Class 377 "Electrostar" (Stromschiene)
 Class_377_FCC-1
 Elektrotriebwagen Class 377 "Electrostar"
 Class_377_FCC-2
@@ -3155,13 +3159,13 @@ Elektrotriebwagen Class 377 "Electrostar"
 Class_377_SR-4
 Elektrotriebwagen Class 377 "Electrostar"
 Class_378-1_LO-1
-Elektrotriebwagen Class 378 "Capitalstar"
+Elektrotriebwagen Class 378 "Capitalstar" (Stromschiene)
 Class_378-1_LO-2
-Elektrotriebwagen Class 378 "Capitalstar"
+Elektrotriebwagen Class 378 "Capitalstar" (Stromschiene)
 Class_378-1_LO-3
-Elektrotriebwagen Class 378 "Capitalstar"
+Elektrotriebwagen Class 378 "Capitalstar" (Stromschiene)
 Class_378-1_LO-4
-Elektrotriebwagen Class 378 "Capitalstar"
+Elektrotriebwagen Class 378 "Capitalstar" (Stromschiene)
 Class_378-2_LO-1
 Elektrotriebwagen Class 378 "Capitalstar"
 Class_378-2_LO-2
@@ -3195,21 +3199,21 @@ Intercity Dieseltriebzug Class 43 "High Speed Train" | Triebkopf
 Class_43_FGW_2
 Intercity Dieseltriebzug Class 43 "High Speed Train" | Triebkopf
 Class_455_1_SR
-Elektrotriebwagen Class 455
+Elektrotriebwagen Class 455 (Stromschiene)
 Class_455_1_SWT
-Elektrotriebwagen Class 455
+Elektrotriebwagen Class 455 (Stromschiene)
 Class_455_2_SR
-Elektrotriebwagen Class 455
+Elektrotriebwagen Class 455 (Stromschiene)
 Class_455_2_SWT
-Elektrotriebwagen Class 455
+Elektrotriebwagen Class 455 (Stromschiene)
 Class_455_3_SR
-Elektrotriebwagen Class 455
+Elektrotriebwagen Class 455 (Stromschiene)
 Class_455_3_SWT
-Elektrotriebwagen Class 455
+Elektrotriebwagen Class 455 (Stromschiene)
 Class_455_4_SR
-Elektrotriebwagen Class 455
+Elektrotriebwagen Class 455 (Stromschiene)
 Class_455_4_SWT
-Elektrotriebwagen Class 455
+Elektrotriebwagen Class 455 (Stromschiene)
 Class43-1
 Intercity Dieseltriebzug Class 43 "High Speed Train" | Triebkopf
 Class43-2
@@ -3217,7 +3221,7 @@ Intercitywagen "Mark 3"
 Class43-3
 Intercity Dieseltriebzug Class 43 "High Speed Train" | Triebkopf
 container_track02
-Stückgutwagen "Containerwagen"
+Stückgutwagen mit Wechselbehältern
 CRZ E44
 Elektrolokomotive BR E 44
 CSD_E_499.2
@@ -3259,9 +3263,9 @@ Diesellokomotive T 679.1 "Sergej"
 CSD_T_679_SC
 Diesellokomotive T 679.1 "Sergej"
 D_1-BVG
-U-Bahnwagen BVG Typ D "Dora"
+U-Bahnwagen BVG Typ D "Dora" (Stromschiene)
 D_2-BVG
-U-Bahnwagen BVG Typ D "Dora"
+U-Bahnwagen BVG Typ D "Dora" (Stromschiene)
 DBS_ Class_92
 Elektrolokomotive Class 92 (Oberleitung)
 DBS_ Class_92_DC_Mode
@@ -3301,17 +3305,17 @@ Diesellokomotive MaK DE1024
 Dieseltriebwagen MaK GDT
 Dieseltriebwagen MaK GDT	
 Docklands_B07_1
-Hochbahnwagen TfL Typ B07
+Hochbahnwagen TfL Typ B07 (Stromschiene)
 Docklands_B07_2
-Hochbahnwagen TfL Typ B07
+Hochbahnwagen TfL Typ B07 (Stromschiene)
 Docklands_B92_1
-Hochbahnwagen TfL Typ B92
+Hochbahnwagen TfL Typ B92 (Stromschiene)
 Docklands_B92_2
-Hochbahnwagen TfL Typ B92
+Hochbahnwagen TfL Typ B92 (Stromschiene)
 Docklands_P86_1
-Hochbahnwagen TfL Typ P86
+Hochbahnwagen TfL Typ P86 (Stromschiene)
 Docklands_P86_2
-Hochbahnwagen TfL Typ P86
+Hochbahnwagen TfL Typ P86 (Stromschiene)
 Dosto_1990
 Doppelstockwagen "Neubau-Dosto"
 Dosto_1990_SWb
@@ -3411,21 +3415,21 @@ Diesellokomotive BR V 200 "Taigatrommel"
 DR_V200_312
 Diesellokomotive BR V 200 "Taigatrommel"
 DT1_1-VAG
-U-Bahnwagen VAG Typ DT1
+U-Bahnwagen VAG Typ DT1 (Stromschiene)
 DT1_1-VAG_2
-U-Bahnwagen VAG Typ DT1
+U-Bahnwagen VAG Typ DT1 (Stromschiene)
 DT1_2-VAG
-U-Bahnwagen VAG Typ DT1
+U-Bahnwagen VAG Typ DT1 (Stromschiene)
 DT1_2-VAG_2
-U-Bahnwagen VAG Typ DT1
+U-Bahnwagen VAG Typ DT1 (Stromschiene)
 DT2_1-VAG
-U-Bahnwagen VAG Typ DT2
+U-Bahnwagen VAG Typ DT2 (Stromschiene)
 DT2_2-VAG
-U-Bahnwagen VAG Typ DT2
+U-Bahnwagen VAG Typ DT2 (Stromschiene)
 DT3_1-VAG
-U-Bahnwagen VAG Typ DT3
+U-Bahnwagen VAG Typ DT3 (Stromschiene)
 DT3_2-VAG
-U-Bahnwagen VAG Typ DT3
+U-Bahnwagen VAG Typ DT3 (Stromschiene)
 DT8_10_1-SSB
 Stadtbahnwagen SSB DT8.10
 DT8_10_2-SSB
@@ -3445,17 +3449,17 @@ Durchgangzugwagen
 Durchgangzugwagenwagen_1950_2
 Durchgangzugpostwagen
 E_1-BVG
-U-Bahnwagen BVG Typ E
+U-Bahnwagen BVG Typ E (Stromschiene)
 E_2-BVG
-U-Bahnwagen BVG Typ E
+U-Bahnwagen BVG Typ E (Stromschiene)
 E_3-BVG
-U-Bahnwagen BVG Typ E
+U-Bahnwagen BVG Typ E (Stromschiene)
 E_3U-BVG
-U-Bahnwagen BVG Typ E
+U-Bahnwagen BVG Typ E (Stromschiene)
 E_4-BVG
-U-Bahnwagen BVG Typ E
+U-Bahnwagen BVG Typ E (Stromschiene)
 E_4U-BVG
-U-Bahnwagen BVG Typ E
+U-Bahnwagen BVG Typ E (Stromschiene)
 E03
 Intercitylokomotive BR E 03
 E94
@@ -3547,9 +3551,9 @@ Intercitywagen Mark 3
 EP1_CL11
 Personenwagen Typ CL 11
 EP1_CL11_Post
-Postwagen Typ CL11
+Postwagen Typ CL 11
 EP1_Perso01
-Personenwagen
+Durchgangszugwagen
 EP1_Post01
 Postwagen
 ET_11_PC-1
@@ -3611,9 +3615,9 @@ Personenwagen "Einheitswagen I Kolibri"
 EW_I_B_Papagei
 Personenwagen "Einheitswagen I Papagei"
 F_1-BVG
-U-Bahnwagen BVG Typ F
+U-Bahnwagen BVG Typ F (Stromschiene)
 F_2-BVG
-U-Bahnwagen BVG Typ F
+U-Bahnwagen BVG Typ F (Stromschiene)
 FGWR Class 153
 Dieseltriebwagen Class 153 "Sprinter"
 Flirt_3_Mittelwagen
@@ -3631,9 +3635,9 @@ Nahverkehrstriebzug "Flirt" | Triebwagen
 Flirt_Triebwagen_2
 Nahverkehrstriebzug "Flirt" | Triebwagen
 FSR Class 156 1
-Dieseltriebwagen Class 156 "Super Sprinter"
+Dieseltriebwagen Class 156 "Sprinter"
 FSR Class 156 2
-Dieseltriebwagen Class 156 "Super Sprinter"
+Dieseltriebwagen Class 156 "Sprinter"
 FSR_Mk2_Lounge
 Schnellzugwagen "Mark 2" | Lounge
 FSR_Mk2F
@@ -3641,29 +3645,29 @@ Schnellzugwagen "Mark 2"
 FSR_Mk3_SLE
 Schnellzugwagen "Mark 3"
 G_1-BVG
-U-Bahnwagen BVG Typ G "Giesela"
+U-Bahnwagen BVG Typ G "Giesela" (Stromschiene)
 G_2-BVG
-U-Bahnwagen BVG Typ G "Giesela"
+U-Bahnwagen BVG Typ G "Giesela" (Stromschiene)
 G1_1-VAG
-U-Bahnwagen VAG Typ G
+U-Bahnwagen VAG Typ G (Stromschiene)
 G1_2-VAG
-U-Bahnwagen VAG Typ G
+U-Bahnwagen VAG Typ G (Stromschiene)
 G1_3-VAG
-U-Bahnwagen VAG Typ G
+U-Bahnwagen VAG Typ G (Stromschiene)
 GA Class 156 1
 Dieseltriebwagen Class 156 "Super Sprinter"
 GA Class 156 2
 Dieseltriebwagen Class 156 "Super Sprinter"
 GAX_Class_442-1
-Elektrotriebwagen Class 442 "Wessex Electrics"
+Elektrotriebwagen Class 442 "Wessex Electrics" (Stromschiene)
 GAX_Class_442-2
-Elektrotriebwagen Class 442 "Wessex Electrics"
+Elektrotriebwagen Class 442 "Wessex Electrics" (Stromschiene)
 GAX_Class_442-3
-Elektrotriebwagen Class 442 "Wessex Electrics"
+Elektrotriebwagen Class 442 "Wessex Electrics" (Stromschiene)
 GAX_Class_442-4
-Elektrotriebwagen Class 442 "Wessex Electrics"
+Elektrotriebwagen Class 442 "Wessex Electrics" (Stromschiene)
 GAX_Class_442-5
-Elektrotriebwagen Class 442 "Wessex Electrics"
+Elektrotriebwagen Class 442 "Wessex Electrics" (Stromschiene)
 Geschlossener_Gueterwagen
 Geschlossener Güterwagen
 Getreidewagen_Track1
@@ -3671,11 +3675,11 @@ Getreidewagen
 Getreidewagen_Track2
 Getreidewagen
 H_1-BVG
-U-Bahnwagen BVG Typ H | Steuerwagen
+U-Bahnwagen BVG Typ H | Steuerwagen (Stromschiene)
 H_2-BVG
-U-Bahnwagen BVG Typ H | Mittelwagen
+U-Bahnwagen BVG Typ H | Mittelwagen (Stromschiene)
 H_3-BVG
-U-Bahnwagen BVG Typ H | Steuerwagen
+U-Bahnwagen BVG Typ H | Steuerwagen (Stromschiene)
 Habbiins_277
 Stückgutwagen Typ Habbiins 277
 Henschel-Wegmann
@@ -3685,7 +3689,7 @@ Schnellzugwagen "Henschel-Wegmann-Zug" | Bistro
 Henschel-Wegmann_kuppel
 Schnellzugwagen "Henschel-Wegmann-Zug" | Kuppelwagen
 Holztransport_Rnoos_644
-Holzwagen Rnoos 644
+Holzwagen Typ Rnoos 644
 Hydrogene_1997_Simutrans_Logo_0
 Wasserstoff-Intercity "Simutrans" | Triebkopf
 Hydrogene_1997_Simutrans_Logo_1
@@ -3693,11 +3697,11 @@ Wasserstoff-Intercity "Simutrans" | Mittelwagen
 Hydrogene_1997_Simutrans_Logo_2
 Wasserstoff-Intercity "Simutrans" | Triebkopf
 I_1-BVG
-U-Bahnwagen BVG Typ I | Steuerwagen
+U-Bahnwagen BVG Typ I | Steuerwagen (Stromschiene)
 I_2-BVG
-U-Bahnwagen BVG Typ I | Mittelwagen
+U-Bahnwagen BVG Typ I | Mittelwagen (Stromschiene)
 I_3-BVG
-U-Bahnwagen BVG Typ I | Steuerwagen
+U-Bahnwagen BVG Typ I | Steuerwagen (Stromschiene)
 IC_225_Class_91_1
 Intercitylokomotive Class 91 "IC 225"
 IC_225_Class_91_2
@@ -3745,17 +3749,17 @@ Intercityexpress Triebwagenzug "ICE 4" | Stromabnehmerwagen
 ICE_DB_412_8
 Intercityexpress Triebwagenzug "ICE 4" | Mittelwagen
 ICN_0
-Intercity Neigetechnikzug RABDe 500 "ICN"
+Intercity Neigetechnikzug RABDe 500 "ICN" | Steuerwagen
 ICN_1
-Intercity Neigetechnikzug RABDe 500 "ICN"
+Intercity Neigetechnikzug RABDe 500 "ICN" | Mittelwagen
 ICN_2
-Intercity Neigetechnikzug RABDe 500 "ICN"
+Intercity Neigetechnikzug RABDe 500 "ICN" | Speisewagen
 ICN_3
-Intercity Neigetechnikzug RABDe 500 "ICN"
+Intercity Neigetechnikzug RABDe 500 "ICN" | Mittelwagen
 ICN_4
-Intercity Neigetechnikzug RABDe 500 "ICN"
+Intercity Neigetechnikzug RABDe 500 "ICN" | Steuerwagen
 Interregio_Wagen_DB_1988
-Personenwagen "Interregio"
+Personenwagen Bm 235 "Interregio"
 JW_Bmz_1989_NJ
 Intercitywagen Bmz 73 "Nightjet" | Abteilwagen
 Koef_II
@@ -3773,7 +3777,7 @@ Schüttgutwagen
 Kohlewagen_Track5
 Schüttgutwagen
 Kohlewagen_Track6
-Schüttgutwagen Falns 182
+Schüttgutwagen
 Kuehlwagen_Track1
 Kühlwagen
 Kuehlwagen_Track2
@@ -3783,21 +3787,23 @@ Kühlwagen
 Kuehlwagen_Track4
 Kühlwagen
 LM_Class_170-1
-Dieseltriebwagen Class 170 "Turbostar"
+Dieseltriebwagen Class 170 "Turbostar" | Steuerwagen
 LM_Class_170-2
-Dieseltriebwagen Class 170 "Turbostar"
+Dieseltriebwagen Class 170 "Turbostar" | Mittelwagen
 LM_Class_170-3
-Dieseltriebwagen Class 170 "Turbostar"
+Dieseltriebwagen Class 170 "Turbostar" | Steuerwagen
 LM_Class_172-1
-Dieseltriebwagen Class 172 "Turbostar"
+Dieseltriebwagen Class 172 "Turbostar" | Steuerwagen mit Durchgang
 LM_Class_172-2
-Dieseltriebwagen Class 172 "Turbostar"
+Dieseltriebwagen Class 172 "Turbostar" | Mittelwagen
 LM_Class_172-3
-Dieseltriebwagen Class 172 "Turbostar"
+Dieseltriebwagen Class 172 "Turbostar" | Steuerwagen mit Durchgang
+Lokomotive_1918_Badische_IV_h
+Schnellzugdampflokomotive Typ IVh
 Lokomotive_1956_BR_110
 Schnellzuglokomotive BR E 10
 Lokomotive_1956_BR_141
-Elektrolokomotive BR E 41
+Elektrolokomotive BR E 41 "Knallfrosch"
 Lokomotive_1957_BR_10
 Schnellzugdampflokomotive BR 10 "Schwarzer Schwan"
 Lokomotive_1957_BR_140
@@ -3823,7 +3829,7 @@ Schnellzuglokomotive BR 112 "Bügelfalte"
 Lokomotive_1975_BR_140
 Elektrolokomotive BR 140
 Lokomotive_1975_BR_141
-Elektrolokomotive BR 141
+Elektrolokomotive BR 141 "Knallfrosch"
 Lokomotive_1975_BR_150
 Güterzuglokomotive BR 150
 Lokomotive_1975_BR_151
@@ -3834,12 +3840,14 @@ Lokomotive_1986_BR_110
 Schnellzuglokomotive BR 110
 Lokomotive_1986_BR_110_3
 Schnellzuglokomotive BR 110.3 "Bügelfalte"
+Lokomotive_1986_BR_111
+Schnellzuglokomotive BR 111
 Lokomotive_1986_BR_113
 Schnellzuglokomotive BR 113 "Bügelfalte"
 Lokomotive_1986_BR_140
 Elektrolokomotive BR 140
 Lokomotive_1986_BR_141
-Elektrolokomotive BR 141
+Elektrolokomotive BR 141 "Knallfrosch"
 Lokomotive_1986_BR_150
 Güterzuglokomotive BR 150
 Lokomotive_1986_BR_151
@@ -3856,12 +3864,14 @@ Lokomotive_1999_BR_110
 Elektrolokomotive BR 110
 Lokomotive_1999_BR_110_3
 Elektrolokomotive BR 110.3 "Bügelfalte"
+Lokomotive_1999_BR_111
+Schnellzuglokomotive BR 111
 Lokomotive_1999_BR_113
 Elektrolokomotive BR 113 "Bügelfalte"
 Lokomotive_1999_BR_140
 Güterzuglokomotive BR 140
 Lokomotive_1999_BR_141
-Elektrolokomotive BR 141
+Elektrolokomotive BR 141 "Knallfrosch"
 Lokomotive_1999_BR_150
 Güterzuglokomotive BR 150
 Lokomotive_1999_BR_151
@@ -3931,23 +3941,23 @@ Kleiner Milchwagen
 Milchwagen_Track2
 Milch-Kesselwagen
 n-Wagen_ABn_703_Mintling
-Nahverkehrswagen ABn 703 "Mintling"
+Nahverkehrswagen Bn 703 "Mintling"
 n-Wagen_ABn_703_Rotling
-Nahverkehrswagen ABn 703 "Rotling"
+Nahverkehrswagen Bn 703 "Rotling"
 n-Wagen_ABn_703_Silberling
-Nahverkehrswagen ABn 703 "Silberling"
+Nahverkehrswagen Bn 703 "Silberling"
 n-Wagen_ABnr_704_Silberling
-Nahverkehrswagen ABnr 704 "Silberling"
+Nahverkehrswagen Bnr 704 "Silberling"
 n-Wagen_BDnf_738.1_Mintling
-Nahverkehrssteuerwagen BDnf 738.1 "Mintling"
+Nahverkehrssteuerwagen BDnrzf 740.1 "Mintling"
 n-Wagen_BDnf_738.1_Rotling
-Nahverkehrssteuerwagen BDnf 738.1 "Rotling"
+Nahverkehrssteuerwagen BDnrzf 740.1 "Rotling"
 n-Wagen_BDnf_738.1_Silberling
 Nahverkehrssteuerwagen BDnf 738.1 "Silberling"
 n-Wagen_BDnf_738.2_Mintling
-Nahverkehrssteuerwagen BDnf 738.1 "Mintling"
+Nahverkehrssteuerwagen BDnrzf 740.1 "Mintling"
 n-Wagen_BDnf_738.2_Rotling
-Nahverkehrssteuerwagen BDnf 738.1 "Rotling"
+Nahverkehrssteuerwagen BDnrzf 740.1 "Rotling"
 n-Wagen_BDnf_738.2_Silberling
 Nahverkehrssteuerwagen BDnf 738.1 "Silberling"
 n-Wagen_BDnrzf_739.1_Silberling
@@ -3957,7 +3967,7 @@ Nahverkehrssteuerwagen BDnrzf 739.1 "Silberling"
 n-Wagen_BDnrzf_740.1_Silberling
 Nahverkehrssteuerwagen BDnrzf 740.1 "Silberling"
 n-Wagen_Bn_724_Silberling_Bettenwagen
-Bettenwagen Bn 724 "Silberling"
+Bettenwagen Bnr 724 "Silberling"
 n-Wagen_Bn_724_Silberling_Bettenwagen_Klotzgebremst
 Bettenwagen Bn 724 "Silberling"
 n-Wagen_Bndzf _479.1_Mintling
@@ -4007,9 +4017,9 @@ TransEuropeExpress Rh. 4010 "Transalpin" | Triebkopf
 OBB_4020
 Stadtschnellbahn Rh. 4020 | Triebkopf
 OBB_4020b
-Stadtschnellbahn Rh. 4020 | Mittelwagen
-OBB_4020w
 Stadtschnellbahn Rh. 4020 | Steuerwagen
+OBB_4020w
+Stadtschnellbahn Rh. 4020 | Mittelwagen
 OBB_4024_1
 Nahverkehrstriebwagen Rh. 4024 "Talent" | Steuerwagen
 OBB_4024_2
@@ -4069,19 +4079,25 @@ Personenwagen "Inlandsreisezugwagen"
 Passenger_Train_1983_B_61_21-73_EW_IV
 Intercitywagen B 61 21-73 "Einheitswagen IV"
 Passenger_Train_1983_B_61_21-73_EW_IV_1class
-Intercitywagen B 61 21-73 "Einheitswagen IV" | Erste Klasse
+Intercitywagen A 61 21-73 "Einheitswagen IV" | Erste Klasse
+Passenger_Train_1989_Apm_61_10-90_EC
+Intercitywagen Apm 61 10-90 "Eurocitywagen"
 Passenger_Train_1989_Bpm_61_20-70_RIC_Z1
 Intercitywagen Bpm 61 20-70 "RIC Z1"
 Passenger_Train_1989_Bpm_61_20-90_EC
 Intercitywagen Bpm 61 20-90 "Eurocitywagen"
 Passenger_Train_1990_B_61_21-73_EW_IV_BT
 Intercitysteuerwagen B 61 21-73 "Einheitswagen IV Bt"
+Passenger_Train_1991_Apm_61_19-90_Panorama
+Panorama-Intercitywagen Apm 61 19-90 "Pano"
 Passenger_Train_1992_Double_Deck_DBpbzfa_760_0_1
 Doppelstocksteuerwagen DBpbzfa 760.0
 Passenger_Train_1992_Double_Deck_DBpbzfa_760_0_2
 Doppelstocksteuerwagen DBpbzfa 760.0
 Passenger_Train_1992_Double_Deck_DBz_750_0
 Doppelstockwagen DBz 750.0
+Passenger_Train_1993_Apm_61_10-90_Cisalpino
+Intercitywagen Apm 61 10-90 "Eurocitywagen"
 Passenger_Train_1993_Bpm_61_20-90_Cisalpino
 Intercitywagen Bpm 61 20-90 "Eurocitywagen"
 Passenger_Train_1994_Double_Deck_DBpbzfa_761_2_1
@@ -4138,6 +4154,10 @@ Passenger_Train_2002_Modularwagen
 Interctiywagen Bmpz 20-94 "Modularwagen"
 Passenger_Train_2002_OBB_Bmz
 Intercitywagen Bmz "Eurofima"
+Passenger_Train_2004_Apm_61_10-90_EC
+Intercitywagen Apm 61 10-90 "Eurocitywagen"
+Passenger_Train_2004_Apm_61_19-90_Panorama
+Panorama-Intercitywagen Apm 61 19-90 "Pano"
 Passenger_Train_2004_B_61_21-95_EW_IV
 Intercitywagen B 61 21-95 "Einheitswagen IV"
 Passenger_Train_2004_Bpm_61_20-90_EC
@@ -4222,12 +4242,16 @@ Passenger_Train_2016_Locomore_PC
 Intercitywagen Bm 235
 Passenger_Train_2016_Nightjet_Modularwagen
 Interctiywagen Bmpz 20-94 "Nightjet"
+Passenger_Train_2017_Apm_61_19-90_Panorama
+Panorama-Intercitywagen Apm 61 19-90 "Pano"
 Passenger_Train_2017_Flixtrain
 Intercitywagen Bm 235
 Passenger_Train_2017_Flixtrain_PC
 Intercitywagen Bm 235
 Passenger_Train_2018_I6
 Intercitywagen I6
+Passenger_Train_2020_Apm_61_10-90_EC
+Intercitywagen Apm 61 10-90 "Eurocitywagen"
 Passenger_Train_2020_B_61_21-95_EW_IV
 Intercitywagen B 61 21-95 "Einheitswagen IV"
 Passenger_Train_2020_Bpm_61_20-90_EC
@@ -4251,9 +4275,9 @@ Intercity Neigetechnikzug ETR 610 "Pendolino" | Mittelwagen
 Pendolino_4_4
 Intercity Neigetechnikzug ETR 610 "Pendolino" | Steuerwagen
 Preuszische_P6
-Schnellzuglokomotive P6
+Schnellzugdampflokomotive P6
 Preuszische_P6_Tender
-Schnellzuglokomotive P6 | Tender
+Schnellzugdampflokomotive P6 | Tender
 Preuszischer_Abteilwagen
 Abteilwagen
 Preuszischer_Abteilwagen_2_achsig
@@ -4377,11 +4401,11 @@ Postwagen "Rheingold"
 RZD_C
 Langstreckenreisewagen C
 S_1-LT
-U-Bahnwagen TfL Typ S
+U-Bahnwagen TfL Typ S (Stromschiene)
 S_2-LT
-U-Bahnwagen TfL Typ S
+U-Bahnwagen TfL Typ S (Stromschiene)
 S_3-LT
-U-Bahnwagen TfL Typ S
+U-Bahnwagen TfL Typ S (Stromschiene)
 S3_6
 Schnellzugdampflokomotive S3/6
 S3_6_Tender
@@ -4481,11 +4505,11 @@ Doppelstockintercitywagen M7
 SNCB_Rh_13_Lok_1997_0
 Intercitylokomotive Rh. 13
 SNL VT17
-Stadtschnellbahn VT 17
+Stadtschnellbahn VT 17 (Stromschiene)
 SNL VT17_1
-Stadtschnellbahn VT 17
+Stadtschnellbahn VT 17 (Stromschiene)
 SNL VT17_2
-Stadtschnellbahn VT 17
+Stadtschnellbahn VT 17 (Stromschiene)
 snl_container
 Containerwagen
 SNL_V200
@@ -4522,6 +4546,8 @@ TEE_Wagen_1965_1
 Postwagen "TransEuropExpress"
 TEE_Wagen_1965_2
 Schnellzugwagen "TransEuropExpress" | Restaurant
+Tender_1918_2_2_T_29_6
+Tender 2'2 T29,6
 Tender_1957_2_2_T_40
 Tender 2'2 T40
 TGV_Duplex_Bistro
@@ -4623,103 +4649,103 @@ Doppelstocktriebkopf "Twindexx Vario"
 Twindex_Vario_Triebwagen_PC_2
 Doppelstocktriebkopf "Twindexx Vario"
 U_1-WL
-U-Bahnwagen WL Typ U "Silberpfeil"
+U-Bahnwagen WL Typ U "Silberpfeil" (Stromschiene)
 U_2-WL
-U-Bahnwagen WL Typ U "Silberpfeil"
+U-Bahnwagen WL Typ U "Silberpfeil" (Stromschiene)
 U-Bahn_Hamburg_AL
 Hochbahnakkulokomotive HHA AL
 U-Bahn_Hamburg_DT1_1
-Hochbahnwagen HHA Typ DT1 | A Wagen
+Hochbahnwagen HHA Typ DT1 | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT1_2
-Hochbahnwagen HHA Typ DT1 | B Wagen
+Hochbahnwagen HHA Typ DT1 | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT1_3
-Hochbahnwagen HHA Typ DT1 | A Wagen
+Hochbahnwagen HHA Typ DT1 | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT1_4
-Hochbahnwagen HHA Typ DT1 | B Wagen
+Hochbahnwagen HHA Typ DT1 | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT2_1
-Hochbahnwagen HHA Typ DT2 | A Wagen
+Hochbahnwagen HHA Typ DT2 | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT2_2
-Hochbahnwagen HHA Typ DT2 | B Wagen
+Hochbahnwagen HHA Typ DT2 | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT2E_1
-Hochbahnwagen HHA Typ DT2E | A Wagen
+Hochbahnwagen HHA Typ DT2E | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT2E_2
-Hochbahnwagen HHA Typ DT2E | B Wagen
+Hochbahnwagen HHA Typ DT2E | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT3_1
-Hochbahnwagen HHA Typ DT3 | A Wagen
+Hochbahnwagen HHA Typ DT3 | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT3_2
-Hochbahnwagen HHA Typ DT3 | C Wagen
+Hochbahnwagen HHA Typ DT3 | C Wagen (Stromschiene)
 U-Bahn_Hamburg_DT3_3
-Hochbahnwagen HHA Typ DT3 | B Wagen
+Hochbahnwagen HHA Typ DT3 | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT3E_1
-Hochbahnwagen HHA Typ DT3E | A Wagen
+Hochbahnwagen HHA Typ DT3E | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT3E_2
-Hochbahnwagen HHA Typ DT3E | C Wagen
+Hochbahnwagen HHA Typ DT3E | C Wagen (Stromschiene)
 U-Bahn_Hamburg_DT3E_3
-Hochbahnwagen HHA Typ DT3E | B Wagen
+Hochbahnwagen HHA Typ DT3E | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4_1
-Hochbahnwagen HHA Typ DT4 | A Wagen
+Hochbahnwagen HHA Typ DT4 | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4_2
-Hochbahnwagen HHA Typ DT4 | B Wagen
+Hochbahnwagen HHA Typ DT4 | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4_3
-Hochbahnwagen HHA Typ DT4 | C Wagen
+Hochbahnwagen HHA Typ DT4 | C Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4_4
-Hochbahnwagen HHA Typ DT4 | D Wagen
+Hochbahnwagen HHA Typ DT4 | D Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4_5_1
-Hochbahnwagen HHA Typ DT4.5 | A Wagen
+Hochbahnwagen HHA Typ DT4.5 | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4_5_2
-Hochbahnwagen HHA Typ DT4.5 | B Wagen
+Hochbahnwagen HHA Typ DT4.5 | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4_5_3
-Hochbahnwagen HHA Typ DT4.5 | C Wagen
+Hochbahnwagen HHA Typ DT4.5 | C Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4_5_4
-Hochbahnwagen HHA Typ DT4.5 | D Wagen
+Hochbahnwagen HHA Typ DT4.5 | D Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4U_1
-Hochbahnwagen HHA Typ DT4 | A Wagen
+Hochbahnwagen HHA Typ DT4 | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4U_2
-Hochbahnwagen HHA Typ DT4 | B Wagen
+Hochbahnwagen HHA Typ DT4 | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4U_3
-Hochbahnwagen HHA Typ DT4 | C Wagen
+Hochbahnwagen HHA Typ DT4 | C Wagen (Stromschiene)
 U-Bahn_Hamburg_DT4U_4
-Hochbahnwagen HHA Typ DT4 | D Wagen
+Hochbahnwagen HHA Typ DT4 | D Wagen (Stromschiene)
 U-Bahn_Hamburg_DT5_1
-Hochbahnwagen HHA Typ DT5 | A Wagen
+Hochbahnwagen HHA Typ DT5 | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT5_2
-Hochbahnwagen HHA Typ DT5 | C Wagen
+Hochbahnwagen HHA Typ DT5 | C Wagen (Stromschiene)
 U-Bahn_Hamburg_DT5_3
-Hochbahnwagen HHA Typ DT5 | B Wagen
+Hochbahnwagen HHA Typ DT5 | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT6_1
-Hochbahnwagen HHA Typ DT6 | A Wagen
+Hochbahnwagen HHA Typ DT6 | A Wagen (Stromschiene)
 U-Bahn_Hamburg_DT6_2
-Hochbahnwagen HHA Typ DT6 | B Wagen
+Hochbahnwagen HHA Typ DT6 | B Wagen (Stromschiene)
 U-Bahn_Hamburg_DT6_3
-Hochbahnwagen HHA Typ DT6 | C Wagen
+Hochbahnwagen HHA Typ DT6 | C Wagen (Stromschiene)
 U-Bahn_Hamburg_DT6_4
-Hochbahnwagen HHA Typ DT6 | D Wagen
+Hochbahnwagen HHA Typ DT6 | D Wagen (Stromschiene)
 U-Bahn_Hamburg_T1_1
-Hochbahnwagen HHA Typ T1
+Hochbahnwagen HHA Typ T1 (Stromschiene)
 U-Bahn_Hamburg_T1_2
-Hochbahnwagen HHA Typ T1
+Hochbahnwagen HHA Typ T1 (Stromschiene)
 U-Bahn_Hamburg_T1_3
-Hochbahnwagen HHA Typ T1 | Vorwärts
+Hochbahnwagen HHA Typ T1 | Vorwärts (Stromschiene)
 U-Bahn_Hamburg_T1_4
-Hochbahnwagen HHA Typ T1 | Rückwärts
+Hochbahnwagen HHA Typ T1 | Rückwärts (Stromschiene)
 U-Bahn_Hamburg_T14_1
-Hochbahnwagen HHA Typ T14
+Hochbahnwagen HHA Typ T14 (Stromschiene)
 U-Bahn_Hamburg_T14_2
-Hochbahnwagen HHA Typ T14
+Hochbahnwagen HHA Typ T14 (Stromschiene)
 U-Bahn_Hamburg_T15_1
-Hochbahnwagen HHA Typ T15 | A Wagen
+Hochbahnwagen HHA Typ T15 | A Wagen (Stromschiene)
 U-Bahn_Hamburg_T15_2
-Hochbahnwagen HHA Typ T15 | B Wagen
+Hochbahnwagen HHA Typ T15 | B Wagen (Stromschiene)
 U-Bahn_Hamburg_T6_1
-Hochbahnwagen HHA Typ T6
+Hochbahnwagen HHA Typ T6 (Stromschiene)
 U-Bahn_Hamburg_TU1_1
-Hochbahnwagen HHA Typ TU1 | Vorwärts
+Hochbahnwagen HHA Typ TU1 | Vorwärts (Stromschiene)
 U-Bahn_Hamburg_TU1_2
-Hochbahnwagen HHA Typ TU1 | Rückwärts
+Hochbahnwagen HHA Typ TU1 | Rückwärts (Stromschiene)
 U-Bahn_Hamburg_TU2_1
-Hochbahnwagen HHA Typ TU2 | Vorwärts
+Hochbahnwagen HHA Typ TU2 | Vorwärts (Stromschiene)
 U-Bahn_Hamburg_TU2_2
-Hochbahnwagen HHA Typ TU2 | Rückwärts
+Hochbahnwagen HHA Typ TU2 | Rückwärts (Stromschiene)
 U2_1-VGF
 Stadtbahnwagen VGF Typ U2
 U2_2-VGF
@@ -4767,11 +4793,11 @@ Nahverkehrswagen "Umbauwagen"
 Umbauwagen_1950_4
 Postwagen "Umabuwagen"
 V_1-WL
-U-Bahnwagen WL Typ V "V-Wagen"
+U-Bahnwagen WL Typ V "V-Wagen" (Stromschiene)
 V_2-WL
-U-Bahnwagen WL Typ V "V-Wagen"
+U-Bahnwagen WL Typ V "V-Wagen" (Stromschiene)
 V_3-WL
-U-Bahnwagen WL Typ V "V-Wagen"
+U-Bahnwagen WL Typ V "V-Wagen" (Stromschiene)
 V100_EB_Lisa
 Diesellokomotive BR V 100 "Lisa"
 V100_EB_Lisa_back
@@ -4871,11 +4897,11 @@ Speisewagen WLSRmee
 WU_Speisewagen_1996
 Speisewagen WRkmz 858.0 "City Night Line"
 X_1-WL
-U-Bahnwagen WL Typ X "X-Wagen"
+U-Bahnwagen WL Typ X "X-Wagen" (Stromschiene)
 X_2-WL
-U-Bahnwagen WL Typ X "X-Wagen"
+U-Bahnwagen WL Typ X "X-Wagen" (Stromschiene)
 X_3-WL
-U-Bahnwagen WL Typ X "X-Wagen"
+U-Bahnwagen WL Typ X "X-Wagen" (Stromschiene)
 X_Wagen_1978_0
 Stadtschnellbahnwagen "X-Wagen" | Steuerwagen
 X_Wagen_1978_1
@@ -6328,8 +6354,6 @@ high_track_old
 Hochbahn
 signalbridge_sbb
 Signalbrücke
-track
-Gleis
 track_2
 Gleis
 track_3
@@ -6402,8 +6426,6 @@ narrowgauge_130
 Schmalspurbahnschiene
 narrowgauge_160
 Schmalspurbahnschiene mit Stahlschwellen
-narrowgauge_track
-Schmalspurbahnschiene
 narrowgauge_track_fast
 Schmalspurbahnschiene mit Betonschwellen
 narrowgauge_track_slow

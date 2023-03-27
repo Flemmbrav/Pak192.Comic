@@ -9,7 +9,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 21.08 2022                           #
+#                           Date Created: 27.03 2023                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -1662,12 +1662,16 @@ carseller
 Car Dealership
 factory_carseller_details
 <title>Car Dealership</title>\n<p>Here smooth-talking salesmen try to sell you a car you don't need at a price you'd rather not pay. Many different cars are sold here, including sedans, convertibles, pickups, and minivans.</p>
+cheese_import
+Cheese Importer
 cherryontop
 Cake Shop
 ciderpress
 Cider Press
 factory_ciderpress_details
 <title>Cider Press</title>\n<p>A cider press is where apples are ground up into pulp and then pressed into juice. This juice, being unfiltered and unsweetened, is referred to as cider.</p>
+circuitboards_assembly
+Circuitboards Assemply Plant
 cleopatra
 Beauty Parlor
 cleopatra_desert
@@ -1686,6 +1690,8 @@ factory_coka_factory_details
 <title>Coka Filling Station</title><p>COKA was originally intended to be medicine. The name was an acronym for "Cocaine Omitting Kontraproductive Additives." In other words - Pure Cocaine. But even back then it was not really pure, as they cut it with another white powder - sugar. They started making a fortune once the formula was further diluted by water.</p>
 comicbookstore
 Comic Book Store
+computerproducer
+Computer Producer
 coppermine
 Copper Mine
 factory_coppermine_details
@@ -1698,6 +1704,8 @@ currywurst_stand
 Currywurst Stand
 factory_currywurst_stand_details
 <title>Currywurst Stand</title><p>A Currywurst is a fast food dish of German origin consisting of steamed, then fried pork sausage (German: Bratwurst) typically cut into bite-sized chunks and seasoned with a sauce based on spiced ketchup or tomato paste, topped with curry powder. The dish is often served with French fries.</p>
+dairy_factory
+Dairy Factory
 diy1
 Do-It-Yourself Store
 doctor
@@ -2649,9 +2657,9 @@ SNL Transrapid tail engine
 #__________________________vehicle - narrowgauge_track__________________________
 #__________________________vehicle - narrowgauge_track__________________________
 A_1-MVG
-Underground Stock MVG Type A
+Underground Stock MVG Type A (third rail)
 A_2-MVG
-Underground Stock MVG Type A
+Underground Stock MVG Type A (third rail)
 Adler
 Steam Engine "Adler"
 Adler_Klasse1
@@ -2669,17 +2677,17 @@ Boxed goods gondola "Adler"
 Adler_Tender
 Steam Engine "Adler" tender
 AI_1-BVG
-Underground Stock BVG Type AI
+Underground Stock BVG Type AI (third rail)
 AI_2-BVG
-Underground Stock BVG Type AI
+Underground Stock BVG Type AI (third rail)
 AWH_Halbgepaeckwagen_2003
 Luggage Car "Citynightline"
 AWH_Liegewagen_1999_NJ
 Couchette Car "Nightjet"
 B_1-MVG
-Underground Stock MVG Type B
+Underground Stock MVG Type B (third rail)
 B_2-MVG
-Underground Stock MVG Type B
+Underground Stock MVG Type B (third rail)
 B_IX
 Steam Engine Baden IX b
 B_IX_Tender
@@ -2695,7 +2703,7 @@ Steam Engine Baden VII a tender
 B2ueh
 Passenger Car "Spantenwagen" Type B2üh 
 B2ueh2
-"Spantenwagen" B2üh  | 2nd Generation
+Passenger Car "Spantenwagen" B2üh  | 2nd Generation
 B4ueh
 Express Train Car B4üh "Schürzenwagen"
 B514
@@ -2707,19 +2715,19 @@ Electric Locomotive Rh. 1670
 Begleitwagen_RalPin
 Coach RalPin
 BI_1-BVG
-Underground Stock BVG Type BI
+Underground Stock BVG Type BI (third rail)
 BI_2-BVG
-Underground Stock BVG Type BI
+Underground Stock BVG Type BI (third rail)
 BR 150
 Electric Locomotive BR E 50
 BR 152
 Electric Locomotive BR 152
 BR 613_1
-"Itino" DB BR 613 
+Diesel Multiple Unit BR 613 "Itino" | End Coach
 BR 613_2
-"Itino" DB BR 613 | Middle Coach
+Diesel Multiple Unit BR 613 "Itino" | Middle Coach
 BR 613_3
-"Itino" DB BR 613 | End Coach
+Diesel Multiple Unit BR 613 "Itino" | End Coach
 BR 614
 Diesel Multiple Unit BR 614
 BR 614 Mittelwagen
@@ -2733,31 +2741,31 @@ Diesel Multiple Unit BR 624
 BR 624 Schluss
 Diesel Multiple Unit BR 624
 BR 642
-"Desiro" DB BR 642 
+Diesel Multiple Unit BR 642 "Desiro" 
 BR 642_1
-"Desiro" DB BR 642 | End Coach
+Diesel Multiple Unit BR 642 "Desiro" 
 BR 650
-Stadler Regio-Shuttle DB BR 650
+Diesel Multiple Unit BR 650 "Regio-Shuttle"
 BR_01_10
-Streamlined Steam Engine DRB Class 01.10
+Streamlined Steam Engine BR 01.10
 BR_01_10_Tender
-Streamlined Steam Engine BR 01.10 | Tender
+Streamlined Steam Engine BR 01.10 (tender)
 BR_03_10
-Streamlined Steam Engine DRB Class 03.10
+Streamlined Steam Engine BR 03.10
 BR_03_10_Tender
-Streamlined Steam Engine BR 03.10 | Tender
+Streamlined Steam Engine BR 03.10 (tender)
 BR_05
-Steam Engine DRG Class 05
+Streamlined Steam Engine BR 05
 BR_05_Tender
-Steam Engine DRG Class 05 tender
+Streamlined Steam Engine BR 05 (tender)
 BR_101
-Electric Intercity Locomotive DB Class 101
+Electric Intercity Locomotive BR 101
 BR_110
-Electric Express Locomotive DB Class E 10
+Electric Express Locomotive BR E 10
 BR_111
-Electric Express Locomotive DB Class E 11
+Electric Express Locomotive BR 111
 BR_114
-Electric Locomotive DBAG Class 114
+Electric Locomotive BR 114
 BR_120
 Intercity Locomotive BR 120 | Prototype
 BR_120_DB_Regio
@@ -2821,9 +2829,9 @@ Multi System Electric Locomotive BR 187 "TRAXX 3"
 BR_189
 Multi System Electric Locomotive BR 189 "Eurosprinter"
 BR_19
-Steam Motorized Locomotive DRB Class 19.10
+Steam Motorized Locomotive BR 19 1001
 BR_19_Tender
-Steam Motorised Locomotive BR 19 1001 Tender
+Steam Motorized Locomotive BR 19 1001 (tender)
 BR_193
 Multi System Electric Locomotive BR 193 "Vectron"
 BR_216
@@ -2898,6 +2906,14 @@ BR_422_3
 Commuter Train BR 422 | Coach
 BR_422_4
 Commuter Train BR 422 | Control Car
+BR_422_VRR_1
+Commuter Train BR 422 | Control Car
+BR_422_VRR_2
+Commuter Train BR 422 | Coach
+BR_422_VRR_3
+Commuter Train BR 422 | Coach
+BR_422_VRR_4
+Commuter Train BR 422 | Control Car
 BR_423_1
 Commuter Train BR 423 | Control Car
 BR_423_2
@@ -2905,6 +2921,14 @@ Commuter Train BR 423 | Coach
 BR_423_3
 Commuter Train BR 423 | Coach
 BR_423_4
+Commuter Train BR 423 | Control Car
+BR_423_BWegt_1
+Commuter Train BR 423 | Control Car
+BR_423_BWegt_2
+Commuter Train BR 423 | Coach
+BR_423_BWegt_3
+Commuter Train BR 423 | Coach
+BR_423_BWegt_4
 Commuter Train BR 423 | Control Car
 BR_425_1
 Commuter Train BR 425 | Control Car
@@ -2914,8 +2938,22 @@ BR_425_3
 Commuter Train BR 425 | Coach
 BR_425_4
 Commuter Train BR 425 | Control Car
+BR_425_BOB_4
+Commuter Train BR 426 | Control Car
+BR_425_Transdev_1
+Commuter Train BR 425 | Control Car
+BR_425_Transdev_2
+Commuter Train BR 425 | Coach
+BR_425_Transdev_3
+Commuter Train BR 425 | Coach
+BR_425_Transdev_4
+Commuter Train BR 425 | Control Car
 BR_426_1
 Commuter Train BR 426 | Control Car
+BR_426_BOB_1
+Commuter Train BR 426 | Control Car
+BR_427
+Commuter Train BR 427
 BR_430_1
 Commuter Train BR 430 | Control Car
 BR_430_2
@@ -2924,42 +2962,50 @@ BR_430_3
 Commuter Train BR 430 | Coach
 BR_430_4
 Commuter Train BR 430 | Control Car
+BR_430_BWegt_1
+Commuter Train BR 430 | Control Car
+BR_430_BWegt_2
+Commuter Train BR 430 | Coach
+BR_430_BWegt_3
+Commuter Train BR 430 | Coach
+BR_430_BWegt_4
+Commuter Train BR 430 | Control Car
 BR_470_1
-Commuter Train BR 470 | Control Car
+Commuter Train BR 470 | Control Car (third rail)
 BR_470_2
-Commuter Train BR 870 | Coach
+Commuter Train BR 870 | Coach (third rail)
 BR_470_3
-Commuter Train BR 470 | Control Car
+Commuter Train BR 470 | Control Car (third rail)
 BR_471_1
-Commuter Train BR 471 | Control Car
+Commuter Train BR 471 | Control Car (third rail)
 BR_471_2
-Commuter Train BR 871 | Coach
+Commuter Train BR 871 | Coach (third rail)
 BR_471_3
-Commuter Train BR 471 | Control Car
+Commuter Train BR 471 | Control Car (third rail)
 BR_472_1
-Commuter Train BR 472 | Control Car
+Commuter Train BR 472 | Control Car (third rail)
 BR_472_2
-Commuter Train BR 472 | Coach
+Commuter Train BR 472 | Coach (third rail)
 BR_472_3
-Commuter Train BR 472 | Control Car
+Commuter Train BR 472 | Control Car (third rail)
 BR_474_1
-Commuter Train BR 474 | Control Car
+Commuter Train BR 474 | Control Car (third rail)
 BR_474_2
-Commuter Train BR 874 | Coach
+Commuter Train BR 874 | Coach (third rail)
 BR_474_3
-Commuter Train BR 474 | Control Car
+Commuter Train BR 474 | Control Car (third rail)
 BR_475_1-BVG
-Commuter Train BR 475 | Control Car
+Commuter Train BR 475 | Control Car (third rail)
 BR_475_2-BVG
-Commuter Train BR 475 | Control Car
+Commuter Train BR 475 | Control Car (third rail)
 BR_490_1
-Commuter Train BR 490 | Control Car
+Commuter Train BR 490 | Control Car (third rail)
 BR_490_2
-Commuter Train BR 490 | Coach
+Commuter Train BR 490 | Coach (third rail)
 BR_490_3
-Commuter Train BR 490 | Control Car
+Commuter Train BR 490 | Control Car (third rail)
 BR_61
-Streamlined Steam Engine DRG Class 61
+Streamlined Steam Engine BR 61
 BR_610
 Tilting Diesel Unit BR 610 "Pendolino"
 BR_610_2
@@ -3021,25 +3067,25 @@ Intercityexpress "ICE" | Control Car
 BR_808_2_Klimaschuetzer
 Intercityexpress "ICE" | Control Car
 BR_875_1-BVG
-Commuter Train BR 875 | Coach
+Commuter Train BR 875 | Coach (third rail)
 BR_875_2-BVG
-Commuter Train BR 875 | Coach
+Commuter Train BR 875 | Coach (third rail)
 BR_928
 Diesel Unit BR 928 | Coach
 BR_C01
-Express Steam Engine DRG Class 01 "Pacific"
+Express Steam Engine BR 01 "Pacific"
 BR_C01_Tender
-Express Steam Engine DRG Class 01 "Pacific" tender
+Express Steam Engine BR 01 "Pacific" (tender)
 BR_C02
-Steam Engine DRG Class 02
+Steam Engine BR 02
 BR_C02_Tender
-Steam Engine DRG Class 02 tender
+Steam Engine BR 02 (tender)
 BR_C03
-Express Steam Engine DRG Class 03
+Express Steam Engine BR 03
 BR_C03_Tender
-Express Steam Engine DRG Class 03 tender
+Express Steam Engine BR 03 (tender)
 BR119sf
-Diesel Engine DR Class 119 "U-boat"
+Diesel Engine DR Class 119 "U-Boot"
 BRC 55
 Diesel Engine Class 55 "Deltic"
 BRC 59
@@ -3047,25 +3093,25 @@ Diesel Engine Class 59
 BS514
 Double Deck Eletric Car Type BS512 "Desiro Double Deck"
 C_1-LT
-Underground Stock TfL Type C
+Underground Stock TfL Type C (third rail)
 C_1-MVG
-Underground Stock MVG Type C
+Underground Stock MVG Type C (third rail)
 C_2-LT
-Underground Stock TfL Type C
+Underground Stock TfL Type C (third rail)
 C_2-MVG
-Underground Stock MVG Type C
+Underground Stock MVG Type C (third rail)
 C_3-LT
-Underground Stock TfL Type C
+Underground Stock TfL Type C (third rail)
 C_3-MVG
-Underground Stock MVG Type C
+Underground Stock MVG Type C (third rail)
 C_4-LT
-Underground Stock TfL Type C
+Underground Stock TfL Type C (third rail)
 C2_1-MVG
-Underground Stock MVG Type C2
+Underground Stock MVG Type C2 (third rail)
 C2_2-MVG
-Underground Stock MVG Type C2
+Underground Stock MVG Type C2 (third rail)
 C2_3-MVG
-Underground Stock MVG Type C2
+Underground Stock MVG Type C2 (third rail)
 Car_1900_Sheetmetal
 Coil car
 Car_1920_Billet
@@ -3153,9 +3199,9 @@ Double Deck Electric BR 471 "CityElefant" | Coach
 CD_471c
 Double Deck Electric BR 471 "CityElefant" | Control Car
 CII_1-BVG
-Underground Stock BVG Type CII
+Underground Stock BVG Type CII (third rail)
 CII_2-BVG
-Underground Stock BVG Type CII
+Underground Stock BVG Type CII (third rail)
 Cityshuttle
 "CityShuttle" ÖBB Bmpz-s 5081 80-73
 Cityshuttle1
@@ -3345,31 +3391,31 @@ Electric Multiple Unit Class 357 "Electrostar"
 Class_357_C2C-4
 Electric Multiple Unit Class 357 "Electrostar"
 Class_375_SE-1
-Electric Multiple Unit Class 375 "Electrostar"
+Electric Multiple Unit Class 375 "Electrostar" (third rail)
 Class_375_SE-2
-Electric Multiple Unit Class 375 "Electrostar"
+Electric Multiple Unit Class 375 "Electrostar" (third rail)
 Class_375_SE-3
-Electric Multiple Unit Class 375 "Electrostar"
+Electric Multiple Unit Class 375 "Electrostar" (third rail)
 Class_375_SE-4
-Electric Multiple Unit Class 375 "Electrostar"
+Electric Multiple Unit Class 375 "Electrostar" (third rail)
 Class_376_SE-1
-Electric Multiple Unit Class 376 "Electrostar"
+Electric Multiple Unit Class 376 "Electrostar" (third rail)
 Class_376_SE-2
-Electric Multiple Unit Class 376 "Electrostar"
+Electric Multiple Unit Class 376 "Electrostar" (third rail)
 Class_376_SE-3
-Electric Multiple Unit Class 376 "Electrostar"
+Electric Multiple Unit Class 376 "Electrostar" (third rail)
 Class_376_SE-4
-Electric Multiple Unit Class 376 "Electrostar"
+Electric Multiple Unit Class 376 "Electrostar" (third rail)
 Class_376_SE-5
-Electric Multiple Unit Class 376 "Electrostar"
+Electric Multiple Unit Class 376 "Electrostar" (third rail)
 Class_377_1_SR-1
-Electric Multiple Unit Class 377 "Electrostar"
+Electric Multiple Unit Class 377 "Electrostar" (third rail)
 Class_377_1_SR-2
-Electric Multiple Unit Class 377 "Electrostar"
+Electric Multiple Unit Class 377 "Electrostar" (third rail)
 Class_377_1_SR-3
-Electric Multiple Unit Class 377 "Electrostar"
+Electric Multiple Unit Class 377 "Electrostar" (third rail)
 Class_377_1_SR-4
-Electric Multiple Unit Class 377 "Electrostar"
+Electric Multiple Unit Class 377 "Electrostar" (third rail)
 Class_377_FCC-1
 Electric Multiple Unit Class 377 "Electrostar"
 Class_377_FCC-2
@@ -3387,13 +3433,13 @@ Electric Multiple Unit Class 377 "Electrostar"
 Class_377_SR-4
 Electric Multiple Unit Class 377 "Electrostar"
 Class_378-1_LO-1
-Electric Multiple Unit Class 378 "Capitalstar"
+Electric Multiple Unit Class 378 "Capitalstar" (third rail)
 Class_378-1_LO-2
-Electric Multiple Unit Class 378 "Capitalstar"
+Electric Multiple Unit Class 378 "Capitalstar" (third rail)
 Class_378-1_LO-3
-Electric Multiple Unit Class 378 "Capitalstar"
+Electric Multiple Unit Class 378 "Capitalstar" (third rail)
 Class_378-1_LO-4
-Electric Multiple Unit Class 378 "Capitalstar"
+Electric Multiple Unit Class 378 "Capitalstar" (third rail)
 Class_378-2_LO-1
 Electric Multiple Unit Class 378 "Capitalstar"
 Class_378-2_LO-2
@@ -3427,21 +3473,21 @@ Diesel Intercity Class 43 "High Speed Train" | Powerhead
 Class_43_FGW_2
 Diesel Intercity Class 43 "High Speed Train" | Powerhead
 Class_455_1_SR
-Electric Multiple Unit Class 455
+Electric Multiple Unit Class 455 (third rail)
 Class_455_1_SWT
-Electric Multiple Unit Class 455
+Electric Multiple Unit Class 455 (third rail)
 Class_455_2_SR
-Electric Multiple Unit Class 455
+Electric Multiple Unit Class 455 (third rail)
 Class_455_2_SWT
-Electric Multiple Unit Class 455
+Electric Multiple Unit Class 455 (third rail)
 Class_455_3_SR
-Electric Multiple Unit Class 455
+Electric Multiple Unit Class 455 (third rail)
 Class_455_3_SWT
-Electric Multiple Unit Class 455
+Electric Multiple Unit Class 455 (third rail)
 Class_455_4_SR
-Electric Multiple Unit Class 455
+Electric Multiple Unit Class 455 (third rail)
 Class_455_4_SWT
-Electric Multiple Unit Class 455
+Electric Multiple Unit Class 455 (third rail)
 Class43-1
 Diesel Intercity Class 43 "High Speed Train" | Powerhead
 Class43-2
@@ -3491,11 +3537,13 @@ Diesel Locomotive T 679.1 "Sergej"
 CSD_T_679_SC
 Diesel Locomotive T 679.1 "Sergej"
 D_1-BVG
-Underground Stock BVG Type D
+Underground Stock BVG Type D (third rail)
 D_2-BVG
-Underground Stock BVG Type D
+Underground Stock BVG Type D (third rail)
 DBS_ Class_92
 Electric Locomotive Class 92
+DBS_ Class_92_DC_Mode
+Electric Locomotive Class 92 (third rail)
 DDR-Wagen3
 Double Deck Coach
 DDR-Wagen3b
@@ -3507,61 +3555,71 @@ Double Deck Coach
 DDR-Wagen4c
 Double Deck Coach
 Diesel_1957_TEE_Triebzug_0
-Diesel Mulitple Unit VT 11.5 "TransEuropExpress"
+Diesel Mulitple Unit VT 11.5 "TransEuropExpress" | Powerhead
 Diesel_1957_TEE_Triebzug_1
-Diesel Mulitple Unit VT 11.5 "TransEuropExpress"
+Diesel Mulitple Unit VT 11.5 "TransEuropExpress" | Coach
 Diesel_1957_TEE_Triebzug_2
-Diesel Mulitple Unit VT 11.5 "TransEuropExpress"
+Diesel Mulitple Unit VT 11.5 "TransEuropExpress" | Dining Coach
 Diesel_1957_TEE_Triebzug_3
-Diesel Mulitple Unit VT 11.5 "TransEuropExpress"
+Diesel Mulitple Unit VT 11.5 "TransEuropExpress" | Coach
 Diesel_1957_TEE_Triebzug_4
-Diesel Mulitple Unit VT 11.5 "TransEuropExpress"
+Diesel Mulitple Unit VT 11.5 "TransEuropExpress" | Powerhead
+Diesel_1968_TEE_Triebzug_0
+Diesel Mulitple Unit VT 11.5 "TransEuropExpress" | Powerhead
+Diesel_1968_TEE_Triebzug_1
+Diesel Mulitple Unit VT 11.5 "TransEuropExpress" | Coach
+Diesel_1968_TEE_Triebzug_2
+Diesel Mulitple Unit VT 11.5 "TransEuropExpress" | Dining Coach
+Diesel_1968_TEE_Triebzug_3
+Diesel Mulitple Unit VT 11.5 "TransEuropExpress" | Coach
+Diesel_1968_TEE_Triebzug_4
+Diesel Mulitple Unit VT 11.5 "TransEuropExpress" | Powerhead
 Diesellokomotive MaK DE1024
 Diesel Locomotive MaK DE1024
 Dieseltriebwagen MaK GDT
 Diesel Unit MaK GDT
 Docklands_B07_1
-Elevated Rail Coach TfL B07
+Elevated Rail Coach TfL B07 (third rail)
 Docklands_B07_2
-Elevated Rail Coach TfL B07
+Elevated Rail Coach TfL B07 (third rail)
 Docklands_B92_1
-Elevated Rail Coach TfL B92
+Elevated Rail Coach TfL B92 (third rail)
 Docklands_B92_2
-Elevated Rail Coach TfL B92
+Elevated Rail Coach TfL B92 (third rail)
 Docklands_P86_1
-Elevated Rail Coach TfL P86
+Elevated Rail Coach TfL P86 (third rail)
 Docklands_P86_2
-Elevated Rail Coach TfL P86
+Elevated Rail Coach TfL P86 (third rail)
 Dosto_1990
-"Dosto" Double-decker Coach
+Double Deck Coach "Neubau Dosto"
 Dosto_1990_SWb
-Double Deck Coach | Control Car
+Double Deck Coach "Neubau Dosto" | Control Car
 Dosto_1990_SWf
-Double Deck Coach | Control Car
+Double Deck Coach "Neubau Dosto" | Control Car
 Dosto_4g_B_500
-"Dosto" Double-decker Coach 4th Generation
+Double Deck Coach DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_B_500_BW
-Double Deck Coach | Control Car
+Double Deck Coach DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_B_500_bwsp
-Double Deck Coach | Control Car
+Double Deck Coach DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_F_500
-"Dosto" Double-decker Coach 4th Generation
+Double Deck Coach DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_F_500_BW
-Double Deck Coach | Control Car
+Double Deck Coach DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_F_500_bwsp
-Double Deck Coach | Control Car
+Double Deck Coach DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Dosto_4g_M_500
-"Dosto" Double-decker Coach 4th Generation
+Double Deck Coach DBpza 780.2 "Innovations-Doppelstockwagen"
 Dosto_4g_M_500_BW
-Double Deck Coach
+Double Deck Coach DBpza 780.2 "Innovations-Doppelstockwagen"
 Dosto_4g_M_500_bwsp
-Double Deck Coach
+Double Deck Coach DBpza 780.2 "Innovations-Doppelstockwagen"
 Dosto_4g_M_750
-Double Deck Coach
+Double Deck Coach DBpza 780.2 "Innovations-Doppelstockwagen"
 Dosto_5g_B_500M
-Double Deck Power Head "Twindexx Vario"
+Double Deck Power Head BR 445 "Twindexx Vario"
 Dosto_5g_F_500M
-Double Deck Power Head "Twindexx Vario"
+Double Deck Power Head BR 445 "Twindexx Vario"
 DPZ_1
 Double Deck Coach "DPZ" | Control Car
 DPZ_2
@@ -3631,17 +3689,21 @@ Diesel Locomotive BR V 200 "Taigatrommel"
 DR_V200_312
 Diesel Locomotive BR V 200 "Taigatrommel"
 DT1_1-VAG
-Underground Stock VAG Type DT1
+Underground Stock VAG Type DT1 (third rail)
+DT1_1-VAG_2
+Underground Stock VAG Type DT1 (third rail)
 DT1_2-VAG
-Underground Stock VAG Type DT1
+Underground Stock VAG Type DT1 (third rail)
+DT1_2-VAG_2
+Underground Stock VAG Type DT1 (third rail)
 DT2_1-VAG
-Underground Stock VAG Type DT2
+Underground Stock VAG Type DT2 (third rail)
 DT2_2-VAG
-Underground Stock VAG Type DT2
+Underground Stock VAG Type DT2 (third rail)
 DT3_1-VAG
-Underground Stock VAG Type DT3
+Underground Stock VAG Type DT3 (third rail)
 DT3_2-VAG
-Underground Stock VAG Type DT3
+Underground Stock VAG Type DT3 (third rail)
 DT8_10_1-SSB
 Light Rail Vehicle SSB DT8.10
 DT8_10_2-SSB
@@ -3661,17 +3723,17 @@ Express Train Coach
 Durchgangzugwagenwagen_1950_2
 Express Train Mail Car
 E_1-BVG
-Underground Stock BVG Type E
+Underground Stock BVG Type E (third rail)
 E_2-BVG
-Underground Stock BVG Type E
+Underground Stock BVG Type E (third rail)
 E_3-BVG
-Underground Stock BVG Type E
+Underground Stock BVG Type E (third rail)
 E_3U-BVG
-Underground Stock BVG Type E
+Underground Stock BVG Type E (third rail)
 E_4-BVG
-Underground Stock BVG Type E
+Underground Stock BVG Type E (third rail)
 E_4U-BVG
-Underground Stock BVG Type E
+Underground Stock BVG Type E (third rail)
 E03
 Electric Intercity Locomotive DB Class 103
 E94
@@ -3706,14 +3768,22 @@ Electric_2011_Desiro_ML_SNCB_2
 Electric Multiple Unit AM 08 "Desiro ML"
 Electric_2011_Desiro_ML_SNCB_3
 Electric Multiple Unit AM 08 "Desiro ML"
+Electric_2014_Flirt3_BWegt_1
+Electric Multiple Unit "Flirt 3"
+Electric_2014_Flirt3_BWegt_2
+Electric Multiple Unit "Flirt 3"
+Electric_2014_Flirt3_BWegt_3
+Electric Multiple Unit "Flirt 3"
+Electric_2014_Flirt3_BWegt_4
+Electric Multiple Unit "Flirt 3"
 Electric_2014_Flirt3_DB_1
-Electric BR 1428 "Flirt 3"
+Electric Multiple Unit BR 1428 "Flirt 3"
 Electric_2014_Flirt3_DB_2
-Electric BR 1428 "Flirt 3"
+Electric Multiple Unit BR 1428 "Flirt 3"
 Electric_2014_Flirt3_DB_3
-Electric BR 1428 "Flirt 3"
+Electric Multiple Unit BR 1428 "Flirt 3"
 Electric_2014_Flirt3_DB_4
-Electric BR 1428 "Flirt 3"
+Electric Multiple Unit BR 1428 "Flirt 3"
 Electric_2014_Flirt3_NahSh_1
 Electric Multiple Unit "Flirt 3"
 Electric_2014_Flirt3_NahSh_2
@@ -3746,6 +3816,10 @@ Electric_2019_Desiro_ML_ODEG_4
 Electric Multiple Unit "Desiro ML"
 EMT Class 153
 Diesel Unit Class 153 "Sprinter"
+EMT Class 156 1
+Diesel Unit Class 156 "Sprinter"
+EMT Class 156 2
+Diesel Unit Class 156 "Sprinter"
 EMT Mark_3_FGW
 Intercity Coach "Mark 3"
 EP1_CL11
@@ -3789,7 +3863,7 @@ Intercity Coach "Eurofima"
 Eurofima_Wagen_2001_4
 Mail Car "Eurofima"
 Eurofirma_Wagen_CNL_2013
-Couchette Coach "Citynightline"
+Couchette Coach Bvcmz 248 "Citynightline"
 Eurorunner_20
 Diesel Locomotive "Eurorunner"
 Eurorunner_20_Alex
@@ -3809,15 +3883,15 @@ High Speed Train "Eurostar"
 Eurostar_Wagen2
 High Speed Train "Eurostar"
 EW_I_A_Papagei
-Passenger coach
+Passenger coach "Einheitswagen I Papagei"
 EW_I_B_klb
-Passenger coach
+Passenger coach "Einheitswagen I Kolibri"
 EW_I_B_Papagei
-Passenger coach
+Passenger coach "Einheitswagen I Papagei"
 F_1-BVG
-Underground Stock BVG Type F
+Underground Stock BVG Type F (third rail)
 F_2-BVG
-Underground Stock BVG Type F
+Underground Stock BVG Type F (third rail)
 FGWR Class 153
 Diesel Unit Class 153 "Sprinter"
 Flirt_3_Mittelwagen
@@ -3845,23 +3919,29 @@ Express Coach "Mark 2"
 FSR_Mk3_SLE
 Express Coach "Mark 3"
 G_1-BVG
-Underground Stock BVG Type G
+Underground Stock BVG Type G "Giesela" (third rail)
 G_2-BVG
-Underground Stock BVG Type G
+Underground Stock BVG Type G "Giesela" (third rail)
+G1_1-VAG
+Underground Stock VAG Type G (third rail)
+G1_2-VAG
+Underground Stock VAG Type G (third rail)
+G1_3-VAG
+Underground Stock VAG Type G (third rail)
 GA Class 156 1
 Diesel Multiple Unit Class 156 "Super Sprinter"
 GA Class 156 2
 Diesel Multiple Unit Class 156 "Super Sprinter"
 GAX_Class_442-1
-Electric Multiple Unit Class 442 "Wessex Electrics"
+Electric Multiple Unit Class 442 "Wessex Electrics" (third rail)
 GAX_Class_442-2
-Electric Multiple Unit Class 442 "Wessex Electrics"
+Electric Multiple Unit Class 442 "Wessex Electrics" (third rail)
 GAX_Class_442-3
-Electric Multiple Unit Class 442 "Wessex Electrics"
+Electric Multiple Unit Class 442 "Wessex Electrics" (third rail)
 GAX_Class_442-4
-Electric Multiple Unit Class 442 "Wessex Electrics"
+Electric Multiple Unit Class 442 "Wessex Electrics" (third rail)
 GAX_Class_442-5
-Electric Multiple Unit Class 442 "Wessex Electrics"
+Electric Multiple Unit Class 442 "Wessex Electrics" (third rail)
 Geschlossener_Gueterwagen
 Covered Goods Wagon
 Getreidewagen_Track1
@@ -3869,11 +3949,11 @@ Pourable tank car
 Getreidewagen_Track2
 Pourable gondola
 H_1-BVG
-Underground Stock BVG Type H
+Underground Stock BVG Type H (third rail)
 H_2-BVG
-Underground Stock BVG Type H
+Underground Stock BVG Type H (third rail)
 H_3-BVG
-Underground Stock BVG Type H
+Underground Stock BVG Type H (third rail)
 Habbiins_277
 Covered Goods Wagon Habbiins 277
 Henschel-Wegmann
@@ -3893,11 +3973,11 @@ Hydrogene Intercity "Simutrans" | Coach
 Hydrogene_1997_Simutrans_Logo_2
 Hydrogene Intercity "Simutrans" | Powerhead
 I_1-BVG
-Underground Stock BVG Type I
+Underground Stock BVG Type I (third rail)
 I_2-BVG
-Underground Stock BVG Type I
+Underground Stock BVG Type I (third rail)
 I_3-BVG
-Underground Stock BVG Type I
+Underground Stock BVG Type I (third rail)
 IC_225_Class_91_1
 Intercity Locomotive Class 91 "IC 225"
 IC_225_Class_91_2
@@ -3957,7 +4037,7 @@ Tilting Intercity RABDe 500 "ICN"
 Interregio_Wagen_DB_1988
 Express Coach "Interregio"
 JW_Bmz_1989_NJ
-Intercity Coach Bmz "Nightjet"
+Intercity Coach Bmz 73 "Nightjet"
 Koef_II
 Switcher Köf II
 Koef_III
@@ -3983,7 +4063,7 @@ Refrigerated car
 Kuehlwagen_Track4
 Refrigerated car
 Leer
-Adapter
+Nothing
 LM_Class_170-1
 Diesel Multiple Unit Class 170 "Turbostar"
 LM_Class_170-2
