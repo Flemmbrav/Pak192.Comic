@@ -6,6 +6,7 @@ intro_month=1
 retire_year=1968
 retire_month=1
 smoke=Steam3
+sound=BR10.wav
 cost=38883631
 runningcost=636
 weight=119
