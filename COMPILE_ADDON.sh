@@ -142,11 +142,16 @@ if [ ! -f $csv ]; then
 fi
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
-compile '192' 'AddOns 1/5' 'AddOn/*.dat'
-compile '192' 'AddOns 2/5' 'AddOn/**/*.dat'
-compile '192' 'AddOns 3/5' 'AddOn/**/**/*.dat'
-compile '192' 'AddOns 4/5' 'AddOn/**/**/**/*.dat'
-compile '192' 'AddOns 5/5' 'AddOn/**/**/**/**/*.dat'
+compile '192' 'AddOns 1/10' 'AddOn/*.dat'
+compile '192' 'AddOns 2/10' 'AddOn/**/*.dat'
+compile '192' 'AddOns 3/10' 'AddOn/**/**/*.dat'
+compile '192' 'AddOns 4/10' 'AddOn/**/**/**/*.dat'
+compile '192' 'AddOns 5/10' 'AddOn/**/**/**/**/*.dat'
+compile '384' 'AddOns 6/10' 'AddOn384/*.dat'
+compile '384' 'AddOns 7/10' 'AddOn384/**/*.dat'
+compile '384' 'AddOns 8/10' 'AddOn384/**/**/*.dat'
+compile '384' 'AddOns 9/10' 'AddOn384/**/**/**/*.dat'
+compile '384' 'AddOns 10/10' 'AddOn384/**/**/**/**/*.dat'
 
 #compile '192' 'British Stuff 1/2' 'AddOn/britain/**/*.dat'
 #compile '192' 'British Stuff 2/2' 'AddOn/britain/**/**/*.dat'

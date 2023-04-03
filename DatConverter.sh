@@ -648,6 +648,11 @@ Commands:
 			readallfiles 'AddOn/**/**/*.dat'
 			readallfiles 'AddOn/**/**/**/*.dat'
 			readallfiles 'AddOn/**/**/**/**/*.dat'
+			readallfiles 'AddOn384/*.dat'
+			readallfiles 'AddOn384/**/*.dat'
+			readallfiles 'AddOn384/**/**/*.dat'
+			readallfiles 'AddOn384/**/**/**/*.dat'
+			readallfiles 'AddOn384/**/**/**/**/*.dat'
 		else
 			if [[ $AllVehicles == 1 ]] ;then
 				echo "- Edit All Vehicle .dat Files "
