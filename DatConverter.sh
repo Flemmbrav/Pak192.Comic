@@ -630,7 +630,7 @@ Commands:
 		#`cp -rf AddOn/* calculatedextended/AddOn`
 		`cp -rf AddOn/* calculated/AddOn`
 		#`cp -rf AddOn/* calculatedextended/AddOn`
-		`cp -rf AddOn/* calculated/AddOn384`
+		`cp -rf AddOn384/* calculated/AddOn384`
 
 		declare -A ReConvertList
 		declare -A GoodsValueArray
