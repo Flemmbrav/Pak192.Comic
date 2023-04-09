@@ -623,10 +623,14 @@ Commands:
 		mkdir -p calculated/pakset
 		#mkdir -p calculatedextended/AddOn
 		mkdir -p calculated/AddOn
+		#mkdir -p calculatedextended/AddOn
+		mkdir -p calculated/AddOn384
 		#`cp -rf pakset/* calculatedextended/pakset`
 		`cp -rf pakset/* calculated/pakset`
 		#`cp -rf AddOn/* calculatedextended/AddOn`
 		`cp -rf AddOn/* calculated/AddOn`
+		#`cp -rf AddOn/* calculatedextended/AddOn`
+		`cp -rf AddOn/* calculated/AddOn384`
 
 		declare -A ReConvertList
 		declare -A GoodsValueArray
