@@ -154,16 +154,16 @@ fi
 echo '# This file allows the compile script to only recompile changed files' > "$csv.in"
 
 
-compile '192' 'AddOns 1/10' 'AddOn/*.dat'
-compile '192' 'AddOns 2/10' 'AddOn/**/*.dat'
-compile '192' 'AddOns 3/10' 'AddOn/**/**/*.dat'
-compile '192' 'AddOns 4/10' 'AddOn/**/**/**/*.dat'
-compile '192' 'AddOns 5/10' 'AddOn/**/**/**/**/*.dat'
-compile '384' 'AddOns 6/10' 'AddOn384/*.dat'
-compile '384' 'AddOns 7/10' 'AddOn384/**/*.dat'
-compile '384' 'AddOns 8/10' 'AddOn384/**/**/*.dat'
-compile '384' 'AddOns 9/10' 'AddOn384/**/**/**/*.dat'
-compile '384' 'AddOns 10/10' 'AddOn384/**/**/**/**/*.dat'
+compile '192' 'AddOns 1/10' 'calculated/AddOn/*.dat'
+compile '192' 'AddOns 2/10' 'calculated/AddOn/**/*.dat'
+compile '192' 'AddOns 3/10' 'calculated/AddOn/**/**/*.dat'
+compile '192' 'AddOns 4/10' 'calculated/AddOn/**/**/**/*.dat'
+compile '192' 'AddOns 5/10' 'calculated/AddOn/**/**/**/**/*.dat'
+compile '384' 'AddOns 6/10' 'calculated/AddOn384/*.dat'
+compile '384' 'AddOns 7/10' 'calculated/AddOn384/**/*.dat'
+compile '384' 'AddOns 8/10' 'calculated/AddOn384/**/**/*.dat'
+compile '384' 'AddOns 9/10' 'calculated/AddOn384/**/**/**/*.dat'
+compile '384' 'AddOns 10/10' 'calculated/AddOn384/**/**/**/**/*.dat'
 
 #compile '192' 'British Stuff 1/2' 'calculated/AddOn/britain/**/*.dat'
 #compile '192' 'British Stuff 2/2' 'calculated/AddOn/britain/**/**/*.dat'

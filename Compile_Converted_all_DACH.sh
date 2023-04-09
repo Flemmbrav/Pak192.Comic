@@ -186,10 +186,10 @@ compile '192' 'AddOns 2/5' 'calculated/AddOn/uni/**/*.dat'
 compile '192' 'AddOns 3/5' 'calculated/AddOn/uni/**/**/*.dat'
 compile '192' 'AddOns 4/5' 'calculated/AddOn/uni/**/**/**/*.dat'
 compile '192' 'AddOns 5/5' 'calculated/AddOn/uni/**/**/**/**/*.dat'
-compile '384' 'AddOns 7/10' 'AddOn384/uni/*.dat'
-compile '384' 'AddOns 8/10' 'AddOn384/uni/**/*.dat'
-compile '384' 'AddOns 9/10' 'AddOn384/uni/**/**/*.dat'
-compile '384' 'AddOns 10/10' 'AddOn384/uni/**/**/**/*.dat'
+compile '384' 'AddOns 7/10' 'calculated/AddOn384/uni/*.dat'
+compile '384' 'AddOns 8/10' 'calculated/AddOn384/uni/**/*.dat'
+compile '384' 'AddOns 9/10' 'calculated/AddOn384/uni/**/**/*.dat'
+compile '384' 'AddOns 10/10' 'calculated/AddOn384/uni/**/**/**/*.dat'
 
 # Finished successfully, get rid of old csv
 mv "$csv.in" "$csv"
