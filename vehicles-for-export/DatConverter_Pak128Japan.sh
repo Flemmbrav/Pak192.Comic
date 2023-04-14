@@ -579,7 +579,7 @@ writeobject() {
 				# get directory where the dat file is located
 				if [[ $AddOnFolder == 1 ]] ;then
 					local calculateddir=../Pak128Japan/AddOn/$(dirname "$dat")/
-				Pak128Japan
+				else
 					local calculateddir=../Pak128Japan/$(dirname "$dat")/
 				fi
 				local calculatedextendeddir=calculatedextended/$(dirname "$dat")/
