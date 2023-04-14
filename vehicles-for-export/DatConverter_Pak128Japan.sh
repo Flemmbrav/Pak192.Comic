@@ -514,7 +514,8 @@ writevehicle() {
 	if [[ ! -z ${ObjectArray[length]} ]] ;then
 		local length=${ObjectArray[length]}
 		#length=$(( ( length * 144 ) / 128 ))
-		length=$(( ( length * 144 + 72 ) / 128 ))
+		#length=$(( ( length * 144 + 72 ) / 128 ))
+		length=$(( ( length * 160 + 80 ) / 128 ))
 		#length=$(( ( length * 112 ) / 128 ))
 		echo "length=$length" >> $calculatedfile
 	fi
