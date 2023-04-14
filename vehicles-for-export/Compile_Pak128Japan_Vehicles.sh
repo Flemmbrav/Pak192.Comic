@@ -4,6 +4,7 @@
 
 
 `rm -rf ../Pak128Japan/`
+`rm -rf ../Pak128JapanSources/`
 mkdir -p ../Pak128Japan/image
 mkdir -p ../Pak128Japan/tram_image
 mkdir -p ../Pak128Japan/AddOn/image
