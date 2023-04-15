@@ -31,8 +31,8 @@ if [ ${#directionary[@]} -gt 0 ] ; then
 			echo "-- Performing Work At: $dat "
 			#./makeobj pak128 "./$dat" # &> /dev/null
 			#./makeobj pak128 ../Pak128/ "./$dat"
-			#./makeobj pak144 ../Pak128Japan/ "./$dat"
-			./makeobj pak160 ../Pak128Japan/ "./$dat"
+			./makeobj pak144 ../Pak128Japan/ "./$dat"
+			#./makeobj pak160 ../Pak128Japan/ "./$dat"
 		fi
 	done
 fi
@@ -43,8 +43,8 @@ if [ ${#directionary[@]} -gt 0 ] ; then
 			echo "-- Performing Work At: $dat "
 			#./makeobj pak128 "./$dat" # &> /dev/null
 			#./makeobj pak128 ../Pak128/ "./$dat"
-			#./makeobj pak144 ../Pak128Japan/ "./$dat"
-			./makeobj pak160 ../Pak128Japan/ "./$dat"
+			./makeobj pak144 ../Pak128Japan/ "./$dat"
+			#./makeobj pak160 ../Pak128Japan/ "./$dat"
 		fi
 	done
 fi
