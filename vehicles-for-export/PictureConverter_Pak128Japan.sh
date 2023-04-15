@@ -33,7 +33,11 @@ convertpng() {
 	#8px to the right and 11px down
 
 	### Converting to pak28.Japan size new
-	convert $oldimage -interpolative-resize 166.6666666% -interpolative-resize 50% $oldimage
+	#convert $oldimage -interpolative-resize 166.6666666% -interpolative-resize 50% $oldimage
+	convert $oldimage -magnify -interpolative-resize 83.33333333% $oldimage
+	convert $oldimage -magnify -channel A -threshold 25% $oldimage
+	convert $oldimage -magnify -interpolative-resize 50% $oldimage
+	convert $oldimage -magnify -channel A -threshold 25% $oldimage
 	# 2*20/24
 	# 20 representing 160px, 24 representing 192px, the 2 being the 50% at the end
 
