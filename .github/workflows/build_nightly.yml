@@ -240,6 +240,7 @@ jobs:
           bash Compile_Pak96Comic_Vehicles.sh
           bash Compile_Pak128_Vehicles.sh
           bash Compile_Pak128Britain_Vehicles.sh
+          bash Compile_Pak128Japan_Vehicles.sh
           cd ..
     - name: zip vehicles
       run: |
@@ -263,6 +264,10 @@ jobs:
         mkdir -p addons/pak128.Britain
         mv Pak128Britain/* addons/pak128.Britain
         zip -r pak192.comic-vehicles-for-pak128britain.zip addons
+        mkdir -p addons/pak128.Japan
+        mv Pak128Japan/* addons/pak128.Japan
+        zip -r pak192.comic-vehicles-for-pak128japan.zip addons
+        zip -r pak192.comic-vehicles-for-pak128japan-source-files.zip Pak128JapanSources
 
     - name: Update Serverset of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
@@ -297,6 +302,24 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: ./pak192.comic-vehicles-for-pak128britain.zip
         asset_name: pak192.comic-vehicles-for-pak128britain.zip
+        tag: Nightly
+        overwrite: true
+        
+    - name: Update Serverset of Nightly Release
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./pak192.comic-vehicles-for-pak128japan.zip
+        asset_name: pak192.comic-vehicles-for-pak128japan.zip
+        tag: Nightly
+        overwrite: true
+
+    - name: Update Serverset of Nightly Release
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./pak192.comic-vehicles-for-pak128japan-source-files.zip
+        asset_name: pak192.comic-vehicles-for-pak128japan-source-files.zip
         tag: Nightly
         overwrite: true
         
