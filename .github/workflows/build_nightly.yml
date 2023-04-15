@@ -264,10 +264,12 @@ jobs:
         mkdir -p addons/pak128.Britain
         mv Pak128Britain/* addons/pak128.Britain
         zip -r pak192.comic-vehicles-for-pak128britain.zip addons
+        rm -rf addons/
         mkdir -p addons/pak128.Japan
         mv Pak128Japan/* addons/pak128.Japan
         zip -r pak192.comic-vehicles-for-pak128japan.zip addons
         zip -r pak192.comic-vehicles-for-pak128japan-source-files.zip Pak128JapanSources
+        rm -rf addons/
 
     - name: Update Serverset of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
