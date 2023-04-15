@@ -9,6 +9,7 @@ cost=100000
 maintenance=2000
 topspeed=80
 system_type=0
+draw_as_ding=1
 
 Image[NS][0]=./images/way/track_80_gravel_bed_wall_2F.0.0
 Image[EW][0]=./images/way/track_80_gravel_bed_wall_2F.0.1
@@ -121,6 +122,7 @@ cost=169000
 maintenance=2600
 topspeed=120
 system_type=0
+draw_as_ding=1
 
 Image[NS][0]=./images/way/track_120_gravel_bed_wall_2F.0.0
 Image[EW][0]=./images/way/track_120_gravel_bed_wall_2F.0.1
@@ -234,6 +236,7 @@ cost=256000
 maintenance=3200
 topspeed=160
 system_type=0
+draw_as_ding=1
 
 Image[NS][0]=./images/way/track_160_gravel_bed_wall_2F.0.0
 Image[EW][0]=./images/way/track_160_gravel_bed_wall_2F.0.1
@@ -346,6 +349,7 @@ cost=529000
 maintenance=4600
 topspeed=200
 system_type=0
+draw_as_ding=1
 
 Image[NS][0]=./images/way/track_200_gravel_bed_wall_2F.0.0
 Image[EW][0]=./images/way/track_200_gravel_bed_wall_2F.0.1
@@ -458,6 +462,7 @@ cost=676000
 maintenance=5200
 topspeed=250
 system_type=0
+draw_as_ding=1
 
 Image[NS][0]=./images/way/track_250_gravel_bed_wall_2F.0.0
 Image[EW][0]=./images/way/track_250_gravel_bed_wall_2F.0.1
@@ -570,6 +575,7 @@ cost=1089000
 maintenance=6600
 topspeed=300
 system_type=0
+draw_as_ding=1
 
 Image[NS][0]=./images/way/track_300_gravel_bed_wall_2F.0.0
 Image[EW][0]=./images/way/track_300_gravel_bed_wall_2F.0.1
@@ -683,6 +689,7 @@ cost=1602500
 maintenance=9000
 topspeed=999
 system_type=0
+draw_as_ding=1
 
 Image[NS][0]=./images/way/track_infty_gravel_bed_wall_2F.0.0
 Image[EW][0]=./images/way/track_infty_gravel_bed_wall_2F.0.1

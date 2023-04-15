@@ -9,6 +9,7 @@ cost=100000
 maintenance=2000
 topspeed=80
 system_type=0
+draw_as_ding=1
 
 Image[NS][0]=./images/way/track_80_gravel_bed_wall2_2F.0.0
 Image[EW][0]=./images/way/track_80_gravel_bed_wall2_2F.0.1
@@ -122,6 +123,7 @@ cost=169000
 maintenance=2600
 topspeed=120
 system_type=0
+draw_as_ding=1
 
 Image[NS][0]=./images/way/track_120_gravel_bed_wall2_2F.0.0
 Image[EW][0]=./images/way/track_120_gravel_bed_wall2_2F.0.1
@@ -235,6 +237,7 @@ cost=256000
 maintenance=3200
 topspeed=160
 system_type=0
+draw_as_ding=1
 
 Image[NS][0]=./images/way/track_160_gravel_bed_wall2_2F.0.0
 Image[EW][0]=./images/way/track_160_gravel_bed_wall2_2F.0.1
