@@ -33,7 +33,7 @@ convertpng() {
 	# 2*18/24
 	# 18 representing 144px, 24 representing 192px, the 2 being the 50% at the end
 
-	convert $oldimage -roll -8-10 $oldimage
+	convert $oldimage -roll -8-11 $oldimage
 	#8px to the right and 11px down
 
 	### Converting to pak28.Japan size new
