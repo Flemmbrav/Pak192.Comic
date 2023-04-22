@@ -26,7 +26,8 @@ emptyimage[s]=./image/brC03.0.1
 emptyimage[se]=./image/brC03.1.0
 emptyimage[sw]=./image/brC03.1.3
 emptyimage[w]=./image/brC03.0.2
-smoke=smoke_steam_thick
+#smoke=smoke_steam_thick
+smoke=Steam3
 -----
 obj=vehicle
 name=BR_C03_Tender
