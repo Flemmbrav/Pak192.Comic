@@ -1,3 +1,6 @@
+####################
+# Animals
+####################
 Obj=pedestrian
 Name=catestrian
 #stray cat
@@ -190,19 +193,6 @@ Image[S,W,E,N,SW,NW,SE,NE][0-5]=E1m_hat.<$1+12>.<$0+8>,<32+($0%2)*80>,<88+($0/2)
 steps_per_frame=7
 intro_year=1800
 retire_year=1950
-offset=21
----
-####################
-#Joker
-####################
-Obj=pedestrian
-Name=ped_joker
-DistributionWeight=5
-Image[S,W,E,N,SW,NW,SE,NE][0-5]=joker.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
-steps_per_frame=7
-intro_year=1940
-intro_month=4
-#retire_year=
 offset=21
 ---
 ####################
@@ -536,6 +526,63 @@ intro_year=1990
 #retire_year=
 offset=21
 ---
-
+####################
+# Comic Book Characters
+####################
+Obj=pedestrian
+Name=ped_superman
+#DC Comics
+DistributionWeight=2
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc1.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1938
+intro_month=4
+retire_year=1992
+offset=21
+---
+Obj=pedestrian
+Name=ped_batman
+#DC Comics
+DistributionWeight=2
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc1.<$1+6>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1939
+intro_month=4
+retire_year=1998
+offset=21
+---
+Obj=pedestrian
+Name=ped_joker
+#DC Comics
+DistributionWeight=3
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc1.<$1+12>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1940
+intro_month=4
+retire_year=2011
+offset=21
+---
+Obj=pedestrian
+Name=ped_tintin
+#Tintin
+DistributionWeight=4
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc1.<$1>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1929
+intro_month=1
+retire_year=1983
+offset=21
+---
+Obj=pedestrian
+Name=ped_luckyluke
+#LuckyLuke
+DistributionWeight=2
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc1.<$1+6>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1946
+intro_month=11
+retire_year=2001
+offset=21
+---
 
 
