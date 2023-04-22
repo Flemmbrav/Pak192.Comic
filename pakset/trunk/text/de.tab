@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 27.03 2023                           #
+#                           Date Created: 22.04 2023                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -2415,27 +2415,27 @@ U-Bahnwagen MVG Typ B (Stromschiene)
 B_2-MVG
 U-Bahnwagen MVG Typ B (Stromschiene)
 B_IX
-Dampflokomotive Typ IX
+Dampflokomotive IX
 B_IX_Tender
-Dampflokomotive Typ IX | Tender
+Dampflokomotive IX | Tender
 B_VI1
-Dampflokomotive Typ VI 1
+Dampflokomotive VI 1
 B_VI1_Tender
-Dampflokomotive Typ VI 1 | Tender
+Dampflokomotive VI 1 | Tender
 B_VIIa
-Dampflokomotive Typ VIIa
+Dampflokomotive VIIa
 B_VIIa_Tender
-Dampflokomotive Typ VIIa | Tender
+Dampflokomotive VIIa | Tender
 B2ueh
-Personenwagen Typ B2üh "Spantenwagen"
+Personenwagen B2üh "Spantenwagen"
 B2ueh2
-Personenwagen Typ B2üh | Modernisiert
+Personenwagen B2üh | Modernisiert
 B4ueh
-Schnellzugwagen Typ B4üh "Schürzenwagen"
+Schnellzugwagen B4üh "Schürzenwagen"
 B514
-Doppelstocktriebwagenzug Typ B514 "Desiro Double Deck" | Mittelwagen
+Doppelstocktriebwagenzug B514 "Desiro Double Deck" | Mittelwagen
 Bayrische_D_VIII
-Dampflokomotive Typ VIII
+Dampflokomotive VIII
 BBO_1670
 Elektrolokomotive Rh. 1670
 Begleitwagen_RalPin
@@ -3799,7 +3799,7 @@ Dieseltriebwagen Class 172 "Turbostar" | Mittelwagen
 LM_Class_172-3
 Dieseltriebwagen Class 172 "Turbostar" | Steuerwagen mit Durchgang
 Lokomotive_1918_Badische_IV_h
-Schnellzugdampflokomotive Typ IVh
+Schnellzugdampflokomotive IVh
 Lokomotive_1956_BR_110
 Schnellzuglokomotive BR E 10
 Lokomotive_1956_BR_141
@@ -4469,7 +4469,7 @@ Postwagen Typ Z2
 Schuerzenpostwagen
 Postwagen "Schürzenwagen"
 Schuerzenwagen
-Schnellzugwagen "Schürzenwagen"
+Schnellzugwagen C4ü-38 "Schürzenwagen"
 Siemens_Schlafwagen_2003_CNL
 Schlafwagen WLABmz 173 "City Night Line"
 Siemens_Schlafwagen_2003_NJ
@@ -6354,6 +6354,14 @@ high_track_old
 Hochbahn
 signalbridge_sbb
 Signalbrücke
+track_120_gravel_bed_1S
+Gleis
+track_120_gravel_bed_2F
+Gleis mit Schotterbett nach hinten
+track_120_gravel_bed_3C
+Gleis mit Schotterbett
+track_120_gravel_bed_4B
+Gleis mit Schotterbett nach vorne
 track_2
 Gleis
 track_3
