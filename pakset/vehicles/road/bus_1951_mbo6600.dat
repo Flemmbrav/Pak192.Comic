@@ -5,7 +5,8 @@ waytype=road
 #
 intro_year=1951
 intro_month=1
-retire_year=1961
+retire_year=1973
+#retire_year=1961
 retire_month=1
 #
 runningcost=259
@@ -32,7 +33,8 @@ waytype=road
 #
 intro_year=1951
 intro_month=1
-retire_year=1961
+retire_year=1973
+#retire_year=1961
 retire_month=1
 #
 runningcost=328
@@ -59,7 +61,8 @@ waytype=road
 #
 intro_year=1951
 intro_month=1
-retire_year=1961
+retire_year=1973
+#retire_year=1961
 retire_month=1
 #
 runningcost=243
