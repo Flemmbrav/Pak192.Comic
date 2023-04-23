@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 22.04 2023                           #
+#                           Date Created: 23.04 2023                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -2401,7 +2401,7 @@ Schüttgutwagen
 Adler_Stueckgut
 Stückgutwagen
 Adler_Tender
-Dampflokomotive Adler (Tender)
+Dampflokomotive "Adler" (Tender)
 AI_1-BVG
 U-Bahnwagen BVG Bauart A I | Motorwagen (Stromschiene)
 AI_2-BVG
@@ -2417,15 +2417,15 @@ U-Bahnwagen MVG Typ B (Stromschiene)
 B_IX
 Dampflokomotive IX
 B_IX_Tender
-Dampflokomotive IX | Tender
+Dampflokomotive IX (Tender)
 B_VI1
 Dampflokomotive VI 1
 B_VI1_Tender
-Dampflokomotive VI 1 | Tender
+Dampflokomotive VI 1 (Tender)
 B_VIIa
 Dampflokomotive VIIa
 B_VIIa_Tender
-Dampflokomotive VIIa | Tender
+Dampflokomotive VIIa (Tender)
 B2ueh
 Personenwagen B2üh "Spantenwagen"
 B2ueh2
@@ -3800,6 +3800,10 @@ LM_Class_172-3
 Dieseltriebwagen Class 172 "Turbostar" | Steuerwagen mit Durchgang
 Lokomotive_1918_Badische_IV_h
 Schnellzugdampflokomotive IVh
+Lokomotive_1928_BR_18_3
+Schnellzugdampflokomotive BR 18.3
+Lokomotive_1951_BR_18_3
+Schnellzugdampflokomotive BR 18.3
 Lokomotive_1956_BR_110
 Schnellzuglokomotive BR E 10
 Lokomotive_1956_BR_141
@@ -4087,7 +4091,7 @@ Intercitywagen Bpm 61 20-70 "RIC Z1"
 Passenger_Train_1989_Bpm_61_20-90_EC
 Intercitywagen Bpm 61 20-90 "Eurocitywagen"
 Passenger_Train_1990_B_61_21-73_EW_IV_BT
-Intercitysteuerwagen B 61 21-73 "Einheitswagen IV Bt"
+Intercitywagen B 61 21-73 "Einheitswagen IV"
 Passenger_Train_1991_Apm_61_19-90_Panorama
 Panorama-Intercitywagen Apm 61 19-90 "Pano"
 Passenger_Train_1992_Double_Deck_DBpbzfa_760_0_1
@@ -4277,7 +4281,7 @@ Intercity Neigetechnikzug ETR 610 "Pendolino" | Steuerwagen
 Preuszische_P6
 Schnellzugdampflokomotive P6
 Preuszische_P6_Tender
-Schnellzugdampflokomotive P6 | Tender
+Schnellzugdampflokomotive P6 (Tender)
 Preuszischer_Abteilwagen
 Abteilwagen
 Preuszischer_Abteilwagen_2_achsig
@@ -4409,7 +4413,7 @@ U-Bahnwagen TfL Typ S (Stromschiene)
 S3_6
 Schnellzugdampflokomotive S3/6
 S3_6_Tender
-Schnellzugdampflokomotive S3/6 |Tender
+Schnellzugdampflokomotive S3/6 (Tender)
 Saxonia
 Dampflokomotive "Saxonia"
 Saxonia_Klasse1
@@ -4421,7 +4425,7 @@ Personenwagen | Dritte Klasse
 Saxonia_Post
 Postwagen
 Saxonia_Tender
-Dampflokomotive "Saxonia" | Tender
+Dampflokomotive "Saxonia" (Tender)
 SBB Apm 61
 Intercitywagen Apm 61 | Modernisiert
 SBB Apm 61 Pano
@@ -4503,7 +4507,7 @@ Doppelstockintercitywagen M6
 SNCB_M_7_Wagen_2020_3
 Doppelstockintercitywagen M7
 SNCB_Rh_13_Lok_1997_0
-Intercitylokomotive Rh. 13
+Intercitylokomotive HLE 13
 SNL VT17
 Stadtschnellbahn VT 17 (Stromschiene)
 SNL VT17_1
@@ -4547,6 +4551,10 @@ Postwagen "TransEuropExpress"
 TEE_Wagen_1965_2
 Schnellzugwagen "TransEuropExpress" | Restaurant
 Tender_1918_2_2_T_29_6
+Tender 2'2 T29,6
+Tender_1928_2_2_T_29_6
+Tender 2'2 T29,6
+Tender_1951_2_2_T_29_6
 Tender 2'2 T29,6
 Tender_1957_2_2_T_40
 Tender 2'2 T40
@@ -4789,7 +4797,7 @@ Nahverkehrswagen "Umbauwagen"
 Umbauwagen_1950_2
 Nahverkehrswagen "Umbauwagen"
 Umbauwagen_1950_3
-Nahverkehrswagen "Umbauwagen"
+Eilzugwagen "Umbauwagen"
 Umbauwagen_1950_4
 Postwagen "Umabuwagen"
 V_1-WL
@@ -4809,7 +4817,7 @@ Diesellokomotive BR V 100
 V100sf2
 Diesellokomotive BR V 100
 V15
-Diesellokomotive mit Gasturbine BR 210
+Gasturbinenlokomotive BR 210
 V16
 Diesellokomotive ER 20 "Eurorunner"
 V60_orange

@@ -9,7 +9,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 27.03 2023                           #
+#                           Date Created: 23.04 2023                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -2675,7 +2675,7 @@ Hopper "Adler"
 Adler_Stueckgut
 Boxed goods gondola "Adler"
 Adler_Tender
-Steam Engine "Adler" tender
+Steam Engine "Adler" (tender)
 AI_1-BVG
 Underground Stock BVG Type AI (third rail)
 AI_2-BVG
@@ -2691,15 +2691,15 @@ Underground Stock MVG Type B (third rail)
 B_IX
 Steam Engine Baden IX b
 B_IX_Tender
-Steam Engine Baden IX b tender
+Steam Engine Baden IX b (tender)
 B_VI1
 Steam Engine Bavarian B VI
 B_VI1_Tender
-Steam Engine Bavarian B VI tender
+Steam Engine Bavarian B VI (tender)
 B_VIIa
 Steam Engine Baden VII a
 B_VIIa_Tender
-Steam Engine Baden VII a tender
+Steam Engine Baden VII a (tender)
 B2ueh
 Passenger Car "Spantenwagen" Type B2üh 
 B2ueh2
@@ -3829,7 +3829,7 @@ Mail car Type CL 11
 EP1_Perso01
 Passenger coach
 EP1_Post01
-Mail car Type CL 11
+Mail car
 ET_11_PC-1
 Express Electric BR ET 11
 ET_11_PC-2
@@ -4076,12 +4076,98 @@ LM_Class_172-2
 Diesel Multiple Unit Class 172 "Turbostar"
 LM_Class_172-3
 Diesel Multiple Unit Class 172 "Turbostar"
+Lokomotive_1918_Badische_IV_h
+Express Steam Engine Baden IV h
+Lokomotive_1928_BR_18_3
+Express Steam Engine BR 18.3
+Lokomotive_1951_BR_18_3
+Express Steam Engine BR 18.3
+Lokomotive_1956_BR_110
+Express Locomotive BR E 10
+Lokomotive_1956_BR_141
+Electric Locomotive BR E 41 "Knallfrosch"
+Lokomotive_1957_BR_10
+Express Steam Engine BR 10 "Schwarzer Schwan"
+Lokomotive_1957_BR_140
+Electric Locomotive BR E 40
+Lokomotive_1959_BR_110
+Express Locomotive BR E 10
+Lokomotive_1959_BR_140
+Electric Locomotive BR E 40
+Lokomotive_1959_BR_150
+Freight Locomotive BR E 50
+Lokomotive_1960_BR_216_V
+Diesel Locomotive BR V 160 "Lollo"
+Lokomotive_1964_BR_110_3
+Express Locomotive BR E 10.3 "Bügelfalte"
+Lokomotive_1974_BR_218
+Diesel Locomotive BR 218
+Lokomotive_1975_BR_110
+Express Locomotive BR 110
+Lokomotive_1975_BR_110_3
+Express Locomotive BR 110.3 "Bügelfalte"
+Lokomotive_1975_BR_112
+Express Locomotive BR 112 "Bügelfalte"
+Lokomotive_1975_BR_140
+Electric Locomotive BR 140
+Lokomotive_1975_BR_141
+Electric Locomotive BR 141 "Knallfrosch"
+Lokomotive_1975_BR_150
+Freight Locomotive BR 150
+Lokomotive_1975_BR_151
+Freight Locomotive BR 151
+Lokomotive_1975_BR_216
+Diesel Locomotive BR 216
+Lokomotive_1986_BR_110
+Express Locomotive BR 110
+Lokomotive_1986_BR_110_3
+Express Locomotive BR 110.3 "Bügelfalte"
+Lokomotive_1986_BR_111
+Express Locomotive BR 111
+Lokomotive_1986_BR_113
+Express Locomotive BR 113 "Bügelfalte"
+Lokomotive_1986_BR_140
+Electric Locomotive BR 140
+Lokomotive_1986_BR_141
+Electric Locomotive BR 141 "Knallfrosch"
+Lokomotive_1986_BR_150
+Freight Locomotive BR 150
+Lokomotive_1986_BR_151
+Freight Locomotive BR 151
+Lokomotive_1986_BR_216
+Diesel Locomotive BR 216
+Lokomotive_1986_BR_218
+Diesel Locomotive BR 218
+Lokomotive_1996_BR_210_4
+Gas Turbine Locomotive BR 210.4
 Lokomotive_1998_EG3100
 Electric Locomotive EG 3100 "Eurosprinter"
+Lokomotive_1999_BR_110
+Electric Locomotive BR 110
+Lokomotive_1999_BR_110_3
+Electric Locomotive BR 110.3 "Bügelfalte"
+Lokomotive_1999_BR_111
+Express Locomotive BR 111
+Lokomotive_1999_BR_113
+Electric Locomotive BR 113 "Bügelfalte"
+Lokomotive_1999_BR_140
+Freight Locomotive BR 140
+Lokomotive_1999_BR_141
+Electric Locomotive BR 141 "Knallfrosch"
+Lokomotive_1999_BR_150
+Freight Locomotive BR 150
+Lokomotive_1999_BR_151
+Freight Locomotive BR 151
+Lokomotive_1999_BR_216
+Diesel Locomotive BR 216
+Lokomotive_1999_BR_218
+Diesel Locomotive BR 218
 Lokomotive_2003_ES64F4_MRCE
 Multi System Electric Locomotive ES62F4 "Eurosprinter"
 Lokomotive_2005_Dispolok_Taurus
 Intercity Locomotive "Eurosprinter"
+Lokomotive_2007_EG3100_DB
+Electric Locomotive EG 3100 "Eurosprinter"
 Lokomotive_2008_1116_Railjet_DA
 Intercity Locomotive "Taurus" "Railjet"
 Lokomotive_2008_1116_Railjet_DA_rev
@@ -4100,6 +4186,8 @@ Lokomotive_2017_Flixtrain_Taurus
 Intercity Locomotive "Eurosprinter"
 Lokomotive_2021_BR101_DB_IC
 Intercity Locomotive BR 101
+Lokomotive_2026_HLE17
+Intercity Locomotive HLE 17
 Mark 1 BR RM
 Express Coach "Mark 1"
 Mark 1 BR SK
@@ -4134,22 +4222,40 @@ Milchwagen_Track1
 Milk car
 Milchwagen_Track2
 Milk car
+n-Wagen_ABn_703_Mintling
+Commuter Coach Bn 703 "Mintling"
 n-Wagen_ABn_703_Rotling
-Commuter Coach ABn 703 "Rotling"
+Commuter Coach Bn 703 "Rotling"
 n-Wagen_ABn_703_Silberling
-Commuter Coach ABn 703 "Silberling"
+Commuter Coach Bn 703 "Silberling"
+n-Wagen_ABnr_704_Silberling
+Commuter Coach Bnr 704 "Silberling"
+n-Wagen_BDnf_738.1_Mintling
+Commuter Coach Control Car BDnrzf 740.1 "Mintling"
 n-Wagen_BDnf_738.1_Rotling
-Commuter Coach BDnf 738.1 "Silberling"
+Commuter Coach Control Car BDnrzf 740.1 "Rotling"
 n-Wagen_BDnf_738.1_Silberling
-Commuter Coach BDnf 738.1 "Rotling"
+Commuter Coach Control Car BDnf 738.1 "Silberling"
+n-Wagen_BDnf_738.2_Mintling
+Commuter Coach Control Car BDnrzf 740.1 "Mintling"
 n-Wagen_BDnf_738.2_Rotling
-Commuter Coach BDnf 738.1 "Silberling"
+Commuter Coach Control Car BDnrzf 740.1 "Rotling"
 n-Wagen_BDnf_738.2_Silberling
-Commuter Coach BDnf 738.1 "Rotling"
+Commuter Coach Control Car BDnf 738.1 "Silberling"
+n-Wagen_BDnrzf_739.1_Silberling
+Commuter Coach Control Car BDnrzf 739.1 "Silberling"
+n-Wagen_BDnrzf_739.2_Silberling
+Commuter Coach Control Car BDnrzf 739.1 "Silberling"
 n-Wagen_BDnrzf_740.1_Silberling
-Commuter Coach BDnrzf 740.1 "Silberling"
+Commuter Coach Control Car BDnrzf 740.1 "Silberling"
 n-Wagen_Bn_724_Silberling_Bettenwagen
 Field Hospital Bn 724 "Silberling"
+n-Wagen_Bn_724_Silberling_Bettenwagen_Klotzgebremst
+Field Hospital Bn 724 "Silberling"
+n-Wagen_Bndzf _479.1_Mintling
+Commuter Coach Control Car Bndzf 479.1 "Mintling"
+n-Wagen_Bndzf _479.2_Mintling
+Commuter Coach Control Car Bndzf 479.1 "Mintling"
 Nahverkehrswagen
 Commuter Coach Bn-Bnrz
 Nahverkehrswagen_Steuerwagen1
@@ -4212,6 +4318,14 @@ OBB_Cityjet_4746_Steuerwagen_hinten
 Electric Multiple Unit Rh. 4746 "Desiro ML Cityjet"
 OBB_Cityjet_4746_Steuerwagen_vorne
 Electric Multiple Unit Rh. 4746 "Desiro ML Cityjet"
+OBB_Cityjet_4748_Mittelwagen_1
+Electric Multiple Unit Rh. 4748 "Desiro ML Cityjet"
+OBB_Cityjet_4748_Mittelwagen_2
+Electric Multiple Unit Rh. 4748 "Desiro ML Cityjet"
+OBB_Cityjet_4748_Steuerwagen_hinten
+Electric Multiple Unit Rh. 4748 "Desiro ML Cityjet"
+OBB_Cityjet_4748_Steuerwagen_vorne
+Electric Multiple Unit Rh. 4748 "Desiro ML Cityjet"
 OBB_Cityjet_eco_Mittelwagen
 Battery Multi-unit Rh. 4746 "Desiro ML Cityjet eco"
 OBB_Cityjet_eco_Steuerwagen_hinten
@@ -4228,6 +4342,10 @@ Oelwagen_Track1
 Oil Car
 Oelwagen_Track2
 Oil Car
+Passenger_Train_1956_SBB_Einheitswagen
+Express Coach "Einheitswagen"
+Passenger_Train_1956_SBB_Einheitswagen_erste_Klasse
+Express Coach "Einheitswagen" | First Class
 Passenger_Train_1964_Couchette_Bcm
 Couchette Bcm
 Passenger_Train_1972_Bvmz_237
@@ -4235,15 +4353,35 @@ Intercity Coach Bvmz 237
 Passenger_Train_1974_Couchette_WLAm_T2s
 Couchette WLAm T2s
 Passenger_Train_1977_Eurofima
-Intercity Coach "Eurofima"
+Intercity Coach Bz "Eurofima"
+Passenger_Train_1980_Bpm_61_20-70_RIC_Z1
+Intercity Coach Bpm 61 20-70 "RIC Z1"
 Passenger_Train_1980_Inlandsreisezugwagen
 Coach "Inlandsreisezugwagen"
+Passenger_Train_1983_B_61_21-73_EW_IV
+Intercity Coach B 61 21-73 "Einheitswagen IV"
+Passenger_Train_1983_B_61_21-73_EW_IV_1class
+Intercity Coach A 61 21-73 "Einheitswagen IV" | First Class
+Passenger_Train_1989_Apm_61_10-90_EC
+Intercity Coach Apm 61 10-90 "Eurocitywagen"
+Passenger_Train_1989_Bpm_61_20-70_RIC_Z1
+Intercity Coach Bpm 61 20-70 "RIC Z1"
+Passenger_Train_1989_Bpm_61_20-90_EC
+Intercity Coach Bpm 61 20-90 "Eurocitywagen"
+Passenger_Train_1990_B_61_21-73_EW_IV_BT
+Intercity Coach B 61 21-73 "Einheitswagen IV"
+Passenger_Train_1991_Apm_61_19-90_Panorama
+Observation Intercity Coach Apm 61 19-90 "Pano"
 Passenger_Train_1992_Double_Deck_DBpbzfa_760_0_1
 Double Deck Coach DBpbzfa 760.0
 Passenger_Train_1992_Double_Deck_DBpbzfa_760_0_2
 Double Deck Coach DBpbzfa 760.0
 Passenger_Train_1992_Double_Deck_DBz_750_0
 Double Deck Coach DBz 750.0
+Passenger_Train_1993_Apm_61_10-90_Cisalpino
+Intercity Coach Apm 61 10-90 "Eurocitywagen"
+Passenger_Train_1993_Bpm_61_20-90_Cisalpino
+Intercity Coach Bpm 61 20-90 "Eurocitywagen"
 Passenger_Train_1994_Double_Deck_DBpbzfa_761_2_1
 Double Deck Coach DBpbzfa 761.2
 Passenger_Train_1994_Double_Deck_DBpbzfa_761_2_2
@@ -4254,6 +4392,30 @@ Passenger_Train_1994_Double_Deck_DBza_751_0
 Double Deck Coach DBza 751.0
 Passenger_Train_1994_Modularwagen
 Intercity Coach "Modularwagen"
+Passenger_Train_1996_Bt_61_28-94_EW_IV_back
+Intercity Control Coach Bt 61 28-94 "Einheitswagen IV"
+Passenger_Train_1996_Bt_61_28-94_EW_IV_front
+Intercity Control Coach Bt 61 28-94 "Einheitswagen IV"
+Passenger_Train_1997_IC2000_A
+Double Deck Intercity Coach "IC2000" | First Class
+Passenger_Train_1997_IC2000_AD_back
+Double Deck Intercity Coach "IC2000" | First Class
+Passenger_Train_1997_IC2000_AD_front
+Double Deck Intercity Coach "IC2000" | First Class
+Passenger_Train_1997_IC2000_B
+Double Deck Intercity Coach "IC2000"
+Passenger_Train_1997_IC2000_BD_back
+Double Deck Intercity Coach "IC2000"
+Passenger_Train_1997_IC2000_BD_front
+Double Deck Intercity Coach "IC2000"
+Passenger_Train_1997_IC2000_Bt_back
+Double Deck Intercity Control Coach "IC2000"
+Passenger_Train_1997_IC2000_Bt_front
+Double Deck Intercity Control Coach "IC2000"
+Passenger_Train_1997_IC2000_D
+Double Deck Intercity Postal Car "IC2000"
+Passenger_Train_1997_IC2000_WR
+Double Deck Intercity Dining Coach "IC2000"
 Passenger_Train_1999_DB_Auto_Zug_WRmz131
 Intercity Catering Coach WRmz 131 "Auto Zug"
 Passenger_Train_2000_I10
@@ -4274,6 +4436,18 @@ Passenger_Train_2002_Modularwagen
 Intercity Coach "Modularwagen"
 Passenger_Train_2002_OBB_Bmz
 Intercity Coach Bmz
+Passenger_Train_2004_Apm_61_10-90_EC
+Intercity Coach Apm 61 10-90 "Eurocitywagen"
+Passenger_Train_2004_Apm_61_19-90_Panorama
+Observation Intercity Coach Apm 61 19-90 "Pano"
+Passenger_Train_2004_B_61_21-95_EW_IV
+Intercity Coach B 61 21-95 "Einheitswagen IV"
+Passenger_Train_2004_Bpm_61_20-90_EC
+Intercity Coach Bpm 61 20-90 "Eurocitywagen"
+Passenger_Train_2004_Bt_61_28-94_EW_IV_back
+Intercity Control Coach Bt 61 28-94 "Einheitswagen IV"
+Passenger_Train_2004_Bt_61_28-94_EW_IV_front
+Intercity Control Coach Bt 61 28-94 "Einheitswagen IV"
 Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_1
 Double Deck Coach DBpbzfa 766.1 "Innovations-Doppelstockwagen"
 Passenger_Train_2004_Innovations-Doppelstockwagen_DBpbzfa_766_1_1_LNVG
@@ -4314,10 +4488,14 @@ Passenger_Train_2008_Railjet_5
 Intericy Coach "Railjet"
 Passenger_Train_2008_Railjet_6
 Intericy Coach "Railjet"
+Passenger_Train_2009_Bpm_61_20-70_RIC_Z1
+Intericy Coach Bpm 61 20-70 "RIC Z1"
 Passenger_Train_2011_CD_Bmz
 Intercity Coach Bmz
 Passenger_Train_2011_CD_WRmz_0
 Intercity Catering Coach WRmz
+Passenger_Train_2011_Sleeping_Car_61-7034
+Sleeping Car 61-7034
 Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1
 Double Deck Coach DBpbzfa 668.2 "Twindexx Vario"
 Passenger_Train_2014_Twindexx_Vario_DBpbzfa_668_2_1_IC2
@@ -4346,10 +4524,24 @@ Passenger_Train_2016_Locomore_PC
 Intercity Coach Type Bm 235
 Passenger_Train_2016_Nightjet_Modularwagen
 Intercity Coach "Modularwagen" "Nightjet"
+Passenger_Train_2017_Apm_61_19-90_Panorama
+Observation Intercity Coach Apm 61 19-90 "Pano"
 Passenger_Train_2017_Flixtrain
 Intercity Coach Type Bm 235
 Passenger_Train_2017_Flixtrain_PC
 Intercity Coach Type Bm 235
+Passenger_Train_2018_I6
+Intercity Coach I6
+Passenger_Train_2020_Apm_61_10-90_EC
+Intercity Coach Apm 61 10-90 "Eurocitywagen"
+Passenger_Train_2020_B_61_21-95_EW_IV
+Intercity Coach B 61 21-95 "Einheitswagen IV"
+Passenger_Train_2020_Bpm_61_20-90_EC
+Intercity Coach Bpm 61 20-90 "Eurocitywagen"
+Passenger_Train_2020_Bt_61_28-94_EW_IV_back
+Intercity Control Coach Bt 61 28-94 "Einheitswagen IV"
+Passenger_Train_2020_Bt_61_28-94_EW_IV_front
+Intercity Control Coach Bt 61 28-94 "Einheitswagen IV"
 Passenger_Train_2020_Flixtrain
 Intercity Coach Type Bm 235
 Passenger_Train_2020_Flixtrain_PC
@@ -4367,7 +4559,7 @@ Tilting Intercity ETR 610 "Pendolino"
 Preuszische_P6
 Steam Engine Preußische P 6
 Preuszische_P6_Tender
-Steam Engine Type P6 | Tender
+Steam Engine Type P6 (tender)
 Preuszischer_Abteilwagen
 Coach
 Preuszischer_Abteilwagen_2_achsig
@@ -4488,6 +4680,8 @@ Rheingold_1962_2
 Express Coach "Rheingold" | Bistro
 Rheingold_1962_3
 Mail Car "Rheingold"
+RZD_C
+Long Distance Coach C
 S_1-LT
 Underground Stock TfL Type S
 S_2-LT
@@ -4509,7 +4703,7 @@ Passenger Car | 3rd Class
 Saxonia_Post
 Mail boxcar "Saxonia"
 Saxonia_Tender
-Steam Engine "Saxonia" | Tender
+Steam Engine "Saxonia" (tender)
 SBB Apm 61
 Intercity Catering Car Apm 61
 SBB Apm 61 Pano
@@ -4557,11 +4751,11 @@ Parcel Car Z2
 Schuerzenpostwagen
 Parcel Car "Schürzenwagen"
 Schuerzenwagen
-Express Coach "Schürzenwagen"
+Express Coach C4ü-38 "Schürzenwagen"
 Siemens_Schlafwagen_2003_CNL
-Couchette "City Night Line"
+Couchette WLABmz 173 "City Night Line"
 Siemens_Schlafwagen_2003_NJ
-Couchette "Nightjet Modularwagen"
+Couchette WLABmz 173 "Nightjet"
 SNCB_AM_96_Triebwagen_1996_0
 Electric Multiple Unit Type AM 96 "Deense neus"
 SNCB_AM_96_Triebwagen_1996_1
@@ -4571,37 +4765,37 @@ Electric Multiple Unit Type AM 96 "Deense neus"
 SNCB_Dms
 Parcel Car Dms
 SNCB_I_10_Wagen_1987_1
-Intercity Coach Type I 10
+Intercity Coach I10
 SNCB_I_10_Wagen_2000_1
-Intercity Coach Type I 10
+Intercity Coach I10
 SNCB_I_11_Wagen_1996_0
-Intercity Coach Type I 11
+Intercity Coach I11
 SNCB_I_11_Wagen_1996_1
-Intercity Coach Type I 11
+Intercity Control Coach I11
 SNCB_I_11_Wagen_1996_2
-Intercity Coach Type I 11
+Intercity Control Coach I11
 SNCB_M_6_Wagen_2002_1
-Double Deck Intercity Coach Type M 6
+Double Deck Intercity Control Coach Type M6
 SNCB_M_6_Wagen_2002_2
-Double Deck Intercity Coach Type M 6
+Double Deck Intercity Control Coach M6
 SNCB_M_6_Wagen_2002_3
-Double Deck Intercity Coach Type M 6
+Double Deck Intercity Coach M6
 SNCB_M_6_Wagen_2002_4
-Double Deck Intercity Coach Type M 6
+Double Deck Intercity Coach M6
 SNCB_M_7_Wagen_2020_3
-Double Deck Intercity Coach Type M 7
+Double Deck Intercity Coach M7
 SNCB_Rh_13_Lok_1997_0
-Intercity Locomotive Type 13
+Intercity Locomotive HLE 13
 SNL VT17
-SNL berlin interurban train
+SNL berlin interurban train (third rail)
 SNL VT17_1
-SNL berlin interurban train (end)
+SNL berlin interurban train (third rail)
 SNL VT17_2
-SNL berlin interurban train (middle)
+SNL berlin interurban train (third rail)
 snl_container
 Boxed goods flatcar
 SNL_V200
-BR V200
+Diesel Locomotive BR V200
 Sprinter_Coupler
 Adaptermodule
 SR_Class_171-1
@@ -4634,6 +4828,14 @@ TEE_Wagen_1965_1
 Intercity Coach "TransEuropExpress"
 TEE_Wagen_1965_2
 Intercity Coach "TransEuropExpress"
+Tender_1918_2_2_T_29_6
+Tender 2'2 T29,6
+Tender_1928_2_2_T_29_6
+Tender 2'2 T29,6
+Tender_1951_2_2_T_29_6
+Tender 2'2 T29,6
+Tender_1957_2_2_T_40
+Tender 2'2 T40
 TGV_Duplex_Bistro
 TGV Duplex Restaurant Car
 TGV_Duplex_Class1
@@ -4683,19 +4885,19 @@ Money Articulated Car
 Track_Money_2009_Money_Articulated_Car-c
 Money Articulated Car
 Track_Passenger_Train_1987_I10
-Intercity Coach I 10
+Intercity Coach I10
 Track_Passenger_Train_1989_I6
-Intercity Coach I 6 "Eurofima"
+Intercity Coach I6 "Eurofima"
 Track_Passenger_Train_1996_I11_0
-Intercity Coach I 11
+Intercity Coach I11
 Track_Passenger_Train_1996_I11_1
-Intercity Coach I 11
+Intercity Coach I11
 Track_Passenger_Train_1996_I11_2
-Intercity Coach I 11
+Intercity Coach I11
 Track_Passenger_Train_2002_M6_0
-Double Deck Intercity Coach M6
+Double Deck Intercity Control Coach M6
 Track_Passenger_Train_2002_M6_1
-Double Deck Intercity Coach M6
+Double Deck Intercity Control Coach M6
 Track_Passenger_Train_2002_M6_2
 Double Deck Intercity Coach M6
 Track_Passenger_Train_2002_M6_3
@@ -4703,15 +4905,15 @@ Double Deck Intercity Coach M6
 Track_Passenger_Train_2020_M7_0
 Double Deck Intercity Coach M7
 Track_Passenger_Train_2020_M7_1
-Double Deck Intercity Coach M7
+Double Deck Intercity Control Coach M7
 Track_Passenger_Train_2020_M7_2
-Double Deck Intercity Coach M7
+Double Deck Intercity Control Coach M7
 Track_Post_1987_Dms
-Double Deck Intercity Coach M7
+Postal Car Dms
 Track_Post_2000_Dms
 Postal Car Dms
 Track_Vehicle_2012_HUPAC_blue
-Postal Car Dms
+Intercity Locomotive "Vectron"
 Track_Vehicle_2012_OeBB
 Intercity Locomotive "Vectron"
 Track_Vehicle_2012_Vectron_boxxpress
@@ -4733,93 +4935,103 @@ Double Deck Electrical Unit "Twindexx Vario"
 Twindex_Vario_Triebwagen_PC_2
 Double Deck Electrical Unit "Twindexx Vario"
 U_1-WL
-Underground Stock WL Type U
+Underground Stock WL Type U (third rail)
 U_2-WL
-Underground Stock WL Type U
+Underground Stock WL Type U (third rail)
+U-Bahn_Hamburg_AL
+Elevated Battery Unit HHA AL
 U-Bahn_Hamburg_DT1_1
-Elevated Rail Coach HHA DT1
+Elevated Rail Coach HHA DT1 (third rail)
 U-Bahn_Hamburg_DT1_2
-Elevated Rail Coach HHA DT1
+Elevated Rail Coach HHA DT1 (third rail)
 U-Bahn_Hamburg_DT1_3
-Elevated Rail Coach HHA DT1
+Elevated Rail Coach HHA DT1 (third rail)
 U-Bahn_Hamburg_DT1_4
-Elevated Rail Coach HHA DT1
+Elevated Rail Coach HHA DT1 (third rail)
 U-Bahn_Hamburg_DT2_1
-Elevated Rail Coach HHA DT2
+Elevated Rail Coach HHA DT2 (third rail)
 U-Bahn_Hamburg_DT2_2
-Elevated Rail Coach HHA DT2
+Elevated Rail Coach HHA DT2 (third rail)
 U-Bahn_Hamburg_DT2E_1
-Elevated Rail Coach HHA DT2E
+Elevated Rail Coach HHA DT2E (third rail)
 U-Bahn_Hamburg_DT2E_2
-Elevated Rail Coach HHA DT2E
+Elevated Rail Coach HHA DT2E (third rail)
 U-Bahn_Hamburg_DT3_1
-Elevated Rail Coach HHA DT3
+Elevated Rail Coach HHA DT3 (third rail)
 U-Bahn_Hamburg_DT3_2
-Elevated Rail Coach HHA DT3
+Elevated Rail Coach HHA DT3 (third rail)
 U-Bahn_Hamburg_DT3_3
-Elevated Rail Coach HHA DT3
+Elevated Rail Coach HHA DT3 (third rail)
 U-Bahn_Hamburg_DT3E_1
-Elevated Rail Coach HHA DT3E
+Elevated Rail Coach HHA DT3E (third rail)
 U-Bahn_Hamburg_DT3E_2
-Elevated Rail Coach HHA DT3E
+Elevated Rail Coach HHA DT3E (third rail)
 U-Bahn_Hamburg_DT3E_3
-Elevated Rail Coach HHA DT3E
+Elevated Rail Coach HHA DT3E (third rail)
 U-Bahn_Hamburg_DT4_1
-Elevated Rail Coach HHA DT4
+Elevated Rail Coach HHA DT4 (third rail)
 U-Bahn_Hamburg_DT4_2
-Elevated Rail Coach HHA DT4
+Elevated Rail Coach HHA DT4 (third rail)
 U-Bahn_Hamburg_DT4_3
-Elevated Rail Coach HHA DT4
+Elevated Rail Coach HHA DT4 (third rail)
 U-Bahn_Hamburg_DT4_4
-Elevated Rail Coach HHA DT4
+Elevated Rail Coach HHA DT4 (third rail)
 U-Bahn_Hamburg_DT4_5_1
-Elevated Rail Coach HHA DT4.5
+Elevated Rail Coach HHA DT4.5 (third rail)
 U-Bahn_Hamburg_DT4_5_2
-Elevated Rail Coach HHA DT4.5
+Elevated Rail Coach HHA DT4.5 (third rail)
 U-Bahn_Hamburg_DT4_5_3
-Elevated Rail Coach HHA DT4.5
+Elevated Rail Coach HHA DT4.5 (third rail)
 U-Bahn_Hamburg_DT4_5_4
-Elevated Rail Coach HHA DT4.5
+Elevated Rail Coach HHA DT4.5 (third rail)
 U-Bahn_Hamburg_DT4U_1
-Elevated Rail Coach HHA DT4
+Elevated Rail Coach HHA DT4 (third rail)
 U-Bahn_Hamburg_DT4U_2
-Elevated Rail Coach HHA DT4
+Elevated Rail Coach HHA DT4 (third rail)
 U-Bahn_Hamburg_DT4U_3
-Elevated Rail Coach HHA DT4
+Elevated Rail Coach HHA DT4 (third rail)
 U-Bahn_Hamburg_DT4U_4
-Elevated Rail Coach HHA DT4
+Elevated Rail Coach HHA DT4 (third rail)
 U-Bahn_Hamburg_DT5_1
-Elevated Rail Coach HHA DT5
+Elevated Rail Coach HHA DT5 (third rail)
 U-Bahn_Hamburg_DT5_2
-Elevated Rail Coach HHA DT5
+Elevated Rail Coach HHA DT5 (third rail)
 U-Bahn_Hamburg_DT5_3
-Elevated Rail Coach HHA DT5
+Elevated Rail Coach HHA DT5 (third rail)
+U-Bahn_Hamburg_DT6_1
+Elevated Rail Coach HHA DT6 (third rail)
+U-Bahn_Hamburg_DT6_2
+Elevated Rail Coach HHA DT6 (third rail)
+U-Bahn_Hamburg_DT6_3
+Elevated Rail Coach HHA DT6 (third rail)
+U-Bahn_Hamburg_DT6_4
+Elevated Rail Coach HHA DT6 (third rail)
 U-Bahn_Hamburg_T1_1
-Elevated Rail Coach HHA T1
+Elevated Rail Coach HHA T1 (third rail)
 U-Bahn_Hamburg_T1_2
-Elevated Rail Coach HHA T1
+Elevated Rail Coach HHA T1 (third rail)
 U-Bahn_Hamburg_T1_3
-Elevated Rail Coach HHA T1
+Elevated Rail Coach HHA T1 (third rail)
 U-Bahn_Hamburg_T1_4
-Elevated Rail Coach HHA T1
+Elevated Rail Coach HHA T1 (third rail)
 U-Bahn_Hamburg_T14_1
-Elevated Rail Coach HHA T14
+Elevated Rail Coach HHA T14 (third rail)
 U-Bahn_Hamburg_T14_2
-Elevated Rail Coach HHA T14
+Elevated Rail Coach HHA T14 (third rail)
 U-Bahn_Hamburg_T15_1
-Elevated Rail Coach HHA T15
+Elevated Rail Coach HHA T15 (third rail)
 U-Bahn_Hamburg_T15_2
-Elevated Rail Coach HHA T15
+Elevated Rail Coach HHA T15 (third rail)
 U-Bahn_Hamburg_T6_1
-Elevated Rail Coach HHA T6
+Elevated Rail Coach HHA T6 (third rail)
 U-Bahn_Hamburg_TU1_1
-Elevated Rail Coach HHA TU1
+Elevated Rail Coach HHA TU1 (third rail)
 U-Bahn_Hamburg_TU1_2
-Elevated Rail Coach HHA TU1
+Elevated Rail Coach HHA TU1 (third rail)
 U-Bahn_Hamburg_TU2_1
-Elevated Rail Coach HHA TU2
+Elevated Rail Coach HHA TU2 (third rail)
 U-Bahn_Hamburg_TU2_2
-Elevated Rail Coach HHA TU2
+Elevated Rail Coach HHA TU2 (third rail)
 U2_1-VGF
 Light Rail Coach U2
 U2_2-VGF
@@ -4865,13 +5077,13 @@ Coach "Umbauwagen"
 Umbauwagen_1950_3
 Coach "Umbauwagen"
 Umbauwagen_1950_4
-Coach "Umbauwagen"
+Postal Car "Umbauwagen"
 V_1-WL
-Underground Stock WL Type V
+Underground Stock WL Type V (third rail)
 V_2-WL
-Underground Stock WL Type V
+Underground Stock WL Type V (third rail)
 V_3-WL
-Underground Stock WL Type V
+Underground Stock WL Type V (third rail)
 V100_EB_Lisa
 Diesel Locomotive Class V 100 "Lisa"
 V100_EB_Lisa_back
@@ -4883,9 +5095,9 @@ Diesel Locomotive Class V 100
 V100sf2
 Diesel Locomotive Class V 100 (Yellow)
 V15
-Diesel Locomotive with Gas Turbine BR 210
+Gas Turbine Locomotive BR 210
 V16
-MRCE ER20 "Eurorunner"
+Diesel Locomotive ER20 "Eurorunner"
 V60_orange
 Diesel Locomotive Class V 60 (Orange)
 V60sf
@@ -4897,11 +5109,11 @@ Diesel Locomotive Class V 75
 vb141
 Postal Trailer vb141
 Viaggio_Wagen_2012_0
-Sleeping car "Viaggio Comfort"
+Sleeping Car "Viaggio Comfort"
 Viehwagen_Track1
 Small Cattle Wagon
 Viehwagen_Track2
-Stock car
+Stock Car
 Viehwagen_Track3
 Closed Cattle Wagon
 Virgin SuperVoyager Back
@@ -4949,37 +5161,39 @@ Express Diesel Multiple Unit VT 07 "Berlin"
 VT_07_PC-5
 Express Diesel Multiple Unit VT 07 "Berlin"
 VTA_1-AKN
-Diesel Express Engine AKN VTA
+Diesel Multiple Unit AKN VTA
 VTA_2-AKN
-Diesel Express Engine AKN VTA tail
+Diesel Multiple Unit AKN VTA
 VTE_1-AKN
-Diesel Express Engine AKN VTE
+Diesel Multiple Unit AKN VTE
 VTE_2-AKN
-Diesel Express Engine AKN VTE tail
+Diesel Multiple Unit AKN VTE
 Wagen_BDnrzf_740.2_Silberling
-Commuter Coach BDnrzf 740.1 "Silberling"
+Commuter Control Coach BDnrzf 740.1 "Silberling"
 Wagen_OBB_Wiesel_1
-Double Deck Coach "Wiesel"
+Double Deck Control Coach "Wiesel"
 Wagen_OBB_Wiesel_2
-Double Deck Coach "Wiesel"
+Double Deck Control Coach "Wiesel"
 Wagen_OBB_Wiesel_3
 Double Deck Coach "Wiesel"
 WASCO_Habbiillnss
 Postal Boxcar Habbiillnss
+WLSRmee
+Dining Car WLSRmee
 WU_Speisewagen_1996
-Dining Car WU
+Dining Car WRkmz 858.0 "City Night Line"
 X_1-WL
-Underground Stock WL Type X
+Underground Stock WL Type X (third rail)
 X_2-WL
-Underground Stock WL Type X
+Underground Stock WL Type X (third rail)
 X_3-WL
-Underground Stock WL Type X
+Underground Stock WL Type X (third rail)
 X_Wagen_1978_0
-Commuter Coach "X-Wagen"
+Commuter Control Coach "X-Wagen"
 X_Wagen_1978_1
 Commuter Coach "X-Wagen"
 X_Wagen_1978_2
-Commuter Coach "X-Wagen"
+Commuter Control Coach "X-Wagen"
 XC_Class_170-1
 Diesel Multiple Unit Class 172 "Turbostar"
 XC_Class_170-2
