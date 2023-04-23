@@ -18,24 +18,25 @@ needs_ground=1
 climates=tropic
 BackImage[0][0][0][0][0][0-4]=images/res/tropic/01_E0_01.<$0>.0
 ---
+obj=building
+name=res_cl1_E0_02_01
+copyright=Leartin
+intro_year=1500
+type=res
+Chance=30
+level=1
+needs_ground=1
+climates=tropic
+BackImage[0][0][0][0][0][0-4]=images/res/tropic/01_E0_01.<$0>.1
+---
 
 #################################################################################
 #									 Level 3									#
 #################################################################################
 
+
 obj=building
 name=res_cl1_E0_01_03
-copyright=Leartin
-intro_year=1500
-type=res
-Chance=30
-level=3
-needs_ground=1
-climates=tropic
-BackImage[0][0][0][0][0][0-4]=images/res/tropic/01_E0_01.<$0>.1
----
-obj=building
-name=res_cl1_E0_02_03
 copyright=Leartin
 intro_year=1500
 type=res
@@ -44,6 +45,19 @@ level=3
 needs_ground=1
 climates=tropic
 BackImage[0][0][0][0][0][0-4]=images/res/tropic/01_E0_01.<$0>.2
+---
+obj=building
+name=res_cl1_E0_02_03
+copyright=Leartin
+intro_year=1500
+type=res
+Chance=30
+level=3
+needs_ground=1
+climates=tropic
+BackImage[0][0][0][0][0][0,3]=images/res/tropic/03_E0_01.0.0
+BackImage[0][0][0][0][0][1,2]=images/res/tropic/03_E0_01.1.0
+BackImage[0][0][0][0][0][4]=images/res/tropic/03_E0_01.2.0
 ---
 
 #################################################################################
@@ -122,10 +136,50 @@ BackImage[0][0][0][0][0][0,3]=images/res/tropic/09_E0_01.0.0
 BackImage[0][0][0][0][0][1,2]=images/res/tropic/09_E0_01.1.0
 BackImage[0][0][0][0][0][4]=images/res/tropic/09_E0_01.2.0
 ---
+obj=building
+name=res_cl1_E5_01_09
+copyright=Leartin
+intro_year=1990
+type=res
+Chance=30
+level=9
+needs_ground=1
+climates=tropic
+BackImage[0][0][0][0][0][0,3]=images/res/tropic/09_E5_01.0.0
+BackImage[0][0][0][0][0][1,2]=images/res/tropic/09_E5_01.1.0
+BackImage[0][0][0][0][0][4]=images/res/tropic/09_E5_01.2.0
+---
 
 #################################################################################
 #									 Level 12									#
 #################################################################################
+
+obj=building
+name=res_cl1_E0_01_12
+copyright=Leartin
+intro_year=1500
+type=res
+Chance=30
+level=12
+needs_ground=1
+climates=tropic
+BackImage[0][0][0][0][0][0,3]=images/res/tropic/12_E0_01.0.0
+BackImage[0][0][0][0][0][1,2]=images/res/tropic/12_E0_01.1.0
+BackImage[0][0][0][0][0][4]=images/res/tropic/12_E0_01.2.0
+---
+obj=building
+name=res_cl1_E5_01_12
+copyright=Leartin
+intro_year=1990
+type=res
+Chance=30
+level=12
+needs_ground=1
+climates=tropic
+BackImage[0][0][0][0][0][0,3]=images/res/tropic/12_E5_01.0.0
+BackImage[0][0][0][0][0][1,2]=images/res/tropic/12_E5_01.1.0
+BackImage[0][0][0][0][0][4]=images/res/tropic/12_E5_01.2.0
+---
 
 obj=building
 name=res_cl1_C1_E0_01_12
@@ -278,6 +332,20 @@ FrontImage[2-7][0][0][0][0][4]=images/stadtgruen_tropic.2.<$0-2>
 #################################################################################
 
 obj=building
+name=res_cl1_E5_01_15
+copyright=Leartin
+intro_year=1990
+type=res
+Chance=60
+level=15
+needs_ground=1
+climates=tropic
+BackImage[0][0][0][0][0][0,3]=images/res/tropic/15_E5_01.0.0
+BackImage[0][0][0][0][0][1,2]=images/res/tropic/15_E5_01.1.0
+BackImage[0][0][0][0][0][4]=images/res/tropic/15_E5_01.2.0
+---
+
+obj=building
 name=res_cl1_C1_E0_01_15
 copyright=Leartin
 intro_year=1800
@@ -425,6 +493,20 @@ FrontImage[2-7][0][0][0][0][4]=images/stadtgruen_tropic.2.<$0-2>
 #################################################################################
 #									 Level 18									#
 #################################################################################
+
+obj=building
+name=res_cl1_E5_01_18
+copyright=Leartin
+intro_year=1990
+type=res
+Chance=60
+level=18
+needs_ground=1
+climates=tropic
+BackImage[0][0][0][0][0][0,3]=images/res/tropic/18_E5_01.0.0
+BackImage[0][0][0][0][0][1,2]=images/res/tropic/18_E5_01.1.0
+BackImage[0][0][0][0][0][4]=images/res/tropic/18_E5_01.2.0
+---
 
 obj=building
 name=res_cl1_C1_E0_01_18
@@ -575,6 +657,20 @@ FrontImage[2-7][0][0][0][0][4]=images/stadtgruen_tropic.2.<$0-2>
 #################################################################################
 
 obj=building
+name=res_cl1_E5_01_20
+copyright=Leartin
+intro_year=1990
+type=res
+Chance=60
+level=20
+needs_ground=1
+climates=tropic
+BackImage[0][0][0][0][0][0,3]=images/res/tropic/20_E5_01.0.0
+BackImage[0][0][0][0][0][1,2]=images/res/tropic/20_E5_01.1.0
+BackImage[0][0][0][0][0][4]=images/res/tropic/20_E5_01.2.0
+---
+
+obj=building
 name=res_cl1_C1_E0_01_20
 copyright=Leartin
 intro_year=1800
@@ -723,6 +819,19 @@ FrontImage[2-7][0][0][0][0][4]=images/stadtgruen_tropic.2.<$0-2>
 #									 Level 23									#
 #################################################################################
 
+obj=building
+name=res_cl1_E5_01_23
+copyright=Leartin
+intro_year=1990
+type=res
+Chance=60
+level=23
+needs_ground=1
+climates=tropic
+BackImage[0][0][0][0][0][0,3]=images/res/tropic/23_E5_01.0.0
+BackImage[0][0][0][0][0][1,2]=images/res/tropic/23_E5_01.1.0
+BackImage[0][0][0][0][0][4]=images/res/tropic/23_E5_01.2.0
+---
 obj=building
 name=res_cl1_C1_E0_01_23
 copyright=Leartin
