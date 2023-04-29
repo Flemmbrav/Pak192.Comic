@@ -35,12 +35,32 @@ BackImage[9][0][0][0][0][0]=./images/station/1830_station.2.2
 BackImage[3][0][0][0][0][0]=./images/station/1830_station.3.3
 BackImage[11][0][0][0][0][0]=./images/station/1830_station.3.2
 
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/1830_station.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/1830_station.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/1830_station.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/1830_station.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/1830_station.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/1830_station.3.1
+
 # Einzelteil Nord-Süd
 BackImage[6][0][0][0][0][0]=./images/station/1830_station.0.0
 BackImage[14][0][0][0][0][0]=./images/station/1830_station.0.1
 # Einzelteil Ost-West
 BackImage[7][0][0][0][0][0]=./images/station/1830_station.0.3
 BackImage[15][0][0][0][0][0]=./images/station/1830_station.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/1830_station.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/1830_station.0.1
 
 Dims=1,1,16
 ------------------------------------
@@ -208,11 +228,31 @@ BackImage[9][0][0][0][0][0]=./images/station/sandstation.2.2
 BackImage[3][0][0][0][0][0]=./images/station/sandstation.3.3
 BackImage[11][0][0][0][0][0]=./images/station/sandstation.3.2
 
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/sandstation.1.2
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/sandstation.2.2
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/sandstation.3.2
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/sandstation.1.1
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/sandstation.2.1
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/sandstation.3.1
+
 # Einzelteil Nord-Süd
 BackImage[6][0][0][0][0][0]=./images/station/sandstation.0.0
 BackImage[14][0][0][0][0][0]=./images/station/sandstation.0.1
 # Einzelteil Ost-West
 BackImage[7][0][0][0][0][0]=./images/station/sandstation.0.3
 BackImage[15][0][0][0][0][0]=./images/station/sandstation.0.2
+
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/sandstation.0.2
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/sandstation.0.1
 
 Dims=1,1,16
