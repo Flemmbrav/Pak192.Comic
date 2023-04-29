@@ -1,6 +1,6 @@
 
 obj=building
-name=station_track_Bahnsteig_1890_green
+name=station_track_Bahnsteig_1890
 copyright=Flemmbrav
 intro_month=1
 intro_year=1890
@@ -65,7 +65,7 @@ frontImage[14][0][0][0][0][0]=./images/station/1890_station_roof.0.1
 Dims=1,1,16
 -----------
 obj=building
-name=station_track_Bahnsteig_1890
+name=station_track_Bahnsteig_1890_green
 copyright=Flemmbrav
 intro_month=1
 intro_year=1890
