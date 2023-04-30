@@ -1,3 +1,6 @@
+# This vehicle is weird. There really is no evidence on a B4üh from 1940!
+# I'm replacing this with the C4ü-26
+
 obj=vehicle
 name=B4ueh
 copyright=Flemmbrav
