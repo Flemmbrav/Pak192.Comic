@@ -1,7 +1,7 @@
 obj=vehicle
 name=Schuerzenwagen
 copyright=Flemmbrav
-intro_year=1935
+intro_year=1938
 intro_month=0
 retire_year=1955
 retire_month=0
@@ -28,7 +28,7 @@ EmptyImage[NE]=./image/Passenger_Train_1935_Schuerzenwagen.0.5
 obj=vehicle
 name=Schuerzenpostwagen
 copyright=Flemmbrav
-intro_year=1935
+intro_year=1938
 intro_month=0
 retire_year=1955
 retire_month=0
