@@ -17,6 +17,7 @@ speed=120
 length=10
 waytype=narrowgauge_track
 loading_time=4580
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/Passenger_Train_1926_Hechtwagen.0.1
 EmptyImage[E]=./image/Passenger_Train_1926_Hechtwagen.0.0
@@ -48,6 +49,7 @@ speed=120
 length=10
 waytype=narrowgauge_track
 loading_time=4580
+constraint[prev][0]=any
 
 EmptyImage[S]=./image/Passenger_Train_1926_Hechtwagen.1.1
 EmptyImage[E]=./image/Passenger_Train_1926_Hechtwagen.1.0
