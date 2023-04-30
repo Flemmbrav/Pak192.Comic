@@ -6,6 +6,21 @@
 # Typical for this are famous buildings of the real world remade in Simutrans. #
 ################################################################################
 obj=building
+name=cur_city_wachstube
+copyright=Leartin
+intro_month=6
+intro_year=1500
+type=cur
+Chance=30
+build_time=132
+level=10
+needs_ground=1
+climates=mediterran
+dims=1,1,1
+BackImage[0][0][0][0][0][0-1]=images/cur_wachstube.<$0>.0
+FrontImage[0][0][0][0][0-7][0-1]=images/flags.3.<$0>,13,-53
+---------------------------------
+obj=building
 name=cur_city_eiffel
 copyright=Leartin
 intro_month=6
