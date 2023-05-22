@@ -458,18 +458,6 @@ intro_year=1950
 offset=21
 ---
 ####################
-#Link
-####################
-Obj=pedestrian
-Name=ped_link
-DistributionWeight=6
-Image[S,W,E,N,SW,NW,SE,NE][0-5]=link.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
-steps_per_frame=6
-intro_year=1986
-#retire_year=
-offset=21
----
-####################
 #Police
 ####################
 Obj=pedestrian
@@ -528,6 +516,11 @@ offset=21
 ---
 ####################
 # Comic Book Characters
+# 
+# If possible, use first publication as intro and death of author as retire date.
+# Keep DistributionWeight low!
+# ~3-4 for characters that could be mistaken for normal people
+# ~1-2 for characters that you just see are eastereggs even if you don't know it.
 ####################
 Obj=pedestrian
 Name=ped_superman
@@ -584,5 +577,94 @@ intro_month=11
 retire_year=2001
 offset=21
 ---
-
-
+Obj=pedestrian
+Name=ped_asterix
+#Asterix
+DistributionWeight=2
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc1.<$1+12>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1959
+intro_month=10
+retire_year=2020
+offset=21
+---
+Obj=pedestrian
+Name=ped_nobita
+#AM Doraemon
+DistributionWeight=3
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc2.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1969
+intro_month=12
+retire_year=1996
+offset=21
+---
+Obj=pedestrian
+Name=ped_astroboy
+#AM Tetsuwan Atomu
+DistributionWeight=2
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc2.<$1+6>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1952
+intro_month=4
+retire_year=1989
+offset=21
+---
+Obj=pedestrian
+Name=ped_goku
+#AM Dragonball
+DistributionWeight=2
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc2.<$1+12>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1984
+intro_month=11
+#retire_year=?
+offset=21
+---
+Obj=pedestrian
+Name=ped_luffy
+#AM One Piece
+DistributionWeight=2
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc2.<$1+18>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1997
+intro_month=4
+#retire_year=?
+offset=21
+---
+####################
+# Movies and TV Characters
+####################
+Obj=pedestrian
+Name=ped_gru
+#Despicable Me
+DistributionWeight=2
+Image[S,W,E,N,SW,NW,SE,NE][0-6]=mtc1.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=6
+intro_year=1950
+#retire_year=1970
+offset=21
+---
+Obj=pedestrian
+Name=ped_bb8
+#Star Wars
+DistributionWeight=1
+Image[S,W,E,N,SW,NW,SE,NE][0-6]=mtc1.<$1>.<$0+7>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=6
+intro_year=2000
+#retire_year=?
+offset=21
+---
+####################
+# Video Game Characters
+####################
+Obj=pedestrian
+Name=ped_link
+#Legend of Zelda
+DistributionWeight=2
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=vgc1.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=6
+intro_year=1986
+#retire_year=?
+offset=21
+---
