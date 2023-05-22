@@ -649,7 +649,7 @@ Obj=pedestrian
 Name=ped_bb8
 #Star Wars
 DistributionWeight=1
-Image[S,W,E,N,SW,NW,SE,NE][0-6]=mtc1.<$1>.<$0+7>,<32+($0%2)*80>,<88+($0/2)%2*40>
+Image[S,W,E,N,SW,NW,SE,NE][0-6]=mtc1.<$1+7>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=2000
 #retire_year=?
