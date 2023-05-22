@@ -51,5 +51,5 @@ EmptyImage[NW]=./image/DDR-Wagen3.0.6
 EmptyImage[SW]=./image/DDR-Wagen3.0.7
 
 constraint[prev][0]=DDR-Wagen3
-constraint[next][0]=DDR-Wagen3
-constraint[next][1]=none
+#constraint[next][0]=DDR-Wagen3
+#constraint[next][1]=none

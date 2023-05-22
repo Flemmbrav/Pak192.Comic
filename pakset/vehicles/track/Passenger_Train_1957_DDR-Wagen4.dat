@@ -24,7 +24,7 @@ EmptyImage[NE]=./image/DDR-Wagen4.2.5
 EmptyImage[NW]=./image/DDR-Wagen4.2.6
 EmptyImage[SW]=./image/DDR-Wagen4.2.7
 constraint[prev][0]=DDR-Wagen4b
-constraint[next][1]=none
+#constraint[next][0]=none
 -----------------------
 obj=vehicle
 name=DDR-Wagen4b

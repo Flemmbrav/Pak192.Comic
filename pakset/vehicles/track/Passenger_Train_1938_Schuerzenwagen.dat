@@ -1,8 +1,9 @@
 obj=vehicle
 name=Schuerzenwagen
+# C4ü-38
 copyright=Flemmbrav
-intro_year=1935
-intro_month=0
+intro_year=1938
+intro_month=3
 retire_year=1955
 retire_month=0
 freight=Passagiere
@@ -27,9 +28,11 @@ EmptyImage[NE]=./image/Passenger_Train_1935_Schuerzenwagen.0.5
 -----------------------------
 obj=vehicle
 name=Schuerzenpostwagen
+# Post4ü-a/21
 copyright=Flemmbrav
-intro_year=1935
-intro_month=0
+intro_year=1941
+#intro_year=1938
+intro_month=3
 retire_year=1955
 retire_month=0
 freight=Post
