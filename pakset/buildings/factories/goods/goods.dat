@@ -570,6 +570,14 @@ weight_per_unit=300
 value=260
 speed_bonus=3
 -----------------
+obj=good
+name=beets
+catg=9
+metric=tons
+weight_per_unit=1000
+value=200
+speed_bonus=3
+-----------------
 # cat 10: rolled_goods ############################################
 -----------------
 #obj=good
