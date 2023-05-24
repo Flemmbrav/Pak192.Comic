@@ -1,5 +1,7 @@
 obj=vehicle
 name=Lokomotive_1918_Badische_IV_h_Glanzblech
+# fictual livery; how these could have looked like if only the "Glanzblech" would've been a thing post ww1
+# https://www.spurweite-n.de/ncontent/ndb/ndb-artdetails.asp?ID=453081862
 copyright=Flemmbrav
 intro_year=1918
 intro_month=1
@@ -17,7 +19,7 @@ power=1618
 #gear=240 für  "Die Loks konnten problemlos einen 650 t schweren Zug in der Ebene mit 100 km/h befördern" (Wiki)
 #gear=240 passt auch für 6 Personenwagen und 1 Packwagen Typ Rheingold auf 140km/h
 gear=240
-length=9
+length=8
 waytype=narrowgauge_track
 engine_type=steam
 constraint[next][0]=Tender_1918_2_2_T_29_6
@@ -46,7 +48,7 @@ cost=0
 runningcost=00
 weight=30
 speed=140
-length=4
+length=3
 waytype=narrowgauge_track
 constraint[prev][0]=Lokomotive_1918_Badische_IV_h
 constraint[prev][1]=Lokomotive_1918_Badische_IV_h_Glanzblech
