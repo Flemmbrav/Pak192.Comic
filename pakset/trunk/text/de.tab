@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 23.04 2023                           #
+#                           Date Created: 24.05 2023                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -2890,6 +2890,8 @@ Car_Piece_Goods_1990_Hbillss_307
 Stückgutwagen Typ Hbillss 307
 Car_Piece_Goods_2000_Hbbills_311
 Stückgutwagen Typ Hbbills 311
+Car_Post_1928
+Postwagen PwPost4ü-28
 Car_Post_2002_ADbmpsz73_1
 Postwagen ADbmpsz 73
 Car_Post_2002_ADbmpsz73_Red_2
@@ -3357,23 +3359,23 @@ Elektrolokomotive Re 450 "DPZ"
 DPZ_5
 Elektrolokomotive Re 450 "DPZ"
 DPZ_g_1
-Doppelstockwagen "DPZ" | Steuerwagen
+Doppelstocksteuerwagen "DPZ"
 DPZ_g_2
-Doppelstockwagen "DPZ" | Steuerwagen
+Doppelstocksteuerwagen "DPZ"
 DPZ_g_3
-Doppelstockwagen "DPZ" | Mittelwagen
+Doppelstockwagen "DPZ"
 DPZ_g_4
 Elektrolokomotive Re 450 "DPZ"
 DPZ_g_5
 Elektrolokomotive Re 450 "DPZ"
 DPZ_NDW
-Doppelstockwagen "NDW" | Niederflurwagen
+Doppelstockwagen mit Tiefeinstieg "NDW"
 DPZ_r_1
-Doppelstockwagen "DPZ" | Steuerwagen
+Doppelstocksteuerwagen "DPZ"
 DPZ_r_2
-Doppelstockwagen "DPZ" | Steuerwagen
+Doppelstocksteuerwagen "DPZ"
 DPZ_r_3
-Doppelstockwagen "DPZ" | Mittelwagen
+Doppelstockwagen "DPZ"
 DPZ_r_4
 Elektrolokomotive Re 450 "DPZ"
 DPZ_r_5
@@ -3443,7 +3445,7 @@ Stadtbahnwagen SSB DT8.4
 DT8_4_2-SSB
 Stadtbahnwagen SSB DT8.4
 Durchgangzugwagen_1928_1
-Durchgangzugwagen
+Durchgangzugwagen C4ü-28
 Durchgangzugwagenwagen_1950_1
 Durchgangzugwagen
 Durchgangzugwagenwagen_1950_2
@@ -3465,9 +3467,9 @@ Intercitylokomotive BR E 03
 E94
 Elektrolokomotive BR E 94
 Eilzugwagenwagen_1930_1
-Eilzugwagen
+Eilzugwagen C4i-30
 Eilzugwagenwagen_1930_2
-Eilzugpostwagen
+Postwagen Pw4i-31
 Eilzugwagenwagen_1950_1
 Eilzugwagen
 Eilzugwagenwagen_1950_2
@@ -3800,6 +3802,10 @@ LM_Class_172-3
 Dieseltriebwagen Class 172 "Turbostar" | Steuerwagen mit Durchgang
 Lokomotive_1918_Badische_IV_h
 Schnellzugdampflokomotive IVh
+Lokomotive_1918_Badische_IV_h_Glanzblech
+Schnellzugdampflokomotive IVh in Glanzblechausführung
+Lokomotive_1920_BR_18_3
+Schnellzugdampflokomotive BR 18.3
 Lokomotive_1928_BR_18_3
 Schnellzugdampflokomotive BR 18.3
 Lokomotive_1951_BR_18_3
@@ -4064,6 +4070,20 @@ Oelwagen_Track1
 Öl-Kesselwagen
 Oelwagen_Track2
 Öl-Kesselwagen
+Passenger_Train_1922_Hechtwagen
+Durchgangszugwagen C4ü-22 "Hechtwagen"
+Passenger_Train_1922_Hechtwagen_first_class
+Durchgangszugwagen A4ü-22 "Hechtwagen" | Erste Klasse
+Passenger_Train_1926_Hechtwagen
+Durchgangszugwagen C4ü-26 "Hechtwagen"
+Passenger_Train_1926_Hechtwagen_first_class
+Durchgangszugwagen A4ü-26 "Hechtwagen" | Erste Klasse
+Passenger_Train_1928_dining_car
+Speisewagen WR4ü-28
+Passenger_Train_1928_first_class
+Durchgangszugwagen A4ü-28 | Erste Klasse
+Passenger_Train_1928_sleeper
+Schlafwagen WL4ü-28
 Passenger_Train_1956_SBB_Einheitswagen
 Schnellzugwagen "Einheitswagen"
 Passenger_Train_1956_SBB_Einheitswagen_erste_Klasse
@@ -4389,11 +4409,11 @@ Diesellokomotive Rh. 2050
 RH_1020
 Elektrolokomotive Rh. 1020
 Rheingold_1928_1
-Schnellzugwagen "Rheingold"
+Schnellzugwagen SA4ü-28 "Rheingold"
 Rheingold_1928_2
-Schnellzugwagen "Rheingold"
+Schnellzugwagen mit Küche SA4ük-28 "Rheingold"
 Rheingold_1928_3
-Postwagen "Rheingold"
+Postwagen SPw4ü "Rheingold"
 Rheingold_1962_0
 Schnellzugwagen "Rheingold"
 Rheingold_1962_1
@@ -4471,7 +4491,7 @@ Doppelstockintercitytriebwagenzug Typ WRB502  "Twindexx Swiss Express" | Speisew
 SBB_Z2
 Postwagen Typ Z2
 Schuerzenpostwagen
-Postwagen "Schürzenwagen"
+Postwagen Post4ü-a/21 "Schürzenwagen"
 Schuerzenwagen
 Schnellzugwagen C4ü-38 "Schürzenwagen"
 Siemens_Schlafwagen_2003_CNL
@@ -4551,6 +4571,10 @@ Postwagen "TransEuropExpress"
 TEE_Wagen_1965_2
 Schnellzugwagen "TransEuropExpress" | Restaurant
 Tender_1918_2_2_T_29_6
+Tender 2'2 T29,6
+Tender_1918_2_2_T_29_6_Glanzblech
+Tender 2'2 T29,6 in Glanzblechausführung
+Tender_1920_2_2_T_29_6
 Tender 2'2 T29,6
 Tender_1928_2_2_T_29_6
 Tender 2'2 T29,6
@@ -4799,7 +4823,7 @@ Nahverkehrswagen "Umbauwagen"
 Umbauwagen_1950_3
 Eilzugwagen "Umbauwagen"
 Umbauwagen_1950_4
-Postwagen "Umabuwagen"
+Postwagen "Umbauwagen"
 V_1-WL
 U-Bahnwagen WL Typ V "V-Wagen" (Stromschiene)
 V_2-WL
