@@ -89,7 +89,7 @@ EmptyImage[NE]=./image/Passenger_Train_1928.2.5
 ---
 obj=vehicle
 name=Passenger_Train_1928_dining_car
-# WL4ü-28
+# WR4ü-28
 copyright=Flemmbrav
 intro_year=1928
 intro_month=3
