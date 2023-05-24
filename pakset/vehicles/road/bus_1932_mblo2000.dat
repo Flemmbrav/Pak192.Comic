@@ -23,6 +23,7 @@ power=40
 gear=250
 sound=bus.wav
 #
+constraint[prev][0]=none
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1932_mblo2000.0.<$0>
 freight=Passagiere
@@ -52,6 +53,7 @@ power=40
 gear=250
 sound=bus.wav
 #
+constraint[prev][0]=none
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1932_mblo2000.1.<$0>
 freight=Passagiere
@@ -81,6 +83,7 @@ power=40
 gear=250
 sound=bus.wav
 #
+constraint[prev][0]=none
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1932_mblo2000.2.<$0>
 freight=Passagiere
@@ -110,6 +113,7 @@ power=40
 gear=250
 sound=bus.wav
 #
+constraint[prev][0]=none
 constraint[next][0]=none
 emptyimage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1932_mblo2000.3.<$0>
 freight=Passagiere

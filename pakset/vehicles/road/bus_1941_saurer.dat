@@ -21,6 +21,7 @@ power=88
 gear=250
 sound=bus.wav
 #
+constraint[prev][0]=none
 constraint[next][0]=none
 emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1941_saurer.0.<$0>
 freight=Passagiere
@@ -48,6 +49,7 @@ power=88
 gear=250
 sound=bus.wav
 #
+constraint[prev][0]=none
 constraint[next][0]=none
 emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/bus_1941_saurer.1.<$0>
 freight=Passagiere

@@ -61,7 +61,7 @@ length=6
 loading_time=3210
 #
 constraint[next][0]=none
-constraint[prev][0]=W50_Stueckgut
+constraint[prev][0]=road_truck_piece_1965_w50
 EmptyImage[S,W,E,N,NE,SW,NW,SE]=./image/truck_piece_1965_w50.0.<$0+8>
 freight=paint
 freightimagetype[0]=generic
