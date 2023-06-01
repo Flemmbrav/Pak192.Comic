@@ -1,0 +1,77 @@
+
+obj=building
+name=station_track_1890_station_hall_8B
+copyright=Flemmbrav
+intro_month=1
+intro_year=1890
+retire_year=1935
+retire_month=0
+type=stop
+waytype=narrowgauge_track
+enables_pax=1
+level=8
+noinfo=1
+allow_underground=0
+icon=> ./images/station/1890_station_hall_8B.0.4
+cursor=./images/station/1890_station_hall_8B.0.5
+
+# Endteil Nord-Süd  Norden
+BackImage[12][0][0][0][0][0]=./images/station/1890_station_hall_8B.1.0,-192,-192
+BackImage[4][0][0][0][0][0]=./images/station/1890_station_hall_8B.1.4,0,-96
+# mittelteil NORD-SÜD
+BackImage[8][0][0][0][0][0]=./images/station/1890_station_hall_8B.2.0,-192,-192
+BackImage[0][0][0][0][0][0]=./images/station/1890_station_hall_8B.2.4,0,-96
+# Endteil Nord-Süd  Süden
+BackImage[10][0][0][0][0][0]=./images/station/1890_station_hall_8B.3.0,-192,-192
+BackImage[2][0][0][0][0][0]=./images/station/1890_station_hall_8B.3.4,0,-96
+
+# Endteil Ost-West  Westen
+BackImage[13][0][0][0][0][0]=./images/station/1890_station_hall_8B.1.3,0,-192
+BackImage[5][0][0][0][0][0]=./images/station/1890_station_hall_8B.1.5,-192,-96
+# Mittelteil Ost-West
+BackImage[9][0][0][0][0][0]=./images/station/1890_station_hall_8B.2.3,0,-192
+BackImage[1][0][0][0][0][0]=./images/station/1890_station_hall_8B.2.5,-192,-96
+# Endteil Ost-West  Osten
+BackImage[11][0][0][0][0][0]=./images/station/1890_station_hall_8B.3.3,0,-192
+BackImage[3][0][0][0][0][0]=./images/station/1890_station_hall_8B.3.5,-192,-96
+
+
+
+# Einzelteil Nord-Süd
+BackImage[14][0][0][0][0][0]=./images/station/1890_station_hall_8B.0.0,-192,-192
+BackImage[6][0][0][0][0][0]=./images/station/1890_station_hall_8B.2.4,0,-96
+# Einzelteil Ost-West
+BackImage[15][0][0][0][0][0]=./images/station/1890_station_hall_8B.0.3,0,-192
+BackImage[7][0][0][0][0][0]=./images/station/1890_station_hall_8B.2.5,-192,-96
+
+
+
+# Endteil Nord-Süd  Norden front img
+frontImage[12][0][0][0][0][0]=./images/station/1890_station_hall_8B.1.6,-192,-192
+frontImage[4][0][0][0][0][0]=./images/station/1890_station_hall_8B.1.1,0,-96
+# mittelteil NORD-SÜD
+frontImage[8][0][0][0][0][0]=./images/station/1890_station_hall_8B.2.6,-192,-192
+frontImage[0][0][0][0][0][0]=./images/station/1890_station_hall_8B.2.1,0,-96
+# Endteil Nord-Süd  Süden
+frontImage[10][0][0][0][0][0]=./images/station/1890_station_hall_8B.3.6,-192,-192
+frontImage[2][0][0][0][0][0]=./images/station/1890_station_hall_8B.3.1,0,-96
+
+# Endteil Ost-West  Westen front img
+frontImage[13][0][0][0][0][0]=./images/station/1890_station_hall_8B.1.7,0,-192
+frontImage[5][0][0][0][0][0]=./images/station/1890_station_hall_8B.1.2,-192,-96
+# Mittelteil Ost-West
+frontImage[9][0][0][0][0][0]=./images/station/1890_station_hall_8B.2.7,0,-192
+frontImage[1][0][0][0][0][0]=./images/station/1890_station_hall_8B.2.2,-192,-96
+# Endteil Ost-West  Osten
+frontImage[11][0][0][0][0][0]=./images/station/1890_station_hall_8B.3.7,0,-192
+frontImage[3][0][0][0][0][0]=./images/station/1890_station_hall_8B.3.2,-192,-96
+
+
+# Einzelteil Nord-Süd front img
+frontImage[14][0][0][0][0][0]=./images/station/1890_station_hall_8B.0.6,-192,-192
+frontImage[6][0][0][0][0][0]=./images/station/1890_station_hall_8B.0.1,0,-96
+# Einzelteil Ost-West front img
+frontImage[15][0][0][0][0][0]=./images/station/1890_station_hall_8B.0.7,0,-192
+frontImage[7][0][0][0][0][0]=./images/station/1890_station_hall_8B.0.2,-192,-96
+
+Dims=1,1,16
