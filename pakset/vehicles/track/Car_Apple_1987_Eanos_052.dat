@@ -21,4 +21,5 @@ freightimagetype[0]=apples
 freightimagetype[1]=hop
 freightimagetype[2]=potatoes
 freightimagetype[3]=coca_leaves
-FreightImage[0-3][s,w,se,sw]=./image/Car_Apple_1987_Eanos_052.<$0+1>.<$1>
+freightimagetype[4]=beets
+FreightImage[0-4][s,w,se,sw]=./image/Car_Apple_1987_Eanos_052.<$0+1>.<$1>
