@@ -51,6 +51,17 @@ intro_year=1835
 retire_year=1920
 offset=21
 ---
+Obj=pedestrian
+Name=ped_E1f_black
+#Belle
+DistributionWeight=5
+Image[S,W,E,N,SW,NW,SE,NE][0-3]=E1f_updo.<$1+16>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=10
+intro_year=1835
+#retire_year=1920
+#happy goth culture?
+offset=21
+---
 ####################
 #Females with short dress (~E2)
 ####################
