@@ -111,6 +111,19 @@ ImageUp[12][1]=./images/way/track_80_gravel_bed_wall2_2F_w.8.3
 #ImageUp2[9][1]=./images/way/track_80_gravel_bed_wall2_2F_w.9.2
 #ImageUp2[12][1]=./images/way/track_80_gravel_bed_wall2_2F_w.9.3
 
+#Front Image
+FrontImage[NS,EW][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.0.<$0>
+FrontImage[N,W,E,S][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.1.<$0>
+FrontImage[SW,NW,NE,SE][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.2.<$0>
+FrontDiagonal[SW,NW,NE,SE][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.3.<$0>
+FrontImage[NSEW,NSEW1,NSEW2,-][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.4.<$0>
+FrontImage[NSE,SEW,NEW,NSW][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.5.<$0>
+FrontImage[NSE1,SEW1,NEW1,NSW1][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.6.<$0>
+FrontImage[NSE2,SEW2,NEW2,NSW2][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.7.<$0>
+FrontImageUp[3,6,9,12][0]=./images/way/track_xxx_gravel_bed_wall2_front_image.8.<$0/3-1>
+
+
+
 -------------------
 
 obj=way
@@ -224,6 +237,19 @@ ImageUp[12][1]=./images/way/track_120_gravel_bed_wall2_2F_w.8.3
 #ImageUp2[6][1]=./images/way/track_120_gravel_bed_wall2_2F_w.9.1
 #ImageUp2[9][1]=./images/way/track_120_gravel_bed_wall2_2F_w.9.2
 #ImageUp2[12][1]=./images/way/track_120_gravel_bed_wall2_2F_w.9.3
+
+#Front Image
+FrontImage[NS,EW][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.0.<$0>
+FrontImage[N,W,E,S][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.1.<$0>
+FrontImage[SW,NW,NE,SE][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.2.<$0>
+FrontDiagonal[SW,NW,NE,SE][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.3.<$0>
+FrontImage[NSEW,NSEW1,NSEW2,-][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.4.<$0>
+FrontImage[NSE,SEW,NEW,NSW][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.5.<$0>
+FrontImage[NSE1,SEW1,NEW1,NSW1][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.6.<$0>
+FrontImage[NSE2,SEW2,NEW2,NSW2][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.7.<$0>
+FrontImageUp[3,6,9,12][0]=./images/way/track_xxx_gravel_bed_wall2_front_image.8.<$0/3-1>
+
+
 -------------------
 
 
@@ -338,4 +364,17 @@ ImageUp[12][1]=./images/way/track_160_gravel_bed_wall2_2F_w.8.3
 #ImageUp2[6][1]=./images/way/track_160_gravel_bed_wall2_2F_w.9.1
 #ImageUp2[9][1]=./images/way/track_160_gravel_bed_wall2_2F_w.9.2
 #ImageUp2[12][1]=./images/way/track_160_gravel_bed_wall2_2F_w.9.3
+
+#Front Image
+FrontImage[NS,EW][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.0.<$0>
+FrontImage[N,W,E,S][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.1.<$0>
+FrontImage[SW,NW,NE,SE][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.2.<$0>
+FrontDiagonal[SW,NW,NE,SE][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.3.<$0>
+FrontImage[NSEW,NSEW1,NSEW2,-][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.4.<$0>
+FrontImage[NSE,SEW,NEW,NSW][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.5.<$0>
+FrontImage[NSE1,SEW1,NEW1,NSW1][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.6.<$0>
+FrontImage[NSE2,SEW2,NEW2,NSW2][0,1]=./images/way/track_xxx_gravel_bed_wall2_front_image.7.<$0>
+FrontImageUp[3,6,9,12][0]=./images/way/track_xxx_gravel_bed_wall2_front_image.8.<$0/3-1>
+
+
 -------------------
