@@ -128,7 +128,7 @@ speed=9
 waytype=water
 climates=water
 trees_on_top=1
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/swan.0.<$0>
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_swan.0.<$0>
 -----
 obj=ground_obj
 name=mov_swan02
@@ -140,4 +140,4 @@ speed=9
 waytype=water
 climates=water
 trees_on_top=1
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/swan.1.<$0>
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_swan.1.<$0>
