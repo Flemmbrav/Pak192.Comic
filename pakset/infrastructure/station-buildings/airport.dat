@@ -1,6 +1,7 @@
 ---
 Obj=building
-name=terminal
+name=ext_airport_terminal01
+#name=terminal
 copyright=Leartin
 waytype=air
 intro_month=1
@@ -14,23 +15,21 @@ needs_ground=0
 #enables_post=1
 enables_pax=1
 noinfo=1
-icon=> ./images/terminal.0.4
-cursor=./images/terminal.1.4
+icon=> ./images/airport_terminal01.0.4
+cursor=./images/airport_terminal01.1.4
 Dims=3,1,4
-
-
-BackImage[0][0][0-2][0][0][0]=./images/terminal.0.<1+$0>
-BackImage[1][0-2][0][0][0][0]=./images/terminal.1.<3-$0>
-BackImage[2][0][0-2][0][0][0]=./images/terminal.2.<1+$0>
-BackImage[3][0-2][0][0][0][0]=./images/terminal.3.<3-$0>
-
-FrontImage[0][0][0][0][0][0]=./images/terminal.0.0,-20,0
-FrontImage[1][2][0][0][0][0]=./images/terminal.1.0,-40,0
-FrontImage[2][0][2][0][0][0]=./images/terminal.2.4,192,0
-FrontImage[3][0][0][0][0][0]=./images/terminal.3.4,192,0
+BackImage[0][0][0-2][0][0][0]=./images/airport_terminal01.0.<1+$0>
+BackImage[1][0-2][0][0][0][0]=./images/airport_terminal01.1.<3-$0>
+BackImage[2][0][0-2][0][0][0]=./images/airport_terminal01.2.<1+$0>
+BackImage[3][0-2][0][0][0][0]=./images/airport_terminal01.3.<3-$0>
+FrontImage[0][0][0][0][0][0]=./images/airport_terminal01.0.0,-20,0
+FrontImage[1][2][0][0][0][0]=./images/airport_terminal01.1.0,-40,0
+FrontImage[2][0][2][0][0][0]=./images/airport_terminal01.2.4,192,0
+FrontImage[3][0][0][0][0][0]=./images/airport_terminal01.3.4,192,0
 ---
 Obj=building
-name=terminal2
+name=ext_airport_terminal02
+#name=terminal2
 copyright=Leartin
 waytype=air
 intro_month=1
@@ -44,13 +43,14 @@ needs_ground=0
 #enables_post=1
 enables_pax=1
 noinfo=1
-icon=> ./images/terminal_icon.1.0
-cursor=./images/terminal_icon.0.0
+icon=> ./images/airport_icon.1.0
+cursor=./images/airport_icon.0.0
 Dims=1,1,4
-BackImage[0-3][0][0][0][0][0-1]=./images/terminal2.<$1>.<$0>
+BackImage[0-3][0][0][0][0][0-1]=./images/airport_terminal02.<$1>.<$0>
 ---
 Obj=building
-name=terminal2_corner
+name=ext_airport_terminal02c
+#name=terminal2_corner
 copyright=Leartin
 waytype=air
 intro_month=1
@@ -64,13 +64,14 @@ needs_ground=0
 #enables_post=1
 enables_pax=1
 noinfo=1
-icon=> ./images/terminal_icon.2.0
-cursor=./images/terminal_icon.0.0
+icon=> ./images/airport_icon.2.0
+cursor=./images/airport_icon.0.0
 Dims=1,1,4
-BackImage[0-3][0][0][0][0][0-1]=./images/terminal2.<$1>.<$0+4>
+BackImage[0-3][0][0][0][0][0-1]=./images/airport_terminal02.<$1>.<$0+4>
 ---
 Obj=building
-name=terminal_tower
+name=ext_airport_tower01
+#name=terminal_tower
 copyright=Leartin
 waytype=air
 intro_month=1
@@ -84,9 +85,9 @@ needs_ground=0
 #enables_post=1
 enables_pax=1
 noinfo=1
-icon=> ./images/terminal_icon.3.0
-cursor=./images/terminal_icon.0.0
+icon=> ./images/airport_icon.3.0
+cursor=./images/airport_icon.0.0
 Dims=1,1,1
-BackImage[0][0][0][0-1][0][0-1]=./images/tower.<1-$0+$1*(1-$0)>.0
-FrontImage[0][0][0][0][0-3][0-1]=./images/tower.<$0>.1,0,-192
+BackImage[0][0][0][0-1][0][0-1]=./images/airport_tower01.<1-$0+$1*(1-$0)>.0
+FrontImage[0][0][0][0][0-3][0-1]=./images/airport_tower01.<$0>.1,0,-192
 ---

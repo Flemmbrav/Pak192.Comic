@@ -3,7 +3,8 @@
 ###################
 #
 Obj=building
-name=extension_UBahn
+name=ext_pax_metro01
+#name=extension_UBahn
 copyright=Leartin
 intro_month=5
 intro_year=1996
@@ -13,16 +14,13 @@ needs_ground=1
 enables_pax=1
 noinfo=1
 Dims=1,1,2
-icon=> ./images/UBahn.0.2
-cursor=./images/UBahn.1.2
-BackImage[0][0][0][0][0][0]=./images/UBahn.1.0
-BackImage[1][0][0][0][0][0]=./images/UBahn.0.0
-# winter
-BackImage[0][0][0][0][0][1]=./images/UBahn.1.1
-BackImage[1][0][0][0][0][1]=./images/UBahn.0.1
+icon=> ./images/pax_metro01.0.2
+cursor=./images/pax_metro01.1.2
+BackImage[0-3][0][0][0][0][0-1]=./images/pax_metro01.<$1>.<$0>
 -----
 Obj=building
-name=extension_UBahn2
+name=ext_pax_metro02
+#name=extension_UBahn2
 copyright=Leartin
 intro_month=5
 intro_year=1930
@@ -32,16 +30,17 @@ needs_ground=1
 enables_pax=1
 noinfo=1
 Dims=1,1,4
-icon=> ./images/UBahn2.0.4
-cursor=./images/UBahn2.1.4
-BackImage[0-3][0][0][0][0-2][0-1]=./images/UBahn2.<$1+$2*3>.<$0>
+icon=> ./images/pax_metro02.0.4
+cursor=./images/pax_metro02.1.4
+BackImage[0-3][0][0][0][0-2][0-1]=./images/pax_metro02.<$1+$2*3>.<$0>
 -----
 ###################
 # MAIL EXTENSIONS #
 ###################
 #
 Obj=building
-name=extension_postoffice
+name=ext_mail_office01
+#name=extension_postoffice
 copyright=Leartin
 intro_month=5
 intro_year=1930
@@ -56,13 +55,14 @@ needs_ground=1
 enables_post=1
 noinfo=1
 Dims=1,1,1
-icon=> ./images/postoffice.0.2
-cursor=./images/postoffice.0.3
-BackImage[0][0][0][0][0][0-1]=./images/postoffice.0.<$0>
+icon=> ./images/mail_office01.0.1
+cursor=./images/mail_office01.1.1
+BackImage[0][0][0][0][0][0-1]=./images/mail_office01.<$0>.0
 -----
 #
 Obj=building
-name=extension_Postamt
+name=ext_mail_office02
+#name=extension_Postamt
 copyright=Leartin
 intro_month=5
 intro_year=1996
@@ -75,16 +75,17 @@ needs_ground=1
 enables_post=1
 noinfo=1
 Dims=1,1,1
-icon=> ./images/postoffice.1.2
-cursor=./images/postoffice.1.3
-BackImage[0][0][0][0][0][0-1]=./images/postoffice.1.<$0>
+icon=> ./images/mail_office02.0.1
+cursor=./images/mail_office02.1.1
+BackImage[0][0][0][0][0][0-1]=./images/mail_office02.<$0>.0
 -----
 ###################
 # MISC EXTENSIONS #
 ###################
 #
 Obj=building
-name=extension_taxi
+name=ext_pax_taxis
+#name=extension_taxi
 copyright=Leartin
 intro_month=5
 intro_year=1970
@@ -94,7 +95,7 @@ needs_ground=0
 enables_pax=1
 noinfo=1
 Dims=1,3,4
-icon=> ./images/taxi.0.15
-cursor=./images/taxi.1.15
-BackImage[0,2][0-2][0][0][0][0-4]=./images/taxi.<$0>.<2-$1+$2*3>,0,18
-BackImage[1,3][0][0-2][0][0][0-4]=./images/taxi.<$0>.<$1+$2*3>,0,18
+icon=> ./images/pax_taxis.0.15
+cursor=./images/pax_taxis.1.15
+BackImage[0,2][0-2][0][0][0][0-4]=./images/pax_taxis.<$0>.<2-$1+$2*3>,0,18
+BackImage[1,3][0][0-2][0][0][0-4]=./images/pax_taxis.<$0>.<$1+$2*3>,0,18
