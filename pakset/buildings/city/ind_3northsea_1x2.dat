@@ -16,7 +16,7 @@ type=ind
 Chance=60
 level=5
 needs_ground=1
-#climates=temperate
+climates=temperate
 dims=1,2,2
 BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E0_05_01.0.<1-$0+$1*4>
 BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E0_05_01.0.<2+$0+$1*4>
@@ -133,13 +133,52 @@ dims=1,2,2
 BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E0_09_01.2.<1-$0+$1*4>
 BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E0_09_01.2.<2+$0+$1*4>
 ---
+Obj=building
+name=ind_cl3_1x2_E3_01_09
+copyright=Alex. Brose
+intro_year=1950
+type=ind
+Chance=60
+level=9
+needs_ground=1
+climates=temperate
+dims=1,2,2
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_09_01.0.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_09_01.0.<2+$0+$1*4>
+---
+Obj=building
+name=ind_cl3_1x2_E3_02_09
+copyright=Alex. Brose
+intro_year=1950
+type=ind
+Chance=30
+level=9
+needs_ground=1
+climates=temperate
+dims=1,2,2
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_09_01.1.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_09_01.1.<2+$0+$1*4>
+---
+Obj=building
+name=ind_cl3_1x2_E3_03_09
+copyright=Alex. Brose
+intro_year=1950
+type=ind
+Chance=10
+level=9
+needs_ground=1
+climates=temperate
+dims=1,2,2
+BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_09_01.2.<1-$0+$1*4>
+BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_09_01.2.<2+$0+$1*4>
+---
 #################################################################################
 #									 Level 12									#
 #################################################################################
 
 Obj=building
 name=ind_cl3_1x2_E3_01_12
-copyright=Alex. Brose
+copyright=Leartin
 intro_year=1950
 type=ind
 Chance=60
@@ -151,8 +190,8 @@ BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_12_01.0.<1-$0+$1*4>
 BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_12_01.0.<2+$0+$1*4>
 ---
 Obj=building
-name=ind_cl3_1x2_E3_01_12
-copyright=Alex. Brose
+name=ind_cl3_1x2_E3_02_12
+copyright=Leartin
 intro_year=1950
 type=ind
 Chance=30
@@ -164,12 +203,12 @@ BackImage[0][0-1][0][0][0][0-1]=images/1x2/ind/E3_12_01.1.<1-$0+$1*4>
 BackImage[1][0][0-1][0][0][0-1]=images/1x2/ind/E3_12_01.1.<2+$0+$1*4>
 ---
 Obj=building
-name=ind_cl3_1x2_E3_01_12
-copyright=Alex. Brose
+name=ind_cl3_1x2_E3_03_12
+copyright=Leartin
 intro_year=1950
 type=ind
 Chance=10
-level=12
+level=15
 needs_ground=1
 climates=temperate
 dims=1,2,2
