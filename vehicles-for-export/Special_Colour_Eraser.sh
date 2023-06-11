@@ -17,15 +17,16 @@ farbset_knallgelb=('#756f1b' '#867f20' '#9e9523' '#b3a825' '#ccc029' '#ded024' '
 #farbset_SF2=('#7B5803' '#8E6F04' '#A18605' '#B49D07' '#C6B408' '#D9CB0A' '#ECE20B' '#FFF90D')
 
 
-convertpng() {
+convertpngslow() {
 
 	local oldimage=$1
 
 	#echo $oldimage
 	#convert $oldimage -transparent '#e7ffff' -transparent '#000000' -transparent '#001eff' $oldimage
+	#convert Test.png -transparent '#000000' Test.png
+
 	convert $oldimage -channel A -threshold 150 $oldimage
 	convert $oldimage -transparent '#e7ffff' -transparent '#001eff' $oldimage
-	#convert Test.png -transparent '#000000' Test.png
 
 	#Converting first player colour
 	convert $oldimage -fill ${2} -opaque '#244B67' -fill ${3} -opaque '#395E7C' -fill ${4} -opaque '#4c7191' -fill ${5} -opaque '#6084a7' -fill ${6} -opaque '#7497bd' -fill ${7} -opaque '#88abd3' -fill ${8} -opaque '#9cbee9' -fill ${9} -opaque '#B0D2FF' $oldimage
@@ -33,14 +34,18 @@ convertpng() {
 	#Converting second player colour
 	convert $oldimage -fill ${10} -opaque '#7B5803' -fill ${11} -opaque '#8E6F04' -fill ${12} -opaque '#A18605' -fill ${13} -opaque '#B49D07' -fill ${14} -opaque '#C6B408' -fill ${15} -opaque '#D9CB0A' -fill ${16} -opaque '#ECE20B' -fill ${17} -opaque '#FFF90D' $oldimage
 }
-
+convertpng() {
+	#this is just convertpngslow() but in a single line so the image only has to be opened once
+	convert $oldimage -channel A -threshold 150 -transparent '#e7ffff' -transparent '#001eff' -fill ${2} -opaque '#244B67' -fill ${3} -opaque '#395E7C' -fill ${4} -opaque '#4c7191' -fill ${5} -opaque '#6084a7' -fill ${6} -opaque '#7497bd' -fill ${7} -opaque '#88abd3' -fill ${8} -opaque '#9cbee9' -fill ${9} -opaque '#B0D2FF' -fill ${10} -opaque '#7B5803' -fill ${11} -opaque '#8E6F04' -fill ${12} -opaque '#A18605' -fill ${13} -opaque '#B49D07' -fill ${14} -opaque '#C6B408' -fill ${15} -opaque '#D9CB0A' -fill ${16} -opaque '#ECE20B' -fill ${17} -opaque '#FFF90D' $oldimage
+}
 decide_colours() {
 
 	local oldimage=$1
 
-	if [[ $oldimage =~ "EW_IV" ]] ; then
-		convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelgruen[@]}
-	elif [[ $oldimage =~ "U-Bahn_Hamburg" || $oldimage =~ "_DB" ]] ; then
+	#if [[ $oldimage =~ "EW_IV" ]] ; then
+	#	convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelgruen[@]}
+	#elif [[ $oldimage =~ "U-Bahn_Hamburg" || $oldimage =~ "_DB" ]] ; then
+	if [[ $oldimage =~ "U-Bahn_Hamburg" || $oldimage =~ "_DB" ]] ; then
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_knallgelb[@]}
 	elif [[ $oldimage =~ "CD_"  || $oldimage =~ "U-Bahn_Munchen" || $oldimage =~ "4010" || $oldimage =~ "4020" || $oldimage =~ "LNVG" || $oldimage =~ "Electric_2019_Desiro_ML_ODEG" || $oldimage =~ "Railpool" || $oldimage =~ "boxxpress" || $oldimage =~ "Electric_1998_BR_425-426_BOB" || $oldimage =~ "Electric_1998_BR_423_BWegt" || $oldimage =~ "Electric_2014_BR_430_BWegt" || $oldimage =~ "Interregio_1988" || $oldimage =~ "Hydrogene_1997_Simutrans_Logo" || $oldimage =~ "_RBH" ]] ; then
 		convertpng $oldimage ${farbset_blau[@]} ${farbset_knallgelb[@]}
@@ -59,7 +64,7 @@ decide_colours() {
 	elif [[ $oldimage =~ "Stadtbahn_Frankfurt_U4" || $oldimage =~ "Stadtbahn_Frankfurt_U5" || $oldimage =~ "Electric_2004_Flirt" || $oldimage =~ "Electric_2014_Flirt3" || $oldimage =~ "NahSH" || $oldimage =~ "NahSh" || $oldimage =~ "nahsh" || $oldimage =~ "AlphaTrains" || $oldimage =~ "Mintling" || $oldimage =~ "_Alex" ]] ; then
 		convertpng $oldimage ${farbset_tuerkies[@]} ${farbset_gelb[@]}
 	else
-		convertpng $oldimage ${farbset_rot[@]} ${farbset_blau[@]}
+		convertpng $oldimage ${farbset_rot[@]} ${farbset_gruen[@]}
 	fi
 }
 
