@@ -19,7 +19,6 @@ jobs:
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
           svn checkout svn://servers.simutrans.org/simutrans simutrans
-          git clone https://github.com/simutrans/tutorial_pak192.comic /pakset/trunk/scenario/
     - name: setup
       run: |
         cd simutrans/trunk
@@ -108,7 +107,6 @@ jobs:
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
           svn checkout svn://servers.simutrans.org/simutrans simutrans
-          git clone https://github.com/simutrans/tutorial_pak192.comic /pakset/trunk/scenario/
     - name: setup
       run: |
         cd simutrans/trunk
@@ -163,7 +161,6 @@ jobs:
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
           svn checkout svn://servers.simutrans.org/simutrans simutrans
-          git clone https://github.com/simutrans/tutorial_pak192.comic /pakset/trunk/scenario/
     - name: setup
       run: |
         cd simutrans/trunk
@@ -220,7 +217,6 @@ jobs:
           sudo apt-get -ym install autoconf
           sudo apt-get -ym install imagemagick
           svn checkout svn://servers.simutrans.org/simutrans simutrans
-          git clone https://github.com/simutrans/tutorial_pak192.comic /pakset/trunk/scenario/
     - name: setup
       run: |
         cd simutrans/trunk
