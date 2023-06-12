@@ -119,13 +119,13 @@ Image[NEW][0]=./images/electro_tunnel.1.2
 
 ImageUp[12][0]=./images/electro_tunnel.1.5
 ImageUp[9][0]=./images/electro_tunnel.0.5
-ImageUp[3][0]=./images/electro_tunnel.2.5
-ImageUp[6][0]=./images/electro_tunnel.3.5
+ImageUp[3][0]=./images/electro_tunnel.3.5
+ImageUp[6][0]=./images/electro_tunnel.2.5
 
 ImageUp2[12][0]=./images/electro_tunnel.1.6
 ImageUp2[9][0]=./images/electro_tunnel.0.6
-ImageUp2[3][0]=./images/electro_tunnel.2.6
-ImageUp2[6][0]=./images/electro_tunnel.3.6
+ImageUp2[3][0]=./images/electro_tunnel.3.6
+ImageUp2[6][0]=./images/electro_tunnel.2.6
 
 Diagonal[NW][0]=./images/electro_tunnel.1.4
 Diagonal[SW][0]=./images/electro_tunnel.0.4
