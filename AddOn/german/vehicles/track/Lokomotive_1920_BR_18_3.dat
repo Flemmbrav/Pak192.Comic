@@ -12,7 +12,7 @@ sound=BR18_3_pfeife.wav
 cost=38883631
 runningcost=636
 weight=97
-speed=140
+speed=110
 #2200PS(1618kW) sind spezifiziert
 power=1618
 #gear=186 passt genau für 4 Personenwagen und 1 Packwagen Typ Rheingold auf 140km/h
