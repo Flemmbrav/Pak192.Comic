@@ -332,3 +332,16 @@ build_time=10000
 Dims=1,1,1
 BackImage[0][0][0][0][0][0-1]=images/mon/mon_zumaque_1.<$0>.0
 ---
+obj=building
+name=mon_hand
+copyright=Leartin
+#climates=temperate
+intro_year=2030
+intro_month=3
+type=mon
+needs_ground=0
+level=100
+build_time=150000
+Dims=1,1,1
+BackImage[0][0][0][0-2][0][0-1]=images/mon/mon_hand.<2-$0>.0
+---
