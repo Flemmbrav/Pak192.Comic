@@ -14,7 +14,6 @@ length=5
 loading_time=2130
 constraint[prev][0]=any
 
-freight=none
 
 EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Defined_Mass.0.<$0>
 
@@ -36,7 +35,6 @@ length=5
 loading_time=2130
 constraint[prev][0]=any
 
-freight=none
 
 EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Defined_Mass.1.<$0>
 
@@ -58,7 +56,6 @@ length=5
 loading_time=2130
 constraint[prev][0]=any
 
-freight=none
 
 EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Defined_Mass.2.<$0>
 
@@ -80,7 +77,6 @@ length=5
 loading_time=2130
 constraint[prev][0]=any
 
-freight=none
 
 EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Defined_Mass.3.<$0>
 
