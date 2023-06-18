@@ -1,5 +1,5 @@
 obj=vehicle
-name=Car_Defined_Mass_10
+name=Car_Defined_Mass_0010
 weight=10
 copyright=Flemmbrav
 waytype=narrowgauge_track
@@ -20,7 +20,7 @@ EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Defined_Mass.0.<$0>
 ---
 
 obj=vehicle
-name=Car_Defined_Mass_50
+name=Car_Defined_Mass_0050
 weight=50
 copyright=Flemmbrav
 waytype=narrowgauge_track
@@ -41,7 +41,7 @@ EmptyImage[s,w,se,sw,n,e,nw,ne]=./image/Car_Defined_Mass.1.<$0>
 ---
 
 obj=vehicle
-name=Car_Defined_Mass_200
+name=Car_Defined_Mass_0200
 weight=200
 copyright=Flemmbrav
 waytype=narrowgauge_track
