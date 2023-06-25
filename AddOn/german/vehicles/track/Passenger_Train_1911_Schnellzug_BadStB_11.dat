@@ -1,0 +1,40 @@
+obj=vehicle
+name=Passenger_Train_1911_Schnellzug_BadStB_11_mixed_class
+# ABC4ü Bad 11
+# Gruppe 79d, Blatt 1
+copyright=Flemmbrav
+intro_year=1911
+intro_month=3
+retire_year=1923
+retire_month=0
+freight=Passagiere
+# https://de.wikipedia.org/wiki/Liste_badischer_Reisezugwagen#Beschaffungszeitraum_1906_bis_1921
+#  4 x 1. class
+# 18 x 2. class
+# 24 x 3. class
+# 46 total
+payload=46
+cost=5037648
+runningcost=458
+# Westinghouse-Bremse, Schnellbremse
+# weigth estimated
+weight=30
+# 
+speed=110
+# LÜP 18.200mm
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1911_Schnellzug_BadStB_11.0.1
+EmptyImage[E]=./image/Passenger_Train_1911_Schnellzug_BadStB_11.0.0
+EmptyImage[SE]=./image/Passenger_Train_1911_Schnellzug_BadStB_11.0.4
+EmptyImage[SW]=./image/Passenger_Train_1911_Schnellzug_BadStB_11.0.7
+EmptyImage[N]=./image/Passenger_Train_1911_Schnellzug_BadStB_11.0.3
+EmptyImage[W]=./image/Passenger_Train_1911_Schnellzug_BadStB_11.0.2
+EmptyImage[NW]=./image/Passenger_Train_1911_Schnellzug_BadStB_11.0.6
+EmptyImage[NE]=./image/Passenger_Train_1911_Schnellzug_BadStB_11.0.5
+
+---
+

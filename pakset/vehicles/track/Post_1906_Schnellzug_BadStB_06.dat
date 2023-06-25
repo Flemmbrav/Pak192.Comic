@@ -1,0 +1,36 @@
+obj=vehicle
+name=Post_1906_Schnellzug_BadStB_06
+# Pw4ü Bad 06
+# Gruppe 133c/d, Blatt 112
+# http://www.osterthun.com/0Laenderbahnen/Paeckwagen/L384900-RaRv.htm
+# https://www.modellbahn-fokus.de/product/H0/Liliput/Pakketwagon/4-6-0-001007-1187-0-nl-1-2-2-0-0-1-0-0/index.html
+copyright=Flemmbrav
+intro_year=1905
+intro_month=3
+retire_year=1928
+retire_month=3
+freight=Post
+# https://de.wikipedia.org/wiki/Liste_badischer_Reisezugwagen#Drehgestell_Gep%C3%A4ckwagen
+payload=1040
+cost=5037648
+runningcost=458
+# Westinghouse-Bremse, Schnellbremse
+# weigth estimated
+weight=32
+# 
+speed=110
+# LÜP 18.610mm
+# that'd lead to: length = 8.45...
+length=9
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Post_1906_Schnellzug_BadStB_06.0.1
+EmptyImage[E]=./image/Post_1906_Schnellzug_BadStB_06.0.0
+EmptyImage[SE]=./image/Post_1906_Schnellzug_BadStB_06.0.4
+EmptyImage[SW]=./image/Post_1906_Schnellzug_BadStB_06.0.7
+EmptyImage[N]=./image/Post_1906_Schnellzug_BadStB_06.0.3
+EmptyImage[W]=./image/Post_1906_Schnellzug_BadStB_06.0.2
+EmptyImage[NW]=./image/Post_1906_Schnellzug_BadStB_06.0.6
+EmptyImage[NE]=./image/Post_1906_Schnellzug_BadStB_06.0.5

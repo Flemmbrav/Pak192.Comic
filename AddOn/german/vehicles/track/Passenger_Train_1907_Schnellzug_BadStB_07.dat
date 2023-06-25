@@ -1,0 +1,74 @@
+obj=vehicle
+name=Passenger_Train_1907_Schnellzug_BadStB_07
+# C4ü Bad 07
+# Gruppe 11b, Blatt 20
+copyright=Flemmbrav
+intro_year=1907
+intro_month=3
+retire_year=1923
+retire_month=0
+freight=Passagiere
+# https://de.wikipedia.org/wiki/Liste_badischer_Reisezugwagen#Beschaffungszeitraum_1906_bis_1921
+# 64 x 3. class
+# 64 total
+payload=64
+cost=5037648
+runningcost=458
+# Westinghouse-Bremse, Schnellbremse
+# weigth estimated
+weight=34
+# 
+speed=110
+# LÜP 19.410mm
+length=9
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.0.1
+EmptyImage[E]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.0.0
+EmptyImage[SE]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.0.4
+EmptyImage[SW]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.0.7
+EmptyImage[N]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.0.3
+EmptyImage[W]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.0.2
+EmptyImage[NW]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.0.6
+EmptyImage[NE]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.0.5
+
+---
+
+obj=vehicle
+name=Passenger_Train_1907_Schnellzug_BadStB_07_first_class
+# AB4ü Bad 07
+# Gruppe 76^0, Blatt 13
+copyright=Flemmbrav
+intro_year=1907
+intro_month=3
+retire_year=1923
+retire_month=0
+freight=Passagiere
+# https://de.wikipedia.org/wiki/Liste_badischer_Reisezugwagen#Beschaffungszeitraum_1906_bis_1921
+# 8 x 1. class
+# 30 x 2. class
+# 38 total
+payload=38
+cost=5037648
+runningcost=458
+# Westinghouse-Bremse, Schnellbremse
+# weigth estimated
+weight=34
+# 
+speed=110
+# LÜP 19.610mm
+length=9
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.1.1
+EmptyImage[E]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.1.0
+EmptyImage[SE]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.1.4
+EmptyImage[SW]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.1.7
+EmptyImage[N]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.1.3
+EmptyImage[W]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.1.2
+EmptyImage[NW]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.1.6
+EmptyImage[NE]=./image/Passenger_Train_1907_Schnellzug_BadStB_07.1.5
