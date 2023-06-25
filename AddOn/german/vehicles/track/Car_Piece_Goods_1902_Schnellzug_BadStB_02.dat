@@ -1,0 +1,35 @@
+obj=vehicle
+name=Car_Post_1902_Schnellzug_BadStB_02
+# Pü3 Bad 02
+# Gruppe 133a, Blatt 114
+# Lookalikes are a guess sadly...
+copyright=Flemmbrav
+intro_year=1902
+intro_month=3
+retire_year=1928
+retire_month=3
+freight=flour
+# https://de.wikipedia.org/wiki/Liste_badischer_Reisezugwagen#Dreiachsige_Gep%C3%A4ckwagen
+payload=16
+cost=5037648
+runningcost=458
+# Westinghouse-Bremse, Schnellbremse
+# weigth estimated
+weight=25
+# 
+speed=110
+# LÜP 14.220mm
+# that'd lead to: length = 6.46...
+length=7
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Car_Post_1902_Schnellzug_BadStB_02.0.1
+EmptyImage[E]=./image/Car_Post_1902_Schnellzug_BadStB_02.0.0
+EmptyImage[SE]=./image/Car_Post_1902_Schnellzug_BadStB_02.0.4
+EmptyImage[SW]=./image/Car_Post_1902_Schnellzug_BadStB_02.0.7
+EmptyImage[N]=./image/Car_Post_1902_Schnellzug_BadStB_02.0.3
+EmptyImage[W]=./image/Car_Post_1902_Schnellzug_BadStB_02.0.2
+EmptyImage[NW]=./image/Car_Post_1902_Schnellzug_BadStB_02.0.6
+EmptyImage[NE]=./image/Car_Post_1902_Schnellzug_BadStB_02.0.5

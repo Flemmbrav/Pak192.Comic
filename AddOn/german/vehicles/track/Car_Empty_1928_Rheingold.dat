@@ -1,0 +1,28 @@
+obj=vehicle
+name=Rheingold_1928_3_Empty
+# SPw4ü
+copyright=Flemmbrav
+intro_year=1928
+intro_month=3
+retire_year=1940
+retire_month=0
+freight=Passagiere
+# https://www.rheingold-zug.com/packwagen-90-201.aspx
+payload=0
+cost=5037648
+runningcost=458
+weight=38
+speed=140
+length=9
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Car_Post_1928_Rheingold.0.1
+EmptyImage[E]=./image/Car_Post_1928_Rheingold.0.0
+EmptyImage[SE]=./image/Car_Post_1928_Rheingold.0.4
+EmptyImage[SW]=./image/Car_Post_1928_Rheingold.0.7
+EmptyImage[N]=./image/Car_Post_1928_Rheingold.0.3
+EmptyImage[W]=./image/Car_Post_1928_Rheingold.0.2
+EmptyImage[NW]=./image/Car_Post_1928_Rheingold.0.6
+EmptyImage[NE]=./image/Car_Post_1928_Rheingold.0.5

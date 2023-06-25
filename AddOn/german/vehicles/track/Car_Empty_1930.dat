@@ -1,0 +1,27 @@
+obj=vehicle
+name=Eilzugwagenwagen_1930_2_Empty
+# Pw4i-31
+copyright=Flemmbrav
+intro_year=1930
+intro_month=3
+retire_year=1937
+retire_month=0
+freight=Passagiere
+payload=0
+cost=5427984
+runningcost=493
+weight=47
+speed=100
+length=9
+waytype=narrowgauge_track
+loading_time=4930
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Car_Post_1930.0.1
+EmptyImage[E]=./image/Car_Post_1930.0.0
+EmptyImage[SE]=./image/Car_Post_1930.0.4
+EmptyImage[SW]=./image/Car_Post_1930.0.7
+EmptyImage[N]=./image/Car_Post_1930.0.3
+EmptyImage[W]=./image/Car_Post_1930.0.2
+EmptyImage[NW]=./image/Car_Post_1930.0.6
+EmptyImage[NE]=./image/Car_Post_1930.0.5
