@@ -1,5 +1,5 @@
 obj=vehicle
-name=Post_1906_Schnellzug_BadStB_06
+name=Car_Post_1906_Schnellzug_BadStB_06
 # Pw4ü Bad 06
 # Gruppe 133c/d, Blatt 112
 # http://www.osterthun.com/0Laenderbahnen/Paeckwagen/L384900-RaRv.htm
@@ -26,11 +26,11 @@ waytype=narrowgauge_track
 loading_time=4580
 constraint[prev][0]=any
 
-EmptyImage[S]=./image/Post_1906_Schnellzug_BadStB_06.0.1
-EmptyImage[E]=./image/Post_1906_Schnellzug_BadStB_06.0.0
-EmptyImage[SE]=./image/Post_1906_Schnellzug_BadStB_06.0.4
-EmptyImage[SW]=./image/Post_1906_Schnellzug_BadStB_06.0.7
-EmptyImage[N]=./image/Post_1906_Schnellzug_BadStB_06.0.3
-EmptyImage[W]=./image/Post_1906_Schnellzug_BadStB_06.0.2
-EmptyImage[NW]=./image/Post_1906_Schnellzug_BadStB_06.0.6
-EmptyImage[NE]=./image/Post_1906_Schnellzug_BadStB_06.0.5
+EmptyImage[S]=./image/Car_Post_1906_Schnellzug_BadStB_06.0.1
+EmptyImage[E]=./image/Car_Post_1906_Schnellzug_BadStB_06.0.0
+EmptyImage[SE]=./image/Car_Post_1906_Schnellzug_BadStB_06.0.4
+EmptyImage[SW]=./image/Car_Post_1906_Schnellzug_BadStB_06.0.7
+EmptyImage[N]=./image/Car_Post_1906_Schnellzug_BadStB_06.0.3
+EmptyImage[W]=./image/Car_Post_1906_Schnellzug_BadStB_06.0.2
+EmptyImage[NW]=./image/Car_Post_1906_Schnellzug_BadStB_06.0.6
+EmptyImage[NE]=./image/Car_Post_1906_Schnellzug_BadStB_06.0.5
