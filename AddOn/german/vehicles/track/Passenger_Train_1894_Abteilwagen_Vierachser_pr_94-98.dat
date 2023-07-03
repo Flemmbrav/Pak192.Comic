@@ -1,0 +1,130 @@
+# All vehicles with breaks
+# A/B 	coach		Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
+# A/B/C coach		Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
+# B 	coach		Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
+# C 	coach		Preuszischer_Bremser_und_Abteilwagen
+
+obj=vehicle
+name=Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
+# AB4 pr 94-98
+copyright=Flemmbrav
+intro_year=1894
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 2x5=10 x 1. class
+# original 31 x 2. class; coach is a bit shorter in simutrans though => 4*7=28
+# 0 x 3. class
+# original 41 total; coach is a bit shorter in simutrans though => 38
+payload=38
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=30
+# 
+speed=60
+# LÜP 18.200mm???
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1894_Abteilwagen_pr_94-98.0.<$0>
+
+---
+
+obj=vehicle
+name=Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
+# ABC4 pr 94-98
+copyright=Flemmbrav
+intro_year=1894
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 1x5=5 x 1. class
+# original X x 2. class; coach is a bit shorter in simutrans though => 3x7=21
+# 2x9=18 x 3. class
+# original 23+X total; coach is a bit shorter in simutrans though => 44
+payload=44
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=30
+# 
+speed=60
+# LÜP 18.200mm???
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1894_Abteilwagen_pr_94-98.1.<$0>
+
+---
+
+obj=vehicle
+name=Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
+# B4 pr 94-98
+copyright=Flemmbrav
+intro_year=1894
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 0 x 1. class
+# 6x7=42 x 2. class
+# 0 x 3. class
+# 42 total
+payload=42
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=30
+# 
+speed=60
+# LÜP 18.200mm???
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1894_Abteilwagen_pr_94-98.2.<$0>
+
+---
+
+obj=vehicle
+name=Preuszischer_Bremser_und_Abteilwagen
+# C4 pr 94-98
+copyright=Flemmbrav
+intro_year=1894
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 0 x 1. class
+# 0 x 2. class
+# 6x9=54 x 3. class
+# 54 total
+payload=54
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=30
+# 
+speed=60
+# LÜP 18.200mm???
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1894_Abteilwagen_pr_94-98.3.<$0>
+
+---
+

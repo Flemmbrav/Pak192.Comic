@@ -1,0 +1,286 @@
+# All vehicles both 	with 												and without breakes
+# A/B coaches			Passenger_Train_1891_Dreiachser_AB3_pr_91H 			Passenger_Train_1891_Dreiachser_AB3_pr_91
+# B   coaches			Passenger_Train_1891_Dreiachser_B3_pr_91H 			Passenger_Train_1891_Dreiachser_B3_pr_91
+# C   coaches			Preuszischer_Bremser_und_Abteilwagen_2_achsig 		PreuszischerAbteilwagen_2_achsig
+# D   coaches			Passenger_Train_1891_Dreiachser_D3_pr_91H 			Passenger_Train_1891_Dreiachser_D3_pr_91
+
+# breakes/couples with as well:
+
+# Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
+# Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
+# Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
+# Preuszischer_Bremser_und_Abteilwagen
+
+obj=vehicle
+name=Passenger_Train_1891_Dreiachser_AB3_pr_91
+# AB3 pr 91
+copyright=Flemmbrav
+intro_year=1891
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 1x5= 5 x 1. class
+# 4x6=24 x 2. class
+# 1 toilet
+# 30 total
+payload=30
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=24
+# 
+speed=60
+# LÜP 13.400mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+constraint[next][0]=Passenger_Train_1891_Dreiachser_AB3_pr_91H
+constraint[next][1]=Passenger_Train_1891_Dreiachser_B3_pr_91H
+constraint[next][2]=Preuszischer_Bremser_und_Abteilwagen_2_achsig
+constraint[next][3]=Passenger_Train_1891_Dreiachser_D3_pr_91H
+constraint[next][4]=Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
+constraint[next][5]=Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
+constraint[next][6]=Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
+constraint[next][7]=Preuszischer_Bremser_und_Abteilwagen
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.1.<$0>
+
+---
+
+obj=vehicle
+name=Passenger_Train_1891_Dreiachser_AB3_pr_91H
+# AB3 pr 91H
+copyright=Flemmbrav
+intro_year=1891
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 1x5= 5 x 1. class
+# 4x6=24 x 2. class
+# 29 total
+payload=29
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=26
+# 
+speed=60
+# LÜP 13.400mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.0.<$0>
+
+---
+
+
+obj=vehicle
+name=Passenger_Train_1891_Dreiachser_B3_pr_91
+# B3 pr 91
+copyright=Flemmbrav
+intro_year=1891
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 5x6=30 x 2. class
+# 1 toilet
+# 31 total
+payload=31
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=24
+# 
+speed=60
+# LÜP 13.400mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+constraint[next][0]=Passenger_Train_1891_Dreiachser_AB3_pr_91H
+constraint[next][1]=Passenger_Train_1891_Dreiachser_B3_pr_91H
+constraint[next][2]=Preuszischer_Bremser_und_Abteilwagen_2_achsig
+constraint[next][3]=Passenger_Train_1891_Dreiachser_D3_pr_91H
+constraint[next][4]=Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
+constraint[next][5]=Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
+constraint[next][6]=Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
+constraint[next][7]=Preuszischer_Bremser_und_Abteilwagen
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.3.<$0>
+
+---
+
+obj=vehicle
+name=Passenger_Train_1891_Dreiachser_B3_pr_91H
+# B3 pr 91H
+copyright=Flemmbrav
+intro_year=1891
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 5x6=30 x 2. class
+# 30 total
+payload=30
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=26
+# 
+speed=60
+# LÜP 13.400mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.2.<$0>
+
+---
+
+
+obj=vehicle
+name=Preuszischer_Abteilwagen_2_achsig
+# C3 pr 91
+copyright=Flemmbrav
+intro_year=1891
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 5x8=40 x 3. class
+# 1 toilet
+# 41 total
+payload=41
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=24
+# 
+speed=60
+# LÜP 13.400mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+constraint[next][0]=Passenger_Train_1891_Dreiachser_AB3_pr_91H
+constraint[next][1]=Passenger_Train_1891_Dreiachser_B3_pr_91H
+constraint[next][2]=Preuszischer_Bremser_und_Abteilwagen_2_achsig
+constraint[next][3]=Passenger_Train_1891_Dreiachser_D3_pr_91H
+constraint[next][4]=Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
+constraint[next][5]=Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
+constraint[next][6]=Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
+constraint[next][7]=Preuszischer_Bremser_und_Abteilwagen
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.5.<$0>
+
+---
+
+obj=vehicle
+name=Preuszischer_Bremser_und_Abteilwagen_2_achsig
+# AB3 pr 91H
+copyright=Flemmbrav
+intro_year=1891
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 5x8=40 x 3. class
+# 40 total
+payload=40
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=26
+# 
+speed=60
+# LÜP 13.400mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.4.<$0>
+
+---
+
+
+obj=vehicle
+name=Passenger_Train_1891_Dreiachser_D3_pr_91
+# D3 pr 91
+copyright=Flemmbrav
+intro_year=1891
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 5x10=50 x 4. class
+# 1 toilet
+# 51 total
+payload=51
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=24
+# 
+speed=60
+# LÜP 13.400mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+constraint[next][0]=Passenger_Train_1891_Dreiachser_AB3_pr_91H
+constraint[next][1]=Passenger_Train_1891_Dreiachser_B3_pr_91H
+constraint[next][2]=Preuszischer_Bremser_und_Abteilwagen_2_achsig
+constraint[next][3]=Passenger_Train_1891_Dreiachser_D3_pr_91H
+constraint[next][4]=Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
+constraint[next][5]=Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
+constraint[next][6]=Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
+constraint[next][7]=Preuszischer_Bremser_und_Abteilwagen
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.7.<$0>
+
+---
+
+obj=vehicle
+name=Passenger_Train_1891_Dreiachser_D3_pr_91H
+# D3 pr 91H
+copyright=Flemmbrav
+intro_year=1891
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 5x10=50 x 4. class
+# 50 total
+payload=50
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=26
+# 
+speed=60
+# LÜP 13.400mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.6.<$0>
+
+---
+
