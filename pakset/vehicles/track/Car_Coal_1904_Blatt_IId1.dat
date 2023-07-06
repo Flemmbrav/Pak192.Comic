@@ -1,0 +1,32 @@
+obj=vehicle
+name=Car_Coal_1904_Blatt_IId1
+# KPEV Blatt IId1
+copyright=Flemmbrav
+intro_year=1904
+intro_month=3
+retire_year=1913
+retire_month=3
+freight=coal
+payload=15
+cost=50376
+runningcost=45
+# weigth estimated
+weight=9
+# 
+speed=45
+length=3
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+freightimagetype[0]=coal
+freightimagetype[1]=ore
+freightimagetype[2]=sand
+freightimagetype[3]=gravel
+freightimagetype[4]=salt
+freightimagetype[5]=limestone
+freightimagetype[6]=plastics
+freightimagetype[7]=copper
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Coal_1904_KPEV_Blatt_IId1.0.<$0>
+FreightImage[0-7][S,W,SE,SW,N,E,NW,NE]=./image/Car_Coal_1904_KPEV_Blatt_IId1.<$0+1>.<$1>
