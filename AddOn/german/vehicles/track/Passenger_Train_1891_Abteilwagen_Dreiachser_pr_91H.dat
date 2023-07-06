@@ -31,7 +31,7 @@ runningcost=45
 # weigth estimated
 weight=24
 # 
-speed=60
+speed=80
 # LÜP 13.400mm
 length=6
 waytype=narrowgauge_track
@@ -69,7 +69,7 @@ runningcost=45
 # weigth estimated
 weight=26
 # 
-speed=60
+speed=80
 # LÜP 13.400mm
 length=6
 waytype=narrowgauge_track
@@ -100,7 +100,7 @@ runningcost=45
 # weigth estimated
 weight=24
 # 
-speed=60
+speed=80
 # LÜP 13.400mm
 length=6
 waytype=narrowgauge_track
@@ -137,7 +137,7 @@ runningcost=45
 # weigth estimated
 weight=26
 # 
-speed=60
+speed=80
 # LÜP 13.400mm
 length=6
 waytype=narrowgauge_track
@@ -168,7 +168,7 @@ runningcost=45
 # weigth estimated
 weight=24
 # 
-speed=60
+speed=80
 # LÜP 13.400mm
 length=6
 waytype=narrowgauge_track
@@ -205,7 +205,7 @@ runningcost=45
 # weigth estimated
 weight=26
 # 
-speed=60
+speed=80
 # LÜP 13.400mm
 length=6
 waytype=narrowgauge_track
@@ -236,7 +236,7 @@ runningcost=45
 # weigth estimated
 weight=24
 # 
-speed=60
+speed=80
 # LÜP 13.400mm
 length=6
 waytype=narrowgauge_track
@@ -273,7 +273,7 @@ runningcost=45
 # weigth estimated
 weight=26
 # 
-speed=60
+speed=80
 # LÜP 13.400mm
 length=6
 waytype=narrowgauge_track

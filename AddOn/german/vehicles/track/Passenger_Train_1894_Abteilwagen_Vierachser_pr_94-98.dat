@@ -24,7 +24,7 @@ runningcost=45
 # weigth estimated
 weight=30
 # 
-speed=60
+speed=90
 # LÜP 18.200mm???
 length=8
 waytype=narrowgauge_track
@@ -55,7 +55,7 @@ runningcost=45
 # weigth estimated
 weight=30
 # 
-speed=60
+speed=90
 # LÜP 18.200mm???
 length=8
 waytype=narrowgauge_track
@@ -86,7 +86,7 @@ runningcost=45
 # weigth estimated
 weight=30
 # 
-speed=60
+speed=90
 # LÜP 18.200mm???
 length=8
 waytype=narrowgauge_track
@@ -117,7 +117,7 @@ runningcost=45
 # weigth estimated
 weight=30
 # 
-speed=60
+speed=90
 # LÜP 18.200mm???
 length=8
 waytype=narrowgauge_track
