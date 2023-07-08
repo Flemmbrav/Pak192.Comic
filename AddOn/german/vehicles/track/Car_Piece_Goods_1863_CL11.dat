@@ -23,6 +23,3 @@ EmptyImage[NE]=./image/EP1_CL11_Post.1.1
 EmptyImage[NW]=./image/EP1_CL11_Post.1.2
 EmptyImage[SW]=./image/EP1_CL11_Post.1.3
 constraint[prev][0]=any
-constraint[next][0]=EP1_CL11
-constraint[next][1]=EP1_CL11_Post
-constraint[next][2]=none
