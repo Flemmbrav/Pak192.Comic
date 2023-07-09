@@ -1,21 +1,20 @@
 obj=vehicle
-name=Car_Coal_1912_Blatt_A6
-# KPEV Blatt A6
-# https://de.wikipedia.org/wiki/G%C3%BCterwagen_der_Verbandsbauart#A6_%E2%80%93_Kohlenwagen
+name=Car_Coal_1883_Blatt_IIb2
+# KPEV Blatt IIb2
 copyright=Flemmbrav
-intro_year=1912
+intro_year=1883
 intro_month=3
-retire_year=1928
+retire_year=1905
 retire_month=3
 freight=coal
-payload=15
+payload=12
 cost=50376
 runningcost=45
-# Wiki states 7.3t
-weight=7
+# weigth estimated
+weight=9
 # 
 speed=45
-length=3
+length=4
 waytype=narrowgauge_track
 loading_time=4580
 constraint[prev][0]=any
@@ -29,5 +28,5 @@ freightimagetype[5]=limestone
 freightimagetype[6]=plastics
 freightimagetype[7]=copper
 
-EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Coal_1912_KPEV_Blatt_A6.0.<$0>
-FreightImage[0-7][S,W,SE,SW,N,E,NW,NE]=./image/Car_Coal_1912_KPEV_Blatt_A6.<$0+1>.<$1>
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Coal_1883_KPEV_Blatt_IIb2.0.<$0>
+FreightImage[0-7][S,W,SE,SW,N,E,NW,NE]=./image/Car_Coal_1883_KPEV_Blatt_IIb2.<$0+1>.<$1>

@@ -1,0 +1,29 @@
+obj=vehicle
+name=Car_Apple_1878_Blatt_10
+# KPEV Blatt 10
+copyright=Flemmbrav
+intro_year=1850
+intro_month=3
+retire_year=1905
+retire_month=3
+freight=apples
+payload=10
+cost=50376
+runningcost=45
+# weigth estimated
+weight=8
+# 
+speed=45
+length=4
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+freightimagetype[0]=apples
+freightimagetype[1]=hop
+freightimagetype[2]=potatoes
+freightimagetype[3]=coca_leaves
+freightimagetype[4]=beets
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Apple_1878_KPEV_Blatt_10.0.<$0>
+FreightImage[0-4][S,W,SE,SW,N,E,NW,NE]=./image/Car_Apple_1878_KPEV_Blatt_10.<$0+1>.<$1>

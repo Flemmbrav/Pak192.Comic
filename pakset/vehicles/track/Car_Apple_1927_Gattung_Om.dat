@@ -1,0 +1,31 @@
+obj=vehicle
+name=Car_Apple_1927_Gattung_Om
+# DRG Gattung Om, Austauschbauart
+# https://de.wikipedia.org/wiki/G%C3%BCterwagen_der_Austauschbauart#Offener_G%C3%BCterwagen
+# https://www.brawa.de/fanwelt/online-museum/h0/gueterwagen-h0/48419-offene-gueterwagen-om-koenigsberg-drg-3er-set/
+copyright=Flemmbrav
+intro_year=1927
+intro_month=3
+retire_year=1940
+retire_month=3
+freight=apples
+payload=20
+cost=50376
+runningcost=45
+# weigth estimated
+weight=9
+# 
+speed=65
+length=4
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+freightimagetype[0]=apples
+freightimagetype[1]=hop
+freightimagetype[2]=potatoes
+freightimagetype[3]=coca_leaves
+freightimagetype[4]=beets
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Apple_1927_Gattung_Om.0.<$0>
+FreightImage[0-4][S,W,SE,SW,N,E,NW,NE]=./image/Car_Apple_1927_Gattung_Om.<$0+1>.<$1>

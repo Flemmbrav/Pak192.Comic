@@ -1,0 +1,30 @@
+obj=vehicle
+name=Car_Apple_1911_Blatt_A1
+# KPEV Blatt A1
+# https://de.wikipedia.org/wiki/G%C3%BCterwagen_der_Verbandsbauart#A1_%E2%80%93_Offener_G%C3%BCterwagen
+copyright=Flemmbrav
+intro_year=1911
+intro_month=3
+retire_year=1928
+retire_month=3
+freight=apples
+payload=15
+cost=50376
+runningcost=45
+# weigth estimated
+weight=9
+# 
+speed=45
+length=4
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+freightimagetype[0]=apples
+freightimagetype[1]=hop
+freightimagetype[2]=potatoes
+freightimagetype[3]=coca_leaves
+freightimagetype[4]=beets
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Apple_1911_KPEV_Blatt_A1.0.<$0>
+FreightImage[0-4][S,W,SE,SW,N,E,NW,NE]=./image/Car_Apple_1911_KPEV_Blatt_A1.<$0+1>.<$1>

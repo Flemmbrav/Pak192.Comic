@@ -1,0 +1,24 @@
+obj=vehicle
+name=Car_Agriculture_1924_Gattung_K
+# DRG Gattung K
+# https://de.wikipedia.org/wiki/G%C3%BCterwagen_der_Austauschbauart#Klappdeckelwagen
+copyright=Flemmbrav
+intro_year=1924
+intro_month=3
+retire_year=1940
+retire_month=3
+freight=grain
+payload=15
+cost=50376
+runningcost=45
+# weigth estimated
+weight=9
+# 
+speed=65
+length=4
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Agriculture_1924_Gattung_K.0.<$0>
+#FreightImage[0-4][S,W,SE,SW,N,E,NW,NE]=./image/Car_Agriculture_1924_Gattung_K.<$0+1>.<$1>

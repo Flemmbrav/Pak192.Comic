@@ -1,0 +1,34 @@
+obj=vehicle
+name=Car_Coal_1927_Gattung_Om
+# DRG Gattung Om, Austauschbauart
+# https://de.wikipedia.org/wiki/G%C3%BCterwagen_der_Austauschbauart#Offener_G%C3%BCterwagen
+# https://www.brawa.de/fanwelt/online-museum/h0/gueterwagen-h0/48419-offene-gueterwagen-om-koenigsberg-drg-3er-set/
+copyright=Flemmbrav
+intro_year=1927
+intro_month=3
+retire_year=1940
+retire_month=3
+freight=coal
+payload=20
+cost=50376
+runningcost=45
+# weight estimated
+weight=9
+# 
+speed=65
+length=4
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+freightimagetype[0]=coal
+freightimagetype[1]=ore
+freightimagetype[2]=sand
+freightimagetype[3]=gravel
+freightimagetype[4]=salt
+freightimagetype[5]=limestone
+freightimagetype[6]=plastics
+freightimagetype[7]=copper
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Coal_1927_Gattung_Om.0.<$0>
+FreightImage[0-7][S,W,SE,SW,N,E,NW,NE]=./image/Car_Coal_1927_Gattung_Om.<$0+1>.<$1>

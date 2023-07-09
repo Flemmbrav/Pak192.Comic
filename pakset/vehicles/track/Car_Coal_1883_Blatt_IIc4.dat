@@ -2,7 +2,7 @@ obj=vehicle
 name=Car_Coal_1883_Blatt_IIc4
 # KPEV Blatt IIc4
 copyright=Flemmbrav
-intro_year=1850
+intro_year=1883
 intro_month=3
 retire_year=1905
 retire_month=3
@@ -11,7 +11,7 @@ payload=10
 cost=50376
 runningcost=45
 # weigth estimated
-weight=7
+weight=5
 # 
 speed=45
 length=3
