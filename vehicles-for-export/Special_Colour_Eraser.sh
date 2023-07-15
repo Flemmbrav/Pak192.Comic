@@ -67,6 +67,35 @@ decide_colours() {
 		convertpng $oldimage ${farbset_rot[@]} ${farbset_gruen[@]}
 	fi
 }
+decide_colours_slow() {
+
+	local oldimage=$1
+
+	#if [[ $oldimage =~ "EW_IV" ]] ; then
+	#	convertpng $oldimage ${farbset_rot[@]} ${farbset_dunkelgruen[@]}
+	#elif [[ $oldimage =~ "U-Bahn_Hamburg" || $oldimage =~ "_DB" ]] ; then
+	if [[ $oldimage =~ "U-Bahn_Hamburg" || $oldimage =~ "_DB" ]] ; then
+		convertpngslow $oldimage ${farbset_rot[@]} ${farbset_knallgelb[@]}
+	elif [[ $oldimage =~ "CD_"  || $oldimage =~ "U-Bahn_Munchen" || $oldimage =~ "4010" || $oldimage =~ "4020" || $oldimage =~ "LNVG" || $oldimage =~ "Electric_2019_Desiro_ML_ODEG" || $oldimage =~ "Railpool" || $oldimage =~ "boxxpress" || $oldimage =~ "Electric_1998_BR_425-426_BOB" || $oldimage =~ "Electric_1998_BR_423_BWegt" || $oldimage =~ "Electric_2014_BR_430_BWegt" || $oldimage =~ "Interregio_1988" || $oldimage =~ "Hydrogene_1997_Simutrans_Logo" || $oldimage =~ "_RBH" ]] ; then
+		convertpngslow $oldimage ${farbset_blau[@]} ${farbset_knallgelb[@]}
+	elif [[ $oldimage =~ "Railjet" ]] ; then
+		convertpngslow $oldimage ${farbset_rot[@]} ${farbset_dunkelrot[@]}
+	elif [[ $oldimage =~ "BWegt" || $oldimage =~ "bwsp" || $oldimage =~ "U-Bahn_Berlin"  || $oldimage =~ "SSB" || $oldimage =~ "E-BV" || $oldimage =~ "Eurostar" || $oldimage =~ "EVAG_P89" || $oldimage =~ "Electric_2007_Desiro_ML_TDR" ]] ; then
+		convertpngslow $oldimage ${farbset_knallgelb[@]} ${farbset_blau[@]}
+	elif [[ $oldimage =~ "GYSEV" || $oldimage =~ "Electric_2008_BR_422_VRR" ]] ; then
+		convertpngslow $oldimage ${farbset_gruen[@]} ${farbset_knallgelb[@]}
+	elif [[ $oldimage =~ "DSB" ]] ; then
+		convertpngslow $oldimage ${farbset_rot[@]} ${farbset_dunkelblau[@]}
+	elif [[ $oldimage =~ "SVT" || $oldimage =~ "henschel-wegmann" || $oldimage =~ "Rheingold_1928" ]] ; then
+		convertpngslow $oldimage ${farbset_lila[@]} ${farbset_rot[@]}
+	elif [[ $oldimage =~ "E231-500" || $oldimage =~ "E235-0" || $oldimage =~ "Ustra" || $oldimage =~ "Nordbahn" ]] ; then
+		convertpngslow $oldimage ${farbset_gruen[@]} ${farbset_gruen[@]}
+	elif [[ $oldimage =~ "Stadtbahn_Frankfurt_U4" || $oldimage =~ "Stadtbahn_Frankfurt_U5" || $oldimage =~ "Electric_2004_Flirt" || $oldimage =~ "Electric_2014_Flirt3" || $oldimage =~ "NahSH" || $oldimage =~ "NahSh" || $oldimage =~ "nahsh" || $oldimage =~ "AlphaTrains" || $oldimage =~ "Mintling" || $oldimage =~ "_Alex" ]] ; then
+		convertpngslow $oldimage ${farbset_tuerkies[@]} ${farbset_gelb[@]}
+	else
+		convertpng $oldimage ${farbset_rot[@]} ${farbset_gruen[@]}
+	fi
+}
 
 readallfiles() {
 	local directionary=$1
@@ -78,7 +107,7 @@ readallfiles() {
 
 	  		if [ -f "$png" ] ; then
 				echo "-- Performing Work At: $png "
-				decide_colours $png
+				decide_colours_slow $png
 			fi
 		done
 	fi
