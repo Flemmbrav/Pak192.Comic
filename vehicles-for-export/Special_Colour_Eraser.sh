@@ -93,7 +93,7 @@ decide_colours_slow() {
 	elif [[ $oldimage =~ "Stadtbahn_Frankfurt_U4" || $oldimage =~ "Stadtbahn_Frankfurt_U5" || $oldimage =~ "Electric_2004_Flirt" || $oldimage =~ "Electric_2014_Flirt3" || $oldimage =~ "NahSH" || $oldimage =~ "NahSh" || $oldimage =~ "nahsh" || $oldimage =~ "AlphaTrains" || $oldimage =~ "Mintling" || $oldimage =~ "_Alex" ]] ; then
 		convertpngslow $oldimage ${farbset_tuerkies[@]} ${farbset_gelb[@]}
 	else
-		convertpng $oldimage ${farbset_rot[@]} ${farbset_gruen[@]}
+		convertpngslow $oldimage ${farbset_rot[@]} ${farbset_gruen[@]}
 	fi
 }
 
