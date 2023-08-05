@@ -86,6 +86,8 @@ decide_colours_slow() {
 		convertpngslow $oldimage ${farbset_gruen[@]} ${farbset_knallgelb[@]}
 	elif [[ $oldimage =~ "DSB" ]] ; then
 		convertpngslow $oldimage ${farbset_rot[@]} ${farbset_dunkelblau[@]}
+	elif [[ $oldimage =~ "SNCB_M7" || $oldimage =~ "SNCB_M6" || $oldimage =~ "SNCB_I10" || $oldimage =~ "SNCB_I6" ||  $oldimage =~ "SNCB_HLE18" || $oldimage =~ "SNCB_Dms" || $oldimage =~ "SNCB_AM08" || $oldimage =~ "SNCB_199X" || $oldimage =~ "Post_2000_Dms" || $oldimage =~ "Passenger_Train_2020_M7" || $oldimage =~ "Passenger_Train_2018_I6" || $oldimage =~ "Passenger_Train_2002_M6" || $oldimage =~ "Passenger_Train_2000_I10" || $oldimage =~ "Passenger_Train_2000_I6" || $oldimage =~ "Passenger_Train_1996_I11" || $oldimage =~ "Lokomotive_2026_HLE17" || $oldimage =~ "Lokomotive_2008_HLE18" || $oldimage =~ "Electric_1996_AM96" || $oldimage =~ "Lokomotive_1997_HLE13" || $oldimage =~ "Transdev" || $oldimage =~ "EVAG_P86" ]] ; then
+		convertpngslow $oldimage ${farbset_rot[@]} ${farbset_blau[@]}
 	elif [[ $oldimage =~ "SVT" || $oldimage =~ "henschel-wegmann" || $oldimage =~ "Rheingold_1928" ]] ; then
 		convertpngslow $oldimage ${farbset_lila[@]} ${farbset_rot[@]}
 	elif [[ $oldimage =~ "E231-500" || $oldimage =~ "E235-0" || $oldimage =~ "Ustra" || $oldimage =~ "Nordbahn" ]] ; then
@@ -93,7 +95,7 @@ decide_colours_slow() {
 	elif [[ $oldimage =~ "Stadtbahn_Frankfurt_U4" || $oldimage =~ "Stadtbahn_Frankfurt_U5" || $oldimage =~ "Electric_2004_Flirt" || $oldimage =~ "Electric_2014_Flirt3" || $oldimage =~ "NahSH" || $oldimage =~ "NahSh" || $oldimage =~ "nahsh" || $oldimage =~ "AlphaTrains" || $oldimage =~ "Mintling" || $oldimage =~ "_Alex" ]] ; then
 		convertpngslow $oldimage ${farbset_tuerkies[@]} ${farbset_gelb[@]}
 	else
-		convertpngslow $oldimage ${farbset_rot[@]} ${farbset_gruen[@]}
+		convertpngslow $oldimage ${farbset_rot[@]} ${farbset_dunkelgruen[@]}
 	fi
 }
 
