@@ -1,0 +1,30 @@
+obj=vehicle
+name=Lokomotive_1914_Badische_VI_c
+# original livery
+# https://www.lindenberg-modellbahn-koeln.de/modelleisenbahn-1/m%C3%A4rklin-dampfloks-3f/m%C3%A4rklin-spur-1-depot-55751-badische-vic-dampflok-k0q.html
+# http://www.osterthun.com/2d.models60-79/pic.75.4~Bad934-M55751-Hae-Rv.htm
+# http://www.diehugs.de/Lokomotiven/Regelspurlokomotiven/Auswahl/Bad__VIc/bad__vic.html
+copyright=Flemmbrav
+intro_year=1914
+intro_month=1
+retire_year=1940
+retire_month=1
+smoke=Steam3
+#sound=BR18_3_pfeife.wav
+cost=38883631
+runningcost=636
+weight=76
+speed=90
+#580kW sind spezifiziert
+power=580
+#    "In der Ebene sah das Leistungsprogramm die Beförderung eines 350 t schweren Zuges mit 80 km/h vor."
+#    https://de.wikipedia.org/wiki/Badische_VI_c
+#    That is reached with gear=315
+gear=315
+length=6
+waytype=narrowgauge_track
+engine_type=steam
+EmptyImage[E,S,W,N,SE,SW,NW,NE]=./image/Lokomotive_1914_Badische_VI_c.0.<$0>
+#Image[E,S,W,N,SE,SW,NW,NE][0]=./image/Lokomotive_1914_Badische_VI_c.0.<$0>
+#Image[E,S,W,N,SE,SW,NW,NE][1]=./image/Lokomotive_1914_Badische_VI_c.0.<$0>
+#steps_per_frame=4
