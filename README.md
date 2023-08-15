@@ -1,7 +1,19 @@
 # Pak192.Comic
 ![logo](pakset/UI/128/images/big_logo_25_years.png)
 
-Pakset and theme for Simutrans
+## Pakset and theme for Simutrans
+
+> Simutrans is a freeware and open-source transportation simulator. Your goal is to establish a successful transport company. Transport passengers, mail and goods by rail, road, ship, and even air. Interconnect districts, cities, public buildings, industries and tourist attractions by building a transport network you always dreamed of.
+
+For more about Simutrans, see https://www.simutrans.com/en/ .
+
+Pak192.Comic is a so called "pakset" for Simutrans.
+This package offers all the objects that appear in the game (buildings, stations, goods, vehicles, trees, etc...) as well as a complete pricing / balancing as well as a theme for the graphical interface.
+Or in short: almost everything you see and interact with as a user can / will be changed to a custom Pak192.Comic version of it.
+
+So how does it look like?
+![screenshot](screenshots/Small_City_during_the_1920s.png)
+For more screenshots check the screenshot folder in this repository or [the screenshot discussion on the forums](https://forum.simutrans.com/index.php/topic,2445.msg203871.html#new).
 
 ## Run the pakset
 
@@ -12,8 +24,8 @@ Pakset and theme for Simutrans
 	1. Additionally you can download an addonset from the same page. This addon set does not include all addons there are.
 	2. Or download yourself an old version from [the forum.](https://forum.simutrans.com/index.php?board=120.0)
 2. Unzip the pakset.
-3. Copy the unzipped pakset in your Simutrans game folder.
-	1. If you did download the addon set as well, put them in your addon folder in your user directionary. On Windows this folder appears at C:\Users\[User]\Documents\Simutrans\addons
+3. Copy the unzipped pakset in your Simutrans game folder. On Windiws this folder is your installation folder. On Linux this folder appears at /home/[user]/simutrans/paksets/
+	1. If you did download the addon set as well, put them in your addon folder in your user directionary. On Windows this folder appears at C:\Users\[User]\Documents\Simutrans\addons. On Linux this folder appears at /home/[user]/simutrans/addons/.
 	2. Remane the new folder in the addon directionary to the same name that you use for the folder in the game file directionary.
 4. Start Simutrans the way you did before, and you'll see a menu asking you for a pakset to run. Select the new added folder to run this pakset.
 	1. If you did install the addons as well, there should be a button to start the game with them as well.
@@ -35,8 +47,8 @@ Pakset and theme for Simutrans
 3. Start compile with preconfigured compiler :
 	1. ~~To compile under windows, run the **`COMPILE.ps1`** via PowerShell.~~
 	2. To compile under unix:
-        - run the **`DatConverter.sh`**.
-        - run the **`COMPILE_Converted.sh`**.
+        - first run the **`DatConverter.sh`**.
+        - after that, run the **`COMPILE_Converted.sh`**.
 4. Copy the folder named **compiled_converted** in your usual Simutrans game folder and rename it to **Pak192.Comic**.
 5. Start Simutrans the way you did before, and you'll see a menu asking you for a pakset to run. Select **Pak192.Comic** to run this pakset.
 6. Happy playing.
