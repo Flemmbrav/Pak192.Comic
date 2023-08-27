@@ -1,0 +1,12 @@
+obj=building
+name=track_depot_with_yellow_bricks
+copyright=Leartin
+type=depot
+waytype=narrowgauge_track
+intro_year=1835
+intro_year=1939
+icon=> ./images/track_depot_with_yellow_bricks.0.4
+cursor=./images/track_depot_with_yellow_bricks.1.4
+Dims=1,1,4
+BackImage[0-3][0][0][0][0][0-1]=./images/track_depot_with_yellow_bricks.<$1*2>.<$0>
+FrontImage[0-3][0][0][0][0][0-1]=./images/track_depot_with_yellow_bricks.<$1*2+1>.<$0>
