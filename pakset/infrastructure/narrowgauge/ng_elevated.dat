@@ -2,12 +2,12 @@ obj=way
 waytype=track
 system_type=1
 name=narrowgauge_elevated
-copyright=Leartin
+copyright=NullReferenceException
 intro_month=2
-intro_year=1997
-cost=9000000
-maintenance=17500
-topspeed=600
+intro_year=1940
+cost=123730
+maintenance=14746
+topspeed=80
 
 Image[NS][0]=./images/ng_elevated_80.0.0,0,48
 Image[EW][0]=./images/ng_elevated_80.0.1,0,48
