@@ -1,0 +1,65 @@
+# Old S-Bahn Hamburg
+
+obj=vehicle
+name=Electric_1907_S-Bahn_551_Altona
+# 551 Altona
+# https://de.wikipedia.org/wiki/Preu%C3%9Fischer_551/552_Altona_bis_669/670_Altona
+copyright=Flemmbrav
+intro_year=1907
+intro_month=3
+retire_year=1925
+retire_month=4
+freight=Passagiere
+# 126 total on both cars
+payload=60
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=44
+engine_type=electric
+power=170
+gear=100
+speed=50
+# LÜP 14.000mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=Electric_1907_S-Bahn_552_Altona
+constraint[prev][1]=none
+constraint[next][0]=Electric_1907_S-Bahn_552_Altona
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1907_S-Bahn_551_552_Altona.0.<$0>
+
+---
+
+obj=vehicle
+name=Electric_1907_S-Bahn_552_Altona
+# 552 Altona
+# https://de.wikipedia.org/wiki/Preu%C3%9Fischer_551/552_Altona_bis_669/670_Altona
+copyright=Flemmbrav
+intro_year=1907
+intro_month=3
+retire_year=1925
+retire_month=4
+freight=Passagiere
+# 126 total on both cars
+payload=66
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=26
+engine_type=electric
+power=85
+gear=100
+# 
+speed=50
+# LÜP 14.000mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=Electric_1907_S-Bahn_551_Altona
+constraint[next][0]=Electric_1907_S-Bahn_551_Altona
+constraint[next][1]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1907_S-Bahn_551_552_Altona.1.<$0>
+
