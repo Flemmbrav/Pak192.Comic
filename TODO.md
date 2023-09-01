@@ -2,8 +2,9 @@
 
 - [ ] city road
 - [ ] city highway
-- [ ] 130 km/h elevated way
+- [X] 130 km/h elevated way
 - [ ] modern trolley bus
+- [ ] pedestrian street
 
 ### Track
 
