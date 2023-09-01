@@ -1,0 +1,29 @@
+
+obj=vehicle
+name=Passenger_Train_1921_Abteilwagen
+# C21
+# third class coach
+# https://www.fhwe.de/zuzzz/personenwagen_541_326.html
+# https://www.vvm-museumsbahn.de/?id=ss-C271
+# https://www.elriwa.de/Schirmer-70001-2er-Set-Einheits-Abteilwagen-D21b-und-BC-21-DRG-Ep.II/A269651
+copyright=Flemmbrav
+intro_year=1921
+intro_month=3
+retire_year=1931
+retire_month=0
+freight=Passagiere
+payload=52
+cost=5037648
+runningcost=45
+weight=18
+# 
+speed=90
+# LÜP 13.920mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1921_Abteilwagen.0.<$0>
+
+---
