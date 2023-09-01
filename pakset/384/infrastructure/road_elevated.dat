@@ -18,4 +18,3 @@ Image[NW,NE,SE,SW][0-1]=./images/road_elevated.<$0+$1*4>.3,-2,0
 Diagonal[NW,NE,SE,SW][0-1]=./images/road_elevated.<$0+$1*4>.4,-2,0
 ImageUp[3,6,9,12][0-1]=./images/road_elevated.<$0/3-1+$1*4>.5,-2,0
 ImageUp2[3,6,9,12][0-1]=./images/road_elevated.<$0/3-1+$1*4>.6,-2,0
------------------------
