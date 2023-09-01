@@ -23,13 +23,13 @@ obj=way
 name=road_elevated_130
 waytype=road
 system_type=1
-copyright=Leartin
+copyright=Leartin & NullReferenceException
 intro_year=1945
 cost=250000
 maintenance=12500
 topspeed=130
-cursor=./images/road_elevated_ic.0.1
-icon=> ./images/road_elevated_ic.0.0
+cursor=./images/road_elevated_130_ic.0.1
+icon=> ./images/road_elevated_130_ic.0.0
 
 Image[EW,NS,NSEW][0-1]=./images/road_elevated_130.<$0+$1*4>.0,-2,0
 Image[-][0-1]=./images/road_elevated_130.<3+$0*4>.0,-2,0
