@@ -1,0 +1,41 @@
+obj=way
+name=road_elevated
+waytype=road
+system_type=1
+copyright=Leartin
+intro_year=1945
+cost=250000
+maintenance=12500
+topspeed=50
+cursor=./images/road_elevated_ic.0.1
+icon=> ./images/road_elevated_ic.0.0
+
+Image[EW,NS,NSEW][0-1]=./images/road_elevated.<$0+$1*4>.0,-2,0
+Image[-][0-1]=./images/road_elevated.<3+$0*4>.0,-2,0
+Image[E,S,W,N][0-1]=./images/road_elevated.<$0+$1*4>.1,-2,0
+Image[NSW,NEW,NSE,SEW][0-1]=./images/road_elevated.<$0+$1*4>.2,-2,0
+Image[NW,NE,SE,SW][0-1]=./images/road_elevated.<$0+$1*4>.3,-2,0
+Diagonal[NW,NE,SE,SW][0-1]=./images/road_elevated.<$0+$1*4>.4,-2,0
+ImageUp[3,6,9,12][0-1]=./images/road_elevated.<$0/3-1+$1*4>.5,-2,0
+ImageUp2[3,6,9,12][0-1]=./images/road_elevated.<$0/3-1+$1*4>.6,-2,0
+-----------------------
+obj=way
+name=road_elevated_130
+waytype=road
+system_type=1
+copyright=Leartin & NullReferenceException
+intro_year=1945
+cost=250000
+maintenance=12500
+topspeed=130
+cursor=./images/road_elevated_130_ic.0.1
+icon=> ./images/road_elevated_130_ic.0.0
+
+Image[EW,NS,NSEW][0-1]=./images/road_elevated_130.<$0+$1*4>.0,-2,0
+Image[-][0-1]=./images/road_elevated_130.<3+$0*4>.0,-2,0
+Image[E,S,W,N][0-1]=./images/road_elevated_130.<$0+$1*4>.1,-2,0
+Image[NSW,NEW,NSE,SEW][0-1]=./images/road_elevated_130.<$0+$1*4>.2,-2,0
+Image[NW,NE,SE,SW][0-1]=./images/road_elevated_130.<$0+$1*4>.3,-2,0
+Diagonal[NW,NE,SE,SW][0-1]=./images/road_elevated_130.<$0+$1*4>.4,-2,0
+ImageUp[3,6,9,12][0-1]=./images/road_elevated_130.<$0/3-1+$1*4>.5,-2,0
+ImageUp2[3,6,9,12][0-1]=./images/road_elevated_130.<$0/3-1+$1*4>.6,-2,0
