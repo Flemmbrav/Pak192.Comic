@@ -1,6 +1,6 @@
 obj=vehicle
 name=SBB_Z2
-copyright=Citarofahrer
+copyright=Flemmbrav
 waytype=narrowgauge_track
 intro_year=1911
 intro_month=2
@@ -9,16 +9,10 @@ payload=1000
 weight=18
 runningcost=571
 cost=6280313
-length=8
+length=7
 loading_time=5260
 constraint[prev][0]=any
-emptyimage[s]=./image/SBB_Z2.0.1
-emptyimage[se]=./image/SBB_Z2.0.2
-emptyimage[sw]=./image/SBB_Z2.0.3
-emptyimage[e]=./image/SBB_Z2.0.0
 
-emptyimage[n]=./image/SBB_Z2.0.5
-emptyimage[nw]=./image/SBB_Z2.0.6
-emptyimage[ne]=./image/SBB_Z2.0.7
-emptyimage[w]=./image/SBB_Z2.0.4
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Post_1911_SBB_PTT.0.<$0>
+
 freight=Post
