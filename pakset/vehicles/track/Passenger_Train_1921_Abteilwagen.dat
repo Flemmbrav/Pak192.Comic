@@ -25,5 +25,3 @@ loading_time=4580
 constraint[prev][0]=any
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1921_Abteilwagen.0.<$0>
-
----

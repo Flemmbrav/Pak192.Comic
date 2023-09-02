@@ -1,0 +1,55 @@
+
+obj=vehicle
+name=Passenger_Train_1928_Durchgangswagen
+# Ci-28
+# fourth class coach
+# https://de.wikipedia.org/wiki/Donnerb%C3%BCchse_(Personenwagen)
+
+copyright=Flemmbrav
+intro_year=1928
+intro_month=3
+retire_year=1939
+retire_month=0
+freight=Passagiere
+payload=58
+cost=5037648
+runningcost=45
+weight=21
+# 
+speed=90
+# LÜP 13.920mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1927_Durchgangswagen.0.<$0>
+
+---
+
+
+obj=vehicle
+name=Passenger_Train_1927_Durchgangswagen_4th_class
+# Di-27
+# fourth class coach
+# https://de.wikipedia.org/wiki/Donnerb%C3%BCchse_(Personenwagen)
+
+copyright=Flemmbrav
+intro_year=1927
+intro_month=3
+retire_year=1939
+retire_month=0
+freight=Passagiere
+payload=66
+cost=5037648
+runningcost=45
+weight=21
+# 
+speed=90
+# LÜP 13.920mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1927_Durchgangswagen.1.<$0>

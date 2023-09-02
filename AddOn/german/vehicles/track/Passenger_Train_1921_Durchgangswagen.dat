@@ -1,0 +1,31 @@
+
+
+obj=vehicle
+name=Passenger_Train_1921_Durchgangswagen_4th_class
+# Di21
+# fourth class coach
+# https://de.wikipedia.org/wiki/Donnerb%C3%BCchse_(Personenwagen)
+# https://www.der-lustige-modellbauer.com/t32841-spurensuche-3-durchgangs-und-abteilwagen-der-baujahre-1921-1934
+
+copyright=Flemmbrav
+intro_year=1921
+intro_month=3
+retire_year=1929
+retire_month=0
+freight=Passagiere
+payload=66
+cost=5037648
+runningcost=45
+weight=18
+# 
+speed=90
+# LÜP 13.920mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1921_Durchgangswagen.0.<$0>
+#EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1921_Durchgangswagen.1.<$0>
+
+---
