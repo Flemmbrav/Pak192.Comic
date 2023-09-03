@@ -1,0 +1,86 @@
+obj=vehicle
+name=Rekowagen_Bag_e
+// Bezeichnung der Dreiachser bis 1966: B3g(e) - ab 1966 als: Bag(e)
+copyright=Flemmbrav & Pappeteemaster
+intro_year=1960
+intro_month=2
+retire_year=1971
+retire_month=10
+freight=Passagiere
+payload=48
+//48 Sitzplätze
+cost=2039846
+runningcost=185
+weight=19
+speed=90
+length=7
+waytype=narrowgauge_track
+loading_time=1850
+
+EmptyImage[S]=./image/rekowagen.0.1
+EmptyImage[E]=./image/rekowagen.0.0
+EmptyImage[SE]=./image/rekowagen.0.4
+EmptyImage[SW]=./image/rekowagen.0.7
+EmptyImage[N]=./image/rekowagen.0.3
+EmptyImage[W]=./image/rekowagen.0.2
+EmptyImage[NW]=./image/rekowagen.0.6
+EmptyImage[NE]=./image/rekowagen.0.5
+
+-----
+
+obj=vehicle
+name=Rekowagen_Bghwe
+// Bezeichnung bei Auslieferung Bghwe
+copyright=Flemmbrav & Pappeteemaster
+intro_year=1964
+intro_month=2
+retire_year=1977
+retire_month=0
+freight=Passagiere
+payload=64
+//Sitzplätze: 40 Nichtraucher + 24 Raucher
+cost=2039846
+runningcost=185
+weight=19
+speed=120
+length=10
+waytype=narrowgauge_track
+loading_time=1850
+
+EmptyImage[S]=./image/rekowagen.2.1
+EmptyImage[E]=./image/rekowagen.2.0
+EmptyImage[SE]=./image/rekowagen.2.4
+EmptyImage[SW]=./image/rekowagen.2.7
+EmptyImage[N]=./image/rekowagen.2.3
+EmptyImage[W]=./image/rekowagen.2.2
+EmptyImage[NW]=./image/rekowagen.2.6
+EmptyImage[NE]=./image/rekowagen.2.5
+
+-----
+
+obj=vehicle
+name=Rekowagen_Post3-cl_128
+// Bezeichnung bis 1966: Post3-cl12,8 - ab 1966 als: Posta-cl/12,8
+copyright=Flemmbrav & Pappeteemaster
+intro_year=1960
+intro_month=2
+retire_year=1971
+retire_month=11
+freight=Post
+payload=768
+cost=2783722
+runningcost=253
+weight=16
+speed=90
+length=7
+waytype=narrowgauge_track
+loading_time=2530
+
+EmptyImage[S]=./image/rekowagen.3.1
+EmptyImage[E]=./image/rekowagen.3.0
+EmptyImage[SE]=./image/rekowagen.3.4
+EmptyImage[SW]=./image/rekowagen.3.7
+EmptyImage[N]=./image/rekowagen.3.3
+EmptyImage[W]=./image/rekowagen.3.2
+EmptyImage[NW]=./image/rekowagen.3.6
+EmptyImage[NE]=./image/rekowagen.3.5
