@@ -20,7 +20,7 @@ jobs:
           sudo apt-get -ym install autoconf
         # svn checkout svn://servers.simutrans.org/simutrans simutrans
 	# svn checkout svn://ct234.pm2-host.1awww.com/simutrans simutrans
-          sudo git clone https://github.com/aburch/simutrans/ ./simutrans
+          sudo git clone https://github.com/aburch/simutrans ./simutrans
 	  sudo git clone https://github.com/simutrans/tutorial_pak192.comic ./pakset/trunk/scenario/tutorial_pak192.comic
     - name: setup
       run: |
