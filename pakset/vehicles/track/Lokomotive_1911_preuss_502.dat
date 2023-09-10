@@ -1,0 +1,25 @@
+obj=vehicle
+name=preuss_EG_502
+copyright=PappeTeeMaster
+waytype=narrowgauge_track
+speed=50
+intro_year=1911
+intro_month=1
+//vorbildlich gebaut nur bis 1913
+retire_year=1920
+retire_month=12
+power=332
+gear=125
+cost=8741145
+weight=60
+RunningCost=211
+length=6
+engine_type=electric
+EmptyImage[S]=./image/preuss_EG_502.0.1
+EmptyImage[E]=./image/preuss_EG_502.0.0
+EmptyImage[SE]=./image/preuss_EG_502.0.4
+EmptyImage[SW]=./image/preuss_EG_502.0.7
+EmptyImage[N]=./image/preuss_EG_502.0.3
+EmptyImage[W]=./image/preuss_EG_502.0.2
+EmptyImage[NW]=./image/preuss_EG_502.0.6
+EmptyImage[NE]=./image/preuss_EG_502.0.5
