@@ -1,0 +1,40 @@
+obj=vehicle
+name=Passenger_Train_1899_Schnellzug_BadStB_C4i_99
+# C4i Bad 99
+# Gruppe 110, Blatt 26
+copyright=Flemmbrav
+intro_year=1899
+intro_month=3
+retire_year=1908
+retire_month=0
+freight=Passagiere
+# https://de.wikipedia.org/wiki/Liste_badischer_Reisezugwagen#Beschaffungszeitraum_1892_bis_1923
+#  0 x 1. class
+#  0 x 2. class
+# 72 x 3. class
+# 72 total
+payload=72
+cost=5037648
+runningcost=458
+# Westinghouse-Bremse, Schnellbremse
+# weigth estimated
+weight=30
+# 
+speed=110
+# LÜP 17.300mm
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1899_Schnellzug_BadStB_C4i_99.0.1
+EmptyImage[E]=./image/Passenger_Train_1899_Schnellzug_BadStB_C4i_99.0.0
+EmptyImage[SE]=./image/Passenger_Train_1899_Schnellzug_BadStB_C4i_99.0.4
+EmptyImage[SW]=./image/Passenger_Train_1899_Schnellzug_BadStB_C4i_99.0.7
+EmptyImage[N]=./image/Passenger_Train_1899_Schnellzug_BadStB_C4i_99.0.3
+EmptyImage[W]=./image/Passenger_Train_1899_Schnellzug_BadStB_C4i_99.0.2
+EmptyImage[NW]=./image/Passenger_Train_1899_Schnellzug_BadStB_C4i_99.0.6
+EmptyImage[NE]=./image/Passenger_Train_1899_Schnellzug_BadStB_C4i_99.0.5
+
+---
+
