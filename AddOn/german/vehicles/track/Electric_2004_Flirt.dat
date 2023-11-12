@@ -43,8 +43,9 @@ power=1300
 gear=100
 loading_time=3510
 
-constraint[prev][0]=Flirt_Triebwagen_2
-constraint[prev][1]=none
+constraint[prev][0]=Electric_2004_Flirt_SBB_Triebwagen_2
+constraint[prev][1]=Flirt_Triebwagen_2
+constraint[prev][2]=none
 constraint[next][0]=Flirt_Mittelwagen
 constraint[next][1]=Flirt_Triebwagen_2
 
@@ -73,7 +74,8 @@ loading_time=3510
 
 constraint[prev][0]=Flirt_Triebwagen_1
 constraint[prev][1]=Flirt_Mittelwagen
-constraint[next][0]=Flirt_Triebwagen_1
-constraint[next][1]=none
+constraint[next][0]=Electric_2004_Flirt_SBB_Triebwagen_1
+constraint[next][1]=Flirt_Triebwagen_1
+constraint[next][2]=none
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2004_Flirt_WFB.3.<$0>
