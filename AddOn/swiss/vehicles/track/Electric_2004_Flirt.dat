@@ -80,7 +80,7 @@ power=1300
 gear=100
 
 
-constraint[prev][0]=Electric_2004_Flirt_SBB_Mittelwagen_1
+constraint[prev][0]=Electric_2004_Flirt_SBB_Mittelwagen_2
 constraint[next][0]=Electric_2004_Flirt_SBB_Triebwagen_1
 constraint[next][1]=Flirt_Triebwagen_1
 constraint[next][2]=none
