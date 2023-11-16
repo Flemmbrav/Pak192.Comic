@@ -12,7 +12,7 @@ weight=1290
 cost=405198500
 runningcost=19567
 #intro_year wieder auf 1959 setzen, wenn zweites Schiff verfügbar!
-intro_year=1925
+intro_year=1915
 #intro_year=1959
 intro_month=1
 loading_time=138780
