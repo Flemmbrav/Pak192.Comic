@@ -48,3 +48,17 @@ single_way=0
 icon=> ./image/sigspeed.3.4
 cursor=./image/sigspeed.3.5
 Image[0-3]=./image/sigspeed.3.<$0>
+
+
+-----------------------
+obj=roadsign
+name=track_sigspeed_70
+copyright=Flemmbrav
+waytype=narrowgauge_track
+intro_year=1860
+cost=10000
+min_speed=71
+single_way=0
+icon=> ./image/sigspeed.4.4
+cursor=./image/sigspeed.4.5
+Image[0-3]=./image/sigspeed.4.<$0>
