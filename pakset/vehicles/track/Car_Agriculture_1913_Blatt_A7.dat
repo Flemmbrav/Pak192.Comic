@@ -1,0 +1,25 @@
+obj=vehicle
+name=Car_Agriculture_1913_Blatt_A7
+# KPEV Blatt A7
+# https://de.wikipedia.org/wiki/G%C3%BCterwagen_der_Verbandsbauart#A7_%E2%80%93_Klappdeckelwagen
+copyright=Flemmbrav
+intro_year=1913
+intro_month=3
+retire_year=1925
+retire_month=3
+freight=grain
+# "ein Ladegewicht von 15 Tonnen und ein Ladevolumen von 18,6 m³." ~Wiki
+payload=15
+cost=50376
+runningcost=45
+# "Die Wagen ohne Handbremse hatten eine Länge über Puffer von 6.600 mm und bis 1917 einen Achsstand von 3.000 mm sowie ein Eigengewicht von 9,5 Tonnen." ~Wiki
+weight=10
+# 
+speed=45
+length=3
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Agriculture_1913_KPEV_Blatt_A7.0.<$0>
+#FreightImage[0-4][S,W,SE,SW,N,E,NW,NE]=./image/Car_Agriculture_1913_KPEV_Blatt_A7.<$0+1>.<$1>
