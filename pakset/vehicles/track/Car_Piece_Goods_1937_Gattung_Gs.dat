@@ -1,0 +1,23 @@
+obj=vehicle
+name=Car_Piece_Goods_1937_Gattung_Gs
+# DRG Gattung Gs Oppeln
+copyright=Flemmbrav
+intro_year=1937
+intro_month=3
+retire_year=1943
+retire_month=3
+freight=juice
+payload=15
+cost=50376
+runningcost=45
+# weigth estimated
+weight=11
+# 
+speed=90
+length=4
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Piece_Goods_1937_Gattung_Gs.0.<$0>
+#FreightImage[0-4][S,W,SE,SW,N,E,NW,NE]=./image/Car_Piece_Goods_1937_Gattung_Gs.<$0+1>.<$1>
