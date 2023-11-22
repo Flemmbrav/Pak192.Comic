@@ -17,10 +17,10 @@ length=6
 loading_time=260
 #
 constraint[next][0]=road_truck_police_1800_horseback
-constraint[prev][0]=horse1
-constraint[prev][1]=horse2
-constraint[prev][2]=horse3
-constraint[prev][3]=horse4
+constraint[prev][0]=road_draft_1800_horse1
+constraint[prev][1]=road_draft_1800_horse2
+constraint[prev][2]=road_draft_1800_horse3
+constraint[prev][3]=road_draft_1800_horse4
 emptyImage[S,W,E,N,NE,SW,NW,SE]=./image/cart_police_1800.0.<$0>
 freight=suspects
 ---
