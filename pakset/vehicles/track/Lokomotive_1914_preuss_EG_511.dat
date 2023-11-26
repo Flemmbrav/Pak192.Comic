@@ -1,0 +1,26 @@
+obj=vehicle
+name=preuss_EG_511
+// Preußische Elektrische Güterzuglokomotiven 511 bis 537
+// Bezeichnung ab 1926: DR-Baureihe E 71.1
+copyright=PappeTeeMaster
+waytype=narrowgauge_track
+speed=50
+intro_year=1914
+intro_month=1
+retire_year=1921
+retire_month=12
+power=590
+gear=123
+cost=15275550
+weight=65
+RunningCost=369
+length=7
+engine_type=electric
+EmptyImage[S]=./image/preuss_EG_511.0.1
+EmptyImage[E]=./image/preuss_EG_511.0.0
+EmptyImage[SE]=./image/preuss_EG_511.0.4
+EmptyImage[SW]=./image/preuss_EG_511.0.7
+EmptyImage[N]=./image/preuss_EG_511.0.3
+EmptyImage[W]=./image/preuss_EG_511.0.2
+EmptyImage[NW]=./image/preuss_EG_511.0.6
+EmptyImage[NE]=./image/preuss_EG_511.0.5
