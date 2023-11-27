@@ -52,7 +52,7 @@ Image[0-3]=./image/sigspeed.3.<$0>
 
 -----------------------
 obj=roadsign
-name=track_sigspeed_70
+name=track_sigspeed_070
 copyright=Flemmbrav
 waytype=narrowgauge_track
 intro_year=1860

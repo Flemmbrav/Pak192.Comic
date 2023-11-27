@@ -85,6 +85,8 @@ terminal2_corner
 ext_airport_terminal02c
 terminal_tower
 ext_airport_tower01
+track_sigspeed_70
+track_sigspeed_070
 #--------------------------------------
 # ways
 #--------------------------------------
