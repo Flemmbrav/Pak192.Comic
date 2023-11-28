@@ -348,6 +348,9 @@ calculatecosts(){
 		speed=160
 	fi
 	FixCost=$(( FixCost * speed / 160 ))
+	if [[ ${ObjectArray[waytype]} == "water" ]] ;then
+		FixCost=$(( FixCost * 400 / 100 ))
+	fi
 	RunningCost=$(( RunningCost / 10 ))
 	if [[ $ForcingNewValues == 1 ]];then
 		echo "loading_time=$LoadingTime" >> calculated/$dat
