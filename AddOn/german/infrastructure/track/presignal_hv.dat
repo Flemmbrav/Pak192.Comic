@@ -1,0 +1,11 @@
+obj=roadsign
+name=presignal_hv
+copyright=RABe514
+waytype=narrowgauge_track
+intro_year=1980
+intro_month=1
+cost=750
+is_presignal=1
+icon=> ./images/signals/presignal_hv.0.12
+cursor=./images/signals/presignal_hv.0.13
+Image[0-11]=./images/signals/presignal_hv.0.<$0>
