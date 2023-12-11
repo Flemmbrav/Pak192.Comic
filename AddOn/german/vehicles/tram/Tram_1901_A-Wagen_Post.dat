@@ -1,10 +1,9 @@
 obj=vehicle
 name=Tram_1901_A-Wagen_Post
-copyright=PappeTeeMaster
+copyright=Citarofahrer
 intro_month=1
 intro_year=1901
-retire_year=1951
-#retire vorbild 1903
+retire_year=1960
 retire_month=2
 runningcost=141
 cost=2852708
