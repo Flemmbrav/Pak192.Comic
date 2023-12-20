@@ -1,0 +1,43 @@
+obj=vehicle
+name=Passenger_Train_1887_Durchgangswagen_BadStB_Ci_87
+# Ci Bad 93
+# Gruppe Gruppe 101? 71?, Blatt 35?
+copyright=Flemmbrav
+intro_year=1887
+intro_month=3
+retire_year=1893
+retire_month=0
+freight=Passagiere
+# http://www.diehugs.de/Wagen/Reisezugwagen/Gr_101_/gr_101_.html
+# https://de.wikipedia.org/wiki/Liste_badischer_Reisezugwagen#Beschaffungszeitraum_1892_bis_1923
+# payload taken from gr 107
+#  0 x 1. class
+#  0 x 2. class
+# 40 x 3. class
+# 40 total
+payload=40
+cost=5037648
+runningcost=45
+# Schnellbremse, keine Westinghouse-Bremse!
+# weigth taken from gr 107
+weight=13
+# 
+speed=70
+
+# LÜP 9.860mm
+length=5
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1887_Durchgangswagen_BadStB_Ci_87.0.1
+EmptyImage[E]=./image/Passenger_Train_1887_Durchgangswagen_BadStB_Ci_87.0.0
+EmptyImage[SE]=./image/Passenger_Train_1887_Durchgangswagen_BadStB_Ci_87.0.4
+EmptyImage[SW]=./image/Passenger_Train_1887_Durchgangswagen_BadStB_Ci_87.0.7
+EmptyImage[N]=./image/Passenger_Train_1887_Durchgangswagen_BadStB_Ci_87.0.3
+EmptyImage[W]=./image/Passenger_Train_1887_Durchgangswagen_BadStB_Ci_87.0.2
+EmptyImage[NW]=./image/Passenger_Train_1887_Durchgangswagen_BadStB_Ci_87.0.6
+EmptyImage[NE]=./image/Passenger_Train_1887_Durchgangswagen_BadStB_Ci_87.0.5
+
+---
+
