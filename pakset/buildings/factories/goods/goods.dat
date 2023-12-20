@@ -65,7 +65,7 @@ name=cars
 catg=0
 metric=stk
 weight_per_unit=1500
-value=500
+value=2500
 speed_bonus=3
 -----------------
 obj=good
