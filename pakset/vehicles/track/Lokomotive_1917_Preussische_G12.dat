@@ -13,7 +13,6 @@ runningcost=636
 weight=95
 speed=65
 power=1133
-#gear=??? für  "Das Leistungsprogramm sah vor, dass bei einer Steigung von 3,3 Promille und einem Zug von 200 t eine Geschwindigkeit von 100 km/h zu fahren sei" (Wiki)
 gear=369
 length=6
 waytype=narrowgauge_track
