@@ -1,0 +1,26 @@
+obj=vehicle
+name=Passenger_Train_1929_CIWL_Lx
+# CIWL Lx 20
+copyright=Flemmbrav
+intro_year=1929
+intro_month=3
+retire_year=1937
+retire_month=0
+freight=Passagiere
+payload=20
+cost=5397959
+runningcost=491
+weight=53
+speed=130
+length=11
+waytype=narrowgauge_track
+loading_time=4910
+constraint[prev][0]=any
+EmptyImage[S]=./image/Passenger_Train_1929_CIWL_Lx.0.1
+EmptyImage[E]=./image/Passenger_Train_1929_CIWL_Lx.0.0
+EmptyImage[SE]=./image/Passenger_Train_1929_CIWL_Lx.0.4
+EmptyImage[SW]=./image/Passenger_Train_1929_CIWL_Lx.0.7
+EmptyImage[N]=./image/Passenger_Train_1929_CIWL_Lx.0.3
+EmptyImage[W]=./image/Passenger_Train_1929_CIWL_Lx.0.2
+EmptyImage[NW]=./image/Passenger_Train_1929_CIWL_Lx.0.6
+EmptyImage[NE]=./image/Passenger_Train_1929_CIWL_Lx.0.5
