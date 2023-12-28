@@ -13,18 +13,23 @@ speed=135
 #speed=175
 power=1066
 gear=200
-length=10
+
+# 18.8m
+# calculated: 8.5
+length=9
+
+
 waytype=narrowgauge_track
 engine_type=steam
 
 constraint[prev][0]=BR_61
 constraint[prev][1]=none
 
-EmptyImage[S]=./image/BR_61.0.1
-EmptyImage[E]=./image/BR_61.0.0
-EmptyImage[SE]=./image/BR_61.0.4
-EmptyImage[SW]=./image/BR_61.0.5
-EmptyImage[N]=./image/BR_61.0.3
-EmptyImage[W]=./image/BR_61.0.2
-EmptyImage[NW]=./image/BR_61.0.6
-EmptyImage[NE]=./image/BR_61.0.7
+EmptyImage[S]=./image/Lokomotive_1936_BR_61.0.1
+EmptyImage[E]=./image/Lokomotive_1936_BR_61.0.0
+EmptyImage[SE]=./image/Lokomotive_1936_BR_61.0.4
+EmptyImage[SW]=./image/Lokomotive_1936_BR_61.0.5
+EmptyImage[N]=./image/Lokomotive_1936_BR_61.0.3
+EmptyImage[W]=./image/Lokomotive_1936_BR_61.0.2
+EmptyImage[NW]=./image/Lokomotive_1936_BR_61.0.6
+EmptyImage[NE]=./image/Lokomotive_1936_BR_61.0.7
