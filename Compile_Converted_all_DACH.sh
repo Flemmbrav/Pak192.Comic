@@ -165,6 +165,7 @@ compile '64' 'User Interface' 'calculated/pakset/UI/64/*.dat'
 compile '128' 'User Interface' 'calculated/pakset/UI/128/*.dat'
 compile '192' 'User Interface' 'calculated/pakset/UI/192/*.dat'
 compile '384' 'Larger Objects' 'calculated/pakset/384/**/*.dat'
+compile '48' 'Smaller Objects' 'calculated/pakset/48/**/**/*.dat'
 
 compile '192' 'AddOns 1/5' 'calculated/AddOn/austrian/*.dat'
 compile '192' 'AddOns 2/5' 'calculated/AddOn/austrian/**/*.dat'
@@ -190,6 +191,11 @@ compile '384' 'AddOns 7/10' 'calculated/AddOn384/uni/*.dat'
 compile '384' 'AddOns 8/10' 'calculated/AddOn384/uni/**/*.dat'
 compile '384' 'AddOns 9/10' 'calculated/AddOn384/uni/**/**/*.dat'
 compile '384' 'AddOns 10/10' 'calculated/AddOn384/uni/**/**/**/*.dat'
+compile '48' 'AddOns 11/15' 'AddOn48/*.dat'
+compile '48' 'AddOns 12/15' 'AddOn48/**/*.dat'
+compile '48' 'AddOns 13/15' 'AddOn48/**/**/*.dat'
+compile '48' 'AddOns 14/15' 'AddOn48/**/**/**/*.dat'
+compile '48' 'AddOns 15/15' 'AddOn48/**/**/**/**/*.dat'
 
 # Finished successfully, get rid of old csv
 mv "$csv.in" "$csv"

@@ -1,0 +1,26 @@
+obj=way-object
+name=streetlights_E0
+copyright=Leartin
+#intro_year=
+#retire_year=1950
+waytype=road
+cost=0
+maintenance=0
+system_type=0
+own_waytype=road
+icon=> ./images/wayobj/streetlights.1.0
+cursor=./images/wayobj/streetlights.0.0,72,100
+
+FrontImage[EW,NS,S,N,E,W,SW,NW,NE,SE,NSEW,NSW,NSE,SEW,NEW,-]=./images/wayobj/streetlights.0.0,72,150
+FrontDiagonal[SW,NE,SE]=./images/wayobj/streetlights.0.0,72,150
+FrontImageUp2[3,6]=./images/wayobj/streetlights.0.0,72,<150-48>
+FrontImageUp[3,6]=./images/wayobj/streetlights.0.0,72,<150-24>
+FrontImageUp2[9,12]=./images/wayobj/streetlights.0.0,72,150
+FrontImageUp[9,12]=./images/wayobj/streetlights.0.0,72,150
+
+BackImage[EW,NS,S,N,E,W,SW,NW,NE,SE,NSEW,NSW,NSE,SEW,NEW,-]=./images/wayobj/streetlights.0.0,72,54
+BackDiagonal[SW,NW,NE]=./images/wayobj/streetlights.0.0,72,54
+BackImageUp2[3,6]=./images/wayobj/streetlights.0.0,72,54
+BackImageUp[3,6]=./images/wayobj/streetlights.0.0,72,54
+BackImageUp2[9,12]=./images/wayobj/streetlights.0.0,72,<54-48>
+BackImageUp[9,12]=./images/wayobj/streetlights.0.0,72,<54-24>
