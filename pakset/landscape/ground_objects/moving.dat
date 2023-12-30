@@ -141,3 +141,15 @@ waytype=water
 climates=water
 trees_on_top=1
 Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_swan.1.<$0>
+-----
+obj=ground_obj
+name=mov_jesus
+copyright=Leartin
+seasons=1
+distributionweight=3
+cost=0
+speed=9
+waytype=water
+climates=water
+trees_on_top=1
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_jesus.0.<$0>
