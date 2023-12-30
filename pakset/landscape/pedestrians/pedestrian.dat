@@ -14,7 +14,7 @@ offset=21
 ####################
 Obj=pedestrian
 Name=ped_E1f_green
-DistributionWeight=10
+DistributionWeight=20
 Image[S,W,E,N,SW,NW,SE,NE][0-3]=E1f_updo.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=10
 intro_year=1835
@@ -24,7 +24,7 @@ offset=21
 Obj=pedestrian
 Name=ped_E1f_blue
 #Cinderella
-DistributionWeight=8
+DistributionWeight=16
 Image[S,W,E,N,SW,NW,SE,NE][0-3]=E1f_updo.<$1+4>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=10
 intro_year=1835
@@ -34,7 +34,7 @@ offset=21
 Obj=pedestrian
 Name=ped_E1f_purple
 #Miss Rottenmeier
-DistributionWeight=5
+DistributionWeight=10
 Image[S,W,E,N,SW,NW,SE,NE][0-3]=E1f_updo.<$1+8>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=10
 intro_year=1835
@@ -44,7 +44,7 @@ offset=21
 Obj=pedestrian
 Name=ped_E1f_yellow
 #Belle
-DistributionWeight=5
+DistributionWeight=10
 Image[S,W,E,N,SW,NW,SE,NE][0-3]=E1f_updo.<$1+12>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=10
 intro_year=1835
@@ -54,7 +54,7 @@ offset=21
 Obj=pedestrian
 Name=ped_E1f_black
 #Belle
-DistributionWeight=5
+DistributionWeight=10
 Image[S,W,E,N,SW,NW,SE,NE][0-3]=E1f_updo.<$1+16>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=10
 intro_year=1835
@@ -67,7 +67,7 @@ offset=21
 ####################
 Obj=pedestrian
 Name=ped_E2f_01
-DistributionWeight=8
+DistributionWeight=16
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E2f.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1920
@@ -76,7 +76,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E2f_02
-DistributionWeight=8
+DistributionWeight=16
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E2f.<$1+6>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1920
@@ -85,7 +85,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E2f_03
-DistributionWeight=8
+DistributionWeight=16
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E2f.<$1+12>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1920
@@ -94,7 +94,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E2f_04
-DistributionWeight=8
+DistributionWeight=16
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E2f.<$1+18>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1920
@@ -103,7 +103,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E2f_05
-DistributionWeight=8
+DistributionWeight=16
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E2f.<$1+24>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1920
@@ -115,7 +115,7 @@ offset=21
 ####################
 Obj=pedestrian
 Name=ped_E4f_blondepink
-DistributionWeight=10
+DistributionWeight=20
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E4f_pants.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1970
@@ -124,7 +124,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E4f_brunettegreen
-DistributionWeight=10
+DistributionWeight=20
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E4f_pants.<$1+6>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1970
@@ -133,7 +133,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E4f_greygray
-DistributionWeight=10
+DistributionWeight=20
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E4f_pants.<$1+12>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1970
@@ -142,7 +142,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E4f_blackred
-DistributionWeight=10
+DistributionWeight=20
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E4f_pants.<$1+18>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1970
@@ -154,7 +154,7 @@ offset=21
 ####################
 Obj=pedestrian
 Name=ped_E1m_black_bowler
-DistributionWeight=15
+DistributionWeight=30
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E1m_hat.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1849
@@ -163,7 +163,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E1m_gray_bowler
-DistributionWeight=10
+DistributionWeight=20
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E1m_hat.<$1+6>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1849
@@ -172,7 +172,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E1m_brown_bowler
-DistributionWeight=5
+DistributionWeight=10
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E1m_hat.<$1+12>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1849
@@ -181,7 +181,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E1m_black_top
-DistributionWeight=15
+DistributionWeight=30
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E1m_hat.<$1>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1800
@@ -190,7 +190,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E1m_gray_top
-DistributionWeight=10
+DistributionWeight=20
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E1m_hat.<$1+6>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1800
@@ -199,7 +199,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E1m_brown_top
-DistributionWeight=5
+DistributionWeight=10
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E1m_hat.<$1+12>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1800
@@ -211,7 +211,7 @@ offset=21
 ####################
 Obj=pedestrian
 Name=ped_E3m_old1
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_old.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -220,7 +220,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3m_old2
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_old.<$1+6>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -229,7 +229,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3m_old3
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_old.<$1+12>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -239,7 +239,7 @@ offset=21
 Obj=pedestrian
 Name=ped_E3m_old4
 #baldy
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_old.<$1+18>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -251,7 +251,7 @@ offset=21
 ####################
 Obj=pedestrian
 Name=ped_E3m_rand1
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_random.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -260,7 +260,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3m_rand2
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_random.<$1+6>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -269,7 +269,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3m_rand3
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_random.<$1+12>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -278,7 +278,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3m_rand4
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_random.<$1+18>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -287,7 +287,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3m_rand5
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_random.<$1>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -296,7 +296,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3m_rand6
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_random.<$1+6>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -305,7 +305,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3m_rand7
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_random.<$1+12>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -314,7 +314,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3m_rand8
-DistributionWeight=12
+DistributionWeight=25
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_random.<$1+18>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -326,7 +326,7 @@ offset=21
 ####################
 Obj=pedestrian
 Name=E3m_kid_1
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -335,7 +335,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_2
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1>.<8+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -344,7 +344,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_3
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1>.<16+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -353,7 +353,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_4
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1>.<24+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -362,7 +362,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_5
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+6>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -371,7 +371,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_6
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+6>.<8+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -380,7 +380,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_7
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+6>.<16+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -389,7 +389,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_8
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+6>.<24+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -398,7 +398,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_9
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+12>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -407,7 +407,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_10
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+12>.<8+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -416,7 +416,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_11
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+12>.<16+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -425,7 +425,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_12
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+12>.<24+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -434,7 +434,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_13
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+18>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -443,7 +443,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_14
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+18>.<8+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -452,7 +452,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_15
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+18>.<16+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -461,7 +461,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=E3m_kid_16
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=E3m_kids.<$1+18>.<24+$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=6
 intro_year=1950
@@ -473,7 +473,7 @@ offset=21
 ####################
 Obj=pedestrian
 Name=ped_E0police1
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=policemen.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1800
@@ -482,7 +482,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E0police2
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=policemen.<$1>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1800
@@ -491,7 +491,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3police1
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=policemen.<$1+6>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -500,7 +500,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E3police2
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=policemen.<$1+6>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1950
@@ -509,7 +509,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E5police1
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=policemen.<$1+12>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1990
@@ -518,7 +518,7 @@ offset=21
 ---
 Obj=pedestrian
 Name=ped_E5police2
-DistributionWeight=6
+DistributionWeight=12
 Image[S,W,E,N,SW,NW,SE,NE][0-5]=policemen.<$1+12>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
 steps_per_frame=7
 intro_year=1990
@@ -679,3 +679,26 @@ intro_year=1986
 #retire_year=?
 offset=21
 ---
+####################
+# Other Specials
+####################
+Obj=pedestrian
+Name=ped_jesus
+DistributionWeight=1
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=jesus.<$1>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=0
+#retire_year=?
+offset=21
+---
+Obj=pedestrian
+Name=ped_fake_jesus
+DistributionWeight=5
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=jesus.<$1+7>.<$0>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1950
+#retire_year=?
+offset=21
+---
+
+
