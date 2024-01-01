@@ -11,7 +11,7 @@ speed=25
 waytype=none
 trees_on_top=1
 climates=tundra,rocky
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_deer.0.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_deer.0.<$0>,72,112
 ------
 obj=ground_obj
 name=mov_deer02
@@ -23,7 +23,7 @@ speed=25
 waytype=none
 trees_on_top=1
 climates=tundra,rocky
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_deer.1.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_deer.1.<$0>,72,112
 ------
 obj=ground_obj
 name=mov_deer03
@@ -35,7 +35,7 @@ speed=25
 waytype=none
 trees_on_top=1
 climates=tundra,rocky
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_deer.2.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_deer.2.<$0>,72,112
 ------
 obj=ground_obj
 name=mov_deer04
@@ -47,7 +47,7 @@ speed=25
 waytype=none
 trees_on_top=1
 climates=tundra,rocky
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_deer.3.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_deer.3.<$0>,72,112
 ------
 obj=ground_obj
 name=mov_fox01
@@ -59,7 +59,7 @@ speed=20
 waytype=none
 trees_on_top=1
 climates=tundra,rocky
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_fox.0.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_fox.0.<$0>,72,112
 ------
 obj=ground_obj
 name=mov_fox02
@@ -71,7 +71,7 @@ speed=20
 waytype=none
 trees_on_top=1
 climates=tundra,rocky
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_fox.1.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_fox.1.<$0>,72,112
 ------
 obj=ground_obj
 name=mov_fox03
@@ -83,7 +83,7 @@ speed=20
 waytype=none
 trees_on_top=1
 climates=tundra,rocky
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_fox.2.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_fox.2.<$0>,72,112
 ------
 obj=ground_obj
 name=mov_fox04
@@ -95,7 +95,7 @@ speed=20
 waytype=none
 trees_on_top=1
 climates=tundra,rocky
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_fox.3.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_fox.3.<$0>,72,112
 ------
 ####################
 # Sea Animals
@@ -110,7 +110,7 @@ speed=10
 waytype=water
 climates=water
 trees_on_top=1
-Image[S,W,N,E,SE,SW,NW,NE][0]=./image/mov_duck.0.<$0%4>,112,72
+Image[S,W,N,E,SE,SW,NW,NE][0]=./image/mov_duck.0.<$0%4>,72,112
 ------
 obj=ground_obj
 name=mov_duck02
@@ -122,7 +122,7 @@ speed=10
 waytype=water
 climates=water
 trees_on_top=1
-Image[S,W,N,E,SE,SW,NW,NE][0]=./image/mov_duck.1.<$0%4>,112,72
+Image[S,W,N,E,SE,SW,NW,NE][0]=./image/mov_duck.1.<$0%4>,72,112
 ------
 obj=ground_obj
 name=mov_duck03
@@ -134,7 +134,7 @@ speed=10
 waytype=water
 climates=water
 trees_on_top=1
-Image[S,W,N,E,SE,SW,NW,NE][0]=./image/mov_duck.2.<$0%4>,112,72
+Image[S,W,N,E,SE,SW,NW,NE][0]=./image/mov_duck.2.<$0%4>,72,112
 ------
 obj=ground_obj
 name=mov_shark01
@@ -146,7 +146,7 @@ speed=10
 waytype=water
 climates=water
 trees_on_top=1
-Image[S,W,SE,SW,N,E,NW,NE][0]=./image/mov_shark.0.<$0>,112,72
+Image[S,W,SE,SW,N,E,NW,NE][0]=./image/mov_shark.0.<$0>,72,112
 -----
 obj=ground_obj
 name=mov_shark02
@@ -158,7 +158,7 @@ speed=10
 waytype=water
 climates=water
 trees_on_top=1
-Image[S,W,SE,SW,N,E,NW,NE][0]=./image/mov_shark.1.<$0>,112,72
+Image[S,W,SE,SW,N,E,NW,NE][0]=./image/mov_shark.1.<$0>,72,112
 -----
 obj=ground_obj
 name=mov_swan01
@@ -170,7 +170,7 @@ speed=9
 waytype=water
 climates=water
 trees_on_top=1
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_swan.0.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_swan.0.<$0>,72,112
 -----
 obj=ground_obj
 name=mov_swan02
@@ -182,7 +182,7 @@ speed=9
 waytype=water
 climates=water
 trees_on_top=1
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_swan.1.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_swan.1.<$0>,72,112
 -----
 obj=ground_obj
 name=mov_jesus
@@ -194,4 +194,4 @@ speed=9
 waytype=water
 climates=water
 trees_on_top=1
-Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_jesus.0.<$0>,112,72
+Image[S,W,E,N,NE,SW,NW,SE][0]=./image/mov_jesus.0.<$0>,72,112
