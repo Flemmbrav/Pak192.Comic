@@ -27,7 +27,7 @@ copyright=Leartin
 intro_year=1835
 cost=400
 maintenance=90
-topspeed=40
+topspeed=45
 icon=> ./images/way/road-icon-cursor.1.0
 cursor=./images/way/road-icon-cursor.1.1
 Image[EW,NS][0-1]=./images/way/road_40_<$1>.<$0>.0
@@ -39,6 +39,31 @@ Image[NW,NE,SE,SW][0-1]=./images/way/road_40_<$1>.<$0>.3
 Diagonal[NW,NE,SE,SW][0-1]=./images/way/road_40_<$1>.<$0>.4
 ImageUp[3,6,9,12][0-1]=./images/way/road_40_<$1>.<$0/3-1>.5
 ImageUp2[3,6,9,12][0-1]=./images/way/road_40_<$1>.<$0/3-1>.6
+-----------------------
+
+obj=way
+waytype=road
+name=city_road_fake_cobblestreet
+copyright=Leartin
+intro_month=1
+intro_year=1835
+outro_month=1
+outro_year=1955
+cost=500
+maintenance=110
+topspeed=40
+icon=> ./images/way/road-icon-cursor.8.0
+cursor=./images/way/road-icon-cursor.8.1
+
+Image[EW,NS][0-1]=./images/way/road_40_city_fake_<$1>.<$0>.0
+Image[NSEW][0-1]=./images/way/road_40_city_fake_<$0>.2.0
+Image[-][0-1]=./images/way/road_40_city_fake_<$0>.3.0
+Image[E,S,W,N][0-1]=./images/way/road_40_city_fake_<$1>.<$0>.1
+Image[NSW,NEW,NSE,SEW][0-1]=./images/way/road_40_city_fake_<$1>.<$0>.2
+Image[NW,NE,SE,SW][0-1]=./images/way/road_40_city_fake_<$1>.<$0>.3
+Diagonal[NW,NE,SE,SW][0-1]=./images/way/road_40_city_fake_<$1>.<$0>.4
+ImageUp[3,6,9,12][0-1]=./images/way/road_40_city_fake_<$1>.<$0/3-1>.5
+ImageUp2[3,6,9,12][0-1]=./images/way/road_40_city_fake_<$1>.<$0/3-1>.6
 -----------------------
 
 obj=way
