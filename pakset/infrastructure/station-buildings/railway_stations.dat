@@ -92,6 +92,125 @@ Dims=1,1,4
 BackImage[0-3][0][0][0][0][0-4]=./images/railway_poelten_corner.<$1>.<$0>
 FrontImage[0-3][0][0][0][0-4][0-4]=./images/railway_poelten_corner.<$1>.4,<($0%2)*(-32)+$0/3*64>,<-32+$0*16-($0/3)*32>
 -----
+Obj=building
+name=ext_railway_poelten_corner_reverse
+#name=st_poelten_corner_reverse
+copyright=Leartin
+intro_month=1
+intro_year=1887
+type=extension
+#level=8
+capacity=500
+cost=500000
+maintenance=75000
+needs_ground=0
+#climates=mediterran, temperate, tundra, rocky
+#enables_post=1
+enables_pax=1
+noinfo=1
+icon=> ./images/railway_poelten_icon.4.0
+cursor=./images/railway_poelten_icon.0.0
+Dims=1,1,4
+BackImage[0-3][0][0][0][0][0-4]=./images/railway_poelten_corner2.<$1>.<$0>
+FrontImage[0][0][0][0][0-4][0-4]=./images/railway_poelten_corner.<$0>.4,36,13
+FrontImage[1][0][0][0][0-4][0-4]=./images/railway_poelten_corner.<$0>.4,0,-5
+FrontImage[2][0][0][0][0-4][0-4]=./images/railway_poelten_corner.<$0>.4,-36,13
+FrontImage[3][0][0][0][0-4][0-4]=./images/railway_poelten_corner.<$0>.4,0,31
+-----
+###################
+# Poelten-recolor #
+###################
+#
+Obj=building
+name=ext_railway_recolor_main
+#name=st_recolor_main
+copyright=Leartin
+intro_month=1
+intro_year=1887
+type=extension
+#level=8
+capacity=1000
+cost=1000000
+maintenance=150000
+needs_ground=0
+#climates=mediterran, temperate, tundra, rocky
+#enables_post=1
+enables_pax=1
+noinfo=1
+icon=> ./images/railway_recolor_icon.1.0
+cursor=./images/railway_recolor_icon.0.0
+Dims=2,1,4
+BackImage[0-3][0-1][0-1][0][0][0-1]=./images/railway_recolor_main.<$3>.<$0*2+$1+$2>
+FrontImage[0-3][0][0][0][0-7][0-1]=./images/flags.3.<$1>,<(-40+$0*3-($0/2)*22)*(($0%2)*2-1)>,<-42-($0/2)*8>
+-----
+Obj=building
+name=ext_railway_recolor_side
+#name=st_recolor_side
+copyright=Leartin
+intro_month=1
+intro_year=1887
+type=extension
+#level=8
+capacity=500
+cost=500000
+maintenance=75000
+needs_ground=0
+#climates=mediterran, temperate, tundra, rocky
+#enables_post=1
+enables_pax=1
+noinfo=1
+icon=> ./images/railway_recolor_icon.2.0
+cursor=./images/railway_recolor_icon.0.0
+Dims=1,1,4
+BackImage[0-3][0][0][0][0][0-4]=./images/railway_recolor_side.<$1>.<$0>
+-----
+Obj=building
+name=ext_railway_recolor_corner
+#name=st_recolor_corner
+copyright=Leartin
+intro_month=1
+intro_year=1887
+type=extension
+#level=8
+capacity=500
+cost=500000
+maintenance=75000
+needs_ground=0
+#climates=mediterran, temperate, tundra, rocky
+#enables_post=1
+enables_pax=1
+noinfo=1
+icon=> ./images/railway_recolor_icon.3.0
+cursor=./images/railway_recolor_icon.0.0
+Dims=1,1,4
+BackImage[0-3][0][0][0][0][0-4]=./images/railway_recolor_corner.<$1>.<$0>
+FrontImage[0-3][0][0][0][0-4][0-4]=./images/railway_recolor_corner.<$1>.4,<($0%2)*(-32)+$0/3*64>,<-32+$0*16-($0/3)*32>
+-----
+Obj=building
+name=ext_railway_recolor_corner_reverse
+#name=st_recolor_corner_reverse
+copyright=Leartin
+intro_month=1
+intro_year=1887
+type=extension
+#level=8
+capacity=500
+cost=500000
+maintenance=75000
+needs_ground=0
+#climates=mediterran, temperate, tundra, rocky
+#enables_post=1
+enables_pax=1
+noinfo=1
+icon=> ./images/railway_recolor_icon.4.0
+cursor=./images/railway_recolor_icon.0.0
+Dims=1,1,4
+BackImage[0-3][0][0][0][0][0-4]=./images/railway_recolor_corner2.<$1>.<$0>
+FrontImage[0][0][0][0][0-4][0-4]=./images/railway_recolor_corner.<$0>.4,36,13
+FrontImage[1][0][0][0][0-4][0-4]=./images/railway_recolor_corner.<$0>.4,0,-5
+FrontImage[2][0][0][0][0-4][0-4]=./images/railway_recolor_corner.<$0>.4,-36,13
+FrontImage[3][0][0][0][0-4][0-4]=./images/railway_recolor_corner.<$0>.4,0,31
+-----
 ###################
 # Horrem          #
 ###################

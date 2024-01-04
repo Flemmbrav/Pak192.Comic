@@ -123,7 +123,8 @@ general_tool[30]=13,9,,
 general_tool[31]=14,11,, 
 general_tool[32]=15,13,, 
 general_tool[35]=6,7,,
-general_tool[44]=,,7
+general_tool[40]=,,7,,
+general_tool[44]=,,7,,
 
 # SECOND SECTION: simple tools
 # since these tools act immeadiately
@@ -632,8 +633,9 @@ toolbar[12][16]=x
 toolbar[12][17]=general_tool[32],158
 toolbar[12][18]=general_tool[6],159
 toolbar[12][19]=general_tool[35],160
-toolbar[12][20]=x
-toolbar[12][21]=-b,119
+toolbar[12][20]=general_tool[40],283
+toolbar[12][21]=x
+toolbar[12][22]=-b,119
 
 #Abrisstools
 toolbar[13][0]=general_tool[1],120
