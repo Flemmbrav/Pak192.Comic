@@ -600,6 +600,17 @@ retire_year=2020
 offset=21
 ---
 Obj=pedestrian
+Name=ped_mickey
+#Disney
+DistributionWeight=1
+Image[S,W,E,N,SW,NW,SE,NE][0-5]=cbc1.<$1+18>.<$0+8>,<32+($0%2)*80>,<88+($0/2)%2*40>
+steps_per_frame=7
+intro_year=1928
+intro_month=11
+retire_year=1971
+offset=21
+---
+Obj=pedestrian
 Name=ped_nobita
 #AM Doraemon
 DistributionWeight=3
