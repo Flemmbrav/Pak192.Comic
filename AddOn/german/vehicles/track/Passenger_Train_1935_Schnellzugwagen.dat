@@ -1,0 +1,57 @@
+obj=vehicle
+name=Passenger_Train_1935_Schnellzugwagen
+# C4ü-35
+copyright=Flemmbrav
+intro_year=1935
+intro_month=3
+retire_year=1940
+retire_month=0
+freight=Passagiere
+# http://www.dbtrains.com/en/coaches/epochII/Standard/Bauart35
+payload=80
+cost=5037648
+runningcost=458
+weight=44
+speed=140
+length=10
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1935_Schnellzugwagen.0.1
+EmptyImage[E]=./image/Passenger_Train_1935_Schnellzugwagen.0.0
+EmptyImage[SE]=./image/Passenger_Train_1935_Schnellzugwagen.0.4
+EmptyImage[SW]=./image/Passenger_Train_1935_Schnellzugwagen.0.7
+EmptyImage[N]=./image/Passenger_Train_1935_Schnellzugwagen.0.3
+EmptyImage[W]=./image/Passenger_Train_1935_Schnellzugwagen.0.2
+EmptyImage[NW]=./image/Passenger_Train_1935_Schnellzugwagen.0.6
+EmptyImage[NE]=./image/Passenger_Train_1935_Schnellzugwagen.0.5
+---
+obj=vehicle
+name=Passenger_Train_1935_Schnellzugwagen_first_class
+# A4ü-35
+copyright=Flemmbrav
+intro_year=1935
+intro_month=3
+retire_year=1940
+retire_month=0
+freight=Passagiere
+# http://www.dbtrains.com/en/coaches/epochII/Standard/Bauart35
+payload=42
+cost=5037648
+runningcost=458
+weight=44
+speed=140
+length=10
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1935_Schnellzugwagen.1.1
+EmptyImage[E]=./image/Passenger_Train_1935_Schnellzugwagen.1.0
+EmptyImage[SE]=./image/Passenger_Train_1935_Schnellzugwagen.1.4
+EmptyImage[SW]=./image/Passenger_Train_1935_Schnellzugwagen.1.7
+EmptyImage[N]=./image/Passenger_Train_1935_Schnellzugwagen.1.3
+EmptyImage[W]=./image/Passenger_Train_1935_Schnellzugwagen.1.2
+EmptyImage[NW]=./image/Passenger_Train_1935_Schnellzugwagen.1.6
+EmptyImage[NE]=./image/Passenger_Train_1935_Schnellzugwagen.1.5
