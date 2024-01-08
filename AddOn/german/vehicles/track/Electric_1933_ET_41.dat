@@ -1,0 +1,61 @@
+
+obj=vehicle
+name=Electric_1933_ET_41
+# ET 41
+# BCPw4i
+# https://de.wikipedia.org/wiki/DR-Baureihe_ET_41
+copyright=Flemmbrav
+intro_year=1933
+build_year=1927
+intro_month=3
+retire_year=1945
+retire_month=4
+freight=Passagiere
+payload=66
+cost=5037648
+runningcost=45
+weight=66
+engine_type=electric
+power=570
+gear=100
+speed=100
+# LÜP 22.900mm
+length=10
+waytype=narrowgauge_track
+loading_time=4580
+#constraint[prev][0]=Electric_1907_S-Bahn_552_Altona
+#constraint[prev][1]=none
+#constraint[next][0]=Electric_1907_S-Bahn_552_Altona
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1933_ET_41.0.<$0>
+
+---
+
+obj=vehicle
+name=Passenger_Train_1933_Durchgangswagen_4th_class_zu_ET_41
+# Di-27
+# fourth class coach
+# https://de.wikipedia.org/wiki/Donnerb%C3%BCchse_(Personenwagen)
+# https://de.wikipedia.org/wiki/DR-Baureihe_ET_41
+
+copyright=Flemmbrav
+intro_year=1933
+build_year=1927
+intro_month=3
+retire_year=1945
+retire_month=0
+freight=Passagiere
+payload=66
+cost=5037648
+runningcost=45
+weight=21
+# 
+speed=90
+# LÜP 13.920mm
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1933_ET_41.1.<$0>
+
