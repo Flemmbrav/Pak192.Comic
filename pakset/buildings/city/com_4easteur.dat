@@ -395,6 +395,18 @@ chance=10
 needs_ground=0
 BackImage[0][0][0][0][0][0-4]=images/com/easteur/07_E5_02.3.<$0>
 ---
+obj=building
+name=com_cl4_E5_09_07
+copyright=Leartin
+intro_year=1991
+intro_month=11
+type=com
+climates=tundra
+Level=7
+chance=10
+needs_ground=0
+BackImage[0][0][0][0][0][0-1]=images/com/07_E5_01.0.<$0>
+---
 #################################################################################
 #									 Level 9									#
 #################################################################################
