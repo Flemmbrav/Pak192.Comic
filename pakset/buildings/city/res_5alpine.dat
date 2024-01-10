@@ -1774,7 +1774,7 @@ chance=40
 level=9
 needs_ground=1
 climates=rocky
-BackImage[0][0][0][0][0][0-4]=images/res/alpine/09_E3_03.<$0>.0
+BackImage[0][0][0][0][0][0-4]=images/res/alpine/09_E3_04.<$0>.0
 FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,36,43
 ---
 obj=building
@@ -1787,7 +1787,7 @@ chance=40
 level=9
 needs_ground=1
 climates=rocky
-BackImage[0][0][0][0][0][0-4]=images/res/alpine/09_E3_03.<$0>.1
+BackImage[0][0][0][0][0][0-4]=images/res/alpine/09_E3_04.<$0>.1
 FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,36,43
 ---
 obj=building
@@ -1800,7 +1800,7 @@ chance=40
 level=9
 needs_ground=1
 climates=rocky
-BackImage[0][0][0][0][0][0-4]=images/res/alpine/09_E3_03.<$0>.2
+BackImage[0][0][0][0][0][0-4]=images/res/alpine/09_E3_04.<$0>.2
 FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,36,43
 ---
 obj=building
@@ -1813,7 +1813,7 @@ chance=20
 level=9
 needs_ground=1
 climates=rocky
-BackImage[0][0][0][0][0][0-4]=images/res/alpine/09_E3_03.<$0>.3
+BackImage[0][0][0][0][0][0-4]=images/res/alpine/09_E3_04.<$0>.3
 FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,36,43
 ---
 ###################################################################################
