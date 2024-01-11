@@ -35,6 +35,7 @@
 - 80kph railway bridge
 - streetlights as (free) wayobj
 - fake city road in cobblestone look
+- Lot of new SBB Type N and L Signals
 
 ### Buildings
 
