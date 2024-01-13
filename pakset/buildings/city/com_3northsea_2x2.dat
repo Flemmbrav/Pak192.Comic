@@ -18,7 +18,6 @@ needs_ground=0
 dims=2,2,1
 BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/garage.<$0+$2*2>.<$1>
 ---
----
 Obj=building
 Name=com_cl3_2x2_E6_01_12
 copyright=Leartin
