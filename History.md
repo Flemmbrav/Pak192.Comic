@@ -20,6 +20,7 @@
 
 - European sugar production with beets (farm, fields, refinery)
 - biofuel plant
+- Additional coal power plant that better fits early years
 
 ### Infrastructure
 
@@ -41,9 +42,12 @@
 
 - citybuilding "Danivision"
 - citybuilding "Keycaps Skyscraper"
-- 2 more citybuildings
 - monument "Disco Sphere"
+- curiosity "StarGate"
+- curiosity "Guardhouse"
 - inverse Corner for St. Pölten station building
+- alternate version of all Pölten elements
+- several new citybuildings across all climates
 
 ### Vehicles
 
@@ -72,12 +76,9 @@
 ### Things that walk around
 
 - various new generic pedestrians
-- ducks and a swan
-- sharks
-- a deer
-- Jesus
+- try to spot some easteregg-pedestrians too
+- ducks, swans, sharks and a whale
 - a fox
-- a certain mouse that entered the public domain ;)
 
 ## Improved objects
 
