@@ -26,9 +26,9 @@ intro_year=1989
 intro_month=1
 cost=900
 is_presignal=1
-icon=> ./images/signals/typ_n/presignal_sbb_n.0.8
-cursor=./images/signals/typ_n/presignal_sbb_n.0.9
-Image[0-7]=./images/signals/typ_n/presignal_sbb_n.0.<$0>
+icon=> ./images/signals/typ_n/signals_pre_sbb_n.0.8
+cursor=./images/signals/typ_n/signals_pre_sbb_n.0.9
+Image[0-7]=./images/signals/typ_n/signals_pre_sbb_n.0.<$0>
 ----
 obj=roadsign
 name=prioritysignal_sbb_n
