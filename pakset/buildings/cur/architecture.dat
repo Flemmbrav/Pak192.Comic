@@ -6,6 +6,18 @@
 # Typical for this are famous buildings of the real world remade in Simutrans. #
 ################################################################################
 obj=building
+name=cur_stargate
+#Chappa'ai
+copyright=Leartin
+intro_year=0
+type=cur
+Chance=5
+level=10
+needs_ground=1
+climates=desert
+BackImage[0][0][0][0][0][0]=images/stargate.0.0,0,10
+----------------------------------
+obj=building
 name=cur_city_wachstube
 copyright=Leartin
 intro_month=6

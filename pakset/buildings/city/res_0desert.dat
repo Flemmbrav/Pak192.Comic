@@ -142,7 +142,16 @@ BackImage[0][0][0][0][0][0]=images/res/desert/09_E0_01.0.1,0,10
 #									 Level 12									#
 #################################################################################
 
-
+obj=building
+name=res_cl0_E0_01_12
+copyright=Leartin
+intro_year=1500
+type=res
+Chance=30
+level=12
+climates=desert
+BackImage[0][0][0][0][0][0]=images/res/desert/12_E0_01.0.0,0,10
+---
 
 #################################################################################
 #									 Level 15									#
