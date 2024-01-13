@@ -69,7 +69,7 @@ Level=15
 needs_ground=0
 dims=2,2,1
 BackImage[0][0-1][0-1][0][0][0-1]=images/2x2/com/garage.<$0+$2*2>.<$1+2>
-BackImage[0][0][1][1][0][0-1]=images/2x2/com/garage.<$2*2>.4
+BackImage[0][0][1][1][0][0-1]=images/2x2/com/garage.<$0*2>.4
 ---
 Obj=building
 Name=com_cl4_2x2_E5_02_15
