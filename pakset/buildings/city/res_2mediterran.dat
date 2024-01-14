@@ -147,7 +147,7 @@ type=res
 Chance=30
 level=9
 climates=mediterran
-BackImage[0][0][0][0][0][0-4]=images/res/medi/09_E0_01.<$0>.0
+BackImage[0][0][0][0][0][0-1]=images/res/medi/09_E0_01.<$0>.0
 ---
 obj=building
 name=res_cl2_E0_02_09
@@ -157,8 +157,8 @@ type=res
 Chance=30
 level=9
 climates=mediterran
-BackImage[0][0][0][0][0][0-4]=images/res/medi/09_E0_01.<$0>.1
-FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,50,-7
+BackImage[0][0][0][0][0][0-1]=images/res/medi/09_E0_01.<$0>.1
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,50,-7
 ---
 obj=building
 name=res_cl2_E0_03_09
@@ -168,8 +168,8 @@ type=res
 Chance=30
 level=9
 climates=mediterran
-BackImage[0][0][0][0][0][0-4]=images/res/medi/09_E0_01.<$0>.2
-FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,0,-12
+BackImage[0][0][0][0][0][0-1]=images/res/medi/09_E0_01.<$0>.2
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,0,-12
 ---
 
 #################################################################################
