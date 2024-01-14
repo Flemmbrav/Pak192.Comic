@@ -634,6 +634,8 @@ Commands:
 		`cp -rf AddOn/* calculated/AddOn`
 		#`cp -rf AddOn/* calculatedextended/AddOn`
 		`cp -rf AddOn384/* calculated/AddOn384`
+		#`cp -rf AddOn/* calculatedextended/AddOn`
+		`cp -rf AddOn48/* calculated/AddOn48`
 
 		declare -A ReConvertList
 		declare -A GoodsValueArray
@@ -660,6 +662,11 @@ Commands:
 			readallfiles 'AddOn384/**/**/*.dat'
 			readallfiles 'AddOn384/**/**/**/*.dat'
 			readallfiles 'AddOn384/**/**/**/**/*.dat'
+			readallfiles 'AddOn48/*.dat'
+			readallfiles 'AddOn48/**/*.dat'
+			readallfiles 'AddOn48/**/**/*.dat'
+			readallfiles 'AddOn48/**/**/**/*.dat'
+			readallfiles 'AddOn48/**/**/**/**/*.dat'
 		else
 			if [[ $AllVehicles == 1 ]] ;then
 				echo "- Edit All Vehicle .dat Files "
