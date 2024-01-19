@@ -6,7 +6,7 @@
 convertpng() {
 
 	oldimage=$1
-	convert $oldimage -fill '#DFDFDF' -opaque '#DFDFDE' $oldimage
+	convert $oldimage -fill '#DFDFDE' -opaque '#DFDFDF' $oldimage
 
 }
 

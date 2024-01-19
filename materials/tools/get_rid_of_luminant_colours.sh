@@ -6,7 +6,7 @@
 convertpng() {
 
 	oldimage=$1
-	convert $oldimage -fill '#DFDFDF' -opaque '#DFDFDE' -fill '#C9C9C9' -opaque '#C9C9C8' -fill '#B3B3B3' -opaque '#B3B3B2' -fill '#9B9B9B' -opaque '#9B9B9C' -fill '#6B6B6B' -opaque '#6B6B6C' $oldimage
+	convert $oldimage -fill '#DFDFDE' -opaque '#DFDFDF' -fill '#C9C9C8' -opaque '#C9C9C9' -fill '#B3B3B2' -opaque '#B3B3B3' -fill '#9B9B9C' -opaque '#9B9B9B' -fill '#6B6B6C' -opaque '#6B6B6B' $oldimage
 
 }
 
