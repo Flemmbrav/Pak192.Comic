@@ -42,6 +42,7 @@
 
 - citybuilding "Danivision"
 - citybuilding "Keycaps Skyscraper"
+- citybuilding "Taipei 101"
 - monument "Disco Sphere"
 - curiosity "StarGate"
 - curiosity "Guardhouse"
