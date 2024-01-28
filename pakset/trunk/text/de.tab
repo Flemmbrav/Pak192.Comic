@@ -1125,11 +1125,11 @@ Vorfeld
 Bahnhof_Hochbahn_1
 Hochbahnsteig
 Bahnhof_Hochbahn_2
-Hochbahnhalle
+Hochbahnsteig mit Halle
 Bahnhof_Hochbahn_3
 Überdachter Hochbahnsteig
 Bahnhof_Hochbahn_5
-Hochbahnsteig
+Hochbahnsteig mit Glashalle
 Bahnhof_Untergrundbahn_1863_1
 U-Bahnhof
 Bahnhof_Untergrundbahn_1863_2
@@ -1183,7 +1183,7 @@ Narrowgauge_Station_Passenger_Roof_2
 Narrowgauge_Station_Passenger_Roof_3
 Überdachter Bahnsteig
 narrowgauge_station_passenger_roof_4
-Überdachter Bahnsteig
+Bahnsteighalle
 Narrowgauge_Station_Passenger_Underground_1
 U-Bahnhof
 Narrowgauge_Station_Passenger_Underground_2
@@ -1242,6 +1242,24 @@ road_roundroof
 Bushaltestelle
 sandbahnsteig
 Sandbahnsteig
+station_track_1850_station_hall
+Bahnsteighalle
+station_track_1850_station_hall_bright
+Bahnsteighalle
+station_track_1890_station_hall
+Große Bahnsteighalle (überspannt vier Gleise)
+station_track_1890_station_hall_2F
+Große Bahnsteighalle, vorderer Teil, Stützen gegenüberliegend vom Bahnsteig
+station_track_1890_station_hall_3C
+Große Bahnsteighalle, mittlerer Teil, Stützen gegenüberliegend vom Bahnsteig
+station_track_1890_station_hall_4B
+Große Bahnsteighalle, hinterer Teil, Stützen gegenüberliegend vom Bahnsteig
+station_track_1890_station_hall_6F
+Große Bahnsteighalle, vorderer Teil, Stützen auf dem Bahnsteig
+station_track_1890_station_hall_7C
+Große Bahnsteighalle, mittlerer Teil, Stützen auf dem Bahnsteig
+station_track_1890_station_hall_8B
+Große Bahnsteighalle, hinterer Teil, Stützen auf dem Bahnsteig
 station_track_Bahnsteig_1835_1
 Einseitiger Bahnsteig
 station_track_Bahnsteig_1835_2
