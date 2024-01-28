@@ -9,7 +9,7 @@
 #                             Language: es Espanol                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 4.10 2020                           #
+#                           Date Created: 28.01 2024                           #
 #                                                                              #
 ################################################################################
 #________________________________building - com_________________________________
@@ -28,6 +28,10 @@ Oficinas de Seguros Simupoliza SA
 #________________________________building - cur_________________________________
 cur_city_church
 Iglesia
+cur_city_eiffel
+Torre Eiffel
+cur_city_eiffel2
+Torre Eiffel
 cur_land_radiotower
 Torre de comunicaciones
 #_______________________________building - depot________________________________
@@ -130,14 +134,14 @@ berry1_plantation
 Plantación de fresas
 berry2_plantation
 Plantación de grosellas
-dairy
-Industria Lactea
 gasstation_small
 Gasolinera Pequeña
 grainfarm_alpine
 Plantación de Trigo
 juicefactory1
 Fabrica de Zumo de Fresa
+oremine
+MINA DE MINERAL
 shop
 Tienda de Batidos y Granizados
 Slaughter
@@ -146,6 +150,44 @@ small_shop
 Tienda de Frutos Secos
 Stahlwalzwerk
 Fabrica de Acero Laminado
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+beer
+cerveza
+chemicals
+productos químicos
+copper
+cobre
+dairy
+Industria Lactea
+fuel
+combustible
+grain
+cereal
+honey
+miel
+icecream
+helado
+ink
+tinta
+meat
+carne
+None
+Ninguno
+Passagiere
+Pasajero
+Post
+Correo
+sand
+arena
+solvent
+disolvente
+sugar
+azucar
+toys
+juguetes
+vine
+Vino
 #__________________________________pedestrian___________________________________
 #__________________________________pedestrian___________________________________
 pedestrian_1
@@ -289,9 +331,9 @@ Mercedes Benz O550
 MB_Lo_2000_Bus_1L
 CRZ IV-P35
 MB_Lo_2000_Bus_2L
-CRZ IV-P55
+Mercedes-Benz Lo 2000
 MB_O_6600_H_L
-CRZ Pv 4/25
+Mercedes-Benz O 6600H
 pers_kutsche1
 carruaje
 PTM_Cally_Post
