@@ -1,0 +1,67 @@
+# https://de.wikipedia.org/wiki/Doppelstock-Stromlinien-Wendezug_der_LBE
+
+obj=vehicle
+name=Passenger_Train_1936_Doppelstockwagen_LBE_AB
+copyright=Flemmbrav
+intro_year=1936
+intro_month=6
+retire_year=1945
+retire_month=1
+runningcost=963
+cost=23107000
+weight=36
+speed=120
+# 0   1st class
+# 41  2nd class
+# 49  3rd class
+# 0   4th class
+payload=90
+freight=Passagiere
+# 22.670 mm
+length=10
+waytype=narrowgauge_track
+
+#constraint[prev][0]=none
+constraint[next][0]=Passenger_Train_1936_Doppelstockwagen_LBE_B
+
+EmptyImage[S]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.0.1
+EmptyImage[E]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.0.0
+EmptyImage[SE]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.0.4
+EmptyImage[SW]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.0.7
+EmptyImage[N]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.0.3
+EmptyImage[W]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.0.2
+EmptyImage[NW]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.0.6
+EmptyImage[NE]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.0.5
+-----------
+obj=vehicle
+name=Passenger_Train_1936_Doppelstockwagen_LBE_B
+copyright=Flemmbrav
+intro_year=1936
+intro_month=6
+retire_year=1945
+retire_month=1
+runningcost=963
+cost=23107000
+weight=36
+speed=120
+# 0   1st class
+# 0   2nd class
+# 100 3rd class
+# 0   4th class
+payload=100
+freight=Passagiere
+# 22.670 mm
+length=10
+waytype=narrowgauge_track
+
+constraint[prev][0]=Passenger_Train_1936_Doppelstockwagen_LBE_AB
+#constraint[next][0]=none
+
+EmptyImage[S]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.1.1
+EmptyImage[E]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.1.0
+EmptyImage[SE]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.1.4
+EmptyImage[SW]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.1.7
+EmptyImage[N]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.1.3
+EmptyImage[W]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.1.2
+EmptyImage[NW]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.1.6
+EmptyImage[NE]=./image/Passenger_Train_1936_Doppelstockwagen_LBE.1.5
