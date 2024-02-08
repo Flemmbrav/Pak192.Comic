@@ -53,14 +53,3 @@ Image[0][0]=./image/texture.0.4
 Image[0][1]=-
 noinfo=1
 ---
-obj=ground_obj
-name=dune
-copyright=Leartin
-cost=10
-DistributionWeight=100
-seasons=2
-climates=desert
-Image[0][0]=./image/texture.0.5
-Image[0][1]=-
-noinfo=1
----
