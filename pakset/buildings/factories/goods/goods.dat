@@ -21,7 +21,7 @@ name=Post
 mapcolor=171
 metric=sack
 catg=0
-value=5
+value=15
 speed_bonus=13
 weight_per_unit=3
 -----------------

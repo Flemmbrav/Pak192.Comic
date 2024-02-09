@@ -1,4 +1,13 @@
-bla
+
+## Gameplay
+
+- higher margin for post transport
+
+## New objects
+
+### Vehicles
+
+- LBE double deck coaches
 
 # V 0.7
 
