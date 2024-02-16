@@ -1,9 +1,17 @@
 
+# V0.7.1.
+
 ## Gameplay
 
 - higher margin for post transport
 
 ## New objects
+
+### UI
+
+- new button: ctrl-lock
+- new buttons to change daylight / night
+- new buttons to control the speed of the game
 
 ### Vehicles
 
