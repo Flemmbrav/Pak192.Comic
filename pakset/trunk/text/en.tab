@@ -9,7 +9,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 23.04 2023                           #
+#                           Date Created: 16.02 2024                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -22,6 +22,8 @@ high_track_bridge2
 Elevated Rail Bridge
 Stahlbruecke_track
 Steel Bridge
+track_bridge_80kph
+brick bridge
 #________________________________bridge - power_________________________________
 #________________________________bridge - power_________________________________
 Stromleitung_bruecke
@@ -38,6 +40,8 @@ Bridge
 #________________________________bridge - track_________________________________
 ng_Bridge_1900_70kph
 Narrow Gauge Bridge
+ng_Bridge_1954_100kph
+Steel Beam Narrow Gauge Bridge
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 com_cl0_C12_E0_01_20
@@ -80,6 +84,14 @@ com_cl2_E6_01_30
 Torre Caja\n\nAlso known as "Skyscraper to go".
 com_cl3_2x2_E4_01_30
 Simu-state Building
+com_cl3_2x2_E5_01_12
+Parking Garage
+com_cl3_2x2_E5_01_15
+Parking Garage
+com_cl3_2x2_E5_01_27
+SimuInvest Tower
+com_cl3_2x2_E6_01_12
+Dark Brown Large Commercial Building\n\nThe construction workers said that real wood is too expensive, so the owner of the building told them to just color it brown. He said that no one would know the difference. He was wrong. The kids always said that his building is like a giant dark chocolate bar.
 com_cl3_C1_E3_01_12
 Beauty Hill\n\nTop floor to the right is home to little Andi, who wants to become a train driver when he grows up. He probably gazes out of the window dreaming right now - oh hey, he waves at you!
 com_cl3_C1_E3_02_12
@@ -176,12 +188,16 @@ com_cl3_E4_07_20
 Commercial Building\n\nMr. Sulzer loves to use the public phone boot for prank calls. His favourite is to call a bar and ask for Coholic, Al.
 com_cl3_E5_01_15
 Commercial Building\n\n The V-shaped support beams were added to the original design after it was found out that the architect was an imposter and had no idea about gravity and how to counter it.
+com_cl3_E5_01_18
+Dark Brown Tilted Office Building\n\nOh, hell!!! The building is going down! Clear the area, everyone--! Oh, wait. Hehehe, it's just the way the building was designed. -York, police officer\n\nAfter that, York is sent by the police chief to one month paperwork duties.
 com_cl3_E5_01_20
 Commercial Building\n\n The V-shaped support beams were added to the original design after it was found out that the architect was an imposter and had no idea about gravity and how to counter it.
 com_cl3_E5_01_27
 Astra Tower\n\nAn intelligent light design bathes the contemporary office tower in a glowing radiance that can be seen from far away at twilight and in the dark. Situated on a prominent site, its offices rank among the most prestigious the city has to offer. 
 com_cl3_E5_01_30
 Astra Tower\n\nAn intelligent light design bathes the contemporary office tower in a glowing radiance that can be seen from far away at twilight and in the dark. Situated on a prominent site, its offices rank among the most prestigious the city has to offer. 
+com_cl3_E5_02_18
+Brick Office Building with Rectangular Hip Roof\n\n'Hey, did you know that Supervisor Zain is a mummy? He's a handsome one though!!' Such discussion can be heard from most of the girls in the office. The male employees feel even more undermined.\n\nOh, also, did you know that he is my uncle? -Saffron, Agent Tsabit's wife
 com_cl3_E5_02_20
 Friho-Tower\n\nThis magnificent building is home to the family-run enterprise of the same name. As the logo indicates, they are in the coffee business - specifically coffee vending machines which they restock, clean and empty the cashbox from.
 com_cl3_E5_02_27
@@ -211,7 +227,7 @@ RWE Tower\n\nEven though this is one of the highest buildings, they did not miss
 com_cl3_E5_12_12
 Gymnasium
 com_cl3_E5_12_27
-Commercial building
+Brick office Building with Pyramid Hip Roof\n\nThousands of paperworks are worked on each day here. The supervisor of the office, Zain Paper, said, 'most of these documents are the last thing any intelligent being would read. I feel sorry for my subordinates.'
 com_cl3_E5_13_12
 Gymnasium
 com_cl3_E6_01_12
@@ -226,6 +242,8 @@ com_cl3_E6_03_20
 Office\n\nSandy Torkai from the sixth floor just earned her first billion when she got a stern talk from her boss - no Simutrans during office hours!
 com_cl3_E6_04_20
 Office\n\nSandy Torkai from the sixth floor just earned her first billion when she got a stern talk from her boss - no Simutrans during office hours!
+com_cl4_2x2_E6_01_12
+Commercial Building\n\nBecause of the recent trend of recycling, the owner of this building decided to go green by using broken dumpsters as the material for this buildings roof. Don't worry, they were rigorously scrubbed and are almost odorless.
 com_cl4_E2_01_07
 Plaza
 com_cl4_E3_01_03
@@ -240,8 +258,14 @@ com_cl4_E4_05_20
 Hotel\n\nIt's easy to miss and hard to believe, but this buildings is, in fact, a hotel.
 com_cl4_E4_06_23
 Commercial Building\n\nMr Wolpertinger was very proud when he got a large office in the top floor with a nice view over the city. He did not know yet how often the faulty elevators would break down due to insufficient maintenance.
+com_cl4_E5_01_05
+Pokémon Merchandise Store\n\nTotally not some sort of frontline headquarter for Pokémon trainers. Here in this store, they sell everything related to Pokémon, like Pikachu plushies, Mewtwo figurines, posters of Ash and Misty, Team Rocket outfit, and many more. They even sell the DVD of the anime series and movies, from the first one to the last one. The DVD of the new series, Pokémon Horizons, will also be available here as soon as the series finished airing on TV. Of course, all of these are not to hide the fact that this store is the frontline headquarter for Pokémon trainers.\n\nIs that Misty herself?! Aaaa!!! I need to get her autograph! -Ezo, Pathfinders agent that is totally not slacking off
+com_cl4_E5_01_18
+Light Brown Tilted Office Building\n\nDamn it! The building is unstable! Get the hell the off this place--!!! Wait. Ugh, screw myself. -Oslo, police officer\n\nIn the next day, the police chief sent her to help York with his paperwork duties.
 com_cl4_E5_01_27
 HH-Tower\n\nOften without helmets and with little or no safety line, window cleaners all over the world work hundreds of meters above the ground. High risk, little reward. But not at the HH-Tower with it's comfortable window cleaner elevator.
+com_cl4_E5_05_07
+Orange L-shaped Hotel\n\nTwo guards wearing a turban is seen guarding the entrance. Anyone not wearing the outfit like the guard seems to be not allowed to enter the hotel.\n\nOh, it's the desert mafia, Night Jackal. They rent the whole place to discuss about their kebab recipe or something. I don't know why they came this far just to discuss that. -Aleksander, hotel owner
 com_cl5_E0_01_03
 Grocery store
 com_cl5_E0_01_07
@@ -316,6 +340,8 @@ com_cl5_E5_01_07
 Store
 com_cl5_E5_01_12
 Commercial offices
+com_cl5_E5_01_18
+White Tilted Office Building\n\nHmm~ This building looks interesting~ If you're not observant enough, you would think that this building is about to collapse to the front, squashing everyone in front of it and effectively killing them~ -Ashikaga Canberra, detective\n\nAfter asking permission to the police chief, Canberra decides to help her two friends, who were 'victims' of such building, with their paperwork duties.
 com_cl5_E5_01_23
 ArHotel\n\nThe company saves money by using the same blueprints for each hotel of the chain.
 com_cl5_E5_01_30
@@ -336,6 +362,8 @@ com_cl5_E5_05_09
 Commercial offices
 com_cl5_E5_05_12
 Sunny Gym
+com_cl5_E5_05_20
+Overhanging Tower\n\nPeople said it would fall down while it was built. They haven't been proved right yet!
 com_cl5_E5_05_30
 Commercial office building
 com_cl5_E5_06_09
@@ -372,6 +400,8 @@ com_cl5_E6_02_30
 LearTower\n\nThe sole purpose of this building is to be slightly higher than the STC, just to spite it's architect.
 com_cl5_E6_03_30
 LearTower\n\nThe sole purpose of this building is to be slightly higher than the STC, just to spite it's architect.
+com_plaza_C12_E0_01_20
+Sandstone Obelisk Plaza\n\nObelisk is sometimes used to record stories of the past so that the one in the future can know those stories. Wait, are those dozens of 4-koma mangas drawn on it? There's a note written among them. 'There's nothing fun happening and I got extremely bored, so I decided to draw something fun! >w<' Below the note, there's a name written, 'Saffron.'\n\nWhat?! My wife drew this!!? -Tsabit, Pathfinders agent\n\n:p -Saffron, Agent Tsabit's wife
 com_plaza_cl2_E0_01_01
 Market Plaza
 com_plaza_cl2_E0_01_03
@@ -383,7 +413,7 @@ Chess Plaza
 com_plaza_cl2_E0_01_09
 Fountain Plaza
 com_plaza_cl2_E0_01_12
-Palm Plaza
+Palm Plaza\n\nHahhh, nothing interesting. Just a plaza with some palm trees that can barely be used as shade from the blazing hot sun. I think I am starting to hallucinate. I just saw a guy walking with a mummy with voluptuous body. -Lotus, Pathfinders agent
 com_plaza_cl2_E0_01_20
 Pointy Plaza
 com_plaza_cl3_E0_01_01
@@ -401,7 +431,7 @@ Basketball Court
 com_plaza_cl3_E3_01_12
 Soccer Field
 com_plaza_cl3_E5_01_09
-Hazard Plaza
+Crashed Train Plaza\n\nAn underground train derailed upward some days ago here and is currently under the police investigation. Miraculously, there's no casualties at all. Multiple witnesses said that the train 'herself' was trying to avoid running over a family of racoons, so she derailed herself. The train drivers that ever operated the train added that they usually heard voices of a girl coming from the control console or the speaker, talking to them, and sometimes her avatar also appeared in one of the window nearby. The passengers and the securities also said similar things. She even got nicknamed, Emma. For now, the citizens decide to make the crashed train an art exhibition to hide Emma from unwanted attentions until she gets a new train.\n\nHer origin is unknown. Regardless, judging that she shows emotions, she can joke around, she has interest in travelling, and she hates math, I can safely say that Emma is an AI with self-conciousness! Don't worry about AI uprising, she will not do that... I think~ -Phoenicia, hobbyist programmer\n\nWell, the police is supposed to serve the people, right? Of course, we will manipulate this case. Besides, she said hello to me! An AI girl said hello to me--!! Oh, damn, my wife is going to kill me! -Ashikaga Tetsuo, detective
 com_plaza_cl3_E6_01_15
 Weird Monument
 com_plaza_cl4_E0_01_01
@@ -445,9 +475,9 @@ Church
 cur_city_Dohauzdium
 Dohauzdium\n\nThere are rumors that the aluminum coating of the spheares acts as a shield for thought-manipulation-rays from space. It must be wrong, the TV works.
 cur_city_eiffel
-Eiffel Tower
+Eiffel Tower\n\n...and they still have not found oil.
 cur_city_eiffel2
-Eiffel Tower
+Eiffel Tower\n\n...and they still have not found oil.
 cur_city_elphi
 Concert Hall\n\nThe Concert Hall of the local philharmonic orchestra does provide great accustics. In winter, the roof can be used as a small ski ressort.
 cur_city_gothic_cathedral
@@ -455,7 +485,7 @@ Gothic Cathedral\n\n By far the best part about any gothic building are the flyi
 cur_city_lentos
 Lentos Art Museum\n\nThis modern building shelters a collection of a thousend paintings and sculptures of the century. But the nightly illumination makes it a piece of art as well
 cur_city_mansion
-Hounted Mansion\n\nThe magnificent mansion must have been here for generations.\nYou have probably seen it many times before, a vague familiarity overcomes you.\nBut has it always been here? \nWhy do you break out in cold sweat when you are near it? \nAnd how comes it compells you to build a bus stop right next to it, as if to... feed it?
+Haunted Mansion\n\nThe magnificent mansion must have been here for generations.\nYou have probably seen it many times before, a vague familiarity overcomes you.\nBut has it always been here? \nWhy do you break out in cold sweat when you are near it? \nAnd how comes it compells you to build a bus stop right next to it, as if to... feed it?
 cur_city_mosque
 Mosque\n\nThis mosque was buildt for religious tolerance, one minaret is occupied by a shia muezzin, while the muezzin in the other minaret is of sunni faith. Now they compete in who can cry louder.
 cur_city_museum
@@ -470,6 +500,8 @@ cur_city_planetarium
 Planetarium\n\nThe planets and fixed stars projected onto the inner surface of the white cupola is one of the rare occasions Simuthanians can watch stars. Usually, this is not possible due to limitations of the isometric perspective.
 cur_city_school
 Middle School\n\nThis school teaches everything a young Simuthanian needs to know in his live. In English and French class, creative translation texts are written. In Math they investigate the balance of factories and vehicles. Science class revolves around the pixel as smallest part of the universe, and how attempts to split them cause such a catastrophic reaction, it would need to be pixelated. Last but not least, in sports class the high art of teleporting around corners is mastered.
+cur_city_wachstube
+Guardhouse\n\nThis military building of the Age of the second Settlers was once used to expand territory and offered space for up to three soldiers.
 cur_land_basil_church
 Orthodox Church\n\nThis Church was meant to be a large cathedral for St. Basil, but the builders ran out of money prematurely. The plans still exist, perhaps one day the full cathedral will be completed after all.
 cur_land_castle
@@ -510,6 +542,8 @@ extension_Lagerhalle2
 Warehouse
 extension_Postamt
 Post Office
+extension_postoffice
+Post Office
 extension_taxi
 Taxi Stand
 extension_UBahn
@@ -537,7 +571,7 @@ Terminal
 terminal_tower
 Control Tower Terminal
 terminal2
-Terminal
+Terminal corner
 terminal2_corner
 Corner Terminal
 #______________________________building - harbour_______________________________
@@ -552,6 +586,10 @@ dock_long
 Dock
 dock_long_2
 Dock
+dock_long_pax
+Dock for Passenger
+dock_pax
+Dock for Passenger
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 1headquarter
@@ -578,6 +616,8 @@ ind_cl1_E0_09_02
 Warehouse
 ind_cl3_1x2_E0_01_05
 Workshop
+ind_cl3_E3_05_09
+Bottled Water Plant\n\nProducing some of the finest "natural spring-water" in the district, this repurposed cement plant has made fortunes for the advertising agencies engaged by it's owners. The use of PPE bottles has contributed a great deal to the undegradable landfill.
 ind_cl4_1x2_E0_01_05
 Workshop
 ind_cl4_1x2_E3_01_15
@@ -614,6 +654,8 @@ ind_cl5_E3_08_15
 Company Car Park
 ind_cl5_E5_01_09
 Screw It
+ind_cl5_E5_01_12
+Stop-to-Go Car Repairs\n\nDrive in servicing, but if its stopped how do you drive it in?
 ind_cl5_E5_02_09
 Screw It
 ind_cl5_E5_03_09
@@ -643,7 +685,7 @@ Allotment Garden Railway\n\nHis wife did not allow a model railway at home, so M
 mon_25years
 25 Years of Simutrans!\n\nHappy birthday!
 mon_anno
-420 Years of of Anno 1602\n\nAnd we celebrate!
+Anno 1602 Monument\n\n1602 Anno Domini this very ship set sail to discover land and found a new settlement.
 mon_at_at
 AT-AT\n\nThe All Terrain Armored Transport is a quadruped mechanized infantry combat vehicle used by the Imperial ground forces. Standing over 20 meters tall with blast-impervious armour plating, these massive constructs are used as much for psychological effect as they are for tactical advantage. In this case though, it's just a statue to celebrate Star Wars Day. May the Fourth be with you!
 mon_brose
@@ -653,7 +695,7 @@ Cornelius Coot\n\nThe oversized statue was founded in 1952 to honor the cities f
 mon_creeper
 Creeper\n\nThe hollow statue provides shelter to a strange nocturnal species which excretes basic components for gunpowder and explosives. Bats are amazing.
 mon_cruzer
-Cruzer-Monument\n\nA monument to honor Cruzer, creator and founder of pak192.com. Withouth him, this would not be possible.
+Cruzer-Monument\n\nA monument to honor Cruzer, creator and founder of pak192.com. Without him, none of this would be possible.
 mon_cube
 Rubik's Cube\n\nThis mechanical monstrosity is dedicated to the famous puzzle as well as others of it's kind, which tend to stress the mental capabilities of young and old alike. Hardly anyone notices how the sculpture is cheating.
 mon_flemm
@@ -661,7 +703,7 @@ Flemmbrav Monument\n\nThis monument is dedicated to Flemmbrav, who enriched Simu
 mon_incredible_cube
 Incredible Cube\n\nA monument to honor the developers of Simutrans.
 mon_isaac
-Isaac Eiland-Hall Monument
+Isaac Eiland-Hall Monument\n\nWe do not believe the rumors about what Isaac Eiland-Hall did in the 90's, and ask you to disregard any statements about how he allegedly used his powers as a dictator in any but a benevolent way.
 mon_leartin
 Monument for Leartin\n\nThis is a small interactive version of most of Leartin's fantastic landscape creations. Only the trains aren't his work, but tourists wouldn't like playing with them half as much if it wasn't for the beautyful environment.\n
 mon_pokeball
@@ -680,44 +722,58 @@ mon_zumaque_1
 Industrial-Monument\n\Here stands the oldes oil pump of the monopolistic and most money hungry oil company of simutrans.
 #________________________________building - res_________________________________
 #________________________________building - res_________________________________
+com_cl4_E0_01_03
+Tenement with Red T-shaped Gable Roof\n\nNikita and her son live here. Their room is on the second floor, the one with the two windows on the right part of the building. One day, a fellow tenant asked, 'hey, where is the dad?' Nikita cheerfully answered, while peeling a cucumber with a kitchen knife, 'oh, he doesn't have one, and he doesn't need one~' 'Ah, haha, I see...' The tenant then hurriedly enters his room while covering the area between his legs.
+com_cl4_E0_01_05
+Tenement with Red H-shaped Gable Roof\n\n
+com_cl4_E0_02_03
+Tenement with Brown T-shaped Gable Roof\n\n
 res_cl0_E0_01_01
-Desert tent
+Desert Tent\n\nThe person who lives here is known to be a nerd. From the outside, her tent may just looks like an ordinary tent, but in the inside, there's a comfy bed, a drawer, several shelves full of mangas and action figures, an electric stove, a TV, a desk with a gaming PC on it, and there's even a separated section of the tent for bathroom.\n\nThe camel outside, who is notoriously known to like to bite tresspassers, is her best friend and personal bodyguard.
 res_cl0_E0_01_03
 Adobe house
 res_cl0_E0_01_05
-Adobe house
+Desert House with Tower\n\n'Bakar!! It's midnight already! Stop watching the stars and get down from the tower now! Do you want to wait until one of them decides to come and marry you!!?' shouted Bakar's mom. 'It's not 'watching' the stars, Mom! It's astrology. I am studying celestial bodies,' replied Bakar. After saying that, Bakar's mom 'climbed' the tower and dragged Bakar by the ear inside the house.
 res_cl0_E0_01_07
-Large adobe house
+Small Two-story Desert House\n\nBakar's mom is at her friend's house, doing yoga together with her friends. But suddenly, Bakar comes interrupting. 'Mom, this glowing lady came out from nowhere and kept following me! She said that she wants to marry me! Mom, what should I do!?' 'Nice to meet you! I am Polaris, a star. I notice your son likes to watch my body~' 'Stop!! It's not like that!' 'Hmmm, but I enjoy it~ Anyway, I love him! I want to marry and be with him forever!' Bakar's mom and her friends are left speechless, while Polaris ceaselessly keeps hugging and kissing Bakar.
 res_cl0_E0_01_09
 Large adobe house
 res_cl0_E0_02_01
-Desert well
+Desert Well\n\n'Well, well, well, who do I have here~? Did you come for the water or the wishes... or maybe me~?' Agent Tsabit didn't expect that someone would live here, at a well, especially not... a mummy girl?? 'Woah, okay, so... how about if I would like you to be my wife?' The mummy girl smiled. 'Tee-hee! Done! Now you're officially my husband. There's even the certificate that said so!' 'Okay, now, for my wish--' 'Wait, that wasn't your wish? Hmm, so naughty~ Sadly, since I am yours, I can't grant wish anymore, but you're still very lucky I like you~' Regardless, Agent Tsabit looks clearly well of the outcome.
 res_cl0_E0_02_03
 Adobe house
 res_cl0_E0_02_05
 Adobe house
 res_cl0_E0_02_07
-Attached adobe homes
+Attached adobe homes\n\nTwo happy and friendly families live here. There are arguments over the shared bathroom though.
 res_cl0_E0_02_09
 Large adobe house
 res_cl0_E0_03_03
 Adobe house
 res_cl1_E0_01_01
-Bamboo house
+Bamboo Houses\n\nA young farm girl lives in the house with the tarp roof, while a young boy coming from the nearby city, that now work as a carpenter, lives in the house next door. They usually like to hangout by the campfire beside their house in the evening. Rumor said that they are still single.\n\nAaaa! Why don't they just marry, and live together, and (MESSAGE REDACTED)?!! -Ashikaga, Pathfinders agent
 res_cl1_E0_01_03
-Bamboo house
+Even More Bamboo Houses\n\nThree different families each live in these three houses. These families hail from three different far eastern country, Joseon, Tang, and Yamato. They may not share the same language, culture, or even joke, but they agree to share the land and the burden of tax.
 res_cl1_E0_01_05
-Large bamboo house
+Large Bamboo House\n\nA couple with their seven kids, one boy and six girls, live here. Thanks to the military-themed anime series their kids loves to watch, everyday in the house is like a warzone. Regardless, the couple is grateful that their kids loves their barrack-like bedroom. If not, they would need to have a much bigger house.
 res_cl1_E0_01_07
-Zen House
+Far Eastern Home with Terrace\n\n'There's a girl lives in this house. She seems to live here alone.' Agent Jung-hoon is taking some notes about the house and the one who lives there from across the road. 'By the way, the girl has a black long hair and a pale white skin. She wears a Tang mandarin robe. She also frequently jumps... Wait, what--?!' The girl notices Agent Jung-hoon and jumps toward him in one incredible jump. 'What are you looking at, perv! Get away from Chu's house!!!' 'What the hell!!! Waaah--!' Agent Jung-hoon fell to the ground with his face facing down, while the girl sat down on his head. Agent Jung-hoon just met with Supervisor Jiangshi's daughter, Chu.
 res_cl1_E0_01_09
 Zen House
+res_cl1_E0_01_12
+Yagura House\n\nThe house where dozens of the so-called 'akuma' live. The owner is a little girl who really loves cats. Other than the cats, she lives there alone. She has taken a lot of stray cats from the street and taken care of them all herself.\n\nOh, yes, she works at the local train station as a security and she knows karate very well. She got my neck once. She's, without a doubt, a very independent woman that is not little at all. -Takeda, Pathfinders agent
+res_cl1_E0_02_01
+Elevated Bamboo House\n\nA mysterious samurai lives here. He said, in his very few words, that the reason why he build his house elevated is to stop the 'akuma' from trespassing into his house. One day, a frightful scream is heard from the house. A while later, a cat is seen casually exiting the house. It seems the 'akuma' is just a cat, an animal who obviously considers elevated places as their playground, and the samurai is afraid of cat. Other than his dignity and honor, nothing is harmed
 res_cl1_E0_02_03
-Bamboo houses
+Far Eastern Home\n\nHa-yoon, a girl from Joseon, lives here. She usually likes to cook tteokbokki for her breakfast. But recently, she also cooks tteokbokki for her neighbors, since they often come to enjoy it too. Sometimes her neighbors asked, 'why didn't you open a tteokbokki restaurant? Your tteokbokki is really good!' and Ha-yoon always replied, 'no, I cook tteokbokki only for my hobby. Besides, I already have a job in the train station as a security, and one of my co-workers, a girl from Yamato who has a lot of cats in her house, is my best friend! I don't want to abandon this job!'
 res_cl1_E0_02_05
-Multi-family bamboo house
+Multi-family Bamboo House\n\nAgent Takeda and his big family live here. He and his three little sisters live in one of the non-elevated part of the house, while his mother and father live in the other non-elevated part of the house. His grandmother and grandfather also live here, and they take the elevated part of the house as their living space.\n\nTakeda looks very lovely around his sisters. I am so jealous of his sisters! -Ashikaga, Pathfinders agent
 res_cl1_E0_03_05
-Zen House
+Far Eastern Home with Lookout Tower\n\nAn ashigaru lives here. Her everyday hobbies are watching the samurai next door got terrorized by the 'akuma,' practicing judo, playing visual novel games, cleaning the house, and watching the samurai next door taking a bath.\n\nOooh, I like her already. -Ashikaga, Pathfinders agent
+res_cl1_E5_01_09
+Modern Far Eastern House\n\nAgent Ashikaga and his little brother live here. Their parents don't live with them. She said that now they are somewhere in the western country to work as detectives.\n\nNow back to my problem, why am I in her room tied up?!! -Takeda, Pathfinders agent
+res_cl1_E5_01_12
+Modern Far Eastern House with Parking Lot\n\nThis house serves as a temporary Pathfinders headquarter in the tropical zone. Some Pathfinders agents are seen readying the cars for the next assignment.\n\nWe are working hard to provide high-quality informations of various places around the world, and no, I will not drain your ki if you're not satisfied with our service... maybe. -Jiangshi, Pathfinders supervisor
 res_cl2_C1_E0_01_12
 Tuscan apartments 
 res_cl2_C1_E0_01_15
@@ -921,7 +977,7 @@ Half-timbered house
 res_cl3_E2_03_09
 Large inn
 res_cl3_E2_04_05
-House
+Red Two-story Home\n\nDetroit, his wife, Calgary, and their three daughters, Ottawa, Saskatoon, and Kelowna, live here. When it comes to his wife and daughters, Detroit is so protective. He would chase down and wrestle anyone trying to get close to them. One of the main reason why Calgary chose him, and also why their daughters still doesn't have a boyfriend even though they're already in high school.\n\nPardon my rudeness, but you three are so beautiful! I don't dare to just choose one of you. Do you three want to be my girlfriend--? Oh, you must be their father-- -Seven, Pathfinders agent that is trying out his possibly final luck
 res_cl3_E2_04_07
 Half-timbered house
 res_cl3_E2_05_07
@@ -939,9 +995,9 @@ Inn
 res_cl3_E2_11_07
 Inn
 res_cl3_E3_01_09
-Hostel
+Red Two-story Gothic House\n\nA neighbor asked about the house, 'why did your house give me the impression of a medieval tower?' The owner answered, 'umm... well, me and my older sister bought the roof of a medieval tower in an auction... and we decided to use it for our house.'
 res_cl3_E3_02_09
-Hostel
+Black Two-story Gothic House\n\nA Pathfinders agent asked, 'what's up with the medieval tower-looking?' The owner answered, 'Me and my younger sister stole the roof of a tower from an old castle and decided to use it for our house.'
 res_cl3_E4_01_05
 Small modern house
 res_cl3_E4_01_07
@@ -1118,12 +1174,18 @@ res_cl3_E6_06_05
 Contemporary house
 res_cl4_C1_E4_01_12
 Modern residential house\n\n\n\n\n\n\n\n\n\n\n\n\n
+res_cl4_E0_04_03
+Tundra Cabin\n\nIn the evening, Pavel and his wife, Svetlana, are usually seen sitting on the outdoor chairs beside their house. Perhaps they're discussing about-- wait, are those Mosin-Nagant rifles they're holding? 'My husband and I are watching for bears, sweety~ Our little daughter seems to attract bears so much. Maybe they like her, but we don't take chances~'
+res_cl4_E0_07_07
+Two-story Tundra Cabin\n\nNatasha established an orphanage in this house herself. She with thirty orphan kids under her care live here. Everyday, except weekend, they make an expedition to the nearby mountain to find herbs, ores, and minerals that they will sell to the market for their main income. Natasha hopes with the mountain expedition the kids can build their personalities and learn new skills. However, there is one thing that concerns her. One of her neighbors is a couple that is always seen holding rifles while patrolling around the neighborhood and the mountain. The wife always smiles cheerfully, even when holding her rifle, which makes her looks like a psycho, while the husband has a cold murderous face, which even without his rifle already make him looks like a killer.\n\nDamn, parents are badass. My mom is also badass. -Yuri, Pathfinders agent
 res_cl4_E4_01_03
 Simple Dwelling\n\nMr. Chaste is known as a meek and humble person. He is only ever seen buying water and bread while in underwear. Rumor has it his home does not even have walls of furniture, and he is sleeping naked on the bare floor.
 res_cl4_E4_02_03
 Simple Dwelling\n\nMr. Chaste is known as a meek and humble person. He is only ever seen buying water and bread while in underwear. Rumor has it his home does not even have walls of furniture, and he is sleeping naked on the bare floor.
 res_cl4_E4_03_03
 Simple Dwelling\n\nMr. Chaste is known as a meek and humble person. He is only ever seen buying water and bread while in underwear. Rumor has it his home does not even have walls of furniture, and he is sleeping naked on the bare floor.
+res_cl4_E4_04_03
+Cream Minimalist Home\n\nA little girl named, Poppy, lives here. She is usually seen working at the local park both as a gardener and a security. When at home, she likes to tend her flowers, especially her beloved and unusually large poppies.\n\nAgain, I mistook her for a little girl. I almost got a garden shears piercing through my head for it. Huh, what's up with all the girls I met!? -Takeda, Pathfinders agent
 res_cl4_E4_07_03
 Inventor's Villa\n\nIn this futuristic building lives Prof. Knox. His inventions are well-known in the city - especially for the damage they cause.
 res_cl4_E5_01_07
@@ -1360,32 +1422,42 @@ apron
 Apron with Jet Bridge
 apron2
 Apron
+Bahnhof_Hochbahn_1
+Elevated Platform (open-air)
+Bahnhof_Hochbahn_2
+Elevated Platform II (covered)
+Bahnhof_Hochbahn_3
+Elevated Platform I (covered)
 Bahnhof_Hochbahn_5
-Elevated Platform
+Modern Elevated Platform
+Bahnhof_Untergrundbahn_1863_1
+Metro Platform
+Bahnhof_Untergrundbahn_1863_2
+Metro Platform
 Bahnhof_Untergrundbahn_1902_1
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_1902_2
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_1912_1
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_1928_1
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_1962_1
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_1962_3
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_1978_1
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_1978_2
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_2012_1
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_2012_2
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_2012_3
-Subway Station
+Metro Platform
 Bahnhof_Untergrundbahn_2012_4
-Subway Station
+Metro Platform
 Bahnsteig_Halle_2000
 Roofed Platform
 freightstation_end_new
@@ -1394,8 +1466,40 @@ freightstation_end_old
 Freight Yard - End Piece
 freightstation_new
 Freight Yard - Drive Through
+freightstation_old
+Freight Yard - Drive Through
+maglev_station_pax_medium
+Maglev Platform
+Narrowgauge_Station_Goods_1
+Goods Platform
+Narrowgauge_Station_Passenger_1
+Platform
+Narrowgauge_Station_Passenger_Roof_1
+Roofed Platform
+Narrowgauge_Station_Passenger_Roof_2
+Roofed Platform
+Narrowgauge_Station_Passenger_Roof_3
+Roofed Platform
+narrowgauge_station_passenger_roof_4
+Roofed Platform
+Narrowgauge_Station_Passenger_Underground_1
+Metro Platform
+Narrowgauge_Station_Passenger_Underground_2
+Metro Platform
+NIXBAHNSTEIG
+Invisible Stopping Point
+Parking_Facility_0
+Train Stand - Unlit
+Parking_Facility_1
+Train Stand - Lit
+Parking_Facility_2
+Train Stand - Lit-a-lot
 road_Busbahnhof
 Large bus stop with glass shelter
+road_busstop_long
+Double Bus Stop
+road_busstop_long_modern
+Double Bus Stop
 road_busstop1845medium
 Bus stop with shelter
 road_busstop1845medium_post
@@ -1422,14 +1526,58 @@ road_busstop2001small_post
 Bus stop with postbox
 road_doppelstation_strab
 Double bus stop
+road_ladezone_asphalt
+Loading Zone
+road_ladezone_cobble
+Loading Zone - Cobble
+road_letter_box_1845
+Postbox
+road_letter_box_1947
+Postbox
+road_letter_box_2001
+Postbox
+road_roundroof
+Bus Stop
+sandbahnsteig
+Rural trainstop
+station_track_Bahnsteig_1835_1
+Platform
+station_track_Bahnsteig_1835_2
+Roofed Platform
+station_track_Bahnsteig_1890
+Roofed Platform
+station_track_Bahnsteig_1890_green
+Roofed Platform
+station_track_Bahnsteig_1900_1
+Roofed Platform
+station_track_Bahnsteig_1910_4
+Roofed Platform
 station_track_Bahnsteig_1950_1
 modern concrete platform
+station_track_Bahnsteig_1950_2
+Roofed Platform
+station_track_Bahnsteig_1975_1
+Roofed Platform
+station_track_Bahnsteig_2000_1
+Platform
+station_track_Bahnsteig_2000_2
+Roofed Platform
 station_track_Bahnsteig_2000_3
 Platform
 station_track_Bahnsteig_2000_5
 Platform
+station_track_Bahnsteig_Dach_1
+Roofed Platform
 track_station_good
 modern goods platform
+water_station_Anleger_Beton
+Concrete Quay
+water_station_Anleger_City
+Modern Quay
+water_station_Anleger_Holz
+Wooden Quay
+water_station_goods
+Goods Quay
 #________________________________building - tow_________________________________
 #________________________________building - tow_________________________________
 tow_3_modern
@@ -1600,6 +1748,50 @@ tropic
 Tropical
 tundra
 Continental
+#___________________________________crossing____________________________________
+#___________________________________crossing____________________________________
+crossing_narrow_maritime
+Bascule Bridge
+narrowgauge-road-crossing
+Level Crossing
+narrowgauge-road-crossing_20_25
+Level Crossing
+narrowgauge-road-crossing_20_40
+Level Crossing
+narrowgauge-road-crossing_20_50
+Level Crossing
+narrowgauge-road-crossing_20_70
+Level Crossing
+narrowgauge-road-crossing_20_80
+Level Crossing
+narrowgauge-road-crossing_50_25
+Level Crossing
+narrowgauge-road-crossing_50_40
+Level Crossing
+narrowgauge-road-crossing_50_50
+Level Crossing
+narrowgauge-road-crossing_50_70
+Level Crossing
+narrowgauge-road-crossing_50_80
+Level Crossing
+narrowgauge-road-crossing_90_25
+Level Crossing
+narrowgauge-road-crossing_90_40
+Level Crossing
+narrowgauge-road-crossing_90_50
+Level Crossing
+narrowgauge-road-crossing_90_80
+Level Crossing
+narrowgauge-track-crossing
+Level Junction
+narrowgauge-track-crossing_20_160
+Level Junction
+narrowgauge-track-crossing_50_160
+Level Junction
+narrowgauge-track-crossing_90_160
+Level Junction
+track-road-crossing
+Level Crossing
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 apiary
@@ -1856,6 +2048,8 @@ factory_sandquarry_details
 <title>Sandpit</title><p>Take a bucket an play!</p>
 sausagery
 Sausage Plant
+factory_sausagery_details
+Selected cheeks, lips and offal are prepared with selected herbs and spices to manufacture a unique filling for our amazing range of semi-edible comestibles that are made available through all major road stands. Enjoy!
 sawmill
 Sawmill
 sheepranch
@@ -2014,6 +2208,8 @@ car_parts
 auto parts
 cars
 automobiles
+cattle
+livestock
 circuit_boards
 circuit boards
 coca_leaves
@@ -2022,8 +2218,6 @@ coka_drink
 Coka drink
 comics
 comic books
-dairy
-Cheese Factory
 factory_dairy_details
 <title>Cheesy Factory</title>\n<p>They claim to hold the world record for the biggest cheese produced, stating you could see it every night.</p>
 heavy_oil
@@ -2047,7 +2241,7 @@ Wine
 deer
 Roe\n\nThis deer is mostly wandering around in mountainous regions. Sometimes, when it enters a city, it might not find a way out again and needs to be put down.\n\n
 duck
-Duck
+Duck\n\nDuck Duck Duck Duck Duck Duck Duck Duck Duck Duck
 dune
 Dune\n\nDon't trample near it, or you might attract Shai-Hulud, the mighty sandworm of Arakis - may his passing cleanse the world.
 flowers01
@@ -2056,12 +2250,20 @@ flowers02
 Patch of Flowers\n\nA patch of motley flowers make the world just that tiny bit more colorful.
 mushrooms
 Mushrooms\n\nThe red ones with the white dots are hallucinogenic. 
+mushrooms_wet
+Mushrooms\n\nThe red ones with the white dots are hallucinogenic. 
+OneWithNature
+One with Nature\n\nThis guy reused his shopping bag!
 pond01
-Duck Pond\n\nThe ducks in this pond tell stories about a duck which buildt a giant cubic nest on top of a hill.
+Duck Pond\n\nThe ducks in this pond tell stories about a coot which built a giant cubic nest on top of a hill.
 pond02
 Dock Pond\n\nSometimes you can hear a "quack"-sound at this pond. But it's not certain whether it's from a frog, a duck, or a duck hunter.
 pond03
 Water Lilies Pond\n\nThe kind of water lily in this pond grows really fast. Each day, the lily pads cover twice as much surface as the day before. Thirty days ago, the first lily pad appeared, and today half the surface of the pond is covered. How much longer until the complete pond is covered?
+shark
+Shark\n\nThis shark is very proud of his role in the blockbuster horror movie "Sharknado".
+SilverMonolith
+Monolith\n\nIt  suddenly appeared, nobody knows where it came from.
 stone_00
 Rock
 stone_01
@@ -2100,6 +2302,10 @@ structure02
 Transformer\n\nWill it transform into a brick-golem?
 structure03
 Tablestone\n\nLegends tell of giants building a large rock table, on which they ate cattle and humans alike. Some even claim they used giant rock cutlery to do so.
+tropicground01
+Swamp
+tropicground02
+Swamp
 #___________________________________menu_text___________________________________
 #___________________________________menu_text___________________________________
 ABRISSTOOLS
@@ -2286,6 +2492,10 @@ Tree
 Apple Tree
 192tree05east
 Apple Tree
+192tree06
+Tree
+192tree06east
+Tree
 apple_medi
 Orange Tree
 bush_bigleaves00
@@ -2386,8 +2596,12 @@ cypress2_medi
 Cypress
 cypress3_medi
 Cypress
+evergreen_east
+Evergreen Oak
 evergreen_medi
-Oak Tree
+Evergreen Oak
+evergreen_north
+Evergreen Oak
 fir01
 Fir
 fir01b
@@ -2426,7 +2640,11 @@ Sunflower
 #__________________________tunnel - narrowgauge_track___________________________
 trackTunnel_1
 Rail Tunnel
+tunnel-track_100
+Metro Tunnel
 tunnel-track_260
+High-speed Rail Tunnel
+tunnel-track_infty
 High-speed Rail Tunnel
 #________________________________tunnel - power_________________________________
 #________________________________tunnel - power_________________________________
@@ -4573,19 +4791,19 @@ Postal Car
 Preuszischer_Postwagen_2_achsig
 Postal Car
 RABe503_A2
-Double Deck Intercity "Twindexx Express"
+Tilting Intercity RABe 503 "Pendolino" | A2
 RABe503_At1
-Double Deck Intercity "Twindexx Express"
+Tilting Intercity RABe 503 "Pendolino" | At1
 RABe503_B4
-Double Deck Intercity "Twindexx Express"
+Tilting Intercity RABe 503 "Pendolino" | B4
 RABe503_B5
-Double Deck Intercity "Twindexx Express"
+Tilting Intercity RABe 503 "Pendolino" | B5
 RABe503_B6
-Double Deck Intercity "Twindexx Express"
+Tilting Intercity RABe 503 "Pendolino" | B6
 RABe503_Bt7
-Double Deck Intercity "Twindexx Express"
+Tilting Intercity RABe 503 "Pendolino" | Bt7
 RABe503_WR3
-Double Deck Intercity "Twindexx Express"
+Tilting Intercity RABe 503 "Pendolino" | WR3
 RABe511_AB
 Double Deck Electric Multiple Unit RABe 511 AB "KISS"
 RABe511_AB_FV
@@ -6257,7 +6475,7 @@ Electric "Allegra" Class ABe 8/12
 Narrowgauge_Lokomotive_1885_Kastenlok_ISA
 Steam Lokomotive "Kastenlok"
 Narrowgauge_Lokomotive_1904
-Steam Lokomotive 
+Steam Locomotive 
 Narrowgauge_Lokomotive_1906_Mallet
 Steam Lokomotive "Mallet"
 Narrowgauge_Lokomotive_1921_Ge_6_6_I
@@ -6700,18 +6918,36 @@ Tram track with sidewalk
 #__________________________________way - water__________________________________
 channel
 Channel
+kaimauer1
+Canal wall
 river_0
 River
 #________________________way-object - narrowgauge_track_________________________
 #________________________way-object - narrowgauge_track_________________________
 catenary_track_160
 Girder Mast Catenary
+catenary_track_160_swapped
+Girder Mast Catenary - Mirrored
+catenary_track_160_tunnel
+Girder Mast Catenary - Tunnel
 catenary_track_250
 High-speed Catenary
+catenary_track_250_swapped
+High-speed Catenary - Mirrored
+catenary_track_250_tunnel
+High-speed Catenary - Tunnel
 catenary_track_80
 Wooden Mast Catenary
+catenary_track_80_swapped
+Wooden Mast Catenary - Mirrored
+catenary_track_80_tunnel
+Wooden Mast Catenary - Tunnel
 catenary_track_inf
 Concrete Catenary 
+catenary_track_inf_swapped
+Concrete Catenary  - Mirrored
+catenary_track_inf_tunnel
+Concrete Catenary  - Tunnel
 electrictrack_wood2
 Third Rail
 electrictrack_wood3

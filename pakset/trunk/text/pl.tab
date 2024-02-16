@@ -9,7 +9,7 @@
 #                              Language: pl Polski                             #
 #                             Encoding: ISO-8859-2                             #
 #                             Font: prop-latin2.fnt                            #
-#                            Date Created: 4.10 2020                           #
+#                           Date Created: 16.02 2024                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -18,12 +18,38 @@ concrete_bridge_high_speed
 Most du¿ych prêdko¶ci
 high_track_bridge
 Most kolei nadziemnych
+high_track_bridge2
+Most kolei nadziemnych
 Stahlbruecke_track
-Stalowy wiadukt
+Stalowy wiadukt kolejowy
+track_bridge_80kph
+Most kolejowy
+track_bridge_concrete_full_tile_infty_2F
+Betonowy most kolejowy z p³yt
+track_bridge_concrete_full_tile_infty_3C
+Betonowy most kolejowy z p³yt
+track_bridge_concrete_full_tile_infty_3S
+Betonowy most kolejowy z p³yt
+track_bridge_concrete_full_tile_infty_4B
+Betonowy most kolejowy z p³yt
 #________________________________bridge - power_________________________________
 #________________________________bridge - power_________________________________
 Stromleitung_bruecke
 Podwieszane linie wysokiego napiêcia
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
+road_bridge_autobahn
+Most autostradowy
+road_bridge_city
+Most miejski
+road_bridge_concrete
+Betonowy most drogowy
+#________________________________bridge - track_________________________________
+#________________________________bridge - track_________________________________
+ng_Bridge_1900_70kph
+Most kolei w±skotorowych
+ng_Bridge_1954_100kph
+Stalowy most kolei w±skotorowych
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
 com_cl3_E3_01_03
@@ -152,6 +178,8 @@ res_cl5_E6_04_07
 Apartamenty
 #________________________________building - stop________________________________
 #________________________________building - stop________________________________
+apron
+Rêkaw lotniczy z p³yt± postojow±
 apron2
 P³yta postojowa
 Bahnhof_Hochbahn_1
@@ -228,8 +256,62 @@ citycar05
 CrZ Polo
 citycar06
 Bia³o-niebieskie auto
+#_________________________________climates_text_________________________________
+#_________________________________climates_text_________________________________
+arctic
+Arktyczny
+desert
+Pustynny
+mediterran
+¦ródziemnomorski
+rocky
+Alpejski
+temperate
+Zachodni
+tropic
+Tropikalny
+tundra
+Kontynentalny
+#___________________________________crossing____________________________________
+#___________________________________crossing____________________________________
+crossing_narrow_maritime
+Most zwodzony
+narrowgauge-road-crossing
+Przejazd kolejowy
+narrowgauge-road-crossing_20_25
+Przejazd kolejowy
+narrowgauge-road-crossing_20_40
+Przejazd kolejowy
+narrowgauge-road-crossing_20_50
+Przejazd kolejowy
+narrowgauge-road-crossing_20_80
+Przejazd kolejowy
+narrowgauge-road-crossing_50_25
+Przejazd kolejowy
+narrowgauge-road-crossing_50_40
+Przejazd kolejowy
+narrowgauge-road-crossing_50_50
+Przejazd kolejowy
+narrowgauge-road-crossing_50_70
+Przejazd kolejowy
+narrowgauge-road-crossing_50_80
+Przejazd kolejowy
+narrowgauge-road-crossing_90_25
+Przejazd kolejowy
+narrowgauge-road-crossing_90_40
+Przejazd kolejowy
+narrowgauge-road-crossing_90_50
+Przejazd kolejowy
+narrowgauge-road-crossing_90_80
+Przejazd kolejowy
+track-road-crossing
+Przejazd kolejowy
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
+apiary
+Pasieka
+applefarm
+Sad jab³oni
 Autofabrik
 Fabryka samochodów
 factory_Autofabrik_details
@@ -238,28 +320,116 @@ Autoteilefabrik
 Fabryka czê¶ci samochodowych
 factory_Autoteilefabrik_details
 <title>Fabryka czê¶ci samochodowych</title>\n<p>Bez wzglêdu na markê twojego auta, czê¶ci do niego pewnie powsta³y w tej fabryce.</p>
+bakery_alpine
+Du¿a Piekarnia
+bakery_easteur
+Piekarnia
 bakery_northsea
 Piekarnia
 factory_bakery_northsea_details
 <title>Piekarnia</title>\n<p>Czeladnik w tej piekarni kiedy¶ wyst±pi³ w programie survivalowym. Ka¿dy chwali³ jego kamufla¿. "To jak dekorowanie ciasta" mawia³.</p>
+beetfarm
+Plantacja buraków
+beets_sugarmill
+Cukrownia
 berry1_plantation
 Plantacja truskawek
 factory_berry1_plantation_details
 <title>Plantacja truskawek</title>\n<p>"Jedzenie truskawek daje mi rozkosz. Czerwone usta muskaj±ce czerwone truskawki..."</p>\n<p>W³a¶cicielka naprawdê lubi swoje owoce.</p>
 berry2_plantation
-Plantacja porzeczek
+Plantacja truskawek
+biofuel_plant
+Fabryka biopaliw
+blastfurnace
+Huta stali
+factory_blastfurnace_details
+<title>Huta stali</title>\n<p>Istota obróbki stali. Najszlachetniejsza stal wytwarzana jest z wêgla, rudy ¿elaza i wapienia, która nastêpnie jest udostêpniana do dalszej obróbki w postaci kêsów i p³yt stalowych.</p>
+bosna_stand
+Foodtruck Bosna
+factory_bosna_stand_details
+<title>Foodtruck Bosna</title>\n<p>Bosna to austriackie danie przypominaj±ce hot doga, sk³adaj±ce siê g³ównie z kie³basy Bratwurst, cebuli oraz mieszanki ketchupu musztardowego lub pomidorowego i curry. Bosna jest przygotowywana z bia³ego chleba i zwykle przed podaniem jest krótko grillowana.</p>
+brewery
+Browar
+factory_brewery_details
+<title>Browar</title>\n<p>23 kwietnia 1516 roku bawarscy ksi±¿êta Wilhelm IV i Ludwig X uchwalili nowe prawo, które zachowa³o swoje znaczenie przez wieki. By³o znane jako ?Reinheitsgebot? lub ?niemieckie prawo o czysto¶ci piwa? i stanowi³o centraln± czê¶æ niemieckiej sztuki warzenia piwa, ograniczaj±c sk³adniki do s³odu, chmielu, dro¿d¿y i wody.</p>
+bulbfactory
+Fabryka ¿arówek
+factory_bulbfactory_details
+<title>Fabryka ¿arówek</title>\n<p>Wed³ug powszechnego przekonania ¿arówki mog³y paliæ siê przez ca³± wieczno¶æ, jednak z³e korporacje sztucznie ogranicza³y ich ¿ywotno¶æ, aby regularnie sprzedawaæ zamienniki. Ale to nie do koñca prawda. Kilku producentów ¿arówek zgodzi³o siê na ograniczon± ¿ywotno¶æ wynosz±c± 1000 godzin po prostu dlatego, ¿e ¿arówki, które pal± siê d³u¿ej, wymagaj± równie¿ wyk³adniczo wiêcej energii. Nowa ¿arówka od czasu do czasu jest tañsza ni¿ ca³y dodatkowy pr±d zu¿ywany na wieczne ¿arówki.</p>
+car_assembly
+Fabryka monta¿u samochodów
+factory_car_assembly_details
+<title>Fabryka monta¿u samochodów</title>\n<p>Tutaj czê¶ci samochodowe s± montowane w samochodach. Do monta¿u potrzeba wielu pracowników, którzy s± specjalnie przeszkoleni do wykonywania tych samych zadañ przez ca³y dzieñ, ka¿dego dnia.</p>
+car_parts_factory
+Fabryka czê¶ci samochodowych
+factory_car_parts_factory_details
+<title>Fabryka czê¶ci samochodowych</title>\n<p>Fabryka ta przyjmuje ró¿norodne metale i tworzywa sztuczne do produkcji czê¶ci samochodowych, które nastêpnie s± wysy³ane i montowane w samochodach. Niezale¿nie od tego, jakim samochodem je¼dzisz, jego czê¶ci prawdopodobnie zosta³y tutaj wyprodukowane.</p>
+carpet_weaver
+Tkalnia dywanów
+factory_carpet_weaver_details
+<title>Tkalnia dywanów</title>\n<p>Wejd¼ i wyjd¼ z nowym dywanem ju¿ dzi¶!</p>
+carseller
+Dealer samochodów
+factory_carseller_details
+<title>Dealer samochodów</title>\n<p>Tutaj g³adko mówi±cy sprzedawcy próbuj± sprzedaæ Ci samochód, którego nie potrzebujesz, za cenê, której wola³by¶ nie p³aciæ. Sprzedawanych jest tu wiele ró¿nych samochodów, w tym sedany, kabriolety, pickupy i minivany.</p>
+cheese_import
+Importer serów
+cherryontop
+Cukiernia
+ciderpress
+Cydrownia
+factory_ciderpress_details
+<title>Cydrownia</title>\n<p>Cydrownia to miejsce, w którym jab³ka s± mielone na mi±¿sz, a nastêpnie wyciskane na sok. Sok ten, niefiltrowany i nies³odzony, nazywany jest cydrem.</p>
+circuitboards_assembly
+Zak³ad monta¿u p³ytek drukowanych
+cleopatra
+Salon urody
+cleopatra_desert
+Salon urody
 coalmine
 Kopalnia wêgla
 factory_coalmine_details
 <title>Kopalnia wêgla</title>\n<p>Niektórzy mawiaj±, ¿e ka¿dy powinien zej¶æ "pod ziemiê", przynajmniej na jedn± zmianê, zobaczyæ jaka to ciê¿ka praca.</p>
-dairy
+coalmine_large
+Wielka Kopalnia Wêgla
+coca_plantation
+Plantacja Coki
+coka_factory
+Rozlewnia Coka
+factory_coka_factory_details
+Pierwotnie Coka mia³a byæ lekiem. Nazwa by³a akronimem od ?Kokaina z pominiêciem dodatków przeciwprodukcyjnych?. Inaczej mówi±c ? czysta kokaina. Ale nawet wtedy nie by³a ona do koñca czysta, poniewa¿ krojono j± innym bia³ym proszkiem ? cukrem. Zaczêto zbijaæ fortunê, gdy formu³a zosta³a dodatkowo rozcieñczona wod±.
+comicbookstore
+Kiosk z komikasami
+computerproducer
+Producent komputerów
+coppermine
+Kopalnia miedzi
+cotton_plantation
+Plantacja bawe³ny
+cows
+Hodowla krów
+currywurst_stand
+Foodtruck z kie³baskami
+dairy_factory
 Mleczarnia
-factory_dairy_details
-<title>Mleczarnia</title>\n<p>W³a¶ciciel twierdzi, ¿e wyprodukowano tu najwiêkszy ser na ¶wiecie, widoczny na niebie ka¿dej nocy.</p>
+diy1
+Market "Zrób to sam"
+doctor
+Przychodnia lekarska
+electronics_producer
+Producent elektroniki
+fab
+Producent uk³adów scalonych
+farmers_market
+Targ
+factory_farmers_market_details
+<title>Targ</title>\n<p>To tutaj przyje¿d¿aj± lokalni rolnicy, aby sprzedawaæ towary bezpo¶rednio konsumentom. Klienci znajd± tu ró¿norodne towary, m.in. jab³ka, wêdliny, mleko i miód.</p>
 flaxfarm
 Plantacja lnu
 factory_flaxfarm_details
-<title>Plantacja lnu</title>\n<p>Niektórzy sugerowali w³a¶cicielowi, aby zacz±³ sadziæ te¿ konopie. Nie, nie takie.</p>
+<title>Plantacja lnu</title>\n<p>Czêsto mówiono, ¿e zamiast lnu lepiej by³oby uprawiaæ konopie, poniewa¿ s± one mocniejsze i istnieje szansa na znalezienie sezonowych pracowników do zbiorów, którzy nie potrzebuj± zap³aty.</p>
+furniture
+Producent mebli
 gasstation
 Stacja benzynowa
 factory_gasstation_details
@@ -272,8 +442,26 @@ grainfarm_alpine
 Pola uprawne
 factory_grainfarm_alpine_details
 <title>Pola uprawne</title>\n<p>Zbo¿a z tej farmy mog± byæ u¿yte przy produkcji najpotrzebniejszego produktu spo¿ywczego: chleba. Albo piwa.</p>
+graveyard_medi
+Cmentarz
+graveyard_north
+Cmentarz
+factory_graveyard_north_details
+Straszne miejsce na odpoczynek.
+graveyard_spooky
+Cment_rz
+factory_graveyard_spooky_details
+W okolicach Halloween robi siê tu strasznie.
+hopfarm
+Plantacja chmielu
+hospital
+Szpital
+factory_hospital_details
+Ta placówka s³u¿by zdrowia, pomimo marnej obs³ugi i d³ugich kolejek i tak jest najbardziej oblegan± instytucj± przez pacjentów w ka¿dym wieku.
 juicefactory1
 Fabryka soków i napojów
+justice
+S±d
 Kaufhaus
 Centrum handlowe
 factory_Kaufhaus_details
@@ -282,12 +470,56 @@ Kohle_kraftwerk
 Elektrownia wêglowa
 factory_Kohle_kraftwerk_details
 <title>Elektrownia wêglowa</title>\n<p>Póki mamy z³o¿a wêgla, póty ta elektrownia bêdzie przetwarzaæ go na energiê.</p>
+leika1
+Sklep meblowy
+factory_leika1_details
+-Jest tanio? -Jest tanio. -Jest dobrze? -Jest tanio.
+maltworks
+Wytwórnia s³odu
+mill
+M³yn
+mint
+Mennica
+moneybin
+Skarbiec Scroogesa
+moneyprint
+Wytwórnia papierów warto¶ciowych
+factory_moneyprint_details
+Tutaj drukowane s± pieni±dze i inne dokumenty pañstwowe.
+oil_kraftwerk
+Elektrownia olejowa
+factory_oil_kraftwerk_details
+Ta elektrownia spala olej ciê¿ki, produkt uboczny przemys³u paliwowego. Ciê¿kiego oleju nie mo¿na u¿ywaæ do napêdzania zwyk³ych silników, a jedynie gigantycznych maszyn okrêtowych. Ale kiedy ostatni raz tankowano statek w Simutrans?
 oilplatform
 Platforma wiertnicza
 factory_oilplatform_details
 <title>Platforma wiertnicza</title>\n<p>Z³o¿a dawno siê wyczerpa³y, wiêc teraz ropê wytwarza siê z przelatuj±cych nad platform± mew.</p>
+plastic_toy_factory
+Fabryka lego
+factory_plastic_toy_factory_details
+Nie by³o zamierzone naruszenie znaku towarowego.
+police
+Posterunek policji
+prison
+Zak³ad karny
+pub
+Pub
+factory_pub_details
+Jest to budynek, w którym sprzedawane s± napoje alkoholowe, takie jak piwa i wina, a tak¿e napoje bezalkoholowe, takie jak napoje gazowane, kawa i cydry. Tylko uwa¿aj na duchy.
+rum_distillery
+Destylarnia rumu
+factory_rum_distillery_details
+Wszyscy pracownicy przychodz± do pracy na dwóch nogach, lecz wychodz± z pracy na czterech.
+sandquarry
+Kopalnia piasku
+factory_sandquarry_details
+We¼ wiaderko i baw siê dobrze!
+sheepranch
+Chodowla owiec
 shop
 Sklep
+factory_shop_details
+Ta rodzinna sieæ supermarketów ma ponad milion sklepów w ka¿dym regionie. Nie ma miejsca, w którym by¶ go nie znalaz³, a jest to ¶wietne miejsce, w którym mo¿na znale¼æ tanie, regionalne marki.
 Slaughter
 Zak³ady miêsne
 small_shop
@@ -296,10 +528,20 @@ Solar_kraftwerk
 Elektrownia s³oneczna
 factory_Solar_kraftwerk_details
 <title>Elektrownia s³oneczna</title>\n<p>S³oñca nie przywieziesz poci±giem lub samochodem. Jedyn± ciekaw± rzecz± zwi±zan± z tym budynkiem jest fakt, ¿e produkuje on czyst± energiê.</p>
+squid
+Pan Kraken
+factory_squid_details
+Nadchodzi Pan Kraken!
 Stahlwalzwerk
 Huta stali
 factory_Stahlwalzwerk_details
 <title>Huta stali</title>\n<p>Przed zmian± ustroju na koñcu szyldu by³a literka "n".</p>
+sugarcane_plantation
+Plantacja trzciny cukrowej
+factory_sugarcane_plantation_details
+O'Hara byli w³a¶cicielami tej plantacji ju¿ od kilku pokoleñ, ale ¿aden z O'Hara nigdy nie pracowa³ na polach. Robotnicy mieszkaj± w biednych chatach pomiêdzy polami.
+sugarmill
+Cukrownia
 textiles_factory
 Zak³ady odzie¿owe
 factory_textiles_factory_details
@@ -312,36 +554,74 @@ tin_toy_factory
 Fabryka zabawek
 factory_tin_toy_factory_details
 <title>Fabryka zabawek</title>\n<p>Daj± 20 lat gwarancji.</p>
+vineyard
+Winnica
+Windkraftwerk
+Turbina wiatrowa
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
+apples
+Jab³ka
 beer
 Piwo
+beets
+Buraki
 berries
-Owoce
+Truskawki
+billet
+Kêsy stalowe
 boards
 Deski
+cable
+Kable
 car_parts
-Czê¶ci sam.
+Czê¶ci samochodowe
+carpet
+Dywany
 cars
 Samochody
 cattle
 Byd³o
 cement
 Cement
+cheese
+Ser
 chemicals
 Chemikalia
+circuit_boards
+P³ytki drukowane
 coal
 Wêgiel
+coca_leaves
+Li¶cie Coki
 coins
 Monety
+coka_drink
+Napój Coka
+comics
+Komiksy
 convicts
 Skazañcy
-fiber
+copper
+Mied¼
+dairy
+Nabia³
+factory_dairy_details
+<title>Mleczarnia</title>\n<p>W³a¶ciciel twierdzi, ¿e wyprodukowano tu najwiêkszy ser na ¶wiecie, widoczny na niebie ka¿dej nocy.</p>
+deceased
+Zmarli
+electronics
+Elektronika
+fabric
 Tkaniny
+fiber
+Tekstylia
 flour
 M±ka
 fuel
 Paliwa
+garments
+Sukienki
 glass
 Szk³o
 gold
@@ -350,44 +630,104 @@ grain
 Zbo¿a
 gravel
 ¯wir
+heavy_oil
+Ciê¿ki olej
+honey
+Miód
+hop
+Chmiel
 icecream
 Lody
+ingot
+Sztabki
+ink
+Tusz
+ironmongery
+Sprzêt komputerowy
 juice
 Sok
+lightbulbs
+¯arówki
+limestone
+Wapieñ
 logs
 Tarcica
+malt
+S³ód
 meat
 Miêso
+microchips
+Uk³ady scalone
 milk
 Mleko
+naphtha
+Ropa Naftowa
 None
 Brak
 notes
 Banknoty
 oil
-Ropa
+Olej
 ore
 Rudy
+paint
+Farba
+paper
+Papier
 Passagiere
 Pasa¿erowie
+patients
+Pacjenci
 plastics
 Plastik
 Post
 Poczta
+rum
+Rum
+salt
+Sól
 sand
 Piasek
+sausages
+Kie³baski
+sheetmetal
+Blacha stali
+solvent
+Rozpuszczalnik
 steel
 Stal
+sugar
+Cukier
+sugarcane
+Trzcina cukrowa
 suspects
 Podejrzani
 textiles
-Tkanina
+Tekstylia
 toys
 Zabawki
 vine
 Wino
+wax
+Wosk
+yarn
+W³ókno
+#____________________________________ground_____________________________________
+#____________________________________ground_____________________________________
+Basement
+Fundament
+Borders
+Granica
+ClimateTexture
+Tekstura klimatu
+Fence
+P³ot
+Water
+Woda
 #__________________________________ground_obj___________________________________
 #__________________________________ground_obj___________________________________
+pond03
+Staw z liliami wodnymi\n\nLilie wodne wystêpuj±ce w tym stawie rosn± bardzo szybko. Ka¿dego dnia p³atki lilii pokrywaj± dwukrotnie wiêksz± powierzchniê ni¿ poprzedniego dnia. Trzydzie¶ci dni temu pojawi³ siê pierwszy liliowiec, a dzi¶ po³owa powierzchni stawu jest pokryta. Ile jeszcze czasu zajmie zakrycie ca³ego stawu?
 stone_00
 G³az
 stone_01
@@ -420,6 +760,64 @@ stone_14
 Kamieñ
 stone_15
 Kamieñ
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+ABRISSTOOLS
+Narzêdzie rozbiórki drogi
+AIRTOOLS
+Lotniska
+BUILDINGS
+Budynki rozbudowy stacji
+EDITTOOLS
+Edytor map
+LISTTOOLS
+Listy
+MAGLEVTOOLS
+Kolej magnetyczna
+NARROWGAUGETOOLS
+Kolej w±skotorowa
+RAILTOOLS
+Kolej
+ROADTOOLS
+Drogi i ulice
+SCHWEBEBAHN
+Kolej podwieszana
+SHIPTOOLS
+Porty i Kana³y
+SLOPETOOLS
+Narzêdzia niwelacji terenu
+SLOPETOOLSEXTRA
+Rozszerzone narzêdzia niwelacji terenu do u¿ytku kreatywnego
+SPECIALTOOLS
+Mury, Linie wysokiego napiêcia i wiêcej
+TRAMTOOLS
+Tramwaje
+VIEW
+Widok
+#_________________________________message_text__________________________________
+#_________________________________message_text__________________________________
+batch
+partia
+chests
+Skrzynie
+pallets
+palety
+stk
+sztuk
+suitcases
+walizki
+tons
+ton
+#_____________________________________misc______________________________________
+#_____________________________________misc______________________________________
+bags
+toreb
+Construction
+Budowa
+PowerSource
+¼ród³o napiêcia
+Sidewalk
+Chodnik
 #__________________________________pedestrian___________________________________
 #__________________________________pedestrian___________________________________
 pedestrian_1
@@ -428,10 +826,70 @@ pedestrian_2
 Pawe³ Nowak
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
+CATEGORY_01
+towary w pude³kach
+CATEGORY_03
+p³ynne
+CATEGORY_04
+mro¿onki
+CATEGORY_05
+wiê¼niowie
+CATEGORY_06
+drewno
+CATEGORY_07
+sypkie
+CATEGORY_08
+przedmioty warto¶ciowe
+CATEGORY_09
+lekkie skrzynki
+CATEGORY_10
+³adunek zwiniêty
+CATEGORY_11
+kontener
+Narrowgauge
+Standardowy rozstaw
+narrowgauge vehicle
+Pojazd szynowy
 narrowgauge_track
-Tory o w±skim prze¶wicie
+Tory
+Narrowgaugedepot
+Zajezdnia
+remove monorails
+Usuñ szyny
+remove narrowgauge tracks
+Usuñ tor
+remove tracks
+Usuñ tory
+sack
+worek
+Speedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
+Bonusy prêdko¶æi\ndrogowe %i km/h, koleje %i km/h\nstatki %i km/h, samoloty %i km/h.
 track
 Tory
+Train
+Poci±g
+tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
+tramwaj %i km/h, kolej jednoszynowa %i km/h\nkolej magnetyczna %i km/h, kolej w±skotorowa %i km/h.
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+New world record for maglevs: %.1f km/h by %s.
+Nowy rekord prêdko¶ci: %.1f km/h osi±gniêty przez kolej w±skotorow± %s.
+New world record for monorails: %.1f km/h by %s.
+%s sun±³ nad miastem z prêdko¶ci± %.1f km/h.
+New world record for motorcars: %.1f km/h by %s.
+Lokalna policja odnotowa³a prêdko¶æ %.1f km/h w %s
+New world record for narrowgauges: %.1f km/h by %s.
+%.1f km/h to prêdko¶æ maksymalna dla %s
+New world record for planes: %.1f km/h by %s.
+Kiedy na monitorze %s wy¶wietla siê %.1f km/h, czy jest to prêdko¶æ lotu czy prêdko¶æ wzglêdem ziemi?
+New world record for railways: %.1f km/h by %s.
+Mocn± stron± kolei nie jest prêdko¶æ, ale mobilno¶æ. Mimo to %s osi±ga co najmniej %.1f km/h.
+New world record for ship: %.1f km/h by %s.
+Statek piracki musia³by osi±gn±æ %.1f km/h, aby z³apaæ %s.
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
+air_private_modern
+Prywatny teren lotniska
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 192tree01
@@ -853,9 +1311,9 @@ Mercedes MB ACTROS II
 MB_Lo_2000_Bus_1L
 CRZ IV-P35
 MB_Lo_2000_Bus_2L
-CRZ IV-P55
+Mercedes-Benz Lo 2000
 MB_O_6600_H_L
-CRZ Pv 4/25
+Mercedes-Benz O 6600H
 pers_kutsche1
 Powóz
 PTM_Cally_Post
@@ -876,6 +1334,14 @@ SCB_266
 SimuCar SCB-266
 SCB_287
 SimuCar SCB-287
+#________________________________vehicle - track________________________________
+#________________________________vehicle - track________________________________
+Narrowgauge_Lokomotive_1904
+Parowóz
+Narrowgauge_Lokomotive_1947_Ge_4_4_I
+Elektrowóz klasy Ger 4/4 I
+Narrowgauge_Lokomotive_1954_BR_99
+Parowóz klasy 99
 #_____________________________vehicle - tram_track______________________________
 #_____________________________vehicle - tram_track______________________________
 B_1-VRR

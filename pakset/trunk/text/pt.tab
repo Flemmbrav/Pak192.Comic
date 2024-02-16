@@ -9,7 +9,7 @@
 #                            Language: pt Portugues                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 4.10 2020                           #
+#                           Date Created: 16.02 2024                           #
 #                                                                              #
 ################################################################################
 #____________________________________factory____________________________________
@@ -68,8 +68,6 @@ cows
 Criação de Gado
 currywurst_stand
 Quiosque de Comida
-dairy
-Fábrica de Queijo
 diy1
 Fábrica Faça Você Mesmo
 doctor
@@ -128,3 +126,7 @@ maltworks
 Fábrica de Malte
 mill
 Moinho a Vento
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+dairy
+Fábrica de Queijo

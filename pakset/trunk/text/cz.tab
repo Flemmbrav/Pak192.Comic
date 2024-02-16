@@ -9,7 +9,7 @@
 #                             Language: cz Cestina                             #
 #                             Encoding: ISO-8859-2                             #
 #                             Font: prop-latin2.fnt                            #
-#                           Date Created: 28.09 2019                           #
+#                           Date Created: 16.02 2024                           #
 #                                                                              #
 ################################################################################
 #________________________________building - com_________________________________
@@ -80,8 +80,6 @@ berry1_plantation
 Pìstírna jahod
 berry2_plantation
 Pìstírna jahod
-dairy
-Mlékárna
 gasstation_small
 Benzínka
 grainfarm_alpine
@@ -96,6 +94,10 @@ small_shop
 Veèerka
 Stahlwalzwerk
 Ocelárna
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+dairy
+Mlékárna
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 narrowgauge_track

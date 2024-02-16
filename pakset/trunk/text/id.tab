@@ -9,7 +9,7 @@
 #                            Language: id Indonesia                            #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                            Date Created: 4.10 2020                           #
+#                           Date Created: 16.02 2024                           #
 #                                                                              #
 ################################################################################
 #_____________________________building - extension______________________________
@@ -18,8 +18,6 @@ Containererweiterung
 kontainer
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
-dairy
-Pabrik Susu
 furniture
 mebel
 #_____________________________________good______________________________________
@@ -44,6 +42,8 @@ coins
 koin
 comics
 komik
+dairy
+Pabrik Susu
 flour
 Tepung
 fuel
