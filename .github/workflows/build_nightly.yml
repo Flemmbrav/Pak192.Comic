@@ -39,7 +39,7 @@ jobs:
       run: bash COMPILE_THEME.sh
 
     - name: Version the Pakset a
-      run: sed -i "s/copyright=.*/copyright=Pak192.Comic V0.7.1 Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
+      run: sed -i "s/copyright=.*/copyright=Pak192.Comic Nightly Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
 
   #  - name: Version the Pakset b
    #   run: sed -i "s/Image[0-3]=.*/Image[0-3]=> ./images/big_logo_nightly.<$0/2>.<$0%2>" ./pakset/UI/128/big_logo.dat
@@ -63,25 +63,25 @@ jobs:
 
     - name: Rename result
       run: |
-        mv compiled_converted pak192.comic
-        zip -r pak192-comic.zip pak192.comic
+        mv compiled_converted pak192.comic-nightly
+        zip -r pak192-nightly-datconverter.zip pak192.comic-nightly
 
     - name: Update Addons of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192-comic.zip
-        asset_name: pak192-comic.zip
-        tag: V0.7.1
+        file: ./pak192-nightly-addons-datconverter.zip
+        asset_name: pak192-nightly-addons-datconverter.zip
+        tag: Nightly
         overwrite: true
 
     - name: Update binaries of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192-comic.zip
-        asset_name: pak192-comic.zip
-        tag: V0.7.1
+        file: ./pak192-nightly-datconverter.zip
+        asset_name: pak192-nightly-datconverter.zip
+        tag: Nightly
         overwrite: true
 
         
@@ -127,7 +127,7 @@ jobs:
   #    run: |
    #       sed -i "s/copyright=.*/copyright=Pak192.Comic Severset Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
     #      sed -i "s/Image[0-3]=.*/Image[0-3]=> ./images/big_logo_serverset_nightly.<$0/2>.<$0%2>" ./pakset/UI/128/big_logo.dat
-      run: sed -i "s/copyright=.*/copyright=Pak192.Comic Severset based on V0.7.1 Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
+      run: sed -i "s/copyright=.*/copyright=Pak192.Comic Severset Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
 
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
@@ -137,16 +137,16 @@ jobs:
 
     - name: zip converted_addons
       run: |
-        mv compiled_serverset pak192.comic-serverset
-        zip -r pak192.comic-serverset.zip pak192.comic-serverset
+        mv compiled_serverset pak192.comic-serverset-nightly
+        zip -r pak192.comic-serverset-nightly.zip pak192.comic-serverset-nightly
 
     - name: Update Serverset of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192.comic-serverset.zip
-        asset_name: pak192.comic-serverset.zip
-        tag: V0.7.1
+        file: ./pak192.comic-serverset-nightly.zip
+        asset_name: pak192.comic-serverset-nightly.zip
+        tag: Nightly
         overwrite: true
         
   compile_pak192-comic_all_DACH:
@@ -182,7 +182,7 @@ jobs:
   #    run: |
    #       sed -i "s/copyright=.*/copyright=Pak192.Comic Severset Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
     #      sed -i "s/Image[0-3]=.*/Image[0-3]=> ./images/big_logo_serverset_nightly.<$0/2>.<$0%2>" ./pakset/UI/128/big_logo.dat
-      run: sed -i "s/copyright=.*/copyright=Pak192.Comic all DACH based on V0.7.1 Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
+      run: sed -i "s/copyright=.*/copyright=Pak192.Comic all DACH Rev $(git rev-list --count --first-parent HEAD)/" ./pakset/landscape/ground/outside.dat
 
     - name: Converting dat files
       run: bash DatConverter.sh -f -a
@@ -192,16 +192,16 @@ jobs:
 
     - name: zip converted_addons
       run: |
-        mv compiled_all_DACH pak192.comic-all-DACH
-        zip -r pak192.comic-all-DACH.zip pak192.comic-all-DACH
+        mv compiled_all_DACH pak192.comic-all-DACH-nightly
+        zip -r pak192.comic-all-DACH-nightly.zip pak192.comic-all-DACH-nightly
 
     - name: Update Serverset of Nightly Release
       uses: svenstaro/upload-release-action@v1-release
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./pak192.comic-all-DACH.zip
-        asset_name: pak192.comic-all-DACH.zip
-        tag: V0.7.1
+        file: ./pak192.comic-all-DACH-nightly.zip
+        asset_name: pak192.comic-all-DACH-nightly.zip
+        tag: Nightly
         overwrite: true
         
         
