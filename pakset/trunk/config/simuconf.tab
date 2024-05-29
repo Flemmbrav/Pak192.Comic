@@ -161,10 +161,21 @@ cost_multiply_remove_field=5000
 # unlimited bridges and tunnels
 way_max_bridge_len = 4095
 
+ # if a convoy runs on a way that belongs to another player, toll may
+ # be charged. The number given is the percentage of the running cost
+ # of the convoy or the way cost (include electrification if needed).
+ # (default 0)
+toll_runningcost_percentage = 10
+toll_waycost_percentage = 10
+
+ # vehicle can loose a part of their value, when the are once used
+ # the loss is given in 1/1000th, i.e 300 mean the value will be 70%
+used_vehicle_reduction = 50
+
 ###################################time settings################################
 
 # Starting year of the game:
-# Setting it below 1845 is not recommended for 192comic set!
+# Setting it below 1900 is not recommended for 192comic set!
 # You will have problems with missing vehicles, do not complain if you do so!
 # Setting it above 2020 will render game bit boring - no new vehicles.
 #
