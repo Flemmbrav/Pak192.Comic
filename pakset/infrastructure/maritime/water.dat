@@ -76,7 +76,7 @@ waytype=water
 name=channel
 copyright=Leartin
 intro_year=1900
-cost=12500
+cost=2500000
 maintenance=4000
 topspeed=25
 
