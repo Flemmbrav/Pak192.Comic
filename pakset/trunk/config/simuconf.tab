@@ -225,6 +225,14 @@ water_animation_ms = 250
 # Color of cursor overlay, which is blended over marked ground tiles
 cursor_overlay_color = 100
 
+# Showing the net worth instead of the amount of fluid money
+player_finance_display_account = 0
+
+# As in every other UI in the world, we as well show the window buttons on the right
+window_buttons_right = 1
+
+frames_per_second = 60
+
 ##################################forest stuff#################################
 max_no_of_trees_on_square = 4
 
