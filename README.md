@@ -47,7 +47,7 @@ For more screenshots check the screenshot folder in this repository or [the scre
 3. Start compile with preconfigured compiler :
 	1. ~~To compile under windows, run the **`COMPILE.ps1`** via PowerShell.~~
 	2. To compile under unix:
-        - first run the **`DatConverter.sh`**.
+        - first run the **`DatConverter.sh -a -f`**.
         - after that, run the **`COMPILE_Converted.sh`**.
 4. Copy the folder named **compiled_converted** in your usual Simutrans game folder and rename it to **Pak192.Comic**.
 5. Start Simutrans the way you did before, and you'll see a menu asking you for a pakset to run. Select **Pak192.Comic** to run this pakset.
