@@ -495,7 +495,7 @@ writevehicle() {
 	if [[ ! -z ${ObjectArray[speed]} ]] ;then
 		echo "speed=${ObjectArray[speed]}" >> calculated/$dat
 	else
-		local SpeedBonus="$(getspeedbonus ${ObjectArray[waytype]} ${ObjectArray[intro_month]} )"
+		local SpeedBonus="$(getspeedbonus ${ObjectArray[waytype]} ${ObjectArray[intro_year]} )"
 		echo "speed=$SpeedBonus" >> calculated/$dat
 	fi
 	#write the weigth if given, else write the 2t for every length
