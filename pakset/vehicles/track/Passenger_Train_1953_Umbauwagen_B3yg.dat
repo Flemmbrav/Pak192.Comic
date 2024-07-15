@@ -1,0 +1,28 @@
+obj=vehicle
+name=Passenger_Train_1953_Umbauwagen_B3yg
+# B3yg
+copyright=Flemmbrav
+intro_year=1953
+intro_month=3
+retire_year=1971
+retire_month=0
+freight=Passagiere
+# 62 seated in second class
+payload=62
+cost=3049002
+runningcost=277
+weight=18
+speed=100
+length=8
+waytype=narrowgauge_track
+loading_time=2770
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1953_Umbauwagen_3yg.0.1
+EmptyImage[E]=./image/Passenger_Train_1953_Umbauwagen_3yg.0.0
+EmptyImage[SE]=./image/Passenger_Train_1953_Umbauwagen_3yg.0.4
+EmptyImage[SW]=./image/Passenger_Train_1953_Umbauwagen_3yg.0.7
+EmptyImage[N]=./image/Passenger_Train_1953_Umbauwagen_3yg.0.3
+EmptyImage[W]=./image/Passenger_Train_1953_Umbauwagen_3yg.0.2
+EmptyImage[NW]=./image/Passenger_Train_1953_Umbauwagen_3yg.0.6
+EmptyImage[NE]=./image/Passenger_Train_1953_Umbauwagen_3yg.0.5

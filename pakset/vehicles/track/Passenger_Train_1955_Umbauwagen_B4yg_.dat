@@ -1,0 +1,27 @@
+obj=vehicle
+name=Passenger_Train_1955_Umbauwagen_B4yg
+# B4yg
+copyright=Flemmbrav
+intro_year=1955
+intro_month=3
+retire_year=1971
+retire_month=0
+freight=Passagiere
+payload=66
+cost=4626617
+runningcost=421
+weight=28
+speed=120
+length=10
+waytype=narrowgauge_track
+loading_time=4210
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1955_Umbauwagen_4yg.0.1
+EmptyImage[E]=./image/Passenger_Train_1955_Umbauwagen_4yg.0.0
+EmptyImage[SE]=./image/Passenger_Train_1955_Umbauwagen_4yg.0.4
+EmptyImage[SW]=./image/Passenger_Train_1955_Umbauwagen_4yg.0.7
+EmptyImage[N]=./image/Passenger_Train_1955_Umbauwagen_4yg.0.3
+EmptyImage[W]=./image/Passenger_Train_1955_Umbauwagen_4yg.0.2
+EmptyImage[NW]=./image/Passenger_Train_1955_Umbauwagen_4yg.0.6
+EmptyImage[NE]=./image/Passenger_Train_1955_Umbauwagen_4yg.0.5

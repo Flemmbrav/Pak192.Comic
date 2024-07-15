@@ -1,0 +1,28 @@
+obj=vehicle
+name=Car_Empty_1955_Umbauwagen_BD4yg
+# BD4yg
+copyright=Flemmbrav
+intro_year=1955
+intro_month=3
+retire_year=1971
+retire_month=0
+freight=Post
+# 36 in second class
+#payload=960
+cost=4626617
+runningcost=421
+weight=30
+speed=120
+length=10
+waytype=narrowgauge_track
+loading_time=4210
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1955_Umbauwagen_4yg.2.1
+EmptyImage[E]=./image/Passenger_Train_1955_Umbauwagen_4yg.2.0
+EmptyImage[SE]=./image/Passenger_Train_1955_Umbauwagen_4yg.2.4
+EmptyImage[SW]=./image/Passenger_Train_1955_Umbauwagen_4yg.2.7
+EmptyImage[N]=./image/Passenger_Train_1955_Umbauwagen_4yg.2.3
+EmptyImage[W]=./image/Passenger_Train_1955_Umbauwagen_4yg.2.2
+EmptyImage[NW]=./image/Passenger_Train_1955_Umbauwagen_4yg.2.6
+EmptyImage[NE]=./image/Passenger_Train_1955_Umbauwagen_4yg.2.5
