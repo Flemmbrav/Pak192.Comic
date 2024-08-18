@@ -2,12 +2,14 @@
 # Couples with later variants of the same train
 
 obj=vehicle
-name=Electric_1924_S-Bahn_1589a_Altona
-# 1589a Altona
-# https://de.wikipedia.org/wiki/DR_1589a/b_bis_1645a/b
+name=Electric_1925_S-Bahn_1501_Altona
+# 1501 Altona
+# https://de.wikipedia.org/wiki/Preu%C3%9Fischer_551/552_Altona_bis_669/670_Altona
 copyright=Flemmbrav
-intro_year=1924
+intro_year=1925
 intro_month=3
+build_year=1907
+latest_reconstruction=1925
 retire_year=1939
 retire_month=0
 freight=Passagiere
@@ -16,7 +18,7 @@ payload=60
 cost=5037648
 runningcost=45
 # weigth estimated
-weight=40
+weight=45
 engine_type=electric
 power=300
 gear=100
@@ -28,19 +30,21 @@ loading_time=4580
 constraint[prev][0]=Electric_1925_S-Bahn_1502_Altona
 constraint[prev][1]=Electric_1924_S-Bahn_1589b_Altona
 constraint[prev][2]=none
-constraint[next][0]=Electric_1924_S-Bahn_1589b_Altona
+constraint[next][0]=Electric_1925_S-Bahn_1502_Altona
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1924_S-Bahn_1589ab_Altona.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1925_S-Bahn_1501_1502_Altona.0.<$0>
 
 ---
 
 obj=vehicle
-name=Electric_1924_S-Bahn_1589b_Altona
-# 1589b Altona
-# https://de.wikipedia.org/wiki/DR_1589a/b_bis_1645a/b
+name=Electric_1925_S-Bahn_1502_Altona
+# 1502 Altona
+# https://de.wikipedia.org/wiki/Preu%C3%9Fischer_551/552_Altona_bis_669/670_Altona
 copyright=Flemmbrav
-intro_year=1924
+intro_year=1925
 intro_month=3
+build_year=1907
+latest_reconstruction=1925
 retire_year=1939
 retire_month=0
 freight=Passagiere
@@ -59,10 +63,10 @@ speed=60
 length=6
 waytype=narrowgauge_track
 loading_time=4580
-constraint[prev][0]=Electric_1924_S-Bahn_1589a_Altona
+constraint[prev][0]=Electric_1925_S-Bahn_1501_Altona
 constraint[next][0]=Electric_1925_S-Bahn_1501_Altona
 constraint[next][1]=Electric_1924_S-Bahn_1589a_Altona
 constraint[next][2]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1924_S-Bahn_1589ab_Altona.1.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1925_S-Bahn_1501_1502_Altona.1.<$0>
 

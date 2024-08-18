@@ -1,0 +1,226 @@
+
+obj=vehicle
+name=Electric_1920_S-Bahn_507_Breslau
+# Gattung C4elT pr 15
+# alt: ET 1001
+# danach 507 Breslau
+# ET 88
+# https://de.wikipedia.org/wiki/DR-Baureihe_ET_88
+# http://www.zackenbahn.de/et88.html
+copyright=Flemmbrav
+intro_year=1920
+intro_month=3
+retire_year=1936
+retire_month=4
+freight=Passagiere
+payload=68
+cost=5037648
+runningcost=45
+weight=62
+engine_type=electric
+power=468
+gear=100
+speed=65
+# LÜP 17.060mm
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+#constraint[prev][0]=Electric_1907_S-Bahn_552_Altona
+#constraint[prev][1]=none
+#constraint[next][0]=Electric_1907_S-Bahn_552_Altona
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1920_S-Bahn_507_Breslau.0.<$0>
+
+---
+
+obj=vehicle
+name=Electric_1920_S-Bahn_507_Breslau_control_cab_front
+# BC4 elS Pr 12/31
+# http://www.zackenbahn.de/et88.html
+copyright=Flemmbrav
+intro_year=1920
+intro_month=3
+retire_year=1936
+retire_month=4
+freight=Passagiere
+payload=54
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=30
+engine_type=electric
+#power=0
+#gear=100
+# 
+speed=65
+# LÜP ???
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+#constraint[prev][0]=Electric_1907_S-Bahn_551_Altona
+#constraint[next][0]=Electric_1907_S-Bahn_551_Altona
+#constraint[next][1]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1920_S-Bahn_507_Breslau.1.<$0>
+
+---
+
+obj=vehicle
+name=Electric_1920_S-Bahn_507_Breslau_control_cab_back
+# BC4 elS Pr 12/31
+# http://www.zackenbahn.de/et88.html
+copyright=Flemmbrav
+intro_year=1920
+intro_month=3
+retire_year=1936
+retire_month=4
+freight=Passagiere
+payload=54
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=30
+engine_type=electric
+#power=0
+#gear=100
+# 
+speed=65
+# LÜP ???
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+#constraint[next][0]=Electric_1907_S-Bahn_551_Altona
+#constraint[next][1]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1920_S-Bahn_507_Breslau.2.<$0>
+
+---
+
+obj=vehicle
+name=Electric_1920_S-Bahn_Breslau_control_cab_C3_els_P1_14_23_front
+# C3 elS P1 14/23
+# http://www.zackenbahn.de/et88.html
+copyright=Flemmbrav
+intro_year=1920
+intro_month=3
+retire_year=1936
+retire_month=4
+freight=Passagiere
+payload=48
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=24
+engine_type=electric
+#power=0
+#gear=100
+# 
+speed=65
+# LÜP ???
+length=7
+waytype=narrowgauge_track
+loading_time=4580
+#constraint[prev][0]=Electric_1907_S-Bahn_551_Altona
+#constraint[next][0]=Electric_1907_S-Bahn_551_Altona
+#constraint[next][1]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1920_S-Bahn_507_Breslau.3.<$0>
+
+---
+
+obj=vehicle
+name=Electric_1920_S-Bahn_Breslau_control_cab_C3_els_P1_14_23_back
+# C3 elS P1 14/23
+# http://www.zackenbahn.de/et88.html
+copyright=Flemmbrav
+intro_year=1920
+intro_month=3
+retire_year=1936
+retire_month=4
+freight=Passagiere
+payload=48
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=24
+engine_type=electric
+#power=0
+#gear=100
+# 
+speed=65
+# LÜP ???
+length=7
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+#constraint[next][0]=Electric_1907_S-Bahn_551_Altona
+#constraint[next][1]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1920_S-Bahn_507_Breslau.4.<$0>
+
+
+---
+
+obj=vehicle
+name=Electric_1920_S-Bahn_Breslau_control_cab_C3_els_P1_14_23_front
+# C3 elS P1 14/23
+# http://www.zackenbahn.de/et88.html
+copyright=Flemmbrav
+intro_year=1920
+intro_month=3
+retire_year=1936
+retire_month=4
+freight=Passagiere
+payload=48
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=24
+engine_type=electric
+#power=0
+#gear=100
+# 
+speed=65
+# LÜP ???
+length=7
+waytype=narrowgauge_track
+loading_time=4580
+#constraint[prev][0]=Electric_1907_S-Bahn_551_Altona
+#constraint[next][0]=Electric_1907_S-Bahn_551_Altona
+#constraint[next][1]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1920_S-Bahn_507_Breslau.5.<$0>
+
+---
+
+obj=vehicle
+name=Electric_1920_S-Bahn_Breslau_control_cab_C3_els_P1_14_23_back
+# C3 elS P1 14/23
+# http://www.zackenbahn.de/et88.html
+copyright=Flemmbrav
+intro_year=1920
+intro_month=3
+retire_year=1936
+retire_month=4
+freight=Passagiere
+payload=48
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=24
+engine_type=electric
+#power=0
+#gear=100
+# 
+speed=65
+# LÜP ???
+length=7
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+#constraint[next][0]=Electric_1907_S-Bahn_551_Altona
+#constraint[next][1]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1920_S-Bahn_507_Breslau.6.<$0>
+

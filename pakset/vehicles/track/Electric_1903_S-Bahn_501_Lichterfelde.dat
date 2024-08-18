@@ -1,0 +1,67 @@
+# S-Bahn Berlin
+# third rail
+# 550 V =
+
+obj=vehicle
+name=Electric_1903_S-Bahn_501_Lichterfelde
+# alt: 2031 Lichterfelde
+# 501 Lichterfelde
+# https://de.wikipedia.org/wiki/Preu%C3%9Fische_Triebwagen_Nr._2031%E2%80%932036,_2981%E2%80%932998
+# B4 esT
+copyright=Flemmbrav
+intro_year=1903
+intro_month=3
+retire_year=1930
+retire_month=4
+freight=Passagiere
+payload=58
+cost=5037648
+runningcost=45
+weight=42
+engine_type=electric
+power=147
+gear=100
+speed=50
+# LÜP 19.300mm
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=Electric_1903_S-Bahn_502_Lichterfelde
+constraint[prev][1]=none
+constraint[next][0]=Electric_1903_S-Bahn_502_Lichterfelde
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1903_S-Bahn_501_502_Lichterfelde.0.<$0>
+
+---
+
+obj=vehicle
+name=Electric_1903_S-Bahn_502_Lichterfelde
+# alt: 2032 Lichterfelde
+# 502 Lichterfelde
+# https://de.wikipedia.org/wiki/Preu%C3%9Fische_Triebwagen_Nr._2031%E2%80%932036,_2981%E2%80%932998
+# B4 esT
+copyright=Flemmbrav
+intro_year=1903
+intro_month=3
+retire_year=1930
+retire_month=4
+freight=Passagiere
+payload=58
+cost=5037648
+runningcost=45
+weight=42
+engine_type=electric
+power=147
+gear=100
+# 
+speed=50
+# LÜP 19.300mm
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=Electric_1903_S-Bahn_501_Lichterfelde
+constraint[next][0]=Electric_1903_S-Bahn_501_Lichterfelde
+constraint[next][1]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Electric_1903_S-Bahn_501_502_Lichterfelde.1.<$0>
+
