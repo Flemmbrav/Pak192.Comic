@@ -164,11 +164,11 @@ waytype=narrowgauge_track
 
 constraint[prev][0]=any
 
-EmptyImage[E]=./image/DPZ.10.2
-EmptyImage[S]=./image/DPZ.10.3
-EmptyImage[W]=./image/DPZ.10.0
-EmptyImage[N]=./image/DPZ.10.1
-EmptyImage[SE]=./image/DPZ.11.0
-EmptyImage[NE]=./image/DPZ.11.1
-EmptyImage[NW]=./image/DPZ.11.2
-EmptyImage[SW]=./image/DPZ.11.3
+EmptyImage[E]=./image/Passenger_Train_2008_B_25-73_NDW.0.2
+EmptyImage[S]=./image/Passenger_Train_2008_B_25-73_NDW.0.3
+EmptyImage[W]=./image/Passenger_Train_2008_B_25-73_NDW.0.0
+EmptyImage[N]=./image/Passenger_Train_2008_B_25-73_NDW.0.1
+EmptyImage[SE]=./image/Passenger_Train_2008_B_25-73_NDW.1.0
+EmptyImage[NE]=./image/Passenger_Train_2008_B_25-73_NDW.1.1
+EmptyImage[NW]=./image/Passenger_Train_2008_B_25-73_NDW.1.2
+EmptyImage[SW]=./image/Passenger_Train_2008_B_25-73_NDW.1.3
