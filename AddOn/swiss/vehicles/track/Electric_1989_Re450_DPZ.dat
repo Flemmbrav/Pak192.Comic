@@ -27,6 +27,9 @@ gear=100
 length=9
 waytype=narrowgauge_track
 
+constraint[prev][0]=Electric_1989_Re450_Bt_rev
+constraint[prev][1]=Electric_1989_Re450_rev
+constraint[prev][2]=None
 constraint[next][0]=Electric_1989_Re450_B
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_1989_Re450_DPZ.0.<$0>
@@ -95,6 +98,7 @@ waytype=narrowgauge_track
 constraint[prev][0]=Electric_1989_Re450_AB
 constraint[next][0]=Electric_1989_Re450
 constraint[next][1]=Electric_1989_Re450_Bt_rev
+constraint[next][1]=None
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_1989_Re450_DPZ.5.<$0>
 -------------
@@ -116,7 +120,8 @@ length=11
 waytype=narrowgauge_track
 
 constraint[prev][0]=Electric_1989_Re450_Bt
-constraint[prev][0]=Electric_1989_Re450_rev
+constraint[prev][1]=Electric_1989_Re450_rev
+constraint[prev][2]=None
 constraint[next][0]=Electric_1989_Re450_AB_rev
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_1989_Re450_DPZ.6.<$0>
@@ -186,5 +191,6 @@ waytype=narrowgauge_track
 constraint[prev][0]=Electric_1989_Re450_B_rev
 constraint[next][0]=Electric_1989_Re450_Bt_rev
 constraint[next][1]=Electric_1989_Re450_rev
+constraint[next][0]=None
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_1989_Re450_DPZ.1.<$0>
