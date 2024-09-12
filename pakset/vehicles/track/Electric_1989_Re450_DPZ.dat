@@ -49,7 +49,7 @@ speed=130
 payload=150
 freight=Passagiere
 engine_type=electric
-length=11
+length=12
 waytype=narrowgauge_track
 
 constraint[prev][0]=Electric_1989_Re450
@@ -71,7 +71,7 @@ speed=130
 payload=150
 freight=Passagiere
 engine_type=electric
-length=11
+length=12
 waytype=narrowgauge_track
 
 constraint[prev][0]=Electric_1989_Re450_B
@@ -93,7 +93,7 @@ speed=130
 payload=150
 freight=Passagiere
 engine_type=electric
-length=11
+length=12
 waytype=narrowgauge_track
 
 constraint[prev][0]=Electric_1989_Re450_AB
@@ -118,7 +118,7 @@ speed=130
 payload=150
 freight=Passagiere
 engine_type=electric
-length=11
+length=12
 waytype=narrowgauge_track
 
 constraint[prev][0]=Electric_1989_Re450_Bt
@@ -143,7 +143,7 @@ speed=130
 payload=150
 freight=Passagiere
 engine_type=electric
-length=11
+length=12
 waytype=narrowgauge_track
 
 constraint[prev][0]=Electric_1989_Re450_Bt_rev
@@ -165,7 +165,7 @@ speed=130
 payload=150
 freight=Passagiere
 engine_type=electric
-length=11
+length=12
 waytype=narrowgauge_track
 
 constraint[prev][0]=Electric_1989_Re450_AB_rev
