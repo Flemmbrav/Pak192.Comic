@@ -20,8 +20,10 @@ smoke=none
 sound=none
 loading_time=5070
 
-constraint[prev][0]=RBe514
-constraint[prev][1]=none
+constraint[prev][0]=Electric_1989_Re450_Bt_rev
+constraint[prev][1]=Electric_1989_Re450_rev
+constraint[prev][2]=RBe514
+constraint[prev][3]=None
 constraint[next][0]=BS514
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2005_RABe514.2.<$0>
@@ -48,8 +50,10 @@ smoke=none
 sound=none
 
 constraint[prev][0]=B514
-constraint[next][0]=RAe514
-constraint[next][1]=none
+constraint[next][0]=Electric_1989_Re450
+constraint[next][1]=Electric_1989_Re450_Bt_rev
+constraint[next][2]=RAe514
+constraint[next][3]=None
 
 EmptyImage[W,N,E,S,SE,NE,NW,SW]=image/Electric_2005_RABe514.3.<$0>
 -----------
