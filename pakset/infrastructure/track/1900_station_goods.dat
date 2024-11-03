@@ -1,0 +1,19 @@
+obj=building
+name=track_station_good_bulk
+copyright=Leartin
+intro_month=0
+intro_year=1900
+type=stop
+waytype=narrowgauge_track
+allow_underground=0
+enables_ware=1
+enables_post=1
+cost=500000
+maintenance=24000
+level=12
+noinfo=1
+icon=> ./images/station/1900_track_goods.0.4
+cursor=./images/station/1900_track_goods.1.4
+BackImage[0-7][0][0][0][0][0-1]=./images/station/1900_track_goods.<$0%2+$1*2>.<$0/2>
+Dims=1,1,8
+---
