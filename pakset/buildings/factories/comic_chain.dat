@@ -179,7 +179,6 @@ Obj=factory
 Name=kamehouse
 copyright=Leartin
 location=Water
-climate=water
 intro_year=1984
 DistributionWeight=30
 MapColor=99

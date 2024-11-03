@@ -293,7 +293,7 @@ Range=30
 #-----
 Min_fields=3
 Max_fields=25
-Production_per_field=4
+Production_per_field[0-1]=4
 fields[0-1]=berry_fields_<$0>
 has_snow[0-1]=1
 #-----
@@ -490,7 +490,7 @@ InputCapacity[0]=1500
 InputSupplier[0]=2
 InputFactor[0]=1500
 OutputGood[0]=cheese
-OutputCapacity[0]=10
+OutputCapacity[0]=11
 OutputFactor[0]=100
 #-----
 Productivity=10

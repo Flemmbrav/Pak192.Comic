@@ -199,7 +199,7 @@ level=3
 needs_ground=1
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=images/res/alpine/03_E0_02.<$0>.0
-FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,85,0
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,85,0
 ---
 obj=building
 name=res_cl5_E0_06_03
@@ -212,7 +212,7 @@ level=3
 needs_ground=1
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=images/res/alpine/03_E0_02.<$0>.1
-FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,85,0
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,85,0
 ---
 obj=building
 name=res_cl5_E0_07_03
@@ -225,7 +225,7 @@ level=3
 needs_ground=1
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=images/res/alpine/03_E0_02.<$0>.2
-FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,85,0
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,85,0
 ---
 obj=building
 name=res_cl5_E0_08_03
@@ -238,7 +238,7 @@ level=3
 needs_ground=1
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=images/res/alpine/03_E0_02.<$0>.3
-FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,85,0
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,85,0
 ------
 obj=building
 name=res_cl5_E0_09_03
@@ -392,7 +392,7 @@ level=3
 needs_ground=1
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=images/res/alpine/03_E3_02.<$0>.0
-FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,85,0
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,85,0
 ---
 obj=building
 name=res_cl5_E3_06_03
@@ -405,7 +405,7 @@ level=3
 needs_ground=1
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=images/res/alpine/03_E3_02.<$0>.1
-FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,85,0
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,85,0
 ---
 obj=building
 name=res_cl5_E3_07_03
@@ -418,7 +418,7 @@ level=3
 needs_ground=1
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=images/res/alpine/03_E3_02.<$0>.2
-FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,85,0
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,85,0
 ---
 obj=building
 name=res_cl5_E3_08_03
@@ -431,7 +431,7 @@ level=3
 needs_ground=1
 climates=rocky
 BackImage[0][0][0][0][0][0-1]=images/res/alpine/03_E3_02.<$0>.3
-FrontImage[0][0][0][0][0-2][4]=images/smoke_l.0.<$0>,85,0
+FrontImage[0][0][0][0][0-2][1]=images/smoke_l.0.<$0>,85,0
 ------
 obj=building
 name=res_cl5_E3_09_03
@@ -1441,6 +1441,7 @@ chance=10
 level=7
 needs_ground=1
 climates=rocky
+dims=1,1,2
 BackImage[0-1][0][0][0][0][0-1]=images/res/alpine/07_E6_01.0.<$0*2+$1>
 ---
 obj=building
@@ -1452,6 +1453,8 @@ chance=10
 level=7
 needs_ground=1
 climates=rocky
+dims=1,1,2
+
 BackImage[0-1][0][0][0][0][0-1]=images/res/alpine/07_E6_01.1.<$0*2+$1>
 ---
 obj=building
@@ -1463,6 +1466,7 @@ chance=10
 level=7
 needs_ground=1
 climates=rocky
+dims=1,1,2
 BackImage[0-1][0][0][0][0][0-1]=images/res/alpine/07_E6_01.2.<$0*2+$1>
 ---
 obj=building
@@ -1474,6 +1478,7 @@ chance=10
 level=7
 needs_ground=1
 climates=rocky
+dims=1,1,2
 BackImage[0-1][0][0][0][0][0-1]=images/res/alpine/07_E6_01.3.<$0*2+$1>
 ---
 #################################################################################

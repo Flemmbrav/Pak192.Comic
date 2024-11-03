@@ -90,7 +90,7 @@ Range=10
 min_fields=10
 probability_to_spawn=50
 fields[0-3]=sugarcane_field_<$0>
-production_per_field[0-5]=20
+production_per_field[0-3]=20
 spawn_weight[0-2]=50
 spawn_weight[3]=10
 start_fields=20
@@ -121,7 +121,7 @@ Image[48-59]=./images/sugarcane_fields.2.0
 Image[60-71]=./images/sugarcane_fields.3.0
 Image[72-87]=./images/sugarcane_fields.4.0
 Image[88-95]=./images/sugarcane_fields.5.0
-Image96=./images/sugarcane_fields.7.0
+Image[96]=./images/sugarcane_fields.7.0
 ---
 obj=field
 name=sugarcane_field_1
@@ -134,7 +134,7 @@ Image[47-58]=./images/sugarcane_fields.2.1
 Image[59-70]=./images/sugarcane_fields.3.1
 Image[71-86]=./images/sugarcane_fields.4.1
 Image[87-95]=./images/sugarcane_fields.5.1
-Image96=./images/sugarcane_fields.7.1
+Image[96]=./images/sugarcane_fields.7.1
 ---
 obj=field
 name=sugarcane_field_2
@@ -147,7 +147,7 @@ Image[49-60]=./images/sugarcane_fields.2.2
 Image[61-72]=./images/sugarcane_fields.3.2
 Image[73-88]=./images/sugarcane_fields.4.2
 Image[89-95]=./images/sugarcane_fields.5.2
-Image96=./images/sugarcane_fields.7.2
+Image[96]=./images/sugarcane_fields.7.2
 ---
 obj=field
 name=sugarcane_field_3
@@ -160,7 +160,7 @@ Image[49-60]=./images/sugarcane_fields.2.3
 Image[61-72]=./images/sugarcane_fields.3.3
 Image[73-88]=./images/sugarcane_fields.4.3
 Image[89-95]=./images/sugarcane_fields.5.3
-Image96=./images/sugarcane_fields.7.3
+Image[96]=./images/sugarcane_fields.7.3
 #############
 -------------
 Obj=factory
@@ -249,7 +249,7 @@ Range=10
 min_fields=10
 probability_to_spawn=50
 fields[0-2]=coca_field_<$0>
-production_per_field[0-5]=20
+production_per_field[0-2]=20
 spawn_weight[0-2]=50
 start_fields=20
 has_snow[0-2]=1

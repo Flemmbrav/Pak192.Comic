@@ -19,9 +19,9 @@ Range=10
 Min_fields=10
 Max_fields=40
 start_fields=15
-Production_per_field=8
+Production_per_field[0-3]=8
 fields[0-3]=apple_field_<$0>
-has_snow=1
+has_snow[0-3]=1
 #-----
 electricity_amount=20
 passenger_demand=20

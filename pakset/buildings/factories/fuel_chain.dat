@@ -113,7 +113,6 @@ has_snow[0-3]=1
 Smoke=flame
 SmokeTile=4,0
 SmokeOffset=-11,-75
-SmokeSpeed=5
 #-----
 needs_ground=1
 Dims=5,5,1
@@ -216,7 +215,7 @@ mail_boost=200
 #-----
 needs_ground=1
 Dims=2,2,1
-BackImage[0][0-3][0-3][0][0]=images/solvent_solutions.<$0>.<$1>
+BackImage[0][0-1][0-1][0][0]=images/solvent_solutions.<$0>.<$1>
 #############
 -------------
 obj=factory
