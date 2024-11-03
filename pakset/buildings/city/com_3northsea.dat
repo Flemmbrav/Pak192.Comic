@@ -1665,7 +1665,7 @@ Name=com_cl3_E5_12_27
 #192rothenburgsort
 copyright=Alex. Brose
 Type=com
-#climates=temperate
+climates=temperate
 intro_month=1
 intro_year=1990
 Level=27

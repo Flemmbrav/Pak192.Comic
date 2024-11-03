@@ -2536,7 +2536,7 @@ Name=res_cl3_E5_01_20
 #192hoelderlin
 copyright=Alex. Brose
 Type=res
-#climates=temperate
+climates=temperate
 intro_month=1
 intro_year=1972
 retire_month=8
@@ -2551,7 +2551,7 @@ Name=res_cl3_E5_02_20
 #192hoelderlin
 copyright=Alex. Brose
 Type=res
-#climates=temperate
+climates=temperate
 intro_month=1
 intro_year=1972
 retire_month=8
@@ -2566,7 +2566,7 @@ Name=res_cl3_E5_03_20
 #192hoelderlin
 copyright=Alex. Brose
 Type=res
-#climates=temperate
+climates=temperate
 intro_month=1
 intro_year=1972
 retire_month=8
@@ -2581,7 +2581,7 @@ Name=res_cl3_E5_04_20
 #192hoelderlin
 copyright=Alex. Brose
 Type=res
-#climates=temperate
+climates=temperate
 intro_month=1
 intro_year=1972
 retire_month=8
