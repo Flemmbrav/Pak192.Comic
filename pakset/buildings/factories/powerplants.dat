@@ -26,7 +26,6 @@ mail_boost=100
 Smoke=Industry_Smoke
 SmokeTile=0,1
 SmokeOffset=-11,-95
-SmokeSpeed=20
 #-----
 needs_ground=1
 Dims=4,4,1
@@ -62,11 +61,10 @@ mail_boost=100
 Smoke=Industry_Smoke
 SmokeTile=0,0
 SmokeOffset=-3,-100
-SmokeSpeed=20
 #-----
 needs_ground=1
 Dims=3,3,1
-BackImage[0][0-3][0-3][0][0][0-1]=./images/Kohlekraftwerk_early.<$0>.<$1+$2*3>
+BackImage[0][0-2][0-2][0][0][0-1]=./images/Kohlekraftwerk_early.<$0>.<$1+$2*3>
 BackImage[0][0][0][1][0][0-1]=./images/Kohlekraftwerk_early.3.0
 #############
 -------------
@@ -98,7 +96,6 @@ mail_boost=100
 Smoke=Industry_Smoke
 SmokeTile=0,1
 SmokeOffset=0,-20
-SmokeSpeed=20
 #-----
 needs_ground=1
 Dims=3,3,1

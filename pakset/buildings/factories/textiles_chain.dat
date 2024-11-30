@@ -18,7 +18,7 @@ min_fields=20
 max_fields=100
 probability_to_spawn=50
 fields[0]=cotton_field_0
-production_per_field[0-5]=10
+production_per_field[0]=10
 start_fields=30
 has_snow[0]=1
 #----
@@ -63,7 +63,7 @@ Range=4
 #-----
 Min_fields=4
 Max_fields=22
-Production_per_field=10
+Production_per_field[0-2]=10
 fields[0-2]=flaxfield_<$0>
 start_fields=6
 has_snow[0-2]=1

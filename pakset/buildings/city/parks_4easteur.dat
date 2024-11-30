@@ -145,6 +145,17 @@ climates=tundra
 clusters=10
 BackImage[0][0][0][0][0][0-4]=images/park/easteur/parks_easteur.<$0>.4
 ---
+obj=building
+name=res_park_cl4_E0_04_09
+copyright=Leartin
+type=res
+chance=3
+level=9
+needs_ground=1
+climates=tundra
+clusters=10
+BackImage[0][0][0][0][0][0-4]=images/park/toilets.<$0>.1
+---
 
 #################################################################################
 #									 LEVEL 12									#

@@ -114,9 +114,9 @@ Productivity=10
 min_fields=3
 probability_to_spawn=10
 fields[0-3]=forest_<$0+12>
-production_per_field[0-5]=20
+production_per_field[0-3]=20
 start_fields=10
-has_snow[0-5]=1
+has_snow[0-3]=1
 #-----
 electricity_amount=0
 passenger_demand=15
