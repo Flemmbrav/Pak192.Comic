@@ -1,0 +1,32 @@
+obj=vehicle
+name=Battery_1907_AT_1
+# Preußischer AT 1
+copyright=Flemmbrav
+intro_year=1907
+intro_month=3
+retire_year=1922
+retire_month=0
+freight=Passagiere
+# 5x8=40 x 3. class
+# 40 total
+payload=40
+cost=5037648
+runningcost=45
+# ungebremst
+# weigth estimated
+weight=34
+# 
+speed=45
+# LÜP 12.200mm
+
+engine_type=battery
+power=50
+gear=150
+
+length=6
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=none
+constraint[next][0]=none
+
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Battery_1907_AT_1.0.<$0>
