@@ -1,0 +1,79 @@
+obj=vehicle
+name=Lokomotive_1902_Badische_II_d
+# livery with russian iron
+copyright=Flemmbrav
+intro_year=1902
+intro_month=1
+retire_year=1918
+retire_month=1
+smoke=Steam3
+sound=BR18_3_pfeife.wav
+cost=38883631
+runningcost=636
+weight=75
+speed=110
+# zur Kraft: wird hier mit 1670ps (entspricht 1228kW) angegeben: https://www.ebay.de/itm/166465462370?customid&toolid=10050
+power=1228
+#gear=??? für  "Das Leistungsprogramm sah vor, dass bei einer Steigung von 3,3 Promille und einem Zug von 200 t eine Geschwindigkeit von 100 km/h zu fahren sei" (Wiki)
+# gear der 2C1 IV h ist 240
+# die leistungsschwächere II c konnte 260t bei 110km/h ziehen: https://de.wikipedia.org/wiki/Badische_II_c
+# so sollte die II d auf jeden Fall mehr als 300t bei 110km/h schaffen!
+# mit gear=200 werden ca 320t bei 110km/h und 390t bei 100km/h erreicht
+gear=200
+length=7
+waytype=narrowgauge_track
+engine_type=steam
+constraint[next][0]=Tender_1902_2_2_T_20
+EmptyImage[E,S,W,N,SE,SW,NW,NE]=./image/Lokomotive_1902_Badische_II_d.1.<$0>
+#Image[E,S,W,N,SE,SW,NW,NE][0]=./image/Lokomotive_1902_Badische_II_d.1.<$0>
+#Image[E,S,W,N,SE,SW,NW,NE][1]=./image/Lokomotive_1902_Badische_II_d.2.<$0>
+#steps_per_frame=4
+-----------------------------
+obj=vehicle
+name=Lokomotive_1902_Badische_II_d_Regelanstrich
+# standard livery
+copyright=Flemmbrav
+intro_year=1902
+intro_month=1
+retire_year=1918
+retire_month=1
+smoke=Steam3
+sound=BR18_3_pfeife.wav
+cost=38883631
+runningcost=636
+weight=75
+speed=110
+# zur Kraft: wird hier mit 1670ps (entspricht 1228kW) angegeben: https://www.ebay.de/itm/166465462370?customid&toolid=10050
+power=1228
+#gear=??? für  "Das Leistungsprogramm sah vor, dass bei einer Steigung von 3,3 Promille und einem Zug von 200 t eine Geschwindigkeit von 100 km/h zu fahren sei" (Wiki)
+# gear der 2C1 IV h ist 240
+# die leistungsschwächere II c konnte 260t bei 110km/h ziehen: https://de.wikipedia.org/wiki/Badische_II_c
+# so sollte die II d auf jeden Fall mehr als 300t bei 110km/h schaffen!
+# mit gear=200 werden ca 320t bei 110km/h und 390t bei 100km/h erreicht
+gear=200
+length=7
+waytype=narrowgauge_track
+engine_type=steam
+constraint[next][0]=Tender_1902_2_2_T_20
+EmptyImage[E,S,W,N,SE,SW,NW,NE]=./image/Lokomotive_1902_Badische_II_d_Regelanstrich.1.<$0>
+#Image[E,S,W,N,SE,SW,NW,NE][0]=./image/Lokomotive_1902_Badische_II_d_Regelanstrich.1.<$0>
+#Image[E,S,W,N,SE,SW,NW,NE][1]=./image/Lokomotive_1902_Badische_II_d_Regelanstrich.2.<$0>
+#steps_per_frame=4
+-----------------------------
+obj=vehicle
+name=Tender_1902_2_2_T_20
+#	bad. 2’2 T20
+copyright=Flemmbrav
+intro_year=1902
+intro_month=1
+retire_year=1918
+retire_month=1
+cost=0
+runningcost=00
+weight=25
+speed=110
+length=3
+waytype=narrowgauge_track
+constraint[prev][0]=Lokomotive_1902_Badische_II_d
+constraint[prev][1]=Lokomotive_1902_Badische_II_d_Regelanstrich
+EmptyImage[E,S,W,N,SE,SW,NW,NE]=./image/Lokomotive_1902_Badische_II_d.0.<$0>
