@@ -11,6 +11,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
+
+          # svn checkout svn://ct234.pm2-host.1awww.com/simutrans simutrans
+
     - name: install_dependencies
       run: |
           sudo apt-get -y update
@@ -18,7 +21,7 @@ jobs:
           sudo apt-get -ym install libsdl2-dev
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
-          svn checkout svn://ct234.pm2-host.1awww.com/simutrans simutrans
+          svn checkout svn://svn://servers.simutrans.org/simutrans simutrans
           sudo git clone https://github.com/simutrans/tutorial_pak192.comic ./pakset/trunk/scenario/tutorial
     - name: setup
       run: |
