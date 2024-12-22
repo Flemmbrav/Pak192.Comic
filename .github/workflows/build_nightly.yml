@@ -110,7 +110,7 @@ jobs:
           sudo apt-get -ym install libsdl2-dev
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
-          svn checkout svn://ct234.pm2-host.1awww.com/simutrans simutrans
+          svn checkout svn://servers.simutrans.org/simutrans simutrans
           sudo git clone https://github.com/simutrans/tutorial_pak192.comic ./pakset/trunk/scenario/tutorial_pak192.comic
     - name: setup
       run: |
@@ -165,7 +165,7 @@ jobs:
           sudo apt-get -ym install libsdl2-dev
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
-          svn checkout svn://ct234.pm2-host.1awww.com/simutrans simutrans
+          svn checkout svn://servers.simutrans.org/simutrans simutrans
           sudo git clone https://github.com/simutrans/tutorial_pak192.comic ./pakset/trunk/scenario/tutorial_pak192.comic
     - name: setup
       run: |
@@ -222,7 +222,7 @@ jobs:
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
           sudo apt-get -ym install imagemagick
-          svn checkout svn://ct234.pm2-host.1awww.com/simutrans simutrans
+          svn checkout svn://servers.simutrans.org/simutrans simutrans
           sudo git clone https://github.com/simutrans/tutorial_pak192.comic ./pakset/trunk/scenario/tutorial_pak192.comic
     - name: setup
       run: |
