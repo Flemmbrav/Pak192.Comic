@@ -22,5 +22,12 @@ waytype=narrowgauge_track
 loading_time=4580
 constraint[prev][0]=any
 
+freightimagetype[0]=oil
+freightimagetype[1]=naphtha
+freightimagetype[2]=fuel
+freightimagetype[3]=heavy_oil
+freightimagetype[4]=solvent
+freightimagetype[5]=ink
+
 EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Oil_1913_Verbandsbauart.0.<$0>
-#FreightImage[0-4][S,W,SE,SW,N,E,NW,NE]=./image/Car_Oil_1913_Verbandsbauart.<$0+1>.<$1>
+FreightImage[0-5][S,W,SE,SW,N,E,NW,NE]=./image/Car_Oil_1913_Verbandsbauart.<$0+1>.<$1>
