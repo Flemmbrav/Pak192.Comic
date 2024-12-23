@@ -1,0 +1,26 @@
+obj=vehicle
+name=Car_Milk_1883_Blatt_IIb2
+# KPEV Blatt IIb2
+copyright=Flemmbrav
+intro_year=1883
+intro_month=3
+retire_year=1907
+retire_month=3
+freight=milk
+payload=12
+cost=50376
+runningcost=45
+# weigth estimated
+# the 9 tons of the standard IIb2 plus 4 tons for the milk cans
+weight=13
+# 
+speed=45
+length=4
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+freightimagetype[0]=milk
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Milk_1883_Blatt_IIb2.0.<$0>
+FreightImage[0][S,W,SE,SW,N,E,NW,NE]=./image/Car_Milk_1883_Blatt_IIb2.1.<$0>
