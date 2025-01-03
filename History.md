@@ -1,5 +1,52 @@
+# V0.7.2
+Jan 04, 2025
+
+
+## Gameplay
+
+- higher infrastructure costs for roads and channels
+- higher monthly costs and loading time for road vehicles
+- higher monthly costs for ships
+- a default value for used_vehicle_reduction
+
+## New objects
+
+### Infrastructure
+
+- a new channel
+- Multitile- Postal Distribution
+- Multitile-Container-Station (Postal Distribution in player colors)
+- a bulk-good-crane plattform
+
+### Buildings
+
+- Old industrial building
+- the FROGUE
+- public restrooms for parks
+- cellador factory
+- Balloon house from UP
+
+### Vehicles
+
+- Many old goods wagons
+- Baden IId
+- Bus from 1895
+- prussian AT 1
+- Sgnss 80 XL
+- Rh. 2043
+
+## Updated objects
+
+### Vehicles
+
+- S-Bahn trains mostly have a proper length now
+- SBB DPZ
+- Umbauwagen DB
+
 
 # V0.7.1.
+Feb 16, 2024
+
 
 ## Gameplay
 
