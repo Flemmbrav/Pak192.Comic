@@ -9,11 +9,93 @@
 #                             Language: es Espanol                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 16.02 2024                           #
+#                            Date Created: 3.01 2025                           #
 #                                                                              #
 ################################################################################
+#__________________________bridge - narrowgauge_track___________________________
+#__________________________bridge - narrowgauge_track___________________________
+concrete_bridge_high_speed
+Puente de alta velocidad
+high_track_bridge
+Puente elevado de ferrocarril
+high_track_bridge2
+Puente elevado de ferrocarril
+Stahlbruecke_track
+Puente de acero
+track_bridge_80kph
+Puente de ladrillo
+track_bridge_concrete_full_tile_infty_2F
+Puente de alta velocidad con barrera acústica en la parte delantera
+track_bridge_concrete_full_tile_infty_3C
+Puente de alta velocidad con muro acústico a ambos lados
+track_bridge_concrete_full_tile_infty_3S
+Puente de alta velocidad
+track_bridge_concrete_full_tile_infty_4B
+Puente de alta velocidad con muro de ruido trasero
+#________________________________bridge - power_________________________________
+#________________________________bridge - power_________________________________
+Stromleitung_bruecke
+Puente de tendido eléctrico
+#_________________________________bridge - road_________________________________
+#_________________________________bridge - road_________________________________
+road_bridge_autobahn
+Puente de carretera
+road_bridge_city
+Puente de carretera urbana
+road_bridge_concrete
+Puente de carretera
+#________________________________bridge - track_________________________________
+#________________________________bridge - track_________________________________
+ng_Bridge_1900_70kph
+Puente de piedra de vía estrecha
+ng_Bridge_1954_100kph
+Puente de acero de vía estrecha
 #________________________________building - com_________________________________
 #________________________________building - com_________________________________
+com_cl0_C12_E0_01_20
+Obelisco\n\nEste obelisco del Antiguo Egipto se extraía en una sola pieza de una gran roca. Para ello, perforaban pequeños agujeros a mano y los llenaban de agua. En las noches frías, el agua se expandía y liberaba la piedra.
+com_cl0_E0_01_01
+Esfinge de gato
+com_cl0_E0_01_03
+Templo
+com_cl0_E0_01_05
+Torreón
+com_cl0_E0_01_07
+Torreón
+com_cl0_E0_01_09
+Pirámide
+com_cl0_E0_02_01
+Monumento de obeliscos
+com_cl0_E0_02_03
+Torreón con obelisco\n\n"No me gusta la arena. Es áspera, áspera e incómoda. Está en todas partes".
+com_cl0_E0_02_05
+Templo
+com_cl0_E0_02_07
+Templo
+com_cl0_E0_02_09
+Templo
+com_cl0_E0_03_05
+Templo
+com_cl0_E0_03_07
+Templo
+com_cl0_E0_03_09
+Templo
+com_cl0_E0_04_09
+Templo
+com_cl2_E4_01_18
+Edificio de oficinas
+com_cl2_E4_01_23
+Edificio de oficinas
+com_cl2_E5_01_05
+La Rancio\n\nEl chef Luigi utiliza con maestría su horno de piedra para crear la mejor pizza de la ciudad. Pero los críticos también aplauden sus variaciones de pasta, y a los niños les encanta el helado hecho a mano.
+com_cl2_E5_01_18
+"Toskana"\n\nEl arquitecto de este proyecto propuso planos para edificios similares de tres tamaños diferentes. Este es el más bajo, pintado de amarillo.
+com_cl2_E5_01_23
+"Toskana"\n\nEl arquitecto de este proyecto propuso planos para edificios similares de tres tamaños diferentes. Este es el del medio, pintado de amarillo.
+com_cl2_E5_01_27
+"Toskana"\n\nEl arquitecto de este proyecto propuso planos para edificios similares de tres tamaños diferentes. Este es el más alto, pintado de amarillo.
+com_cl2_E5_02_05
+La Rancio\n\nEl chef Luigi utiliza con maestría su horno de piedra para crear la mejor pizza de la ciudad. Pero los críticos también aplauden sus variaciones de pasta, y a los niños les encanta el helado hecho a mano.
 com_cl3_E3_01_03
 Pizzeria
 com_cl3_E4_01_05
@@ -26,34 +108,206 @@ com_cl5_E5_02_09
 Oficinas de Seguros Simupoliza SA
 #________________________________building - cur_________________________________
 #________________________________building - cur_________________________________
+cur_city_arc
+Arco de Triunfo\n\n¡Rápido, construye una carretera debajo, antes de que crezca un rascacielos y destruya el Arco!
+cur_city_basil_cathedral
+Catedral de San Basilio\n\nEsta iglesia se conoce oficialmente como "Catedral de la Intercesión de la Santísima Theotokos en el Foso". Sin embargo, es el monumento más famoso de la ciudad y el Ministerio de Turismo ha decidido que un nombre más corto es más comercial.
+cur_city_cathedral
+Catedral de San Jorge\n\nHoy en día, San Jorge es conocido como el matador de dragones. En realidad, fue un mártir torturado hasta la muerte.
 cur_city_church
 Iglesia
+cur_city_Dohauzdium
+Dohauzdium\n\nHay rumores de que el recubrimiento de aluminio de las esferas actúa como un escudo para los rayos de manipulación del pensamiento desde el espacio. Debe ser un error, la televisión funciona.
 cur_city_eiffel
-Torre Eiffel
+Torre Eiffel\n\n...aún no han encontrado petróleo.
 cur_city_eiffel2
-Torre Eiffel
+Torre Eiffel\n\n...aún no han encontrado petróleo.
+cur_city_elphi
+Sala de Conciertos\n\nLa Sala de Conciertos de la orquesta filarmónica local ofrece una gran acústica. En invierno, el techo puede utilizarse como una pequeña estación de esquí.
+cur_city_gothic_cathedral
+Catedral gótica\n\n Por un lado, es una maravilla arquitectónica que distribuye los pesos de tal manera que no se necesitan muros gruesos, lo que a su vez permite esos grandes ventanales típicos de la arquitectura gótica. Por otro lado, si no conoces la jerga de los constructores, evoca las imágenes más divertidas en tu cabeza. Para los que carecen de cualquier tipo de imaginación: Un montón de culos femeninos con alas. No de las de burro.
+cur_city_lentos
+Museo de Arte Lentos\n\nEste moderno edificio alberga una colección de miles de pinturas y esculturas del siglo XX. Pero la iluminación nocturna lo convierte también en una obra de arte.
+cur_city_mansion
+Mansión Haunted\n\nLa magnífica mansión debe haber estado aquí durante generaciones.\nProbablemente la has visto muchas veces antes, una vaga familiaridad te invade.\n¿Pero siempre ha estado aquí? \n¿Por qué te entran sudores fríos cuando estás cerca de ella? \n¿Y cómo es que te obliga a construir una parada de autobús justo a su lado, como para... alimentarla?
+cur_city_mosque
+Mezquita\n\nEsta mezquita se construyó para promover la tolerancia religiosa. Un minarete está ocupado por un almuédano chií, mientras que el del otro minarete es suní. Ahora compiten por ver quién grita más alto.
+cur_city_museum
+Museo de la Historia del Píxel\n\nEl píxel ha sido el factor dominante de la vida de cualquier Simutaniano durante milenios. Este glorioso museo muestra la historia de la fabricación de píxeles, desde la Edad de Piedra hasta la vida moderna. Una visita obligada es la fabricación tradicional de píxeles, donde se anima a jóvenes y mayores a dar forma a su mundo.
+cur_city_nuclear
+Central nuclear no eléctrica\n\nTras la construcción de esta central, los ciudadanos decidieron que no querían vivir junto a una bomba de relojería. Como resultado, esta central no puede funcionar y, en su lugar, actúa como un monumento muy caro a la mala planificación.
+cur_city_park01
+Parque del Caballero de Oro\n\n Nadie sabe cuánto tiempo estuvo el caballero de oro en ese lugar. Los rumores hablan de un caballero que encontró un hada y deseó que su armadura fuera de oro macizo. Pero no sabía que sería demasiado pesada para moverla y se asfixió allí mismo.
+cur_city_park02
+Parque\n\n¿Te has dado cuenta ya? Todas las plantas de este parque son falsas. Comprar el juego de parque preenvasado fue más barato para la ciudad que pagar a un jardinero.
+cur_city_planetarium
+Planetario\n\nLa proyección de los planetas y las estrellas fijas en la superficie interior de la cúpula blanca es una de las raras ocasiones en que los simutanianos pueden observar las estrellas. Normalmente, esto no es posible debido a las limitaciones de la perspectiva isométrica.
+cur_city_school
+Escuela secundaria\n\n esta escuela se enseña todo lo que un joven simutaniano necesita saber en su vida. En clase de inglés y francés se escriben textos de traducción creativa. En Matemáticas investigan el equilibrio de las fábricas y los vehículos. La clase de Ciencias gira en torno al píxel como parte más pequeña del universo, y cómo los intentos de dividirlos provocan una reacción tan catastrófica, que habría que pixelarlo. Por último, en la clase de deportes se domina el alto arte de teletransportarse por las esquinas.
+cur_city_wachstube
+Prisión militar\n\n construcción militar de la Era de los Segundos Pobladores se utilizó en su día para expandir el territorio y ofrecía espacio para hasta tres soldados.
+cur_land_basil_church
+Iglesia Ortodoxa\n\nEsta iglesia debía ser una gran catedral para San Basilio, pero los constructores se quedaron sin dinero antes de tiempo. Los planos aún existen, quizá algún día se termine la catedral completa.
+cur_land_castle
+Castillo de torreones\n\nEl torreón de este castillo fue construido por los templarios que buscaban el Santo Grial. Su biblioteca, en la torre occidental, contiene transcripciones de las superficies de innumerables obeliscos de todo el mundo, con anotaciones añadidas por generaciones de buscadores. Tal vez sea sólo una leyenda, o el juego equivocado.
+cur_land_pyramid
+Piramide\n\nUna rara pirámide con la cima intacta, que muestra el Ojo de Sauron, que todo lo ve, mirando en las cuatro direcciones de una brújula, en busca del Anillo Único.
 cur_land_radiotower
-Torre de comunicaciones
+Torre de comunicaciones\n\n*brrrzzzz* *piep* ¿Houston? *krzzzz* Tenem.. un proble*piep* No tenemos *piep*apel de bañ*brzzz* *krrrrk*
+cur_stargate
+Puerta de las estrellas
 #_______________________________building - depot________________________________
 #_______________________________building - depot________________________________
 depot_air
 Hangar\n
+depot_river
+Depósito fluvial\n
 depot_road
 Cochera\n
 depot_track
-cochera\n
+Cochera\n
 maglev_depot
-Cocheras\n
+Cochera para maglev\n
 schmalspur_depot
 Cochera para vía estrecha\n\n
+sea_depot
+Depósito marítimo\n
+track_depot_with_yellow_bricks
+Cochera de ladrillo\n
+tram_depot
+Cochera para tranvía\n
 #_____________________________building - extension______________________________
 #_____________________________building - extension______________________________
+boardstorage
+Almacén - Tablas y tablones
+coalstorage
+Almacén - Carbón
+Containererweiterung
+Almacenes - Contenedores
+ext_airport_terminal01
+Vestíbulo de la terminal del aeropuerto
+ext_airport_terminal02
+Lateral de la terminal del aeropuerto
+ext_airport_terminal02c
+Esquina de la terminal del aeropuerto
+ext_airport_tower01
+Torre de Control de la Terminal
+ext_freight_boards
+Almacén - Tablas y tablones
+ext_freight_coal
+Almacén - Carbón
+ext_freight_container01
+Almacén - Contenedores
+ext_freight_logs
+Almacén - Troncos de madera
+ext_freight_oil01
+Almacén - Depósito de hidrocarburos
+ext_freight_oil02
+Almacenamiento de petróleo y gas
+ext_freight_oil03
+Almacén - Depósito de hidrocarburos
+ext_freight_warehouse01
+Ampliación de almacén
+ext_freight_warehouse02
+Ampliación de almacén con cubierta curva
+ext_mail_office01
+Oficina de correos
+ext_mail_office02
+Oficina de correos
+ext_pax_metro01
+Acceso al metro
+ext_pax_metro02
+Acceso al metro
+ext_pax_taxis
+Parada de taxis
+ext_railway_horrem01
+Edificio de la Estación del ferrocarril moderna
+ext_railway_poelten_corner
+Ampliación de la estación del antiguo edificio de la estación - Esquina exterior
+ext_railway_poelten_corner_reverse
+Ampliación de la estación del antiguo edificio de la estación - Esquina interior
+ext_railway_poelten_main
+Ampliación de la parte principal del edificio de la antigua estación
+ext_railway_poelten_side
+Ampliación del edificio de la antigua estación
+ext_railway_recolor_corner
+Ampliación de la estación del antiguo edificio de la estación - Esquina exterior
+ext_railway_recolor_corner_reverse
+Ampliación de la estación del antiguo edificio de la estación - Esquina interior
+ext_railway_recolor_main
+Ampliación del antiguo edificio de la estación
+ext_railway_recolor_side
+Ampliación de la estación del antiguo edificio de la estación
+ext_railway_timbered01
+Ampliación de la estación del antiguo edificio de la estación
+extension_Lagerhalle
+Ampliación de almacén
+extension_Lagerhalle2
+Ampliación de almacén con cubierta curva
+extension_Postamt
+Oficina de correos
+extension_postoffice
+Oficina de correos
+extension_taxi
+Parada de taxis
+extension_UBahn
+Acceso al metro
+extension_UBahn2
+Acceso al metro
 Fachwerkbahnhof
-Estación Truss
+Edificio de la estación
+horrem
+Edificio de la Estación del ferrocarril moderna
+logstorage
+Almacén - Troncos de madera
+OelundGasTank
+Almacén - Depósito de hidrocarburos
+spheretank
+Almacenamiento de petróleo y gas
+st_poelten_corner
+Edificio de la esquina de la estación del ferrocarril
+st_poelten_main
+Edificio de la estación del ferrocarril
+st_poelten_side
+Edificio de la Estación del ferrocarril - anexo
+terminal
+Terminal
+terminal_tower
+Torre de Control de la Terminal
+terminal2
+Terminal
+terminal2_corner
+Esquina de Terminal
+#_______________________________building - habour_______________________________
+#_______________________________building - habour_______________________________
+dock_easy
+Muelle simple
+#______________________________building - harbour_______________________________
+#______________________________building - harbour_______________________________
+dock_container
+Muelle de contenedores
+dock_empty
+Muelle
+dock_goods01
+Muelle de mercancías
+dock_long
+Muelle largo
+dock_long_2
+Muelle largo
+dock_long_pax
+Muelle de embarque de pasajeros largo
+dock_pax
+Muelle de embarque para pasajeros
 #_________________________________building - hq_________________________________
 #_________________________________building - hq_________________________________
 1headquarter
 Sede Central Pequeña
+1headquarter_10
+Sede central mediana
+1headquarter_11
+Sede central grande
+1headquarter_12
+Sede central extra grande
 #________________________________building - ind_________________________________
 #________________________________building - ind_________________________________
 ind_cl4_E3_01_12
@@ -62,8 +316,46 @@ ind_cl4_E5_01_12
 trastero
 #________________________________building - mon_________________________________
 #________________________________building - mon_________________________________
+mon_25years
+¡25 años de Simutrans!\n\n¡Feliz cumpleaños!
+mon_anno
+Monumento Anno 1602\n\nFue en el año 1602 cuando abandonamos los reinos familiares para buscar fortuna en la distancia, conscientes del riesgo casi incalculable que entrañaba una partida tan atrevida. A pesar de todos nuestros temores, el destino nos recompensó, después de un largo y arduo viaje, con un hermoso pedazo de tierra, del que pronto reclamamos la propiedad.\nSin embargo, el esfuerzo duro e implacable a expensas de todas nuestras fuerzas nos colocó en la afortunada posición de poder llamar nuestra a una economía floreciente y a una ciudad tranquila y animada en muy poco tiempo. La paz y la armonía adornaban nuestra majestuosa patria y formaban un oasis de descanso misericordioso y convivencia armoniosa.\nHasta el día en que las personas envidiosas hambrientas de poder se dieron cuenta de nuestra felicidad y prosperidad. Las batallas implacables grabaron indeleblemente la terrible mueca de la muerte en la faz de nuestra pequeña ciudad. \nFinalmente, cuando ya no quedaba nada por lo que luchar, forjamos nuevas alianzas y acuerdos comerciales que llevaron nuestros sueños y esperanzas a nuevas alturas. La paz y la prosperidad pronto regresaron.\nAhora que he envejecido, te presento, mi joven amigo, la copa de la integridad. Que hagas lo que yo hice para descubrir y colonizar nuevas tierras, como yo lo hice una vez en 1602.
+mon_at_at
+AT-AT\n\nEl Transporte Blindado Todo Terreno es un vehículo de combate de infantería mecanizado cuadrúpedo utilizado por las fuerzas terrestres imperiales. Con más de 20 metros de altura y blindaje impenetrable a las explosiones, estas construcciones masivas se utilizan, tanto por el efecto psicológico, como por la ventaja táctica. En este caso, sin embargo, es solo una estatua para celebrar el día de Star Wars. ¡Que la Fuerza les acompañe!
+mon_brose
+Monumento a Alexander Brose\n\nAlex. Brose es un artista de píxeles de clase mundial, que dejó su huella no solo en P192C. El monumento muestra a uno de los criadores de edificios, una máquina que convierte píxeles perdidos en magníficos rascacielos. Lamentablemente, solo el Sr. Brose puede operarlo.
+mon_coot
+Cornelius Coot\n\nLa estatua de gran tamaño fue fundada en 1952 para honrar al fundador de la ciudad, Cornelius Coot. Fue financiado por el habitante más rico, que pretendía vencer a la estatua ligeramente más pequeña del maharajá de Howdoyustan. El maíz colocado en un lugar destacado nos recuerda su importante papel en la victoria sobre los valientes españoles.\n El pato fue un malentendido. Al escultor Carl Barks y a su ayudante Don Rosa solo se les dijo que "mostraran a Coot disfrazado de pionero sosteniendo mazorcas de maíz", sin más instrucciones ni comentarios.
+mon_creeper
+Enredadera\n\nEsta estatua es hueca. Su interior sirve de hábitat a una criatura nocturna cuyos excrementos pueden utilizarse para fabricar pólvora y explosivos: los murciélagos.
+mon_cruzer
+Monumento a Cruzer\n\nUn monumento en honor a Cruzer, el creador y fundador del pak192.comic, sin el cual esto no sería posible.
+mon_cube
+Cubo de Rubik\n\nEsta monstruosidad mecánica está dedicada al famoso rompecabezas, así como a otros de su tipo, que tienden a estresar las capacidades mentales de jóvenes y mayores por igual. Casi nadie se da cuenta de cómo la escultura está haciendo trampa.
+mon_flemm
+Monumento a Flemmbrav\n\nEste monumento está dedicado a Flemmbrav, quien enriqueció Simuthania con muchas cosas, la mayoría de las cuales eran vehículos ferroviarios de todas las formas, tamaños y colores.\nRepresenta una verdadera obra maestra de la ingeniería flemmbraviana. Desafortunadamente, el control de velocidad está oxidado, por lo que se construyó una plataforma de contramovimiento para mantener esta 'BR 61', una locomotora del tren Henschel-Wegmann, en su lugar.
+mon_hand
+¡Todo se mueve!
+mon_incredible_cube
+El Cubo Increíble\n\nUn monumento en honor a los desarrolladores de Simutrans.
+mon_isaac
+Monumento a Isaac Eiland-Hall\n\nNo creemos en los rumores sobre lo que hizo Isaac Eiland-Hall en los años 90, y le pedimos que ignore cualquier declaración sobre cómo supuestamente usó sus poderes como dictador de una manera que no sea benévola.
+mon_leartin
+Monumento a Leartin\n\nLeartin es simplemente el mejor. Tiene las mejores ideas, pixela los edificios más bellos, ha introducido casi por sí solo las medias alturas y es indispensable para el desarrollo del Pakset. Además, es extremadamente modesto, y escribe la mayoría de los textos de construcción...
+mon_pokeball
+Orbe de colmillo monstruoso\n\nRéplica de un orbe de colmillo monstruoso utilizado por el legendario Colmillo de Ceniza en sus viajes. Algunos usuarios de sombreros de papel de aluminio incluso afirman que un monstruo está atrapado dentro de la bola. Los historiadores, por otro lado, se preguntan si no podría ser la criatura mítica "Voltobal" la que se ha recreado aquí.
 mon_ptm1
 Monumento a PappeTeeMaster\n\nMonumento en honor a PappeTeeMaster, el creador de muchos edificios y vehículos magníficos, sin el cual el pak192.comic hoy no sería tan genial.\n\n
+mon_rings
+Monumento al matrimonio\n\nEste monumento fue erigido para conmemorar un matrimonio. Desafortunadamente, alguien retiró la placa que contenía más información. Pero al menos los afectados lo saben.
+mon_tetris
+Monumento al Tetris\n\nNueve de cada diez voces en mi cabeza dicen que no estoy loco. El décimo tararea la melodía del Tetris.
+mon_tree
+Árbol de la selva\n\nCuando se plantó este árbol, la Autoridad de Mantenimiento de Jardines y Espacios Verdes de la ciudad no se dio cuenta de que era una especie protegida que podía crecer hasta una altura de varios cientos de metros. El crecimiento sigue siendo limitado, pero en unos pocos cientos de años este árbol podría incluso elevarse por encima de la LearTower.
+mon_werniman
+Monumento Nightly\n\nPara honrar a Wernieman por suministrar versiones diarias nocturnas de Simutrans.
+mon_zumaque_1
+Monumento Industrial\n\Aquí se encuentra la vieja bomba de petróleo de la compañía petrolera monopólica y más hambrienta de dinero de simutrans.
 #________________________________building - res_________________________________
 #________________________________building - res_________________________________
 res_cl3_E2_04_05
@@ -86,20 +378,224 @@ res_cl5_E3_13_05
 Bloque de Viviendas
 res_cl5_E6_04_07
 Apartamento rojo
+res_park_cl3_E0_03_09
+Parque infantil 
+res_park_cl3_E0_03_12
+Kiosko
+res_park_cl3_E0_03_15
+Bioma selvático
+res_park_cl3_E0_04_07
+Estanque
 #________________________________building - stop________________________________
 #________________________________building - stop________________________________
+apron
+Plataforma de estacionamiento con jet way
 apron2
-pista del hangar
+Plataforma de estacionamiento
+Bahnhof_Hochbahn_1
+Plataforma elevada (al aire libre)
+Bahnhof_Hochbahn_2
+Plataforma elevada (cubierta)
+Bahnhof_Hochbahn_3
+Plataforma elevada (cubierta)
+Bahnhof_Hochbahn_5
+Plataforma elevada moderna
+Bahnhof_Untergrundbahn_1863_1
+Andén de metro
+Bahnhof_Untergrundbahn_1863_2
+Andén de metro
+Bahnhof_Untergrundbahn_1902_1
+Andén de metro
+Bahnhof_Untergrundbahn_1902_2
+Andén de metro
+Bahnhof_Untergrundbahn_1912_1
+Andén de metro
+Bahnhof_Untergrundbahn_1928_1
+Andén de metro
+Bahnhof_Untergrundbahn_1962_1
+Andén de metro
+Bahnhof_Untergrundbahn_1962_3
+Andén de metro
+Bahnhof_Untergrundbahn_1978_1
+Andén de metro
+Bahnhof_Untergrundbahn_1978_2
+Andén de metro
+Bahnhof_Untergrundbahn_2012_1
+Andén de metro
+Bahnhof_Untergrundbahn_2012_2
+Andén de metro
+Bahnhof_Untergrundbahn_2012_3
+Andén de metro
+Bahnhof_Untergrundbahn_2012_4
+Andén de metro
+Bahnsteig_Halle_2000
+Andén
+freightstation_end_new
+Parada para mercancías - tramo final
+freightstation_end_old
+Parada para mercancías - tramo final
+freightstation_liquids
+Parada para mercancías liquidas
+freightstation_new
+Parada para mercancías - tramo de paso
+freightstation_old
+Parada para mercancías - tramo de paso
+maglev_station_pax_medium
+Plataforma maglev
+Narrowgauge_Station_Goods_1
+Plataforma de mercancías
+Narrowgauge_Station_Passenger_1
+Plataforma con marquesina
+Narrowgauge_Station_Passenger_Roof_1
+Plataforma cubierta I
+Narrowgauge_Station_Passenger_Roof_2
+Plataforma cubierta II
+Narrowgauge_Station_Passenger_Roof_3
+Plataforma cubierta III
+narrowgauge_station_passenger_roof_4
+Plataforma moderna
+Narrowgauge_Station_Passenger_Underground_1
+Andén de metro
+Narrowgauge_Station_Passenger_Underground_2
+Andén de metro
+NIXBAHNSTEIG
+Punto de parada invisible
+Parking_Facility_0
+Banco sin iluminación
+Parking_Facility_1
+Banco iluminado
+Parking_Facility_2
+Banco iluminado
 road_Busbahnhof
-Estacion de Autobuses
+Parada larga de autobús con marquesina de cristal
+road_busstop_long
+Parada de autobús doble
+road_busstop_long_modern
+Parada de autobús doble
+road_busstop1845medium
+Parada de autobús con marquesina y poste
+road_busstop1845medium_post
+Parada de autobús con marquesina, poste y buzón de correos
+road_busstop1845small
+Parada de autobús pequeña con poste
+road_busstop1845small_post
+Parada de autobús pequeña con poste y buzón de correos
+road_busstop1947medium
+Parada de autobús con marquesina y poste
+road_busstop1947medium_post
+Parada de autobús con marquesina, poste y buzón de correos
+road_busstop1947small
+Parada de autobús pequeña con poste
+road_busstop1947small_post
+Parada de autobús pequeña con poste y buzón de correos
+road_busstop2001medium
+Parada de autobús con poste y marquesina
+road_busstop2001medium_post
+Parada de autobús con poste, marquesina y buzón de correos
+road_busstop2001small
+Parada de autobús pequeña con poste
+road_busstop2001small_post
+Parada de autobús pequeña con poste y buzón de correos
 road_doppelstation_strab
-Parada de bus doble
+Parada de autobús doble
+road_ladezone_asphalt
+Zona de carga y descarga
+road_ladezone_cobble
+Zona de carga y descarga adoquinada
+road_letter_box_1845
+Buzón de correos
+road_letter_box_1947
+Buzón de correos
+road_letter_box_2001
+Buzón de correos
+road_roundroof
+Parada de autobús moderna
 sandbahnsteig
 Andén de tierra
+station_track_1850_station_hall
+Andén
+station_track_1850_station_hall_bright
+Andén
+station_track_1890_station_hall
+Sala de estación
+station_track_1890_station_hall_2F
+Sala de estación
+station_track_1890_station_hall_3C
+Sala de estación
+station_track_1890_station_hall_4B
+Sala de estación
+station_track_1890_station_hall_6F
+Sala de estación
+station_track_1890_station_hall_7C
+Sala de estación
+station_track_1890_station_hall_8B
+Sala de estación
+station_track_Bahnsteig_1835_1
+Andén
+station_track_Bahnsteig_1835_2
+Andén cubierto
+station_track_Bahnsteig_1890
+Andén cubierto
+station_track_Bahnsteig_1890_green
+Andén cubierto
+station_track_Bahnsteig_1900_1
+Andén cubierto
+station_track_Bahnsteig_1910_4
+Andén cubierto
+station_track_Bahnsteig_1950_1
+Andén moderno de hormigón
+station_track_Bahnsteig_1950_2
+Andén moderno de hormigón cubierto
+station_track_Bahnsteig_1975_1
+Andén moderno de hormigón cubierto
+station_track_Bahnsteig_2000_1
+Andén
+station_track_Bahnsteig_2000_2
+Andén cubierto
+station_track_Bahnsteig_2000_3
+Andén cubierto
+station_track_Bahnsteig_2000_5
+Andén
+station_track_Bahnsteig_Dach_1
+Andén cubierto
 track_station_good
-andén moderno de mercancías
+Andén moderno de mercancías
+water_station_Anleger_Beton
+Muelle de hormigón
+water_station_Anleger_City
+Muelle con marquesina
+water_station_Anleger_Holz
+Muelle de madera
+water_station_goods
+Muelle de mercancías
 #________________________________building - tow_________________________________
 #________________________________building - tow_________________________________
+tow_3_modern
+Ayuntamiento moderno
+tow_copper01
+Ayuntamiento renacentista
+tow_copper02
+Ayuntamiento renacentista
+tow_copper03
+Ayuntamiento renacentista
+tow_copper04
+Ayuntamiento renacentista
+tow_copper05
+Ayuntamiento renacentista
+tow_desert01
+Pirámide del Consejo
+tow_desert04
+Pirámide del Consejo
+tow_east01
+Ayuntamiento decimonónico
+tow_east02
+Ayuntamiento decimonónico
+tow_east03
+Ayuntamiento decimonónico
+tow_east04
+Ayuntamiento decimonónico
+tow_east05
+Ayuntamiento decimonónico
 tow_fw_01
 Ayuntamiento
 tow_fw_02
@@ -108,6 +604,26 @@ tow_ger_01
 Ayuntamiento mediaval
 tow_ger_02
 Ayuntamiento moderno
+tow_medi01
+Ayuntamiento medieval
+tow_medi02
+Ayuntamiento medieval
+tow_medi03
+Ayuntamiento medieval
+tow_medi04
+Ayuntamiento medieval
+tow_medi05
+Ayuntamiento medieval
+tow_tropic01
+Ayuntamiento oriental
+tow_tropic02
+Ayuntamiento oriental
+tow_tropic03
+Ayuntamiento oriental
+tow_tropic04
+Ayuntamiento oriental
+tow_tropic05
+Ayuntamiento oriental
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 citycar01
@@ -122,84 +638,1474 @@ citycar05
 CrZ Polo
 citycar06
 coche azul y blanco
+#_________________________________climates_text_________________________________
+#_________________________________climates_text_________________________________
+arctic
+Nórdico
+desert
+Desértico
+mediterran
+Mediterraneo
+rocky
+Alpino
+temperate
+Occidental
+tropic
+Tropical
+tundra
+Continental
+#___________________________________crossing____________________________________
+#___________________________________crossing____________________________________
+crossing_narrow_maritime
+Puente levadizo
+narrowgauge-road-crossing
+Paso a nivel
+narrowgauge-road-crossing_20_25
+Paso a nivel
+narrowgauge-road-crossing_20_40
+Paso a nivel
+narrowgauge-road-crossing_20_50
+Paso a nivel
+narrowgauge-road-crossing_20_70
+Paso a nivel
+narrowgauge-road-crossing_20_80
+Paso a nivel
+narrowgauge-road-crossing_50_25
+Paso a nivel
+narrowgauge-road-crossing_50_40
+Paso a nivel
+narrowgauge-road-crossing_50_50
+Paso a nivel
+narrowgauge-road-crossing_50_70
+Paso a nivel
+narrowgauge-road-crossing_50_80
+Paso a nivel
+narrowgauge-road-crossing_90_25
+Paso a nivel
+narrowgauge-road-crossing_90_40
+Paso a nivel
+narrowgauge-road-crossing_90_50
+Paso a nivel
+narrowgauge-road-crossing_90_80
+Paso a nivel
+narrowgauge-track-crossing
+Cruce a nivel
+narrowgauge-track-crossing_20_160
+Cruce a nivel
+narrowgauge-track-crossing_50_160
+Cruce a nivel
+narrowgauge-track-crossing_90_160
+Cruce a nivel
+track-road-crossing
+Paso a nivel
+#__________________________________error_text___________________________________
+#__________________________________error_text___________________________________
+Monorailhalt muss auf\nMonorail liegen!\n
+¡La parada del monorraíl debe estar sobre la vía!
+Narrowgaugehalt muss auf\nNarrowgauge liegen!\n
+¡La parada del ferrocarril debe estar sobre una vía!
+Zughalt muss auf\nSchiene liegen!\n
+¡El tren debe tener la parada sobre las vías!
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
+apiary
+Colmenas
+applefarm
+Plantación de manzanos
+factory_applefarm_details
+<title>Plantación de Manzanos</title>\n<p>Esta granja cosecha manzanas a finales del verano y en otoño. Las manzanas pueden almacenarse aqui durante meses antes de ser vendidas a los mercados locales o enviadas a las prensas de sidra cercanas.</p>
 Autofabrik
 Fábrica de coches
+factory_Autofabrik_details
+<title>Pequeña planta de ensamblaje de automoviles</title>\n<p>Aquí las piezas y partes prefabricadas de vehículos se ensamblan en automóviles. Los trabajadores están especialmente capacitados para realizar la misma tarea todo el día, todos los días.</p>
 Autoteilefabrik
-Fábrica de piezas de coche
+Fábrica de repuestos de vehículos
+factory_Autoteilefabrik_details
+<title>Pequeña fabrica de repuestos</title>\n<p>Esta fabrica recibe una variedad de metales para producir partes de vehículos que luego se enviaran y ensamblaran en automóviles. Cualquiera que sea el automóvil que conduzca, es probable que algunas partes se hayan fabricado aquí.</p>
+bakery_alpine
+Panadería grande
+bakery_easteur
+Panadería
 bakery_northsea
 Panadería
+factory_bakery_northsea_details
+<title>Panaderia</title>\n<p>El aprendiz aparecio recientemente en los medios de comunicacion. Participo en un espectáculo de supervivencia y asombro al publico con su camuflaje pintado. "Es como decorar un pastel", dijo.</p>
+beetfarm
+Plantación de remolacha azucarera
+beets_sugarmill
+Ingenio azucarero
 berry1_plantation
 Plantación de fresas
+factory_berry1_plantation_details
+<title>Huerta de fresas</title>\n<p>"Oh, la sensacion lujuriosa que es comer fresas, labios rojos besando la piel de fresa roja y..." </p><p>Parece que a la dueña le gustan mucho sus fresas.</p>
 berry2_plantation
 Plantación de grosellas
+biofuel_plant
+Planta de biocombustible
+blastfurnace
+Altos hornos
+factory_blastfurnace_details
+<title>Altos hornos</title>\n<p>El corazón del procesamiento del acero. Aquí se produce el acero más fino a partir de carbón, mineral de hierro y piedra caliza, que luego se pone a disposición para su posterior procesamiento en forma de lingotes o planchas de acero</p>
+bosna_stand
+Puesto de Bosna
+factory_bosna_stand_details
+<title>Puesto de Bosnad</title><p>Un bosna es un plato austriaco que se asemeja a un perrito caliente, que consiste principalmente en una salchicha Bratwurst, cebollas y una mezcla de salsa de tomate o mostaza y curry en polvo. La bosna se elabora con pan blanco y suele asarse a la parrilla brevemente antes de servirla.</p>
+brewery
+Cerveceria
+factory_brewery_details
+<title>Cerveceria</title>\n<p>El 23 de abril de 1516, los duques bavaros, Guillermo IV y Luis X, promulgaron una nueva ley que mantuvo su importancia a lo largo de los siglos. Se conocía como la "Reinheitsgebot" o "Ley de Pureza de la Cerveza Alemana" y era una parte central del arte alemán de elaborar cerveza, restringiendo los ingredientes a malta, lúpulo, levadura y agua.</p>
+bulbfactory
+Fábrica de bombillas
+factory_bulbfactory_details
+<title>Fábrica de bombillas</title>\n<p>Según la creencia popular, las bombillas podían iluminar por toda la eternidad, pero las corporaciones malvadas limitaron artificialmente su vida útil para vender regularmente reemplazos. Pero eso no es del todo cierto. Varios productores de bombillas acordaron una vida útil limitada de 1000 horas simplemente porque las bombillas que funcionan durante mas tiempo también necesitan exponencialmente mas energía. Una bombilla nueva de vez en cuando es mas barata que toda la electricidad extra para las bombillas eternas.</p>
+car_assembly
+Planta de ensamblaje de automóviles
+factory_car_assembly_details
+<title>Planta de ensamblaje de automóviles</title>\n<p>Aquí las piezas y partes prefabricadas de vehículos se ensamblan en automóviles. Los trabajadores están especialmente capacitados para realizar la misma tarea todo el día, todos los días.</p>
+car_parts_factory
+Fábrica de repuestos de coches
+factory_car_parts_factory_details
+<title>Fábrica de repuestos de coches</title>\n<p>Esta fabrica recibe una variedad de metales y plasticos para producir repuestos que luego se enviaran y ensamblaran en automoviles. Cualquiera que sea el automóvil que conduzca, es probable que algunas partes se hayan fabricado aquí.</p>
+carpet_weaver
+Tejedor de alfombras
+factory_carpet_weaver_details
+<title>Tejedor de alfombras</title><p>¡Entra y vuela con una alfombra nueva hoy!</p>
+carseller
+Concesionario de automóviles
+factory_carseller_details
+<title>Concesionariop</title>\n<p>Aquí, los vendedores que hablan sin problemas, intentan venderle un automóvil que no necesitas a un precio que preferirías no pagar. Aquí se venden muchos coches diferentes, incluidos sedanes, convertibles, camionetas y minivans.</p>
+cheese_import
+Importador de quesos
+cherryontop
+Pastelería
+ciderpress
+Prensa de sidra
+factory_ciderpress_details
+<title>Prensa de sidra</title>\n<p>Una prensa de sidra es donde las manzanas se muelen hasta convertirlas en pulpa y luego se prensan para convertirlas en jugo. Este jugo, al no estar filtrado ni endulzado, se conoce como sidra.</p>
+circuitboards_assembly
+Planta de ensamblaje de PCB
+factory_circuitboards_assembly_details
+<title>Planta de ensamblaje de PCB</title>\n<p>Históricamente, las placas de circuitos impresos (PCB) solían ser construidas por equipos de graduados en ingeniería electrónica mal pagados. Hoy en día, por supuesto, todos ellos han sido reemplazados por líneas de montaje automatizadas controladas por ordenador que fueron creadas por equipos de graduados en ingeniería electrónica mal pagados.</p>
+cleopatra
+Salón de belleza
+factory_cleopatra_details
+<title>Salón de belleza "Cleopatra"</title>\n<p>El salón de belleza "Cleopatra" se especializa en baños de leche y miel</p>
+cleopatra_desert
+Salón de belleza
+factory_cleopatra_desert_details
+<title>Salón de belleza "Cleopatra"</title>\n<p>El salón de belleza "Cleopatra" se especializa en baños de leche y miel</p>
+coalmine
+Mina de carbón
+factory_coalmine_details
+<title>Mina de carbon</title>\n<p>Oh, ¿tu psiquiatra no esta disponible para hablar sobre tu comportamiento compulsivo de Simutrans? Aquí hay un teléfono, mina de carbón.</p>
+coalmine_large
+Gran mina de carbón
+coca_plantation
+Plantación de coca
+factory_coca_plantation_details
+Masticar las hojas de coca es parte de la vida cotidiana de los trabajadores de los campos de coca. Se dice que tiene un efecto limpiador en los dientes gracias a las fibras.
+coka_factory
+Planta de embotellado de COKA
+factory_coka_factory_details
+<title>Planta de embotellado de COKA</title><p>Originalmente, la COKA estaba destinada a ser medicina. El nombre era un acrónimo de "Cocaine Omitting Kontraproductive Additives" (cocaína sin aditivo artificial). En otras palabras, cocaína pura. Pero incluso en ese entonces no era realmente puro, ya que lo cortaban con otro polvo blanco: azúcar. Comenzaron a hacer una fortuna una vez que la fórmula se diluyó aún más con agua.</p>
+comicbookstore
+Tienda de cómics
+computerproducer
+Fábrica de ordenadores
+coppermine
+Mina de cobre
+factory_coppermine_details
+Un soldado solitario de fortuna en busca de una veta de oro se encontró con cobre cerca de esta mina. Al principio pensó que se trataba de un hallazgo sin valor, pero su cuñado -abogado- le convenció de que según la Ley General de Minería de 1872, concretamente el apartado "Ley del Apex", el propietario de una veta de mineral es aquel por cuyo fondo discurre más cerca de la superficie. Poco tiempo después, ambos desaparecieron sin dejar rastro.
+cotton_plantation
+Plantación de algodón
+cows
+Explotación ganadera
+factory_cows_details
+¡Muu!
+currywurst_stand
+Puesto de currywurst
+factory_currywurst_stand_details
+<title>Puesto de currywurst</title><p>A Currywurst es un plato de comida rápida de origen alemán que consiste en salchicha de cerdo frita al vapor (en alemán: Bratwurst) típicamente cortada en trozos pequeños y sazonada con una salsa a base de salsa de tomate especiada o pasta de tomate, cubierta con curry en polvo. El plato a menudo se sirve con papas fritas.</p>
+dairy_factory
+Fábrica de productos lácteos
+diy1
+Tienda de bricolaje
+doctor
+Consultorio médico
+electronics_producer
+Fábrica de productos electrónicos
+fab
+Fábrica de circuitos integrados
+farmers_market
+Mercadillo de agricultores
+factory_farmers_market_details
+<title>Mercadillo de agricultores</title>\n<p>Aquí es donde los agricultores locales vienen a vender sus productos directamente a los consumidores. Los clientes encontraran una gran variedad de productos, como manzanas, carnes, leche y miel.</p>
+flaxfarm
+Plantación de lino
+factory_flaxfarm_details
+<title>Plantación de lino</title>\n<p>La gente a menudo decía que seria mejor usar cáñamo en lugar de lino, ya que es mas fuerte y existe la posibilidad de encontrar trabajadores de cosecha estacional que no necesitan pago.</p>
+furniture
+Fábrica de muebles
+garment_factory
+Taller de sastrería
+gasstation
+Gasolinera
+factory_gasstation_details
+<title>Gasolinera</title>\n<p>Si usáramos el ingles americano, este seria el lugar perfecto para un chiste de pedos.</p>
 gasstation_small
 Gasolinera Pequeña
+factory_gasstation_small_details
+<title>Pequeña gasolinera</title>\n<p>Esta pequeña gasolinera se ha librado de todas las crisis hasta ahora. El precio de la gasolina no ha subido desde 1999. Actualmente, el conductor obtiene un litro de gasolina por solo 1 ¢rédito</p>
+gelatti
+Heladería
+glassworks
+Cristalería
+factory_glassworks_details
+<title>Cristaleria</title><p>Esta fabrica se llama extraoficialmente "La Catedral de Cristal" debido a su forma inusual.</p>
 grainfarm_alpine
 Plantación de Trigo
+factory_grainfarm_alpine_details
+<title>Plantación de cereales</title>\n<p>El grano se puede utilizar para hacer el sabroso pan fluido, un alimento básico de la vida, conocido como cerveza.</p>
+grainfarm_easteur
+Plantación de cereales
+factory_grainfarm_easteur_details
+<title>Plantación de cereales</title>\n<p>Cuando el gato Mr. Minks no está deambulando por las calles, se sienta debajo del palomar y espera en vano una presa gorda</p>
+grainfarm_northsea
+Gran plantación de cereales
+grainmill
+Molino de grano
+graveyard_medi
+Cementerio
+factory_graveyard_medi_details
+<title>Cementerio</title><p>Un lugar para descansar en paz.</p>
+graveyard_north
+Cementerio
+factory_graveyard_north_details
+<title>Cementerio</title><p>Un lugar aterrador para descansar.</p>
+graveyard_spooky
+Cementerio escalofriante
+factory_graveyard_spooky_details
+<title>Cementerio escalofriante</title><p>Especialmente en fechas de Halloween, suceden cosas extrañas en este cementerio</p>
+hardware_producer
+Fábrica de productos para ferreterías
+factory_hardware_producer_details
+<title>Fabricante de productos para ferreterías</title>\n<p>La gama de productos del fabricante de piezas pequeñas incluye clavos, tornillos, pernos, tuercas, arandelas, anillos elásticos, remaches, chavetas, abrazaderas, tuercas de mariposa, ojales, ángulos, ganchos, resortes, bisagras, palomillas, abrazaderas, soportes, anillos, tensores, pestillos, roscas, boquillas de engrase, grifos, conos atornillados, casquillos, pasadores de chaveta, amortiguadores,...</p>
+hopfarm
+Plantación de lúpulo
+hospital
+Hospital
+factory_hospital_details
+<title>Hospital</title><p>Este hospital, a pesar del mal servicio y las largas colas, sigue siendo la institución más concurrida por pacientes de todas las edades.</p>
+hot_dog_stand
+Puesto de perritos calientes
+factory_hot_dog_stand_details
+<title>Puesto de perritos calientes</title><p>El hotdog es un sandwich de salchicha a la parrilla o al vapor en el que la salchicha (normalmente una salchicha o una salchicha de Frankfurt) se sirve en la hendidura de un panecillo parcialmente cortado. Los condimentos típicos incluyen mostaza, salsa de tomate y cebolla.</p>
+icefactory_big
+Fábrica de helados
 juicefactory1
-Fabrica de Zumo de Fresa
+Fábrica de jugos y bebidas
+justice
+Palacio de justicia
+kamehouse
+Casa Kame
+Kaufhaus
+Centro comercial
+factory_Kaufhaus_details
+<title>Centro comercial</title>/n<p>Un gran edificio que alberga muchas tiendas para casi cualquier cosa. En la entrada hay un letrero que dice "Las novias deben ir con correa". Es una broma, por supuesto, pero con tantas boutiques y tiendas de ropa, es la forma más segura de evitar que te bloqueen las tarjetas de crédito</p>
+Kohle_early_kraftwerk
+Central eléctrica de carbón
+Kohle_kraftwerk
+Central eléctrica de carbón
+factory_Kohle_kraftwerk_details
+<title>Central eléctrica de carbón</title>\n<p>El oro negro es el corazón de la noche, y mientras late, la tierra girara y la vida continuara.</p>
+leika1
+Tienda de muebles
+factory_leika1_details
+<title>Tienda de muebles</title>\n<p>-¿Es barato?\n -Es barato\n</p><p>-¿Es bueno?\n -Es barato</p>
+limestone_mine
+Mina de cal
+maltworks
+Fábrica de malta
+mill
+Molino de viento
+mint
+Banco central
+moneybin
+Cámara acorazada central
+moneyprint
+Fábrica de moneda y timbre
+factory_moneyprint_details
+<title>Fábrica de moneda y timbre</title>\n<p>Aquí es donde se imprime el dinero y otros documentos estatales.</p>
+oil_kraftwerk
+Central eléctrica de gasoil
+factory_oil_kraftwerk_details
+<title>Central eléctrica de gasoil</title>\n<p>Esta central eléctrica alimentada con gasóleo se alimenta de fueloil pesado, un residuo de la producción de gasolina, es decir, un reciclador de residuos. El fueloil pesado no puede ser utilizado como combustible por los motores normales, solo los grandes motores diesel, por ejemplo para la propulsión de barcos, son capaces de hacerlo. Pero, ¿cuándo se ha visto un vehículo repostando en Simutrans?</p>
+oilplatform
+Plataforma petrolífera
+factory_oilplatform_details
+<title>Plataforma petrolífera</title>\n<p>Dado que los recursos naturales de la Tierra desaparecieron hace mucho tiempo, esta plataforma se utiliza para atrapar gaviotas y procesarlas para convertirlas en petroleo biologico.</p>
+oilpump
+Estación de bombeo de petróleo
 oremine
-MINA DE MINERAL
+Mina a cielo abierto
+paintshop
+Taller de pintura
+paintworks
+Fábrica de pintura
+paperworks
+Fábrica de papel
+plastic_toy_factory
+Fábrica de Lego
+factory_plastic_toy_factory_details
+<title>Fábrica de Lego</title><p>No se pretendía infringir la marca registrada.</p>
+plastics_factory
+Fábrica de plástico
+factory_plastics_factory_details
+<title>Fábrica de plástico</title>\n<p>Este productor de plástico convierte las sustancias ligeras del petróleo en gránulos de plástico (pellets).</p>
+plusstore
+Tienda de Electrónica
+police
+Comisaria de policía
+police-new
+Comisaria de policía
+printer
+Imprenta
+prison
+Penitenciaría
+pub
+Bar
+factory_pub_details
+<title>Bar</title>\n<p>Esta es una casa donde se venden bebidas alcohólicas como cervezas y vinos, así como bebidas no alcohólicas como refrescos, café y sidras. Solo ten cuidado con los espíritus.</p>
+refinery_new
+Refinería
+rum_distillery
+Destilería de ron
+factory_rum_distillery_details
+<title>Destilería de ron</title>\n<p>Todos los empleados vienen a trabajar con dos patas, pero salen del trabajo a cuatro patas.</p>
+salt_mine
+Salina
+sandquarry
+Cantera de arena
+factory_sandquarry_details
+<title>Cantera de arena</title><p>¡Coge un cubo y diviértete!</p>
+sausagery
+Fábrica de embutidos
+factory_sausagery_details
+<title>Fábrica de embutidos</title>\n<p>Las carrilleras, los morros y las vísceras se preparan con hierbas y especias seleccionadas para fabricar un relleno único para nuestra increíble gama de comestibles semicomestibles que están disponibles en todos los principales puestos de carretera. ¡Disfrutar!</p>
+sawmill
+Serrería
+sheepranch
+Rancho de ovejas
 shop
-Tienda de Batidos y Granizados
+Supermercado lowcost
+factory_shop_details
+<title>Supermercado lowcost</title>\n<p>Esta cadena de supermercados familiar tiene mas de un millon de tiendas en todas las regiones. No hay lugar donde no encuentres uno y un gran lugar para encontrar marcas genéricas.</p>
 Slaughter
-Industria Alimentaria
+Industria alimentaria
+factory_Slaughter_details
+<title>Industria alimentaria</title>\n<p>Toda la matanza de ganado se volvió mucho mas divertida cuando la S se cayo del edificio.</p>
 small_shop
-Tienda de Frutos Secos
+Tienda
+Solar_kraftwerk
+Planta de energía solar
+factory_Solar_kraftwerk_details
+<title>Planta de energia solar</title>\n<p>El sol no se puede entregar, ni en trenes ni en camiones. Por lo tanto, lo único interesante de esta central eléctrica es la energía que produce.</p>
+solvent_solutions
+Fábrica de disolventes
+factory_solvent_solutions_details
+<title>Fábrica de disolventes</title>\n<p>¿Necesita un disolvente? ¡Tenemos la solucion! ¿Necesita una solucion? ¡Nosotros tambien los tenemos!</p>
+squid
+Calamar gigante
+factory_squid_details
+<title>Calamar gigante</title><p>¡Aquí viene el Sr. Kraken!</p>
 Stahlwalzwerk
-Fabrica de Acero Laminado
+Fábrica de Acero Laminado
+factory_Stahlwalzwerk_details
+<title>Fábrica de Acero Laminado</title>\n<p>Algunos episodios de "Humor Amarillo" se filmaron en los rodillos del tren de laminación de acero.</p>
+steelmill
+Fábrica de Acero Laminado
+factory_steelmill_details
+<title>Fábrica de Acero Laminado</title>\n<p>Algunos episodios de "Humor Amarillo" se filmaron en los rodillos del tren de laminación de acero.</p>
+sugarcane_plantation
+Plantación de caña de azúcar
+factory_sugarcane_plantation_details
+<title>Plantación de caña de azúcar</title><p>Durante siglos, esta plantación ha sido cultivada por los O'Hara. O mejor dicho... este... "empleados" de la familia, que viven en chozas en los campos.</p>
+sugarmill
+Ingenio Azucarero
+textiles_factory
+Fábrica Textil
+factory_textiles_factory_details
+<title>Fábrica Textil</title>\n<p>Sin esta fábrica, todo el mundo se vería obligado a andar desnudo o a llevar comida encima.</p>
+textiles_factory_old
+Fábrica Textil
+factory_textiles_factory_old_details
+<title>Fábrica Textil</title>\n<p>Sin esta fábrica, todo el mundo se veria obligado a andar desnudo o a llevar comida encima.</p>
+tin_toy_factory
+Fábrica de juguetes
+factory_tin_toy_factory_details
+<title>Fábrica de juguetes</title>\n<p>Esta fábrica crea juguetes de hojalata de muy buena calidad. Duran generaciones.</p>
+toystore
+Juguetería
+factory_toystore_details
+<title>Juguetería</title><p>Me'S'Toys es un paraíso para los niños. Las estanterías están repletas de bloques de construcción, coches de juguete, muñecas y ositos de peluche.</p>
+vineyard
+Viñedo
+Windkraftwerk
+Aerogenerador
+wiredrawer
+Fábrica de cables
+woodcutter_alpine
+Leñador
+woodcutter_east
+Leñador
+woodcutter_medi
+Leñador
+woodcutter_west
+Leñador
+yarnmill
+Fábrica de bobinas de hilo
+#_____________________________________field_____________________________________
+#_____________________________________field_____________________________________
+apple_field_0
+Manzanos
+apple_field_1
+Manzanos
+apple_field_2
+Manzanos
+apple_field_3
+Manzanos
+beet_field
+Huerto arado
+berry_fields_0
+Huerto de bayas
+berry_fields_1
+Huerto de bayas
+berry1_plantation_field
+Huerto vallado
+biofuel_fields_0
+Unidad de refrigeración
+biofuel_fields_1
+Unidad de procesos químicos
+biofuel_fields_2
+Tanque de almacenamiento
+biofuel_fields_3
+Central de procesamiento
+chip_field_0
+Pistas de cobre
+chip_field_1
+Pistas de cobre
+chip_field_2
+Resistencia
+chip_field_3
+Conjunto de resistencias
+chip_field_4
+Circuito integrado
+chip_field_5
+Circuito integrado
+chip_field_6
+Circuito integrado
+chip_field_7
+Circuito integrado
+chip_field_8
+Condensador
+coca_field_0
+Arbustos de coca
+coca_field_1
+Arbustos de coca
+coca_field_2
+Arbustos de coca
+cotton_field_0
+Campo de algodón
+flaxfield_0
+Campo de lino
+flaxfield_1
+Campo de lino
+flaxfield_2
+Campo de lino
+forest_0
+Bosque comercial
+forest_1
+Bosque comercial
+forest_10
+Bosque comercial
+forest_11
+Bosque comercial
+forest_12
+Bosque comercial
+forest_13
+Bosque comercial
+forest_14
+Bosque comercial
+forest_15
+Bosque comercial
+forest_2
+Bosque comercial
+forest_3
+Bosque comercial
+forest_4
+Bosque comercial
+forest_5
+Bosque comercial
+forest_6
+Bosque comercial
+forest_7
+Bosque comercial
+forest_8
+Bosque comercial
+forest_9
+Bosque comercial
+grainfield
+Campo de cereales
+hopfield
+Parras de lúpulo
+petro_fields_0
+Unidad de refrigeración
+petro_fields_1
+Tanque de almacenamiento
+petro_fields_2
+Unidad de procesos químicos
+petro_fields_3
+Central de procesamiento
+sugarcane_field_0
+Cañas de azúcar
+sugarcane_field_1
+Cañas de azúcar
+sugarcane_field_2
+Cañas de azúcar
+sugarcane_field_3
+Cabañas de trabajadores de la caña de azúcar
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
+apples
+manzanas
 beer
 cerveza
+beets
+remolachas
+berries
+bayas
+billet
+billete
+boards
+tablas y tablones de madera
+car_parts
+repuestos
+carpet
+alfombra
+cars
+automóviles
+cattle
+ganado
+cement
+cemento
+cheese
+queso
 chemicals
 productos químicos
+circuit_boards
+placas de circuito impreso
+coal
+carbón
+coca_leaves
+hojas de coca
+coins
+monedas
+coka_drink
+bebida de cola
+convicts
+convictos
 copper
 cobre
 dairy
 Industria Lactea
+deceased
+fallecidos
+electronics
+productos electrónicos
+fabric
+tela
+fiber
+fibra
+flour
+harina
 fuel
 combustible
+garments
+prendas de vestir
+glass
+vidrio
+gold
+oro
 grain
 cereal
+gravel
+grava
+heavy_oil
+crudo
 honey
-miel
+miel de abeja
+hop
+lúpulo
 icecream
 helado
+ingot
+lingote
 ink
 tinta
+ironmongery
+artículos de ferretería
+juice
+zumo
+lightbulbs
+bombillas
+limestone
+piedra caliza
+logs
+troncos
+malt
+malta
 meat
 carne
+microchips
+circuitos impresos
+milk
+leche
+naphtha
+nafta
 None
 Ninguno
+notes
+billetes
+oil
+petróleo
+ore
+mineral
+paint
+pintura
+paper
+papel
 Passagiere
-Pasajero
+pasajero
+patients
+pacientes
+plastics
+plásticos
 Post
 Correo
+rum
+ron
+salt
+sal
 sand
 arena
+sausages
+salchichas
+sheetmetal
+chapa
 solvent
 disolvente
+steel
+acero
 sugar
 azucar
+sugarcane
+caña de azucar
+suspects
+sospechosos
 toys
 juguetes
 vine
-Vino
+vino
+wax
+cera
+yarn
+hilo
+#____________________________________ground_____________________________________
+#____________________________________ground_____________________________________
+Basement
+Cimiento
+Borders
+Bordes
+ClimateTexture
+Textura del clima
+Fence
+Valla
+LightTexture
+Textura ligera
+Marker
+Marcador
+Outside
+Exterior
+ShoreTrans
+Orilla
+Slopes
+Pendientes
+SlopeTrans
+Pendiente suavizada
+Water
+Agua
+#__________________________________ground_obj___________________________________
+#__________________________________ground_obj___________________________________
+deer
+Corzo\n\nEste ciervo deambula principalmente por regiones montañosas. A veces, cuando entra en una ciudad, es posible que no vuelva a encontrar una salida y necesite ser sacrificado.\n\n
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+ABRISSTOOLS
+Herramientas para demolición de trazados
+AIRTOOLS
+Herramientas de aviones
+BUILDINGS
+Herramientas de extensión de estaciones
+EDITTOOLS
+Herramientas de Edición de Mapa
+LISTTOOLS
+Listas
+MAGLEVTOOLS
+Herramientas de Maglev
+NARROWGAUGETOOLS
+Herramientas de Trenes de Vía Estrecha
+RAILTOOLS
+Herramientas de Trenes
+ROADTOOLS
+Herramientas de Calles y Carreteras
+SCHWEBEBAHN
+Ferrocarril suspendido
+SHIPTOOLS
+Herramientas de Barcos
+SLOPETOOLS
+Herramientas de Terreno
+SLOPETOOLSEXTRA
+Herramientas avanzadas de terreno
+SPECIALTOOLS
+Herramientas Especiales de Construcción
+TRAMTOOLS
+Herramientas de Tranvía
+VIEW
+Vista
+#_________________________________message_text__________________________________
+#_________________________________message_text__________________________________
+batch
+ Lotes
+chests
+ Cajas
+m3
+ m³
+pallets
+ Palets
+stk
+ Piezas
+suitcases
+ Maletas
+tons
+ Toneladas
+#_____________________________________misc______________________________________
+#_____________________________________misc______________________________________
+bags
+Bolsas
+Construction
+Obras
+PowerDest
+Colector de energía
+PowerSource
+Fuente de energía
+Sidewalk
+Acera
+TunnelTexture
+Textura de túnel
 #__________________________________pedestrian___________________________________
 #__________________________________pedestrian___________________________________
+catestrian
+Gato
+E3m_kid_1
+Niño
+E3m_kid_10
+Niño
+E3m_kid_11
+Niño
+E3m_kid_12
+Niño
+E3m_kid_13
+Niño
+E3m_kid_14
+Niño
+E3m_kid_15
+Niño
+E3m_kid_16
+Niño
+E3m_kid_2
+Niño
+E3m_kid_3
+Niño
+E3m_kid_4
+Niño
+E3m_kid_5
+Niño
+E3m_kid_6
+Niño
+E3m_kid_7
+Niño
+E3m_kid_8
+Niño
+E3m_kid_9
+Niño
+ped_asterix
+Asterix
+ped_astroboy
+Astroboy
+ped_batman
+Batman
+ped_bb8
+Androide BB8
+ped_E0police1
+Policía
+ped_E0police2
+Policía
+ped_E1f_black
+Señora
+ped_E1f_blue
+Señora
+ped_E1f_green
+Señora
+ped_E1f_purple
+Señora
+ped_E1f_yellow
+Señora
+ped_E1m_black_bowler
+Caballero
+ped_E1m_black_top
+Caballero
+ped_E1m_brown_bowler
+Caballero
+ped_E1m_brown_top
+Caballero
+ped_E1m_gray_bowler
+Caballero
+ped_E1m_gray_top
+Caballero
+ped_E2f_01
+Esposa
+ped_E2f_02
+Esposa
+ped_E2f_03
+Esposa
+ped_E2f_04
+Esposa
+ped_E2f_05
+Esposa
+ped_E3m_old1
+Anciano
+ped_E3m_old2
+Anciano
+ped_E3m_old3
+Anciano
+ped_E3m_old4
+Anciano
+ped_E3m_rand1
+Anciano
+ped_E3m_rand2
+Anciano
+ped_E3m_rand3
+Anciano
+ped_E3m_rand4
+Anciano
+ped_E3m_rand5
+Anciano
+ped_E3m_rand6
+Anciano
+ped_E3m_rand7
+Anciano
+ped_E3m_rand8
+Anciano
+ped_E3police1
+Policía
+ped_E3police2
+Policía
+ped_E4f_blackred
+Esposa
+ped_E4f_blondepink
+Esposa
+ped_E4f_brunettegreen
+Esposa
+ped_E4f_greygray
+Esposa
+ped_E5police1
+Policía
+ped_E5police2
+Policía
+ped_fake_jesus
+Jesús (o algo así)
+ped_goku
+Son Goku
+ped_gru
+Gru
+ped_jesus
+Jesús (o algo así)
+ped_joker
+Joker
+ped_link
+Link
+ped_luckyluke
+Lucky Luke
+ped_luffy
+Luffy «Sombrero de Paja»
+ped_mickey
+Mickey
+ped_nobita
+Nobita
+ped_superman
+Superman
+ped_tintin
+Tintín
 pedestrian_1
 Max Mustermann
+pedestrian_10
+Peatón
+pedestrian_11
+Peatón
+pedestrian_12
+Peatón
+pedestrian_13
+Peatón
+pedestrian_14
+Peatón
+pedestrian_15
+Peatón
+pedestrian_16
+Peatón
 pedestrian_2
 Fulanito de Tal
+pedestrian_3
+Peatón
+pedestrian_4
+Peatón
+pedestrian_5
+Peatón
+pedestrian_6
+Peatón
+pedestrian_7
+Peatón
+pedestrian_8
+Peatón
+pedestrian_9
+Peatón
+pedestrian_kid_1
+Niño
+pedestrian_kid_10
+Niño
+pedestrian_kid_11
+Niño
+pedestrian_kid_12
+Niño
+pedestrian_kid_13
+Niño
+pedestrian_kid_14
+Niño
+pedestrian_kid_15
+Niño
+pedestrian_kid_16
+Niño
+pedestrian_kid_2
+Niño
+pedestrian_kid_3
+Niño
+pedestrian_kid_4
+Niño
+pedestrian_kid_5
+Niño
+pedestrian_kid_6
+Niño
+pedestrian_kid_7
+Niño
+pedestrian_kid_8
+Niño
+pedestrian_kid_9
+Niño
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
+CATEGORY_01
+mercancías empaquetadas
+CATEGORY_02
+a granel
+CATEGORY_03
+petróleo
+CATEGORY_04
+productos congelados
+CATEGORY_05
+presos
+CATEGORY_06
+madera
+CATEGORY_07
+producto vertible
+CATEGORY_08
+objetos de valor
+CATEGORY_09
+mercancía ligera
+CATEGORY_10
+productos en rollo
+CATEGORY_11
+contenedor
+Narrowgauge
+Ancho estándar
+narrowgauge vehicle
+Tren
 narrowgauge_track
-Vía estrecha 50 km/h
+Vía estrecha con traviesas de madera
+Narrowgaugedepot
+Depósito de ancho estándar
+remove monorails
+Eliminar monorraíles
+remove narrowgauge tracks
+Eliminar vías de ancho estándar
+remove tracks
+Eliminar vías de ancho estrecho
+sack
+Saco
+Speedbonus\nroad %i km/h, rail %i km/h\nships %i km/h, planes %i km/h.
+Bonus de velocidad\ncarretera %i km/h, ferrocarril %i km/h\nembarcaciones %i km/h, aviones %i km/h.
 track
 vía
+Train
+Tren
+tram %i km/h, monorail %i km/h\nmaglev %i km/h, narrowgauge %i km/h.
+tranvía %i km/h, monorraíl %i km/h\nmaglev %i km/h, vía ancho estándar %i km/h.
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+New world record for maglevs: %.1f km/h by %s.
+Nuevo récord mundial de maglevs: %.1f km/h por %s.
+New world record for monorails: %.1f km/h by %s.
+Nuevo récord mundial de monorraíles: %.1f km/h por %s. 
+New world record for motorcars: %.1f km/h by %s.
+Nuevo récord mundial para automóviles: %.1f km/h por %s.
+New world record for narrowgauges: %.1f km/h by %s.
+Nuevo récord mundial de velocidad: %.1f km/h por %s.
+New world record for planes: %.1f km/h by %s.
+Nuevo récord mundial para aviones: %.1f km/h por %s.
+New world record for railways: %.1f km/h by %s.
+Nuevo récord mundial para ferrocarriles de vía estrecha: %.1f km/h por %s.
+New world record for ship: %.1f km/h by %s.
+Nuevo récord mundial para un buques: %.1f km/h por %s.
+#________________________________roadsign - air_________________________________
+#________________________________roadsign - air_________________________________
+air_private_modern
+Zona privada del aeropuerto
+singleway_air
+Restricción direccional
+#____________________________roadsign - maglev_track____________________________
+#____________________________roadsign - maglev_track____________________________
+maglev_chooseway
+Señal de elección de plataforma
+maglev_signal
+Señal de bloqueo
+#_________________________roadsign - narrowgauge_track__________________________
+#_________________________roadsign - narrowgauge_track__________________________
+bridge_free_sbb_l
+Señal de selección de plataforma para puentes de señal tipo SBB L 
+bridge_free_sbb_n
+Señal de selección de plataforma para puentes de señal tipo SBB N
+bridge_long_sbb_l
+Señal de bloqueo largo para puentes de señal tipo SBB L
+bridge_pre_sbb_l
+Pre-señal de dos bloques para puentes de señal tipo SBB L
+bridge_pre_sbb_n
+Pre-señal de dos bloques para puentes de señal tipo SBB N
+bridge_prioritysignal_block_sbb_n
+Señal de prioridad para puentes de señal tipo SBB N
+bridge_prioritysignal_kb_sbb_l
+Señal de prioridad para puentes de señal tipo SBB L
+bridge_prioritysignal_kev_sbb_l
+Señal de prioridad para puentes de señal tipo SBB L
+bridge_prioritysignal_sbb_l
+Señal de prioridad para puentes de señal tipo SBB L
+bridge_prioritysignal_sbb_n
+Señal de prioridad para puentes de señal tipo SBB N
+bridge_sbb_l
+Señal para puentes de señal tipo SBB L
+bridge_sbb_n
+Señal para puentes de señal tipo SBB N
+ETCS_Haltsignal
+Señal tipo ETCS
+freesignal_nor
+Señal de elección de plataforma
+freesignal_sbb_l
+Señal de elección de plataforma tipo SBB L
+freesignal_sbb_n
+Señal de elección de plataforma tipo SBB N
+Hauptsignal mit Vorsignal OBB
+Señal principal con indicador de avance tipo ÖBB
+Hauptsignal_OBB
+Señal principal tipo ÖBB
+longblock_signal_sbb_l
+Señal de bloqueo largo tipo SBB L
+Mindestgeschwindigkeits Signal 130
+Velocidad mínima: 130 km/h
+Mindestgeschwindigkeits Signal 141
+Velocidad mínima: 140 km/h
+Mindestgeschwindigkeits Signal 260
+Velocidad mínima: 260 km/h
+presignal
+Pre-Señal
+presignal_hv
+Pre-señal de dos bloquea tipo HV
+presignal_ks
+Pre-señal de dos bloques tipo ks
+presignal_nor
+Pre-señal de dos bloquea
+presignal_old
+Pre-Señal
+presignal_sbb_l
+Pre-señal Tipo SBB L
+presignal_sbb_n
+Pre-señal de dos bloques tipo SBB N
+prioritysignal_block_sbb_n
+Señal de prioridad tipo SBB N
+prioritysignal_kb_sbb_l
+Señal de prioridad tipo SBB L
+prioritysignal_kev_sbb_l
+Señal de prioridad tipo SBB L
+prioritysignal_ks
+Señal de prioridad tipo ks
+prioritysignal_nor
+Señal de prioridad
+prioritysignal_sbb_l_2
+Señal de prioridad tipo SBB L
+prioritysignal_sbb_n
+Señal de prioridad tipo SBB N
+signal
+Señal de bloqueo
+signal UK
+Señal UK
+signal_block_sbb_n
+Señal tipo SBB N
+signal_form
+Señal de bloqueo
+signal_ks
+Señal tipo ks
+signal_long
+Señal de bloqueo largo
+signal_long_form
+Señal de bloqueo largo
+signal_nor
+Señal
+signal_sbb_l
+Señal tipo SBB L
+signal_sbb_mini
+Señal tipo SBB (mini)
+signal_sbb_n
+Señal tipo SBB N
+signal_sbb_old
+Señal tipo SBB (antigua)
+signal_sbb_zwerg_1
+Señal tipo SBB (mini)
+signal_sbb_zwerg_2
+Señal tipo SBB (mini)
+signal_way
+Señal de elección de plataforma
+signal_way_end
+Fin de elección de plataforma
+signal_way_end_form
+Fin de elección de plataforma
+signal_way_form
+Señal de elección de plataforma
+track_one_way
+Restricción direccional
+track_presignal
+Señal de dos bloques
+track_presignal_form
+Señal de dos bloques
+track_presignal_light
+Señal de dos bloques luminosa
+track_private_modern
+Restricción de entrada
+track_sigcatenary_down_new
+Instrucción del pantógrafo (no funcional)
+track_sigcatenary_down_old
+Instrucción del pantógrafo (no funcional)
+track_sigcatenary_off_new
+Instrucción del pantógrafo (no funcional)
+track_sigcatenary_off_old
+Instrucción del pantógrafo (no funcional)
+track_sigcatenary_on_new
+Instrucción del pantógrafo (no funcional)
+track_sigcatenary_on_old
+Instrucción del pantógrafo (no funcional)
+track_sigcatenary_up_new
+Instrucción del pantógrafo (no funcional)
+track_sigcatenary_up_old
+Instrucción del pantógrafo (no funcional)
+track_sigchoose
+Señal de elección de plataforma
+track_sigchoose_etcs
+Señal de selección de plataforma tipo ETCS
+track_sigchoose_form
+Señal de elección de plataforma
+track_sigchoose_light
+Señal de elección de plataforma luminosa
+track_sigchoose_sbb
+Señal de selección de plataforma tipo SBB L
+track_sigchooseend
+Señal de fin de selección de plataforma
+track_sigchooseend_form
+Señal de fin de selección de plataforma
+track_sigchooseend_light
+Señal de fin de selección de plataforma luminosa
+track_siglong
+Señal de bloqueo largo
+track_siglong_form
+Señal de bloqueo largo
+track_siglong_light
+Señal de bloqueo largo luminosa
+track_signal
+Señal
+track_signal_box
+Enclavamiento (no funcional)
+track_signal_etcs
+Señal tipo ETCS
+track_signal_form
+Señal
+track_signal_light
+Señal luminosa
+track_signal_sbb
+Señal tipo SBB L
+track_sigpriority
+Señal de prioridad
+track_sigpriority_form
+Señal de prioridad
+track_sigpriority_light
+Señal de prioridad luminosa
+track_sigprivate
+Restricción de entrada
+track_sigsingle
+Restricción direccional
+track_sigspeed_070
+Velocidad mínima: 70 km/h
+track_sigspeed_100
+Velocidad mínima: 100 km/h
+track_sigspeed_120
+Velocidad mínima: 120 km/h
+track_sigspeed_130
+Velocidad mínima: 130 km/h
+track_sigspeed_140
+Velocidad mínima: 140 km/h
+track_sigspeed_170
+Velocidad mínima: 170 km/h
+track_sigspeed_230
+Velocidad mínima: 230 km/h
+track_sigspeed_260
+Velocidad mínima: 260 km/h
+Vorsignal
+Pre-señal de dosbloques
+Vorsignal OBB
+Pre-señal de dos bloques tipo ÖBB
+#________________________________roadsign - road________________________________
+#________________________________roadsign - road________________________________
+road_auswahl1
+Cartel indicador de elección de camino
+road_auswahl2
+Señal de elección de plataforma
+road_min-speed-80
+Velocidad mínima: 80 km/h
+road_private
+Señal de tráfico privado
+road_singleway
+Señal de dirección prohibida
+road_sperre
+Barrera vial
+traffic_light
+Semáforo
+#_______________________________roadsign - track________________________________
+#_______________________________roadsign - track________________________________
+freesignal_sbb_l_ng
+Señal de elección de plataforma tipo SBB L
+longblock_signal_sbb_l_ng
+Señal de bloqueo largo
+narrowgauge_signal_box
+Enclavamiento (no funcional)
+ng_presignal
+Pre-señal de dos bloques
+ng_presignal_form
+Pre-señal de dos bloques
+ng_presignal_jp
+Pre-señal de dos bloques
+ng_presignal_light
+Pre-señal de dos bloques luminosa
+ng_sigchoose
+Señal de elección de plataforma
+ng_sigchoose_form
+Señal de elección de plataforma
+ng_sigchoose_jp
+Señal de elección de plataforma
+ng_sigchoose_light
+Señal de elección de plataforma luminosa
+ng_sigchooseend
+Señal de fin de selección de plataforma
+ng_sigchooseend_form
+Señal de fin de selección de plataforma
+ng_sigchooseend_light
+Señal de fin de selección de plataforma
+ng_siglong
+Señal de bloqueo largo
+ng_siglong_form
+Señal de bloqueo largo
+ng_siglong_jp
+Señal de bloqueo largo
+ng_siglong_light
+Señal de bloqueo largo
+ng_signal
+Señal
+ng_signal_form
+Señal
+ng_signal_jp
+Señal de dos bloques
+ng_signal_light
+Señal luminosa
+ng_sigpriority
+Señal de prioridad
+ng_sigpriority_form
+Señal de prioridad
+ng_sigpriority_jp
+Señal de prioridad
+ng_sigpriority_light
+Señal de prioridad luminosa
+ng_sigprivate
+Restricción de entrada
+ng_sigsingle
+Restricción direccional
+ng_sigsingle2
+Restricción direccional
+ng_sigspeed_40
+Velocidad mínima: 40 km/h
+ng_sigspeed_70
+Velocidad mínima: 70 km/h
+presignal_ng
+Pre-señal de dos bloques luminosa
+presignal_old_ng
+Pre-señal de dos bloques
+presignal_sbb_l_ng
+Pre-señal de dos bloques tipo SBB L
+prioritysignal_sbb_l_ng
+Señal de prioridad tipo SBB L
+signal_form_ng
+Señal
+signal_long_form_ng
+Señal de bloqueo largo
+signal_long_ng
+Señal de bloqueo largo luminosa
+signal_ng
+Señal luminosa
+signal_sbb_l_ng
+Señal tipo SBB L
+signal_way_end_form_ng
+Fin de elección de plataforma
+signal_way_end_ng
+Fin de elección de plataforma
+signal_way_form_ng
+Señal de elección de plataforma
+signal_way_ng
+Señal de elección de plataforma luminosa
+track_one_way_ng
+Restricción direccional
+track_private_modern_ng
+Restricción de entrada
+tram_presignal
+Pre-señal de dos bloques
+tram_sigchoose
+Señal de elección de plataforma
+tram_sigchooseend
+Fin de elección de plataforma
+tram_siglong
+Señal de bloqueo largo
+tram_signal
+Señal
+tram_sigpriority
+Señal de prioridad
+vmin_sing_ng_1
+Velocidad mínima: 40 km/h
+vmin_sing_ng_2
+Velocidad mínima: 70 km/h
+#_____________________________________smoke_____________________________________
+#_____________________________________smoke_____________________________________
+diesel
+Humo de gasoil
+flame
+Llama
+Industry_Smoke
+Humo industrial
+smoke_diesel_medium_long
+Humo de gasoil
+smoke_diesel_medium_short
+Humo de gasoil
+smoke_diesel_thick_long
+Humo de gasoil
+smoke_diesel_thick_short
+Humo de gasoil
+smoke_diesel_thin_long
+Humo de gasoil
+smoke_diesel_thin_short
+Humo de gasoil
+smoke_hydro
+Vapor de agua
+smoke_steam_1_medium
+Vapor de agua
+smoke_steam_1_thick
+Vapor de agua
+smoke_steam_1_thin
+Vapor de agua
+smoke_steam_2_medium
+Vapor de agua
+smoke_steam_2_thick
+Vapor de agua
+smoke_steam_2_thin
+Vapor de agua
+smoke_steam_3_medium
+Vapor de agua
+smoke_steam_3_thick
+Vapor de agua
+smoke_steam_3_thin
+Vapor de agua
+smoke_steam_4_medium
+Vapor de agua
+smoke_steam_4_thick
+Vapor de agua
+smoke_steam_4_thin
+Vapor de agua
+smoke_steam_medium
+Vapor de agua
+smoke_steam_thick
+Vapor de agua
+smoke_steam_thin
+Vapor de agua
+Steam
+Vapor
+Steam3
+Humo
+Steam3thin
+Vapor de agua
+#__________________________tunnel - narrowgauge_track___________________________
+#__________________________tunnel - narrowgauge_track___________________________
+trackTunnel_1
+Túnel ferroviario
+tunnel-track_100
+Túnel de Metro
+tunnel-track_260
+Túnel ferroviario de alta velocidad
+tunnel-track_infty
+Túnel ferroviario de alta velocidad
+#________________________________tunnel - power_________________________________
+#________________________________tunnel - power_________________________________
+electro_tunnel
+Tendido eléctrico subterráneo
+#_________________________________tunnel - road_________________________________
+#_________________________________tunnel - road_________________________________
+tunnel_road_100
+Túnel de autopista
+tunnel_road_50
+Túnel de carretera
+#________________________________tunnel - track_________________________________
+#________________________________tunnel - track_________________________________
+NarrowgaugeTunnel_0
+Túnel de vía estrecha
+NarrowgaugeTunnel_1
+Túnel de vía estrecha
 #____________________________vehicle - maglev_track_____________________________
 #____________________________vehicle - maglev_track_____________________________
 SNL_Transrapid_00
@@ -354,31 +2260,409 @@ SCB_266
 SimuCar SCB-266
 SCB_287
 SimuCar SCB-287\n\n
+#________________________________vehicle - water________________________________
+#________________________________vehicle - water________________________________
+alsterdampfer_1890
+Vapor de pasajeros Alster 1890
+alsterdampfer_1940
+Vapor de pasajeros Alster 1940
+alsterdampfer_1990
+Vapor de pasajeros Alster 1990
+Kanalschiff-Category-01
+Barcaza de carga
+Kanalschiff-Category-02
+Barcaza de carga a granel
+Kanalschiff-Category-07
+Barcaza vertedera
+Kanalschiff-Post
+Barcaza postal
+MS_Bergen
+Mercante
+MS_Stavangar
+Mercante portacontenedores
+PTM_Kanal_Category-01
+Barcaza
+PTM_Leichter_Category-01
+Gabarra
+PTM_Leichter_Category-02
+Gabarra
+PTM_Leichter_Category-07
+Gabarra
+PTM_Schubschiff_01
+Remolcador de gabarras
+RMS_BlackDragon
+Petrolero
+RMS_IronDragon
+Granelero
+scow_ferry
+Velero
+scow_mail
+Velero postal
+#___________________________________way - air___________________________________
+#___________________________________way - air___________________________________
+rw_marked
+Pista
+rw_plate
+Pista
+tw_dirt
+Calle de rodaje sin pavimentar
+tw_marked
+Calle de rodaje señalizada
+tw_unmarked
+Calle de rodaje no señalizada
+#______________________________way - maglev_track_______________________________
+#______________________________way - maglev_track_______________________________
+maglev_high
+Vía de maglev
+#_____________________________way - monorail_track______________________________
+#_____________________________way - monorail_track______________________________
+suspension_wuppertal
+Vía de monorraíl suspendida
 #____________________________way - narrowgauge_track____________________________
 #____________________________way - narrowgauge_track____________________________
+high_track
+Ferrocarril elevado
+high_track_old
+Ferrocarril elevado
+signalbridge_sbb
+Puente de señales
+track_120_gravel_bed_1S
+Vía
+track_120_gravel_bed_2F
+Vía con lecho de grava en la parte trasera
+track_120_gravel_bed_3C
+Vía con lecho de grava
+track_120_gravel_bed_4B
+Vía con lecho de grava en la parte delantera
+track_120_gravel_bed_wall_2F
+Vía con barrera acústica en la parte delantera
+track_120_gravel_bed_wall_3C
+Vía con barrera acústica a ambos lados
+track_120_gravel_bed_wall_4B
+Vía con barrera acústica en la parte trasera
+track_120_gravel_bed_wall2_2F
+Vía con pared en la parte delantera
+track_120_gravel_bed_wall2_3C
+Vía con pared a ambos lados
+track_120_gravel_bed_wall2_4B
+Vía con pared en la parte trasera
+track_120_just_gravel
+Lecho de grava
+track_160_gravel_bed_1S
+Vía
+track_160_gravel_bed_2F
+Vía con lecho de grava en la parte trasera
+track_160_gravel_bed_3C
+Vía con lecho de grava
+track_160_gravel_bed_4B
+Vía con lecho de grava en la parte delantera
+track_160_gravel_bed_wall_2F
+Vía con barrera acústica en la parte delantera
+track_160_gravel_bed_wall_3C
+Vía con barrera acústica a ambos lados
+track_160_gravel_bed_wall_4B
+Vía con barrera acústica a ambos lados
+track_160_gravel_bed_wall2_2F
+Vía con pared en la parte delantera
+track_160_gravel_bed_wall2_3C
+Vía con pared a ambos lados
+track_160_gravel_bed_wall2_4B
+Vía con pared en la parte trasera
+track_160_just_gravel
+Lecho de grava
+track_2
+Vía
+track_200_gravel_bed_1S
+Vía
+track_200_gravel_bed_2F
+Vía con lecho de grava en la parte trasera
+track_200_gravel_bed_3C
+Vía con lecho de grava
+track_200_gravel_bed_4B
+Vía con lecho de grava en la parte delantera
+track_200_gravel_bed_wall_2F
+Vía con barrera acústica en la parte delantera
+track_200_gravel_bed_wall_3C
+Vía con barrera acústica a ambos lados
+track_200_gravel_bed_wall_4B
+Vía con barrera acústica en la parte trasera
+track_200_just_gravel
+Lecho de grava
+track_250_gravel_bed_1S
+Vía
+track_250_gravel_bed_2F
+Vía con lecho de grava en la parte trasera
+track_250_gravel_bed_3C
+Vía con lecho de grava
+track_250_gravel_bed_4B
+Vía con lecho de grava en la parte delantera
+track_250_gravel_bed_wall_2F
+Vía con barrera acústica en la parte delantera
+track_250_gravel_bed_wall_3C
+Vía con barrera acústica a ambos lados
+track_250_gravel_bed_wall_4B
+Vía con barrera acústica en la parte trasera
+track_250_just_gravel
+Lecho de grava
+track_3
+Vía
+track_300_gravel_bed_1S
+Vía
+track_300_gravel_bed_2F
+Vía con lecho de grava en la parte trasera
+track_300_gravel_bed_3C
+Vía con lecho de grava
+track_300_gravel_bed_4B
+Vía con lecho de grava en la parte delantera
+track_300_gravel_bed_wall_2F
+Vía con barrera acústica en la parte delantera
+track_300_gravel_bed_wall_3C
+Vía con barrera acústica a ambos lados
+track_300_gravel_bed_wall_4B
+Vía con barrera acústica en la parte trasera
+track_300_just_gravel
+Lecho de grava
+track_4
+Vía
+track_4_calcified
+Vía señalizada
+track_80_gravel_bed_1S
+Vía
+track_80_gravel_bed_2F
+Vía con lecho de grava en la parte trasera
+track_80_gravel_bed_3C
+Vía con lecho de grava
+track_80_gravel_bed_4B
+Vía con lecho de grava en la parte delantera
+track_80_gravel_bed_wall_2F
+Vía con barrera acústica en la parte delantera
+track_80_gravel_bed_wall_3C
+Vía con barrera acústica a ambos lados
+track_80_gravel_bed_wall_4B
+Vía con barrera acústica en la parte trasera
+track_80_gravel_bed_wall2_2F
+Vía con pared en la parte delantera
+track_80_gravel_bed_wall2_3C
+Vía con pared a ambos lados
+track_80_gravel_bed_wall2_4B
+Vía con pared en la parte trasera
+track_80_just_gravel
+Lecho de grava
+track_calcified
+Vía señalizada
+track_infty
+Vía sobre losetas
+track_infty_gravel_bed_1S
+Vía sobre losetas
+track_infty_gravel_bed_2F
+Vía con lecho de grava en la parte trasera
+track_infty_gravel_bed_3C
+Vía con lecho de grava
+track_infty_gravel_bed_4B
+Vía con lecho de grava en la parte delantera
+track_infty_gravel_bed_wall_2F
+Vía sobre losetas con barrera acústica en la parte delantera
+track_infty_gravel_bed_wall_3C
+Vía sobre losetas con barrera acústica a ambos lados
+track_infty_gravel_bed_wall_4B
+Vía sobre losetas con barrera acústica en la parte trasera
 track_speed
-vía de alta velocidad
+Vía de alta velocidad
+track_tunnel_080
+Túnel
+track_tunnel_100
+Túnel
+track_tunnel_100_2
+Túnel
+track_tunnel_160
+Túnel
+track_tunnel_260
+Túnel
+track_tunnel_330
+Túnel
+track_tunnel_infty
+Túnel
 track_wood
-vía de madera
+Vía sobre traviesas de madera
+track_wood2
+Vía sobre traviesas de madera
+#__________________________________way - power__________________________________
+#__________________________________way - power__________________________________
+electro_underground
+Línea eléctrica soterrada
+Stromleitung
+Tendido eléctrico sobre postes de madera
+Stromleitung2
+Tendido eléctrico sobre torretas metálicas
 #__________________________________way - road___________________________________
 #__________________________________way - road___________________________________
+asphalt_road
+Carretera asfaltada
 city_road
-carretera urbana
+Calle urbana
+city_road_fake
+Calle con acera
+city_road_fake_cobblestreet
+Calle de adoquines con acera
+cobblestreet
+Calle de adoquines
+dirt_road
+Pista de tierra
 highway
-autopista
+Autopista
+industry_road
+Carretera de zona industrial
+lokal_road
+Carretera municipal
+road_elevated
+Carretera elevada
+road_elevated_130
+Carretera elevada
+road_highway
+Autopista
+road_tunnel_100
+Túnel
+road_tunnel_50
+Túnel
 #__________________________________way - track__________________________________
 #__________________________________way - track__________________________________
+laermwand1
+Barrera acústica
+laermwand2
+Barrera acústica
+narrowgauge_130
+Vía estrecha
+narrowgauge_160
+Vía estrecha con traviesas de acero
 narrowgauge_track_fast
-Vía estrecha 90 km/h
+Vía estrecha con traviesas de hormigón
+narrowgauge_track_slow
+Vía estrecha
+narrowgauge_tunnel_050
+Túnel de vía estrecha
+narrowgauge_tunnel_090
+Túnel de vía estrecha
+old_wall
+Murallas del casco histórico
+posts
+Mojones
+#_______________________________way - tram_track________________________________
+#_______________________________way - tram_track________________________________
+road_city_0_red_as_tram
+Carretera roja
+tram_gleise
+Vía de tranvía
+tram_sw
+Vía de tranvía con senda peatonal
 #__________________________________way - water__________________________________
 #__________________________________way - water__________________________________
+channel
+Canal
+kaimauer1
+Muro del muelle
+kaimauer2
+Muro del muelle
 river_0
-río
+Río
 #________________________way-object - narrowgauge_track_________________________
 #________________________way-object - narrowgauge_track_________________________
+catenary_track_160
+Catenaria con mástiles enrejados
+catenary_track_160_swapped
+Catenaria con mástiles enrejados - lado opuesto
+catenary_track_160_tunnel
+Catenaria con mástiles enrejados - Túnel
+catenary_track_250
+Catenaria con mástiles de hierro
+catenary_track_250_swapped
+Catenaria con mástiles de hierro - lado opuesto
+catenary_track_250_tunnel
+Catenaria con mástiles de hierro - Túnel
+catenary_track_80
+Catenaria con mástiles de madera
+catenary_track_80_swapped
+Catenaria con mástiles de madera - lado opuesto
+catenary_track_80_tunnel
+Catenaria con mástiles de madera - Túnel
+catenary_track_inf
+Catenaria con mástiles de hormigón
+catenary_track_inf_swapped
+Catenaria con mástiles de hormigón - lado opuesto
+catenary_track_inf_tunnel
+Catenaria con mástiles de hormigón - Túnel
+electrictrack_wood2
+Mástil
+electrictrack_wood3
+Cable conductor de última generación
+electrictrack_wood4
+Mástil
+fourth_rail_100
+Doble mástil colector
 oberleitung
-catenaria
+Catenaria de hormigón
+oberleitung_track
+Catenaria con mástiles enrejados
+third_rail_160
+Poste
+#_______________________________way-object - road_______________________________
+#_______________________________way-object - road_______________________________
+avenue_cypress
+Cipreses
+catenary_road
+Catenaria de autobuses
+oberleitung_road_m
+Catenaria de autobuses
+streetlights_E0
+Farolas clásicas
+streetlights_E0_Cl0
+Farolas clásicas
+streetlights_E0_Cl1
+Farolas clásicas
+streetlights_E0_Cl2
+Farolas clásicas
+streetlights_E3_Cl0
+Alumbrado público
+streetlights_E3_Cl1
+Alumbrado público
+streetlights_E3_Cl2
+Alumbrado público
+streetlights_E3_Cl34
+Alumbrado público
+streetlights_E3_Cl5
+Alumbrado público
+streetlights_E6_Cl0
+Farolas modernas
+streetlights_E6_Cl1
+Farolas modernas
+streetlights_E6_Cl2
+Farolas modernas
+streetlights_E6_Cl34
+Farolas modernas
+streetlights_E6_Cl5
+Farolas modernas
+streetlights_fancy_Cl0
+Farolas modernas
+streetlights_fancy_Cl1
+Farolas clásicas
+streetlights_fancy_Cl2
+Farolas clásicas
+streetlights_fancy_Cl34
+Farolas clásicas
+streetlights_fancy_Cl5
+Farolas clásicas
 #______________________________way-object - track_______________________________
 #______________________________way-object - track_______________________________
+catenary_ng_50
+Catenaria con mástiles de madera
+catenary_ng_90
+Catenaria con mástiles enrejados
+catenary_ng_inf
+Catenaria con pilones de hormigón
 oberleitung_narrowgauge
-catenaria vía estrecha
+Catenaria
+#____________________________way-object - tram_track____________________________
+#____________________________way-object - tram_track____________________________
+catenary_tram
+Catenaria de tranvía
+oberleitung_tram_m
+Catenaria de tranvía

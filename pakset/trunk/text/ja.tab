@@ -9,7 +9,7 @@
 #                             Language: ja Japanese                            #
 #                                Encoding: UTF-8                               #
 #                                Font: m+10r.bdf                               #
-#                           Date Created: 16.02 2024                           #
+#                            Date Created: 3.01 2025                           #
 #                                                                              #
 ################################################################################
 #________________________________building - cur_________________________________
@@ -28,8 +28,12 @@ Fachwerkbahnhof
 本社
 #________________________________building - stop________________________________
 #________________________________building - stop________________________________
+apron
+ボーディングブリッジ付き駐機場
 apron2
 駐機場
+Narrowgauge_Station_Goods_1
+貨物駅(ナローゲージ)
 road_Busbahnhof
 バス待合所
 road_doppelstation_strab
@@ -38,6 +42,32 @@ track_station_good
 貨物駅
 #________________________________building - tow_________________________________
 #________________________________building - tow_________________________________
+tow_3_modern
+役所
+tow_copper01
+役所
+tow_copper02
+役所
+tow_copper03
+役所
+tow_copper04
+役所
+tow_copper05
+役所
+tow_desert01
+役所(ピラミッド)
+tow_desert04
+役所(ピラミッド)
+tow_east01
+役所
+tow_east02
+役所
+tow_east03
+役所
+tow_east04
+役所
+tow_east05
+役所
 tow_fw_01
 役所
 tow_fw_02
@@ -46,24 +76,70 @@ tow_ger_01
 役所
 tow_ger_02
 役所
+tow_medi01
+役所
+tow_medi02
+役所
+tow_medi03
+役所
+tow_medi04
+役所
+tow_medi05
+役所
+tow_tropic01
+役所
+tow_tropic02
+役所
+tow_tropic03
+役所
+tow_tropic04
+役所
+tow_tropic05
+役所
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 Autofabrik
 自動車工場
 Autoteilefabrik
 自動車部品工場
+bakery_alpine
+パン屋
 bakery_northsea
 パン屋
 berry1_plantation
 果樹園
 berry2_plantation
 果樹園
+coalmine
+炭鉱
+coalmine_large
+大型炭鉱
+dairy_factory
+乳製品工場
+gasstation
+ガソリンスタンド
 gasstation_small
 ガソリンスタンド
 grainfarm_alpine
 穀物畑
+grainfarm_easteur
+穀物畑
+grainfarm_northsea
+穀物畑
 juicefactory1
 ジュース工場
+limestone_mine
+石灰石鉱山
+oilplatform
+海上油田
+oilpump
+原油ポンプ
+oremine
+鉄鉱石鉱山
+refinery_new
+製油所
+sheepranch
+羊牧場
 shop
 スーパーマーケット
 Slaughter
@@ -72,20 +148,42 @@ small_shop
 小売店
 Stahlwalzwerk
 製鉄所
+steelmill
+スチール工場
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 beer
 ビール
 car_parts
 自動車部品
+cars
+自動車
+coal
+石炭
 dairy
-乳製品工場
+乳製品
+fuel
+燃料
+grain
+穀物
+heavy_oil
+重油
 juice
 ジュース
+limestone
+石灰石
+meat
+肉
+naphtha
+ナフサ
 oil
 石油
 ore
 鉄鉱石
+paper
+紙
+toys
+玩具
 #__________________________________ground_obj___________________________________
 #__________________________________ground_obj___________________________________
 deer
@@ -140,8 +238,36 @@ Airbus_A380-800
 エアバスA380-800
 Airbus_A380-900
 エアバスA380-900
+Antonov_An_140
+アントノフAn-140
+Antonov_An_218
+アントノフAn-218
+Antonov_An_38
+アントノフAn-38
+Antonov_An2_Colt
+アントノフAn-2
+Antonov_An2_Colt_Post
+アントノフAn-2
+Antonov_An22_Antei
+アントノフAn-22”アンテーイ”
+Antonov_An3
+アントノフAn-3
+Antonov_An3_Post
+アントノフAn-3
+Baade_152_I
+バーデ152-Ⅰ
+Baade_152_II
+バーデ152-Ⅱ
+Baade_153
+バーデ153
+Baade_154
+バーデ154
+Baade_155
+バーデ155
 Boeing_707-100_(Dash80)
 ボーイング７０７－１００（ダッシュ80）
+Boeing_737_300SF_CargoAir
+ボーイング737-300SF(Cargo Air)
 Boeing_737-200
 ボーイング７３７－２００
 Boeing_737-300
@@ -164,6 +290,8 @@ Boeing_B747-400
 ボーイング747－400
 Boeing_B747-400F_KalittaAir
 ボーイング747－４００Ｆ（カリッタ航空塗装）
+Boeing_B747-8F_PolarAirCargo
+ボーイング747-8F(ポーラーエアカーゴ塗装)
 Boeing_B747-8I
 ボーイング747－8Ｉ
 Boeing_B747-SP
@@ -192,10 +320,16 @@ DC_9_10
 ダグラスＤＣ－９－１０
 Iljushin_Il12_Coach
 イリューシンIl-12
+Iljushin_Il62_Classic
+イリューシンIl-62
+Iljushin_Il86_Camber
+イリューシンIl-86
 Iljushin_Il96_300
 イリューシンIl-96-300
 Iljushin_Il96M
 イリューシンIl-96M
+Junkers_Ju52P
+ユンカース　Ju-52
 MD_11ER
 マクドネル・ダグラスＭＤ１１ＥＲ
 MD_12
@@ -206,6 +340,18 @@ Su100_95_Superjet
 スホーイ　スーパージェット１００
 Tupolev_ANT20_Maxim_Gorki
 ツポレフANT-20「マキシム・ゴーリキ」
+Tupolev_ANT9
+ツポレフ　ANT-9
+Tupolev_Tu134_Crusty
+ツポレフ　Tu-134 ”Crusty”
+Tupolev_Tu144
+ツポレフ　Tu-144
+Tupolev_Tu144S
+ツポレフ　Tu-144S
+Tupolev_Tu154
+ツポレフ　Tu-154
+Tupolev_Tu204-100
+ツポレフ　Tu-204-100
 Tupolev_Tu244
 ツポレフTu-244
 #__________________________vehicle - narrowgauge_track__________________________
@@ -278,20 +424,62 @@ DT8_4_1-SSB
 シュトゥットガルト路面電車DT8.4形
 E03
 西ドイツ国鉄　BR 103型電気機関車
+Eurofima_Wagen_1979_0
+インターシティー「ユーロフィマ型」客車
+Eurofima_Wagen_1979_1
+インターシティー「ユーロフィマ型」郵便車
+Eurofima_Wagen_1979_2
+インターシティー「ユーロフィマ型」食堂車
+Eurofima_Wagen_1986_0
+インターシティー「ユーロフィマ型」客車(1986)
+Eurofima_Wagen_1986_1
+インターシティー「ユーロフィマ型」食堂車(1986)
+Eurofima_Wagen_1986_2
+インターシティー「ユーロフィマ型」先頭客車
+Eurofima_Wagen_1986_3
+インターシティー「ユーロフィマ型」先頭客車(後部)
+Eurofima_Wagen_1991_0
+インターシティー「ユーロフィマ型」客車(1988)
+Eurofima_Wagen_2001_0
+インターシティー「ユーロフィマ型」客車(2001)
+Eurofima_Wagen_2001_1
+インターシティー「ユーロフィマ型」食堂車(2001)
+Eurofima_Wagen_2001_2
+インターシティー「ユーロフィマ型」先頭客車(2001)
+Eurofima_Wagen_2001_3
+インターシティー「ユーロフィマ型」先頭客車(後部・2001)
+Eurofima_Wagen_2001_4
+インターシティー「ユーロフィマ型」郵便車(2001)
 Eurostar_Lok1
 HST「ユーロスター」先頭車
 Eurostar_Lok2
 HST「ユーロスター」後部
 Railjet_Wagen
 インターシティー「レールジェット」客車
+Rheingold_1962_0
+ラインゴルト型客車
+Rheingold_1962_1
+ラインゴルト型展望客車
+Rheingold_1962_2
+ラインゴルト型食堂車
+Rheingold_1962_3
+ラインゴルト型郵便車
 U2_1-VGF
 フランクフルト地下鉄 U2形
+U2_2-VGF
+フランクフルト地下鉄 U2形　後部
 U3_1-VGF
 フランクフルト地下鉄 U3形
+U3_2-VGF
+フランクフルト地下鉄 U3形　後部
 U4_1-VGF
 フランクフルト地下鉄 U4形
+U4_2-VGF
+フランクフルト地下鉄 U4形　後部
 U5_1-VGF
 フランクフルト地下鉄 U5形
+U5_2-VGF
+フランクフルト地下鉄 U5形　後部
 Viaggio_Wagen_2012_0
 寝台車 "Viaggio Comfort"
 Virgin Voyager Back
@@ -330,20 +518,44 @@ city_road
 市道
 highway
 高速道路
+road_highway
+アウトバーン道路
 #__________________________________way - track__________________________________
 #__________________________________way - track__________________________________
+narrowgauge_130
+ナローゲージ軌道(130Km/h)
+narrowgauge_160
+ナローゲージ軌道(160Km/h)
 narrowgauge_track_fast
 ナローゲージ軌道
+narrowgauge_track_slow
+ナローゲージ軌道(20Km/h)
 #________________________way-object - narrowgauge_track_________________________
 #________________________way-object - narrowgauge_track_________________________
+catenary_track_160
+架線(鉄製・160km/h)
+catenary_track_250
+架線(高速線用・250km/h)
+catenary_track_80
+架線(木製・80km/h)
+catenary_track_inf
+架線(コンクリート・制限なし)
 oberleitung
 架線
+oberleitung_track
+架線(鉄製・160km/h)
 #_______________________________way-object - road_______________________________
 #_______________________________way-object - road_______________________________
 catenary_road
 道路架線
 #______________________________way-object - track_______________________________
 #______________________________way-object - track_______________________________
+catenary_ng_50
+ナローゲージ架線(木製・50km/h)
+catenary_ng_90
+ナローゲージ架線(鉄製・90km/h)
+catenary_ng_inf
+ナローゲージ架線(コンクリート・制限なし)
 oberleitung_narrowgauge
 ナローゲージ架線
 #____________________________way-object - tram_track____________________________

@@ -9,7 +9,7 @@
 #                             Language: en English                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 16.02 2024                           #
+#                            Date Created: 3.01 2025                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -186,6 +186,10 @@ com_cl3_E4_06_20
 Commercial Building\n\nConstruction supervisor Miller was slightly drunk when giving orders for the second floor. Since deadlines were too tight to fix the mistake, a supporting pillar must do.
 com_cl3_E4_07_20
 Commercial Building\n\nMr. Sulzer loves to use the public phone boot for prank calls. His favourite is to call a bar and ask for Coholic, Al.
+com_cl3_E5_01_07
+Motel 517
+obj_com_cl3_E5_01_07_details
+Motel 517 provides almost everything a traveler could ask, large and comfortable beds, soft towels, a fully stocked mini-bar and 24 hour room service.Unfortunately, there is no parking.
 com_cl3_E5_01_15
 Commercial Building\n\n The V-shaped support beams were added to the original design after it was found out that the architect was an imposter and had no idea about gravity and how to counter it.
 com_cl3_E5_01_18
@@ -244,6 +248,18 @@ com_cl3_E6_04_20
 Office\n\nSandy Torkai from the sixth floor just earned her first billion when she got a stern talk from her boss - no Simutrans during office hours!
 com_cl4_2x2_E6_01_12
 Commercial Building\n\nBecause of the recent trend of recycling, the owner of this building decided to go green by using broken dumpsters as the material for this buildings roof. Don't worry, they were rigorously scrubbed and are almost odorless.
+com_cl4_E0_01_03
+Tenement with Red T-shaped Gable Roof\n\nNikita and her son live here. Their room is on the second floor, the one with the two windows on the right part of the building. One day, a fellow tenant asked, 'hey, where is the dad?' Nikita cheerfully answered, while peeling a cucumber with a kitchen knife, 'oh, he doesn't have one, and he doesn't need one~' 'Ah, haha, I see...' The tenant then hurriedly enters his room while covering the area between his legs.
+com_cl4_E0_01_05
+Tenement with Red H-shaped Gable Roof\n\n
+com_cl4_E0_01_07
+Large Restaurant\n\nThe motto for this restaurant used to be "We cater for any taste". This has been recently altered to "We cater for almost any taste but do ask customers to keep their clothes on." 
+com_cl4_E0_02_03
+Tenement with Brown T-shaped Gable Roof\n\n
+com_cl4_E0_02_07
+Large Restaurant\n\nBoth levels of this bespoke establishment are used for casual dining. The upper level can be reserved for wedding receptions, Bar Mitzvahs, birthday parties and/or wakes. Smaller occasions can also reserve the outdoor area and can hire dedicated serving staff to cater for many of their needs. Patrons are gently reminded to "Please respect our neighbours and leave quietly and with dignity if at all possible." 
+com_cl4_E0_03_07
+Venison Restaurant\n\nThis restaurant specializes in over 60 venison dishes. From breakfast venison bacon sausages to venison ice cream. It has received nearly 2 positive reviews on websites of note. 
 com_cl4_E2_01_07
 Plaza
 com_cl4_E3_01_03
@@ -312,6 +328,10 @@ com_cl5_E3_04_09
 Corner market
 com_cl5_E3_04_23
 Corporate building
+com_cl5_E3_05_09
+Crayon Me
+obj_com_cl5_E3_05_09_details
+The comany song, sung by all the employees every morning, is "Dont Crayon Me, Ive Got Tinea".
 com_cl5_E3_05_23
 Corporate building
 com_cl5_E4_01_12
@@ -536,6 +556,14 @@ coalstorage
 Storage for Coal
 Containererweiterung
 Storage for Container
+ext_railway_poelten_corner
+Station Extension, outside corner
+ext_railway_poelten_corner_reverse
+Station Extension, inner corner section
+ext_railway_poelten_main
+Station Extension, main section
+ext_railway_poelten_side
+Station Extension, side section
 extension_Lagerhalle
 Warehouse
 extension_Lagerhalle2
@@ -602,6 +630,22 @@ Large Headquarters
 Larger Headquarters
 #________________________________building - ind_________________________________
 #________________________________building - ind_________________________________
+ind_cl0_E0_01_01
+Desert Bakery
+obj_ind_cl0_E0_01_01_details
+Many scrumptious Middle Western pastries are baked here every morning. If you'd like to try them just join the queue at 9:00am. Please don't disturb the ladder though. Mr Perkins, the baker, is easily upset and possesses many sharp cooking knives.
+ind_cl0_E0_05_01
+Desert Luxury Inn
+obj_ind_cl0_E0_05_01_details
+This inn has 4.7 stars on the Trap Advisor website.  The penthouse suites come with their own security system, just pull up the ladder and your privacy is ensured.
+ind_cl0_E0_05_02
+Desert Tackle Shop
+obj_ind_cl0_E0_05_02_details
+Abu Ben Gizard manages this well known store selling tackle, saddles and all types and sizes of luggage for your camels. Be sure to come here and satisfy all your needs for your next journey.
+ind_cl0_E0_09_03
+Empty Vessels Inc
+obj_ind_cl0_E0_09_03_details
+Large-capacity warehouse for a company that has an exclusive delivery contract for vases with Ganondorf's Dungeon-Designers
 ind_cl1_E0_07_01
 Warehouse
 ind_cl1_E0_07_02
@@ -722,12 +766,6 @@ mon_zumaque_1
 Industrial-Monument\n\Here stands the oldes oil pump of the monopolistic and most money hungry oil company of simutrans.
 #________________________________building - res_________________________________
 #________________________________building - res_________________________________
-com_cl4_E0_01_03
-Tenement with Red T-shaped Gable Roof\n\nNikita and her son live here. Their room is on the second floor, the one with the two windows on the right part of the building. One day, a fellow tenant asked, 'hey, where is the dad?' Nikita cheerfully answered, while peeling a cucumber with a kitchen knife, 'oh, he doesn't have one, and he doesn't need one~' 'Ah, haha, I see...' The tenant then hurriedly enters his room while covering the area between his legs.
-com_cl4_E0_01_05
-Tenement with Red H-shaped Gable Roof\n\n
-com_cl4_E0_02_03
-Tenement with Brown T-shaped Gable Roof\n\n
 res_cl0_E0_01_01
 Desert Tent\n\nThe person who lives here is known to be a nerd. From the outside, her tent may just looks like an ordinary tent, but in the inside, there's a comfy bed, a drawer, several shelves full of mangas and action figures, an electric stove, a TV, a desk with a gaming PC on it, and there's even a separated section of the tent for bathroom.\n\nThe camel outside, who is notoriously known to like to bite tresspassers, is her best friend and personal bodyguard.
 res_cl0_E0_01_03
@@ -1473,7 +1511,7 @@ Maglev Platform
 Narrowgauge_Station_Goods_1
 Goods Platform
 Narrowgauge_Station_Passenger_1
-Platform
+Platform with small shelter
 Narrowgauge_Station_Passenger_Roof_1
 Roofed Platform
 Narrowgauge_Station_Passenger_Roof_2
@@ -1636,6 +1674,8 @@ tow_tropic05
 Town Hall
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
+belchfire01
+Belchfire Runabout
 carriage01
 Horse-drawn carriage black
 carriage02
@@ -1662,6 +1702,8 @@ citycar_kaefer_06
 Volkswagen Beetle purple
 citycar_kaefer_07
 Volkswagen Beetle dark red
+citycar00
+PTM Combi
 citycar01
 Green car
 citycar02
@@ -1674,6 +1716,16 @@ citycar05
 CrZ Polo
 citycar06
 Blue and white car
+citycar07
+PTM Combi
+citycarp92401
+Brose Sportscar
+citycarp92402
+Brose Sportscar
+citycarp92403
+Brose Sportscar
+citycarp92404
+Brose Sportscar
 detele01
 Detroit Electric blue
 detele02
@@ -1816,12 +1868,18 @@ bakery_northsea
 Bakery
 factory_bakery_northsea_details
 <title>Bakery</title>\n<p>The apprentice was in the media recently. He took part in a survival show and astonished the audience with his painted camouflage. "It's like decorating a cake" he said.</p>
+beetfarm
+Sugar Beet Farm
+beets_sugarmill
+Sugar Mill
 berry1_plantation
 Strawberry Fields
 factory_berry1_plantation_details
 <title>Strawberry Fields</title>\n<p>"Oh, the lustful sensation that is to eat strawberrys, red lips kissing red strawberry skin and..."</p><p>It seems the owner really likes her strawberrys.</p>
 berry2_plantation
 Currant Plantation
+biofuel_plant
+Biofuel Plant
 blastfurnace
 Blast Furnace
 factory_blastfurnace_details
@@ -1854,6 +1912,8 @@ carseller
 Car Dealership
 factory_carseller_details
 <title>Car Dealership</title>\n<p>Here smooth-talking salesmen try to sell you a car you don't need at a price you'd rather not pay. Many different cars are sold here, including sedans, convertibles, pickups, and minivans.</p>
+cellardoor
+Cellar Door
 cheese_import
 Cheese Importer
 cherryontop
@@ -1864,6 +1924,8 @@ factory_ciderpress_details
 <title>Cider Press</title>\n<p>A cider press is where apples are ground up into pulp and then pressed into juice. This juice, being unfiltered and unsweetened, is referred to as cider.</p>
 circuitboards_assembly
 Circuitboards Assemply Plant
+factory_circuitboards_assembly_details
+Historically, circuit boards used to be constructed by teams of underpaid electronics engineering graduates. Of course these have all been replaced by automated assembly lines which were created by teams of underpaid electronics engineering graduates.
 cleopatra
 Beauty Parlor
 cleopatra_desert
@@ -1980,6 +2042,8 @@ Kaufhaus
 Shopping Mall 
 factory_Kaufhaus_details
 <title>Shopping Mall</title>/n<p>A large building housing many stores for just about anything. The graffiti on the wall reads "Only leashed girlfriends permitted." Looking at the really big choice, it does not seem that far fetched.</p>
+Kohle_early_kraftwerk
+Early Coal Power Plant
 Kohle_kraftwerk
 Coal Power Plant
 factory_Kohle_kraftwerk_details
@@ -2218,7 +2282,7 @@ coka_drink
 Coka drink
 comics
 comic books
-factory_dairy_details
+obj_dairy_details
 <title>Cheesy Factory</title>\n<p>They claim to hold the world record for the biggest cheese produced, stating you could see it every night.</p>
 heavy_oil
 heavy oil
@@ -2306,6 +2370,10 @@ tropicground01
 Swamp
 tropicground02
 Swamp
+#_____________________________________menu______________________________________
+#_____________________________________menu______________________________________
+DialogeTools
+Dialogue Tools
 #___________________________________menu_text___________________________________
 #___________________________________menu_text___________________________________
 ABRISSTOOLS
@@ -2340,6 +2408,10 @@ TRAMTOOLS
 Tramways (narrowgauge)
 VIEW
 View
+#_________________________________message_text__________________________________
+#_________________________________message_text__________________________________
+stk
+pcs
 #__________________________________pedestrian___________________________________
 #__________________________________pedestrian___________________________________
 pedestrian_1
@@ -2438,6 +2510,12 @@ track_one_way
 One-way
 track_private_modern
 Private Track
+track_sigchoose_light
+Platform Choose Signal
+track_sigchoose_sbb
+Platform Choose Signal
+track_sigchooseend
+End of Platform Choose
 track_sigpriority_light
 priority signal
 #________________________________roadsign - road________________________________
@@ -2926,8 +3004,10 @@ B4ueh
 Express Train Car B4üh "Schürzenwagen"
 B514
 Double Deck Eletric Car Type B512 "Desiro Double Deck"
+Battery_1907_AT_1
+Battery Electric Railcar AT 1
 Bayrische_D_VIII
-Steam Engine Bavarian D VIII
+Steam Engine D VIII
 BBO_1670
 Electric Locomotive Rh. 1670
 Begleitwagen_RalPin
@@ -3346,10 +3426,44 @@ Car_1985_Sheetmetal
 Coil car
 Car_1990_Billet
 Billet flatcar
+Car_Agriculture_1913_Blatt_A7
+Free-flowing goods wagon to drawing A7
+Car_Agriculture_1924_Gattung_K
+Free-flowing goods wagon K
+Car_Apple_1878_Blatt_10
+Lightweight Hopper to drawing 10
+Car_Apple_1883_Blatt_IIb2
+Lightweight Hopper to drawing IIb2
+Car_Apple_1906_Blatt_IId3
+Lightweight Hopper to drawing IId3
+Car_Apple_1911_Blatt_A1
+Lightweight Hopper to drawing A1
+Car_Apple_1913_Blatt_A10
+Lightweight Hopper to drawing A10
+Car_Apple_1927_Gattung_Om
+Lightweight Hopper Om
 Car_Apple_1979_Eaos_106
-Lightweight hopper
+Lightweight Hopper Eaos 106
 Car_Apple_1987_Eanos_052
-Lightweight hopper
+Lightweight Hopper Eanos 052
+Car_Barrels_1913_A4
+Barrel Wagon to drawing A4
+Car_Cars_1913_A4
+Car transport Wagon to drawing A4
+Car_Coal_1878_Blatt_10
+Bulk Wagon to drawing 10
+Car_Coal_1883_Blatt_IIb2
+Bulk Wagon to drawing IIb2
+Car_Coal_1883_Blatt_IIc4
+Bulk Wagon to drawing IIc4
+Car_Coal_1904_Blatt_IId1
+Bulk Wagon to drawing IId1
+Car_Coal_1912_Blatt_A6
+Bulk Wagon to drawing A6
+Car_Coal_1913_Blatt_A10
+Bulk Wagon to drawing A10
+Car_Coal_1927_Gattung_Om
+Bulk Wagon to drawing Om
 Car_Coal_1954_OOtz_50
 Hopper OOtz 50
 Car_Coal_1970_Fals_175
@@ -3363,15 +3477,77 @@ Hopper Eanos 052
 Car_Coal_2008_Falns_184
 Hopper Falns 184
 Car_Container_1913_A4_short
-Container flatcar A4
+Container Flatcar A4
 Car_Container_1979_Sgjs_712
-Container flatcar Sgjs 712
+Container Flatcar Sgjs 712
 Car_Container_1981_Sgjkkmmss_699
-Container flatcar Sgjkkmmss 699
+Container Flatcar Sgjkkmmss 699
 Car_Container_1991_Sgss_703
-Container flatcar Sgss 703
+Container Flatcar Sgss 703
 Car_Container_2014_Sggnss_80
-Container flatcar Sggnss 80
+Container Flatcar Sggnss 80
+Car_Container_2024_Sggnss_80_XL
+Container Flatcar Sggnss 80 XL
+Car_Cooled_Goods_1879_KPEV_Blatt_8
+Refrigerated Goods Wagon to drawing 8
+Car_Defined_Mass_0010
+Measuring wagon with a weight of exactly 10t
+Car_Defined_Mass_0050
+Measuring wagon with a weight of exactly 50t
+Car_Defined_Mass_0200
+Measuring wagon with a weight of exactly 200t
+Car_Defined_Mass_1000
+Measuring wagon with a weight of exactly 100t
+Car_Empty_1891_PWIRP91
+Baggage car PwiRP-91
+Car_Empty_1902_Schnellzug_BadStB_02
+Baggage car Pw3-02
+Car_Empty_1906_Schnellzug_BadStB_06
+Baggage car Pw4-06
+Car_Empty_1953_Umbauwagen_BD3yg
+Baggage car BD3yg "Umbauwagen"
+Car_Empty_1953_Umbauwagen_BD3yg_hinten
+Baggage car BD3yg "Umbauwagen" close-coupled
+Car_Empty_1953_Umbauwagen_BD3yg_vorne
+Baggage car BD3yg "Umbauwagen" close-coupled
+Car_Empty_1955_Umbauwagen_BD4yg
+Baggage car BD4yg "Umbauwagen"
+Car_Milk_1883_Blatt_IIb2
+Milk Wagon to drawing IIb2
+Car_Milk_1913_Verbandsbauart
+Tank Wagon for Milk "Verbandsbauart"
+Car_Oil_1913_Verbandsbauart
+Tank Wagon "Verbandsbauart"
+Car_Piece_Goods_1879_Blatt_8
+Boxcar to drawing 8
+Car_Piece_Goods_1890_Blatt_IIb1
+Boxcar to drawing IIb1
+Car_Piece_Goods_1891_PWIRP91
+Piece Goods loaded Baggage car PwiRP-91
+Car_Piece_Goods_1902_Schnellzug_BadStB_02
+Piece Goods loaded Baggage car Pwi-02
+Car_Piece_Goods_1903_Blatt_IId8
+Boxcar to drawing IId8
+Car_Piece_Goods_1906_Schnellzug_BadStB_06
+Piece Goods loaded Baggage car Pw4-06
+Car_Piece_Goods_1913_Blatt_A2
+Boxcar to drawing A2
+Car_Piece_Goods_1927_Gattung_Gr
+Boxcar Gr
+Car_Piece_Goods_1933_Gattung_Glthrs
+Boxcar Glthrs
+Car_Piece_Goods_1934_Gattung_GGhs
+Boxcar GGhs
+Car_Piece_Goods_1937_Gattung_Gs
+Boxcar Gs
+Car_Piece_Goods_1953_Umbauwagen_BD3yg
+Piece Goods loaded Baggage car BD3yg "Umbauwagen"
+Car_Piece_Goods_1953_Umbauwagen_BD3yg_hinten
+Piece Goods loaded Baggage car BD3yg "Umbauwagen" close-coupled
+Car_Piece_Goods_1953_Umbauwagen_BD3yg_vorne
+Piece Goods loaded Baggage car BD3yg "Umbauwagen" close-coupled
+Car_Piece_Goods_1955_Umbauwagen_BD4yg
+Piece Goods loaded Baggage car BD4yg "Umbauwagen"
 Car_Piece_Goods_1960_Tbis_870
 Boxcar Tbis 870
 Car_Piece_Goods_1975_Hbis_295
@@ -3382,6 +3558,20 @@ Car_Piece_Goods_1990_Hbillss_307
 Boxcar Hbillss 307
 Car_Piece_Goods_2000_Hbbills_311
 Boxcar Hbbills 311
+Car_Post_1902_Schnellzug_BadStB_02
+Post loaded Baggage car Pw3-02
+Car_Post_1906_Schnellzug_BadStB_06
+Post loaded Baggage car Pw4-06
+Car_Post_1928
+Postal car PwPost4ü-28
+Car_Post_1953_Umbauwagen_BD3yg
+Post loaded Baggage car BD3yg "Umbauwagen"
+Car_Post_1953_Umbauwagen_BD3yg_hinten
+Post loaded Baggage car BD3yg "Umbauwagen" close-coupled
+Car_Post_1953_Umbauwagen_BD3yg_vorne
+Post loaded Baggage car BD3yg "Umbauwagen" close-coupled
+Car_Post_1955_Umbauwagen_BD4yg
+Post loaded Baggage car BD4yg "Umbauwagen"
 Car_Post_2002_ADbmpsz73_1
 Postal car ADbmpsz 73
 Car_Post_2002_ADbmpsz73_Red_2
@@ -6051,7 +6241,7 @@ MAN TGS pickup
 road_truck_piece_2012_antos
 Mercedes-Benz Antos pickup
 road_truck_police_1800_horseback
-police cariage
+Mounted Police
 road_truck_police_1932_mblo2000
 Mercedes Benz Lo 2000 police van
 road_truck_police_1950_beetle
@@ -6919,6 +7109,8 @@ Tram track with sidewalk
 channel
 Channel
 kaimauer1
+Canal wall
+kaimauer2
 Canal wall
 river_0
 River

@@ -9,7 +9,7 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
-#                           Date Created: 16.02 2024                           #
+#                            Date Created: 3.01 2025                           #
 #                                                                              #
 ################################################################################
 #__________________________bridge - narrowgauge_track___________________________
@@ -62,12 +62,24 @@ com_cl0_E0_01_05
 Turm des Sauberers\n\nDer Sauberer, der in diesem Turm sein unwesen treibt, ist sehr auf Reinlichkeit bedacht und ständig dabei, Sand zu wischen.
 com_cl0_E0_01_07
 Gebäude\n\nWas tun, wenn man allein in der Wüste ist und plötzlich ein Löwe kommt?\n- Man lacht sich einen Ast und setzt sich drauf.\n- Staunt Bauklötzer und bewirft ihn damit.\n- Holt sich eine Zigarette aus der Tasche, macht einen Zug und fährt nach Hause.
+com_cl0_E0_01_09
+Pyramide\n\nEine architektonische Umsetzung der hiesigen Gesellschaftsstruktur, bei der ein kleiner Teil an der Spitze über und auf allem anderen steht.
 com_cl0_E0_02_01
 Spitzen\n\nVon diesem gigantischen Bauwerk aus grauen Vorzeiten ist heute lediglich noch die oberste Spitze sichtbar. Manchmal werden die Spitzen als Eckpfosten für einen Boxring verwendet.
 com_cl0_E0_02_03
 Gebäude\n\n"Ich mag Sand nicht. Er ist kratzig und rau und unangenehm. Er ist einfach überall."
+com_cl0_E0_02_05
+Tempel\n\nNiemand würde erwarten, in diesem unscheinbaren Tempelbau eine Simutrans-Serverfarm vorzufinden, und so ist auch niemand überrascht, wenn er herausfindet, dass sich keine hier befindet.
+com_cl0_E0_02_07
+Tempel\n\nDieser Tempel ist Spatulla gewidmet, der Göttin der klemmenden Schubladen, welche sich jüngst im Rahmen einer Imagekampagne auch klemmender Reißverschlüsse annahm.
+com_cl0_E0_02_09
+Tempel\n\nDieser Tempelbau wird inzwischen als Wohnraum von Leviten genutzt; Eine kleine Bibliothek im Säulenbau lädt zum Lesen ein. 
 com_cl0_E0_03_05
 Tempel\n\n"Bei Osiris und Apis, schau mich an. Schau mich ganz fest an! Konzentriert schau mich an, ganz fest an! Bei Osiris und bei Apis, du bist jetzt ein Simutrans-Übersetzer! Ein Simutrans-Übersetzer, der auf translator.simutrans.com Texte wie diesen verfasst, bei Osiris und Apis, ein Übersetzer!"
+com_cl0_E0_03_07
+Tempel\n\nDieser Tempel ist der Sitz der örtlichen Hauseigentümergemeinschaft, welche erst letzten Dienstag ganz entschieden einen Antrag aus der Nachbarschaft ablehnen musste - da wollte doch tatsächlich ein Tempelvorsteher die Zierstreifen seines Tempels blau einfärben und damit das harmonische Gesamtbild der Region zerstören!
+com_cl0_E0_03_09
+Tempel\n\nEine Besonderheit dieses Tempels sind die prächtigen Säulengänge, was durchaus bemerkenswert ist, bedenkt man, dass es sich um die gleichen Säulen wie bei allen anderen Tempeln dieser Gegend handelt, welche einfach mit CopyPaste kopiert wurden.
 com_cl0_E0_04_09
 Tempel\n\n"Bei Katziris und Catsis, schau mich an. Schau mich ganz fest an! Konzentriert schau mich an, ganz fest an! Bei Katziris und bei Catsis, du bist jetzt eine Katze! Bei Katziris und Catsis, du bist jetzt ein hübsches Kätzchen! Husch, husch! Ins Körbchen!"
 com_cl2_E4_01_18
@@ -108,10 +120,18 @@ com_cl2_E6_01_30
 Torre Caja\n\nEinmal Wolkenkratzer zum Mitnehmen, bitte!
 com_cl3_2x2_E4_01_30
 Empire State Building\n\nDer Zutritt zur Dachterasse mit fantastischem Ausblick über die Stadt ist kostenlos. Die Liftfahrt nach oben ist es hingegen nicht.
+com_cl3_2x2_E5_01_12
+Parkhaus\n\nEin Modell dieses Parkhauses wird als Spielzeug vertrieben, steht jedoch regelmäßig in der Kritik, der Jugend ein falsches Bild davon zu vermitteln, wie einfach es sei, einen freien Parkplatz in der Innenstadt zu ergattern.
+com_cl3_2x2_E5_01_15
+Parkhaus\n\nEin Modell dieses Parkhauses wird als Spielzeug vertrieben, steht jedoch regelmäßig in der Kritik, der Jugend ein falsches Bild davon zu vermitteln, wie einfach es sei, einen freien Parkplatz in der Innenstadt zu ergattern.
 com_cl3_2x2_E5_04_30
 Friho-Büroturm\n\nDieses stattliche Gebäude beherbergt unter anderem das namensgebende Familienunternehmen. Wie das Logo schon andeutet, handelt es sich dabei um einen Operator der Vendingbranche. Heiß- Kalt- und Snackautomaten werden in anderen Unternehmen aufgestellt und regelmäßig befüllt, gereinigt sowie die Kasse geleert. 
 com_cl3_2x2_E6_01_12
 Kommerzielles Gebäude\n\nStets auf Recycling bedacht entschied Bauherrin Petra Rosenleitner, das Dach mit aus alten Mülleimern gefertigten Schindeln zu decken. Keine Sorge, sie wurden ordentlich geschrubbt und sind beinahe geruchsarm.
+com_cl3_2x2_E6_02_12
+Kommerzielles Gebäude\n\nKaro's Kartenspielverein trifft sich hier jeden zweiten und vierten Donnerstag im Monat auf eine gemütliche Partie Canaster.
+com_cl3_2x2_E6_03_12
+Kommerzielles Gebäude\n\n Dani van Sahne konnte einen der begehrten Büroräume für seine Detektei ergattern, spezialisiert auf das aufspüren versteckter Menüpunkte (wie dem geheimen Hangmenü) und Referenzen in Übersetzungstexten. 
 com_cl3_C1_E3_01_12
 Schöneberg\n\nGanz oben Rechts wohnt der kleine Andi, der eines Tages Lokführer werden möchte. Wahrscheinlich schaut er gerade verträumt aus dem Fenster - schau, er winkt dir sogar zu!
 com_cl3_C1_E3_02_12
@@ -388,6 +408,10 @@ com_cl5_E3_03_23
 Big H\n\nDas 'H' steht für Hospital. Die Vertikalität des Gebäudes und die damit verbundenen Treppen stellten sich jedoch alsbald als Patientenungeeignet heraus, und die Aufzüge konnten nicht die geforderte Menge Transportbetten bewältigen. Inzwischen wird der Bau für vorübergehende Aufenthalte vermietet.
 com_cl5_E3_04_23
 Big H\n\nDas 'H' steht für Hartholz. Ursprünglich sollte es sich um ein Hartholzhaus handeln, doch aus Preisgründen wurde es nun doch aus Grünspan errichtet. 
+com_cl5_E3_05_09
+Stifthaus
+obj_com_cl5_E3_05_09_details
+Adalbert Stift gilt als Erfinder des nach ihm benannten Schreibgerätes. Sein Geburtshaus wurde teilweise zu einem Museum rund um sein brisantes Leben umgewandelt.
 com_cl5_E3_05_23
 Big H\n\nDas 'H' steht für Haltestelle. Die Nutzung des Gebäudes als Haltestelle wurde jedoch stark erschwert dadurch, dass keine Fahrzeuge darin oder daran halten. Inzwischen wurde es auf andere Art zu einer temporären Aufhaltestelle für Reisende.
 com_cl5_E4_01_15
@@ -683,15 +707,15 @@ Einfaches Dock
 #______________________________building - harbour_______________________________
 #______________________________building - harbour_______________________________
 dock_container
-Pier mit Containern
+Anlegestelle mit Containern
 dock_empty
-Pier
+Anlegestelle
 dock_goods01
-Pier
+Anlegestelle
 dock_long
-Pier
+Anlegestelle
 dock_long_2
-Pier
+Anlegestelle
 dock_long_pax
 Pier für Passagierschifffahrt
 dock_pax
@@ -965,7 +989,7 @@ Industriegebäude\n\nDer Architekt reichte den Plan für ein Wohnhaus ein, doch ni
 ind_cl5_E5_01_03
 Lagerhalle\n\nIn dieser Lagerhalle werden unverkaufte Exemplare anderer Transportsimulationen aufbewahrt, welche Simutrans einfach nicht das Wasser reichen können.
 ind_cl5_E5_01_09
-Screw It\n\nMit diesem Titel schreibt sich der Gebäudewitz von selbst und bedarf keiner weiteren Erläuterung
+Autohaus\n\nWäre der öffentliche Nah- und Fernverkehr nicht, würde der Inhaber dieses Autohauses wahrhaft in Geld schwimmen.
 ind_cl5_E5_01_12
 Autohaus\n\nWäre der öffentliche Nah- und Fernverkehr nicht, würde der Inhaber dieses Autohauses wahrhaft in Geld schwimmen.
 ind_cl5_E5_02_03
@@ -1046,6 +1070,8 @@ res_cl0_E0_01_01
 Nomadenzelt\n\nHadji Halef Omar ist möglicherweise ein seltsamer Name für ein Kamel, aber Zeltbewohner Paul empfand es als 'angemessen',
 res_cl1_C1_E0_01_12
 Wohnhaus\n\nSakura versucht, eine Teezeremonie abzuhalten, hatte aber leider nur noch Eistee im Kühlschrank.
+res_cl1_E0_01_12
+Kleinstpalast\n\nTakeshis Sommerresidenz ist zwar klein, aber das Säulenarrengement bietet adäquaten Ersatz für den Drachensee, und mit etwas Seife eingeschmiert sind die Stufen angemessen rutschig.
 res_cl1_E5_01_09
 Modernes Wohnhaus
 res_cl1_E5_01_12
@@ -1070,10 +1096,22 @@ res_cl3_E4_04_07
 Rosengasse
 res_cl3_E4_08_12
 Cedelia
+res_cl4_C1_E4_01_12
+Plattenbau\n\n Ein Block, wie es ihn hundertfach gibt. Aber in der Wohnung mit den roten Vorhängen lebt Herr Koslowski. Seine Leidenschaft? Modelleisenbahnen. Angeblich hat er ein ganzes Zimmer für eine maßstabsgetreue Nachbildung seiner Heimatstadt reserviert. Jeden Sonntag drehen dort die Züge ihre Kreise, begleitet vom leisen Klicken der Schalter.
+res_cl4_C1_E4_02_12
+Plattenbau\n\n Im dritten Stock des Hauses mit den wohnt Oma Kuchel. Sie ist bekannt für ihre Sammelleidenschaft: Überall in ihrer Wohnung stehen alte Kaffeemühlen. Manchmal hört man sie auf dem Flohmarkt feilschen, um ein besonders seltenes Exemplar zu ergattern ? und abends mahlt sie ihren Kaffee immer noch per Hand.
+res_cl4_C1_E4_03_12
+Plattenbau\n\n Im zweiten Stock veranstalten die Zwillinge Mara und Jens alle drei Wochen ein spannendes Krimidinner. Die Polizei stand auch schon mal vor der Tür, weil eine Nachbarin dachte, der laute Schrei sei echt gewesen.
+res_cl4_C1_E4_04_12
+Plattenbau\n\nHerr Schwarzbart, der im Erdgeschoss wohnt, behauptet, er sei der letzte Nachfahre einer Adelsfamilie. Neulich wurde er dabei gesehen, wie er im Keller alte Fundstücke sortierte ? darunter ein zerbrochenes Weinglas und ein rostiger Kerzenleuchter.
+res_cl4_E0_01_03
+Wohnhaus \n\nIn diesem trauten Eigenheim wohnt und wirkt Frau Köster, die sich ihren Traum eines eigenen Ateliers erfüllt hat. Ihre ?Kunstwerke?, meistens aus Kronkorken und Joghurtdeckeln, stehen hin und wieder im Vorgarten und sorgen für Diskussionen in der Nachbarschaft.
 res_cl4_E0_01_05
 Billige Mietskaserne\n\nEin undichtes Dach, von den Wänden bröckelnder Putz und eine defekte Heizung sind wohl die Gründe für die eingestellten Mietzahlungen.
 res_cl4_E0_01_07
 Pension "Zum alten Racker"\n\nIn diesem Haus, das übrigens schon 1890 von Karl Auer erbaut wurde, schenkt Tim Buktu ohne Pause Bier ein, putzt Böden und teilt Zimmer zu - er ist der einzige Angestellte...
+res_cl4_E0_02_03
+Wohnhaus \n\n Hier wohnt Irene mit ihren 7 Katzen und einer besonders fiesen Maus, welche die Kater Karlo und Tom ordentlich auf Trab hält. Silvester hingegen hat eher Augen für den nachbarlichen Kanarienvogel, während Garfield schläft und von Lasagne träumt und der kleine Oliver die Welt erkundet, Figaro mit Holzpuppen spielt und Felix sich in der Handtasche versteckt.
 res_cl4_E0_04_03
 Einzelhaus
 res_cl4_E0_07_07
@@ -1586,6 +1624,8 @@ carpet_weaver
 Teppichknüpfer
 carseller
 Autohaus
+cellardoor
+Kellerdirektverkauf
 cheese_import
 Käseimporteur
 cherryontop
@@ -1594,6 +1634,8 @@ ciderpress
 Mostpresse
 circuitboards_assembly
 Platinenbestücker
+factory_circuitboards_assembly_details
+Früher wurden Leiterplatten von Teams unterbezahlter Elektroingenieure gebaut. Natürlich wurden diese inzwischen alle durch automatisierte Fließbänder ersetzt, die von Teams unterbezahlter Elektroingenieure gebaut wurden.
 cleopatra
 Schönheitssalon
 factory_cleopatra_details
@@ -2004,7 +2046,7 @@ copper
 Kupfer
 dairy
 Käserei
-factory_dairy_details
+obj_dairy_details
 <title>Käserei</title>\n<p>Dieser Produzent von Milchprodukten behauptet, den weltgrößten Käse geschaffen zu haben. Er sei jede Nacht zu sehen.</p>
 deceased
 Verstorbene
@@ -3162,6 +3204,56 @@ Shanghai_Y10
 Passagierflugzeug Y10
 Su100_95_Superjet
 Passagierflugzeug 100-95 "Superjet"
+Tupolev_ANT(PS)35
+Tupolew ANT-35
+Tupolev_ANT14_Prawda
+Tupolew ANT-14 "Prawda"
+Tupolev_ANT20_Maxim_Gorki
+Tupolew ANT-20 "Maxim Gorki"
+Tupolev_ANT9
+Tupolew ANT-9
+Tupolev_Tu134_Crusty
+Tupolew Tu-144 "Crusty"
+Tupolev_Tu144
+Tupolew Tu-144
+Tupolev_Tu144S
+Tupolew Tu-144S
+Tupolev_Tu154
+Tupolew Tu-154
+Tupolev_Tu204-100
+Tupolew Tu-204-100
+Tupolev_Tu204-214(Tu214)
+Tupolew Tu-204-214
+Tupolev_Tu204-400(SM)
+Tupolew Tu-204-400
+Tupolev_Tu244
+Tupolew Tu-244
+Tupolev_Tu324
+Tupolew Tu-324
+Tupolev_Tu334-100
+Tupolew Tu-334-100
+Tupolev_Tu334(354)-200
+Tupolew Tu-334-200
+Tupolev_Tu414
+Tupolew Tu-414
+Tupolew_Tu-104_Camel
+Tupolew Tu-104 "Camel"
+Tupolew_Tu-110_Herd
+Tupolew Tu-110 "Herd"
+Tupolew_Tu-124_Cookpot
+Tupolew Tu-124 "Cookpot"
+Tupolew_Tu114_Cleat
+Tupolew Tu-114 "Cleat"
+Tupolew_Tu444
+Tupolew Tu-444
+Tupolew_Tu70_Cart
+Tupolew Tu-70 "Cart"
+Xian_MA60
+Xian MA-60
+Xian_MA700
+Xian MA-700
+Xian_Y7_Yunshuji
+Xian Y7 "Yunshuji"
 #____________________________vehicle - maglev_track_____________________________
 #____________________________vehicle - maglev_track_____________________________
 SNL_Arkon(end)
@@ -3184,6 +3276,8 @@ A_2-MVG
 U-Bahnwagen MVG Typ A (Stromschiene)
 Adler
 Dampflokomotive "Adler"
+obj_Adler_details
+Die Adler ist die erste Lokomotive der Region.
 Adler_Klasse1
 Adler | Personenwagen (1.Klasse)
 Adler_Klasse2
@@ -3230,8 +3324,10 @@ B4ueh
 Schnellzugwagen B4üh "Schürzenwagen"
 B514
 Doppelstocktriebwagenzug B514 "Desiro Double Deck" | Mittelwagen
+Battery_1907_AT_1
+Batterietriebwagen AT 1
 Bayrische_D_VIII
-Dampflokomotive VIII
+Dampflokomotive D VIII
 BBO_1670
 Elektrolokomotive Rh. 1670
 Begleitwagen_RalPin
@@ -3278,6 +3374,8 @@ BR_03_10_Tender
 Schnellzugdampflokomotive BR 03.10 (Tender)
 BR_05
 Schnellzugdampflokomotive BR 05
+obj_BR_05_details
+Schnellste Dampflokomotive der Region! Auf einer Versuchsfahrt konnten 200km/h erreicht werden.
 BR_05_Tender
 Schnellzugdampflokomotive BR 05 (Tender)
 BR_101
@@ -3352,6 +3450,8 @@ BR_189
 Mehrsystemlokomotive BR 189 "Eurosprinter"
 BR_19
 Dampfmotorveruchslokomotive BR 19.10
+obj_BR_19_details
+Der Antrieb erfolgt hier nicht wie sonst bei Dampflokomotiven üblich über Pleulstangen, sondern durch sogenannte Dampfmotoren direkt an der Achse. Dabei wird jede Achse einzeln angetrieben. Aus Platzgründen befinden sich diese Dampfmotoren außerhalb des Rahmens. Es ist ein Dampfmotor je Achse vorhanden, immer abwechselnd.
 BR_19_Tender
 Dampfmotorveruchslokomotive BR 19.10 (Tender)
 BR_193
@@ -3364,10 +3464,16 @@ BR_223
 Diesellokomotive BR 223 "Eurorunner"
 BR_245
 Diesellokomotive BR 245 "TRAXX ME"
+obj_BR_245_details
+Anstelle eines großen Dieselmotors, kommen hier vier kleinere Dieselmotoren zum Einsatz, wie sie sonst in Baumaschinen verwendet werden.
 BR_245_nahsh
 Diesellokomotive BR 245 "TRAXX ME"
+obj_BR_245_nahsh_details
+Anstelle eines großen Dieselmotors, kommen hier vier kleinere Dieselmotoren zum Einsatz, wie sie sonst in Baumaschinen verwendet werden.
 BR_245_nahsh_2
 Diesellokomotive BR 245 "TRAXX ME"
+obj_BR_245_nahsh_2_details
+Anstelle eines großen Dieselmotors, kommen hier vier kleinere Dieselmotoren zum Einsatz, wie sie sonst in Baumaschinen verwendet werden.
 BR_246_LNVG
 Diesellokomotive BR 246 "TRAXX 2E"
 BR_246_TRAXX
@@ -3376,20 +3482,36 @@ BR_285
 Diesellokomotive BR 285 "TRAXX 2"
 BR_402_1
 Intercityexpress "ICE" | Triebkopf
+obj_BR_402_1_details
+Triebkopf des ersten Hochgeschwindigkeitszuges der Region.
 BR_402_1_CH-CH
 Intercityexpress "ICE" | Triebkopf
+obj_BR_402_1_CH-CH_details
+Triebkopf des ersten Hochgeschwindigkeitszuges der Region. Hier in einer Spezialausführung mit mehreren Stromabnehmern, wobei der vordere Stromabnehmer gehoben ist.
 BR_402_1_CH-D
 Intercityexpress "ICE" | Triebkopf
+obj_BR_402_1_CH-D_details
+Triebkopf des ersten Hochgeschwindigkeitszuges der Region. Hier in einer Spezialausführung mit mehreren Stromabnehmern, wobei der hintere Stromabnehmer gehoben ist.
 BR_402_1_Klimaschuetzer
 Intercityexpress "ICE" "Klimaschützer" | Triebkopf
+obj_BR_402_1_Klimaschuetzer_details
+Triebkopf des ersten Hochgeschwindigkeitszuges der Region.
 BR_402_2
 Intercityexpress "ICE" | Triebkopf
+obj_BR_402_2_details
+Triebkopf des ersten Hochgeschwindigkeitszuges der Region.
 BR_402_2_CH-CH
 Intercityexpress "ICE" | Triebkopf
+obj_BR_402_2_CH-CH_details
+Triebkopf des ersten Hochgeschwindigkeitszuges der Region. Hier in einer Spezialausführung mit mehreren Stromabnehmern, wobei der vordere Stromabnehmer gehoben ist.
 BR_402_2_CH-D
 Intercityexpress "ICE" | Triebkopf
+obj_BR_402_2_CH-D_details
+Triebkopf des ersten Hochgeschwindigkeitszuges der Region. Hier in einer Spezialausführung mit mehreren Stromabnehmern, wobei der hintere Stromabnehmer gehoben ist.
 BR_402_2_Klimaschuetzer
 Intercityexpress "ICE" "Klimaschützer" | Triebkopf
+obj_BR_402_2_Klimaschuetzer_details
+Triebkopf des ersten Hochgeschwindigkeitszuges der Region.
 BR_403_1
 Intercityexpress Triebzug "ICE 3" | Steuerwagen
 BR_403_2
@@ -3710,6 +3832,10 @@ Car_Container_1991_Sgss_703
 Containerwagen Sgss 703
 Car_Container_2014_Sggnss_80
 Containerwagen Sggnss 80
+Car_Container_2024_Sggnss_80_XL
+Containerwagen Sggnss 80 XL
+Car_Cooled_Goods_1879_KPEV_Blatt_8
+Kühlgutwagen nach Musterblatt 8
 Car_Defined_Mass_0010
 Messwagen mit einem Gewicht von genau 10t
 Car_Defined_Mass_0050
@@ -3724,6 +3850,20 @@ Car_Empty_1902_Schnellzug_BadStB_02
 Gepäckwagen Pwi3-02
 Car_Empty_1906_Schnellzug_BadStB_06
 Gepäckwagen Pwi4-06
+Car_Empty_1953_Umbauwagen_BD3yg
+Gepäckwagen BD3yg "Umbauwagen"
+Car_Empty_1953_Umbauwagen_BD3yg_hinten
+Gepäckwagen BD3yg "Umbauwagen" kurzgekuppelt
+Car_Empty_1953_Umbauwagen_BD3yg_vorne
+Gepäckwagen BD3yg "Umbauwagen" kurzgekuppelt
+Car_Empty_1955_Umbauwagen_BD4yg
+Gepäckwagen BD4yg "Umbauwagen"
+Car_Milk_1883_Blatt_IIb2
+Milchwagen nach Musterblatt IIb2
+Car_Milk_1913_Verbandsbauart
+Milchkesselwagen nach Verbandsbauart
+Car_Oil_1913_Verbandsbauart
+Ölkesselwagen nach Verbandsbauart
 Car_Piece_Goods_1879_Blatt_8
 Stückgutwagen nach Musterblatt 8
 Car_Piece_Goods_1890_Blatt_IIb1
@@ -3746,6 +3886,14 @@ Car_Piece_Goods_1934_Gattung_GGhs
 Stückgutwagen GGhs
 Car_Piece_Goods_1937_Gattung_Gs
 Stückgutwagen Gs
+Car_Piece_Goods_1953_Umbauwagen_BD3yg
+Mit Stückgut beladener Gepäckwagen BD3yg "Umbauwagen"
+Car_Piece_Goods_1953_Umbauwagen_BD3yg_hinten
+Mit Stückgut beladener Gepäckwagen BD3yg "Umbauwagen" kurzgekuppelt
+Car_Piece_Goods_1953_Umbauwagen_BD3yg_vorne
+Mit Stückgut beladener Gepäckwagen BD3yg "Umbauwagen" kurzgekuppelt
+Car_Piece_Goods_1955_Umbauwagen_BD4yg
+Mit Stückgut beladener Gepäckwagen BD4yg "Umbauwagen"
 Car_Piece_Goods_1960_Tbis_870
 Stückgutwagen Tbis 870
 Car_Piece_Goods_1975_Hbis_295
@@ -3762,6 +3910,14 @@ Car_Post_1906_Schnellzug_BadStB_06
 Mit Post beladener Gepäckwagen Pw4-06
 Car_Post_1928
 Postwagen PwPost4ü-28
+Car_Post_1953_Umbauwagen_BD3yg
+Mit Post beladener Gepäckwagen BD3yg "Umbauwagen"
+Car_Post_1953_Umbauwagen_BD3yg_hinten
+Mit Post beladener Gepäckwagen BD3yg "Umbauwagen" kurzgekuppelt
+Car_Post_1953_Umbauwagen_BD3yg_vorne
+Mit Post beladener Gepäckwagen BD3yg "Umbauwagen" kurzgekuppelt
+Car_Post_1955_Umbauwagen_BD4yg
+Mit Post beladener Gepäckwagen BD4yg "Umbauwagen"
 Car_Post_2002_ADbmpsz73_1
 Postwagen ADbmpsz 73
 Car_Post_2002_ADbmpsz73_Red_2
@@ -3770,6 +3926,8 @@ Car_Rolls_1913_A4
 Rolllenwagen nach Musterblatt A4
 Car_Rolls_1990_Rhoss_645
 Rollenwagen Rhoss 645
+Car_Wood_1913_KPEV_Blatt_A4
+Holztransportwagen nach Musterblatt A4
 CarTransportationCar
 Autotransportwagen
 CarTransportationCar_1920
@@ -4352,6 +4510,10 @@ Eilzugwagenwagen_1950_1
 Eilzugwagen
 Eilzugwagenwagen_1950_2
 Eilzugpostwagen
+Electric_1903_S-Bahn_501_Lichterfelde
+Stadtschnellbahn Nr. 501
+Electric_1903_S-Bahn_502_Lichterfelde
+Stadtschnellbahn Nr. 502
 Electric_1907_S-Bahn_551_Altona
 Stadtschnellbahn Nr. 551
 Electric_1907_S-Bahn_552_Altona
@@ -4362,6 +4524,10 @@ Electric_1920_S-Bahn_507_Breslau_control_cab_back
 Steuerwagen für Stadtschnellbahn Nr. 507
 Electric_1920_S-Bahn_507_Breslau_control_cab_front
 Steuerwagen für Stadtschnellbahn Nr. 507
+Electric_1920_S-Bahn_Breslau_control_cab_C3_els_P1_14_23_back
+Steuerwagen BC4 elS Pr 12/31 für Stadtschnellbahn Nr. 507
+Electric_1920_S-Bahn_Breslau_control_cab_C3_els_P1_14_23_front
+Steuerwagen BC4 elS Pr 12/31 für Stadtschnellbahn Nr. 507
 Electric_1924_S-Bahn_1589a_Altona
 Stadtschnellbahn Nr. 1589a
 Electric_1924_S-Bahn_1589b_Altona
@@ -4376,6 +4542,22 @@ Electric_1928_ET_41
 Elektrotriebwagen ET 41
 Electric_1933_ET_41
 Elektrotriebwagen ET 41
+Electric_1989_Re450
+Elektrolokomotive Re 450 "DPZ"
+Electric_1989_Re450_AB
+Doppelstockwagen "DPZ" AB
+Electric_1989_Re450_AB_rev
+Doppelstockwagen "DPZ" AB
+Electric_1989_Re450_B
+Doppelstockwagen "DPZ" B
+Electric_1989_Re450_B_rev
+Doppelstockwagen "DPZ" B
+Electric_1989_Re450_Bt
+Doppelstocksteuerwagen "DPZ" Bt
+Electric_1989_Re450_Bt_rev
+Doppelstocksteuerwagen "DPZ" Bt
+Electric_1989_Re450_rev
+Elektrolokomotive Re 450 "DPZ"
 Electric_1999_RABDe_500_0
 Intercity Neigetechnikzug RABDe 500 "ICN" | Steuerwagen
 Electric_1999_RABDe_500_1
@@ -4612,10 +4794,16 @@ Holztransport_Rnoos_644
 Holzwagen Typ Rnoos 644
 Hydrogene_1997_Simutrans_Logo_0
 Wasserstoff-Intercity "Simutrans" | Triebkopf
+obj_Hydrogene_1997_Simutrans_Logo_0_details
+Eine freie Interpretation des Simutrans-Logos in einen Triebzug.
 Hydrogene_1997_Simutrans_Logo_1
 Wasserstoff-Intercity "Simutrans" | Mittelwagen
+obj_Hydrogene_1997_Simutrans_Logo_1_details
+Eine freie Interpretation des Simutrans-Logos in einen Triebzug.
 Hydrogene_1997_Simutrans_Logo_2
 Wasserstoff-Intercity "Simutrans" | Triebkopf
+obj_Hydrogene_1997_Simutrans_Logo_2_details
+Eine freie Interpretation des Simutrans-Logos in einen Triebzug.
 I_1-BVG
 U-Bahnwagen BVG Typ I | Steuerwagen (Stromschiene)
 I_2-BVG
@@ -4718,48 +4906,90 @@ LM_Class_172-2
 Dieseltriebwagen Class 172 "Turbostar" | Mittelwagen
 LM_Class_172-3
 Dieseltriebwagen Class 172 "Turbostar" | Steuerwagen mit Durchgang
+Lokomotive_1902_Badische_II_d
+Schnellzugdampflokomotive IId in Glanzblechausführung
+Lokomotive_1902_Badische_II_d_Regelanstrich
+Schnellzugdampflokomotive IId
 Lokomotive_1914_Badische_VI_c
 Dampflokomotive VIc in Glanzblechausführung
+obj_Lokomotive_1914_Badische_VI_c_details
+Eine große und leistungsstarke Tenderlokomotive. Der Kessel und die Zylindern sind mit edlen Hochglanzblech verkleidet.
 Lokomotive_1914_Badische_VI_c_Regelanstrich
 Dampflokomotive VIc
+obj_Lokomotive_1914_Badische_VI_c_Regelanstrich_details
+Eine große und leistungsstarke Tenderlokomotive.
 Lokomotive_1917_Badische_G12
 Güterzugdampflokomotive G12
+obj_Lokomotive_1917_Badische_G12_details
+Die G12 gilt als erste regionweit einheitlich beschaffte Lokomotive. Es wurden um die 1500 Lokomotiven gebaut.
 Lokomotive_1917_Badische_G12_Glanzblech
 Güterzugdampflokomotive G12 in Glanzblechausführung
+obj_Lokomotive_1917_Badische_G12_Glanzblech_details
+Die G12 gilt als erste regionweit einheitlich beschaffte Lokomotive. Es wurden um die 1500 Lokomotiven gebaut. Der Kessel und die Zylindern sind mit edlen Hochglanzblech verkleidet.
 Lokomotive_1917_Preussische_G12
 Güterzugdampflokomotive G12
+obj_Lokomotive_1917_Preussische_G12_details
+Die G12 gilt als erste regionweit einheitlich beschaffte Lokomotive. Es wurden um die 1500 Lokomotiven gebaut.
 Lokomotive_1917_Saechsische_XIII_H
 Güterzugdampflokomotive XIII H
+obj_Lokomotive_1917_Saechsische_XIII_H_details
+Die G12 gilt als erste regionweit einheitlich beschaffte Lokomotive. Es wurden um die 1500 Lokomotiven gebaut.
 Lokomotive_1917_Wuerttembergische_G12
 Güterzugdampflokomotive G12
+obj_Lokomotive_1917_Wuerttembergische_G12_details
+Die G12 gilt als erste regionweit einheitlich beschaffte Lokomotive. Es wurden um die 1500 Lokomotiven gebaut.
 Lokomotive_1918_Badische_IV_h
 Schnellzugdampflokomotive IVh
+obj_Lokomotive_1918_Badische_IV_h_details
+Eine große und leistungsstarke vierzylinder Schnellzug-Dampflokomotive mit der Achsfolge 2'C1' (Pacific).
 Lokomotive_1918_Badische_IV_h_Glanzblech
 Schnellzugdampflokomotive IVh in Glanzblechausführung
+obj_Lokomotive_1918_Badische_IV_h_Glanzblech_details
+Eine große und leistungsstarke vierzylinder Schnellzug-Dampflokomotive mit der Achsfolge 2'C1' (Pacific). Ein großer Teil der Maschine ist mit edlen Hochglanzblech verkleidet.
 Lokomotive_1918_Badische_VI_c
 Dampflokomotive VIc in Glanzblechausführung
+obj_Lokomotive_1918_Badische_VI_c_details
+Eine große und leistungsstarke Tenderlokomotive. Der Kessel und die Zylindern sind mit edlen Hochglanzblech verkleidet. Auf Zierlinien wird verzichetet.
 Lokomotive_1918_Badische_VI_c_Regelanstrich
 Dampflokomotive VIc
+obj_Lokomotive_1918_Badische_VI_c_Regelanstrich_details
+Eine große und leistungsstarke Tenderlokomotive. Auf Zierlinien wird verzichetet.
 Lokomotive_1920_BR_18_3
 Schnellzugdampflokomotive BR 18.3
+obj_Lokomotive_1920_BR_18_3_details
+Eine große und leistungsstarke vierzylinder Schnellzug-Dampflokomotive mit der Achsfolge 2'C'? (Pacific). Die Maschine wurde von 'IV h' auf 'BR 18.3' umgezeichnet.
 Lokomotive_1920_BR_58_2
 Güterzugdampflokomotive BR 58.2
+obj_Lokomotive_1920_BR_58_2_details
+Die G12 gilt als erste regionweit einheitlich beschaffte Lokomotive. Es wurden um die 1500 Lokomotiven gebaut. Die Maschine wurde von 'G12' auf 'BR 58.2' umgezeichnet.
 Lokomotive_1920_BR_75_4
 Dampflokomotive BR 75.4
+obj_Lokomotive_1920_BR_75_4_details
+Eine große und leistungsstarke Tenderlokomotive. Die Maschine wurde von 'VI c' auf 'BR 75.4' umgezeichnet.
 Lokomotive_1925_BR_58_2
 Güterzugdampflokomotive BR 58.2
+obj_Lokomotive_1925_BR_58_2_details
+Die G12 gilt als erste regionweit einheitlich beschaffte Lokomotive. Es wurden um die 1500 Lokomotiven gebaut. Die Maschine wurde von 'G12' auf 'BR 58.2' umgezeichnet.
 Lokomotive_1925_BR_75_4
 Dampflokomotive BR 75.4
+obj_Lokomotive_1925_BR_75_4_details
+Eine große und leistungsstarke Tenderlokomotive. Die Maschine wurde von 'VI c' auf 'BR 75.4' umgezeichnet.
 Lokomotive_1928_BR_18_3
 Schnellzugdampflokomotive BR 18.3
+obj_Lokomotive_1928_BR_18_3_details
+Eine große und leistungsstarke vierzylinder Schnellzug-Dampflokomotive mit der Achsfolge 2'C1' (Pacific). Die Maschine wurde von 'IV h' auf 'BR 18.3' umgezeichnet. Bei Versuchsfahrten wurde festgestellt, dass die Laufruhe auch bei höheren Geschwindigkeiten zufriedenstellend ist. Dementsprechend wurde die zulässige Höchstgeschwindigkeit auf 140km/h erhöht. Außerdem wurden Windleitbleche angebracht.
 Lokomotive_1951_BR_18_3
 Schnellzugdampflokomotive BR 18.3
+obj_Lokomotive_1951_BR_18_3_details
+Eine große und leistungsstarke vierzylinder Schnellzug-Dampflokomotive mit der Achsfolge 2'C1' (Pacific). Die Maschine wurde von 'IV h' auf 'BR 18.3' umgezeichnet. Bei Versuchsfahrten wurde festgestellt, dass die Laufruhe auch bei höheren Geschwindigkeiten zufriedenstellend ist. Dementsprechend wurde die zulässige Höchstgeschwindigkeit auf 140km/h erhöht. Außerdem wurden Windleitbleche angebracht.
 Lokomotive_1956_BR_110
 Schnellzuglokomotive BR E 10
 Lokomotive_1956_BR_141
 Elektrolokomotive BR E 41 "Knallfrosch"
 Lokomotive_1957_BR_10
 Schnellzugdampflokomotive BR 10 "Schwarzer Schwan"
+obj_Lokomotive_1957_BR_10_details
+Letzte neugebaute Schnellzuglokomotive der Region. Trotz der für Dampflokomotiven sehr effizienten Konstruktion kann sich der Lokomotiventyp gegen die neue Konkurrenz nicht mehr durchsetzen.
 Lokomotive_1957_BR_140
 Elektrolokomotive BR E 40
 Lokomotive_1959_BR_110
@@ -4772,6 +5002,8 @@ Lokomotive_1960_BR_216_V
 Diesellokomotive BR V 160 "Lollo"
 Lokomotive_1964_BR_110_3
 Schnellzuglokomotive BR E 10.3 "Bügelfalte"
+Lokomotive_1966_Rh_2043
+Diesellokomotive Rh. 2043
 Lokomotive_1974_BR_218
 Diesellokomotive BR 218
 Lokomotive_1975_BR_110
@@ -4896,8 +5128,12 @@ Milchwagen_Track2
 Milch-Kesselwagen
 n-Wagen_ABn_703_Mintling
 Nahverkehrswagen Bn 703 "Mintling"
+obj_n-Wagen_ABn_703_Mintling_details
+Lackierter Silberling.
 n-Wagen_ABn_703_Rotling
 Nahverkehrswagen Bn 703 "Rotling"
+obj_n-Wagen_ABn_703_Rotling_details
+Lackierter Silberling.
 n-Wagen_ABn_703_Silberling
 Nahverkehrswagen Bn 703 "Silberling"
 n-Wagen_ABnr_704_Silberling
@@ -5084,6 +5320,34 @@ Passenger_Train_1935_Schnellzugwagen
 Schnellzugwagen C4ü-35
 Passenger_Train_1935_Schnellzugwagen_first_class
 Schnellzugwagen A4ü-35 | Erste Klasse
+Passenger_Train_1936_Doppelstockwagen_LBE_AB
+Doppelstocksteuerwagen AB
+Passenger_Train_1936_Doppelstockwagen_LBE_B
+Doppelstocksteuerwagen B
+Passenger_Train_1953_Umbauwagen_AB3yg
+Personenwagen AB3yg "Umbauwagen"
+Passenger_Train_1953_Umbauwagen_AB3yg_hinten
+Personenwagen AB3yg "Umbauwagen" kurzgekuppelt
+Passenger_Train_1953_Umbauwagen_AB3yg_vorne
+Personenwagen AB3yg "Umbauwagen" kurzgekuppelt
+Passenger_Train_1953_Umbauwagen_B3yg
+Personenwagen B3yg "Umbauwagen"
+Passenger_Train_1953_Umbauwagen_B3yg_hinten
+Personenwagen B3yg "Umbauwagen" kurzgekuppelt
+Passenger_Train_1953_Umbauwagen_B3yg_vorne
+Personenwagen B3yg "Umbauwagen" kurzgekuppelt
+Passenger_Train_1953_Umbauwagen_BD3yg
+Personenwagen BD3yg "Umbauwagen"
+Passenger_Train_1953_Umbauwagen_BD3yg_hinten
+Personenwagen BD3yg "Umbauwagen" kurzgekuppelt
+Passenger_Train_1953_Umbauwagen_BD3yg_vorne
+Personenwagen BD3yg "Umbauwagen" kurzgekuppelt
+Passenger_Train_1955_Umbauwagen_AB4yg
+Personenwagen AB4yg "Umbauwagen"
+Passenger_Train_1955_Umbauwagen_B4yg
+Personenwagen B4yg "Umbauwagen"
+Passenger_Train_1955_Umbauwagen_BD4yg
+Personenwagen BD4yg "Umbauwagen"
 Passenger_Train_1956_SBB_Einheitswagen
 Schnellzugwagen "Einheitswagen"
 Passenger_Train_1956_SBB_Einheitswagen_erste_Klasse
@@ -5586,6 +5850,8 @@ TEE_Wagen_1965_1
 Postwagen "TransEuropExpress"
 TEE_Wagen_1965_2
 Schnellzugwagen "TransEuropExpress" | Restaurant
+Tender_1902_2_2_T_20
+Tender 2'2 T20
 Tender_1917_3_T_20
 Tender 3 T20
 Tender_1917_3_T_20_Baden
@@ -6242,6 +6508,8 @@ PTM_Cally_Post
 PTM Sprinter
 Renault_Magnum
 Renault Magnum
+road_Bus_1895
+Omnibus
 road_bus_1932_mblo2000city1
 Stadtbus MB Lo 2000
 road_bus_1932_mblo2000city2
@@ -7050,6 +7318,8 @@ Narrowgauge_Lokomotive_1921_Ge_6_6_I
 Elektrolokomotive "Schmalspurkrokodil" Typ Ge 6/6 I
 Narrowgauge_Lokomotive_1927
 Dampflok BR 99 713
+obj_Narrowgauge_Lokomotive_1927_details
+Oh nein! Hier ist etwas schief gegangen. Flemmbrav soll gefälligst hinne machen, und die Lok fertig malen!!!
 Narrowgauge_Lokomotive_1947_Ge_4_4_I
 Elektrolokomotive Typ Ge 4/4 I
 Narrowgauge_Lokomotive_1954_BR_99
