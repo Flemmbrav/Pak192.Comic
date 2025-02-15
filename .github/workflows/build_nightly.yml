@@ -113,6 +113,7 @@ jobs:
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
           sudo apt-get -ym install subversion
+          sudo apt-get -ym install libfreetype6-dev
           svn checkout svn://servers.simutrans.org/simutrans simutrans
           sudo git clone https://github.com/simutrans/tutorial_pak192.comic ./pakset/trunk/scenario/tutorial_pak192.comic
     - name: setup
@@ -169,6 +170,7 @@ jobs:
           sudo apt-get -ym install libbz2-dev
           sudo apt-get -ym install autoconf
           sudo apt-get -ym install subversion
+          sudo apt-get -ym install libfreetype6-dev
           svn checkout svn://servers.simutrans.org/simutrans simutrans
           sudo git clone https://github.com/simutrans/tutorial_pak192.comic ./pakset/trunk/scenario/tutorial_pak192.comic
     - name: setup
@@ -227,6 +229,7 @@ jobs:
           sudo apt-get -ym install autoconf
           sudo apt-get -ym install imagemagick
           sudo apt-get -ym install subversion
+          sudo apt-get -ym install libfreetype6-dev
           svn checkout svn://servers.simutrans.org/simutrans simutrans
           sudo git clone https://github.com/simutrans/tutorial_pak192.comic ./pakset/trunk/scenario/tutorial_pak192.comic
     - name: setup
