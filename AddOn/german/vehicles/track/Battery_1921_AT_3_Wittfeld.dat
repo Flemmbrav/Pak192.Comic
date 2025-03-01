@@ -1,11 +1,12 @@
 obj=vehicle
-name=Battery_1907_AT_3_Wittfeld_vorne
+name=Battery_1921_AT_3_Wittfeld_vorne
 # Preußischer AT 3 Bauart Wittfeld
 # 3te Klasse
 copyright=Flemmbrav
-intro_year=1907
+intro_year=1921
 intro_month=3
-retire_year=1922
+build_year=1907
+retire_year=1934
 retire_month=0
 freight=Passagiere
 # 46 x 3. class
@@ -28,22 +29,23 @@ length=6
 waytype=narrowgauge_track
 loading_time=4580
 #constraint[prev][0]=none
-constraint[next][0]=Battery_1907_AT_3_Wittfeld_hinten
-constraint[next][1]=Battery_1907_AT_3_Wittfeld_mitte
+constraint[next][0]=Battery_1921_AT_3_Wittfeld_hinten
+constraint[next][1]=Battery_1921_AT_3_Wittfeld_mitte
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Battery_1907_AT_3_Wittfeld.0.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Battery_1921_AT_3_Wittfeld.0.<$0>
 
 
 ----
 
 obj=vehicle
-name=Battery_1907_AT_3_Wittfeld_mitte
+name=Battery_1921_AT_3_Wittfeld_mitte
 # Preußischer AT 3 Bauart Wittfeld
 # 4te Klasse
 copyright=Flemmbrav
-intro_year=1913
+build_year=1913
+intro_year=1921
 intro_month=3
-retire_year=1922
+retire_year=1934
 retire_month=0
 freight=Passagiere
 # estimated
@@ -67,22 +69,23 @@ gear=150
 length=6
 waytype=narrowgauge_track
 loading_time=4580
-constraint[prev][0]=Battery_1907_AT_3_Wittfeld_vorne
-constraint[next][0]=Battery_1907_AT_3_Wittfeld_hinten
+constraint[prev][0]=Battery_1921_AT_3_Wittfeld_vorne
+constraint[next][0]=Battery_1921_AT_3_Wittfeld_hinten
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Battery_1907_AT_3_Wittfeld.2.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Battery_1921_AT_3_Wittfeld.2.<$0>
 
 
 ----
 
 obj=vehicle
-name=Battery_1907_AT_3_Wittfeld_hinten
+name=Battery_1921_AT_3_Wittfeld_hinten
 # Preußischer AT 3 Bauart Wittfeld
 # 4te Klasse
 copyright=Flemmbrav
-intro_year=1907
+build_year=1907
+intro_year=1921
 intro_month=3
-retire_year=1922
+retire_year=1934
 retire_month=0
 freight=Passagiere
 # 36 x 4. class seating
@@ -105,8 +108,8 @@ gear=150
 length=6
 waytype=narrowgauge_track
 loading_time=4580
-constraint[prev][0]=Battery_1907_AT_3_Wittfeld_vorne
-constraint[prev][1]=Battery_1907_AT_3_Wittfeld_mitte
+constraint[prev][0]=Battery_1921_AT_3_Wittfeld_vorne
+constraint[prev][1]=Battery_1921_AT_3_Wittfeld_mitte
 #constraint[next][0]=none
 
-EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Battery_1907_AT_3_Wittfeld.1.<$0>
+EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Battery_1921_AT_3_Wittfeld.1.<$0>
