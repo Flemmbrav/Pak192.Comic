@@ -1,0 +1,86 @@
+obj=vehicle
+name=Passenger_Train_1897_Durchgangswagen_pr_Ci_97
+# pr Ci 97 Essen
+# https://www.museumseisenbahn-minden.de/wagen/
+copyright=Flemmbrav
+intro_year=1897
+intro_month=3
+retire_year=1915
+retire_month=0
+freight=Passagiere
+# guessed
+#  0 x 1. class
+#  0 x 2. class
+# 40 x 3. class
+# 40 total
+payload=40
+cost=5037648
+runningcost=45
+# guessed: Schnellbremse, keine Westinghouse-Bremse!
+# weigth taken from gr 107
+weight=13
+# 
+# guessed
+speed=60
+
+# guessed
+# LÜP 9.860mm
+length=5
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.0.1
+EmptyImage[E]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.0.0
+EmptyImage[SE]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.0.4
+EmptyImage[SW]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.0.7
+EmptyImage[N]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.0.3
+EmptyImage[W]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.0.2
+EmptyImage[NW]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.0.6
+EmptyImage[NE]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.0.5
+
+---
+
+obj=vehicle
+name=Passenger_Train_1897_Durchgangswagen_pr_BCi_97
+# pr BCi 97 Essen
+# https://www.museumseisenbahn-minden.de/wagen/
+copyright=Flemmbrav
+intro_year=1897
+intro_month=3
+retire_year=1915
+retire_month=0
+freight=Passagiere
+# guessed
+#  0 x 1. class
+#  8 x 2. class
+# 30 x 3. class
+# 38 total
+payload=38
+cost=5037648
+runningcost=45
+# guessed: Schnellbremse, keine Westinghouse-Bremse!
+# weigth taken from gr 107
+weight=13
+#
+# guessed
+speed=60
+
+# guessed
+# LÜP 9.860mm
+length=5
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.1.1
+EmptyImage[E]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.1.0
+EmptyImage[SE]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.1.4
+EmptyImage[SW]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.1.7
+EmptyImage[N]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.1.3
+EmptyImage[W]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.1.2
+EmptyImage[NW]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.1.6
+EmptyImage[NE]=./image/Passenger_Train_1897_Durchgangswagen_pr_Ci_97.1.5
+
+---
+
