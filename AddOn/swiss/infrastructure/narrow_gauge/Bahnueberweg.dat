@@ -1,0 +1,11 @@
+obj=roadsign
+name=narrow_gauge_Bahnueberweg_gepflastert
+copyright=Flemmbrav
+cost=750
+waytype=track
+icon=> ./images/signals/Bahnueberweg_gepflastert.0.1
+cursor=./images/signals/Bahnueberweg_gepflastert.0.2
+Image[0]=./images/signals/Bahnueberweg_gepflastert.1.2
+Image[1]=./images/signals/Bahnueberweg_gepflastert.2.2
+Image[2]=./images/signals/Bahnueberweg_gepflastert.2.1
+Image[3]=./images/signals/Bahnueberweg_gepflastert.1.1
