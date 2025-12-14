@@ -1,0 +1,34 @@
+obj=vehicle
+name=Car_Coal_1941_Gattung_Ommru
+# DRG Gattung Ommru, geschweißt
+# https://de.wikipedia.org/wiki/G%C3%BCterwagen_der_Deutschen_Reichsbahn#Offene_G%C3%BCterwagen_f%C3%BCr_mehr_als_20_t_Ladegewicht:_Omm_Linz_und_Ommu_Villach
+# https://www.bimmelbahn24.de/produkt/1gla10-dingler-03-01-spur-1-gueterwagen-ommru-villach-der-drg-nem-ovp-in-kommission/
+copyright=Flemmbrav
+intro_year=1941
+intro_month=3
+retire_year=1980
+retire_month=3
+freight=coal
+payload=24
+cost=50376
+runningcost=45
+# weigth estimated
+weight=9
+#
+speed=65
+length=4
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+freightimagetype[0]=coal
+freightimagetype[1]=ore
+freightimagetype[2]=sand
+freightimagetype[3]=gravel
+freightimagetype[4]=salt
+freightimagetype[5]=limestone
+freightimagetype[6]=plastics
+freightimagetype[7]=copper
+
+EmptyImage[S,W,SE,SW,N,E,NW,NE]=./image/Car_Coal_1941_Gattung_Ommru.0.<$0>
+FreightImage[0-7][S,W,SE,SW,N,E,NW,NE]=./image/Car_Coal_1941_Gattung_Ommru.<$0+1>.<$1>
