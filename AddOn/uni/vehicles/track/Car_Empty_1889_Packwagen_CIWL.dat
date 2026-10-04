@@ -1,0 +1,33 @@
+obj=vehicle
+name=Car_Post_1889_Packagen_CIWL
+# CIWL Teak coach. There are many, and I could not find every single aspect of one from 1889, but wanted them to be available for Orient Express Duty.
+# This is the dining car
+copyright=Flemmbrav
+intro_year=1889
+intro_month=3
+retire_year=1930
+retire_month=0
+freight=Passagiere
+payload=0
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=28
+# thge car 1647 weigths 38,5 t
+speed=100
+length=9
+# thge car 1647 has a LÜP of 19740 mm
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Car_Post_1889_CIWL_Packwagen.0.1
+EmptyImage[E]=./image/Car_Post_1889_CIWL_Packwagen.0.0
+EmptyImage[SE]=./image/Car_Post_1889_CIWL_Packwagen.0.4
+EmptyImage[SW]=./image/Car_Post_1889_CIWL_Packwagen.0.7
+EmptyImage[N]=./image/Car_Post_1889_CIWL_Packwagen.0.3
+EmptyImage[W]=./image/Car_Post_1889_CIWL_Packwagen.0.2
+EmptyImage[NW]=./image/Car_Post_1889_CIWL_Packwagen.0.6
+EmptyImage[NE]=./image/Car_Post_1889_CIWL_Packwagen.0.5
+
+---
