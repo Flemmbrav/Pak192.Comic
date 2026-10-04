@@ -1,0 +1,68 @@
+obj=vehicle
+name=Passenger_Train_1889_Speisewagen_CIWL
+# CIWL Teak coach. There are many, and I could not find every single aspect of one from 1889, but wanted them to be available for Orient Express Duty.
+# This is the dining car
+copyright=Flemmbrav
+intro_year=1889
+intro_month=3
+retire_year=1930
+retire_month=0
+freight=Passagiere
+# thge car 1647 weigths has 40 seats
+payload=40
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=38
+# thge car 1647 weigths 38,5 t
+speed=100
+length=9
+# thge car 1647 has a LÜP of 19740 mm
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.0.1
+EmptyImage[E]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.0.0
+EmptyImage[SE]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.0.4
+EmptyImage[SW]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.0.7
+EmptyImage[N]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.0.3
+EmptyImage[W]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.0.2
+EmptyImage[NW]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.0.6
+EmptyImage[NE]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.0.5
+
+---
+obj=vehicle
+name=Passenger_Train_1889_Schlafwagen_CIWL
+# CIWL Teak coach. There are many, and I could not find every single aspect of one from 1889, but wanted them to be available for Orient Express Duty.
+# This is the sleeper coach
+copyright=Flemmbrav
+intro_year=1889
+intro_month=3
+retire_year=1930
+retire_month=0
+freight=Passagiere
+# "Die ab 1908 eingeführten Schlafwagen der Type R (für „Règle“) wurden mit 16 oder 18 Betten gebaut." ~ https://de.wikipedia.org/wiki/CIWL-Teakholzwagen
+payload=16
+cost=5037648
+runningcost=45
+# weigth estimated
+weight=30
+#
+speed=100
+length=9
+# "Je nach Bauart unterschieden sich die einzelnen Baureihen in den Dimensionen, der auf der Pariser Weltausstellung 1900 gezeigte Schlafwagen 680 von Ringhoffer besaß eine Länge über Puffer von 18.500 mm" ~ https://de.wikipedia.org/wiki/CIWL-Teakholzwagen
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.1.1
+EmptyImage[E]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.1.0
+EmptyImage[SE]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.1.4
+EmptyImage[SW]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.1.7
+EmptyImage[N]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.1.3
+EmptyImage[W]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.1.2
+EmptyImage[NW]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.1.6
+EmptyImage[NE]=./image/Passenger_Train_1889_Speise-Schlafwagen_CIWL.1.5
+
+---
