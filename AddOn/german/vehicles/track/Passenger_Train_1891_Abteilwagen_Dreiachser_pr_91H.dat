@@ -10,6 +10,7 @@
 # Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
 # Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
 # Preuszischer_Bremser_und_Abteilwagen
+# Car_Post_1889_Blatt_I_4
 
 obj=vehicle
 name=Passenger_Train_1891_Dreiachser_AB3_pr_91
@@ -29,7 +30,7 @@ cost=5037648
 runningcost=45
 # ungebremst
 # weigth estimated
-weight=24
+weight=20
 # 
 speed=80
 # LÜP 13.400mm
@@ -45,6 +46,7 @@ constraint[next][4]=Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
 constraint[next][5]=Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
 constraint[next][6]=Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
 constraint[next][7]=Preuszischer_Bremser_und_Abteilwagen
+constraint[next][8]=Car_Post_1889_Blatt_I_4
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.1.<$0>
 
@@ -67,7 +69,7 @@ cost=5037648
 runningcost=45
 # ungebremst
 # weigth estimated
-weight=26
+weight=22
 # 
 speed=80
 # LÜP 13.400mm
@@ -98,7 +100,7 @@ cost=5037648
 runningcost=45
 # ungebremst
 # weigth estimated
-weight=24
+weight=20
 # 
 speed=80
 # LÜP 13.400mm
@@ -114,6 +116,7 @@ constraint[next][4]=Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
 constraint[next][5]=Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
 constraint[next][6]=Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
 constraint[next][7]=Preuszischer_Bremser_und_Abteilwagen
+constraint[next][8]=Car_Post_1889_Blatt_I_4
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.3.<$0>
 
@@ -135,7 +138,7 @@ cost=5037648
 runningcost=45
 # ungebremst
 # weigth estimated
-weight=26
+weight=22
 # 
 speed=80
 # LÜP 13.400mm
@@ -166,7 +169,7 @@ cost=5037648
 runningcost=45
 # ungebremst
 # weigth estimated
-weight=24
+weight=20
 # 
 speed=80
 # LÜP 13.400mm
@@ -182,6 +185,7 @@ constraint[next][4]=Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
 constraint[next][5]=Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
 constraint[next][6]=Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
 constraint[next][7]=Preuszischer_Bremser_und_Abteilwagen
+constraint[next][8]=Car_Post_1889_Blatt_I_4
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.5.<$0>
 
@@ -203,7 +207,7 @@ cost=5037648
 runningcost=45
 # ungebremst
 # weigth estimated
-weight=26
+weight=22
 # 
 speed=80
 # LÜP 13.400mm
@@ -234,7 +238,7 @@ cost=5037648
 runningcost=45
 # ungebremst
 # weigth estimated
-weight=24
+weight=20
 # 
 speed=80
 # LÜP 13.400mm
@@ -250,6 +254,7 @@ constraint[next][4]=Passenger_Train_1894_Abteilwagen_pr_94-98_first_class
 constraint[next][5]=Passenger_Train_1894_Abteilwagen_pr_94-98_mixed_class
 constraint[next][6]=Passenger_Train_1894_Abteilwagen_pr_94-98_second_class
 constraint[next][7]=Preuszischer_Bremser_und_Abteilwagen
+constraint[next][8]=Car_Post_1889_Blatt_I_4
 
 EmptyImage[E,S,W,N,SE,NE,NW,SW]=./image/Passenger_Train_1891_Abteilwagen_pr_91H.7.<$0>
 
@@ -271,7 +276,7 @@ cost=5037648
 runningcost=45
 # ungebremst
 # weigth estimated
-weight=26
+weight=22
 # 
 speed=80
 # LÜP 13.400mm
