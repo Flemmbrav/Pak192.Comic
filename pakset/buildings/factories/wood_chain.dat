@@ -3,6 +3,7 @@ name=woodcutter_alpine
 copyright=Leartin
 Location=forest
 climates=rocky
+intro_year=1800
 DistributionWeight=90
 MapColor=150
 #-----
@@ -36,6 +37,7 @@ name=woodcutter_east
 copyright=Leartin
 Location=forest
 climates=tundra
+intro_year=1800
 DistributionWeight=90
 MapColor=150
 #-----
@@ -69,6 +71,7 @@ name=woodcutter_west
 copyright=Leartin
 Location=forest
 climates=temperate
+intro_year=1800
 DistributionWeight=90
 MapColor=150
 #-----
@@ -102,6 +105,7 @@ name=woodcutter_medi
 copyright=Leartin
 Location=forest
 climates=mediterran 
+intro_year=1800
 DistributionWeight=90
 MapColor=150
 #-----
@@ -215,6 +219,7 @@ obj=factory
 name=sawmill
 copyright=Leartin
 Location=land
+intro_year=1900
 DistributionWeight=90
 MapColor=150
 #-----
@@ -246,6 +251,8 @@ name=furniture
 copyright=Leartin
 Location=city
 #climates=rocky
+intro_year=1860
+# intro year estimated guess!
 DistributionWeight=90
 MapColor=150
 #-----

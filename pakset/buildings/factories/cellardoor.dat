@@ -2,7 +2,8 @@
 Obj=factory
 Name=cellardoor
 copyright=cy087, Leartin
-intro_year=1975
+intro_year=1800
+#intro_year=1975
 intro_month=1
 # --- Auto build parameters
 location=Land

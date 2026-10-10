@@ -2,7 +2,8 @@ Obj=factory
 Name=salt_mine
 copyright=Leartin
 location=land
-intro_year=1900
+intro_year=1850
+#intro_year=1900
 DistributionWeight=30
 MapColor=215
 #-----
@@ -149,6 +150,7 @@ Obj=factory
 Name=comicbookstore
 copyright=Leartin
 location=city
+intro_year=1900
 DistributionWeight=30
 MapColor=99
 #-----
@@ -210,6 +212,7 @@ Obj=factory
 Name=paintshop
 copyright=Leartin
 location=city
+intro_year=1900
 DistributionWeight=30
 MapColor=99
 #-----
