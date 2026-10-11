@@ -1,0 +1,78 @@
+obj=vehicle
+name=Passenger_Train_1892_AB4ü_Pr_92_first_second_class
+# AB4ü Pr 92
+copyright=Flemmbrav
+intro_year=1892
+intro_month=3
+retire_year=1923
+retire_month=0
+freight=Passagiere
+# https://sachsen.museum-digital.de/singleimage?imagenr=21689#map=2.95/1131.56/791.58/0
+# https://de.wikipedia.org/wiki/Schnellzugwagen#Die_ersten_D-Zug-Wagen
+
+
+# amount of seats estimated
+payload=36
+cost=5037648
+runningcost=458
+# Westinghouse-Bremse, Schnellbremse
+# weigth estimated
+weight=30
+# 
+speed=100
+# LÜP ca 17.000mm
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1892_AB4ü_Pr_92.0.1
+EmptyImage[E]=./image/Passenger_Train_1892_AB4ü_Pr_92.0.0
+EmptyImage[SE]=./image/Passenger_Train_1892_AB4ü_Pr_92.0.4
+EmptyImage[SW]=./image/Passenger_Train_1892_AB4ü_Pr_92.0.7
+EmptyImage[N]=./image/Passenger_Train_1892_AB4ü_Pr_92.0.3
+EmptyImage[W]=./image/Passenger_Train_1892_AB4ü_Pr_92.0.2
+EmptyImage[NW]=./image/Passenger_Train_1892_AB4ü_Pr_92.0.6
+EmptyImage[NE]=./image/Passenger_Train_1892_AB4ü_Pr_92.0.5
+
+---
+
+obj=vehicle
+name=Passenger_Train_1894_C4ü_Pr_94_third_class
+# C4ü Pr 94
+copyright=Flemmbrav
+intro_year=1894
+intro_month=3
+retire_year=1923
+retire_month=0
+freight=Passagiere
+# https://sachsen.museum-digital.de/singleimage?imagenr=21689#map=2.95/1131.56/791.58/0
+# https://de.wikipedia.org/wiki/Schnellzugwagen#Die_ersten_D-Zug-Wagen
+
+
+# amount of seats estimated
+payload=48
+cost=5037648
+runningcost=458
+# Westinghouse-Bremse, Schnellbremse
+# weigth estimated
+weight=30
+#
+speed=100
+# LÜP ca 17.000mm
+length=8
+waytype=narrowgauge_track
+loading_time=4580
+constraint[prev][0]=any
+
+EmptyImage[S]=./image/Passenger_Train_1892_AB4ü_Pr_92.1.1
+EmptyImage[E]=./image/Passenger_Train_1892_AB4ü_Pr_92.1.0
+EmptyImage[SE]=./image/Passenger_Train_1892_AB4ü_Pr_92.1.4
+EmptyImage[SW]=./image/Passenger_Train_1892_AB4ü_Pr_92.1.7
+EmptyImage[N]=./image/Passenger_Train_1892_AB4ü_Pr_92.1.3
+EmptyImage[W]=./image/Passenger_Train_1892_AB4ü_Pr_92.1.2
+EmptyImage[NW]=./image/Passenger_Train_1892_AB4ü_Pr_92.1.6
+EmptyImage[NE]=./image/Passenger_Train_1892_AB4ü_Pr_92.1.5
+
+---
+
